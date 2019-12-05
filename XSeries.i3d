@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
-<i3D name="S Series" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+<i3D name="X Series" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
   <Asset>
     <Export program="GIANTS Editor 64bit" version="8.1.0"/>
   </Asset>
@@ -11,46 +11,46 @@
     <File fileId="42" filename="$data/shaders/mirrorShader.xml"/>
     <File fileId="33" filename="$data/shaders/numberShader.xml"/>
     <File fileId="5" filename="$data/shaders/vehicleShader.xml"/>
-    <File fileId="9" filename="$data/shared/assets/assetLibraryDecals_diffuse.png"/>
-    <File fileId="10" filename="$data/shared/assets/assetLibraryDecals_normal.png"/>
-    <File fileId="34" filename="$data/shared/assets/dashboardSymbols_diffuse.png"/>
-    <File fileId="12" filename="$data/shared/clearPlastic_diffuse.png"/>
-    <File fileId="16" filename="$data/shared/connectionHoses/hosesPipes_specular.png"/>
-    <File fileId="15" filename="$data/shared/default_normal.png"/>
-    <File fileId="11" filename="$data/shared/default_specular.png"/>
-    <File fileId="8" filename="$data/shared/detailArray_diffuse.png"/>
-    <File fileId="7" filename="$data/shared/detailArray_normal.png"/>
-    <File fileId="6" filename="$data/shared/detailArray_specular.png"/>
-    <File fileId="32" filename="$data/shared/numbers_diffuse.png"/>
-    <File fileId="49" filename="$data/shared/window_diffuse.png"/>
-    <File fileId="50" filename="$data/shared/window_specular.png"/>
-    <File fileId="24" filename="$data/vehicles/valtra/NSeries/NSeriesMudExtension_specular.png"/>
-    <File fileId="25" filename="$data/vehicles/valtra/NSeriesDisplay.png"/>
-    <File fileId="45" filename="$data/vehicles/valtra/SSeries/valtraS374Board_diffuse.png"/>
-    <File fileId="46" filename="$data/vehicles/valtra/SSeries/valtraS374Board_normal.png"/>
-    <File fileId="30" filename="$data/vehicles/valtra/SSeries/valtraS374DecalsLogo_diffuse.png"/>
-    <File fileId="31" filename="$data/vehicles/valtra/SSeries/valtraS374DecalsLogo_normal.png"/>
-    <File fileId="26" filename="$data/vehicles/valtra/SSeries/valtraS374Decals_diffuse.png"/>
-    <File fileId="43" filename="$data/vehicles/valtra/SSeries/valtraS374Interior_normal.png"/>
-    <File fileId="44" filename="$data/vehicles/valtra/SSeries/valtraS374Interior_specular.png"/>
-    <File fileId="13" filename="$data/vehicles/valtra/SSeries/valtraS374Lights_normal.png"/>
-    <File fileId="14" filename="$data/vehicles/valtra/SSeries/valtraS374Lights_specular.png"/>
-    <File fileId="36" filename="$data/vehicles/valtra/SSeries/valtraS374_big_bar_diffuse.png"/>
-    <File fileId="37" filename="$data/vehicles/valtra/SSeries/valtraS374_big_bar_emissive.png"/>
-    <File fileId="3" filename="$data/vehicles/valtra/SSeries/valtraS374_normal.png"/>
-    <File fileId="38" filename="$data/vehicles/valtra/SSeries/valtraS374_small_bar_diffuse.png"/>
-    <File fileId="39" filename="$data/vehicles/valtra/SSeries/valtraS374_small_bar_emissive.png"/>
-    <File fileId="4" filename="$data/vehicles/valtra/SSeries/valtraS374_specular.png"/>
-    <File fileId="48" filename="$data/vehicles/valtra/SSeries/valtraSLogo_specular.png"/>
-    <File fileId="47" filename="$data/vehicles/valtra/valtraLogo_normal.png"/>
-    <File fileId="28" filename="$data/vehicles/valtra/valtraSeatPart_normal.png"/>
-    <File fileId="29" filename="$data/vehicles/valtra/valtraSeatPart_specular.png"/>
-    <File fileId="22" filename="$data/vehicles/valtra/valtraSmartTouchDecals_diffuse.png"/>
-    <File fileId="20" filename="$data/vehicles/valtra/valtraSmartTouch_normal.png"/>
-    <File fileId="21" filename="$data/vehicles/valtra/valtraSmartTouch_specular.png"/>
-    <File fileId="17" filename="$data/vehicles/valtra/valtra_engines.png"/>
-    <File fileId="18" filename="$data/vehicles/valtra/valtra_engines_normal.png"/>
-    <File fileId="19" filename="$data/vehicles/valtra/valtra_engines_specular.png"/>
+    <File fileId="9" filename="$data/shared/assets/assetLibraryDecals_diffuse.dds"/>
+    <File fileId="10" filename="$data/shared/assets/assetLibraryDecals_normal.dds"/>
+    <File fileId="34" filename="$data/shared/assets/dashboardSymbols_diffuse.dds"/>
+    <File fileId="12" filename="$data/shared/clearPlastic_diffuse.dds"/>
+    <File fileId="16" filename="$data/shared/connectionHoses/hosesPipes_specular.dds"/>
+    <File fileId="15" filename="$data/shared/default_normal.dds"/>
+    <File fileId="11" filename="$data/shared/default_specular.dds"/>
+    <File fileId="8" filename="$data/shared/detailArray_diffuse.dds"/>
+    <File fileId="7" filename="$data/shared/detailArray_normal.dds"/>
+    <File fileId="6" filename="$data/shared/detailArray_specular.dds"/>
+    <File fileId="32" filename="$data/shared/numbers_diffuse.dds"/>
+    <File fileId="49" filename="$data/shared/window_diffuse.dds"/>
+    <File fileId="50" filename="$data/shared/window_specular.dds"/>
+    <File fileId="24" filename="$data/vehicles/valtra/NSeries/NSeriesMudExtension_specular.dds"/>
+    <File fileId="25" filename="$data/vehicles/valtra/NSeriesDisplay.dds"/>
+    <File fileId="45" filename="$data/vehicles/valtra/SSeries/valtraS374Board_diffuse.dds"/>
+    <File fileId="46" filename="$data/vehicles/valtra/SSeries/valtraS374Board_normal.dds"/>
+    <File fileId="30" filename="$data/vehicles/valtra/SSeries/valtraS374DecalsLogo_diffuse.dds"/>
+    <File fileId="31" filename="$data/vehicles/valtra/SSeries/valtraS374DecalsLogo_normal.dds"/>
+    <File fileId="26" filename="$data/vehicles/valtra/SSeries/valtraS374Decals_diffuse.dds"/>
+    <File fileId="43" filename="$data/vehicles/valtra/SSeries/valtraS374Interior_normal.dds"/>
+    <File fileId="44" filename="$data/vehicles/valtra/SSeries/valtraS374Interior_specular.dds"/>
+    <File fileId="13" filename="$data/vehicles/valtra/SSeries/valtraS374Lights_normal.dds"/>
+    <File fileId="14" filename="$data/vehicles/valtra/SSeries/valtraS374Lights_specular.dds"/>
+    <File fileId="36" filename="$data/vehicles/valtra/SSeries/valtraS374_big_bar_diffuse.dds"/>
+    <File fileId="37" filename="$data/vehicles/valtra/SSeries/valtraS374_big_bar_emissive.dds"/>
+    <File fileId="3" filename="$data/vehicles/valtra/SSeries/valtraS374_normal.dds"/>
+    <File fileId="38" filename="$data/vehicles/valtra/SSeries/valtraS374_small_bar_diffuse.dds"/>
+    <File fileId="39" filename="$data/vehicles/valtra/SSeries/valtraS374_small_bar_emissive.dds"/>
+    <File fileId="4" filename="$data/vehicles/valtra/SSeries/valtraS374_specular.dds"/>
+    <File fileId="48" filename="$data/vehicles/valtra/SSeries/valtraSLogo_specular.dds"/>
+    <File fileId="47" filename="$data/vehicles/valtra/valtraLogo_normal.dds"/>
+    <File fileId="28" filename="$data/vehicles/valtra/valtraSeatPart_normal.dds"/>
+    <File fileId="29" filename="$data/vehicles/valtra/valtraSeatPart_specular.dds"/>
+    <File fileId="22" filename="$data/vehicles/valtra/valtraSmartTouchDecals_diffuse.dds"/>
+    <File fileId="20" filename="$data/vehicles/valtra/valtraSmartTouch_normal.dds"/>
+    <File fileId="21" filename="$data/vehicles/valtra/valtraSmartTouch_specular.dds"/>
+    <File fileId="17" filename="$data/vehicles/valtra/valtra_engines.dds"/>
+    <File fileId="18" filename="$data/vehicles/valtra/valtra_engines_normal.dds"/>
+    <File fileId="19" filename="$data/vehicles/valtra/valtra_engines_specular.dds"/>
   </Files>
 
 
@@ -69,7 +69,7 @@
       <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
       <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
     </Material>
-    <Material name="valtraS374_big_bar_mat" materialId="21" customShaderId="23" customShaderVariation="SLIDER">
+    <Material name="valtraX500_big_bar_mat" materialId="21" customShaderId="23" customShaderVariation="SLIDER">
       <Texture fileId="36"/>
       <Normalmap fileId="15"/>
       <Glossmap fileId="11"/>
@@ -113,7 +113,7 @@
       <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
       <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
     </Material>
-    <Material name="valtraS374Lights_mat1" materialId="19" alphaBlending="true" customShaderId="5" customShaderVariation="staticLight">
+    <Material name="valtraX500Lights_mat1" materialId="19" alphaBlending="true" customShaderId="5" customShaderVariation="staticLight">
       <Texture fileId="12"/>
       <Normalmap fileId="13"/>
       <Glossmap fileId="14"/>
@@ -144,7 +144,7 @@
       <CustomParameter name="RDT" value="1 1 0 0"/>
       <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
     </Material>
-    <Material name="valtraS374DecalsLogo_mat" materialId="30" alphaBlending="true" customShaderId="5" customShaderVariation="Decal">
+    <Material name="valtraX520DecalsLogo_mat" materialId="30" alphaBlending="true" customShaderId="5" customShaderVariation="Decal">
       <Texture fileId="30"/>
       <Normalmap fileId="31"/>
       <Glossmap fileId="11"/>
@@ -210,7 +210,7 @@
       <CustomParameter name="number" value="-1 0 0 0"/>
       <CustomParameter name="numberColor" value="0.0009 0.0021 0.0144 1"/>
     </Material>
-    <Material name="valtraS374Lights_mat" materialId="18" diffuseColor="0.498039 0.498039 0.498039 1" alphaBlending="true" customShaderId="5" customShaderVariation="staticLight">
+    <Material name="valtraX520Lights_mat" materialId="18" diffuseColor="0.498039 0.498039 0.498039 1" alphaBlending="true" customShaderId="5" customShaderVariation="staticLight">
       <Normalmap fileId="13"/>
       <Glossmap fileId="14"/>
       <CustomParameter name="RDT" value="1 1 0 0"/>
@@ -242,21 +242,21 @@
       <CustomParameter name="baseColor" value="0.5 0.5 0.5 0"/>
       <CustomParameter name="emitColor" value="1 0.3 0 0"/>
     </Material>
-    <Material name="NSeriesMudExtension_mat" materialId="26" customShaderId="23">
+    <Material name="XSeriesMudExtension_mat" materialId="26" customShaderId="23">
       <Normalmap fileId="15"/>
       <Glossmap fileId="24"/>
       <Emissivemap fileId="25"/>
       <Custommap name="mEmissiveMap" fileId="25"/>
       <CustomParameter name="lightControl" value="0.3 0 0 0"/>
     </Material>
-    <Material name="valtraS374Decals_mat2" materialId="28" alphaBlending="true" customShaderId="23">
+    <Material name="valtraX520Decals_mat2" materialId="28" alphaBlending="true" customShaderId="23">
       <Texture fileId="26"/>
       <Normalmap fileId="15"/>
       <Glossmap fileId="11"/>
       <Custommap name="mEmissiveMap" fileId="26"/>
       <CustomParameter name="lightControl" value="0.3 0 0 0"/>
     </Material>
-    <Material name="valtraS374_small_bar_mat" materialId="22" customShaderId="23" customShaderVariation="SLIDER">
+    <Material name="valtraX520_small_bar_mat" materialId="22" customShaderId="23" customShaderVariation="SLIDER">
       <Texture fileId="38"/>
       <Normalmap fileId="15"/>
       <Glossmap fileId="11"/>
@@ -264,7 +264,7 @@
       <CustomParameter name="lightControl" value="0.3 1 1 1"/>
       <CustomParameter name="sliderPos" value="1 0 1 1"/>
     </Material>
-    <Material name="valtraS374Interior_mat" materialId="7" diffuseColor="0.498039 0.498039 0.498039 1" customShaderId="5" customShaderVariation="colorMask">
+    <Material name="valtraX520Interior_mat" materialId="7" diffuseColor="0.498039 0.498039 0.498039 1" customShaderId="5" customShaderVariation="colorMask">
       <Normalmap fileId="43"/>
       <Glossmap fileId="44"/>
       <CustomParameter name="RDT" value="1 1 0 0"/>
@@ -278,7 +278,7 @@
       <CustomParameter name="colorMat6" value="0.515 0.434 0.347 1"/>
       <CustomParameter name="colorMat7" value="0.171 0.184 0.216 1"/>
     </Material>
-    <Material name="lambert1" materialId="4" diffuseColor="0.235294 0.235294 0.235294 1">
+    <Material name="Valtra_X" materialId="4" diffuseColor="0.235294 0.235294 0.235294 1">
     </Material>
     <Material name="window_mat" materialId="5" alphaBlending="true" customShaderId="5" customShaderVariation="Window">
       <Texture fileId="49"/>
@@ -287,7 +287,7 @@
       <CustomParameter name="RDT" value="1 1 0 0"/>
       <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
     </Material>
-    <Material name="valtraS374_mat" materialId="6" diffuseColor="0.498039 0.498039 0.498039 1" customShaderId="5" customShaderVariation="colorMask">
+    <Material name="valtraX520_mat" materialId="6" diffuseColor="0.498039 0.498039 0.498039 1" customShaderId="5" customShaderVariation="colorMask">
       <Normalmap fileId="3"/>
       <Glossmap fileId="4"/>
       <CustomParameter name="RDT" value="1 1 0 0"/>
@@ -301,14 +301,14 @@
       <CustomParameter name="colorMat6" value="0.06 0.06 0.06 0"/>
       <CustomParameter name="colorMat7" value="1 0.6592 0 1"/>
     </Material>
-    <Material name="valtraS374Board_mat" materialId="8" customShaderId="23">
+    <Material name="valtraX520Board_mat" materialId="8" customShaderId="23">
       <Texture fileId="45"/>
       <Normalmap fileId="46"/>
       <Glossmap fileId="11"/>
       <Custommap name="mEmissiveMap" fileId="45"/>
       <CustomParameter name="lightControl" value="0.3 0 0 0"/>
     </Material>
-    <Material name="valtraS374Decals_mat" materialId="9" alphaBlending="true" customShaderId="5" customShaderVariation="Decal">
+    <Material name="valtraX520Decals_mat" materialId="9" alphaBlending="true" customShaderId="5" customShaderVariation="Decal">
       <Texture fileId="26"/>
       <Normalmap fileId="15"/>
       <Glossmap fileId="11"/>
@@ -318,7 +318,7 @@
   </Materials>
 
 
-  <Shapes externalShapesFile="SSeries.i3d.shapes">
+  <Shapes externalShapesFile="XSeries.i3d.shapes">
   </Shapes>
 
 
