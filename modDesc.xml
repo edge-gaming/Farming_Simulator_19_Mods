@@ -38,16 +38,7 @@ Working width: 6m
 Max. working speed: 17 kph
 Required power: 60 hp
 
-- Supports "Seasons" and "Courseplay Six".
-
-Changelog 1.0.0.0:
-- Added 6m Option
-- Changed it to a single item with size options
-- Added l10n for names++ and a few extra language choises
-Changelog 1.5.0.0:
-- Updated the mod with more languages.
-
-Upcomming - Remaking the whole 3d object]]></en>
+- Supports "Seasons" and "Courseplay Six".]]></en>
 
 <de><![CDATA[Walzen zum entfernen von (falsch) angelegten Feldern. Benutzerfreundlichen 3-Punkt-Befestigung.
 
@@ -236,8 +227,17 @@ Lista zmian 1.5.0.0:
         </type>
     </vehicleTypes>-->
     <l10n>
-        <text name="DARK GREY" value="0.037 0.037 0.037 1" color="0.037 0.037 0.037 1" material="0"/>
-		<text name="ITRUNNER" value="0.037 0.037 0.037 1" color="0.0382 0.0369 0.0482 1" material="8"/>
+        <text name="DARK GREY" value="0.037 0.037 0.037 1" color="0.037 0.037 0.037 1" material="0">
+			<en>DARK GREY</en>
+			<de>DUNKELGRAU</de>
+			<fr>GRIS FONCÉ</fr>
+            <es>GRIS OSCURO</es>
+            <ru>ТЕМНО-СЕРЫЙ</ru>
+            <pl>CIEMNO SZARY</pl>
+		</text>
+		<text name="ITRUNNER" value="0.037 0.037 0.037 1" color="0.0382 0.0369 0.0482 1" material="8">
+			<en>IT RUNNER</en>
+		</text>
         <text name="typeDesc_XSeries">
 			<en>Rollers can remove fields as well as cleaning an area for wheel tracs</en>
 			<de>Walzen können Felder entfernen und einen Bereich für Radspuren reinigen</de>
@@ -300,5 +300,7 @@ Lista zmian 1.5.0.0:
 	</brands>
     <credits><![CDATA[
 ## Translations
-- Castiga]]></credits>
+- Castiga
+## Contributors
+- EDGE Gaming, Castiga]]></credits>
 </modDesc>
