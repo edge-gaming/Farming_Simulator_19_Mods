@@ -12,7 +12,7 @@
             <function>$l10n_function_reverseDriveControl</function>
         </functions>
         <image>store_XSeries.dds</image>
-        <price>292000</price>
+        <price>346000</price>
         <lifetime>600</lifetime>
         <rotation>0</rotation>
         <brand>VALTRA</brand>
@@ -23,7 +23,7 @@
         <filename>XSeries.i3d</filename>
         <size width="3.3" length="6"/>
         <components>
-            <component centerOfMass="0 0.9 0" solverIterationCount="10" mass="8500"/>
+            <component centerOfMass="0 0.9 0" solverIterationCount="10" mass="9000"/>
         </components>
         <schemaOverlay attacherJointPosition="0 0">
             <default name="DEFAULT_VEHICLE"/>
@@ -226,7 +226,7 @@
                 <objectChange node="x548_decal" visibilityActive="false"/>
                 <objectChange node="x568_decal" visibilityActive="false"/>
             </motorConfiguration>
-            <motorConfiguration name="x508" hp="508" price="25000">
+            <motorConfiguration name="x508" hp="508" price="14600">
                 <motor torqueScale="1.691"/>
                 <objectChange node="x488_decal" visibilityActive="false"/>
                 <objectChange node="x508_decal" visibilityActive="true"/>
@@ -234,7 +234,7 @@
                 <objectChange node="x548_decal" visibilityActive="false"/>
                 <objectChange node="x568_decal" visibilityActive="false"/>
             </motorConfiguration>
-            <motorConfiguration name="x528" hp="528" price="25000">
+            <motorConfiguration name="x528" hp="528" price="28800">
                 <motor torqueScale="1.829"/>
                 <objectChange node="x488_decal" visibilityActive="false"/>
                 <objectChange node="x508_decal" visibilityActive="false"/>
@@ -242,7 +242,7 @@
                 <objectChange node="x548_decal" visibilityActive="false"/>
                 <objectChange node="x568_decal" visibilityActive="false"/>
             </motorConfiguration>
-            <motorConfiguration name="x548" hp="548" price="25000">
+            <motorConfiguration name="x548" hp="548" price="43000">
                 <motor torqueScale="1.991"/>
                 <objectChange node="x488_decal" visibilityActive="false"/>
                 <objectChange node="x508_decal" visibilityActive="false"/>
@@ -250,13 +250,29 @@
                 <objectChange node="x548_decal" visibilityActive="true"/>
                 <objectChange node="x568_decal" visibilityActive="false"/>
             </motorConfiguration>
-            <motorConfiguration name="x568" hp="568" price="25000">
+            <motorConfiguration name="x568" hp="568" price="57200">
                 <motor torqueScale="2.124"/>
                 <objectChange node="x488_decal" visibilityActive="false"/>
                 <objectChange node="x508_decal" visibilityActive="false"/>
                 <objectChange node="x528_decal" visibilityActive="false"/>
                 <objectChange node="x548_decal" visibilityActive="false"/>
                 <objectChange node="x568_decal" visibilityActive="true"/>
+            </motorConfiguration>
+            <motorConfiguration name="EDGE Edition" hp="648" price="115000">
+                <motor torqueScale="2.584" minRpm="800" maxRpm="2800" maxForwardSpeed="74" maxBackwardSpeed="22" brakeForce="12" lowBrakeForceScale="0.22">
+                    <torque normRpm="0.45" torque="0.9"/>
+                    <torque normRpm="0.5" torque="0.97"/>
+                    <torque normRpm="0.59" torque="1"/>
+                    <torque normRpm="0.72" torque="1"/>
+                    <torque normRpm="0.86" torque="0.88"/>
+                    <torque normRpm="1" torque="0.72"/>
+                </motor>
+                <objectChange node="x488_decal" visibilityActive="false"/>
+                <objectChange node="x508_decal" visibilityActive="false"/>
+                <objectChange node="x528_decal" visibilityActive="false"/>
+                <objectChange node="x548_decal" visibilityActive="false"/>
+                <objectChange node="x568_decal" visibilityActive="false"/>
+                <objectChange node="EDGE_decal" visibilityActive="true"/>
             </motorConfiguration>
         </motorConfigurations>
         <exhaustEffects>
@@ -269,7 +285,7 @@
             <dashboard displayType="NUMBER" valueType="speed" numbers="numbersSpeed" numberColor="0.1725 0.1922 0.2784 1" precision="1" groups="MOTOR_ACTIVE"/>
             <dashboard displayType="ANIMATION" valueType="motorTemperature" animName="loadingBarTemperature" minValueAnim="20" maxValueAnim="120" groups="MOTOR_ACTIVE"/>
         </dashboards>
-        <sounds externalSoundFile="$data/sounds/vehicles/engine/valtra_s/valtra_s.xml"/>
+        <sounds externalSoundFile="$data/sounds/vehicles/engine/fendt_1xxx/fendt_1xxx.xml"/>
     </motorized>
     <drivable>
         <sounds>
@@ -288,7 +304,7 @@
         <fillUnitConfigurations>
             <fillUnitConfiguration>
                 <fillUnits>
-                    <fillUnit unit="$l10n_unit_literShort" showOnHud="false" showInShop="false" fillTypes="diesel" capacity="630">
+                    <fillUnit unit="$l10n_unit_literShort" showOnHud="false" showInShop="false" fillTypes="diesel" capacity="880">
                         <dashboard displayType="ANIMATION" valueType="fillLevel" animName="loadingBarFuel" groups="MOTOR_ACTIVE"/>
                     </fillUnit>
                     <fillUnit unit="$l10n_unit_literShort" showOnHud="false" showInShop="false" fillTypes="def" capacity="60">
