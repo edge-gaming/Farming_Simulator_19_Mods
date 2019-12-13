@@ -112,6 +112,48 @@
                     <foliageBendingModifier index="2" minX="-1.55" maxX="1.55"/>
                 </wheels>
             </wheelConfiguration>
+            <wheelConfiguration name="$l10n_configuration_valueTwinWheelsNarrow" price="5000">
+                <wheels autoRotateBackSpeed="2.2" ackermannSteeringIndex="3">
+                    <wheel filename="$data/shared/wheels/trelleborg/TM600/420_85R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                        <physics rotSpeed="1" restLoad="3.3" repr="wheelFrontLeftAxis"  driveNode="wheelFrontLeftDummy"  forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="57" damper="85"/>
+                        <fender node="wheelFrontLeftFender" rotMax="23"/>
+                        <steering node="steeringBar" nodeMinTransX="0.125" nodeMaxTransX="-0.125"/>
+                        <tire isCareWheel="true" />
+                        <additionalWheel filename="$data/shared/wheels/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.2" >
+                            <connector filename="$data/shared/wheels/rims/dual002.i3d" node="0|1|0" useWidthAndDiam="true" width="28" />
+                            <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="2|2|0" scale="0.35 0.35 0.35" offset="-0.48" />
+                        </additionalWheel>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/trelleborg/TM600/420_85R34.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="3.3" repr="wheelFrontRightAxis" driveNode="wheelFrontRightDummy" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="57" damper="85"/>
+                        <fender node="wheelFrontRightFender" rotMin="-23" />
+                        <tire isCareWheel="true" />
+                        <additionalWheel filename="$data/shared/wheels/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.2" >
+                            <connector filename="$data/shared/wheels/rims/dual002.i3d" node="0|1|0" useWidthAndDiam="true" width="28" />
+                            <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="2|2|1" scale="0.35 0.35 0.35" offset="-0.48" />
+                        </additionalWheel>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/trelleborg/TM600/480_80R50.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="3.3" repr="wheelBackLeft"  forcePointRatio="0.5" initialCompression="20" suspTravel="0.25" spring="53" damper="105"/>
+                        <tire isCareWheel="true" />
+                        <additionalWheel filename="$data/shared/wheels/trelleborg/TM600/480_80R50.xml" configId="dual" offset="0.2" >
+                            <connector filename="$data/shared/wheels/rims/dual002.i3d" node="0|0|0" useWidthAndDiam="true" width="28" />
+                            <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|0" scale="0.25 0.25 0.25" offset="-0.31" />
+                        </additionalWheel>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/trelleborg/TM600/480_80R50.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="3.3" repr="wheelBackRight" forcePointRatio="0.5" initialCompression="20" suspTravel="0.25" spring="53" damper="105"/>
+                        <tire isCareWheel="true" />
+                        <additionalWheel filename="$data/shared/wheels/trelleborg/TM600/480_80R50.xml" configId="dual" offset="0.2" >
+                            <connector filename="$data/shared/wheels/rims/dual002.i3d" node="0|0|0" useWidthAndDiam="true" width="28" />
+                            <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|1" scale="0.25 0.25 0.25" offset="-0.31" />
+                        </additionalWheel>
+                    </wheel>
+                    <foliageBendingModifier index="1" minX="-1.75" maxX="1.75" />
+                    <foliageBendingModifier index="2" minX="-1.75" maxX="1.75" />
+                </wheels>
+                <size width="4.5" />
+            </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_valueTwinWheelsAll" price="10000">
                 <wheels autoRotateBackSpeed="2.2" ackermannSteeringIndex="2">
                     <wheel filename="$data/shared/wheels/trelleborg/TM800/600_65R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
