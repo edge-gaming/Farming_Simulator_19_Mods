@@ -10,6 +10,7 @@
         <functions>
             <function>$l10n_function_tractor</function>
             <function>$l10n_function_reverseDriveControl</function>
+            <function>$l10n_function_XSeries</function>
         </functions>
         <image>store_XSeries.dds</image>
         <price>346000</price>
@@ -113,7 +114,7 @@
                 </wheels>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_valueTwinWheelsNarrow" price="5000">
-                <wheels autoRotateBackSpeed="2.2" ackermannSteeringIndex="3">
+                <wheels autoRotateBackSpeed="2.2" ackermannSteeringIndex="1">
                     <wheel filename="$data/shared/wheels/trelleborg/TM600/420_85R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
                         <physics rotSpeed="1" restLoad="3.3" repr="wheelFrontLeftAxis"  driveNode="wheelFrontLeftDummy"  forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="57" damper="85"/>
                         <fender node="wheelFrontLeftFender" rotMax="23"/>
@@ -262,43 +263,48 @@
                     <torque normRpm="1" torque="0.72"/>
                 </motor>
                 <transmission minForwardGearRatio="12.3" maxForwardGearRatio="250" minBackwardGearRatio="32" maxBackwardGearRatio="250"/>
-                <objectChange node="x488_decal" visibilityActive="true"/>
-                <objectChange node="x508_decal" visibilityActive="false"/>
-                <objectChange node="x528_decal" visibilityActive="false"/>
-                <objectChange node="x548_decal" visibilityActive="false"/>
-                <objectChange node="x568_decal" visibilityActive="false"/>
+                <objectChange node="x488light_decal" visibilityActive="true"/>
+                <objectChange node="x508light_decal" visibilityActive="false"/>
+                <objectChange node="x528light_decal" visibilityActive="false"/>
+                <objectChange node="x548light_decal" visibilityActive="false"/>
+                <objectChange node="x568light_decal" visibilityActive="false"/>
+                <objectChange node="EDGElight_decal" visibilityActive="false"/>
             </motorConfiguration>
-            <motorConfiguration name="x508" hp="508" price="14600">
+            <motorConfiguration name="x508" hp="508" price="14600" weight="20">
                 <motor torqueScale="1.691"/>
-                <objectChange node="x488_decal" visibilityActive="false"/>
-                <objectChange node="x508_decal" visibilityActive="true"/>
-                <objectChange node="x528_decal" visibilityActive="false"/>
-                <objectChange node="x548_decal" visibilityActive="false"/>
-                <objectChange node="x568_decal" visibilityActive="false"/>
+                <objectChange node="x488light_decal" visibilityActive="false"/>
+                <objectChange node="x508light_decal" visibilityActive="true"/>
+                <objectChange node="x528light_decal" visibilityActive="false"/>
+                <objectChange node="x548light_decal" visibilityActive="false"/>
+                <objectChange node="x568light_decal" visibilityActive="false"/>
+                <objectChange node="EDGElight_decal" visibilityActive="false"/>
             </motorConfiguration>
             <motorConfiguration name="x528" hp="528" price="28800">
                 <motor torqueScale="1.829"/>
-                <objectChange node="x488_decal" visibilityActive="false"/>
-                <objectChange node="x508_decal" visibilityActive="false"/>
-                <objectChange node="x528_decal" visibilityActive="true"/>
-                <objectChange node="x548_decal" visibilityActive="false"/>
-                <objectChange node="x568_decal" visibilityActive="false"/>
+                <objectChange node="x488light_decal" visibilityActive="false"/>
+                <objectChange node="x508light_decal" visibilityActive="false"/>
+                <objectChange node="x528light_decal" visibilityActive="true"/>
+                <objectChange node="x548light_decal" visibilityActive="false"/>
+                <objectChange node="x568light_decal" visibilityActive="false"/>
+                <objectChange node="EDGElight_decal" visibilityActive="false"/>
             </motorConfiguration>
             <motorConfiguration name="x548" hp="548" price="43000">
                 <motor torqueScale="1.991"/>
-                <objectChange node="x488_decal" visibilityActive="false"/>
-                <objectChange node="x508_decal" visibilityActive="false"/>
-                <objectChange node="x528_decal" visibilityActive="false"/>
-                <objectChange node="x548_decal" visibilityActive="true"/>
-                <objectChange node="x568_decal" visibilityActive="false"/>
+                <objectChange node="x488light_decal" visibilityActive="false"/>
+                <objectChange node="x508light_decal" visibilityActive="false"/>
+                <objectChange node="x528light_decal" visibilityActive="false"/>
+                <objectChange node="x548light_decal" visibilityActive="true"/>
+                <objectChange node="x568light_decal" visibilityActive="false"/>
+                <objectChange node="EDGElight_decal" visibilityActive="false"/>
             </motorConfiguration>
             <motorConfiguration name="x568" hp="568" price="57200">
                 <motor torqueScale="2.124"/>
-                <objectChange node="x488_decal" visibilityActive="false"/>
-                <objectChange node="x508_decal" visibilityActive="false"/>
-                <objectChange node="x528_decal" visibilityActive="false"/>
-                <objectChange node="x548_decal" visibilityActive="false"/>
-                <objectChange node="x568_decal" visibilityActive="true"/>
+                <objectChange node="x488light_decal" visibilityActive="false"/>
+                <objectChange node="x508light_decal" visibilityActive="false"/>
+                <objectChange node="x528light_decal" visibilityActive="false"/>
+                <objectChange node="x548light_decal" visibilityActive="false"/>
+                <objectChange node="x568light_decal" visibilityActive="true"/>
+                <objectChange node="EDGElight_decal" visibilityActive="false"/>
             </motorConfiguration>
             <motorConfiguration name="EDGE Edition" hp="648" price="115000">
                 <motor torqueScale="2.584" minRpm="800" maxRpm="2800" maxForwardSpeed="74" maxBackwardSpeed="22" brakeForce="12" lowBrakeForceScale="0.22">
@@ -309,12 +315,12 @@
                     <torque normRpm="0.86" torque="0.88"/>
                     <torque normRpm="1" torque="0.72"/>
                 </motor>
-                <objectChange node="x488_decal" visibilityActive="false"/>
-                <objectChange node="x508_decal" visibilityActive="false"/>
-                <objectChange node="x528_decal" visibilityActive="false"/>
-                <objectChange node="x548_decal" visibilityActive="false"/>
-                <objectChange node="x568_decal" visibilityActive="false"/>
-                <objectChange node="EDGE_decal" visibilityActive="true"/>
+                <objectChange node="x488light_decal" visibilityActive="false"/>
+                <objectChange node="x508light_decal" visibilityActive="false"/>
+                <objectChange node="x528light_decal" visibilityActive="false"/>
+                <objectChange node="x548light_decal" visibilityActive="false"/>
+                <objectChange node="x568light_decal" visibilityActive="false"/>
+                <objectChange node="EDGElight_decal" visibilityActive="true"/>
             </motorConfiguration>
         </motorConfigurations>
         <exhaustEffects>
@@ -388,8 +394,10 @@
         </characterTargetNodeModifier>
         <mirrors>
             <mirror node="mirrorInsideDecal" prio="2"/>
-            <mirror node="mirrorLeftDecal" prio="1"/>
-            <mirror node="mirrorRightDecal" prio="1"/>
+            <mirror node="mirrorLeftDecal01" prio="1"/>
+            <mirror node="mirrorLeftDecal00" prio="1"/>
+            <mirror node="mirrorRightDecal01" prio="1"/>
+            <mirror node="mirrorRightDecal00" prio="1"/>
         </mirrors>
         <dashboards>
             <dashboard displayType="NUMBER" valueType="time" numbers="numbersTime" numberColor="0.1725 0.1922 0.2784 1" precision="2" groups="MOTOR_ACTIVE"/>
@@ -673,15 +681,88 @@
         <bendingNode minX="-1.4" maxX="1.4" minZ="-0.55" maxZ="2.3" yOffset="0.6"/>
         <bendingNode minX="-1.45" maxX="1.45" minZ="-2.65" maxZ="-0.55" yOffset="0.6"/>
     </foliageBending>
+    <vehicleTypeConfigurations title="$l10n_configuration_Fenders">
+        <vehicleTypeConfiguration name="$l10n_config_Fenders" price="0" vehicleType="tractor">
+            <objectChange node="EUconfigurationFront" visibilityActive="false"/>
+			<objectChange node="EUconfigurationBack" visibilityActive="false"/>
+			<objectChange node="trailerAttacherJointFront" translationActive="0 3.5 0.25" />
+			<objectChange node="USconfigurationBack" visibilityActive="true"/>
+        </vehicleTypeConfiguration>
+        <vehicleTypeConfiguration name="$l10n_config_PaintedFenders" price="1000" vehicleType="tractor">
+            <objectChange node="EUconfigurationFront" visibilityActive="true"/>
+			<objectChange node="EUconfigurationBack" visibilityActive="true"/>
+			<objectChange node="trailerAttacherJointFront" translationActive="0 0.841 4.024" />
+			<objectChange node="USconfigurationBack" visibilityActive="false"/>
+        </vehicleTypeConfiguration>
+        <vehicleTypeConfiguration name="$l10n_config_noFenders" price="1000" vehicleType="tractor">
+            <objectChange node="EUconfigurationFront" visibilityActive="true"/>
+			<objectChange node="EUconfigurationBack" visibilityActive="true"/>
+			<objectChange node="trailerAttacherJointFront" translationActive="0 0.841 4.024" />
+			<objectChange node="USconfigurationBack" visibilityActive="false"/>
+        </vehicleTypeConfiguration>
+    </vehicleTypeConfigurations>
+    <designConfigurations>
+        <designConfiguration name="$l10n_config_mirror">
+			<objectChange node="configuration_afs372_decal" visibilityActive="false"/>
+			<objectChange node="configurationAFS" visibilityActive="false"/>
+			<objectChange node="decalAFS" visibilityActive="false"/>
+        </designConfiguration>
+        <designConfiguration name="$l10n_config_mirrorPainted" price="650">
+			<objectChange node="configuration_afs372_decal" visibilityActive="true"/>
+			<objectChange node="configurationAFS" visibilityActive="true"/>
+			<objectChange node="decalAFS" visibilityActive="true"/>
+        </designConfiguration>
+    </designConfigurations>
     <baseMaterial>
-        <material name="valtraS374_mat" baseNode="valtra_vis">
+        <material name="valtraX520_mat" baseNode="valtra_vis">
+            <shaderParameter name="colorMat0" value="VALTRA_ORANGE1"/>
+            <shaderParameter name="colorMat1" value="VALTRA_BLUE1"/>
+        </material>
+        <material name="grid_mat" baseNode="grid_Decal">
             <shaderParameter name="colorMat0" value="VALTRA_ORANGE1"/>
             <shaderParameter name="colorMat1" value="VALTRA_BLUE1"/>
         </material>
     </baseMaterial>
     <baseMaterialConfigurations price="1500" useDefaultColors="true" defaultColorIndex="8">
-        <material name="valtraS374_mat" shaderParameter="colorMat1"/>
+        <baseMaterialConfiguration name="CHROME" color="SHARED_WHITE2" material="2"/>
+        <baseMaterialConfiguration name="ITRUNNER" color="0.0382 0.0369 0.0482 1" material="8"/>
+        <baseMaterialConfiguration name="SILVER" color="0.6456 0.6456 0.6456 1" material="8"/>
+        <baseMaterialConfiguration name="DARK GREY" color="0.037 0.037 0.037 1" material="0"/>
+        <baseMaterialConfiguration name="EDGE CHROME" color="0.9800 0.9800 0.9800 1" material="2"/>
+        <baseMaterialConfiguration name="DARK BLUE CHROME" color="0.007 0.029 0.187 1" material="2"/>
+        <baseMaterialConfiguration name="ORANGE CHROME" color="0.932 0.119 0.000 1" material="2"/>
+        <baseMaterialConfiguration name="GREEN CHROME" color="0.000 0.170 0.001 1" material="2"/>
+        <baseMaterialConfiguration name="BLUE CHROME" color="0.062 0.251 0.612 1" material="2"/>
+        <baseMaterialConfiguration name="RED CHROME" color="0.673 0.002 0.000 1" material="2"/>
+        <material name="valtraX520_mat" shaderParameter="colorMat1"/>
     </baseMaterialConfigurations>
+    <baseMaterialConfigurations title="$l10n_config_grid" price="500" useDefaultColors="true" defaultColorIndex="8">
+        <baseMaterialConfiguration name="CHROME" color="SHARED_WHITE2" material="2"/>
+        <baseMaterialConfiguration name="ITRUNNER" color="0.0382 0.0369 0.0482 1" material="8"/>
+        <baseMaterialConfiguration name="SILVER" color="0.6456 0.6456 0.6456 1" material="8"/>
+        <baseMaterialConfiguration name="DARK GREY" color="0.037 0.037 0.037 1" material="0"/>
+        <baseMaterialConfiguration name="EDGE CHROME" color="0.9800 0.9800 0.9800 1" material="2"/>
+        <baseMaterialConfiguration name="DARK BLUE CHROME" color="0.007 0.029 0.187 1" material="2"/>
+        <baseMaterialConfiguration name="ORANGE CHROME" color="0.932 0.119 0.000 1" material="2"/>
+        <baseMaterialConfiguration name="GREEN CHROME" color="0.000 0.170 0.001 1" material="2"/>
+        <baseMaterialConfiguration name="BLUE CHROME" color="0.062 0.251 0.612 1" material="2"/>
+        <baseMaterialConfiguration name="RED CHROME" color="0.673 0.002 0.000 1" material="2"/>
+        <material name="valtraX520_mat" shaderParameter="colorMat3"/>
+    </baseMaterialConfigurations>
+    <designMaterialConfigurations price="1000" useDefaultColors="true" defaultColorIndex="0">
+        <designMaterialConfiguration name="CHROME" color="SHARED_WHITE2" material="2"/>
+        <designMaterialConfiguration name="ITRUNNER" color="0.0382 0.0369 0.0482 1" material="8"/>
+		<designMaterialConfiguration name="SILVER" color="0.6456 0.6456 0.6456 1" material="8"/>
+		<designMaterialConfiguration name="DARK GREY" color="0.037 0.037 0.037 1" material="0"/>
+		<designMaterialConfiguration name="EDGE CHROME" color="0.9800 0.9800 0.9800 1" material="2"/>
+		<designMaterialConfiguration name="DARK BLUE CHROME" color="0.007 0.029 0.187 1" material="2"/>
+		<designMaterialConfiguration name="ORANGE CHROME" color="0.932 0.119 0.000 1" material="2"/>
+		<designMaterialConfiguration name="GREEN CHROME" color="0.000 0.170 0.001 1" material="2"/>
+		<designMaterialConfiguration name="BLUE CHROME" color="0.062 0.251 0.612 1" material="2"/>
+		<designMaterialConfiguration name="RED CHROME" color="0.673 0.002 0.000 1" material="2"/>
+        <material name="valtraX520_mat" shaderParameter="colorMat0"/>
+        <material name="grid_mat" shaderParameter="colorMat0"/>
+    </designMaterialConfigurations>
     <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
     <washable dirtDuration="90" washDuration="1" workMultiplier="3" fieldMultiplier="2"/>
     <i3dMappings>
@@ -799,8 +880,19 @@
         <i3dMapping id="toolAttacherLowerLinkArmLeft" node="0>0|7|4"/>
         <i3dMapping id="toolAttacherLowerLinkArmRight" node="0>0|7|5"/>
         <i3dMapping id="hydraulicMainPipesRef" node="0>0|7|6"/>
-        <i3dMapping id="s324_decal" node="0>0|8|0"/>
-        <i3dMapping id="s374_decal" node="0>0|8|1"/>
+        <i3dMapping id="x568light_decal" node="0>0|8|0"/>
+        <i3dMapping id="x548light_decal" node="0>0|8|1"/>
+        <i3dMapping id="x528light_decal" node="0>0|8|2"/>
+        <i3dMapping id="x508light_decal" node="0>0|8|3"/>
+        <i3dMapping id="x488light_decal" node="0>0|8|4"/>
+        <i3dMapping id="EDGElight_decal" node="0>0|8|5"/>
+        <i3dMapping id="EDGE_edition00" node="0>0|8|6"/>
+        <i3dMapping id="EDGE_edition01" node="0>0|8|7"/>
+        <i3dMapping id="x488_decal" node="0>0|8|8"/>
+        <i3dMapping id="x508_decal" node="0>0|8|9"/>
+        <i3dMapping id="x528_decal" node="0>0|8|10"/>
+        <i3dMapping id="x548_decal" node="0>0|8|11"/>
+        <i3dMapping id="x568_decal" node="0>0|8|12"/>
         <i3dMapping id="cabinRot" node="0>0|9"/>
         <i3dMapping id="seatPosition" node="0>0|9|0"/>
         <i3dMapping id="seatRot" node="0>0|9|0|0"/>
@@ -870,9 +962,20 @@
         <i3dMapping id="defDecal" node="0>0|9|6|6|9"/>
         <i3dMapping id="fuelDecal" node="0>0|9|6|6|10"/>
         <i3dMapping id="mirrorInsideDecal" node="0>0|9|7|0"/>
-        <i3dMapping id="mirrorLeftDecal" node="0>0|9|7|1"/>
-        <i3dMapping id="mirrorRightDecal" node="0>0|9|7|2"/>
+        <i3dMapping id="mirrorLeftDecal01" node="0>0|9|7|1|0|0"/>
+        <i3dMapping id="mirrorLeftDecal00" node="0>0|9|7|2|0|0"/>
+        <i3dMapping id="mirrorRightDecal01" node="0>0|9|7|3|0|0"/>
+        <i3dMapping id="mirrorRightDecal00" node="0>0|9|7|4|0|0"/>
+        <i3dMapping id="leftMirrorPainted" node="0>0|9|7|1"/>
+        <i3dMapping id="leftMirror" node="0>0|9|7|2"/>
+        <i3dMapping id="rightMirrorPainted" node="0>0|9|7|3"/>
+        <i3dMapping id="rightMirror" node="0>0|9|7|4"/>
         <i3dMapping id="dashboard" node="0>0|9|8|2"/>
         <i3dMapping id="cabinDecalLight" node="0>0|9|8|7"/>
+        <i3dMapping id="valtra_EDGE_Bracket" node="0>0|10|1|0"/>
+        <i3dMapping id="valtra_EDGE_Decal" node="0>0|10|1|0|0"/>
+        <i3dMapping id="grid_Decal" node="0>0|10|1|1"/>
+        <i3dMapping id="EDGESign" node="0>0|10|1|2"/>
+        <i3dMapping id="EDGE_decal" node="0>0|10|1|3"/>
     </i3dMappings>
 </vehicle>

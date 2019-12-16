@@ -152,6 +152,14 @@ Wymagana moc: 40 KM
             <ru>Ролики могут удалить поля, а также очистить область для колесных дорожек</ru>
             <pl>Wałki mogą usuwać pola, a także czyścić obszar śladów kół</pl>
 		</text>
+        <text name="function_XSeries">
+			<en>Bigger & Stronger Tractors for all your Farm work.</en>
+			<de>Walzen können Felder entfernen und einen Bereich für Radspuren reinigen</de>
+			<fr>Les rouleaux peuvent enlever les champs et nettoyer une zone pour les tracs de roues</fr>
+            <es>Los rodillos pueden eliminar campos, así como limpiar un área para los tracs de ruedas</es>
+            <ru>Ролики могут удалить поля, а также очистить область для колесных дорожек</ru>
+            <pl>Wałki mogą usuwać pola, a także czyścić obszar śladów kół</pl>
+		</text>
         <text name="name_XSeries">
 			<en>X Series</en>
 			<de>X Series</de>
@@ -159,7 +167,7 @@ Wymagana moc: 40 KM
             <es>X Series</es>
             <ru>X Series</ru>
             <pl>X Series</pl>
-		</text>name_XSeries
+		</text>
 		<text name="shopItem_XSeries">
 			<en>Field Roller</en>
 			<de>Feldwalze</de>
@@ -167,7 +175,7 @@ Wymagana moc: 40 KM
             <es>Rodillo de campo</es>
             <ru>Полевой каток</ru>
             <pl>Wałek polowy</pl>
-		</text>name_XSeries
+		</text>
 		<text name="Config_Size">
 			<en>Size</en>
 			<de>Größe</de>
@@ -176,24 +184,56 @@ Wymagana moc: 40 KM
             <ru>размер</ru>
             <pl>rozmiar</pl>
 		</text>
-		<text name="Config_4M">
-			<en>4 Meters</en>
+		<text name="config_mirror">
+			<en>Default Mirrors</en>
 			<de>4 Meter</de>
 			<fr>4 Mètres</fr>
             <es>4 metros</es>
             <ru>4 метра</ru>
             <pl>3 metry</pl>
 		</text>
-		<text name="Config_3M">
-			<en>3 Meters</en>
+		<text name="config_mirrorPainted">
+			<en>Painted Mirrors</en>
 			<de>3 Meter</de>
 			<fr>3 Mètres</fr>
             <es>3 metros</es>
             <ru>3 метра</ru>
             <pl>3 metry</pl>
 		</text>
-		<text name="Config_6M">
-			<en>6 Meters</en>
+		<text name="configuration_Fenders">
+			<en>Fenders</en>
+			<de>6 Meter</de>
+			<fr>6 Mètres</fr>
+            <es>6 metros</es>
+            <ru>6 метра</ru>
+            <pl>6 metry</pl>
+		</text>
+        <text name="config_Fenders">
+			<en>Default Fenders</en>
+			<de>6 Meter</de>
+			<fr>6 Mètres</fr>
+            <es>6 metros</es>
+            <ru>6 метра</ru>
+            <pl>6 metry</pl>
+		</text>
+        <text name="config_PaintedFenders">
+			<en>Painted Fenders</en>
+			<de>6 Meter</de>
+			<fr>6 Mètres</fr>
+            <es>6 metros</es>
+            <ru>6 метра</ru>
+            <pl>6 metry</pl>
+		</text>
+        <text name="config_noFenders">
+			<en>No Fenders</en>
+			<de>6 Meter</de>
+			<fr>6 Mètres</fr>
+            <es>6 metros</es>
+            <ru>6 метра</ru>
+            <pl>6 metry</pl>
+		</text>
+        <text name="config_grid">
+			<en>Grid Color</en>
 			<de>6 Meter</de>
 			<fr>6 Mètres</fr>
             <es>6 metros</es>
