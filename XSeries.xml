@@ -2,7 +2,8 @@
 <vehicle type="tractorReverseDriving">
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
     <storeData>
-        <name>$l10n_name_XSeries</name>
+        <name>
+            <en>$l10n_name_XSeries</en></name>
         <specs>
             <power>508</power>
             <maxSpeed>60</maxSpeed>
@@ -12,7 +13,7 @@
             <function>$l10n_function_reverseDriveControl</function>
             <function>$l10n_function_XSeries</function>
         </functions>
-        <image>store_XSeries.dds</image>
+        <image></image>
         <price>346000</price>
         <lifetime>600</lifetime>
         <rotation>0</rotation>
@@ -39,12 +40,12 @@
                 <wheels autoRotateBackSpeed="2.2">
                     <wheel filename="$data/shared/wheels/trelleborg/TM800/600_65R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="1" restLoad="2.6" repr="wheelFrontLeftAxis" driveNode="wheelFrontLeftDummy" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="47" damper="55"/>
-                        <fender node="wheelFrontLeftFender" rotMax="26"/>
+                        <fender node="FrontLeftFender" rotMax="26"/>
                         <steering node="steeringBar" nodeMinTransX="0.125" nodeMaxTransX="-0.125"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/TM800/600_65R34.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="1" restLoad="2.6" repr="wheelFrontRightAxis" driveNode="wheelFrontRightDummy" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="47" damper="55"/>
-                        <fender node="wheelFrontRightFender" rotMin="-26"/>
+                        <fender node="FrontRightFender" rotMin="-26"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/TM900/710_75R42.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="0" restLoad="2.5" repr="wheelBackLeft" forcePointRatio="0.5" initialCompression="20" suspTravel="0.3" spring="36" damper="55"/>
@@ -58,12 +59,12 @@
                 <wheels autoRotateBackSpeed="2.2">
                     <wheel filename="$data/shared/wheels/trelleborg/TM800/600_65R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="1" restLoad="2.6" repr="wheelFrontLeftAxis" driveNode="wheelFrontLeftDummy" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="47" damper="55"/>
-                        <fender node="wheelFrontLeftFender" rotMax="26"/>
+                        <fender node="FrontLeftFender" rotMax="26"/>
                         <steering node="steeringBar" nodeMinTransX="0.125" nodeMaxTransX="-0.125"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/TM800/600_65R34.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="1" restLoad="2.6" repr="wheelFrontRightAxis" driveNode="wheelFrontRightDummy" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="47" damper="55"/>
-                        <fender node="wheelFrontRightFender" rotMin="-26"/>
+                        <fender node="FrontRightFender" rotMin="-26"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/TM900/710_75R42.xml" configId="weight2" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="0" restLoad="3.2" repr="wheelBackLeft" forcePointRatio="0.5" initialCompression="20" suspTravel="0.3" spring="36" damper="55"/>
@@ -77,12 +78,12 @@
                 <wheels autoRotateBackSpeed="2.2">
                     <wheel filename="$data/shared/wheels/trelleborg/TM900/650_60R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="1" restLoad="2.7" repr="wheelFrontLeftAxis" driveNode="wheelFrontLeftDummy" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="47" damper="55"/>
-                        <fender node="wheelFrontLeftFender" rotMax="26"/>
+                        <fender node="FrontLeftFender" rotMax="26"/>
                         <steering node="steeringBar" nodeMinTransX="0.125" nodeMaxTransX="-0.125"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/TM900/650_60R34.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="1" restLoad="2.7" repr="wheelFrontRightAxis" driveNode="wheelFrontRightDummy" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="47" damper="55"/>
-                        <fender node="wheelFrontRightFender" rotMin="-26"/>
+                        <fender node="FrontRightFender" rotMin="-26"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/TM900/900_60R42.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="0" restLoad="2.6" repr="wheelBackLeft" forcePointRatio="0.5" initialCompression="20" suspTravel="0.3" spring="36" damper="55"/>
@@ -97,12 +98,12 @@
                 <wheels autoRotateBackSpeed="2.2">
                     <wheel filename="$data/shared/wheels/trelleborg/TM900/650_60R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="1" restLoad="2.7" repr="wheelFrontLeftAxis" driveNode="wheelFrontLeftDummy" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="47" damper="55"/>
-                        <fender node="wheelFrontLeftFender" rotMax="26"/>
+                        <fender node="FrontLeftFender" rotMax="26"/>
                         <steering node="steeringBar" nodeMinTransX="0.125" nodeMaxTransX="-0.125"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/TM900/650_60R34.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="1" restLoad="2.7" repr="wheelFrontRightAxis" driveNode="wheelFrontRightDummy" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="47" damper="55"/>
-                        <fender node="wheelFrontRightFender" rotMin="-26"/>
+                        <fender node="FrontRightFender" rotMin="-26"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/TM900/900_60R42.xml" configId="weight2" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="0" restLoad="3.3" repr="wheelBackLeft" forcePointRatio="0.5" initialCompression="20" suspTravel="0.3" spring="36" damper="55"/>
@@ -115,51 +116,51 @@
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_valueTwinWheelsNarrow" price="5000">
                 <wheels autoRotateBackSpeed="2.2" ackermannSteeringIndex="1">
-                    <wheel filename="$data/shared/wheels/trelleborg/TM600/420_85R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
-                        <physics rotSpeed="1" restLoad="3.3" repr="wheelFrontLeftAxis"  driveNode="wheelFrontLeftDummy"  forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="57" damper="85"/>
-                        <fender node="wheelFrontLeftFender" rotMax="23"/>
+                    <wheel filename="$data/shared/wheels/trelleborg/TM600/420_85R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="3.3" repr="wheelFrontLeftAxis" driveNode="wheelFrontLeftDummy" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="57" damper="85"/>
+                        <fender node="FrontLeftFender" rotMax="23"/>
                         <steering node="steeringBar" nodeMinTransX="0.125" nodeMaxTransX="-0.125"/>
-                        <tire isCareWheel="true" />
-                        <additionalWheel filename="$data/shared/wheels/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.2" >
-                            <connector filename="$data/shared/wheels/rims/dual002.i3d" node="0|1|0" useWidthAndDiam="true" width="28" />
-                            <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="2|2|0" scale="0.35 0.35 0.35" offset="-0.48" />
+                        <tire isCareWheel="true"/>
+                        <additionalWheel filename="$data/shared/wheels/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.2">
+                            <connector filename="$data/shared/wheels/rims/dual002.i3d" node="0|1|0" useWidthAndDiam="true" width="28"/>
+                            <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="2|2|0" scale="0.35 0.35 0.35" offset="-0.48"/>
                         </additionalWheel>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/TM600/420_85R34.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="1" restLoad="3.3" repr="wheelFrontRightAxis" driveNode="wheelFrontRightDummy" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="57" damper="85"/>
-                        <fender node="wheelFrontRightFender" rotMin="-23" />
-                        <tire isCareWheel="true" />
-                        <additionalWheel filename="$data/shared/wheels/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.2" >
-                            <connector filename="$data/shared/wheels/rims/dual002.i3d" node="0|1|0" useWidthAndDiam="true" width="28" />
-                            <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="2|2|1" scale="0.35 0.35 0.35" offset="-0.48" />
+                        <fender node="FrontRightFender" rotMin="-23"/>
+                        <tire isCareWheel="true"/>
+                        <additionalWheel filename="$data/shared/wheels/trelleborg/TM600/420_85R34.xml" configId="dual" offset="0.2">
+                            <connector filename="$data/shared/wheels/rims/dual002.i3d" node="0|1|0" useWidthAndDiam="true" width="28"/>
+                            <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="2|2|1" scale="0.35 0.35 0.35" offset="-0.48"/>
                         </additionalWheel>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/TM600/480_80R50.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
-                        <physics rotSpeed="0" restLoad="3.3" repr="wheelBackLeft"  forcePointRatio="0.5" initialCompression="20" suspTravel="0.25" spring="53" damper="105"/>
-                        <tire isCareWheel="true" />
-                        <additionalWheel filename="$data/shared/wheels/trelleborg/TM600/480_80R50.xml" configId="dual" offset="0.2" >
-                            <connector filename="$data/shared/wheels/rims/dual002.i3d" node="0|0|0" useWidthAndDiam="true" width="28" />
-                            <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|0" scale="0.25 0.25 0.25" offset="-0.31" />
+                        <physics rotSpeed="0" restLoad="3.3" repr="wheelBackLeft" forcePointRatio="0.5" initialCompression="20" suspTravel="0.25" spring="53" damper="105"/>
+                        <tire isCareWheel="true"/>
+                        <additionalWheel filename="$data/shared/wheels/trelleborg/TM600/480_80R50.xml" configId="dual" offset="0.2">
+                            <connector filename="$data/shared/wheels/rims/dual002.i3d" node="0|0|0" useWidthAndDiam="true" width="28"/>
+                            <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|0" scale="0.25 0.25 0.25" offset="-0.31"/>
                         </additionalWheel>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/TM600/480_80R50.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="0" restLoad="3.3" repr="wheelBackRight" forcePointRatio="0.5" initialCompression="20" suspTravel="0.25" spring="53" damper="105"/>
-                        <tire isCareWheel="true" />
-                        <additionalWheel filename="$data/shared/wheels/trelleborg/TM600/480_80R50.xml" configId="dual" offset="0.2" >
-                            <connector filename="$data/shared/wheels/rims/dual002.i3d" node="0|0|0" useWidthAndDiam="true" width="28" />
-                            <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|1" scale="0.25 0.25 0.25" offset="-0.31" />
+                        <tire isCareWheel="true"/>
+                        <additionalWheel filename="$data/shared/wheels/trelleborg/TM600/480_80R50.xml" configId="dual" offset="0.2">
+                            <connector filename="$data/shared/wheels/rims/dual002.i3d" node="0|0|0" useWidthAndDiam="true" width="28"/>
+                            <hub filename="$data/shared/wheels/hubs/hubs.i3d" node="1|8|1" scale="0.25 0.25 0.25" offset="-0.31"/>
                         </additionalWheel>
                     </wheel>
-                    <foliageBendingModifier index="1" minX="-1.75" maxX="1.75" />
-                    <foliageBendingModifier index="2" minX="-1.75" maxX="1.75" />
+                    <foliageBendingModifier index="1" minX="-1.75" maxX="1.75"/>
+                    <foliageBendingModifier index="2" minX="-1.75" maxX="1.75"/>
                 </wheels>
-                <size width="4.5" />
+                <size width="4.5"/>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_valueTwinWheelsAll" price="10000">
                 <wheels autoRotateBackSpeed="2.2" ackermannSteeringIndex="2">
                     <wheel filename="$data/shared/wheels/trelleborg/TM800/600_65R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="1" restLoad="2.9" repr="wheelFrontLeftAxis" driveNode="wheelFrontLeftDummy" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="47" damper="55"/>
-                        <fender node="wheelFrontLeftFender" rotMax="26"/>
+                        <fender node="FrontLeftFender" rotMax="26"/>
                         <steering node="steeringBar" nodeMinTransX="0.125" nodeMaxTransX="-0.125"/>
                         <additionalWheel filename="$data/shared/wheels/trelleborg/TM800/600_65R34.xml" configId="dual" offset="0.15" hasTireTracks="true" hasParticles="true">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
@@ -167,7 +168,7 @@
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/TM800/600_65R34.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="1" restLoad="2.9" repr="wheelFrontRightAxis" driveNode="wheelFrontRightDummy" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="47" damper="55"/>
-                        <fender node="wheelFrontRightFender" rotMin="-26"/>
+                        <fender node="FrontRightFender" rotMin="-26"/>
                         <additionalWheel filename="$data/shared/wheels/trelleborg/TM800/600_65R34.xml" configId="dual" offset="0.15" hasTireTracks="true" hasParticles="true">
                             <connector filename="$data/shared/wheels/rims/dual001_2.xml"/>
                         </additionalWheel>
@@ -193,12 +194,12 @@
                 <wheels autoRotateBackSpeed="2.2">
                     <wheel filename="$data/shared/wheels/trelleborg/TM800/600_65R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="1" restLoad="2.6" repr="wheelFrontLeftAxis" driveNode="wheelFrontLeftDummy" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="47" damper="55"/>
-                        <fender node="wheelFrontLeftFender" rotMax="26"/>
+                        <fender node="FrontLeftFender" rotMax="26"/>
                         <steering node="steeringBar" nodeMinTransX="0.125" nodeMaxTransX="-0.125"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/TM800/600_65R34.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="1" restLoad="2.6" repr="wheelFrontRightAxis" driveNode="wheelFrontRightDummy" forcePointRatio="0.5" initialCompression="25" suspTravel="0.2" spring="47" damper="55"/>
-                        <fender node="wheelFrontRightFender" rotMin="-26"/>
+                        <fender node="FrontRightFender" rotMin="-26"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/trelleborg/TM900/710_75R42.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="0" restLoad="2.9" repr="wheelBackLeft" forcePointRatio="0.5" initialCompression="20" suspTravel="0.3" spring="36" damper="55"/>
@@ -682,35 +683,57 @@
         <bendingNode minX="-1.45" maxX="1.45" minZ="-2.65" maxZ="-0.55" yOffset="0.6"/>
     </foliageBending>
     <vehicleTypeConfigurations title="$l10n_configuration_Fenders">
-        <vehicleTypeConfiguration name="$l10n_config_Fenders" price="0" vehicleType="tractor">
-            <objectChange node="EUconfigurationFront" visibilityActive="false"/>
-			<objectChange node="EUconfigurationBack" visibilityActive="false"/>
-			<objectChange node="trailerAttacherJointFront" translationActive="0 3.5 0.25" />
-			<objectChange node="USconfigurationBack" visibilityActive="true"/>
+        <vehicleTypeConfiguration name="$l10n_config_Fenders" price="0" vehicleType="tractorReverseDriving">
+            <objectChange node="FrontRightFender" visibilityActive="true"/>
+            <objectChange node="FrontLeftFender" visibilityActive="true"/>
+            <objectChange node="FrontRightFenderPainted" visibilityActive="false"/>
+            <objectChange node="FrontLeftFenderPainted" visibilityActive="false"/>
         </vehicleTypeConfiguration>
-        <vehicleTypeConfiguration name="$l10n_config_PaintedFenders" price="1000" vehicleType="tractor">
-            <objectChange node="EUconfigurationFront" visibilityActive="true"/>
-			<objectChange node="EUconfigurationBack" visibilityActive="true"/>
-			<objectChange node="trailerAttacherJointFront" translationActive="0 0.841 4.024" />
-			<objectChange node="USconfigurationBack" visibilityActive="false"/>
+        <vehicleTypeConfiguration name="$l10n_config_PaintedFenders" price="650" vehicleType="tractorReverseDriving">
+            <objectChange node="FrontRightFender" visibilityActive="false"/>
+            <objectChange node="FrontLeftFender" visibilityActive="false"/>
+            <objectChange node="FrontRightFenderPainted" visibilityActive="true"/>
+            <objectChange node="FrontLeftFenderPainted" visibilityActive="true"/>
         </vehicleTypeConfiguration>
-        <vehicleTypeConfiguration name="$l10n_config_noFenders" price="1000" vehicleType="tractor">
-            <objectChange node="EUconfigurationFront" visibilityActive="true"/>
-			<objectChange node="EUconfigurationBack" visibilityActive="true"/>
-			<objectChange node="trailerAttacherJointFront" translationActive="0 0.841 4.024" />
-			<objectChange node="USconfigurationBack" visibilityActive="false"/>
+        <vehicleTypeConfiguration name="$l10n_config_noFenders" price="-500" vehicleType="tractorReverseDriving">
+            <objectChange node="FrontRightFender" visibilityActive="false"/>
+            <objectChange node="FrontLeftFender" visibilityActive="false"/>
+            <objectChange node="FrontRightFenderPainted" visibilityActive="false"/>
+            <objectChange node="FrontLeftFenderPainted" visibilityActive="false"/>
         </vehicleTypeConfiguration>
     </vehicleTypeConfigurations>
     <designConfigurations>
-        <designConfiguration name="$l10n_config_mirror">
-			<objectChange node="configuration_afs372_decal" visibilityActive="false"/>
-			<objectChange node="configurationAFS" visibilityActive="false"/>
-			<objectChange node="decalAFS" visibilityActive="false"/>
-        </designConfiguration>
         <designConfiguration name="$l10n_config_mirrorPainted" price="650">
-			<objectChange node="configuration_afs372_decal" visibilityActive="true"/>
-			<objectChange node="configurationAFS" visibilityActive="true"/>
-			<objectChange node="decalAFS" visibilityActive="true"/>
+            <objectChange node="leftMirrorPainted" visibilityActive="true"/>
+            <objectChange node="rightMirrorPainted" visibilityActive="true"/>
+            <objectChange node="leftMirror" visibilityActive="false"/>
+            <objectChange node="rightMirror" visibilityActive="false"/>
+            <objectChange node="grid_DecalPainted" visibilityActive="false"/>
+            <objectChange node="grid_Decal" visibilityActive="true"/>
+        </designConfiguration>
+        <designConfiguration name="$l10n_config_gridPained" price="1300">
+            <objectChange node="leftMirrorPainted" visibilityActive="true"/>
+            <objectChange node="rightMirrorPainted" visibilityActive="true"/>
+            <objectChange node="leftMirror" visibilityActive="false"/>
+            <objectChange node="rightMirror" visibilityActive="false"/>
+            <objectChange node="grid_DecalPainted" visibilityActive="true"/>
+            <objectChange node="grid_Decal" visibilityActive="false"/>
+        </designConfiguration>
+        <designConfiguration name="$l10n_config_gridonly" price="650">
+            <objectChange node="leftMirrorPainted" visibilityActive="false"/>
+            <objectChange node="rightMirrorPainted" visibilityActive="false"/>
+            <objectChange node="leftMirror" visibilityActive="true"/>
+            <objectChange node="rightMirror" visibilityActive="true"/>
+            <objectChange node="grid_DecalPainted" visibilityActive="true"/>
+            <objectChange node="grid_Decal" visibilityActive="false"/>
+        </designConfiguration>
+        <designConfiguration name="$l10n_config_mirror">
+            <objectChange node="leftMirrorPainted" visibilityActive="false"/>
+            <objectChange node="rightMirrorPainted" visibilityActive="false"/>
+            <objectChange node="leftMirror" visibilityActive="true"/>
+            <objectChange node="rightMirror" visibilityActive="true"/>
+            <objectChange node="grid_DecalPainted" visibilityActive="false"/>
+            <objectChange node="grid_Decal" visibilityActive="true"/>
         </designConfiguration>
     </designConfigurations>
     <baseMaterial>
@@ -736,30 +759,17 @@
         <baseMaterialConfiguration name="RED CHROME" color="0.673 0.002 0.000 1" material="2"/>
         <material name="valtraX520_mat" shaderParameter="colorMat1"/>
     </baseMaterialConfigurations>
-    <baseMaterialConfigurations title="$l10n_config_grid" price="500" useDefaultColors="true" defaultColorIndex="8">
-        <baseMaterialConfiguration name="CHROME" color="SHARED_WHITE2" material="2"/>
-        <baseMaterialConfiguration name="ITRUNNER" color="0.0382 0.0369 0.0482 1" material="8"/>
-        <baseMaterialConfiguration name="SILVER" color="0.6456 0.6456 0.6456 1" material="8"/>
-        <baseMaterialConfiguration name="DARK GREY" color="0.037 0.037 0.037 1" material="0"/>
-        <baseMaterialConfiguration name="EDGE CHROME" color="0.9800 0.9800 0.9800 1" material="2"/>
-        <baseMaterialConfiguration name="DARK BLUE CHROME" color="0.007 0.029 0.187 1" material="2"/>
-        <baseMaterialConfiguration name="ORANGE CHROME" color="0.932 0.119 0.000 1" material="2"/>
-        <baseMaterialConfiguration name="GREEN CHROME" color="0.000 0.170 0.001 1" material="2"/>
-        <baseMaterialConfiguration name="BLUE CHROME" color="0.062 0.251 0.612 1" material="2"/>
-        <baseMaterialConfiguration name="RED CHROME" color="0.673 0.002 0.000 1" material="2"/>
-        <material name="valtraX520_mat" shaderParameter="colorMat3"/>
-    </baseMaterialConfigurations>
     <designMaterialConfigurations price="1000" useDefaultColors="true" defaultColorIndex="0">
         <designMaterialConfiguration name="CHROME" color="SHARED_WHITE2" material="2"/>
         <designMaterialConfiguration name="ITRUNNER" color="0.0382 0.0369 0.0482 1" material="8"/>
-		<designMaterialConfiguration name="SILVER" color="0.6456 0.6456 0.6456 1" material="8"/>
-		<designMaterialConfiguration name="DARK GREY" color="0.037 0.037 0.037 1" material="0"/>
-		<designMaterialConfiguration name="EDGE CHROME" color="0.9800 0.9800 0.9800 1" material="2"/>
-		<designMaterialConfiguration name="DARK BLUE CHROME" color="0.007 0.029 0.187 1" material="2"/>
-		<designMaterialConfiguration name="ORANGE CHROME" color="0.932 0.119 0.000 1" material="2"/>
-		<designMaterialConfiguration name="GREEN CHROME" color="0.000 0.170 0.001 1" material="2"/>
-		<designMaterialConfiguration name="BLUE CHROME" color="0.062 0.251 0.612 1" material="2"/>
-		<designMaterialConfiguration name="RED CHROME" color="0.673 0.002 0.000 1" material="2"/>
+        <designMaterialConfiguration name="SILVER" color="0.6456 0.6456 0.6456 1" material="8"/>
+        <designMaterialConfiguration name="DARK GREY" color="0.037 0.037 0.037 1" material="0"/>
+        <designMaterialConfiguration name="EDGE CHROME" color="0.9800 0.9800 0.9800 1" material="2"/>
+        <designMaterialConfiguration name="DARK BLUE CHROME" color="0.007 0.029 0.187 1" material="2"/>
+        <designMaterialConfiguration name="ORANGE CHROME" color="0.932 0.119 0.000 1" material="2"/>
+        <designMaterialConfiguration name="GREEN CHROME" color="0.000 0.170 0.001 1" material="2"/>
+        <designMaterialConfiguration name="BLUE CHROME" color="0.062 0.251 0.612 1" material="2"/>
+        <designMaterialConfiguration name="RED CHROME" color="0.673 0.002 0.000 1" material="2"/>
         <material name="valtraX520_mat" shaderParameter="colorMat0"/>
         <material name="grid_mat" shaderParameter="colorMat0"/>
     </designMaterialConfigurations>
@@ -771,11 +781,11 @@
         <i3dMapping id="wheels" node="0>0|0"/>
         <i3dMapping id="wheelFrontLeftAxis" node="0>0|0|0|0"/>
         <i3dMapping id="wheelFrontLeftDummy" node="0>0|0|0|0|0|0"/>
-        <i3dMapping id="wheelFrontLeftFender" node="0>0|0|0|0|1"/>
+        <i3dMapping id="FrontLeftFender" node="0>0|0|0|0|1"/>
         <i3dMapping id="steeringBarLeft" node="0>0|0|0|0|2"/>
         <i3dMapping id="wheelFrontRightAxis" node="0>0|0|1|0"/>
         <i3dMapping id="wheelFrontRightDummy" node="0>0|0|1|0|0|0"/>
-        <i3dMapping id="wheelFrontRightFender" node="0>0|0|1|0|1"/>
+        <i3dMapping id="FrontRightFender" node="0>0|0|1|0|1"/>
         <i3dMapping id="steeringBarRight" node="0>0|0|1|0|2"/>
         <i3dMapping id="wheelBackLeft" node="0>0|0|2"/>
         <i3dMapping id="wheelBackRight" node="0>0|0|3"/>
@@ -974,8 +984,11 @@
         <i3dMapping id="cabinDecalLight" node="0>0|9|8|7"/>
         <i3dMapping id="valtra_EDGE_Bracket" node="0>0|10|1|0"/>
         <i3dMapping id="valtra_EDGE_Decal" node="0>0|10|1|0|0"/>
-        <i3dMapping id="grid_Decal" node="0>0|10|1|1"/>
-        <i3dMapping id="EDGESign" node="0>0|10|1|2"/>
-        <i3dMapping id="EDGE_decal" node="0>0|10|1|3"/>
+        <i3dMapping id="EDGESign" node="0>0|10|1|1"/>
+        <i3dMapping id="EDGE_decal" node="0>0|10|1|2"/>
+        <i3dMapping id="grid_Decal" node="0>0|10|1|3"/>
+        <i3dMapping id="grid_DecalPainted" node="0>0|10|1|4"/>
+        <i3dMapping id="FrontLeftFenderPainted" node="0>0|10|1|2"/>
+        <i3dMapping id="FrontRightFenderPainted" node="0>0|0|1|0|4"/>
     </i3dMappings>
 </vehicle>
