@@ -300,6 +300,7 @@ Moc: 648 KM
     <storeItems>
         <storeItem xmlFilename="XSeries.xml"/>
     </storeItems>
+    <l10n filenamePrefix="modDesc/modDesc_l10n"/>
     <!-- <l10n>
         <text name="function_XSeries">
             <en>Bigger & Stronger Tractors for all your Farm work.</en>
