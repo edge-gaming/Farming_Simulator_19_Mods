@@ -300,7 +300,7 @@ Moc: 648 KM
     <storeItems>
         <storeItem xmlFilename="XSeries.xml"/>
     </storeItems>
-    <l10n>
+    <!-- <l10n>
         <text name="function_XSeries">
             <en>Bigger & Stronger Tractors for all your Farm work.</en>
             <de>Größere und stärkere Traktoren für alle Ihre Farmarbeiten.</de>
@@ -373,6 +373,22 @@ Moc: 648 KM
             <ru>Окрашенные крылья</ru>
             <pl>Malowane błotniki</pl>
         </text>
+        <text name="config_PaintedFrontFenders">
+            <en>Painted Front Fenders</en>
+            <de>Gemalte vordere Kotflügel</de>
+            <fr>Ailes avant peintes</fr>
+            <es>Guardabarros delanteros pintados</es>
+            <ru>Окрашенные передние крылья</ru>
+            <pl>Malowane przednie błotniki</pl>
+        </text>
+        <text name="config_PaintedBackFenders">
+            <en>Painted Back Fenders</en>
+            <de>Gemalte hintere Schutzbleche</de>
+            <fr>Ailes arrière peintes</fr>
+            <es>Guardabarros traseros pintados</es>
+            <ru>Окрашенные задние крылья</ru>
+            <pl>Malowane błotniki</pl>
+        </text>
         <text name="config_noFenders">
             <en>No Fenders</en>
             <de>Keine Fender</de>
@@ -405,18 +421,7 @@ Moc: 648 KM
             <ru>Тракторы с задним ходом, они сильнее и больше, чем серия S</ru>
             <pl>Ciągniki z układem jazdy wstecznej są mocniejsze i większe niż seria S.</pl>
         </text>
-        <text name="DARK GREY" value="0.037 0.037 0.037 1" color="0.037 0.037 0.037 1" material="0">
-            <en>DARK GREY</en>
-            <de>DUNKELGRAU</de>
-            <fr>GRIS FONCÉ</fr>
-            <es>GRIS OSCURO</es>
-            <ru>ТЕМНО-СЕРЫЙ</ru>
-            <pl>CIEMNO SZARY</pl>
-        </text>
-        <text name="ITRUNNER" value="0.037 0.037 0.037 1" color="0.0382 0.0369 0.0482 1" material="8">
-            <en>IT RUNNER</en>
-        </text>
-    </l10n>
+    </l10n> -->
     <brands>
         <brand name="EDGE" title="EDGE Industries" image="EDGE_Brand_Logo.dds"/>
     </brands>

@@ -2,8 +2,7 @@
 <vehicle type="tractorReverseDriving">
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
     <storeData>
-        <name>
-            <en>$l10n_name_XSeries</en></name>
+        <name>$l10n_name_XSeries</name>
         <specs>
             <power>508</power>
             <maxSpeed>60</maxSpeed>
@@ -13,7 +12,7 @@
             <function>$l10n_function_reverseDriveControl</function>
             <function>$l10n_function_XSeries</function>
         </functions>
-        <image></image>
+        <image>store_XSeries.dds</image>
         <price>346000</price>
         <lifetime>600</lifetime>
         <rotation>0</rotation>
@@ -688,18 +687,40 @@
             <objectChange node="FrontLeftFender" visibilityActive="true"/>
             <objectChange node="FrontRightFenderPainted" visibilityActive="false"/>
             <objectChange node="FrontLeftFenderPainted" visibilityActive="false"/>
+            <objectChange node="backFenderPainted" visibilityActive="false"/>
+            <objectChange node="backFender" visibilityActive="true"/>
         </vehicleTypeConfiguration>
         <vehicleTypeConfiguration name="$l10n_config_PaintedFenders" price="650" vehicleType="tractorReverseDriving">
             <objectChange node="FrontRightFender" visibilityActive="false"/>
             <objectChange node="FrontLeftFender" visibilityActive="false"/>
             <objectChange node="FrontRightFenderPainted" visibilityActive="true"/>
             <objectChange node="FrontLeftFenderPainted" visibilityActive="true"/>
+            <objectChange node="backFenderPainted" visibilityActive="true"/>
+            <objectChange node="backFender" visibilityActive="false"/>
+        </vehicleTypeConfiguration>
+        <vehicleTypeConfiguration name="$l10n_config_PaintedFrontFenders" price="325" vehicleType="tractorReverseDriving">
+            <objectChange node="FrontRightFender" visibilityActive="false"/>
+            <objectChange node="FrontLeftFender" visibilityActive="false"/>
+            <objectChange node="FrontRightFenderPainted" visibilityActive="true"/>
+            <objectChange node="FrontLeftFenderPainted" visibilityActive="true"/>
+            <objectChange node="backFenderPainted" visibilityActive="false"/>
+            <objectChange node="backFender" visibilityActive="true"/>
+        </vehicleTypeConfiguration>
+        <vehicleTypeConfiguration name="$l10n_config_PaintedBackFenders" price="325" vehicleType="tractorReverseDriving">
+            <objectChange node="FrontRightFender" visibilityActive="true"/>
+            <objectChange node="FrontLeftFender" visibilityActive="true"/>
+            <objectChange node="FrontRightFenderPainted" visibilityActive="false"/>
+            <objectChange node="FrontLeftFenderPainted" visibilityActive="false"/>
+            <objectChange node="backFenderPainted" visibilityActive="true"/>
+            <objectChange node="backFender" visibilityActive="false"/>
         </vehicleTypeConfiguration>
         <vehicleTypeConfiguration name="$l10n_config_noFenders" price="-500" vehicleType="tractorReverseDriving">
             <objectChange node="FrontRightFender" visibilityActive="false"/>
             <objectChange node="FrontLeftFender" visibilityActive="false"/>
             <objectChange node="FrontRightFenderPainted" visibilityActive="false"/>
             <objectChange node="FrontLeftFenderPainted" visibilityActive="false"/>
+            <objectChange node="backFenderPainted" visibilityActive="false"/>
+            <objectChange node="backFender" visibilityActive="true"/>
         </vehicleTypeConfiguration>
     </vehicleTypeConfigurations>
     <designConfigurations>
@@ -738,40 +759,47 @@
     </designConfigurations>
     <baseMaterial>
         <material name="valtraX520_mat" baseNode="valtra_vis">
-            <shaderParameter name="colorMat0" value="VALTRA_ORANGE1"/>
-            <shaderParameter name="colorMat1" value="VALTRA_BLUE1"/>
+            <shaderParameter name="colorMat0" value="SHARED_BLACK1"/>
+            <shaderParameter name="colorMat1" value="SHARED_WHITE1"/>
+            <shaderParameter name="colorMat2" value="VALTRA_BLUE1"/>
+            <shaderParameter name="colorMat4" value="VALTRA_ORANGE1"/>
+            <shaderParameter name="colorMat6" value="SHARED_BLACK1"/>
+            <shaderParameter name="colorMat7" value="VALTRA_BLUE1"/>
         </material>
         <material name="grid_mat" baseNode="grid_Decal">
-            <shaderParameter name="colorMat0" value="VALTRA_ORANGE1"/>
-            <shaderParameter name="colorMat1" value="VALTRA_BLUE1"/>
+            <shaderParameter name="colorMat0" value="SHARED_BLACK1"/>
+            <shaderParameter name="colorMat1" value="VALTRA_ORANGE1"/>
         </material>
     </baseMaterial>
     <baseMaterialConfigurations price="1500" useDefaultColors="true" defaultColorIndex="8">
-        <baseMaterialConfiguration name="CHROME" color="SHARED_WHITE2" material="2"/>
-        <baseMaterialConfiguration name="ITRUNNER" color="0.0382 0.0369 0.0482 1" material="8"/>
-        <baseMaterialConfiguration name="SILVER" color="0.6456 0.6456 0.6456 1" material="8"/>
-        <baseMaterialConfiguration name="DARK GREY" color="0.037 0.037 0.037 1" material="0"/>
-        <baseMaterialConfiguration name="EDGE CHROME" color="0.9800 0.9800 0.9800 1" material="2"/>
-        <baseMaterialConfiguration name="DARK BLUE CHROME" color="0.007 0.029 0.187 1" material="2"/>
-        <baseMaterialConfiguration name="ORANGE CHROME" color="0.932 0.119 0.000 1" material="2"/>
-        <baseMaterialConfiguration name="GREEN CHROME" color="0.000 0.170 0.001 1" material="2"/>
-        <baseMaterialConfiguration name="BLUE CHROME" color="0.062 0.251 0.612 1" material="2"/>
-        <baseMaterialConfiguration name="RED CHROME" color="0.673 0.002 0.000 1" material="2"/>
+        <baseMaterialConfiguration name="SHARED_WHITE1"/>
+        <baseMaterialConfiguration name="$l10n_EDGEGOLD" color="0.9800 0.9800 0.9800 1" material="2"/>
+        <baseMaterialConfiguration name="$l10n_EDGESILVER" color="0.9800 0.9800 0.9800 1" material="2"/>
+        <baseMaterialConfiguration name="$l10n_CHROME" color="SHARED_WHITE2" material="2"/>
+        <baseMaterialConfiguration name="$l10n_ITRUNNER" color="0.0382 0.0369 0.0482 1" material="8"/>
+        <baseMaterialConfiguration name="$l10n_SILVER" color="0.6456 0.6456 0.6456 1" material="8"/>
+        <baseMaterialConfiguration name="$l10n_DARKGREY" color="0.037 0.037 0.037 1" material="0"/>
+        <baseMaterialConfiguration name="$l10n_DARKBLUECHROME" color="0.007 0.029 0.187 1" material="2"/>
+        <baseMaterialConfiguration name="$l10n_ORANGECHROME" color="0.932 0.119 0.000 1" material="2"/>
+        <baseMaterialConfiguration name="$l10n_GREENCHROME" color="0.000 0.170 0.001 1" material="2"/>
+        <baseMaterialConfiguration name="$l10n_BLUECHROME" color="0.062 0.251 0.612 1" material="2"/>
+        <baseMaterialConfiguration name="$l10n_REDCHROME" color="0.673 0.002 0.000 1" material="2"/>
         <material name="valtraX520_mat" shaderParameter="colorMat1"/>
     </baseMaterialConfigurations>
     <designMaterialConfigurations price="1000" useDefaultColors="true" defaultColorIndex="0">
-        <designMaterialConfiguration name="CHROME" color="SHARED_WHITE2" material="2"/>
-        <designMaterialConfiguration name="ITRUNNER" color="0.0382 0.0369 0.0482 1" material="8"/>
-        <designMaterialConfiguration name="SILVER" color="0.6456 0.6456 0.6456 1" material="8"/>
-        <designMaterialConfiguration name="DARK GREY" color="0.037 0.037 0.037 1" material="0"/>
-        <designMaterialConfiguration name="EDGE CHROME" color="0.9800 0.9800 0.9800 1" material="2"/>
-        <designMaterialConfiguration name="DARK BLUE CHROME" color="0.007 0.029 0.187 1" material="2"/>
-        <designMaterialConfiguration name="ORANGE CHROME" color="0.932 0.119 0.000 1" material="2"/>
-        <designMaterialConfiguration name="GREEN CHROME" color="0.000 0.170 0.001 1" material="2"/>
-        <designMaterialConfiguration name="BLUE CHROME" color="0.062 0.251 0.612 1" material="2"/>
-        <designMaterialConfiguration name="RED CHROME" color="0.673 0.002 0.000 1" material="2"/>
+        <designMaterialConfiguration name="$l10n_DARKGREY" color="0.037 0.037 0.037 1" material="0"/>
+        <designMaterialConfiguration name="$l10n_EDGEGOLD" color="0.776 0.667 0.341 3" material="3"/>
+        <designMaterialConfiguration name="$l10n_EDGESILVER" color="0.647 0.667 0.682 9" material="9"/>
+        <designMaterialConfiguration name="$l10n_CHROME" color="SHARED_WHITE2" material="2"/>
+        <designMaterialConfiguration name="$l10n_ITRUNNER" color="0.0382 0.0369 0.0482 1" material="8"/>
+        <designMaterialConfiguration name="$l10n_SILVER" color="0.6456 0.6456 0.6456 1" material="8"/>
+        <designMaterialConfiguration name="$l10n_DARKBLUECHROME" color="0.007 0.029 0.187 1" material="3"/>
+        <designMaterialConfiguration name="$l10n_ORANGECHROME" color="0.932 0.119 0.000 1" material="3"/>
+        <designMaterialConfiguration name="$l10n_GREENCHROME" color="0.000 0.170 0.001 1" material="3"/>
+        <designMaterialConfiguration name="$l10n_BLUECHROME" color="0.062 0.251 0.612 1" material="3"/>
+        <designMaterialConfiguration name="$l10n_REDCHROME" color="0.673 0.002 0.000 1" material="3"/>
         <material name="valtraX520_mat" shaderParameter="colorMat0"/>
-        <material name="grid_mat" shaderParameter="colorMat0"/>
+        <material name="grid_mat" shaderParameter="colorMat1"/>
     </designMaterialConfigurations>
     <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
     <washable dirtDuration="90" washDuration="1" workMultiplier="3" fieldMultiplier="2"/>
@@ -990,5 +1018,7 @@
         <i3dMapping id="grid_DecalPainted" node="0>0|10|1|4"/>
         <i3dMapping id="FrontLeftFenderPainted" node="0>0|10|1|2"/>
         <i3dMapping id="FrontRightFenderPainted" node="0>0|0|1|0|4"/>
+        <i3dMapping id="backFender" node="0>0|9|9|0"/>
+        <i3dMapping id="backFenderPainted" node="0>0|9|9|1"/>
     </i3dMappings>
 </vehicle>
