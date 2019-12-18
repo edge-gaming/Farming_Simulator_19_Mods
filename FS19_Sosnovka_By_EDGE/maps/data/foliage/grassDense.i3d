@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="grassDense" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+
+  <Files>
+    <File fileId="1" filename="grassDense_diffuse.png" />
+    <File fileId="2" filename="grassDense_normal.png" />
+    <File fileId="4" filename="grassDense_bigLOD_diffuse_H.png" />
+    <File fileId="5" filename="grassDense_bigLOD_normal_H.png" />
+    <File fileId="6" filename="grassDense_middleLOD_diffuse_H.png" />
+    <File fileId="7" filename="grassDense_middleLOD_normal_H.png" />
+    <File fileId="8" filename="grassDense_smlLOD_diffuse_H.png" />
+    <File fileId="9" filename="grassDense_smlLOD_normal_H.png" />
+    <File fileId="3" filename="$data/shaders/fruitGrowthFoliageShader.xml" />
+  </Files>
+
+  <Materials>
+    <Material name="grassDense_mat" materialId="1" cosPower="100" specularColor="0 1 0" ambientColor="1 1 1" customShaderId="3">
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+      <CustomParameter name="frequencyAndScale" value="0.05 0.02 0 0"/>
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="grassDense_bigLOD_mat" materialId="4" cosPower="20" specularColor="0 1 0" ambientColor="1 1 1" customShaderId="3" customShaderVariation="BILLBOARD">
+      <CustomParameter name="frequencyAndScale" value="0.05 0.02 0 0"/>
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+    </Material>
+    <Material name="grassDense_middleLOD_mat" materialId="3" cosPower="20" specularColor="0 1 0" ambientColor="1 1 1" customShaderId="3" customShaderVariation="BILLBOARD">
+      <CustomParameter name="frequencyAndScale" value="0.05 0.02 0 0"/>
+      <Texture fileId="6"/>
+      <Normalmap fileId="7"/>
+    </Material>
+    <Material name="grassDense_smlLOD_mat" materialId="2" cosPower="20" specularColor="0 1 0" ambientColor="1 1 1" customShaderId="3" customShaderVariation="BILLBOARD">
+      <CustomParameter name="frequencyAndScale" value="0.05 0.02 0 0"/>
+      <Texture fileId="8"/>
+      <Normalmap fileId="9"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="grassDense.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="LOD0" nodeId="1">
+      <Shape name="greenSmall" shapeId="1" castsShadows="false" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="2"/>
+      <Shape name="greenMiddle" translation="1.07205e-16 0 2.14409e-16" shapeId="2" castsShadows="false" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="3"/>
+      <Shape name="greenBig" shapeId="3" castsShadows="false" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="4"/>
+      <Shape name="greenBig_cut" shapeId="4" castsShadows="false" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="5"/>
+    </TransformGroup>
+    <TransformGroup name="LOD_BB" nodeId="6">
+      <Shape name="greenSmallLOD" shapeId="5" castsShadows="false" receiveShadows="true" materialIds="2" clipDistance="20" nodeId="7"/>
+      <Shape name="greenMiddleLOD" shapeId="6" castsShadows="false" receiveShadows="true" materialIds="3" clipDistance="20" nodeId="8"/>
+      <Shape name="greenBigLOD" shapeId="7" castsShadows="false" receiveShadows="true" materialIds="4" clipDistance="20" nodeId="9"/>
+      <Shape name="greenBigLOD_cut" shapeId="8" castsShadows="false" receiveShadows="true" materialIds="4" clipDistance="20" nodeId="10"/>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+  </UserAttributes>
+</i3D>

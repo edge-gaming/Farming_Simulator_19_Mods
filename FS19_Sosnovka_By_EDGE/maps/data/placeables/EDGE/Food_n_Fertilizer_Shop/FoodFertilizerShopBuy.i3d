@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Food 'n' Fertilizer Shop" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="$data/shared/default_normal.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="Food_And_Fertilizer_Station" materialId="5" diffuseColor="1 1 1 1">
+    </Material>
+    <Material name="Food_And_Fertilizer_Station_mat" materialId="4" diffuseColor="0.494118 0.494118 0.494118 1">
+      <Normalmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="FoodFertilizerShopBuy.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="FoodnFertilizer" nodeId="10">
+      <TransformGroup name="gameplay" nodeId="11">
+        <TransformGroup name="OUT" nodeId="12">
+          <TransformGroup name="loadingStation" nodeId="13">
+            <TransformGroup name="loadingTriggers" nodeId="14">
+              <Shape shapeId="1" name="loadingTrigger" translation="0 5.334 0" scale="5 2 5" static="true" trigger="true" collisionMask="1088421888" nodeId="15" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              <TransformGroup name="dischargeNode" translation="0 5.41948 0" nodeId="16"/>
+              <TransformGroup name="dischargeEffect" translation="0 5.40493 0" nodeId="17">
+                <Shape shapeId="2" name="pipeEffect" rotation="90 0 0" visibility="false" clipDistance="300" nodeId="18" materialIds="4" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="3" name="pipeEffectSmoke" translation="0 -4.45118 0" visibility="false" clipDistance="100" nodeId="19" materialIds="4" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="storageFarm" nodeId="20"/>
+        <TransformGroup name="mapPosition" translation="5.5 0 0" nodeId="21"/>
+      </TransformGroup>
+      <TransformGroup name="areaDefinitions" nodeId="22">
+        <TransformGroup name="Start" translation="-10.416 0 -2.784" nodeId="23">
+          <TransformGroup name="Width" translation="20.8 0 0" nodeId="24"/>
+          <TransformGroup name="Height" translation="0 0 10.9" nodeId="25"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="FoodnFertilizer_Visuals" nodeId="26"/>
+      <TransformGroup name="warningStripesBarn" translation="-6.26714e-08 0.184 1.36353e-15" rotation="-180 -90 -180" scale="0.9 1 0.9" nodeId="27"/>
+    </TransformGroup>
+    <Camera name="persp" translation="-17.7984 14.2644 -5.76032" rotation="138.292 -80.9707 180" visibility="false" nodeId="28" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="10">
+      <Attribute name="mapPositionIndex" type="string" value="0|2"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

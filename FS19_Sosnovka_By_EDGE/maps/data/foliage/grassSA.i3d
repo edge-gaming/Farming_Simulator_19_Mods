@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="foliage" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.0.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="grassSA_diffuse.png" relativePath="true"/>
+    <File fileId="1" filename="$data/shaders/fruitGrowthFoliageShader.xml"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="grass_mat" materialId="8" customShaderId="1">
+      <Texture fileId="2"/>
+      <CustomParameter name="fadeInOutStartEnd" value="-5 0 70 75"/>
+      <CustomParameter name="frequencyAndScale" value="0.05 0.02 0 0"/>
+      <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="grassSA.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="grass" nodeId="124">
+      <Shape shapeId="1" name="grass01" clipDistance="500" nodeId="125" materialIds="8" castsShadows="false" receiveShadows="true"/>
+      <Shape shapeId="2" name="grass02" clipDistance="500" nodeId="126" materialIds="8" castsShadows="false" receiveShadows="true"/>
+      <Shape shapeId="3" name="grass03" clipDistance="500" nodeId="127" materialIds="8" castsShadows="false" receiveShadows="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

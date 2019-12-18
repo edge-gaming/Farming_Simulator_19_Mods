@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_object_farmhouse</name>
+        <functions>
+            <function>$l10n_function_farmHouse</function>
+        </functions>
+        <image>$data/placeables/mapDE/farmBuildings/store_farmHouse.png</image>
+        <price>180000</price>
+        <dailyUpkeep>150</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <species>placeable</species>
+        <category>farmhouses</category>
+    </storeData>
+
+    <placeableType>farmhouse</placeableType>
+    <filename>maps/data/placeables/farmBuildings/farmHouse.i3d</filename>
+    <placement testSizeX="24" testSizeZ="38" sizeX="18" sizeZ="32" useRandomYRotation="false" useManualYRotation="true" />
+
+    <farmhouse spawnNode="3">
+        <sleeping triggerNode="4" cameraNode="5"/>
+    </farmhouse>
+
+	<dayNightObjects>
+        <dayNightObject node="1|0|0|0" intensityDay="0" intensityNight="1" />
+        <dayNightObject node="1|0|0|1" visibleDay="false" visibleNight="true" />
+        <dayNightObject node="1|1|0" visibleDay="false" visibleNight="true" />
+        <dayNightObject node="1|1|1" visibleDay="false" visibleNight="true" />
+        <dayNightObject node="1|1|2" visibleDay="false" visibleNight="true" />
+        <dayNightObject node="1|1|3" visibleDay="false" visibleNight="true" />
+        <dayNightObject node="1|1|4" visibleDay="false" visibleNight="true" />
+    </dayNightObjects>
+
+    <tipOcclusionUpdateArea sizeX="18" sizeZ="32" />
+
+    <clearAreas>
+        <clearArea startNode="6|0" widthNode="6|0|0" heightNode="6|0|1"/>
+    </clearAreas>
+
+    <hotspots>
+        <hotspot name="Farm house" fullName="$l10n_object_farmhouse" imageName="FARM_HOUSE" hidable="false" linkNode="3" category="CATEGORY_DEFAULT" />
+    </hotspots>
+
+    <leveling requireLeveling="true" maxSmoothDistance="10" maxSlope="75" maxEdgeAngle="30">
+        <levelAreas>
+            <levelArea startNode="7|0" widthNode="7|0|0" heightNode="7|0|1" groundType="asphalt"/>
+        </levelAreas>
+    </leveling>
+
+	<animatedObjects>
+        <animatedObject saveId="slidingGate" >
+            <animation duration="5">
+                <part node="9|3|1">
+                    <keyFrame time="0" translation="5 0 0"/>
+                    <keyFrame time="1" translation="14.797 0 0" />
+                </part>
+            </animation>
+            <controls triggerNode="9|3|0" posAction="ACTIVATE_HANDTOOL" posText="action_openGate" negText="action_closeGate" />
+            <sounds>
+                <moving file="maps/data/sounds/slidingGate.ogg" loops="1" linkNode="9|3|1" volume="0.8" radius="25" innerRadius="3" fadeOut="0.25"/>
+            </sounds>
+        </animatedObject>
+    </animatedObjects>
+</placeable>

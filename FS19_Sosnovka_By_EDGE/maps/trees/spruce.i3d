@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="spruce" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="7.0.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="pineBranch_diffuse.png" relativePath="true"/>
+    <File fileId="2" filename="pineBranch_normal.png" relativePath="true"/>
+    <File fileId="4" filename="spruce1LOD_diffuse.png" relativePath="true"/>
+    <File fileId="5" filename="spruce1LOD_normal.png" relativePath="true"/>
+    <File fileId="10" filename="spruce2LOD_diffuse.png" relativePath="true"/>
+    <File fileId="11" filename="spruce2LOD_normal.png" relativePath="true"/>
+    <File fileId="12" filename="spruce3LOD_diffuse.png" relativePath="true"/>
+    <File fileId="13" filename="spruce3LOD_normal.png" relativePath="true"/>
+    <File fileId="14" filename="spruce4LOD_diffuse.png" relativePath="true"/>
+    <File fileId="15" filename="spruce4LOD_normal.png" relativePath="true"/>
+    <File fileId="16" filename="spruce5LOD_diffuse.png" relativePath="true"/>
+    <File fileId="17" filename="spruce5LOD_normal.png" relativePath="true"/>
+    <File fileId="7" filename="spruceTrunk_diffuse.png" relativePath="true"/>
+    <File fileId="8" filename="spruceTrunk_normal.png" relativePath="true"/>
+    <File fileId="6" filename="../../shaders/treeBillboardShader.xml" relativePath="true"/>
+    <File fileId="3" filename="../../shaders/treeBranchShader.xml" relativePath="true"/>
+    <File fileId="9" filename="../../shaders/treeTrunkShader.xml" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="spruce1LOD_mat" materialId="12" ambientColor="1 1 1" customShaderId="6" customShaderVariation="billboard180">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="spruce5LOD_mat" materialId="9" ambientColor="1 1 1" customShaderId="6" customShaderVariation="billboard180">
+      <Texture fileId="16"/>
+      <Normalmap fileId="17"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="spruce4LOD_mat" materialId="13" ambientColor="1 1 1" customShaderId="6" customShaderVariation="billboard180">
+      <Texture fileId="14"/>
+      <Normalmap fileId="15"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="spruceTrunk_mat" materialId="15" ambientColor="1 1 1" customShaderId="9">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="pineBranch_mat" materialId="7" ambientColor="1 1 1" customShaderId="3">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="spruce3LOD_mat" materialId="10" ambientColor="1 1 1" customShaderId="6" customShaderVariation="billboard180">
+      <Texture fileId="12"/>
+      <Normalmap fileId="13"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="spruce2LOD_mat" materialId="11" ambientColor="1 1 1" customShaderId="6" customShaderVariation="billboard180">
+      <Texture fileId="10"/>
+      <Normalmap fileId="11"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="spruce.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="spruce_stage1" clipDistance="200" nodeId="318" lodDistance="0 60">
+      <Shape shapeId="1" name="LOD0" clipDistance="500" nodeId="319" materialIds="7" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="LOD1" translation="1.00974e-30 0 -9.09495e-15" clipDistance="800" nodeId="320" materialIds="12" castsShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="spruce_stage2" clipDistance="599" nodeId="321" lodDistance="0 120">
+      <Shape shapeId="3" name="LOD0" static="true" collisionMask="16789538" angularDamping="0.15" rollingFriction="0.27" density="0.47" clipDistance="500" nodeId="323" materialIds="15" castsShadows="true" receiveShadows="true" splitType="1" splitUvs="0 0 1 0.064 1.8">
+        <Shape shapeId="4" name="attachments" clipDistance="500" nodeId="362" materialIds="7" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="5" name="LOD1" translation="1.00974e-30 0 -9.09495e-15" clipDistance="1500" nodeId="363" materialIds="11" castsShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="spruce_stage3" clipDistance="599" nodeId="364" lodDistance="0 120">
+      <Shape shapeId="6" name="LOD0" translation="-1.42109e-16 0 0" static="true" collisionMask="16789538" angularDamping="0.15" rollingFriction="0.27" density="0.47" clipDistance="500" nodeId="366" materialIds="15" castsShadows="true" receiveShadows="true" splitType="1" splitUvs="0 0 1 0.064 1.8">
+        <Shape shapeId="7" name="attachments" clipDistance="500" nodeId="415" materialIds="7" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="8" name="LOD1" translation="1.00974e-30 0 -4.54747e-15" clipDistance="1500" nodeId="416" materialIds="10" castsShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="spruce_stage4" clipDistance="599" nodeId="417" lodDistance="0 120">
+      <Shape shapeId="9" name="LOD0" static="true" collisionMask="16789538" angularDamping="0.15" rollingFriction="0.27" density="0.47" clipDistance="500" nodeId="419" materialIds="15" castsShadows="true" receiveShadows="true" splitType="1" splitUvs="0 0 1 0.064 1.8">
+        <Shape shapeId="10" name="attachments" clipDistance="500" nodeId="515" materialIds="7" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="11" name="LOD1" clipDistance="1500" nodeId="516" materialIds="13" castsShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="spruce_stage5" clipDistance="599" nodeId="517" lodDistance="0 120">
+      <Shape shapeId="12" name="LOD0" static="true" collisionMask="16789538" angularDamping="0.15" rollingFriction="0.27" density="0.47" clipDistance="500" nodeId="519" materialIds="15" castsShadows="true" receiveShadows="true" splitType="1" splitUvs="0 0 1 0.064 1.8">
+        <Shape shapeId="13" name="attachments" clipDistance="500" nodeId="638" materialIds="7" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="14" name="LOD1" clipDistance="1500" nodeId="639" materialIds="9" castsShadows="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

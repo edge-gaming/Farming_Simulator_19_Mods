@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_statistic_water</name>
+        <image>$data/store/store_empty.png</image>
+        <price>1</price>
+        <canBeSold>false</canBeSold>
+        <showInStore>false</showInStore>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <species>placeable</species>
+        <category>placeableMisc</category>
+    </storeData>
+
+    <placeableType>buyingStation</placeableType>
+    <filename>maps/data/placeables/waterFillTriggers/waterFillTriggers02.i3d</filename>
+    <placement testSizeX="5" testSizeZ="10" sizeX="3" sizeZ="3" useRandomYRotation="false" useManualYRotation="true" />
+
+    <buyingStation stationName="waterFillTrigger" appearsOnPDA="false" storageRadius="0" fillSoundIdentifier="fillSound01">
+        <loadTrigger triggerNode="0" fillLitersPerSecond="200" autoStart="true"/>
+        <loadTrigger triggerNode="1" fillLitersPerSecond="200" autoStart="true"/>
+        <loadTrigger triggerNode="2" fillLitersPerSecond="200" autoStart="true"/>
+        <loadTrigger triggerNode="3" fillLitersPerSecond="200" autoStart="true"/>
+        <loadTrigger triggerNode="4" fillLitersPerSecond="200" autoStart="true"/>
+        <loadTrigger triggerNode="5" fillLitersPerSecond="200" autoStart="true"/>
+        <loadTrigger triggerNode="6" fillLitersPerSecond="200" autoStart="true"/>
+        <loadTrigger triggerNode="7" fillLitersPerSecond="200" autoStart="true"/>
+        <loadTrigger triggerNode="8" fillLitersPerSecond="200" autoStart="true"/>
+        <fillType name="water" priceScale="0" />
+    </buyingStation>
+
+</placeable>

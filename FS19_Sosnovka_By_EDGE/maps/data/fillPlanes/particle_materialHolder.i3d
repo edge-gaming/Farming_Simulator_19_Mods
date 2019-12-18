@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="particle_materialHolder" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="10" filename="$data/particleSystems/fx_chaff4x1_normal.png"/>
+    <File fileId="5" filename="$data/particleSystems/fx_maize32x4_normal.png"/>
+    <File fileId="1" filename="$data/particleSystems/fx_smoke6x6_01_diffuse.png"/>
+    <File fileId="2" filename="$data/particleSystems/fx_smoke6x6_01_normal.png"/>
+    <File fileId="8" filename="$data/shaders/psColorShader.xml"/>
+    <File fileId="3" filename="$data/shaders/psSubUVShader.xml"/>
+    <File fileId="4" filename="fx_poppyFlower32x4_diffuse.dds"/>
+    <File fileId="9" filename="fx_poppyFlower4x1_diffuse.dds"/>
+    <File fileId="7" filename="fx_poppyWindrow4x1_diffuse.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="fx_smoke01_mat" materialId="4" alphaBlending="true" customShaderId="3" customShaderVariation="SUBUV_MOVIE">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="psPlayScale" value="30 60 1 0"/>
+      <CustomParameter name="psColor" value="0.3 0.1 0.2 1"/>
+    </Material>
+    <Material name="fx_smoke01_mat" materialId="6" alphaBlending="true" customShaderId="3" customShaderVariation="SUBUV_MOVIE">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="psPlayScale" value="30 60 1 0"/>
+      <CustomParameter name="psColor" value="0.791 0.106 0.809 1"/>
+    </Material>
+    <Material name="fx_straw4x1_mat" materialId="20" customShaderId="8">
+      <Texture fileId="7"/>
+      <CustomParameter name="psColor" value="0.3 0.1 0.2 1"/>
+    </Material>
+    <Material name="fx_chaff_mat" materialId="38" customShaderId="8">
+      <Texture fileId="9"/>
+      <Normalmap fileId="10"/>
+      <CustomParameter name="psColor" value="0.791 0.106 0.809 1"/>
+    </Material>
+    <Material name="lambert1" materialId="28" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="fx_maize32x4_mat" materialId="22" customShaderId="3" customShaderVariation="SUBUV_MOVIE_HORIZONTAL">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+      <CustomParameter name="psPlayScale" value="50 150 1 0"/>
+      <CustomParameter name="psColor" value="0.791 0.106 0.809 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="particle_materialHolder.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+    <ParticleSystem name="smokeEmitter" dynamicId="1" type="sprite" rate="0.01" lifespan="2500" maxCount="500" speed="0.00075" speedRandom="0.00025" tangentSpeed="0.5" normalSpeed="1" spriteScaleX="1" spriteScaleY="1" spriteScaleXGain="0.0025" spriteScaleYGain="0.0025" blendFactor="0.2" blendInFactor="0.5" blendOutFactor="0.5" depthSort="true" randomInitRotation="true" deltaRotateMin="-0.000349066" deltaRotateMax="0.000349066" textureAtlasSizeX="6" textureAtlasSizeY="6">
+      <Gravity force="0 0 0"/>
+    </ParticleSystem>
+    <ParticleSystem name="forageEmitter" dynamicId="5" type="sprite" rate="0.25" lifespan="800" maxCount="1000" speed="0.002" speedRandom="0" tangentSpeed="0.01" normalSpeed="1" spriteScaleX="0.5" spriteScaleY="0.5" blendFactor="1" blendInFactor="0" blendOutFactor="1" randomInitRotation="true" deltaRotateMin="-0.0015708" deltaRotateMax="0.0015708" textureAtlasSizeX="4">
+      <Gravity force="0 -1.5 0"/>
+    </ParticleSystem>
+    <ParticleSystem name="sunflowerChipsEmitter" dynamicId="3" type="sprite" rate="0.5" lifespan="1000" maxCount="2000" speed="0.002" speedRandom="0" tangentSpeed="0.25" normalSpeed="1" spriteScaleX="0.15" spriteScaleY="0.15" blendFactor="1" blendInFactor="0" blendOutFactor="1" depthSort="true" randomInitRotation="true" deltaRotateMin="-0.00139626" deltaRotateMax="0.00139626" textureAtlasSizeX="32" textureAtlasSizeY="4">
+      <Gravity force="0 -0.4 0"/>
+    </ParticleSystem>
+    <ParticleSystem name="wheatWindrowEmitter" dynamicId="4" type="sprite" rate="0.2" lifespan="1200" maxCount="500" speed="0.002" speedRandom="0" tangentSpeed="0.1" normalSpeed="1" spriteScaleX="0.7" spriteScaleY="0.7" blendFactor="1" blendInFactor="0" blendOutFactor="0.75" depthSort="true" randomInitRotation="true" deltaRotateMin="-0.00174533" deltaRotateMax="0.00174533" textureAtlasSizeX="4">
+      <Gravity force="0 -0.3 0"/>
+    </ParticleSystem>
+    <ParticleSystem name="sunflowerChipsEmitter" dynamicId="6" type="sprite" rate="0.17" lifespan="800" maxCount="2000" speed="0.001" speedRandom="0.0005" tangentSpeed="1" normalSpeed="0" spriteScaleX="0.15" spriteScaleY="0.15" blendFactor="1" blendInFactor="0" blendOutFactor="1" depthSort="true" randomInitRotation="true" deltaRotateMin="-0.00139626" deltaRotateMax="0.00139626" textureAtlasSizeX="32" textureAtlasSizeY="4">
+      <Gravity force="0 -0.5 0"/>
+    </ParticleSystem>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="smokeParticleSystems" nodeId="135">
+      <TransformGroup name="poppyFlower" nodeId="148">
+        <Dynamic dynamicId="1" emitterShapeNodeId="159" name="smokeEmitter" clipDistance="100" nodeId="150" materialIds="6" distanceBlending="false">
+          <Shape shapeId="2" name="emitShape" nodeId="151" materialIds="6" nonRenderable="true"/>
+        </Dynamic>
+      </TransformGroup>
+      <TransformGroup name="poppy" nodeId="176">
+        <Dynamic dynamicId="1" emitterShapeNodeId="139" name="smokeEmitter" clipDistance="100" nodeId="178" materialIds="4" distanceBlending="false">
+          <Shape shapeId="2" name="emitShape" nodeId="179" materialIds="4" nonRenderable="true"/>
+        </Dynamic>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="chopperParticleSystems" nodeId="185">
+      <TransformGroup name="poppyFlower" nodeId="198">
+        <Dynamic dynamicId="3" emitterShapeNodeId="201" name="poppyFlowerChipsEmitter" clipDistance="50" nodeId="200" materialIds="22" distanceBlending="false">
+          <Shape shapeId="2" name="emitShape" nodeId="201" materialIds="28" nonRenderable="true"/>
+        </Dynamic>
+      </TransformGroup>
+      <TransformGroup name="poppy" rotation="0 -0 -14.0549" nodeId="214">
+        <Dynamic dynamicId="4" emitterShapeNodeId="189" name="chopperEmitter" clipDistance="100" nodeId="216" materialIds="20" distanceBlending="false">
+          <Shape shapeId="2" name="emitShape" nodeId="217" materialIds="28" nonRenderable="true"/>
+        </Dynamic>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="unloadingParticles" nodeId="218">
+      <TransformGroup name="poppyFlower" nodeId="219">
+        <Dynamic dynamicId="5" emitterShapeNodeId="222" name="poppyFlowerEmitter" clipDistance="100" nodeId="221" materialIds="38" distanceBlending="false">
+          <Shape shapeId="2" name="emitShape" nodeId="222" materialIds="28" nonRenderable="true"/>
+        </Dynamic>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="cutterChopper" nodeId="282">
+      <TransformGroup name="poppyFlower" nodeId="283">
+        <Dynamic dynamicId="6" emitterShapeNodeId="286" name="poppyFlowerChipsEmitter" clipDistance="50" nodeId="285" materialIds="22" distanceBlending="false">
+          <Shape shapeId="7" name="emitShape" nodeId="286" materialIds="28" nonRenderable="true"/>
+        </Dynamic>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="150">
+      <Attribute name="fillType" type="string" value="poppyFlower"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateParticleSystem"/>
+      <Attribute name="particleType" type="string" value="SMOKE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="178">
+      <Attribute name="fillType" type="string" value="poppy"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateParticleSystem"/>
+      <Attribute name="particleType" type="string" value="SMOKE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="200">
+      <Attribute name="fillType" type="string" value="poppyFlower"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateParticleSystem"/>
+      <Attribute name="particleType" type="string" value="CHOPPER"/>
+    </UserAttribute>
+    <UserAttribute nodeId="216">
+      <Attribute name="fillType" type="string" value="poppy"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateParticleSystem"/>
+      <Attribute name="particleType" type="string" value="CHOPPER"/>
+    </UserAttribute>
+    <UserAttribute nodeId="221">
+      <Attribute name="fillType" type="string" value="poppyFlower"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateParticleSystem"/>
+      <Attribute name="particleType" type="string" value="UNLOADING"/>
+    </UserAttribute>
+    <UserAttribute nodeId="285">
+      <Attribute name="fillType" type="string" value="poppyFlower"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateParticleSystem"/>
+      <Attribute name="particleType" type="string" value="CUTTER_CHOPPER"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

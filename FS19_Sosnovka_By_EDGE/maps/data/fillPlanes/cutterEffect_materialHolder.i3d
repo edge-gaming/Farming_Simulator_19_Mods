@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="cutterEffect_materialHolder" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="$data/shaders/cuttersShader.xml"/>
+    <File fileId="1" filename="../foliage/poppy_diffuse.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="maize_mat14" materialId="5" customShaderId="2" customShaderVariation="MESH_SCALING">
+      <Texture fileId="1"/>
+      <CustomParameter name="scrollPosition" value="0 1 -10 10"/>
+      <CustomParameter name="lengthAndRadius" value="2.5 1.3 2 3"/>
+    </Material>
+    <Material name="maize_mat13" materialId="4" customShaderId="2" customShaderVariation="MESH_SCROLLING">
+      <Texture fileId="1"/>
+      <CustomParameter name="scrollPosition" value="0 1 -10 10"/>
+      <CustomParameter name="lengthAndRadius" value="3.2 1 1 1"/>
+    </Material>
+    <Material name="oat_mat2" materialId="9" customShaderId="2" customShaderVariation="MESH_SCROLLING">
+      <Texture fileId="1"/>
+      <CustomParameter name="scrollPosition" value="0 1 -10 10"/>
+      <CustomParameter name="lengthAndRadius" value="4.3 1 1 1"/>
+    </Material>
+    <Material name="maize_mat15" materialId="7" customShaderId="2" customShaderVariation="MESH_SCROLLING">
+      <Texture fileId="1"/>
+      <CustomParameter name="scrollPosition" value="0 1 -10 10"/>
+      <CustomParameter name="lengthAndRadius" value="4 1 1.5 1.5"/>
+    </Material>
+    <Material name="maize_mat" materialId="6" customShaderId="2" customShaderVariation="MESH_SCALING">
+      <Texture fileId="1"/>
+      <CustomParameter name="scrollPosition" value="0 1 -10 10"/>
+      <CustomParameter name="lengthAndRadius" value="1 3.8 1 3"/>
+    </Material>
+    <Material name="oat_mat" materialId="8" customShaderId="2" customShaderVariation="MESH_ROTATION">
+      <Texture fileId="1"/>
+      <CustomParameter name="scrollPosition" value="0 1 -10 10"/>
+      <CustomParameter name="lengthAndRadius" value="0 0 -0.25 0.25"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="cutterEffect_materialHolder.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="cutting" nodeId="23">
+      <TransformGroup name="shader" nodeId="24">
+        <TransformGroup name="poppyFlowerThreshing" nodeId="25">
+          <Shape shapeId="1" name="center" clipDistance="100" nodeId="26" materialIds="6" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="right" clipDistance="100" nodeId="27" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="left" clipDistance="100" nodeId="28" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="poppyFlowerForage" nodeId="29">
+          <Shape shapeId="4" name="center" clipDistance="100" nodeId="30" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="right" clipDistance="100" nodeId="31" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="left" clipDistance="100" nodeId="32" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="poppyFlowerForage_stage3" nodeId="33">
+          <Shape shapeId="7" name="center" clipDistance="100" nodeId="34" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="8" name="right" clipDistance="100" nodeId="35" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="9" name="left" clipDistance="100" nodeId="36" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="poppy" nodeId="37">
+          <Shape shapeId="10" name="center" clipDistance="100" nodeId="38" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="11" name="right" clipDistance="100" nodeId="39" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="12" name="left" clipDistance="100" nodeId="40" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="poppyFlower" nodeId="43">
+          <Shape shapeId="10" name="center" clipDistance="100" nodeId="44" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="11" name="right" clipDistance="100" nodeId="45" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="12" name="left" clipDistance="100" nodeId="46" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="hemp" nodeId="47">
+          <Shape shapeId="10" name="center" clipDistance="100" nodeId="48" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="11" name="right" clipDistance="100" nodeId="49" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="12" name="left" clipDistance="100" nodeId="50" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="26">
+      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
+      <Attribute name="fruitType" type="string" value="poppyFlower"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="27">
+      <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
+      <Attribute name="fruitType" type="string" value="poppyFlower"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="28">
+      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
+      <Attribute name="fruitType" type="string" value="poppyFlower"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="30">
+      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
+      <Attribute name="fruitType" type="string" value="poppyFlower"/>
+      <Attribute name="isThreshing" type="boolean" value="false"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="31">
+      <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
+      <Attribute name="fruitType" type="string" value="poppyFlower"/>
+      <Attribute name="isThreshing" type="boolean" value="false"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="32">
+      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
+      <Attribute name="fruitType" type="string" value="poppyFlower"/>
+      <Attribute name="isThreshing" type="boolean" value="false"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="34">
+      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
+      <Attribute name="fruitType" type="string" value="poppyFlower"/>
+      <Attribute name="growthStates" type="string" value="3"/>
+      <Attribute name="isThreshing" type="boolean" value="false"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="35">
+      <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
+      <Attribute name="fruitType" type="string" value="poppyFlower"/>
+      <Attribute name="growthStates" type="string" value="3"/>
+      <Attribute name="isThreshing" type="boolean" value="false"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="36">
+      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
+      <Attribute name="fruitType" type="string" value="poppyFlower"/>
+      <Attribute name="growthStates" type="string" value="3"/>
+      <Attribute name="isThreshing" type="boolean" value="false"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="38">
+      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
+      <Attribute name="fruitType" type="string" value="poppy"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="39">
+      <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
+      <Attribute name="fruitType" type="string" value="poppy"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="40">
+      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
+      <Attribute name="fruitType" type="string" value="poppy"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="44">
+      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
+      <Attribute name="fruitType" type="string" value="poppyFlower"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="45">
+      <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
+      <Attribute name="fruitType" type="string" value="poppyFlower"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="46">
+      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
+      <Attribute name="fruitType" type="string" value="poppyFlower"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="48">
+      <Attribute name="cutterEffectType" type="string" value="CENTER"/>
+      <Attribute name="fruitType" type="string" value="hemp"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="49">
+      <Attribute name="cutterEffectType" type="string" value="RIGHT"/>
+      <Attribute name="fruitType" type="string" value="hemp"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+    <UserAttribute nodeId="50">
+      <Attribute name="cutterEffectType" type="string" value="LEFT"/>
+      <Attribute name="fruitType" type="string" value="hemp"/>
+      <Attribute name="isThreshing" type="boolean" value="true"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateCutterEffect"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<trainSystem>
+    <train type="woodTrain" maxSpeed="40" maxAcc="5">
+        <asset filename="$data/vehicles/train/locomotiveKI.i3d" length="17" numWheels="4" exhaustIndex="0>4"/>
+        <asset filename="$data/vehicles/train/wagonTimberKI.i3d" length="13" numWheels="2" woodSellTriggerIndex="0>2"/>
+        <asset filename="$data/vehicles/train/wagonTimberKI.i3d" length="13" numWheels="2"/>
+    </train>
+    <train type="grainTrain1" maxSpeed="40" maxAcc="5">
+        <asset filename="$data/vehicles/train/locomotiveKI.i3d" length="16.97" numWheels="4" exhaustIndex="0>4" direction="-1"/>
+        <asset filename="$data/vehicles/train/wagonGrainKI.i3d" length="14.7" numWheels="4" fillTypes="wheat barley sunflower"/>
+        <asset filename="$data/vehicles/train/wagonGrainKI.i3d" length="14.7" numWheels="4" fillTypes="rape maize soybean"/>
+    </train>
+    <train type="grainTrain2" maxSpeed="40" maxAcc="5">
+        <asset filename="$data/vehicles/train/locomotiveKI.i3d" length="16.97" numWheels="4" exhaustIndex="0>4" direction="-1"/>
+        <asset filename="$data/vehicles/train/wagonSugarbeetsKI.i3d" length="14.7" numWheels="4" fillTypes="sugarBeet"/>
+        <asset filename="$data/vehicles/train/wagonSugarbeetsKI.i3d" length="14.7" numWheels="4" fillTypes="potato"/>
+    </train>
+    <train type="grainTrain3" maxSpeed="40" maxAcc="5">
+        <asset filename="$data/vehicles/train/locomotiveKI.i3d" length="16.97" numWheels="4" exhaustIndex="0>4" direction="-1"/>
+        <asset filename="$data/vehicles/train/wagonGrainKI.i3d" length="14.7" numWheels="4" fillTypes="wheat barley rape sunflower"/>
+        <asset filename="$data/vehicles/train/wagonGrainKI.i3d" length="14.7" numWheels="4" fillTypes="soybean maize potato sugarBeet"/>
+    </train>
+</trainSystem>

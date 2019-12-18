@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="forestGrassDark" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Files>
+    <File fileId="1" filename="foliage/forestGrassDark_diffuse.png" relativePath="true"/>
+    <File fileId="3" filename="$data/$data/shaders/solidFoliageShader.xml" relativePath="true"/>
+  </Files>
+  <Materials>
+    <Material name="foliage_forestGrassDark_mat" materialId="1" cosPower="" specularColor="" ambientColor="1 1 1" customShaderId="3">
+      <CustomParameter name="fadeStartEnd" value="55 60 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+      <Texture fileId="1"/>
+    </Material>
+  </Materials>
+  <Shapes externalShapesFile="forestGrassDark.i3d.shapes">
+  </Shapes>
+  <Scene>
+    <Shape name="forestGrassDark0" shapeId="65" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="0"/>
+  </Scene>
+  <UserAttributes>
+  </UserAttributes>
+</i3D>

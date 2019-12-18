@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_object_farmhouse</name>
+        <functions>
+            <function>$l10n_function_farmHouse</function>
+        </functions>
+        <image>maps/data/placeables/farmBuildings/store_farmMansion.png</image>
+        <price>200000</price>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <species>placeable</species>
+        <category>farmhouses</category>
+    </storeData>
+
+    <placeableType>farmhouse</placeableType>
+    <filename>maps/data/placeables/farmBuildings/farmMansion.i3d</filename>
+    <placement testSizeX="30" testSizeZ="30" sizeX="25" sizeZ="24" useRandomYRotation="false" useManualYRotation="true" />
+
+    <dayNightObjects>
+        <dayNightObject node="0|3|0" visibleDay="false" visibleNight="true" />
+        <dayNightObject node="0|3|1" visibleDay="false" visibleNight="true" />
+        <dayNightObject node="0|3|2|0" intensityDay="0" intensityNight="1" />
+    </dayNightObjects>
+
+    <farmhouse spawnNode="1">
+        <sleeping triggerNode="2" cameraNode="3"/>
+    </farmhouse>
+
+    <tipOcclusionUpdateArea sizeX="25" sizeZ="24" />
+
+    <clearAreas>
+        <clearArea startNode="4|0" widthNode="4|0|0" heightNode="4|0|1"/>
+    </clearAreas>
+
+    <hotspots>
+        <hotspot name="Farm house" fullName="$l10n_object_farmhouse" imageName="FARM_HOUSE" hidable="false" linkNode="1" category="CATEGORY_DEFAULT" />
+    </hotspots>
+
+    <leveling requireLeveling="true" maxSmoothDistance="8" maxSlope="30" maxEdgeAngle="30" >
+        <levelAreas>
+            <levelArea startNode="5|0" widthNode="5|0|0" heightNode="5|0|1" groundType="dirt"/>
+        </levelAreas>
+    </leveling>
+</placeable>

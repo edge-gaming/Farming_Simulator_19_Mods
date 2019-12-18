@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_shopItem_farmSiloLarge</name>
+        <functions>
+            <function>$l10n_function_farmSilo</function>
+        </functions>
+        <specs>
+            <capacity>200000</capacity>
+            <fillTypes>wheat barley canola maize oat sunflower soybean</fillTypes>
+        </specs>
+        <image>maps/data/placeables/farmBuildings/store_farmSilo.png</image>
+        <price>20000</price>
+        <lifetime>1000</lifetime>
+        <canBeSold>true</canBeSold>
+        <showInStore>false</showInStore>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <species>placeable</species>
+        <category>silos</category>
+    </storeData>
+
+    <placeableType>silo</placeableType>
+    <filename>maps/data/placeables/farmBuildings/farmSilo.i3d</filename>
+    <placement testSizeX="40" testSizeZ="40" sizeX="30" sizeZ="30" useRandomYRotation="false" useManualYRotation="true" />
+
+    <loadingStation stationName="$l10n_station_farmSilo" appearsOnPDA="false" storageRadius="50" fillSoundIdentifier="fillSound01">
+        <loadTrigger triggerNode="1|0|0|0" fillLitersPerSecond="2000" dischargeNode="1|0|0|1">
+            <effectNode effectNode="1|0|0|2|0" materialType="unloading" materialTypeId="3" fadeTime="0.5" />
+            <effectNode effectNode="1|0|0|2|1" materialType="smoke"     materialTypeId="1" fadeTime="0.5" />
+        </loadTrigger>
+    </loadingStation>
+
+    <unloadingStation stationName="$l10n_station_farmSilo" appearsOnPDA="false" storageRadius="50">
+        <unloadTrigger exactFillRootNode="0|0|0" />
+    </unloadingStation>
+
+    <storages>
+        <storage node="2|0" fillTypes="wheat barley canola maize oat sunflower soybean" capacityPerFillType="200000" />
+    </storages>
+
+    <hotspots>
+        <hotspot name="Farm silo" fullName="$l10n_station_farmSilo" imageName="SELLING_POINT" hidable="true" linkNode="3" category="CATEGORY_TRIGGERS" />
+    </hotspots>
+
+</placeable>

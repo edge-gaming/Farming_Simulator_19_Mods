@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<environment dayNightCycle="true" startHour="8.5" nightStart="19.5" nightEnd="7" sunHeightAngle="-50">
+
+    <envMap basePath="maps/weightMaps/envMaps/">
+        <timeProbe timeHours="0" />
+        <timeProbe timeHours="2" />
+        <timeProbe timeHours="3" />
+        <timeProbe timeHours="4" />
+        <timeProbe timeHours="5" />
+        <timeProbe timeHours="6" />
+        <timeProbe timeHours="6.19" />
+        <timeProbe timeHours="6.35" />
+        <timeProbe timeHours="6.4" />
+        <timeProbe timeHours="6.5" />
+        <timeProbe timeHours="6.7" />
+        <timeProbe timeHours="7" />
+        <timeProbe timeHours="8" />
+        <timeProbe timeHours="10" />
+        <timeProbe timeHours="12" />
+        <timeProbe timeHours="14" />
+        <timeProbe timeHours="16" />
+        <timeProbe timeHours="17" />
+        <timeProbe timeHours="18" />
+        <timeProbe timeHours="18.5" />
+        <timeProbe timeHours="19" />
+        <timeProbe timeHours="19.01" />
+        <timeProbe timeHours="19.02" />
+        <timeProbe timeHours="19.05" />
+        <timeProbe timeHours="19.15" />
+        <timeProbe timeHours="19.29" />
+        <timeProbe timeHours="19.3" />
+        <timeProbe timeHours="19.31" />
+        <timeProbe timeHours="19.35" />
+        <timeProbe timeHours="19.42" />
+        <timeProbe timeHours="19.45" />
+        <timeProbe timeHours="19.49" />
+        <timeProbe timeHours="19.51" />
+        <timeProbe timeHours="19.53" />
+        <timeProbe timeHours="19.55" />
+        <timeProbe timeHours="19.7" />
+        <timeProbe timeHours="19.85" />
+        <timeProbe timeHours="20" />
+        <timeProbe timeHours="20.2" />
+        <timeProbe timeHours="20.35" />
+        <timeProbe timeHours="20.5" />
+        <timeProbe timeHours="21" />
+        <timeProbe timeHours="22" />
+    </envMap>
+
+    <autoExposure>
+        <key keyLuminance="0.13"  minExposure="-2.5" maxExposure="2.3" time="0*60" />
+        <key keyLuminance="0.13"  minExposure="-2.5" maxExposure="2.3" time="24*60" />
+    </autoExposure>
+
+    <colorGradings>
+        <colorGrading filename="xmlFiles/Sos_Videl_colorGradingNight.xml"  time="0*60" />
+        <colorGrading filename="xmlFiles/Sos_Videl_colorGradingNight.xml"  time="5*60" />
+        <colorGrading filename="xmlFiles/Sos_Videl_colorGrading.xml"       time="6*60" />
+        <colorGrading filename="xmlFiles/Sos_Videl_colorGrading.xml"       time="20*60"/>
+        <colorGrading filename="xmlFiles/Sos_Videl_colorGradingNight.xml"  time="22*60"/>
+        <colorGrading filename="xmlFiles/Sos_Videl_colorGradingNight.xml"  time="24*60"/>
+    </colorGradings>
+
+    <sunRotation heightAngleLimitRotation="60" heightAngleLimitRotationStart="56" heightAngleLimitRotationEnd="80">
+        <key value="0"   time="0*60" />
+        <key value="80"  time="6.5*60" />
+        <key value="-80"  time="6.5*60" /> <!-- sunrise 6 -->
+        <key value="0"   time="12*60" />
+        <key value="80"  time="19.5*60" />
+        <key value="-80"  time="19.5*60" /> <!-- sunset 20 -->
+        <key value="0"   time="24*60" />
+    </sunRotation>
+
+    <lightScatteringRotation>
+        <key primary="0"    secondary="-180"   time="0*60" />
+        <key primary="80"   secondary="-80"    time="6.5*60" /> <!-- switch, sunrise ~6 -->
+        <key primary="-80"  secondary="80"     time="6.5*60" />
+        <key primary="0"    secondary="180"    time="12*60" />
+        <key primary="0"    secondary="-180"   time="12*60" />
+        <key primary="80"   secondary="-80"    time="19.5*60" /> <!-- switch, sunset ~20 -->
+        <key primary="-80"  secondary="80"     time="19.5*60" />
+        <key primary="0"    secondary="180"    time="24*60" />
+    </lightScatteringRotation>
+
+    <primaryDynamicLightingScale>
+        <key value="1" time="0*60" />
+        <key value="1" time="6.2*60" />
+        <key value="0.0" time="6.5*60" />  <!-- sunrise switch -->
+        <key value="1" time="6.8*60" />
+        <key value="1" time="19.2*60" />
+        <key value="0.0" time="19.5*60" /> <!-- sunset switch -->
+        <key value="1" time="19.8*60" />
+        <key value="1" time="24*60" />
+    </primaryDynamicLightingScale>
+
+    <primaryExtraterrestrialColor>
+        <key values="0.04 0.04 0.04" time="0*60" />
+        <key values="0.04 0.04 0.04" time="6.5*60" />
+        <key values="1.0 1.0 1.0"    time="6.5*60" />  <!-- sunrise switch -->
+        <key values="1.0 1.0 1.0"    time="19.5*60" /> <!-- sunset switch -->
+        <key values="0.04 0.04 0.04" time="19.5*60" />
+        <key values="0.04 0.04 0.04" time="24*60" />
+    </primaryExtraterrestrialColor>
+
+    <secondaryExtraterrestrialColor>
+        <key values="0.0 0.0 0.0"    time="0*60" />
+        <key values="0.0 0.0 0.0"    time="5*60" />
+        <key values="1.0 1.0 1.0"    time="6.5*60" />
+        <key values="0.04 0.04 0.04" time="6.5*60" />  <!-- sunrise switch (secondary becomes moon) -->
+        <key values="0.0 0.0 0.0"    time="7*60" />
+        <key values="0.0 0.0 0.0"    time="18.5*60" />
+        <key values="0.04 0.04 0.04" time="19.5*60" /> <!-- sunset switch (secondary becomes sun) -->
+        <key values="1.0 1.0 1.0"    time="19.5*60" />
+        <key values="0.0 0.0 0.0"    time="21*60" />
+        <key values="0.0 0.0 0.0"    time="24*60" />
+    </secondaryExtraterrestrialColor>
+
+    <asymmetryFactor>
+        <key value="0.7" time="0*60" />
+        <key value="0.5" time="8*60" />
+        <key value="0.5" time="20*60" />
+        <key value="0.7" time="24*60" />
+    </asymmetryFactor>
+
+    <sunBrightnessScale>
+        <key value="0.0" time="0*60" />
+        <key value="0.0" time="5.5*60" />
+        <key value="0.01" time="6*60" />
+        <key value="5" time="12*60" />
+        <key value="0.01" time="20*60" />
+        <key value="0.0" time="20.5*60" />
+        <key value="0.0" time="24*60" />
+    </sunBrightnessScale>
+
+    <sunSizeScale>
+        <key value="15000" time="0*60" />
+        <key value="15000" time="7*60" />
+        <key value="20000" time="12*60" />
+        <key value="15000" time="19*60" />
+        <key value="15000" time="24*60" />
+    </sunSizeScale>
+
+    <moonBrightnessScale>
+        <key value="0.5" time="0*60" />
+        <key value="0.5" time="7*60" />
+        <key value="0.0" time="7.5*60" />
+        <key value="0.0" time="18.5*60" />
+        <key value="0.5" time="19*60" />
+        <key value="0.5" time="24*60" />
+    </moonBrightnessScale>
+
+    <moonSizeScale>
+        <key value="42" time="0*60" />
+        <key value="42" time="24*60" />
+    </moonSizeScale>
+
+    <sunIsPrimary>
+        <key value="0" time="0*60" />
+        <key value="0" time="6.5*60" />
+        <key value="1" time="6.5*60" />
+        <key value="1" time="19.5*60" />
+        <key value="0" time="19.5*60" />
+        <key value="0" time="24*60" />
+    </sunIsPrimary>
+
+    <weather>
+        <object typeName="CLOUDY" class="WeatherObject" weight="7">
+            <!-- cloudy -->
+            <variation weight="1" minHours="9" maxHours="15" minTemperature="15" maxTemperature="25">
+                <cloudTypes from="0.1" to="0.9" />
+                <clouds densityScale="0.5" />
+                <cirrusClouds densityScale="0.03" />
+            </variation>
+
+            <!-- Small Dense Clouds -->
+            <variation weight="1" minHours="8" maxHours="18" minTemperature="15" maxTemperature="25">
+                <cloudTypes from="0.20" to="0.45" />
+                <clouds densityScale="0.85" />
+                <cirrusClouds densityScale="0.08" />
+            </variation>
+
+            <!-- Very Dense Clouds -->
+            <variation weight="1" minHours="7" maxHours="17" minTemperature="15" maxTemperature="25">
+                <cloudTypes from="0.45" to="0.9" />
+                <clouds densityScale="0.65" />
+                <cirrusClouds densityScale="0.07" />
+            </variation>
+
+            <!-- lightly cloudy -->
+            <variation weight="1" minHours="8" maxHours="16" minTemperature="15" maxTemperature="25">
+                <cloudTypes from="0.35" to="0.55" />
+                <clouds densityScale="0.6" />
+                <cirrusClouds densityScale="0.05" />
+            </variation>
+        </object>
+
+        <object typeName="SUN" class="WeatherObject" weight="10">
+            <!-- Blue Sky -->
+            <variation weight="1" minHours="8" maxHours="18" minTemperature="20" maxTemperature="30">
+                <cloudTypes from="0.5" to="0.5" />
+                <clouds densityScale="0.05" />
+                <cirrusClouds densityScale="0.0" />
+            </variation>
+
+            <!-- Sunny Light Clouds -->
+            <variation weight="1" minHours="6" maxHours="17" minTemperature="15" maxTemperature="25">
+                <cloudTypes from="0.1" to="0.3" />
+                <clouds densityScale="0.35" />
+                <cirrusClouds densityScale="0.01" />
+            </variation>
+
+            <!-- Sunny Light Clouds 2 -->
+            <variation weight="1" minHours="7" maxHours="16" minTemperature="15" maxTemperature="25">
+                <cloudTypes from="0.20" to="0.35" />
+                <clouds densityScale="0.37" />
+                <cirrusClouds densityScale="0.02" />
+            </variation>
+
+            <variation weight="1" minHours="10" maxHours="17" minTemperature="20" maxTemperature="30">
+                <cloudTypes from="0" to="0.1" />
+                <clouds densityScale="0" />
+                <cirrusClouds densityScale="0" />
+            </variation>
+
+            <variation weight="1" minHours="9" maxHours="16" minTemperature="20" maxTemperature="30">
+                <cloudTypes from="0" to="0.1" />
+                <clouds densityScale="0" />
+                <cirrusClouds densityScale="0.02" />
+            </variation>
+
+            <variation weight="1" minHours="5" maxHours="6" minTemperature="20" maxTemperature="30">
+                <cloudTypes from="0" to="0.05" />
+                <clouds densityScale="0.1" />
+                <cirrusClouds densityScale="0" />
+            </variation>
+        </object>
+
+        <object typeName="RAIN" class="WeatherObjectRain" weight="1">
+            <rain filename="$data/sky/rain.i3d" />
+
+            <variation weight="1" minHours="7" maxHours="8" minTemperature="13" maxTemperature="24">
+                <cloudTypes from="0.9" to="1.0" />
+                <clouds densityScale="0.85" />
+                <cirrusClouds densityScale="0.1" />
+                <rain dropScale="1" />
+            </variation>
+            <variation weight="4" minHours="10" maxHours="13" minTemperature="13" maxTemperature="24">
+                <cloudTypes from="0.85" to="1.0" />
+                <clouds densityScale="0.85" />
+                <cirrusClouds densityScale="0.08" />
+                <rain dropScale="0.5" />
+            </variation>
+            <variation weight="3" minHours="8" maxHours="12" minTemperature="13" maxTemperature="24">
+                <cloudTypes from="0.95" to="1.0" />
+                <clouds densityScale="0.85" />
+                <cirrusClouds densityScale="0.09" />
+                <rain dropScale="0.6" />
+            </variation>
+        </object>
+
+        <wind>
+            <object angle="120" speed="60" cirrusSpeedFactor="0.80" />
+            <object angle="160" speed="40" cirrusSpeedFactor="0.85" />
+            <object angle="140" speed="35" cirrusSpeedFactor="0.75" />
+            <object angle="80"  speed="40" cirrusSpeedFactor="0.80" />
+            <object angle="90"  speed="33" cirrusSpeedFactor="0.80" />
+            <object angle="70"  speed="50" cirrusSpeedFactor="0.75" />
+            <object angle="50"  speed="52" cirrusSpeedFactor="0.80" />
+            <object angle="170" speed="40" cirrusSpeedFactor="0.85" />
+            <object angle="130" speed="70" cirrusSpeedFactor="0.80" />
+            <object angle="145" speed="80" cirrusSpeedFactor="0.75" />
+        </wind>
+        <!-- fog height has at least to be the same height as the highest point on the map -->
+        <fog height="400" minMieScale="2" maxMieScale="30" rainMieScale="30" startHour="3" endHour="7" fadeIn="2" fadeOut="4"/>
+    </weather>
+</environment>

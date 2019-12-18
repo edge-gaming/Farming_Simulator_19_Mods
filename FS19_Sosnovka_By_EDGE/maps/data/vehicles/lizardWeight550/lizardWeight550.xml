@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="implement">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+
+    <storeData>
+        <name>550</name>
+        <functions>
+            <function>$l10n_function_weight</function>
+        </functions>
+		<specs>
+            <capacity unit="$l10n_unit_kg">550</capacity>
+        </specs>
+        <rotation>0</rotation>
+        <image>maps/data/vehicles/lizardWeight550/store_lizardWeight550.dds</image>
+        <price>250</price>
+        <lifetime>600</lifetime>
+        <brand>EDGE</brand>
+        <category>weights</category>
+    </storeData>
+    <base>
+        <typeDesc>$l10n_typeDesc_weight</typeDesc>
+        <filename>maps/data/vehicles/lizardWeight550/lizardWeight550.i3d</filename>
+        <size width="2" length="1.5"/>
+        <components>
+			<component centerOfMass="0 0.3 0" solverIterationCount="10" mass="550" />
+        </components>
+        <schemaOverlay attacherJointPosition="0 0">
+            <default name="DEFAULT_IMPLEMENT"/>
+            <selected name="DEFAULT_IMPLEMENT_SELECTED"/>
+        </schemaOverlay>
+    </base>
+
+	<attachable>
+        <inputAttacherJoints>
+            <inputAttacherJoint node="attacherJoint" jointType="implement" topReferenceNode="topReferenceNode" lowerRotLimitScale="0 0 0" upperRotationOffset="3" lowerRotationOffset="0" needsLowering="false">
+                <distanceToGround lower="0" upper="1.5" />
+            </inputAttacherJoint>
+        </inputAttacherJoints>
+    </attachable>
+
+    <foliageBending>
+        <bendingNode minX="-0.8" maxX="0.8" minZ="-0.5" maxZ="0.5" yOffset="0.1" />
+    </foliageBending>
+
+    <baseMaterial>
+        <material name="lizzardWeight350_weight" baseNode="lizardWeight550_vis">
+            <shaderParameter name="colorMat0" value="SUER_GREY1"/>
+        </material>
+    </baseMaterial>
+
+    <baseMaterialConfigurations price="100" useDefaultColors="true" defaultColorIndex="8">
+        <material name="lizzardWeight350_weight" shaderParameter="colorMat0" />
+    </baseMaterialConfigurations>
+
+    <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
+    <washable dirtDuration="90" washDuration="1" workMultiplier="2" fieldMultiplier="2"/>
+
+	<i3dMappings>
+        <i3dMapping id="attacherJoint" node="0>0" />
+        <i3dMapping id="topReferenceNode" node="0>1" />
+        <i3dMapping id="lizardWeight550_vis" node="0>2" />
+    </i3dMappings>
+</vehicle>

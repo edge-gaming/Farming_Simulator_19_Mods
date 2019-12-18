@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<sounds>
+    <motorStart template="SMALL_TRACTOR_MOTOR_START" file="maps/data/vehicles/DeutzAgroStar661/sounds/deutz_agrostar_661_start.wav" linkNode="0>">
+        <volume indoor="0.6" outdoor="0.85" />
+        <lowpassGain indoor="0.65" outdoor="1.0" />
+
+    </motorStart>
+    <motorStop template="SMALL_TRACTOR_MOTOR_STOP" file="maps/data/vehicles/DeutzAgroStar661/sounds/deutz_agrostar_661_stop.wav" linkNode="0>">
+        <volume indoor="0.6" outdoor="0.85" />
+        <lowpassGain indoor="0.65" outdoor="1.0" />
+
+    </motorStop>
+
+    <motor template="SMALL_TRACTOR_MOTOR_IDLE" file="maps/data/vehicles/DeutzAgroStar661/sounds/deutz_agrostar_661_idle_loop.wav" linkNode="0>">
+        <volume indoor="0.6" outdoor="0.85" />
+        <lowpassGain indoor="0.65" outdoor="1.0" />
+
+    </motor>
+    <motor template="SMALL_TRACTOR_MOTOR_OFFLOAD_RUN" file="maps/data/vehicles/DeutzAgroStar661/sounds/deutz_agrostar_661_run_loop.wav" linkNode="0>">
+        <volume indoor="0.6" outdoor="0.85" />
+        <lowpassGain indoor="0.65" outdoor="1.0" />
+
+    </motor>
+    <motor file="maps/data/vehicles/DeutzAgroStar661/sounds/deutz_agrostar_661_load_loop.wav" linkNode="0>" innerRadius="15.0" outerRadius="100.0" >
+        <volume indoor="0.6" outdoor="0.85" >
+            <modifier type="MOTOR_LOAD" value="0.0" modifiedValue="0.00" />
+            <modifier type="MOTOR_LOAD" value="1.0" modifiedValue="1.20" />
+
+            <modifier type="MOTOR_RPM" value="0.00" modifiedValue="0.00" />
+            <modifier type="MOTOR_RPM" value="0.80" modifiedValue="1.00" />
+        </volume>
+        <pitch indoor="1.15" outdoor="1.15" >
+            <modifier type="MOTOR_RPM" value="0.25" modifiedValue="0.75" />
+            <modifier type="MOTOR_RPM" value="1.00" modifiedValue="1.00" />
+
+            <modifier type="COMBINE_LOAD" value="0.00" modifiedValue="1.00" />
+            <modifier type="COMBINE_LOAD" value="1.00" modifiedValue="0.90" />
+
+            <modifier type="MOWER_LOAD" value="0.00" modifiedValue="1.00" />
+            <modifier type="MOWER_LOAD" value="1.00" modifiedValue="0.90" />
+
+            <modifier type="SUSPENSION" value="-1.0" modifiedValue="0.95" />
+            <modifier type="SUSPENSION" value="-0.05" modifiedValue="0.98" />
+            <modifier type="SUSPENSION" value="0" modifiedValue="1.0" />
+            <modifier type="SUSPENSION" value="0.05" modifiedValue="1.02" />
+            <modifier type="SUSPENSION" value="1.0" modifiedValue="1.05" />
+        </pitch>
+        <lowpassGain indoor="0.65" outdoor="1.0" />
+    </motor>
+
+    <gearbox template="DEFAULT_GEARBOX" file="$data/sounds/vehicles/transmission/transmission_omega_loop.wav" linkNode="0>"/>
+    <retarder template="DEFAULT_RETARDER" file="$data/sounds/vehicles/retarder/retarder_loop_02.wav" linkNode="0>"/>
+
+    <airCompressorStart template="BRAKE_COMPRESSOR_START" linkNode="0>"/>
+    <airCompressorStop template="BRAKE_COMPRESSOR_STOP" linkNode="0>"/>
+    <airCompressorRun template="BRAKE_COMPRESSOR_RUN" linkNode="0>"/>
+    <compressedAir template="BRAKE_SMALL" linkNode="0>"/>
+    <airRelease template="BRAKE_REGULATOR_VALVE" linkNode="0>"/>
+
+    <!-- <reverseDrive template="REVERSE_BEEP_03" linkNode="0>" /> -->
+</sounds>

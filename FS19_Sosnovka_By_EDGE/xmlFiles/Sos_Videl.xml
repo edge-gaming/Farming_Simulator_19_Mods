@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<map imageFilename="maps/pda_map.dds" width="4096" height="4096">
+    <filename>maps/Sos_Videl.i3d</filename>
+    <shop filename="$data/store/ui/shop.xml"/>
+    <sounds filename="xmlFiles/Sos_Videl_sound.xml"/>
+    <environment filename="xmlFiles/Sos_Videl_environment.xml"/>
+    <colorGrading filename="xmlFiles/Sos_Videl_colorGrading.xml"/>
+    <wildlife filename="$dataS/character/wildlifeSpawner.xml"/>
+    <helpline filename="$dataS/helpLine.xml"/>
+    <gameplayHints filename="$dataS/gameplayHints.xml"/>
+    <husbandryAnimals filename="$dataS/character/husbandryAnimals.xml"/>
+    <animalNames filename="$dataS/character/animalNames.xml"/>
+    <husbandryFood filename="$dataS/character/husbandryFoodDefinition.xml"/>
+    <transportMissions filename="xmlFiles/Sos_Videl_transportMissions.xml" />
+    <missionVehicles filename="$dataS/missionVehicles.xml"/>
+    <farmlands filename="xmlFiles/Sos_Videl_farmlands.xml" />
+    <npcs filename="xmlFiles/Sos_Videl_npcs.xml" />
+    <storeItems filename="$data/maps/mapDE_storeItems.xml"/>
+    <culling xzOffset="100"/>
+    <densityMap revision="1"/>
+    <terrainLodTexture revision="1"/>
+    <splitShapes revision="1"/>
+    <tipCollision revision="1"/>
+    <hotspots>
+        <hotspot name="Shop" fullName="$l10n_map_shop" imageUVs="520 8 240 240" xMapPos="125.5" zMapPos="-848.5" blinking="false" persistent="false" showName="false" hidable="true" renderLast="false" category="CATEGORY_TRIGGERS"/>
+        <hotspot name="WoodSelling1" fullName="$l10n_map_stationLumberyard" imageUVs="520 520 240 240" baseColor="0.9559 0.5647 0.0423 1" xMapPos="493" zMapPos="-793" blinking="false" persistent="false" showName="true" hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+        <hotspot name="WoodSelling2" fullName="$l10n_map_stationLumberyard" imageUVs="520 520 240 240" baseColor="0.9559 0.5647 0.0423 1" xMapPos="-670" zMapPos="900" blinking="false" persistent="false" showName="true" hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+        <hotspot name="SilageHeap" fullName="" imageUVs="520 520 240 240" baseColor="0.2705 0.6514 0.0802 1" xMapPos="707" zMapPos="306" blinking="false" persistent="false" showName="false" hidable="true" renderLast="false" category="CATEGORY_TRIGGERS"/>
+        <hotspot name="SilageHeap" fullName="" imageUVs="520 520 240 240" baseColor="0.2705 0.6514 0.0802 1" xMapPos="274" zMapPos="810" blinking="false" persistent="false" showName="false" hidable="true" renderLast="false" category="CATEGORY_TRIGGERS"/>
+        <hotspot name="SilageHeap" fullName="" imageUVs="520 520 240 240" baseColor="0.2705 0.6514 0.0802 1" xMapPos="-440.5" zMapPos="268" blinking="false" persistent="false" showName="false" hidable="true" renderLast="false" category="CATEGORY_TRIGGERS"/>
+        <hotspot name="SilageHeap" fullName="" imageUVs="520 520 240 240" baseColor="0.2705 0.6514 0.0802 1" xMapPos="-191.5" zMapPos="-799" blinking="false" persistent="false" showName="false" hidable="true" renderLast="false" category="CATEGORY_TRIGGERS"/>
+        <hotspot name="Cows" fullName="$l10n_animals_cowPasture" imageUVs="520 264 240 240" xMapPos="464" zMapPos="-318" blinking="false" persistent="false" showName="false" hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+        <hotspot name="Sheep" fullName="$l10n_animals_sheepPasture" imageUVs="264 264 240 240" xMapPos="221" zMapPos="891" blinking="false" persistent="false" showName="false" hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+        <hotspot name="Chickens" fullName="$l10n_animals_chickenCoop" imageUVs="8 264 240 240" xMapPos="-100" zMapPos="-764" blinking="false" persistent="false" showName="false" hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+        <hotspot name="Pigs" fullName="$l10n_animals_pigPasture" imageUVs="776 264 240 240" xMapPos="-476.5" zMapPos="-303.5" blinking="false" persistent="false" showName="false" hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+    </hotspots>
+    <additionalFiles>
+        <additionalFile filename="$data/shared/materialHolders/tensionBeltMaterialHolder.i3d"/>
+        <additionalFile filename="$data/shared/materialHolders/tireTrackMaterialHolder.i3d"/>
+        <additionalFile filename="$data/shared/materialHolders/glowEffectMaterialHolder.i3d"/>
+        <additionalFile filename="$data/shared/mapTargetMarker.i3d"/>
+        <additionalFile filename="$data/particleSystems/particle_materialHolder.i3d"/>
+        <additionalFile filename="$data/particleSystems/effect_materialHolder.i3d"/>
+        <additionalFile filename="$data/particleSystems/cutterEffect_materialHolder.i3d"/>
+        <additionalFile filename="$data/fillPlanes/fillPlane_materialHolder.i3d"/>
+        <!--<additionalFile filename="maps/data/fillPlanes/particle_materialHolder.i3d"/>-->
+        <additionalFile filename="maps/data/fillPlanes/effect_materialHolder.i3d"/>
+        <additionalFile filename="maps/data/fillPlanes/cutterEffect_materialHolder.i3d"/>
+        <additionalFile filename="maps/data/fillPlanes/fillPlane_materialHolder.i3d"/>
+        <!--<additionalFile filename="$data/maps/mapUS_sound.xml"/>-->
+    </additionalFiles>
+    <groundTypeMappings>
+        <!-- Base -->
+        <groundTypeMapping type="dirt"              layer="ROUGHDIRT"    />
+        <!-- Standard -->
+        <groundTypeMapping type="grassRough"        layer="GRASS"           paintableFoliageId="1"/>
+        <groundTypeMapping type="dirt"              layer="ANIMALMUD" />
+        <groundTypeMapping type="sand"              layer="BEACHSAND" />
+        <groundTypeMapping type="gravel"            layer="GRAVEL"/>
+        <groundTypeMapping type="gravel"            layer="GRAVELFINE"/>
+        <groundTypeMapping type="asphalt"           layer="CITYASPHALT"/>
+        <groundTypeMapping type="leaves"            layer="LEAVES"          paintableFoliageId="9"/>
+        <groundTypeMapping type="asphalt"           layer="ASPHALT"/>
+        <groundTypeMapping type="concrete"          layer="COBBLESTONE"/>
+        <groundTypeMapping type="concrete"          layer="CONCRETE"/>
+        <groundTypeMapping type="grass"             layer="TOWNGRASS"       paintableFoliageId="2"/>
+        <groundTypeMapping type="grass"             layer="GRASSTOWN"       paintableFoliageId="2"/>
+        <groundTypeMapping type="grassRough"        layer="GRASS"           paintableFoliageId="1"/>
+        <groundTypeMapping type="grassRough"        layer="GRASSROUGH"      paintableFoliageId="1"/>
+        <groundTypeMapping type="grassRough"        layer="GRASSMOSS"       paintableFoliageId="5" />
+        <groundTypeMapping type="grass"             layer="GRASSDRY"        paintableFoliageId="3" />
+        <groundTypeMapping type="field"             layer="ANIMALMUD"/>
+        <groundTypeMapping type="concrete"          layer="PLATE"/>
+        <groundTypeMapping type="concrete"          layer="FLAGSTONE"/>
+        <groundTypeMapping type="shallowWater"      layer="SANDWET"/>
+        <groundTypeMapping type="sand"              layer="SANDROUGH" />
+        <groundTypeMapping type="field"             layer="ROUGHMUD" />
+        <groundTypeMapping type="dirt"              layer="MUDDARK" />
+        <groundTypeMapping type="sand"              layer="INDUSTRIALMUD"/>
+        <groundTypeMapping type="concrete"          layer="EPOXY"/>
+        <groundTypeMapping type="concrete"          layer="STONEFLOOR"/>
+        <!-- Special -->
+        <groundTypeMapping type="leaves"            layer="FORESTGROUND"    paintableFoliageId="4"/>
+        <groundTypeMapping type="leaves"            layer="FORESTGROUND"    paintableFoliageId="8"/>
+        <groundTypeMapping type="grass"             layer="LEAVES"          paintableFoliageId="7"/>
+        <groundTypeMapping type="rock"              layer="MOUNTAINROCK" />
+        <groundTypeMapping type="rock"              layer="MOUNTAINROCKDARK" />
+        <groundTypeMapping type="rock"              layer="GRANITEROCK" />
+        <groundTypeMapping type="dirt"              layer="DIRTLIGHT" />
+        <groundTypeMapping type="gravel"            layer="DUSTYROCK" />
+        <groundTypeMapping type="rock"              layer="CLIFFREDROCK" />
+        <groundTypeMapping type="asphalt"           layer="TILE"/>
+        <groundTypeMapping type="dirt"              layer="DIRT1"/>
+        <groundTypeMapping type="dirt"              layer="DIRT2"/>
+        <groundTypeMapping type="gravel"            layer="PLATEDAMAGED"/>
+        <groundTypeMapping type="gravel"            layer="RIVERSTONE"/>
+        <groundTypeMapping type="rock"              layer="greenScreen" />
+    </groundTypeMappings>
+    <paintableFoliages>
+        <paintableFoliage id="1" layerName="grass"              firstDensityMapChannel="0" numDensityMapChannels="4" value="2"/>
+		<paintableFoliage id="2" layerName="decoFoliage"        firstDensityMapChannel="0" numDensityMapChannels="4" value="11"/>
+        <paintableFoliage id="3" layerName="grassDry"           firstDensityMapChannel="0" numDensityMapChannels="4" value="4"  />
+        <paintableFoliage id="4" layerName="forestGrass"        firstDensityMapChannel="0" numDensityMapChannels="4" value="4"  />
+        <paintableFoliage id="5" layerName="dryGrass"           firstDensityMapChannel="0" numDensityMapChannels="4" value="4"  />
+        <paintableFoliage id="6" layerName="forestGrassOld"     firstDensityMapChannel="0" numDensityMapChannels="4" value="4"  />
+        <paintableFoliage id="7" layerName="grassOld"           firstDensityMapChannel="0" numDensityMapChannels="4" value="4"  />
+        <paintableFoliage id="8" layerName="forestBush"         firstDensityMapChannel="0" numDensityMapChannels="4" value="4"  />
+        <paintableFoliage id="9" layerName="forestGrassDark"    firstDensityMapChannel="0" numDensityMapChannels="4" value="4"  />
+    </paintableFoliages>
+    <seasons>
+        <mask filename="maps/weightMaps/SnowMaskInfoLayer.grle" /> <!-- Seasons mask file -->
+    </seasons>
+
+    <!-- <sprayTypes filename="$data/maps/maps_sprayTypes.xml" /> -->
+    <fruitTypes filename="maps/data/fruitTypes/maps_fruitTypes.xml" />
+    <!-- <fruitTypes>
+        <fruitType filename="$data/maps/fruitTypes/maps_fruitTypes.xml"/>
+        <fruitType filename="maps/data/fruitTypes/maps_fruitTypes.xml" />
+    </fruitTypes> -->
+    <!-- <baleTypes filename="$data/maps/maps_baleTypes.xml" /> -->
+    <!-- <treeTypes filename="$data/maps/maps_treeTypes.xml" /> -->
+    <!-- <densityMapHeightTypes filename="$data/maps/maps_densityMapHeightTypes.xml" /> -->
+    <!-- <helpers filename="$data/maps/maps_helpers.xml" /> -->
+    <fillTypes filename="maps/data/fillTypes/maps_fillTypes.xml" />
+
+</map>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="electricLines_LIGHTS" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="7.0.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="5" filename="electricityAssetsLOD_diffuse.png" relativePath="true"/>
+    <File fileId="1" filename="electricityAssets_diffuse.png" relativePath="true"/>
+    <File fileId="2" filename="electricityAssets_normal.png" relativePath="true"/>
+    <File fileId="3" filename="electricityAssets_specular.png" relativePath="true"/>
+    <File fileId="13" filename="railTracksLOD_diffuse.png" relativePath="true"/>
+    <File fileId="12" filename="railTracks_specular.png" relativePath="true"/>
+    <File fileId="10" filename="road_diffuse.png" relativePath="true"/>
+    <File fileId="11" filename="road_normal.png" relativePath="true"/>
+    <File fileId="4" filename="../../../shaders/buildingShader.xml" relativePath="true"/>
+    <File fileId="7" filename="../../../shaders/emissiveLightsShader.xml" relativePath="true"/>
+    <File fileId="9" filename="../../../shaders/lightBeamShader.xml" relativePath="true"/>
+    <File fileId="6" filename="../../../shared/coronaWhite_diffuse.png" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="road_mat" materialId="12" ambientColor="1 1 1" cosPower="255" specularColor="1 1 1" customShaderId="4" customShaderVariation="FORCE_GLOOSS_SECONDUV">
+      <Texture fileId="10"/>
+      <Normalmap fileId="11"/>
+      <Glossmap fileId="12"/>
+      <CustomParameter name="uvScale" value="30 30 2 2"/>
+      <CustomParameter name="colorScale" value="0.8 0.55 0.055 1"/>
+    </Material>
+    <Material name="coronaWhite_mat" materialId="11" ambientColor="1 1 1" alphaBlending="true" customShaderId="7" customShaderVariation="BILLBOARD">
+      <Emissivemap fileId="6"/>
+      <CustomParameter name="blinkOffset" value="0 0 0 0"/>
+    </Material>
+    <Material name="road_mat1" materialId="14" ambientColor="1 1 1" cosPower="255" specularColor="1 1 1" customShaderId="4" customShaderVariation="FORCE_GLOOSS_SECONDUV">
+      <Normalmap fileId="11"/>
+      <Glossmap fileId="12"/>
+      <Emissivemap fileId="10"/>
+      <CustomParameter name="uvScale" value="30 30 2 2"/>
+      <CustomParameter name="colorScale" value="0.8 0.55 0.055 1"/>
+    </Material>
+    <Material name="electricityAssets_mat" materialId="7" ambientColor="1 1 1" cosPower="255" specularColor="1 1 1" customShaderId="4" customShaderVariation="FORCE_GLOOSS_SECONDUV">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <CustomParameter name="uvScale" value="30 30 2 2"/>
+      <CustomParameter name="colorScale" value="0.8 0.55 0.055 1"/>
+    </Material>
+    <Material name="railTracksLOD_mat" materialId="13" ambientColor="1 1 1">
+      <Texture fileId="13"/>
+    </Material>
+    <Material name="electricityAssets_mat1" materialId="9" ambientColor="1 1 1" cosPower="255" specularColor="1 1 1" customShaderId="4" customShaderVariation="FORCE_GLOOSS_SECONDUV">
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <Emissivemap fileId="1"/>
+      <CustomParameter name="uvScale" value="30 30 2 2"/>
+      <CustomParameter name="colorScale" value="0.8 0.55 0.055 1"/>
+    </Material>
+    <Material name="electricityAssetsLOD_mat" materialId="8" ambientColor="1 1 1">
+      <Texture fileId="5"/>
+    </Material>
+    <Material name="lightBeam_mat" materialId="16" ambientColor="1 1 1" emissiveColor="1 1 1 1" alphaBlending="true" customShaderId="9">
+      <CustomParameter name="UVScaleSpeed" value="1 2 0.005 -0.001"/>
+      <CustomParameter name="colorScale" value="1 0.9 0.7 1"/>
+    </Material>
+    <Material name="lightBeam_mat1" materialId="17" ambientColor="1 1 1" emissiveColor="1 1 1 1" alphaBlending="true" customShaderId="9" customShaderVariation="TOP_DOWN">
+      <CustomParameter name="UVScaleSpeed" value="1 1 0.005 -0.001"/>
+      <CustomParameter name="colorScale" value="1 0.9 0.7 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="electricLines_LIGHTS.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="electricLines" translation="-145.94 94.3516 3.92729" nodeId="99">
+      <TransformGroup name="electricLines50_FARM" translation="556.472 -7.5114 -217.143" clipDistance="600" nodeId="100" lodDistance="0 200">
+        <Shape shapeId="1" name="LOD0" translation="-0.0906055 0.00666229 0" nodeId="101" materialIds="7" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="2" name="lamps" translation="-410.441 -86.8469 213.216" nodeId="102" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="3" name="LOD1" translation="3.05182 -0.39352 -16.9069" static="true" nodeId="103" materialIds="8" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="4" name="lamps" translation="-413.584 -86.4467 230.123" nodeId="104" materialIds="8" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="centroid" nodeId="105">
+      <TransformGroup name="lrgLamp" clipDistance="200" nodeId="106" lodDistance="0 120">
+        <Shape shapeId="5" name="lrgLamp_LOD0" nodeId="107" materialIds="7" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="6" name="lrgLampLightBulb" translation="1.48962 3.50373 9.76563e-06" clipDistance="120" nodeId="108" materialIds="9" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="7" name="corona" translation="0.045 -0.1 -9.11628e-16" rotation="70 90 0" scale="2 2 2" clipDistance="80" nodeId="109" materialIds="11" castsShadows="true" receiveShadows="true"/>
+            <Light name="spotLight" translation="0.04 -0.07 -8.11177e-18" rotation="-90 0 20" nodeId="110" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="20" coneAngle="60" dropOff="2">
+              <Shape shapeId="8" name="lightBeam20" translation="6.31089e-32 -2.1684e-21 -0.0428557" clipDistance="100" nodeId="111" materialIds="16" castsShadows="true" receiveShadows="true">
+                <Shape shapeId="9" name="topDown" translation="1.81899e-14 -3.63798e-14 -9.09495e-15" clipDistance="100" nodeId="112" materialIds="17" castsShadows="true" receiveShadows="true"/>
+              </Shape>
+            </Light>
+          </Shape>
+        </Shape>
+        <Shape shapeId="10" name="lrgLamp_LOD1" nodeId="113" materialIds="8" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="smlLamp" translation="-10 0 0" clipDistance="200" nodeId="114" lodDistance="0 120">
+        <Shape shapeId="11" name="smlLamp_LOD0" nodeId="115" materialIds="7" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="12" name="smlLampLightBulb" translation="0.736316 1.47737 -9.76562e-06" clipDistance="120" nodeId="116" materialIds="9" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="13" name="corona" translation="0.0322124 -0.0468721 1.95312e-05" rotation="55 90 0" scale="2 2 2" clipDistance="80" nodeId="117" materialIds="11" castsShadows="true" receiveShadows="true"/>
+            <Light name="spotLight" translation="0.126424 -0.091915 1.95312e-05" rotation="-90 -1.59028e-15 35" nodeId="118" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="20" coneAngle="60" dropOff="2">
+              <Shape shapeId="14" name="lightBeam20" translation="-3.15864e-15 0 -1.79135e-14" clipDistance="100" nodeId="119" materialIds="16" castsShadows="true" receiveShadows="true">
+                <Shape shapeId="9" name="topDown" translation="3.52429e-14 -3.63798e-14 -1.02318e-14" clipDistance="100" nodeId="120" materialIds="17" castsShadows="true" receiveShadows="true"/>
+              </Shape>
+            </Light>
+          </Shape>
+        </Shape>
+        <Shape shapeId="15" name="smlLamp_LOD1" nodeId="121" materialIds="8" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="floodLight" clipDistance="300" nodeId="122" lodDistance="0 120">
+        <Shape shapeId="16" name="LOD0" nodeId="123" materialIds="12" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="17" name="lightBulbs1" translation="0.051767 19.8561 1.64203" nodeId="124" materialIds="14" castsShadows="true" receiveShadows="true" decalLayer="1">
+            <TransformGroup name="light" translation="-0.00656038 -0.0160752 0.0424008" rotation="50 0 0" nodeId="125">
+              <Light name="spotLight" translation="2.66454e-17 -1.20886e-14 1.84644e-14" rotation="-180 -5 90" nodeId="126" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="30" coneAngle="70" dropOff="2"/>
+              <Shape shapeId="18" name="corona1" translation="-1.17158 -0.0261117 0.0883915" rotation="-2.74765 -15.7627 19.6574" scale="2 2 2" clipDistance="80" nodeId="127" materialIds="11" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="19" name="corona2" translation="-0.356994 -0.0102357 0.116599" rotation="-3.18055e-15 6.7213e-15 -5.88038e-16" scale="2 2 2" clipDistance="80" nodeId="128" materialIds="11" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="20" name="corona3" translation="0.370113 -0.0102357 0.116599" rotation="-3.18055e-15 6.7213e-15 -5.88038e-16" scale="2 2 2" clipDistance="80" nodeId="129" materialIds="11" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="21" name="corona4" translation="1.18333 -0.0258799 0.083521" rotation="-2.74765 15.7627 -19.6574" scale="2 2 2" clipDistance="80" nodeId="130" materialIds="11" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+          </Shape>
+          <Shape shapeId="22" name="lightBulbs2" translation="-0.0608862 19.8561 -0.234174" nodeId="131" materialIds="14" castsShadows="true" receiveShadows="true" decalLayer="1">
+            <TransformGroup name="light1" translation="0.0054603 -0.0038173 -0.0305391" rotation="50 180 0" nodeId="132">
+              <Light name="spotLight" translation="1.24345e-16 1.34038e-16 1.9816e-14" rotation="-180 -5 90" nodeId="133" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="30" coneAngle="70" dropOff="2"/>
+              <Shape shapeId="18" name="corona1" translation="-1.17158 -0.0261117 0.0883915" rotation="-2.74765 -15.7627 19.6574" scale="2 2 2" clipDistance="80" nodeId="134" materialIds="11" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="23" name="corona2" translation="-0.356994 -0.0102357 0.116599" rotation="-3.18055e-15 6.7213e-15 -5.88038e-16" scale="2 2 2" clipDistance="80" nodeId="135" materialIds="11" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="24" name="corona3" translation="0.370113 -0.0102357 0.116599" rotation="-3.18055e-15 6.7213e-15 -5.88038e-16" scale="2 2 2" clipDistance="80" nodeId="136" materialIds="11" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="25" name="corona4" translation="1.18333 -0.0258799 0.083521" rotation="-2.74765 15.7627 -19.6574" scale="2 2 2" clipDistance="80" nodeId="137" materialIds="11" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+          </Shape>
+          <Shape shapeId="26" name="smlBulb1" translation="1.83713 18.6026 0.70392" nodeId="138" materialIds="14" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="smlLight" translation="0.0090334 -0.0816592 3.87727e-06" rotation="-90 -1.59028e-15 20" nodeId="139">
+              <Shape shapeId="27" name="corona" translation="5.49217e-18 -3.9443e-33 -0.0811096" rotation="0 180 0" scale="2 2 2" clipDistance="80" nodeId="140" materialIds="11" castsShadows="true" receiveShadows="true"/>
+              <Light name="spotLight" translation="0 0 -1.7473e-17" nodeId="141" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="30" coneAngle="50" dropOff="2"/>
+            </TransformGroup>
+          </Shape>
+          <Shape shapeId="28" name="smlBulb2" translation="-1.84626 18.6026 0.70392" nodeId="142" materialIds="14" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="smlLight1" translation="-0.00903275 -0.0816579 3.87727e-06" rotation="-90 1.59028e-15 -20" nodeId="143">
+              <Shape shapeId="27" name="corona" translation="9.93306e-18 -3.9443e-33 -0.0811096" rotation="0 180 0" scale="2 2 2" clipDistance="80" nodeId="144" materialIds="11" castsShadows="true" receiveShadows="true"/>
+              <Light name="spotLight" translation="-0 0 -1.7473e-17" nodeId="145" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="30" coneAngle="50" dropOff="2"/>
+            </TransformGroup>
+          </Shape>
+        </Shape>
+        <Shape shapeId="29" name="LOD1" static="true" nodeId="146" materialIds="13" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="worldLights" nodeId="147">
+      <Shape shapeId="30" name="lrgLampLightBulb" translation="388.595 94.6046 -268.749" rotation="0 -45 0" clipDistance="120" nodeId="148" materialIds="9" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="31" name="corona" translation="0.08 -0.18 1.80026e-13" rotation="68 90 0" clipDistance="80" nodeId="149" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        <Light name="spotLight1" translation="0.04 -0.07 1.28627e-13" rotation="-90 0 20" nodeId="150" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="20" coneAngle="60" dropOff="2">
+          <Shape shapeId="8" name="lightBeam15" clipDistance="100" nodeId="151" materialIds="16" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="9" name="topDown" translation="1.81899e-14 -3.63798e-14 -9.09495e-15" clipDistance="100" nodeId="152" materialIds="17" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </Light>
+      </Shape>
+      <Shape shapeId="32" name="lrgLampLightBulb1" translation="385.814 94.6046 -247.811" rotation="0 180 0" clipDistance="120" nodeId="153" materialIds="9" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="33" name="corona" translation="0.08 -0.18 1.09089e-13" rotation="65 90 0" scale="2 2 2" clipDistance="80" nodeId="154" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        <Light name="spotLight1" translation="0.04 -0.07 -3.63777e-14" rotation="-90 0 20" nodeId="155" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="20" coneAngle="60" dropOff="2">
+          <Shape shapeId="8" name="lightBeam11" clipDistance="100" nodeId="156" materialIds="16" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="9" name="topDown" translation="1.81899e-14 -3.63798e-14 -9.09495e-15" clipDistance="100" nodeId="157" materialIds="17" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </Light>
+      </Shape>
+      <Shape shapeId="34" name="lrgLampLightBulb2" translation="389.164 94.6046 -299.506" clipDistance="120" nodeId="158" materialIds="9" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="35" name="corona" translation="0.08 -0.18 1.81848e-13" rotation="65 90 0" scale="2 2 2" clipDistance="80" nodeId="159" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        <Light name="spotLight1" translation="0.04 -0.07 7.02152e-18" rotation="-90 0 20" nodeId="160" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="20" coneAngle="60" dropOff="2">
+          <Shape shapeId="8" name="lightBeam14" clipDistance="100" nodeId="161" materialIds="16" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="9" name="topDown" translation="1.81899e-14 -3.63798e-14 -9.09495e-15" clipDistance="100" nodeId="162" materialIds="17" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </Light>
+      </Shape>
+      <Shape shapeId="36" name="lrgLampLightBulb3" translation="432.13 94.6046 -189.646" rotation="0 90 0" clipDistance="120" nodeId="163" materialIds="9" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="37" name="corona" translation="0.08 -0.18 7.27091e-14" rotation="65 90 0" scale="2 2 2" clipDistance="80" nodeId="164" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        <Light name="spotLight1" translation="0.04 -0.07 2.91036e-13" rotation="-90 0 20" nodeId="165" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="20" coneAngle="60" dropOff="2">
+          <Shape shapeId="8" name="lightBeam13" clipDistance="100" nodeId="166" materialIds="16" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="9" name="topDown" translation="1.81899e-14 -3.63798e-14 -9.09495e-15" clipDistance="100" nodeId="167" materialIds="17" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </Light>
+      </Shape>
+      <Shape shapeId="38" name="lrgLampLightBulb4" translation="478.438 94.6046 -280.9" rotation="0 120 0" clipDistance="120" nodeId="168" materialIds="9" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="39" name="corona" translation="0.08 -0.18 -3.37985e-13" rotation="65 90 0" scale="2 2 2" clipDistance="80" nodeId="169" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        <Light name="spotLight1" translation="0.04 -0.07 -4.95736e-13" rotation="-90 -2.98874e-15 20" nodeId="170" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="20" coneAngle="60" dropOff="2">
+          <Shape shapeId="8" name="lightBeam12" clipDistance="100" nodeId="171" materialIds="16" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="9" name="topDown" translation="1.81899e-14 -3.63798e-14 -9.09495e-15" clipDistance="100" nodeId="172" materialIds="17" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </Light>
+      </Shape>
+      <Shape shapeId="40" name="lrgLampLightBulb5" translation="425.363 94.6046 -268.306" rotation="0 -90 0" clipDistance="120" nodeId="173" materialIds="9" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="41" name="corona" translation="0.08 -0.18 8.731e-13" rotation="65 90 0" scale="2 2 2" clipDistance="80" nodeId="174" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        <Light name="spotLight1" translation="0.04 -0.07 -2.91022e-13" rotation="-90 0 20" nodeId="175" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="20" coneAngle="60" dropOff="2">
+          <Shape shapeId="8" name="lightBeam1" clipDistance="100" nodeId="176" materialIds="16" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="9" name="topDown" translation="1.81899e-14 -3.63798e-14 -9.09495e-15" clipDistance="100" nodeId="177" materialIds="17" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </Light>
+      </Shape>
+      <Shape shapeId="36" name="lrgLampLightBulb6" translation="452.71 94.6046 -207.16" rotation="0 90 0" clipDistance="120" nodeId="178" materialIds="9" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="42" name="corona" translation="0.08 -0.18 1.01858e-12" rotation="65 90 0" scale="2 2 2" clipDistance="80" nodeId="179" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        <Light name="spotLight1" translation="0.04 -0.07 7.27577e-14" rotation="-90 0 20" nodeId="180" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="20" coneAngle="60" dropOff="2">
+          <Shape shapeId="8" name="lightBeam17" clipDistance="100" nodeId="181" materialIds="16" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="9" name="topDown" translation="1.81899e-14 -3.63798e-14 -9.09495e-15" clipDistance="100" nodeId="182" materialIds="17" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </Light>
+      </Shape>
+      <Shape shapeId="34" name="lrgLampLightBulb7" translation="452.033 94.6046 -268.507" rotation="0 240 0" clipDistance="120" nodeId="183" materialIds="9" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="43" name="corona" translation="0.08 -0.18 1.23235e-12" rotation="65 90 0" scale="2 2 2" clipDistance="80" nodeId="184" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        <Light name="spotLight1" translation="0.04 -0.07 1.9039e-13" rotation="-90 -2.98874e-15 20" nodeId="185" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="20" coneAngle="60" dropOff="2">
+          <Shape shapeId="8" name="lightBeam16" clipDistance="100" nodeId="186" materialIds="16" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="9" name="topDown" translation="1.81899e-14 -3.63798e-14 -9.09495e-15" clipDistance="100" nodeId="187" materialIds="17" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </Light>
+      </Shape>
+      <Shape shapeId="44" name="lrgLampLightBulb8" translation="325.62 94.6046 -263.606" clipDistance="120" nodeId="188" materialIds="9" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="45" name="corona" translation="0.08 -0.18 7.27545e-13" rotation="65 90 0" scale="2 2 2" clipDistance="80" nodeId="189" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        <Light name="spotLight1" translation="0.04 -0.07 -2.54651e-13" rotation="-90 0 20" nodeId="190" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="20" coneAngle="60" dropOff="2">
+          <Shape shapeId="8" name="lightBeam18" clipDistance="100" nodeId="191" materialIds="16" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="9" name="topDown" translation="1.81899e-14 -3.63798e-14 -9.09495e-15" clipDistance="100" nodeId="192" materialIds="17" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </Light>
+      </Shape>
+      <Shape shapeId="32" name="lrgLampLightBulb9" translation="451.058 94.6046 -242.216" rotation="0 180 0" clipDistance="120" nodeId="193" materialIds="9" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="46" name="corona" translation="0.08 -0.18 8.73064e-13" rotation="65 90 0" scale="2 2 2" clipDistance="80" nodeId="194" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        <Light name="spotLight1" translation="0.04 -0.07 -2.54656e-13" rotation="-90 0 20" nodeId="195" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="20" coneAngle="60" dropOff="2">
+          <Shape shapeId="8" name="lightBeam19" clipDistance="100" nodeId="196" materialIds="16" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="9" name="topDown" translation="1.81899e-14 -3.63798e-14 -9.09495e-15" clipDistance="100" nodeId="197" materialIds="17" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </Light>
+      </Shape>
+      <Shape shapeId="36" name="lrgLampLightBulb10" translation="341.797 94.6046 -203.481" rotation="0 90 0" clipDistance="120" nodeId="198" materialIds="9" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="47" name="corona" translation="0.08 -0.18 9.45824e-13" rotation="65 90 0" scale="2 2 2" clipDistance="80" nodeId="199" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        <Light name="spotLight1" translation="0.04 -0.07 -7.27614e-14" rotation="-90 0 20" nodeId="200" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="20" coneAngle="60" dropOff="2">
+          <Shape shapeId="8" name="lightBeam9" clipDistance="100" nodeId="201" materialIds="16" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="9" name="topDown" translation="1.81899e-14 -3.63798e-14 -9.09495e-15" clipDistance="100" nodeId="202" materialIds="17" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </Light>
+      </Shape>
+      <Shape shapeId="48" name="lrgLampLightBulb11" translation="325.62 94.6046 -222.005" clipDistance="120" nodeId="203" materialIds="9" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="49" name="corona" translation="0.08 -0.18 7.63925e-13" rotation="65 90 0" scale="2 2 2" clipDistance="80" nodeId="204" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        <Light name="spotLight1" translation="0.04 -0.07 -1.81892e-13" rotation="-90 0 20" nodeId="205" type="spot" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="20" coneAngle="60" dropOff="2">
+          <Shape shapeId="8" name="lightBeam10" clipDistance="100" nodeId="206" materialIds="16" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="9" name="topDown" translation="1.81899e-14 -3.63798e-14 -9.09495e-15" clipDistance="100" nodeId="207" materialIds="17" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </Light>
+      </Shape>
+    </TransformGroup>
+  </Scene>
+
+</i3D>
