@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+<author>Edge Gaming / Castiga</author>
+<translationby>Castiga</translationby>
+	<texts>
+		<text name="function_EDGEGrainSilo" 			text="Ce bâtiment a l'éclairage automatique."/>
+		<text name="name_oldUniversalSilo" 				text="Vieux silo universel"/>
+		<text name="name_newUniversalSilo" 				text="Nouveau silo universel"/>
+		<text name="EDGEFarmsilo" 						text="EDGE Silo agricole"/>
+		<text name="EDGEsilo" 							text="EDGE Silo"/>
+		<text name="station_oldSiloName" 				text="Vieux silo de ferme"/>
+		<text name="station_newSiloName" 				text="Nouveau silo de ferme"/>
+		<!-- <text name="name_LargeGrainSiloExtension" 		text="Extension de silo à gros grains"/> -->
+		<!-- <text name="name_SmallGrainSiloExtension" 		text="Extension de silo à petits grains"/> -->
+		<!-- <text name="name_GrainSiloExtension" 			text="Extension de silo à grains"/> -->
+		<!-- <text name="name_NewLargeGrainSiloExtension" 	text="Nouvelle extension de silo à gros grains"/> -->
+		<!-- <text name="name_NewSmallGrainSiloExtension" 	text="Nouvelle extension de silo à petits grains"/> -->
+		<!-- <text name="name_NewGrainSiloExtension" 		text="Nouvelle extension de silo à grains"/> -->
+		<!-- <text name="typeDesc_EDGEGrainSilo" 			text="Les silos peuvent être utilisés pour stocker le grain"/> -->
+		<!-- <text name="function_EDGEGrainSiloExtension" 	text="Il peut être placé à moins de 100 mètres du silo de la ferme."/> -->
+	</texts>
+</l10n>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+<author>Edge Gaming / Castiga</author>
+<translationby>Castiga</translationby>
+	<texts>
+		<text name="function_EDGEGrainSilo" 			text="Это здание имеет автоматическое освещение."/>
+		<text name="name_oldUniversalSilo" 				text="Старый универсальный силос"/>
+		<text name="name_newUniversalSilo" 				text="Новый универсальный силос"/>
+		<text name="EDGEFarmsilo" 						text="EDGE Сельскохозяйственный силос"/>
+		<text name="EDGEsilo" 							text="EDGE силос"/>
+		<text name="station_oldSiloName" 				text="Старый фермерский силос"/>
+		<text name="station_newSiloName" 				text="Новый Фермерский Силос"/>
+		<!-- <text name="name_LargeGrainSiloExtension" 		text="Большое зернохранилище"/> -->
+		<!-- <text name="name_SmallGrainSiloExtension" 		text="Расширение бункера для мелкого зерна"/> -->
+		<!-- <text name="name_GrainSiloExtension" 			text="Удлинитель силоса"/> -->
+		<!-- <text name="name_NewLargeGrainSiloExtension" 	text="Новый большой зернохранилище"/> -->
+		<!-- <text name="name_NewSmallGrainSiloExtension" 	text="Новый бункер для мелкого зерна"/> -->
+		<!-- <text name="name_NewGrainSiloExtension" 		text="Расширение нового зернового бункера"/> -->
+		<!-- <text name="typeDesc_EDGEGrainSilo" 			text="Бункеры могут быть использованы для хранения зерна"/> -->
+		<!-- <text name="function_EDGEGrainSiloExtension" 	text="Он может быть размещен в пределах 100 метров от силосохранилища фермы."/> -->
+	</texts>
+</l10n>
