@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="47">
+    <author>Edge Gaming / Castiga</author>
+    <translationby>Castiga</translationby>
+    <version>1.0.0.0</version>
+    <title><!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
+        <en>Valtra X Series</en>
+        <de>Valtra X Series</de>
+        <fr>Valtra X Series</fr>
+        <es>Valtra X Series</es>
+        <ru>Valtra X Series</ru>
+        <pl>Valtra X Series</pl>
+    </title>
+    <description>
+        <en><![CDATA[Rollers for removing fields and making your farm clean, accurate and easy to use 3-point attacher.
+
+Field Roller S:
+Price: 4.900€
+Size: 3 x 1.5m
+Weight: 1580kg
+Working width: 3m
+Max. working speed: 17 kph
+Required power: 40 hp
+
+Field Roller M:
+Price: 6.900€
+Size: 4 x 1.5m
+Weight: 1980kg
+Working width: 4m
+Max. working speed: 17 kph
+Required power: 50 hp
+
+Field Roller L:
+Price: 8.900€
+Size: 6 x 1.5m
+Weight: 2580kg
+Working width: 6m
+Max. working speed: 17 kph
+Required power: 60 hp
+
+- Supports "Seasons" and "Courseplay Six".
+
+Changelog 1.0.0.0:
+- Added 6m Option
+- Changed it to a single item with size options
+- Added l10n for names++ and a few extra language choises
+Changelog 1.5.0.0:
+- Updated the mod with more languages.
+
+Upcomming - Remaking the whole 3d object]]></en>
+
+<de><![CDATA[Walzen zum entfernen von (falsch) angelegten Feldern. Benutzerfreundlichen 3-Punkt-Befestigung.
+
+Feldwalze S:
+Preis: 4.900€
+Größe: 3 x 1.5m
+Gewicht: 1580kg
+Arbeitsbreite: 3m
+Arbeitsgeschwindigkeit: 17 km/h
+Benötigte Leistung: 40 PS
+
+Feldwalze M:
+Preis: 6.900€
+Größe: 4 x 1.5m
+Gewicht: 1980kg
+Arbeitsbreite: 4m
+Arbeitsgeschwindigkeit: 17 km/h
+Benötigte Leistung: 50 PS
+
+Feldwalze L:
+Preis: 8.900€
+Größe: 6 x 1.5m
+Gewicht: 2580kg
+Arbeitsbreite: 6m
+Arbeitsgeschwindigkeit: 17 km/h
+Benötigte Leistung: 60 PS
+
+- Unterstützt "Seasons" und "Courseplay Six".
+
+Änderungsprotokoll 1.0.0.0:
+- 6m Option hinzugefügt
+- Es wurde in ein einzelnes Element mit Größenoptionen geändert
+- l10n für Namen ++ und ein paar zusätzliche Sprachoptionen hinzugefügt
+Änderungsprotokoll 1.5.0.0:
+- Der Mod wurde mit mehr Sprachen aktualisiert.]]></de>
+
+        <fr><![CDATA[Des rouleaux pour enlever les champs et rendre votre ferme propre, précise et facile à utiliser.
+
+Rouleau De Terrain S:
+Prix: 4.900€
+Taille: 3 x 1.5m
+Poids: 1580kg
+Largeur de travail: 3m
+Vitesse de travail: 17 km/h
+Puissance requise: 40 ch
+
+Rouleau De Terrain M:
+Prix: 6.900€
+Taille: 4 x 1.5m
+Poids: 1980kg
+Largeur de travail: 4m
+Vitesse de travail: 17 km/h
+Puissance requise: 50 ch
+
+Rouleau De Terrain L:
+Prix: 8.900€
+Taille: 6 x 1.5m
+Poids: 2580kg
+Largeur de travail: 6m
+Vitesse de travail: 17 km/h
+Puissance requise: 60 ch
+
+- Supporte "Seasons" et "Courseplay Six".
+
+Changer le journal 1.0.0.0:
+- Option 6m ajoutée
+- Changé en un seul article avec des options de taille
+- Ajout de l10n pour les noms ++ et de quelques choix de langues supplémentaires
+Changer le journal 1.5.0.0:
+- Mise à jour du mod avec plus de langues.]]></fr>
+        <es><![CDATA[Rodillos para eliminar campos y hacer que su granja sea un atacante de 3 puntos limpio, preciso y fácil de usar.
+
+Rodillo de campo S:
+Precio: 4.900 €
+Tamaño: 3 x 1.5m
+Peso: 1580kg.
+Ancho de trabajo: 3m
+Max. velocidad de trabajo: 17 kph
+Potencia requerida: 40 hp
+
+Rodillo de campo M:
+Precio: 6.900 €
+Tamaño: 4 x 1,5 m
+Peso: 1980kg.
+Ancho de trabajo: 4m
+Max. velocidad de trabajo: 17 kph
+Potencia requerida: 50 hp
+
+Rodillo de campo L:
+Precio: 8.900 €
+Tamaño: 6 x 1,5 m
+Peso: 2580kg.
+Anchura de trabajo: 6m
+Max. velocidad de trabajo: 17 kph
+Potencia requerida: 60 hp
+
+- Admite "Seasons" y "Courseplay Six".
+
+Registro de cambios 1.0.0.0:
+- Versión inicial.
+Registro de cambios 1.5.0.0:
+- Actualizado el mod con más idiomas.]]></es>
+        <ru><![CDATA[Ролики для уборки полей и придания вашей ферме чистоты, точности и простоты в использовании.
+
+Полевой каток S:
+Цена: 4.900 €
+Размер: 3 х 1,5 м
+Вес: 1580 кг
+Рабочая ширина: 3 м
+Максимум. рабочая скорость: 17 км / ч
+Требуемая мощность: 40 л.с.
+
+Полевой каток М:
+Цена: 6,900 €
+Размер: 4 х 1,5 м
+Вес: 1980 кг
+Рабочая ширина: 4 м
+Максимум. рабочая скорость: 17 км / ч
+Требуемая мощность: 50 л.с.
+
+Полевой каток L:
+Цена: 8,900 €
+Размер: 6 х 1,5 м
+Вес: 2580 кг
+Рабочая ширина: 6 м
+Максимум. рабочая скорость: 17 км / ч
+Требуемая мощность: 60 л.с.
+
+- Поддерживает «Seasons» и «Courseplay Six».
+
+Изменения 1.0.0.0:
+- Первый выпуск.
+Изменения 1.5.0.0:
+- Обновлен мод с большим количеством языков.]]></ru>
+        <pl><![CDATA[Rolki do usuwania pól i czyszczenia farmy, dokładne i łatwe w obsłudze 3-punktowy zaczep.
+
+Wałek polowy S:
+Cena: 4.900 €
+Rozmiar: 3 x 1,5 m
+Waga: 1580 kg
+Szerokość robocza: 3 m
+Max. prędkość robocza: 17 km / h
+Wymagana moc: 40 KM
+
+Wałek polowy M:
+Cena: 6.900 €
+Rozmiar: 4 x 1,5 m
+Waga: 1980 kg
+Szerokość robocza: 4 m
+Max. prędkość robocza: 17 km / h
+Wymagana moc: 50 KM
+
+Wałek polowy L:
+Cena: 8.900 €
+Rozmiar: 6 x 1,5 m
+Waga: 2580 kg
+Szerokość robocza: 6 m
+Max. prędkość robocza: 17 km / h
+Wymagana moc: 60 KM
+
+- Obsługuje „Seasons” i „Courseplay Six”.
+
+Lista zmian 1.0.0.0:
+- Pierwsze wydanie.
+Lista zmian 1.5.0.0:
+- Zaktualizowałem mod z większą liczbą języków.]]></pl>
+
+    </description>
+    <iconFilename>Xicon.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <storeItems>
+        <storeItem xmlFilename="XSeries.xml"/>
+    </storeItems>
+    <!--<vehicleTypes>
+        <type name="EDGE_Valtra_X" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="attacherJoints"/>
+            <specialization name="lights"/>
+            <specialization name="attachable"/>
+            <specialization name="animatedVehicle"/>
+            <specialization name="cylindered"/>
+            <specialization name="powerConsumer"/>
+            <specialization name="foldable"/>
+            <specialization name="washable"/>
+            <specialization name="wearable"/>
+            <specialization name="mountable"/>
+        </type>
+    </vehicleTypes>-->
+    <l10n>
+        <text name="DARK GREY" value="0.037 0.037 0.037 1" color="0.037 0.037 0.037 1" material="0"/>
+		<text name="ITRUNNER" value="0.037 0.037 0.037 1" color="0.0382 0.0369 0.0482 1" material="8"/>
+        <text name="typeDesc_XSeries">
+			<en>Rollers can remove fields as well as cleaning an area for wheel tracs</en>
+			<de>Walzen können Felder entfernen und einen Bereich für Radspuren reinigen</de>
+			<fr>Les rouleaux peuvent enlever les champs et nettoyer une zone pour les tracs de roues</fr>
+            <es>Los rodillos pueden eliminar campos, así como limpiar un área para los tracs de ruedas</es>
+            <ru>Ролики могут удалить поля, а также очистить область для колесных дорожек</ru>
+            <pl>Wałki mogą usuwać pola, a także czyścić obszar śladów kół</pl>
+		</text>
+        <text name="name_XSeries">
+			<en>X Series</en>
+			<de>X Series</de>
+			<fr>X Series</fr>
+            <es>X Series</es>
+            <ru>X Series</ru>
+            <pl>X Series</pl>
+		</text>name_XSeries
+		<text name="shopItem_XSeries">
+			<en>Field Roller</en>
+			<de>Feldwalze</de>
+			<fr>Rouleau De Terrain</fr>
+            <es>Rodillo de campo</es>
+            <ru>Полевой каток</ru>
+            <pl>Wałek polowy</pl>
+		</text>name_XSeries
+		<text name="Config_Size">
+			<en>Size</en>
+			<de>Größe</de>
+			<fr>Taille</fr>
+            <es>tamaño</es>
+            <ru>размер</ru>
+            <pl>rozmiar</pl>
+		</text>
+		<text name="Config_4M">
+			<en>4 Meters</en>
+			<de>4 Meter</de>
+			<fr>4 Mètres</fr>
+            <es>4 metros</es>
+            <ru>4 метра</ru>
+            <pl>3 metry</pl>
+		</text>
+		<text name="Config_3M">
+			<en>3 Meters</en>
+			<de>3 Meter</de>
+			<fr>3 Mètres</fr>
+            <es>3 metros</es>
+            <ru>3 метра</ru>
+            <pl>3 metry</pl>
+		</text>
+		<text name="Config_6M">
+			<en>6 Meters</en>
+			<de>6 Meter</de>
+			<fr>6 Mètres</fr>
+            <es>6 metros</es>
+            <ru>6 метра</ru>
+            <pl>6 metry</pl>
+		</text>
+	</l10n>
+    <brands>
+		<brand name="EDGE" title="EDGE Industries" image="EDGE_Brand_Logo.dds"/>
+	</brands>
+    <credits><![CDATA[
+## Translations
+- Castiga]]></credits>
+</modDesc>
