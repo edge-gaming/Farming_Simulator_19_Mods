@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="TGS 18.500 4x4" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.0.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="Plaque.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="01 - Default" materialId="32">
+      <Texture fileId="1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="plate.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="PlaqueAR" translation="0.94269 0.515675 -2.72173" clipDistance="1000" nodeId="277" materialIds="32" castsShadows="true" receiveShadows="true"/>
+  </Scene>
+
+</i3D>

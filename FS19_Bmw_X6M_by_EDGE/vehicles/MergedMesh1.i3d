@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="Blender" version="2.79.0" />
+  </Asset>
+  <Files />
+  <Materials>
+    <Material ambientColor="1 1 1" cosPower="50" diffuseColor="0.800000 0.800000 0.800000 1" materialId="1" name="Lambert" specularColor="1.000000 1.000000 1.000000" />
+    <Material ambientColor="1 1 1" diffuseColor="0.3 0.3 0.3 1" materialId="2" name="default" specularColor="0 0 0" />
+  </Materials>
+  <Shapes>
+    <IndexedTriangleSet bvCenter="-0.013863 0.072229 -0.092033" bvRadius="1.802377" isOptimized="false" name="MergedMesh1" shapeId="1">
+      <Vertices count="14" normal="true">
+        <v n="-0.637379 0.261269 -0.724845" p="-0.859093 0.318792 -1.251420" />
+        <v n="-0.578112 -0.526383 -0.623402" p="-0.833261 -0.851547 -1.270920" />
+        <v n="-0.793054 0.410138 0.450331" p="-1.000000 0.243303 0.576121" />
+        <v n="0.650502 0.248451 -0.717704" p="0.827148 0.261605 -1.229855" />
+        <v n="0.531266 -0.589648 -0.608295" p="0.789188 -1.000000 -1.258968" />
+        <v n="0.465957 0.807215 0.362255" p="0.641290 1.000000 0.073265" />
+        <v n="0.793054 0.423872 0.437422" p="1.000000 0.291264 0.524696" />
+        <v n="0.535874 -0.596912 0.597064" p="0.787389 -1.085806 1.032916" />
+        <v n="-0.405652 0.394604 0.824427" p="-0.772964 -0.044758 1.000862" />
+        <v n="-0.523911 -0.611286 0.593127" p="-0.773597 -1.085806 1.047291" />
+        <v n="0.544633 0.752953 -0.369304" p="0.663953 1.004432 -0.782906" />
+        <v n="0.435194 0.378155 0.817042" p="0.786756 -0.044758 0.950877" />
+        <v n="-0.474410 0.794763 0.378430" p="-0.681502 1.000000 0.086346" />
+        <v n="-0.608814 0.721122 -0.330576" p="-0.769387 1.004478 -0.786772" />
+      </Vertices>
+      <Triangles count="24">
+        <t vi="0 1 2" />
+        <t vi="1 3 4" />
+        <t vi="3 5 6" />
+        <t vi="7 8 9" />
+        <t vi="4 9 1" />
+        <t vi="0 10 3" />
+        <t vi="5 2 6" />
+        <t vi="2 11 6" />
+        <t vi="10 12 5" />
+        <t vi="1 9 2" />
+        <t vi="9 8 2" />
+        <t vi="2 12 0" />
+        <t vi="12 13 0" />
+        <t vi="1 0 3" />
+        <t vi="7 4 6" />
+        <t vi="4 3 6" />
+        <t vi="3 10 5" />
+        <t vi="6 11 7" />
+        <t vi="7 11 8" />
+        <t vi="4 7 9" />
+        <t vi="0 13 10" />
+        <t vi="5 12 2" />
+        <t vi="2 8 11" />
+        <t vi="10 13 12" />
+      </Triangles>
+      <Subsets count="1">
+        <Subset firstIndex="0" firstVertex="0" numIndices="72" numVertices="14" />
+      </Subsets>
+    </IndexedTriangleSet>
+  </Shapes>
+  <Scene>
+    <Camera farClip="100.00" fov="35.00" name="Camera" nearClip="0.10" nodeId="3" rotation="-26.441 46.692 -0.000" scale="1.000000 1.000000 1.000000" translation="7.481132 5.343666 6.507640" />
+    <Shape castsShadows="true" materialIds="1" name="Cube" nodeId="1" receiveShadows="true" rotation="-0.000 -0.000 0.000" scale="1.057747 0.704522 2.213429" shapeId="1" skinWidth="0.05000000074505806" static="true" translation="0.000000 1.185452 0.473940" />
+    <Light castShadowMap="true" decayRate="0" diffuseColor="1.000 1.000 1.000" emitDiffuse="true" emitSpecular="true" name="Lamp" nodeId="2" range="30.000" rotation="-42.466 107.221 10.744" scale="1.000000 1.000000 1.000000" specularColor="1.000 1.000 1.000" translation="4.076245 5.903862 -1.005454" type="point" />
+  </Scene>
+  <Animation />
+  <UserAttributes />
+</i3D>

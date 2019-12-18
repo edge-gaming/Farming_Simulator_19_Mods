@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="carFillable">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+    <storeData>
+        <name>$l10n_name_BMW_X6M</name>
+        <specs>
+            <power>258</power>
+            <maxSpeed>250</maxSpeed>
+        </specs>
+        <functions>
+            <function>$l10n_function_car</function>
+        </functions>
+        <image>store/BMW_X6M_Store.dds</image>
+        <price>72300</price>
+        <lifetime>600</lifetime>
+        <rotation>0</rotation>
+        <brand>BMW</brand>
+        <category>cars</category>
+        <shopTranslationOffset>0 0.04 0</shopTranslationOffset>
+        <shopRotationOffset>0 0 0</shopRotationOffset>
+    </storeData>
+    <base>
+        <typeDesc>$l10n_typeDesc_car</typeDesc>
+        <filename>BMW_X6M.i3d</filename>
+        <size width="3" length="6.5"/>
+        <components count="1">
+            <component centerOfMass="0 0.4 -0.25" solverIterationCount="10" mass="2155"/>
+        </components>
+        <schemaOverlay attacherJointPosition="0 0">
+            <default name="DEFAULT_VEHICLE"/>
+            <selected name="DEFAULT_VEHICLE_SELECTED"/>
+        </schemaOverlay>
+    </base>
+    <wheels>
+        <wheelConfigurations>
+            <wheelConfiguration name="$l10n_configuration_BMW" price="0">
+                <wheels autoRotateBackSpeed="2.5">
+                    <wheel hasParticles="true" hasTireTracks="true">
+                        <physics rotSpeed="1" restLoad="0.5" repr="axisFrontLeft" driveNode="wheelFrontLeft" radius="0.42" width="0.27" forcePointRatio="0.5" initialCompression="25" suspTravel="0.13" spring="14" damper="3" frictionScale="2.5"/>
+                        <tire tireTrackAtlasIndex="1"/>
+                    </wheel>
+                    <wheel hasParticles="true" hasTireTracks="true">
+                        <physics rotSpeed="1" restLoad="0.5" repr="axisFrontRight" driveNode="wheelFrontRight" radius="0.42" width="0.27" forcePointRatio="0.5" initialCompression="25" suspTravel="0.13" spring="14" damper="3" frictionScale="2.5"/>
+                        <tire tireTrackAtlasIndex="1"/>
+                    </wheel>
+                    <wheel hasParticles="true" hasTireTracks="true">
+                        <physics rotSpeed="0" restLoad="0.7" repr="wheelBackLeft" driveNode="wheelBackLeft" radius="0.42" width="0.27" forcePointRatio="0.5" initialCompression="25" suspTravel="0.14" spring="19" damper="3" frictionScale="3"/>
+                        <tire tireTrackAtlasIndex="1"/>
+                    </wheel>
+                    <wheel hasParticles="true" hasTireTracks="true">
+                        <physics rotSpeed="0" restLoad="0.7" repr="wheelBackRight" driveNode="wheelBackRight" radius="0.42" width="0.27" forcePointRatio="0.5" initialCompression="25" suspTravel="0.14" spring="19" damper="3" frictionScale="3"/>
+                        <tire tireTrackAtlasIndex="1"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+        </wheelConfigurations>
+        <ackermannSteeringConfigurations>
+            <ackermannSteering rotSpeed="45" rotMax="45" rotCenterWheel1="3" rotCenterWheel2="4"/>
+        </ackermannSteeringConfigurations>
+    </wheels>
+    <lights>
+        <states>
+            <state lightTypes="0"/>
+            <state lightTypes="0 1"/>
+        </states>
+        <realLights>
+            <low>
+                <light node="frontLightLow" lightTypes="0"/>
+                <light node="highBeamLow" lightTypes="1"/>
+            </low>
+            <high>
+                <light node="frontLightHigh" lightTypes="0"/>
+                <light node="highBeamHigh" lightTypes="1"/>
+                <light node="backLightsHigh1" lightTypes="0 3"/>
+                <brakeLight node="backLightsHigh1"/>
+                <turnLightLeft node="turnLightLeftFront"/>
+                <turnLightLeft node="turnLightLeftBack"/>
+                <turnLightRight node="turnLightRightFront"/>
+                <turnLightRight node="turnLightRightBack"/>
+                <reverseLight node="reverseLight"/>
+            </high>
+        </realLights>
+        <defaultLights>
+            <defaultLight shaderNode="backlightsStatic" lightTypes="0 3"/>
+            <defaultLight shaderNode="frontLightStatic" lightTypes="0 3"/>
+        </defaultLights>
+        <brakeLights>
+            <brakeLight shaderNode="backlightsStatic"/>
+        </brakeLights>
+        <reverseLights>
+            <reverseLight shaderNode="reverseLightsStatic"/>
+        </reverseLights>
+        <turnLights>
+            <turnLightLeft shaderNode="turnlightLeftStatic"/>
+            <turnLightRight shaderNode="turnlightRightStatic"/>
+        </turnLights>
+        <sounds>
+            <switchLight template="SWITCH_01"/>
+            <turnLight template="SWITCH_TURNLIGHT"/>
+        </sounds>
+    </lights>
+    <enterable isTabbable="true">
+        <enterReferenceNode node="pickup2014_main_component1"/>
+        <exitPoint node="exitPoint"/>
+        <cameras count="2">
+            <camera node="outdoorCamera1" rotatable="true" rotateNode="outdoorCameraTarget" limit="true" useWorldXZRotation="true" rotMinX="-1.4" rotMaxX="1" transMin="4" transMax="40" translation="0 0 5.5" rotation="-17.5 180 0">
+                <raycastNode node="cameraRaycastNode1"/>
+                <raycastNode node="cameraRaycastNode2"/>
+            </camera>
+            <camera node="indoorCamera1" rotatable="true" limit="true" rotMinX="-1.1" rotMaxX="0.4" transMin="0" transMax="0" useMirror="true" isInside="true" positionSmoothingParameter="0" shadowFocusBox="shadowFocusBox"/>
+        </cameras>
+        <mirrors>
+            <mirror node="mirror01decal" prio="1"/>
+            <mirror node="mirror02decal" prio="1"/>
+            <mirror node="mirror03decal" prio="1"/>
+        </mirrors>
+        <characterNode node="player_skin" cameraMinDistance="1.5" spineRotation="-90 0 90">
+            <target ikChain="rightFoot" targetNode="player_rightFoot"/>
+            <target ikChain="leftFoot" targetNode="player_leftFoot"/>
+            <target ikChain="rightArm" targetNode="player_rightHand" poseId="wideFingers"/>
+            <target ikChain="leftArm" targetNode="player_leftHand" poseId="wideFingers"/>
+        </characterNode>
+        <characterTargetNodeModifier node="player_rightFoot" transitionTime="0.1">
+            <state node="player_rightFootGas" referenceNode="gasPedal"/>
+            <state node="player_rightFootBrake" referenceNode="brakePedal"/>
+        </characterTargetNodeModifier>
+    </enterable>
+    <attacherJoints>
+        <attacherJoint node="trailerAttacherJointBack" jointType="trailer" lowerRotLimit="10 70 50" upperRotationOffset="0" allowsJointLimitMovement="false" canTurnOnImplement="false" comboTime="1">
+            <schema position="1 0" rotation="0" invertX="false"/>
+            <attachSound template="ATTACH_01" linkNode="0>"/>
+        </attacherJoint>
+        <attacherJoint node="trailerAttacherJointBack" jointType="trailerLow" lowerRotLimit="10 70 50" upperRotationOffset="0" allowsJointLimitMovement="false" canTurnOnImplement="false" comboTime="1">
+            <schema position="1 0" rotation="0" invertX="false"/>
+            <attachSound template="ATTACH_01" linkNode="0>"/>
+        </attacherJoint>
+    </attacherJoints>
+    <connectionHoses>
+        <target attacherJointIndices="1 2" type="electric" node="electricBack" socket="electric"/>
+    </connectionHoses>
+    <drivable>
+        <sounds>
+            <waterSplash template="WATER_SPLASH_01"/>
+        </sounds>
+        <steeringWheel node="steeringWheel" indoorRotation="540" outdoorRotation="60"/>
+        <dashboards>
+            <dashboard displayType="ROT" valueType="accelerationAxis" node="gasPedal" minRot="0 0 0" maxRot="30 0 0" doInterpolation="true" groups="MOTOR_ACTIVE"/>
+            <dashboard displayType="ROT" valueType="decelerationAxis" node="brakePedal" minRot="0 0 0" maxRot="20 0 0" doInterpolation="true" groups="MOTOR_ACTIVE"/>
+        </dashboards>
+    </drivable>
+    <fillUnit>
+        <fillUnitConfigurations>
+            <fillUnitConfiguration>
+                <fillUnits>
+                    <fillUnit unit="$l10n_unit_literShort" showOnHud="false" showInShop="false" fillTypes="diesel" capacity="120"/>
+                </fillUnits>
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+    </fillUnit>
+    <motorized>
+        <consumerConfigurations>
+            <consumerConfiguration>
+                <consumer fillUnitIndex="1" usage="30" fillType="diesel"/>
+                <!-- usage is per hour at max load and max rpm -->
+            </consumerConfiguration>
+        </consumerConfigurations>
+        <differentialConfigurations>
+            <differentialConfiguration>
+                <differentials>
+                    <differential torqueRatio="0.5" maxSpeedRatio="1.8" wheelIndex1="1" wheelIndex2="2"/>
+                    <!-- front left-right -->
+                    <differential torqueRatio="0.5" maxSpeedRatio="1.8" wheelIndex1="3" wheelIndex2="4"/>
+                    <!-- back left-right -->
+                    <differential torqueRatio="0.5" maxSpeedRatio="1.8" differentialIndex1="1" differentialIndex2="2"/>
+                    <!-- front-back -->
+                </differentials>
+            </differentialConfiguration>
+        </differentialConfigurations>
+        <motorConfigurations>
+            <motorConfiguration name="x30d" hp="258" price="0">
+                <motor torqueScale="0.692" minRpm="600" maxRpm="4750" maxForwardSpeed="250" maxBackwardSpeed="45" brakeForce="3" lowBrakeForceScale="0.22">
+                    <torque rpm="600" torque="0.9"/>
+                    <torque rpm="1800" torque="1"/>
+                    <torque rpm="3480" torque="1"/>
+                    <torque rpm="4250" torque="0.9"/>
+                    <torque rpm="4500" torque="0.85"/>
+                    <torque rpm="4750" torque="0.75"/>
+                </motor>
+                <transmission minForwardGearRatio="7" maxForwardGearRatio="20" minBackwardGearRatio="29" maxBackwardGearRatio="200"/>
+            </motorConfiguration>
+            <motorConfiguration name="x40d" hp="313" price="6400">
+                <motor torqueScale="0.839" minRpm="600" maxRpm="4750" maxForwardSpeed="150" maxBackwardSpeed="45" brakeForce="3" lowBrakeForceScale="0.22"/>
+            </motorConfiguration>
+            <motorConfiguration name="x50d" hp="381" price="22100">
+                <motor torqueScale="1.022" minRpm="600" maxRpm="4750" maxForwardSpeed="150" maxBackwardSpeed="45" brakeForce="3" lowBrakeForceScale="0.22"/>
+            </motorConfiguration>
+        </motorConfigurations>
+        <exhaustEffects>
+            <exhaustEffect node="exhaustParticle" filename="$data/particleSystems/shared/exhaust.i3d" minRpmColor="0.9 0.9 0.9 0.1" maxRpmColor="0.9 0.9 0.9 0.4" minRpmScale="0.02" maxRpmScale="0.25"/>
+        </exhaustEffects>
+        <sounds externalSoundFile="sounds/BMW_X6.xml"/>
+    </motorized>
+    <cylindered>
+        <movingParts>
+            <movingPart node="steeringBarFrontLeft" referencePoint="steeringBarFrontLeftRef" referenceFrame="steeringBarFrontLeftRef" scaleZ="true" isActiveDirty="true"/>
+            <movingPart node="steeringBarFrontRight" referencePoint="steeringBarFrontRightRef" referenceFrame="steeringBarFrontRightRef" scaleZ="true" isActiveDirty="true"/>
+        </movingParts>
+    </cylindered>
+    <suspensions>
+        <suspension useCharacterTorso="true" weight="90" minRotation="0 -5 -5" maxRotation="0 5 5" suspensionParametersY="7 1" suspensionParametersZ="7 1"/>
+    </suspensions>
+    <dashboard>
+        <groups>
+            <group name="MOTOR_STARTING" isMotorStarting="true"/>
+            <group name="MOTOR_ACTIVE" isMotorStarting="true" isMotorRunning="true"/>
+        </groups>
+    </dashboard>
+    <ai>
+        <collisionTrigger node="aiCollisionTrigger"/>
+    </ai>
+    <honk>
+        <sound template="HONK_JD8400R"/>
+    </honk>
+    <foliageBending>
+        <bendingNode minX="-1.15" maxX="1.15" minZ="-2.8" maxZ="2.8" yOffset="0.05"/>
+    </foliageBending>
+    <dischargeable requiresTipOcclusionArea="false"/>
+    <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
+    <washable dirtDuration="90" washDuration="1" workMultiplier="3" fieldMultiplier="2"/>
+    <baseColorConfigurations useDefaultColors="true" price="800" defaultColorIndex="1">
+        <colorNode node="Paint"/>
+        <colorNode node="DoorBackLeft"/>
+        <colorNode node="DoorBackRight"/>
+        <colorNode node="DoorFrontRight"/>
+        <colorNode node="DoorFrontLeft"/>
+        <colorNode node="Hood"/>
+        <colorNode node="Boot"/>
+        <colorNode node="FrontBumper"/>
+        <colorNode node="BackBumper"/>
+    </baseColorConfigurations>
+    <i3dMappings>
+        <i3dMapping id="Paint" node="0>0|15|0"/>
+        <i3dMapping id="DoorBackLeft" node="0>0|15|9"/>
+        <i3dMapping id="DoorBackRight" node="0>0|15|10"/>
+        <i3dMapping id="DoorFrontRight" node="0>0|15|8"/>
+        <i3dMapping id="DoorFrontLeft" node="0>0|15|7"/>
+        <i3dMapping id="Hood" node="0>0|15|11"/>
+        <i3dMapping id="Boot" node="0>0|15|12"/>
+        <i3dMapping id="FrontBumper" node="0>0|15|13"/>
+        <i3dMapping id="BackBumper" node="0>0|15|14"/>
+        <i3dMapping id="pickup2014_main_component1" node="0>"/>
+        <i3dMapping id="pickup2014_vis" node="0>0"/>
+        <i3dMapping id="wheels" node="0>0|0"/>
+        <i3dMapping id="axisFrontLeft" node="0>0|0|0|0"/>
+        <i3dMapping id="wheelFrontLeft" node="0>0|0|0|0|0|0"/>
+        <i3dMapping id="steeringBarFrontLeft" node="0>0|0|0|0|1"/>
+        <i3dMapping id="axisFrontRight" node="0>0|0|1|0"/>
+        <i3dMapping id="wheelFrontRight" node="0>0|0|1|0|0|0"/>
+        <i3dMapping id="steeringBarFrontRight" node="0>0|0|1|0|1"/>
+        <i3dMapping id="wheelBackLeft" node="0>0|0|2"/>
+        <i3dMapping id="wheelBackRight" node="0>0|0|3"/>
+        <i3dMapping id="steeringBarFrontRightRef" node="0>0|0|4"/>
+        <i3dMapping id="steeringBarFrontLeftRef" node="0>0|0|5"/>
+        <i3dMapping id="frontLightLow" node="0>0|1|0"/>
+        <i3dMapping id="highBeamLow" node="0>0|1|1"/>
+        <i3dMapping id="frontLightHigh" node="0>0|1|2"/>
+        <i3dMapping id="highBeamHigh" node="0>0|1|3"/>
+        <i3dMapping id="backLightsHigh1" node="0>0|1|4"/>
+        <i3dMapping id="turnLightLeftFront" node="0>0|1|5"/>
+        <i3dMapping id="turnLightLeftBack" node="0>0|1|6"/>
+        <i3dMapping id="turnLightRightFront" node="0>0|1|7"/>
+        <i3dMapping id="turnLightRightBack" node="0>0|1|8"/>
+        <i3dMapping id="reverseLight" node="0>0|1|9"/>
+        <i3dMapping id="frontLightStatic" node="0>0|1|10|0"/>
+        <i3dMapping id="backlightsStatic" node="0>0|1|10|1"/>
+        <i3dMapping id="reverseLightsStatic" node="0>0|1|10|2"/>
+        <i3dMapping id="turnlightLeftStatic" node="0>0|1|10|4"/>
+        <i3dMapping id="turnlightRightStatic" node="0>0|1|10|5"/>
+        <i3dMapping id="outdoorCameraTarget" node="0>0|2|0"/>
+        <i3dMapping id="outdoorCamera1" node="0>0|2|0|0"/>
+        <i3dMapping id="indoorCamera1" node="0>0|2|1"/>
+        <i3dMapping id="cameraRaycastNode1" node="0>0|2|2"/>
+        <i3dMapping id="cameraRaycastNode2" node="0>0|2|3"/>
+        <i3dMapping id="cameraRaycastNode3" node="0>0|2|4"/>
+        <i3dMapping id="shadowFocusBox" node="0>0|2|5"/>
+        <i3dMapping id="player_skin" node="0>0|3|0"/>
+        <i3dMapping id="player_rightFoot" node="0>0|3|1"/>
+        <i3dMapping id="player_leftFoot" node="0>0|3|2"/>
+        <i3dMapping id="exitPoint" node="0>0|4"/>
+        <i3dMapping id="trailerAttacherJointBack" node="0>0|5"/>
+        <i3dMapping id="electricBack" node="0>0|6"/>
+        <i3dMapping id="steeringWheel" node="0>0|7|0"/>
+        <i3dMapping id="player_rightHand" node="0>0|7|0|1"/>
+        <i3dMapping id="player_leftHand" node="0>0|7|0|0"/>
+        <i3dMapping id="exhaustParticle" node="0>0|8|0"/>
+        <i3dMapping id="gasPedal" node="0>0|9|0"/>
+        <i3dMapping id="player_rightFootGas" node="0>0|9|0|0"/>
+        <i3dMapping id="Pedal" node="0>0|9|1"/>
+        <i3dMapping id="player_rightFootBrake" node="0>0|9|1|0"/>
+        <i3dMapping id="aiCollisionTrigger" node="0>0|12|0"/>
+        <i3dMapping id="mirror01decal" node="0>0|13|0"/>
+        <i3dMapping id="mirror02decal" node="0>0|13|1"/>
+        <i3dMapping id="mirror03decal" node="0>0|13|2"/>
+    </i3dMappings>
+</vehicle>

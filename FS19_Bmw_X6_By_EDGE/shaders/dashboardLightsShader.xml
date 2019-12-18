@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomShader version="4">
+    <Parameters>
+        <Parameter name = "lightControl" target = "lightControl" type = "float4" group="base"   defaultValue = "0.0 0.0 0.0 0.0"/>
+        <Parameter name = "sliderPos"    target = "sliderPos"    type = "float4" group="slider" defaultValue = "1.0 0.0 0.0 0.0" minValue = "0 0.0 0.0 0.0" maxValue = "1 0.0 0.0 0.0"/>
+    </Parameters>
+    <Textures>
+        <Texture name = "mEmissiveMap" defaultColorProfile = "sRGB"/>
+    </Textures>
+    <VertexAttributes>
+        <VertexAttribute name="uv1" group="slider"/>
+    </VertexAttributes>
+    <Variations>
+        <Variation name = "SLIDER" groups="base slider">
+<![CDATA[
+    #define SLIDER
+]]>
+        </Variation>
+    </Variations>
+    <LodLevel startDistance="0" alphaForceMode = "use">
+        <CodeInjections>
+            <CodeInjection position = "SAMPLERS">
+<![CDATA[
+sampler2D mEmissiveMap;
+]]>
+            </CodeInjection>
+            <CodeInjection position = "MATERIALINFO">
+<![CDATA[
+    uniform float4 lightControl;
+#if defined( SLIDER )
+    uniform float4 sliderPos;
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position = "FS_GLOBALS">
+<![CDATA[
+    float  gVisScale;
+]]>
+            </CodeInjection>
+            <CodeInjection position="VS_OUTPUT">
+<![CDATA[
+#if defined( SLIDER )
+    float2 albedoMapTexCoord2 : TEXCOORDn;
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="POST_SET_TEXCOORDS_VS">
+<![CDATA[
+#if defined( SLIDER )
+    Out.albedoMapTexCoord2 = convertDefaultTexCoords( In, In.texCoords1.xy );
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position = "START_FS">
+<![CDATA[
+    globals.gVisScale = 1.0;
+#if defined( SLIDER )
+    float refX = In.vs.albedoMapTexCoord2.x;
+    globals.gVisScale = refX <= sliderPos.x;
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="EMISSIVE_FS">
+<![CDATA[
+if ( In.vs.ALBEDOMAP_TEXCOORD.x > 0.0 ){
+    float4 mEmissiveColor = tex2D(mEmissiveMap, In.vs.ALBEDOMAP_TEXCOORD).xyzw;
+    emissiveColor.rgb = mEmissiveColor.xyz;
+    emissiveColor *= lightControl.x;
+    emissiveColor *= mEmissiveColor.a;
+
+#if defined( SLIDER )
+    emissiveColor *= globals.gVisScale;
+#endif
+}
+]]>
+            </CodeInjection>
+            <CodeInjection position="ALPHA_FS">
+<![CDATA[
+#if defined( SLIDER )
+    #if defined(ALPHA_BLENDED) || defined(ALPHA_TESTED)
+        alpha *= globals.gVisScale;
+    #endif
+#endif
+#if defined( ALPHA_BLENDED )
+    reflectingLightingScale = alpha;
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="FINAL_POS_FS">
+<![CDATA[
+#if defined( SLIDER )
+    #if defined( DEBUG_SHOW_PARALLAX )
+        oColor.rgb  = float3(mVisScale,0,0);
+    #endif    
+#endif
+]]>
+            </CodeInjection>
+        </CodeInjections>
+    </LodLevel>
+</CustomShader>
