@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Sosnovka Uzhe Videl" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/shaders/oceanShader.xml"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="water_mat" materialId="4" diffuseColor="1 1 1 0.8" specularColor="1 1 1" customShaderId="4">
+      <Normalmap fileId="2"/>
+      <Reflectionmap lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="planar" scaling="1" refractiveIndex="1.3" bumpScale="0.1" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
+      <Refractionmap coeff="1" bumpScale="0.1"/>
+      <CustomParameter name="bumpSpeedScale" value="-1 -3.75 0.02 1"/>
+      <CustomParameter name="underwaterFogColor" value="0.05 0.35 0.75 1"/>
+      <CustomParameter name="windScale" value="0.25 0 0 0"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="waterplaneSquare.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="waterPlane" clipDistance="1500" nodeId="7" materialIds="4" receiveShadows="true"/>
+  </Scene>
+
+</i3D>

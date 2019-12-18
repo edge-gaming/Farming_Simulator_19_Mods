@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<sounds>
+    <motorStart template="CAR_MOTOR_START" file="sounds/BMW_X6_start.ogg" linkNode="0>"/>
+    <motorStop template="CAR_MOTOR_STOP" file="$data/sounds/vehicles/engine/lizard_pickup_2014/lizard_pickup_2014_stop.wav" linkNode="0>"/>
+
+    <motor template="CAR_MOTOR_IDLE" file="sounds/BMW_X6_idle_loop.ogg" linkNode="0>"/>
+    <motor template="CAR_MOTOR_OFFLOAD_RUN" file="sounds/BMW_X6_run_loop.ogg" linkNode="0>"/>
+    <motor template="CAR_MOTOR_ONLOAD_RUN" file="sounds/BMW_X6_load_loop.ogg" linkNode="0>"/>
+
+    <!-- <gearbox template="DEFAULT_GEARBOX" file="$data/sounds/vehicles/transmission/transmission_cvtx_loop.wav" linkNode="0>"/> -->
+    <!-- <retarder template="DEFAULT_RETARDER" file="$data/sounds/vehicles/retarder/retarder_loop_01.wav" linkNode="0>"/> -->
+
+    <!-- <airCompressorStart template="BRAKE_COMPRESSOR_START" linkNode="0>"/> -->
+    <!-- <airCompressorStop template="BRAKE_COMPRESSOR_STOP" linkNode="0>"/> -->
+    <!-- <airCompressorRun template="BRAKE_COMPRESSOR_RUN" linkNode="0>"/> -->
+    <!-- <compressedAir template="BRAKE_SMALL" linkNode="0>"/> -->
+    <!-- <airRelease template="BRAKE_REGULATOR_VALVE" linkNode="0>"/> -->
+</sounds>

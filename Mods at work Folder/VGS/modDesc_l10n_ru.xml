@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <!-- 
+        Please contribute any other translations at 
+        https://github.com/DeckerMMIV/FarmSim_Mod_VehicleGroupsSwitcher
+    -->
+
+    <!-- Add your own name or nickname here, when you contribute to this file's translation, so I know who to put into the credits. -->
+    <translationContributors>
+        Gonimy-Vetrom
+    </translationContributors>
+
+    <!-- Note that 'description' is only here for easier translations. I will manually copy it to ModDesc.XML later. -->
+    <description>
+        Отсортируйте ваш автопарк на удобные группы, и переходите в пределах этих групп.
+    </description>
+
+    <texts>
+        <text name="VEGS"               text="== VehicleGroupsSwitcher - 'VeGS' ==" />
+        
+        <text name="ControlsErrorTitle" text="VeGS: Проблема из сочетаниями клавиш!" />
+        <text name="ControlsError"      text="Пожалуйста установите одинаковые клавиши-модификаторы для всех из действий 'Группа 1 ... 10' и 'Режим редактирования' для мода VeGS, в Настройки->Управление.
+Клавиши-модификаторы: SHIFT, CTRL или ALT." />
+        
+        <text name="groupLabel"         text="%d: %s" />
+        <text name="group"              text="Группа %d" />
+        <text name="unassigned"         text="Не отсортированные" />
+
+        <text name="editGroupUp"        text="VeGS: Переместить в предыдущую группу" />
+        <text name="editGroupDown"      text="VeGS: Переместить в следующую группу" />
+        <text name="editPosUp"          text="VeGS: Переместить вверх внутри группы" />
+        <text name="editPosDown"        text="VeGS: Переместить вниз внутри группы" />
+
+        <!-- Советы в режим редактирования -->
+        <text name="tip-1"              text="Для перемещения техники в другую группу в режиме редактирования, используйте клавиши вверх/вниз." />
+        <text name="tip-2"              text="Для перемещения техники в пределах группы в режиме редактирования, используйте клавиши влево/вправо." />
+        <text name="tip-3"              text="Переименование группы: в режиме редактирования, удерживайте клавишу-модификатор и клавишу номера группы." />
+
+        <!-- Советы для всех пользователей -->
+        <text name="tip1"               text="Активация/деактивация группы: удерживайте клавишу-модификатор и клавишу номера группы" />
+        <text name="tip2"               text="Чтобы показать VeGS находясь не в технике: дважды нажмите клавишу-модификатор" />
+        <text name="tip3"               text="Клавиши для VeGS могут быть изменены в настройках игры (Опции->Управление)" />
+
+        <text name="player"             text="(Игрок)" />
+        <text name="hired"              text="(Работник)" />
+        <text name="courseplay"         text="(Courseplay)" />
+        <text name="followme"           text="(FollowMe)" />
+        <text name="autodrive"          text="(AutoDrive)" />
+        <text name="unknown"            text="(?)" />
+
+        <text name="input_VEGS_GRP_TAB"       text="VeGS: Переход внутри группы" />
+        <text name="input_VEGS_GRP_NXT"       text="VeGS: Переход к след. группе" />
+        <text name="input_VEGS_GRP_01"        text="VeGS: Группа 1" />
+        <text name="input_VEGS_GRP_02"        text="VeGS: Группа 2" />
+        <text name="input_VEGS_GRP_03"        text="VeGS: Группа 3" />
+        <text name="input_VEGS_GRP_04"        text="VeGS: Группа 4" />
+        <text name="input_VEGS_GRP_05"        text="VeGS: Группа 5" />
+        <text name="input_VEGS_GRP_06"        text="VeGS: Группа 6" />
+        <text name="input_VEGS_GRP_07"        text="VeGS: Группа 7" />
+        <text name="input_VEGS_GRP_08"        text="VeGS: Группа 8" />
+        <text name="input_VEGS_GRP_09"        text="VeGS: Группа 9" />
+        <text name="input_VEGS_GRP_10"        text="VeGS: Группа 10" />
+        <text name="input_VEGS_TOGGLE_EDIT"   text="VeGS: Режим редактирования" />
+
+        <text name="VEGS_GRP_TAB"             text="VeGS: Переход внутри группы" />
+        <text name="VEGS_GRP_NXT"             text="VeGS: Переход к след. группе" />
+        <text name="VEGS_TOGGLE_EDIT"         text="VeGS: Режим редактирования" />
+    </texts>
+</l10n>
