@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="CaseIH_Color" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="textures/CaseIH_Color_normal.png"/>
+    <File fileId="3" filename="textures/CaseIH_Color_specular.png"/>
+    <File fileId="4" filename="$data/shaders/vehicleShader.xml"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="CaseIH_Color_mat" materialId="4" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="colorMask">
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 0"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="CaseIH_Color.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="CaseIH_Color_vis" nodeId="43" materialIds="4" castsShadows="true" receiveShadows="true" skinBindNodeIds="43 44 48 49 50 64 69 70 71 85 91 92 93 94 95 96">
+      <TransformGroup name="CaseIH_Color_middle" nodeId="44">
+        <Shape shapeId="2" name="CaseIH_Color_middle_weight_1" visibility="false" nodeId="45" materialIds="4" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="CaseIH_Color_middle_weight_2" visibility="false" nodeId="46" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </TransformGroup>
+      <TransformGroup name="CaseIH_Color_left" nodeId="48">
+        <TransformGroup name="CaseIH_Color_left_1" nodeId="49">
+          <TransformGroup name="CaseIH_Color_left_angle" translation="0.29 0.19 0.017" nodeId="50">
+            <Shape shapeId="4" name="CaseIH_Color_left_angle_short_090" visibility="false" nodeId="51" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="5" name="CaseIH_Color_left_angle_short_100" translation="0 -3.05311e-16 -1.86265e-09" visibility="false" nodeId="52" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="6" name="CaseIH_Color_left_angle_short_105" translation="0 9.15934e-16 5.58794e-09" visibility="false" nodeId="53" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="7" name="CaseIH_Color_left_angle_short_110" translation="0 -1.52656e-15 -9.31323e-09" visibility="false" nodeId="54" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="8" name="CaseIH_Color_left_angle_short_115" translation="0 -1.52656e-15 -9.31323e-09" visibility="false" nodeId="55" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="9" name="CaseIH_Color_left_angle_short_120" translation="0 3.33067e-15 2.04891e-08" visibility="false" nodeId="56" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="10" name="CaseIH_Color_left_angle_long_090" visibility="false" nodeId="57" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="11" name="CaseIH_Color_left_angle_long_100" visibility="false" nodeId="58" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="12" name="CaseIH_Color_left_angle_long_105" visibility="false" nodeId="59" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="13" name="CaseIH_Color_left_angle_long_110" visibility="false" nodeId="60" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="14" name="CaseIH_Color_left_angle_long_115" visibility="false" nodeId="61" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="15" name="CaseIH_Color_left_angle_long_120" visibility="false" nodeId="62" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="16" name="CaseIH_Color_left_angle_back_110" visibility="false" nodeId="63" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="CaseIH_Color_left_2" nodeId="64">
+          <Shape shapeId="17" name="CaseIH_Color_left_weight_1" visibility="false" nodeId="65" materialIds="4" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="18" name="CaseIH_Color_left_weight_2" visibility="false" nodeId="66" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+          <TransformGroup name="CaseIH_Color_light_left" translation="0.978 0.15 0.221" rotation="90 10 0" nodeId="67"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="CaseIH_Color_right" nodeId="69">
+        <TransformGroup name="CaseIH_Color_right_1" nodeId="70">
+          <TransformGroup name="CaseIH_Color_right_angle" translation="-0.29 0.19 0.017" nodeId="71">
+            <Shape shapeId="19" name="CaseIH_Color_right_angle_short_090" visibility="false" nodeId="72" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="20" name="CaseIH_Color_right_angle_short_100" translation="0 -3.05311e-16 -1.86265e-09" visibility="false" nodeId="73" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="21" name="CaseIH_Color_right_angle_short_105" translation="0 9.15934e-16 5.58794e-09" visibility="false" nodeId="74" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="22" name="CaseIH_Color_right_angle_short_110" translation="0 -1.52656e-15 -9.31323e-09" visibility="false" nodeId="75" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="23" name="CaseIH_Color_right_angle_short_115" translation="0 -1.52656e-15 -9.31323e-09" visibility="false" nodeId="76" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="24" name="CaseIH_Color_right_angle_short_120" translation="0 3.33067e-15 2.04891e-08" visibility="false" nodeId="77" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="25" name="CaseIH_Color_right_angle_long_090" visibility="false" nodeId="78" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="26" name="CaseIH_Color_right_angle_long_100" visibility="false" nodeId="79" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="27" name="CaseIH_Color_right_angle_long_105" visibility="false" nodeId="80" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="28" name="CaseIH_Color_right_angle_long_110" visibility="false" nodeId="81" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="29" name="CaseIH_Color_right_angle_long_115" visibility="false" nodeId="82" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="30" name="CaseIH_Color_right_angle_long_120" visibility="false" nodeId="83" materialIds="4" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="31" name="CaseIH_Color_right_angle_back_110" visibility="false" nodeId="84" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="CaseIH_Color_right_2" nodeId="85">
+          <Shape shapeId="32" name="CaseIH_Color_right_weight_1" visibility="false" nodeId="86" materialIds="4" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="33" name="CaseIH_Color_right_weight_2" visibility="false" nodeId="87" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+          <TransformGroup name="CaseIH_Color_light_right" translation="-0.978 0.15 0.221" rotation="90 -10 0" nodeId="88"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="screws" nodeId="90">
+        <TransformGroup name="CaseIH_Color_left_bolt_1" translation="0.233 3.33067e-18 -0.015" nodeId="91"/>
+        <TransformGroup name="CaseIH_Color_left_bolt_2" translation="0.173 -2.42029e-17 0.109" nodeId="92"/>
+        <TransformGroup name="CaseIH_Color_left_bolt_3" translation="0.293 -2.42029e-17 0.109" nodeId="93"/>
+        <TransformGroup name="CaseIH_Color_right_bolt_1" translation="-0.233 -9.99201e-18 0.045" nodeId="94"/>
+        <TransformGroup name="CaseIH_Color_right_bolt_2" translation="-0.173 -3.75255e-17 0.169" nodeId="95"/>
+        <TransformGroup name="CaseIH_Color_right_bolt_3" translation="-0.293 -3.75255e-17 0.169" nodeId="96"/>
+      </TransformGroup>
+    </Shape>
+  </Scene>
+
+</i3D>

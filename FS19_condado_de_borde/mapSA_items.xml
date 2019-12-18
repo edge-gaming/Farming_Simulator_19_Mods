@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<items>
+<!--
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerSeeds.xml"       position="-168.5 80.2 -1" rotation="0 180 0" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerSeeds.xml"       position="-168.5 80.2 -2.5" rotation="0 180 0" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerSeeds.xml"       position="-170.0 80.2 -1" rotation="0 180 0" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerSeeds.xml"       position="-170.0 80.2 -2.5" rotation="0 180 0" fillLevel="1000"/>
+
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerFertilizer.xml"  position="-177 80.2 1.0" rotation="0 180 0" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerFertilizer.xml"  position="-177 80.2 2.5" rotation="0 180 0" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerFertilizer.xml"  position="-177 80.2 4.0" rotation="0 180 0" fillLevel="1000"/>
+
+    <item className="FillablePallet" filename="data/objects/pallets/fertilizerTank.xml"                     position="-174 80.2 -6" rotation="0 180 0" fillLevel="2000"/>
+    <item className="FillablePallet" filename="data/objects/pallets/fertilizerTank.xml"                     position="-172 80.2 -6" rotation="0 180 0" fillLevel="2000"/>
+    <item className="FillablePallet" filename="data/objects/pallets/fertilizerTank.xml"                     position="-170 80.2 -6" rotation="0 180 0" fillLevel="2000"/>
+
+    <item modName="pdlc_platinumEdition" className="FillablePallet" filename="$pdlcdir$platinumEdition/objects/pallets/palletSugarCane.xml" position="-236.0 80.2 -0.7" rotation="0 180 0" fillLevel="2000"/>
+    <item modName="pdlc_platinumEdition" className="FillablePallet" filename="$pdlcdir$platinumEdition/objects/pallets/palletSugarCane.xml" position="-236.0 80.2 0.7" rotation="0 180 0" fillLevel="2000"/>
+    <item modName="pdlc_platinumEdition" className="FillablePallet" filename="$pdlcdir$platinumEdition/objects/pallets/palletSugarCane.xml" position="-234.0 80.2 -0.7" rotation="0 180 0" fillLevel="2000"/>
+    <item modName="pdlc_platinumEdition" className="FillablePallet" filename="$pdlcdir$platinumEdition/objects/pallets/palletSugarCane.xml" position="-234.0 80.2 0.7" rotation="0 180 0" fillLevel="2000"/>-->
+
+    <item mapBoundId="gasStation" className="BuyingStationPlaceable" filename="$mapdir$/placeables/gasStation/gasStation.xml" position="-550 82 344" rotation="0 0 0" />
+	<item mapBoundId="trainSilo01" className="SiloPlaceable" filename="$mapdir$/placeables/storageSilo/storageSilo01.xml" position="-835 85 238" rotation="0 0 0" />
+	<item mapBoundId="trainSilo02" className="SiloPlaceable" filename="$mapdir$/placeables/storageSilo/storageSilo02.xml" position="198 84.714 468.75" rotation="0 270 0" />
+	<item mapBoundId="trainSilo03" className="SiloPlaceable" filename="$mapdir$/placeables/storageSilo/storageSilo03.xml" position="572.5 84.419 -250" rotation="0 45 0" />
+	<item mapBoundId="harborSellingStation" className="SellingStationPlaceable" filename="$mapdir$/placeables/sellingStations/sellingStationHarbor.xml" position="-206.7 84.3 908" rotation="0 0 0" />
+	<item mapBoundId="bakerySellingStation" className="SellingStationPlaceable" filename="$mapdir$/placeables/sellingStations/sellingStationBakery.xml" position="683.874 84.05 784.85" rotation="0 0 0" />
+	<item mapBoundId="trainSellingStation" className="SellingStationPlaceable" filename="$mapdir$/placeables/sellingStations/sellingStationTrain.xml" position="-836 122.4 -933.3" rotation="0 0 -1.038" />
+	<item mapBoundId="baleSellingStation" className="SellingStationPlaceable" filename="$mapdir$/placeables/sellingStations/sellingStationBales.xml" position="-728 83.3 361" rotation="0 0 0" />
+	<item mapBoundId="trainSystem" className="TrainPlaceable" filename="$mapdir$/placeables/trainSystem/trainSystem.xml" position="0 0 0" rotation="0 0 0" />
+    <item mapBoundId="bga" className="BgaPlaceable" filename="$mapdir$/placeables/bga/bga.xml" position="-775 85 -130" rotation="0 0 0" />
+    <item mapBoundId="sellingStationWood" className="WoodSellStationPlaceable" filename="$mapdir$/placeables/sellingStations/sellingStationWood.xml" position="128 85.1 -702.5" rotation="0 135 0" />
+    <item mapBoundId="sellingStationWoodTrain" className="WoodSellStationPlaceable" filename="$mapdir$/placeables/sellingStations/sellingStationWood.xml" position="122.5 85 -684" rotation="0 135 0" />
+    <item mapBoundId="sellingStationWoodChips" className="SellingStationPlaceable" filename="$mapdir$/placeables/sellingStations/sellingStationWoodChips.xml" position="181.4 85 -723.4" rotation="0 -15 0" />
+    <item mapBoundId="sellingStationWool" className="SellingStationPlaceable" filename="$mapdir$/placeables/sellingStations/sellingStationWool.xml" position="440 83.7 910" rotation="0 0 0" />
+    <item mapBoundId="sellingStationSugarMill" className="SellingStationPlaceable" filename="$mapdir$/placeables/sellingStations/sellingStationSugarMill.xml" position="-815.4 82.85 823" rotation="0 90 0" />
+    <item mapBoundId="sellingStationVehicles" className="Workshop" filename="$mapdir$/placeables/sellingStations/sellingStationVehicles.xml" position="509.8 81.65 2.9" rotation="0 -8 0" />
+    <item mapBoundId="limeStation" className="BuyingStationPlaceable" filename="data/placeables/limeStation/limeStation.xml" position="-259 85.2 -550" rotation="0 270 0" />
+    <item className="FarmhousePlaceable" filename="$mapdir$/placeables/farmBuildings/farmMansion.xml" position="-307.526 80 8.159" rotation="0 0 0" defaultFarmProperty="true" farmId="1"/>
+    <item className="Placeable" filename="$mapdir$/placeables/farmBuildings/farmStorageBarn.xml" position="-184 80 14" rotation="0 270 0" defaultFarmProperty="true" farmId="1"/>
+    <item mapBoundId="waterFillTriggers" className="BuyingStationPlaceable" filename="$mapdir$/placeables/waterFillTriggers/waterFillTriggers.xml" position="0 0 0" rotation="0 0 0" />
+</items>

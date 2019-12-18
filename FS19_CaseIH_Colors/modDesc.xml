@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="44">
+    <author>EDGE Gaming</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>CaseIH_Color</en>
+    </title>
+    <description>
+        <en><![CDATA[With the CaseIH_Color, vehicles can be permanently equipped with an additional weight. A new configuration will be added to all standard tractors in the shop.
+A SDK and tutorial is available on EDGE Gaming.net
+	]]></en>        
+        <de><![CDATA[Mit dem CaseIH_Color können Fahrzeuge permanent mit einem zusätzlichen Gewicht ausgestattet werden. Es erscheint eine weitere Konfiguration bei den Standardftractoren im Shop.
+Ein SDK und Tutorial gibt es auf EDGE Gaming.net		
+]]></de>
+        <fr><![CDATA[Avec l'CaseIH_Color, les véhicules peuvent être équipés en permanence d'un poids supplémentaire. Une nouvelle configuration sera ajoutée à tous les tracteurs standard du magasin.
+Un SDK et un tutoriel sont disponibles sur EDGE Gaming.net
+	]]></fr>    
+    </description>
+    <iconFilename>icon_CaseIH_Color.png</iconFilename>
+    <multiplayer supported="true"/>
+
+	<extraSourceFiles>
+		<sourceFile filename="scripts/CaseIH_ColorSourceFile.lua"/>
+		<sourceFile filename="scripts/RegisterCaseIH_ColorSpecialization.lua"/>
+	</extraSourceFiles>
+
+	<l10n>
+		<text name="configuration_CaseIH_Color">
+			<en>CaseIH_Color</en>
+			<de>CaseIH_Color</de>
+		</text>
+		<text name="configuration_noCaseIH_Color">
+			<en>not mounted</en>
+			<de>nicht montiert</de>
+		</text>
+		<text name="configuration_basicCaseIH_Color">
+			<en>basic</en>
+			<de>Grundausstattung</de>
+		</text>
+		<text name="configuration_CaseIH_ColorWeight400">
+			<en>Weight: 400kg</en>
+			<de>Gewicht: 400kg</de>
+		</text>
+		<text name="configuration_CaseIH_ColorWeight700">
+			<en>Weight: 700kg</en>
+			<de>Gewicht: 700kg</de>
+		</text>
+		<text name="configuration_CaseIH_ColorWeight900">
+			<en>Weight: 900kg</en>
+			<de>Gewicht: 900kg</de>
+		</text>
+		<text name="configuration_CaseIH_ColorWeight1200">
+			<en>Weight: 1200kg</en>
+			<de>Gewicht: 1200kg</de>
+		</text>
+		<text name="configuration_CaseIH_ColorWeight1400">
+			<en>Weight: 1400kg</en>
+			<de>Gewicht: 1400kg</de>
+		</text>
+		<text name="configuration_CaseIH_ColorWeight1600">
+			<en>Weight: 1600kg</en>
+			<de>Gewicht: 1600kg</de>
+		</text>
+	</l10n>
+</modDesc>

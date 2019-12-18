@@ -1,0 +1,1504 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<xmlConfigData>	
+	<vehicles>
+		<!-- Giants Game -->
+		<!-- Case -->
+		<vehicle vehicleFilename="data/vehicles/caseIH/maxxum145CVX/maxxum145CVX.xml">
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.208 0.356" rotation="5 0 0" shaderParameterName="colorMat0" shaderParameter="CASEIH_RED1" />
+			<attacherJoint index="2" startRotation="-5 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="7">		
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.07 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.07 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_left_angle_short_090" visibilityInactive="true" translationInactive="0 0 0.025" />
+					<objectChange node="CaseIH_Color_right_angle_short_090" visibilityInactive="true" translationInactive="0 0 0.025" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="maxxum145CVX_main_component1" massActive="2580" centerOfMassActive="0 0.819 -0.686" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight700" price="2750">
+					<objectChange node="maxxum145CVX_main_component1" massActive="2880" centerOfMassActive="0 0.801 -0.451" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.085" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="maxxum145CVX_main_component1" massActive="3080" centerOfMassActive="0 0.791 -0.319" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1200" price="4000">
+					<objectChange node="maxxum145CVX_main_component1" massActive="3380" centerOfMassActive="0 0.778 -0.151" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.085" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="maxxum145CVX_main_component1" massActive="3580" centerOfMassActive="0 0.771 -0.056" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1600" price="5000">
+					<objectChange node="maxxum145CVX_main_component1" massActive="3780" centerOfMassActive="0 0.764 0.031" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.085" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_middle_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		<vehicle vehicleFilename="data/vehicles/caseIH/puma/puma.xml">
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.261 0.375" rotation="7 0 0" shaderParameterName="colorMat0" shaderParameter="CASEIH_RED1" />
+			<attacherJoint index="2" startRotation="-7 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="4"><!-- 7 -->	
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.09 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.09 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_left_angle_short_090" visibilityInactive="true" translationInactive="0 0 0.025" />
+					<objectChange node="CaseIH_Color_right_angle_short_090" visibilityInactive="true" translationInactive="0 0 0.025" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="pumaCVX_main_component1" massActive="4950" centerOfMassActive="0 0.969 -0.290" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="pumaCVX_main_component1" massActive="5450" centerOfMassActive="0 0.937 -0.071" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="pumaCVX_main_component1" massActive="5950" centerOfMassActive="0 0.910 0.111" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		<vehicle vehicleFilename="data/vehicles/caseIH/optum/optum.xml">
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.234 0.415" rotation="15 0 0" shaderParameterName="colorMat0" shaderParameter="CASEIH_RED1" />
+			<attacherJoint index="2" startRotation="-15 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="7">		
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.17 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.17 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_left_angle_long_110" visibilityInactive="true" />
+					<objectChange node="CaseIH_Color_right_angle_long_110" visibilityInactive="true" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="optum_main_component1" massActive="5950" centerOfMassActive="0 0.959 -0.209" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight700" price="2750">
+					<objectChange node="optum_main_component1" massActive="6250" centerOfMassActive="0 0.931 -0.095" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.03" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="optum_main_component1" massActive="6450" centerOfMassActive="0 0.915 -0.025" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1200" price="4000">
+					<objectChange node="optum_main_component1" massActive="6750" centerOfMassActive="0 0.891 0.072" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.03" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="optum_main_component1" massActive="6950" centerOfMassActive="0 0.877 0.132" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1600" price="5000">
+					<objectChange node="optum_main_component1" massActive="7150" centerOfMassActive="0 0.863 0.189" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.03" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_middle_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		<vehicle vehicleFilename="data/vehicles/caseIH/magnum/magnum.xml">
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.209 0.099" rotation="10 0 0" shaderParameterName="colorMat0" shaderParameter="CASEIH_RED1" />
+			<attacherJoint index="2" startRotation="-10 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="4"><!-- 7 -->
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.119 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.119 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_left_angle_back_110" visibilityInactive="true" translationInactive="0 0 0.025" rotationInactive="0 0 3" />
+					<objectChange node="CaseIH_Color_right_angle_back_110" visibilityInactive="true" translationInactive="0 0 0.025" rotationInactive="0 0 -3" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="magnum_main_component1" massActive="7100" centerOfMassActive="0 0.986 -0.781" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="magnum_main_component1" massActive="7600" centerOfMassActive="0 0.970 -0.540" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="magnum_main_component1" massActive="8100" centerOfMassActive="0 0.957 -0.329"/>
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		
+		<!-- Deutz -->
+		<vehicle vehicleFilename="data/vehicles/deutz/series9/series9.xml">
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.168 0.353" rotation="5 0 0" shaderParameterName="colorMat0" shaderParameter="DEUTZ_GREEN4" />
+			<attacherJoint index="2" startRotation="-5 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="7">
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.145 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.145 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_left_angle_short_115" visibilityInactive="true" translationInactive="0 0 0.025" rotationInactive="0 0 -5" />
+					<objectChange node="CaseIH_Color_right_angle_short_115" visibilityInactive="true" translationInactive="0 0 0.025" rotationInactive="0 0 5" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="series9_main_component1" massActive="7140" centerOfMassActive="0 0.919 -0.333" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight700" price="2750">
+					<objectChange node="series9_main_component1" massActive="7440" centerOfMassActive="0 0.898 -0.219" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.05" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="series9_main_component1" massActive="7640" centerOfMassActive="0 0.885 -0.149" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1200" price="4000">
+					<objectChange node="series9_main_component1" massActive="7940" centerOfMassActive="0 0.867 -0.049" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.05" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="series9_main_component1" massActive="8140" centerOfMassActive="0 0.855 0.013"/>
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1600" price="5000">
+					<objectChange node="series9_main_component1" massActive="8340" centerOfMassActive="0 0.844 0.072" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.05" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_middle_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		
+		<!-- Fendt -->
+		<vehicle vehicleFilename="data/vehicles/fendt/fendt300/fendt300.xml">
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.153 0.311" rotation="5 0 0" shaderParameterName="colorMat0" useBaseMaterial="true" />
+			<attacherJoint index="2" startRotation="-5 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="5">
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.122 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.122 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_left_angle_short_120" visibilityInactive="true" translationInactive="0 0 0.025" rotationInactive="0 0 3" />
+					<objectChange node="CaseIH_Color_right_angle_short_120" visibilityInactive="true" translationInactive="0 0 0.025" rotationInactive="0 0 -3" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="Vario300_main_component1" massActive="3312" centerOfMassActive="0 0.983 -0.488" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight700" price="2750">
+					<objectChange node="Vario300_main_component1" massActive="3612" centerOfMassActive="0 0.972 -0.359" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.04" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="Vario300_main_component1" massActive="3812" centerOfMassActive="0 0.966 -0.285" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1200" price="4000">
+					<objectChange node="Vario300_main_component1" massActive="4112" centerOfMassActive="0 0.959 -0.187" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.04" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		<vehicle vehicleFilename="data/vehicles/fendt/fendt700/fendt700.xml">
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.151 0.398" rotation="0 0 0" shaderParameterName="colorMat0" useBaseMaterial="true" />
+			<attacherJoint index="2" startRotation="-0 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="7">
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.125 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.125 0 0" />
+					<objectChange node="CaseIH_Color_left_1" translationInactive="0 0 -0.03" />
+					<objectChange node="CaseIH_Color_right_1" translationInactive="0 0 -0.03" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_left_angle_short_120" visibilityInactive="true" />
+					<objectChange node="CaseIH_Color_right_angle_short_120" visibilityInactive="true" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="fendt700_main_component1" massActive="4950" centerOfMassActive="0 0.975 -0.215" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight700" price="2750">
+					<objectChange node="fendt700_main_component1" massActive="5250" centerOfMassActive="0 0.959 -0.095" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="fendt700_main_component1" massActive="5450" centerOfMassActive="0 0.949 -0.023" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1200" price="4000">
+					<objectChange node="fendt700_main_component1" massActive="5750" centerOfMassActive="0 0.936 0.077" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="fendt700_main_component1" massActive="5950" centerOfMassActive="0 0.928 0.138"/>
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1600" price="5000">
+					<objectChange node="fendt700_main_component1" massActive="6150" centerOfMassActive="0 0.920 0.194" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_middle_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		<vehicle vehicleFilename="data/vehicles/fendt/fendt900/fendt900.xml">
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.153 0.449" rotation="0 0 0" shaderParameterName="colorMat0" useBaseMaterial="true" />
+			<attacherJoint index="2" startRotation="-0 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="7">
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.125 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.125 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_left_angle_short_100" visibilityInactive="true" />
+					<objectChange node="CaseIH_Color_right_angle_short_100" visibilityInactive="true" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="vario900_main_component1" massActive="9425" centerOfMassActive="0 0.884 0.180" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight700" price="2750">
+					<objectChange node="vario900_main_component1" massActive="9725" centerOfMassActive="0 0.872 0.236" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.06" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="vario900_main_component1" massActive="9925" centerOfMassActive="0 0.865 0.272" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1200" price="4000">
+					<objectChange node="vario900_main_component1" massActive="10225" centerOfMassActive="0 0.855 0.322" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.06" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="vario900_main_component1" massActive="10425" centerOfMassActive="0 0.848 0.354"/>
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1600" price="5000">
+					<objectChange node="vario900_main_component1" massActive="10625" centerOfMassActive="0 0.842 0.385" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.06" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_middle_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		<vehicle vehicleFilename="data/vehicles/fendt/vario1000/vario1000.xml">
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.153 0.449" rotation="0 0 0" shaderParameterName="colorMat0" shaderParameter="FENDT_NEWGREEN1" />
+			<attacherJoint index="2" startRotation="-0 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="7">
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.13 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.13 0 0" />
+					<objectChange node="CaseIH_Color_left_1" translationInactive="0 0 -0.03" />
+					<objectChange node="CaseIH_Color_right_1" translationInactive="0 0 -0.03" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_left_angle_short_100" visibilityInactive="true" />
+					<objectChange node="CaseIH_Color_right_angle_short_100" visibilityInactive="true" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="vario1000_main_component1" massActive="12660" centerOfMassActive="0 0.991 0.272" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight700" price="2750">
+					<objectChange node="vario1000_main_component1" massActive="12960" centerOfMassActive="0 0.984 0.323" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.03" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="vario1000_main_component1" massActive="13160" centerOfMassActive="0 0.980 0.365" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1200" price="4000">
+					<objectChange node="vario1000_main_component1" massActive="13460" centerOfMassActive="0 0.974 0.402" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.03" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="vario1000_main_component1" massActive="13660" centerOfMassActive="0 0.970 0.433"/>
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1600" price="5000">
+					<objectChange node="vario1000_main_component1" massActive="13860" centerOfMassActive="0 0.967 0.462" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.03" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_middle_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		
+		<!-- JCB -->
+		<vehicle vehicleFilename="data/vehicles/jcb/fastrac4220/fastrac4220.xml">
+			<params node="bottomLinkFront" filename="CaseIH_Color.xml" translation="0 -0.17 0.085" rotation="15 0 0" shaderParameterName="colorMat0" shaderParameter="JCB_YELLOW1" />
+			<attacherJoint index="2" startRotation="-15 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="7">		
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_middle" translationInactive="0 0 0.05" />
+					<objectChange node="CaseIH_Color_left" translationInactive="0.125 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.125 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_left_angle_back_110" visibilityInactive="true" translationInactive="0 0 0.025" rotationInactive="0 0 -5" />
+					<objectChange node="CaseIH_Color_right_angle_back_110" visibilityInactive="true" translationInactive="0 0 0.025" rotationInactive="0 0 5" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="fastrac4220_main_component1" massActive="5050" centerOfMassActive="0 0.788 -0.411" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight700" price="2750">
+					<objectChange node="fastrac4220_main_component1" massActive="5350" centerOfMassActive="0 0.780 -0.255" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="fastrac4220_main_component1" massActive="5550" centerOfMassActive="0 0.775 -0.161" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1200" price="4000">
+					<objectChange node="fastrac4220_main_component1" massActive="5850" centerOfMassActive="0 0.769 -0.031" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="fastrac4220_main_component1" massActive="6050" centerOfMassActive="0 0.765 -0.048" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1600" price="5000">
+					<objectChange node="fastrac4220_main_component1" massActive="6250" centerOfMassActive="0 0.761 0.123" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<!--<objectChange node="CaseIH_Color_middle_weight_2" visibilityActive="true" />-->
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		<vehicle vehicleFilename="data/vehicles/jcb/fastrac8330/fastrac8330.xml">
+			<params node="bottomLinkFront" filename="CaseIH_Color.xml" translation="0 -0.187 0.234" rotation="15 0 0" shaderParameterName="colorMat0" shaderParameter="JCB_YELLOW1" />
+			<attacherJoint index="2" startRotation="-15 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="4"><!-- 7 -->		
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.154 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.154 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.14 0.042" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.14 0.042" />
+					<objectChange node="CaseIH_Color_left_angle_short_110" visibilityInactive="true" translationInactive="0 0 0.025" />
+					<objectChange node="CaseIH_Color_right_angle_short_110" visibilityInactive="true" translationInactive="0 0 0.025" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="fastrac8330_main_component1" massActive="6400" centerOfMassActive="0 0.772 -0.682" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="fastrac8330_main_component1" massActive="6900" centerOfMassActive="0 0.741 -0.446" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="fastrac8330_main_component1" massActive="7400" centerOfMassActive="0 0.715 -0.241" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		
+		<!-- John Deere -->
+		<vehicle vehicleFilename="data/vehicles/johnDeere/series6R/series6R.xml">
+			<params node="bottomArmFront" filename="CaseIH_Color.xml" translation="0 -0.099 0.235" rotation="6.156 0 0" shaderParameterName="colorMat0" shaderParameter="JOHNDEERE_GREEN1" />
+			<attacherJoint index="2" startRotation="-7.5 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="7">		
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_middle" translationInactive="0 0 0.077" />
+					<objectChange node="CaseIH_Color_left" translationInactive="0.16 0 0" />
+					<objectChange node="CaseIH_Color_left_1" translationInactive="0 0 -0.009" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.087 0.017" />
+					<objectChange node="CaseIH_Color_left_angle_short_105" visibilityInactive="true" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.16 0 0" />
+					<objectChange node="CaseIH_Color_right_1" translationInactive="0 0 -0.009" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.087 0.017" />
+					<objectChange node="CaseIH_Color_right_angle_short_105" visibilityInactive="true" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="series6r_main_component1" massActive="5800" centerOfMassActive="0 0.9 -0.4" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight700" price="2750">
+					<objectChange node="series6r_main_component1" massActive="6100" centerOfMassActive="0 0.9 -0.35" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="series6r_main_component1" massActive="6300" centerOfMassActive="0 0.9 -0.3" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1200" price="4000">
+					<objectChange node="series6r_main_component1" massActive="6600" centerOfMassActive="0 0.9 -0.25" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="series6r_main_component1" massActive="6800" centerOfMassActive="0 0.9 -0.2" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1600" price="5000">
+					<objectChange node="series6r_main_component1" massActive="7000" centerOfMassActive="0 0.9 -0.15" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_middle_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>	
+		<vehicle vehicleFilename="data/vehicles/johnDeere/series7R/series7R.xml">
+			<params node="bottomLinkFront" filename="CaseIH_Color.xml" translation="0 -0.243 0.427" rotation="7.5 0 0" shaderParameterName="colorMat0" shaderParameter="JOHNDEERE_GREEN1" />
+			<attacherJoint index="2" startRotation="-7 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="7">		
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_middle" translationInactive="0 0 0.05" />
+					<objectChange node="CaseIH_Color_left" translationInactive="0.178 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.136 0.017" />
+					<objectChange node="CaseIH_Color_left_angle_short_090" visibilityInactive="true" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.178 0 0" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.136 0.017" />
+					<objectChange node="CaseIH_Color_right_angle_short_090" visibilityInactive="true" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="series7r_main_component1" massActive="5900" centerOfMassActive="0 1 -1.05" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight700" price="2750">
+					<objectChange node="series7r_main_component1" massActive="6200" centerOfMassActive="0 1 -1.0" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="series7r_main_component1" massActive="6400" centerOfMassActive="0 1 -0.95" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1200" price="4000">
+					<objectChange node="series7r_main_component1" massActive="6700" centerOfMassActive="0 1 -0.9" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="series7r_main_component1" massActive="6900" centerOfMassActive="0 1 -0.85" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1600" price="5000">
+					<objectChange node="series7r_main_component1" massActive="7100" centerOfMassActive="0 1 -0.8" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_middle_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>	
+		<vehicle vehicleFilename="data/vehicles/johnDeere/series8R/series8R.xml">
+			<params node="jd_vis" filename="CaseIH_Color.xml" translation="0 -0.398 3.218" rotation="0 0 0" shaderParameterName="colorMat0" shaderParameter="JOHNDEERE_GREEN1" />
+			<CaseIH_ColorConfigurations numConfigs="2">		
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">				
+					<objectChange node="CaseIH_Color_middle" translationInactive="0 0 -0.138" />		
+					<objectChange node="CaseIH_Color_left" translationInactive="0.232 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_left_angle_short_090" visibilityInactive="true" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.232 0 0" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_right_angle_short_090" visibilityInactive="true" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />	
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="series8R_main_component1" massActive="10708" centerOfMassActive="0 0.8 -0.25" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		
+		<!-- Lindner -->
+		<vehicle vehicleFilename="data/vehicles/lindner/lintrac90/lintrac90.xml">
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.166 0.387" rotation="3 0 0" shaderParameterName="colorMat0" useBaseMaterial="true" />
+			<attacherJoint index="2" startRotation="-3 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="5">		
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.11 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.11 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.14 0.042" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.14 0.042" />
+					<objectChange node="CaseIH_Color_left_angle_long_120" visibilityInactive="true" translationInactive="0 0 0.025" rotationInactive="0 0 -3" />
+					<objectChange node="CaseIH_Color_right_angle_long_120" visibilityInactive="true" translationInactive="0 0 0.025" rotationInactive="0 0 3" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="lintrac90_main_component1" massActive="2450" centerOfMassActive="0 0.754 -0.417" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight700" price="2750">
+					<objectChange node="lintrac90_main_component1" massActive="2750" centerOfMassActive="0 0.745 -0.220" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.08" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="lintrac90_main_component1" massActive="2950" centerOfMassActive="0 0.739 -0.110" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1200" price="4000">
+					<objectChange node="lintrac90_main_component1" massActive="3250" centerOfMassActive="0 0.733 0.028" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.08" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		
+		<!-- Massey Ferguson -->
+		<vehicle vehicleFilename="data/vehicles/masseyFerguson/MF5600/MF5600.xml">
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.116 0.215" rotation="0 0 0" shaderParameterName="colorMat0" shaderParameter="MASSEYFERGUSON_RED" />
+			<attacherJoint index="2" startRotation="-0 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="3">
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.15 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.15 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.14 0.017" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.14 0.017" />
+					<objectChange node="CaseIH_Color_left_angle_back_110" visibilityInactive="true" />
+					<objectChange node="CaseIH_Color_right_angle_back_110" visibilityInactive="true" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="MF5600_main_component1" massActive="3450" centerOfMassActive="0 0.684 -0.134" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="MF5600_main_component1" massActive="3950" centerOfMassActive="0 0.668 0.123" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		<vehicle vehicleFilename="data/vehicles/masseyFerguson/MF7700/MF7700.xml">
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.195 0.079" rotation="10 0 0" shaderParameterName="colorMat0" shaderParameter="MASSEYFERGUSON_RED" />
+			<attacherJoint index="2" startRotation="-10 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="7">
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.15 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.15 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_left_angle_back_110" visibilityInactive="true" rotationInactive="0 0 4" />
+					<objectChange node="CaseIH_Color_right_angle_back_110" visibilityInactive="true" rotationInactive="0 0 -4" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="MF7700_main_component1" massActive="4350" centerOfMassActive="0 0.953 -0.236" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight700" price="2750">
+					<objectChange node="MF7700_main_component1" massActive="4650" centerOfMassActive="0 0.923 -0.068" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.08" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="MF7700_main_component1" massActive="4850" centerOfMassActive="0 0.907 0.032" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1200" price="4000">
+					<objectChange node="MF7700_main_component1" massActive="5150" centerOfMassActive="0 0.881 0.167" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.08" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="MF7700_main_component1" massActive="5350" centerOfMassActive="0 0.867 0.250" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1600" price="5000">
+					<objectChange node="MF7700_main_component1" massActive="5550" centerOfMassActive="0 0.853 0.327" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.08" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_middle_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		<vehicle vehicleFilename="data/vehicles/masseyFerguson/MF8700/MF8700.xml">
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.286 -0.059" rotation="74 0 0" shaderParameterName="colorMat0" shaderParameter="MASSEYFERGUSON_RED" />
+			<attacherJoint index="2" startRotation="-74 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="4"><!-- 7 -->
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.09 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.09 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_left_angle_short_090" visibilityInactive="true" translationInactive="0 0 0.025" />
+					<objectChange node="CaseIH_Color_right_angle_short_090" visibilityInactive="true" translationInactive="0 0 0.025" />
+					<objectChange node="attacherJointFront" rotationInactive="0 90 0" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="mf8700_main_component1" massActive="10030" centerOfMassActive="0 0.988 0.088" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="mf8700_main_component1" massActive="10530" centerOfMassActive="0 0.975 0.188" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="mf8700_main_component1" massActive="11030" centerOfMassActive="0 0.962 0.280" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		
+		<!-- New Holland -->
+		<vehicle vehicleFilename="data/vehicles/newHolland/T5/T5.xml">
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.164 0.335" rotation="0 0 0" shaderParameterName="colorMat0" shaderParameter="NEWHOLLAND_BLUE1" />
+			<attacherJoint index="2" startRotation="-1 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="5">		
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.11 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.11 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_left_angle_short_105" visibilityInactive="true" translationInactive="0 0 0.025" rotationInactive="0 0 3" />
+					<objectChange node="CaseIH_Color_right_angle_short_105" visibilityInactive="true" translationInactive="0 0 0.025" rotationInactive="0 0 -3" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="newHollandT5_main_component1" massActive="2390" centerOfMassActive="0 0.695 -0.308" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight700" price="2750">
+					<objectChange node="newHollandT5_main_component1" massActive="2690" centerOfMassActive="0 0.692 -0.119" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.08" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="newHollandT5_main_component1" massActive="2890" centerOfMassActive="0 0.691 -0.014" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1200" price="4000">
+					<objectChange node="newHollandT5_main_component1" massActive="3190" centerOfMassActive="0 0.689 0.118" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.08" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		<vehicle vehicleFilename="data/vehicles/newHolland/T6/T6.xml">
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.203 0.385" rotation="5 0 0" shaderParameterName="colorMat0" shaderParameter="NEWHOLLAND_BLUE1" />
+			<attacherJoint index="2" startRotation="-5 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="7">		
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.055 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.055 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_left_angle_short_090" visibilityInactive="true" />
+					<objectChange node="CaseIH_Color_right_angle_short_090" visibilityInactive="true" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="t6_main_component1" massActive="3225" centerOfMassActive="0 0.778 -0.778" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight700" price="2750">
+					<objectChange node="t6_main_component1" massActive="3525" centerOfMassActive="0 0.764 -0.585" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.06" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="t6_main_component1" massActive="3725" centerOfMassActive="0 0.757 -0.474" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1200" price="4000">
+					<objectChange node="t6_main_component1" massActive="4025" centerOfMassActive="0 0.747 -0.327" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.06" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="t6_main_component1" massActive="4225" centerOfMassActive="0 0.741 -0.241" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1600" price="5000">
+					<objectChange node="t6_main_component1" massActive="4425" centerOfMassActive="0 0.735 -0.162" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.06" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_middle_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		<vehicle vehicleFilename="data/vehicles/newHolland/T7/T7.xml">
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.234 0.415" rotation="15 0 0" shaderParameterName="colorMat0" shaderParameter="NEWHOLLAND_BLUE1" />
+			<attacherJoint index="2" startRotation="-15 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="7">		
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.17 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.17 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_left_angle_long_110" visibilityInactive="true" />
+					<objectChange node="CaseIH_Color_right_angle_long_110" visibilityInactive="true" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="T7_main_component1" massActive="5535" centerOfMassActive="0 0.969 -0.4" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight700" price="2750">
+					<objectChange node="T7_main_component1" massActive="5835" centerOfMassActive="0 0.948 -0.269" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.03" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="T7_main_component1" massActive="6035" centerOfMassActive="0 0.936 -0.188" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1200" price="4000">
+					<objectChange node="T7_main_component1" massActive="6335" centerOfMassActive="0 0.918 -0.077" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.03" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="T7_main_component1" massActive="6535" centerOfMassActive="0 0.907 -0.009" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1600" price="5000">
+					<objectChange node="T7_main_component1" massActive="4425" centerOfMassActive="0 0.897 0.056" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.03" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_middle_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		<vehicle vehicleFilename="data/vehicles/newHolland/T8/T8.xml">
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.274 0.199" rotation="10 0 0" shaderParameterName="colorMat0" shaderParameter="NEWHOLLAND_BLUE1" />
+			<attacherJoint index="2" startRotation="-10 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="7">		
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.158 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.158 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_left_angle_back_110" visibilityInactive="true" />
+					<objectChange node="CaseIH_Color_right_angle_back_110" visibilityInactive="true" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="t8_main_component1" massActive="7400" centerOfMassActive="0 0.889 -0.449" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight700" price="2750">
+					<objectChange node="t8_main_component1" massActive="7700" centerOfMassActive="0 0.881 -0.333" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.045" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="t8_main_component1" massActive="7900" centerOfMassActive="0 0.877 -0.260" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1200" price="4000">
+					<objectChange node="t8_main_component1" massActive="8200" centerOfMassActive="0 0.870 -0.158" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.045" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="t8_main_component1" massActive="8400" centerOfMassActive="0 0.866 -0.094" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1600" price="5000">
+					<objectChange node="t8_main_component1" massActive="8600" centerOfMassActive="0 0.862 -0.032" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.045" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_middle_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		
+		<!-- Steyr -->
+		<vehicle vehicleFilename="data/vehicles/steyr/profiCVT/profiCVT.xml">
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.21 0.352" rotation="10 0 0" shaderParameterName="colorMat0" shaderParameter="STEYR_WHITE1" />
+			<attacherJoint index="2" startRotation="-10 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="4"> <!-- 7 -->		
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.072 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.072 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_left_angle_short_090" visibilityInactive="true" translationInactive="0 0 0.025" />
+					<objectChange node="CaseIH_Color_right_angle_short_090" visibilityInactive="true" translationInactive="0 0 0.025" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="proficvt_main_component1" massActive="2500" centerOfMassActive="0 0.815 -0.708" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="proficvt_main_component1" massActive="3000" centerOfMassActive="0 0.785 -0.322" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="proficvt_main_component1" massActive="3500" centerOfMassActive="0 0.763 -0.046" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		<vehicle vehicleFilename="data/vehicles/steyr/terrusCVT/terrusCVT.xml">
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.234 0.415" rotation="15 0 0" shaderParameterName="colorMat0" shaderParameter="STEYR_WHITE1" />
+			<attacherJoint index="2" startRotation="-15 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="7">		
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.17 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.17 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_left_angle_long_110" visibilityInactive="true" />
+					<objectChange node="CaseIH_Color_right_angle_long_110" visibilityInactive="true" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="terrusCVT_main_component1" massActive="5900" centerOfMassActive="0 0.865 -0.32" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight700" price="2750">
+					<objectChange node="terrusCVT_main_component1" massActive="6200" centerOfMassActive="0 0.842 -0.200" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.03" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="terrusCVT_main_component1" massActive="6400" centerOfMassActive="0 0.828 -0.126" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1200" price="4000">
+					<objectChange node="terrusCVT_main_component1" massActive="6700" centerOfMassActive="0 0.808 -0.023" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.03" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="terrusCVT_main_component1" massActive="6900" centerOfMassActive="0 0.796 0.04" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1600" price="5000">
+					<objectChange node="terrusCVT_main_component1" massActive="7100" centerOfMassActive="0 0.785 0.1" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.03" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_middle_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		
+		<!-- Valtra -->
+		<vehicle vehicleFilename="data/vehicles/valtra/NSeries/NSeries.xml">
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.182 0.343" rotation="5 0 0" shaderParameterName="colorMat0" useBaseMaterial="true" />
+			<attacherJoint index="2" startRotation="-5 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="7">		
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.073 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.073 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_left_angle_short_110" visibilityInactive="true" translationInactive="0 0 0.025" />
+					<objectChange node="CaseIH_Color_left_angle_short_110" visibilityInactive="true" translationInactive="0 0 0.025" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="nSeries_main_component1" massActive="3500" centerOfMassActive="0 0.739 -0.475" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 -0.04" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight700" price="2750">
+					<objectChange node="nSeries_main_component1" massActive="3800" centerOfMassActive="0 0.732 -0.307" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.065" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="nSeries_main_component1" massActive="4000" centerOfMassActive="0 0.728 -0.208" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 -0.04" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1200" price="4000">
+					<objectChange node="nSeries_main_component1" massActive="4300" centerOfMassActive="0 0.722 -0.078" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.065" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="nSeries_main_component1" massActive="4500" centerOfMassActive="0 0.719 -0.001" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 -0.04" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1600" price="5000">
+					<objectChange node="nSeries_main_component1" massActive="4700" centerOfMassActive="0 0.716 0.069" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.065" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_middle_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		<vehicle vehicleFilename="data/vehicles/valtra/TSeries/TSeries.xml">
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.18 0.276" rotation="0 0 0" shaderParameterName="colorMat0" useBaseMaterial="true" />
+			<attacherJoint index="2" startRotation="-0 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="4"><!-- 7 -->
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.05 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.05 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_left_angle_back_110" visibilityInactive="true" rotationInactive="0 0 -2" />
+					<objectChange node="CaseIH_Color_right_angle_back_110" visibilityInactive="true" rotationInactive="0 0 2" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="tSeries_main_component1" massActive="4250" centerOfMassActive="0 0.873 -0.473" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="tSeries_main_component1" massActive="4750" centerOfMassActive="0 0.847 -0.212" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="tSeries_main_component1" massActive="5250" centerOfMassActive="0 0.825 -0.001" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		<vehicle vehicleFilename="data/vehicles/valtra/SSeries/SSeries.xml">
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.286 -0.059" rotation="74 0 0" shaderParameterName="colorMat0" useBaseMaterial="true" />
+			<attacherJoint index="2" startRotation="-74 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="4"><!-- 7 -->
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.09 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.09 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_left_angle_short_090" visibilityInactive="true" translationInactive="0 0 0.025" />
+					<objectChange node="CaseIH_Color_right_angle_short_090" visibilityInactive="true" translationInactive="0 0 0.025" />
+					<objectChange node="attacherJointFront" rotationInactive="0 90 0" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="sSeries_main_component1" massActive="8900" centerOfMassActive="0 0.891 0.103" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="sSeries_main_component1" massActive="9400" centerOfMassActive="0 0.881 0.220" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="sSeries_main_component1" massActive="9900" centerOfMassActive="0 0.872 0.325" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		<!-- Mods -->
+		<!-- Deutz -->
+		<vehicle vehicleFilename="$moddir$FS19_deutzSeries7/deutzFahrSeries7.xml"> <!-- https://www.farming-simulator.com/mod.php?mod_id=121720&title=fs2019 -->
+			<params node="attacherJointFrontBottomArm" filename="CaseIH_Color.xml" translation="0 -0.176 0.414" rotation="0 0 0" shaderParameterName="colorMat0" useDesignMaterial="true" />
+			<attacherJoint index="2" startRotation="-0 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="7">
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.15 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.15 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.14 0.042" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.14 0.042" />
+					<objectChange node="CaseIH_Color_left_angle_short_110" visibilityInactive="true" translationInactive="0 0 0.025" />
+					<objectChange node="CaseIH_Color_right_angle_short_110" visibilityInactive="true" translationInactive="0 0 0.025" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="deutzFahr7250_main_component1" massActive="4350" centerOfMassActive="0 0.965 -0.340" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight700" price="2750">
+					<objectChange node="deutzFahr7250_main_component1" massActive="4650" centerOfMassActive="0 0.943 -0.187" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.02" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="deutzFahr7250_main_component1" massActive="4850" centerOfMassActive="0 0.930 -0.095" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1200" price="4000">
+					<objectChange node="deutzFahr7250_main_component1" massActive="5150" centerOfMassActive="0 0.912 0.029" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.02" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="deutzFahr7250_main_component1" massActive="5350" centerOfMassActive="0 0.901 0.104"/>
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1600" price="5000">
+					<objectChange node="deutzFahr7250_main_component1" massActive="5550" centerOfMassActive="0 0.891 0.173" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.02" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_middle_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		<!-- Fendt -->
+		<vehicle vehicleFilename="$moddir$FS19_fendt900BlackBeauty/fendt900BB.xml"> <!-- https://www.farming-simulator.com/mod.php?mod_id=121206&title=fs2019 -->
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.153 0.449" rotation="0 0 0" shaderParameterName="colorMat0" shaderParameter="0.028 0.025 0.023" />
+			<attacherJoint index="2" startRotation="-0 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="7">
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.125 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.125 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_left_angle_short_100" visibilityInactive="true" />
+					<objectChange node="CaseIH_Color_right_angle_short_100" visibilityInactive="true" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="vario900_main_component1" massActive="9425" centerOfMassActive="0 0.884 0.180" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight700" price="2750">
+					<objectChange node="vario900_main_component1" massActive="9725" centerOfMassActive="0 0.872 0.236" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.06" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="vario900_main_component1" massActive="9925" centerOfMassActive="0 0.865 0.272" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1200" price="4000">
+					<objectChange node="vario900_main_component1" massActive="10225" centerOfMassActive="0 0.855 0.322" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.06" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="vario900_main_component1" massActive="10425" centerOfMassActive="0 0.848 0.354"/>
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1600" price="5000">
+					<objectChange node="vario900_main_component1" massActive="10625" centerOfMassActive="0 0.842 0.385" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.06" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_middle_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		<!-- Lamborghini -->
+		<vehicle vehicleFilename="$moddir$FS19_lamborghiniMachVRT/Mach230VRT.xml"> <!-- https://www.farming-simulator.com/mod.php?mod_id=120800&title=fs2019 -->
+			<params node="attacherJointFrontBottomArm" filename="CaseIH_Color.xml" translation="0 -0.176 0.414" rotation="0 0 0" shaderParameterName="colorMat0" shaderParameter="0.83 0.83 0.83" />
+			<attacherJoint index="2" startRotation="-0 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="7">
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.15 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.15 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.14 0.042" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.14 0.042" />
+					<objectChange node="CaseIH_Color_left_angle_short_110" visibilityInactive="true" translationInactive="0 0 0.025" />
+					<objectChange node="CaseIH_Color_right_angle_short_110" visibilityInactive="true" translationInactive="0 0 0.025" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="mach230VRT_main_component1" massActive="4670" centerOfMassActive="0 0.895 -0.420" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight700" price="2750">
+					<objectChange node="mach230VRT_main_component1" massActive="4970" centerOfMassActive="0 0.878 -0.272" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.02" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="mach230VRT_main_component1" massActive="5170" centerOfMassActive="0 0.868 -0.182" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1200" price="4000">
+					<objectChange node="mach230VRT_main_component1" massActive="5470" centerOfMassActive="0 0.855 -0.061" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.02" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="mach230VRT_main_component1" massActive="5670" centerOfMassActive="0 0.847 0.013"/>
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1600" price="5000">
+					<objectChange node="mach230VRT_main_component1" massActive="5870" centerOfMassActive="0 0.839 0.082" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.02" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_middle_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		<!-- Valtra -->
+		<vehicle vehicleFilename="$moddir$FS19_valtraNSeriesCowEdition/valtraNSeriesCowEdition.xml"> <!-- https://www.farming-simulator.com/mod.php?mod_id=122792&title=fs2019 -->
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.182 0.343" rotation="5 0 0" shaderParameterName="colorMat0" shaderParameter="SHARED_WHITE2" />
+			<attacherJoint index="2" startRotation="-5 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="7">		
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.073 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.073 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_left_angle_short_110" visibilityInactive="true" translationInactive="0 0 0.025" />
+					<objectChange node="CaseIH_Color_left_angle_short_110" visibilityInactive="true" translationInactive="0 0 0.025" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="nSeries_main_component1" massActive="3500" centerOfMassActive="0 0.739 -0.475" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 -0.04" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight700" price="2750">
+					<objectChange node="nSeries_main_component1" massActive="3800" centerOfMassActive="0 0.732 -0.307" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.065" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="nSeries_main_component1" massActive="4000" centerOfMassActive="0 0.728 -0.208" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 -0.04" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1200" price="4000">
+					<objectChange node="nSeries_main_component1" massActive="4300" centerOfMassActive="0 0.722 -0.078" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.065" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="nSeries_main_component1" massActive="4500" centerOfMassActive="0 0.719 -0.001" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 -0.04" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1600" price="5000">
+					<objectChange node="nSeries_main_component1" massActive="4700" centerOfMassActive="0 0.716 0.069" />
+					<objectChange node="CaseIH_Color_middle" translationActive="0 0 0.065" />
+					<objectChange node="CaseIH_Color_middle_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_middle_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		<vehicle vehicleFilename="$moddir$FS19_valtraTSeriesWREdition/valtraTSeriesWREdition.xml"> <!-- https://www.farming-simulator.com/mod.php?mod_id=124226&title=fs2019 -->
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.18 0.276" rotation="0 0 0" shaderParameterName="colorMat0" shaderParameter="0.8228 0.8388 0.7304" /> <!-- green 0.23 0.58 0.1 -->
+			<attacherJoint index="2" startRotation="-0 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="4">
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.05 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.05 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_left_angle_back_110" visibilityInactive="true" rotationInactive="0 0 -2" />
+					<objectChange node="CaseIH_Color_right_angle_back_110" visibilityInactive="true" rotationInactive="0 0 2" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="tSeries_main_component1" massActive="4250" centerOfMassActive="0 0.873 -0.473" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="tSeries_main_component1" massActive="4750" centerOfMassActive="0 0.847 -0.212" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="tSeries_main_component1" massActive="5250" centerOfMassActive="0 0.825 -0.001" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		<vehicle vehicleFilename="$moddir$FS19_valtraTSeriesCowEdition/valtraTSeriesCowEdition.xml"> <!-- https://www.farming-simulator.com/mod.php?mod_id=123693&title=fs2019 -->
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.18 0.276" rotation="0 0 0" shaderParameterName="colorMat0" shaderParameter="SHARED_WHITE2" />
+			<attacherJoint index="2" startRotation="-0 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="4">
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.05 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.05 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.017" />
+					<objectChange node="CaseIH_Color_left_angle_back_110" visibilityInactive="true" rotationInactive="0 0 -2" />
+					<objectChange node="CaseIH_Color_right_angle_back_110" visibilityInactive="true" rotationInactive="0 0 2" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="tSeries_main_component1" massActive="4250" centerOfMassActive="0 0.873 -0.473" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="tSeries_main_component1" massActive="4750" centerOfMassActive="0 0.847 -0.212" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="tSeries_main_component1" massActive="5250" centerOfMassActive="0 0.825 -0.001" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+		<vehicle vehicleFilename="$moddir$FS19_valtraSSeriesCowEdition/valtraSSeriesCowEdition.xml"> <!-- https://www.farming-simulator.com/mod.php?mod_id=125446&title=fs2019 -->
+			<params node="attacherJointFrontArmBottom" filename="CaseIH_Color.xml" translation="0 -0.286 -0.059" rotation="74 0 0" shaderParameterName="colorMat0" shaderParameter="SHARED_WHITE2" />
+			<attacherJoint index="2" startRotation="-74 0 0" />
+			<CaseIH_ColorConfigurations numConfigs="4"><!-- 7 -->
+				<CaseIH_ColorConfiguration name="configuration_noCaseIH_Color" price="0">
+					<objectChange node="CaseIH_Color_left" translationInactive="0.09 0 0" />
+					<objectChange node="CaseIH_Color_right" translationInactive="-0.09 0 0" />
+					<objectChange node="CaseIH_Color_left_angle" translationInactive="0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_right_angle" translationInactive="-0.29 0.19 0.042" />
+					<objectChange node="CaseIH_Color_left_angle_short_090" visibilityInactive="true" translationInactive="0 0 0.025" />
+					<objectChange node="CaseIH_Color_right_angle_short_090" visibilityInactive="true" translationInactive="0 0 0.025" />
+					<objectChange node="attacherJointFront" rotationInactive="0 90 0" />
+					<!-- basic -->
+					<objectChange node="CaseIH_Color_vis" visibilityActive="false" visibilityInactive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_basicCaseIH_Color" price="2000">
+					<objectChange node="sSeries_main_component1" massActive="8900" centerOfMassActive="0 0.891 0.103" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight900" price="3250">
+					<objectChange node="sSeries_main_component1" massActive="9400" centerOfMassActive="0 0.881 0.220" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+				<CaseIH_ColorConfiguration name="configuration_CaseIH_ColorWeight1400" price="4500">
+					<objectChange node="sSeries_main_component1" massActive="9900" centerOfMassActive="0 0.872 0.325" />
+					<objectChange node="CaseIH_Color_left_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_1" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_left_weight_2" visibilityActive="true" />
+					<objectChange node="CaseIH_Color_right_weight_2" visibilityActive="true" />
+				</CaseIH_ColorConfiguration>
+			</CaseIH_ColorConfigurations>
+		</vehicle>
+	</vehicles>
+</xmlConfigData>

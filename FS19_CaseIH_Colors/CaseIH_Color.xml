@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<CaseIH_Color>
+    <filename>CaseIH_Color.i3d</filename>
+    <rootNode node="0"/>
+    <lights>
+        <sharedLight linkNode="CaseIH_Color_light_right" node="0" filename="$data/shared/assets/lights/lizard/rearLightCircleWhite_01.xml"/>
+        <sharedLight linkNode="CaseIH_Color_light_left" node="0" filename="$data/shared/assets/lights/lizard/rearLightCircleWhite_01.xml"/>
+    </lights>
+	<i3dMappings>
+        <i3dMapping id="CaseIH_Color_vis" node="%s" /> <!--equal to rootNode  -->
+        <i3dMapping id="CaseIH_Color_middle" node="%s|0" />
+        <i3dMapping id="CaseIH_Color_middle_weight_1" node="%s|0|0" />
+        <i3dMapping id="CaseIH_Color_middle_weight_2" node="%s|0|0|0" />
+        <i3dMapping id="CaseIH_Color_left" node="%s|1" />
+        <i3dMapping id="CaseIH_Color_left_1" node="%s|1|0" />
+        <i3dMapping id="CaseIH_Color_left_angle" node="%s|1|0|0" />
+        <i3dMapping id="CaseIH_Color_left_angle_short_090" node="%s|1|0|0|0" />
+        <i3dMapping id="CaseIH_Color_left_angle_short_100" node="%s|1|0|0|1" />
+        <i3dMapping id="CaseIH_Color_left_angle_short_105" node="%s|1|0|0|2" />
+        <i3dMapping id="CaseIH_Color_left_angle_short_110" node="%s|1|0|0|3" />
+        <i3dMapping id="CaseIH_Color_left_angle_short_115" node="%s|1|0|0|4" />
+        <i3dMapping id="CaseIH_Color_left_angle_short_120" node="%s|1|0|0|5" />
+        <i3dMapping id="CaseIH_Color_left_angle_long_090" node="%s|1|0|0|6" />
+        <i3dMapping id="CaseIH_Color_left_angle_long_100" node="%s|1|0|0|7" />
+        <i3dMapping id="CaseIH_Color_left_angle_long_105" node="%s|1|0|0|8" />
+        <i3dMapping id="CaseIH_Color_left_angle_long_110" node="%s|1|0|0|9" />
+        <i3dMapping id="CaseIH_Color_left_angle_long_115" node="%s|1|0|0|10" />
+        <i3dMapping id="CaseIH_Color_left_angle_long_120" node="%s|1|0|0|11" />
+        <i3dMapping id="CaseIH_Color_left_angle_back_110" node="%s|1|0|0|12" />
+        <i3dMapping id="CaseIH_Color_left_2" node="%s|1|1" />
+        <i3dMapping id="CaseIH_Color_left_weight_1" node="%s|1|1|0" />
+        <i3dMapping id="CaseIH_Color_left_weight_2" node="%s|1|1|0|0" />
+        <i3dMapping id="CaseIH_Color_light_left" node="%s|1|1|1" />
+        <i3dMapping id="CaseIH_Color_right" node="%s|2" />
+        <i3dMapping id="CaseIH_Color_right_1" node="%s|2|0" />
+        <i3dMapping id="CaseIH_Color_right_angle" node="%s|2|0|0" />
+        <i3dMapping id="CaseIH_Color_right_angle_short_090" node="%s|2|0|0|0" />
+        <i3dMapping id="CaseIH_Color_right_angle_short_100" node="%s|2|0|0|1" />
+        <i3dMapping id="CaseIH_Color_right_angle_short_105" node="%s|2|0|0|2" />
+        <i3dMapping id="CaseIH_Color_right_angle_short_110" node="%s|2|0|0|3" />
+        <i3dMapping id="CaseIH_Color_right_angle_short_115" node="%s|2|0|0|4" />
+        <i3dMapping id="CaseIH_Color_right_angle_short_120" node="%s|2|0|0|5" />
+        <i3dMapping id="CaseIH_Color_right_angle_long_090" node="%s|2|0|0|6" />
+        <i3dMapping id="CaseIH_Color_right_angle_long_100" node="%s|2|0|0|7" />
+        <i3dMapping id="CaseIH_Color_right_angle_long_105" node="%s|2|0|0|8" />
+        <i3dMapping id="CaseIH_Color_right_angle_long_110" node="%s|2|0|0|9" />
+        <i3dMapping id="CaseIH_Color_right_angle_long_115" node="%s|2|0|0|10" />
+        <i3dMapping id="CaseIH_Color_right_angle_long_120" node="%s|2|0|0|11" />
+        <i3dMapping id="CaseIH_Color_right_angle_back_110" node="%s|2|0|0|12" />
+        <i3dMapping id="CaseIH_Color_right_2" node="%s|2|1" />
+        <i3dMapping id="CaseIH_Color_right_weight_1" node="%s|2|1|0" />
+        <i3dMapping id="CaseIH_Color_right_weight_2" node="%s|2|1|0|0" />
+        <i3dMapping id="CaseIH_Color_light_right" node="%s|2|1|1" />
+        <i3dMapping id="CaseIH_Color_left_bolt_1" node="%s|3|0" />
+        <i3dMapping id="CaseIH_Color_left_bolt_2" node="%s|3|1" />
+        <i3dMapping id="CaseIH_Color_left_bolt_3" node="%s|3|2" />
+        <i3dMapping id="CaseIH_Color_right_bolt_1" node="%s|3|3" />
+        <i3dMapping id="CaseIH_Color_right_bolt_2" node="%s|3|4" />
+        <i3dMapping id="CaseIH_Color_right_bolt_3" node="%s|3|5" />
+    </i3dMappings>
+</CaseIH_Color>

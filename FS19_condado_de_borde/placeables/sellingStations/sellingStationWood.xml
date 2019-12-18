@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>shopItem_sellingStationWood</name>
+        <image>placeables/sellingStations/store_sellingStationWood.png</image>
+        <price>1</price>
+        <canBeSold>false</canBeSold>
+        <showInStore>false</showInStore>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <species>placeable</species>
+        <category>placeableMisc</category>
+        <vertexBufferMemoryUsage>1464</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>216</indexBufferMemoryUsage>
+        <textureMemoryUsage>174864</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+
+    <placeableType>woodSellPlacable</placeableType>
+    <filename>placeables/sellingStations/sellingStationWood.i3d</filename>
+    <placement testSizeX="7.5" testSizeZ="10" sizeX="3" sizeZ="3" useRandomYRotation="false" useManualYRotation="true" />
+    
+    <woodSellStation stationName="$l10n_station_sawmill" triggerNode="0" sellTrigger="1" appearsOnPDA="false" />
+</placeable>

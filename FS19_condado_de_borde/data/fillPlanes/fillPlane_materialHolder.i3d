@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="fillPlane_materialHolder" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+
+  <Files>
+    <File fileId="16" filename="wheat_diffuse.png" relativePath="true"/>
+    <File fileId="20" filename="chaff_diffuse.png" relativePath="true"/>
+    <File fileId="23" filename="grass_diffuse.png" relativePath="true"/>
+    <File fileId="26" filename="maize_diffuse.png" relativePath="true"/>
+    <File fileId="29" filename="manure_diffuse.png" relativePath="true"/>
+    <File fileId="32" filename="potatoes_diffuse.png" relativePath="true"/>
+    <File fileId="33" filename="potatoes_normal.png" relativePath="true"/>
+    <File fileId="35" filename="canola_diffuse.png" relativePath="true"/>
+    <File fileId="38" filename="silage_diffuse.png" relativePath="true"/>
+    <File fileId="39" filename="silage_normal.png" relativePath="true"/>
+    <File fileId="41" filename="straw_diffuse.png" relativePath="true"/>
+    <File fileId="43" filename="sugarBeets_diffuse.png" relativePath="true"/>
+    <File fileId="44" filename="sugarBeets_normal.png" relativePath="true"/>
+    <File fileId="46" filename="woodChips_diffuse.png" relativePath="true"/>
+    <File fileId="47" filename="woodChips_normal.png" relativePath="true"/>
+    <File fileId="49" filename="liquidManure_diffuse.png" relativePath="true"/>
+    <File fileId="1" filename="../../dataS2/menu/hud/fillTypes/hud_fill_wheat.png" relativePath="true"/>
+    <File fileId="3" filename="../../dataS2/menu/hud/fillTypes/hud_fill_barley.png" relativePath="true"/>
+    <File fileId="4" filename="../../dataS2/menu/hud/fillTypes/hud_fill_chaff.png" relativePath="true"/>
+    <File fileId="5" filename="../../dataS2/menu/hud/fillTypes/hud_fill_grass.png" relativePath="true"/>
+    <File fileId="6" filename="../../dataS2/menu/hud/fillTypes/hud_fill_maize.png" relativePath="true"/>
+    <File fileId="7" filename="../../dataS2/menu/hud/fillTypes/hud_fill_manure.png" relativePath="true"/>
+    <File fileId="8" filename="../../dataS2/menu/hud/fillTypes/hud_fill_liquidManure.png" relativePath="true"/>
+    <File fileId="9" filename="../../dataS2/menu/hud/fillTypes/hud_fill_potato.png" relativePath="true"/>
+    <File fileId="10" filename="../../dataS2/menu/hud/fillTypes/hud_fill_canola.png" relativePath="true"/>
+    <File fileId="11" filename="../../dataS2/menu/hud/fillTypes/hud_fill_silage.png" relativePath="true"/>
+    <File fileId="12" filename="../../dataS2/menu/hud/fillTypes/hud_fill_straw.png" relativePath="true"/>
+    <File fileId="13" filename="../../dataS2/menu/hud/fillTypes/hud_fill_sugarBeet.png" relativePath="true"/>
+    <File fileId="14" filename="../../dataS2/menu/hud/fillTypes/hud_fill_woodChips.png" relativePath="true"/>
+    <File fileId="15" filename="../../dataS2/menu/hud/fillTypes/hud_fill_seeds.png" relativePath="true"/>
+    <File fileId="17" filename="wheat_normal.png" relativePath="true"/>
+    <File fileId="18" filename="wheat_specular.png" relativePath="true"/>
+    <File fileId="21" filename="chaff_normal.png" relativePath="true"/>
+    <File fileId="22" filename="chaff_specular.png" relativePath="true"/>
+    <File fileId="24" filename="grass_normal.png" relativePath="true"/>
+    <File fileId="25" filename="grass_specular.png" relativePath="true"/>
+    <File fileId="27" filename="maize_normal.png" relativePath="true"/>
+    <File fileId="28" filename="maize_specular.png" relativePath="true"/>
+    <File fileId="30" filename="manure_normal.png" relativePath="true"/>
+    <File fileId="31" filename="manure_specular.png" relativePath="true"/>
+    <File fileId="34" filename="potatoes_specular.png" relativePath="true"/>
+    <File fileId="36" filename="canola_normal.png" relativePath="true"/>
+    <File fileId="37" filename="canola_specular.png" relativePath="true"/>
+    <File fileId="40" filename="straw_specular.png" relativePath="true"/>
+    <File fileId="42" filename="straw_normal.png" relativePath="true"/>
+    <File fileId="45" filename="sugarBeets_specular.png" relativePath="true"/>
+    <File fileId="48" filename="woodChips_specular.png" relativePath="true"/>
+    <File fileId="51" filename="../../dataS2/menu/hud/fillTypes/hud_fill_forage.png" relativePath="true"/>
+    <File fileId="52" filename="sunflower_diffuse.png" relativePath="true"/>
+    <File fileId="53" filename="sunflower_normal.png" relativePath="true"/>
+    <File fileId="54" filename="sunflower_specular.png" relativePath="true"/>
+    <File fileId="55" filename="../../dataS2/menu/hud/fillTypes/hud_fill_sunflower.png" relativePath="true"/>
+    <File fileId="56" filename="fertilizer_diffuse.png" relativePath="true"/>
+    <File fileId="57" filename="fertilizer_normal.png" relativePath="true"/>
+    <File fileId="58" filename="fertilizer_specular.png" relativePath="true"/>
+    <File fileId="59" filename="../../dataS2/menu/hud/fillTypes/hud_fill_fertilizer.png" relativePath="true"/>
+    <File fileId="60" filename="hay_diffuse.png" relativePath="true"/>
+    <File fileId="61" filename="hay_normal.png" relativePath="true"/>
+    <File fileId="62" filename="hay_specular.png" relativePath="true"/>
+    <File fileId="50" filename="../../dataS2/menu/hud/fillTypes/hud_fill_forageMix.png" relativePath="true"/>
+    <File fileId="63" filename="../../dataS2/menu/hud/fillTypes/hud_fill_soyBean.png" relativePath="true"/>
+    <File fileId="64" filename="soybean_diffuse.png" relativePath="true"/>
+    <File fileId="65" filename="soybean_normal.png" relativePath="true"/>
+    <File fileId="66" filename="soybean_specular.png" relativePath="true"/>
+    <File fileId="68" filename="barley_normal.png" relativePath="true"/>
+    <File fileId="67" filename="barley_diffuse.png" relativePath="true"/>
+    <File fileId="69" filename="barley_specular.png" relativePath="true"/>
+    <File fileId="70" filename="genericSeed_diffuse.png" relativePath="true"/>
+    <File fileId="71" filename="genericSeed_normal.png" relativePath="true"/>
+    <File fileId="72" filename="genericSeed_specular.png" relativePath="true"/>
+    <File fileId="73" filename="../../dataS2/menu/hud/fillTypes/hud_fill_pigFood.png" relativePath="true"/>
+    <File fileId="74" filename="pigFood_diffuse.png" relativePath="true"/>
+    <File fileId="75" filename="pigFood_normal.png" relativePath="true"/>
+    <File fileId="76" filename="pigFood_specular.png" relativePath="true"/>
+    <File fileId="80" filename="../../dataS2/menu/hud/fillTypes/hud_fill_poplar.png" relativePath="true"/>
+    <File fileId="77" filename="poplar_diffuse.png" relativePath="true"/>
+    <File fileId="78" filename="poplar_normal.png" relativePath="true"/>
+    <File fileId="79" filename="poplar_specular.png" relativePath="true"/>
+    <File fileId="81" filename="forage_diffuse.png" relativePath="true"/>
+    <File fileId="82" filename="forage_normal.png" relativePath="true"/>
+    <File fileId="83" filename="forage_specular.png" relativePath="true"/>
+    <File fileId="84" filename="lime_diffuse.png" relativePath="true"/>
+    <File fileId="85" filename="lime_normal.png" relativePath="true"/>
+    <File fileId="86" filename="lime_specular.png" relativePath="true"/>
+    <File fileId="87" filename="../../dataS2/menu/hud/fillTypes/hud_fill_lime.png" relativePath="true"/>
+    <File fileId="88" filename="../../dataS2/menu/hud/fillTypes/hud_fill_oat.png" relativePath="true"/>
+    <File fileId="89" filename="oat_diffuse.png" relativePath="true"/>
+    <File fileId="92" filename="../../dataS2/menu/hud/fillTypes/hud_fill_cotton.png" relativePath="true"/>
+    <File fileId="90" filename="oat_normal.png" relativePath="true"/>
+    <File fileId="91" filename="oat_specular.png" relativePath="true"/>
+    <File fileId="93" filename="cotton_diffuse.png" relativePath="true"/>
+    <File fileId="94" filename="cotton_normal.png" relativePath="true"/>
+    <File fileId="95" filename="cotton_specular.png" relativePath="true"/>
+    <File fileId="96" filename="sugarCane_diffuse.png" relativePath="true"/>
+    <File fileId="98" filename="sugarCane_specular.png" relativePath="true"/>
+    <File fileId="97" filename="sugarCane_normal.png" relativePath="true"/>
+    <File fileId="99" filename="../../dataS2/menu/hud/fillTypes/hud_fill_sugarCane.png" relativePath="true"/>
+    <File fileId="2" filename="../shaders/fillIconShader.xml" relativePath="true"/>
+    <File fileId="19" filename="../shaders/fillPlaneShader.xml" relativePath="true"/>
+  </Files>
+
+  <Materials>
+    <Material name="hud_fill_wheat_mat" materialId="2" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="1"/>
+    </Material>
+    <Material name="hud_fill_barley_mat" materialId="4" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="3"/>
+    </Material>
+    <Material name="hud_fill_chaff_mat" materialId="6" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="4"/>
+    </Material>
+    <Material name="hud_fill_grass_mat" materialId="8" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="5"/>
+    </Material>
+    <Material name="hud_fill_maize_mat" materialId="11" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="6"/>
+    </Material>
+    <Material name="hud_fill_manure_mat" materialId="13" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="7"/>
+    </Material>
+    <Material name="hud_fill_liquidManure_mat" materialId="15" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="8"/>
+    </Material>
+    <Material name="hud_fill_potato_mat" materialId="17" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="9"/>
+    </Material>
+    <Material name="hud_fill_canola_mat" materialId="19" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="10"/>
+    </Material>
+    <Material name="hud_fill_silage_mat" materialId="21" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="11"/>
+    </Material>
+    <Material name="hud_fill_straw_mat" materialId="26" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="12"/>
+    </Material>
+    <Material name="hud_fill_sugarBeet_mat" materialId="28" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="13"/>
+    </Material>
+    <Material name="hud_fill_woodChips_mat" materialId="32" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="14"/>
+    </Material>
+    <Material name="hud_fill_seeds_mat" materialId="34" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="15"/>
+    </Material>
+    <Material name="wheat_mat" materialId="1" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="2 2 2 1"/>
+      <Texture fileId="16"/>
+      <Normalmap fileId="17"/>
+      <Glossmap fileId="18"/>
+    </Material>
+    <Material name="chaff_mat" materialId="5" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="2 2 2 1"/>
+      <Texture fileId="20"/>
+      <Normalmap fileId="21"/>
+      <Glossmap fileId="22"/>
+    </Material>
+    <Material name="grass_mat" materialId="7" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="1 1 1 1"/>
+      <Texture fileId="23"/>
+      <Normalmap fileId="24"/>
+      <Glossmap fileId="25"/>
+    </Material>
+    <Material name="maize_mat" materialId="10" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="2 2 2 1"/>
+      <Texture fileId="26"/>
+      <Normalmap fileId="27"/>
+      <Glossmap fileId="28"/>
+    </Material>
+    <Material name="manure_mat" materialId="12" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="1 1 1 1"/>
+      <Texture fileId="29"/>
+      <Normalmap fileId="30"/>
+      <Glossmap fileId="31"/>
+    </Material>
+    <Material name="potatoes_mat" materialId="16" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="1 1 1 1"/>
+      <Texture fileId="32"/>
+      <Normalmap fileId="33"/>
+      <Glossmap fileId="34"/>
+    </Material>
+    <Material name="canola_mat" materialId="18" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="1 1 1 1"/>
+      <Texture fileId="35"/>
+      <Normalmap fileId="36"/>
+      <Glossmap fileId="37"/>
+    </Material>
+    <Material name="silage_mat" materialId="20" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="2 2 2 1"/>
+      <Texture fileId="38"/>
+      <Normalmap fileId="39"/>
+      <Glossmap fileId="40"/>
+    </Material>
+    <Material name="straw_mat" materialId="25" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="1 1 1 1"/>
+      <Texture fileId="41"/>
+      <Normalmap fileId="42"/>
+      <Glossmap fileId="40"/>
+    </Material>
+    <Material name="sugarBeets_mat" materialId="27" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="1 1 1 1"/>
+      <Texture fileId="43"/>
+      <Normalmap fileId="44"/>
+      <Glossmap fileId="45"/>
+    </Material>
+    <Material name="woodChips_mat" materialId="31" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="1 1 1 1"/>
+      <Texture fileId="46"/>
+      <Normalmap fileId="47"/>
+      <Glossmap fileId="48"/>
+    </Material>
+    <Material name="liquidManure_mat" materialId="14" cosPower="50" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="1 1 1 1"/>
+      <Texture fileId="49"/>
+      <Glossmap fileId="49"/>
+    </Material>
+    <Material name="hud_fill_forageMix_mat" materialId="24" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="50"/>
+    </Material>
+    <Material name="hud_fill_forage_mat" materialId="23" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="51"/>
+    </Material>
+    <Material name="sunflower_mat" materialId="35" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="2 2 2 1"/>
+      <Texture fileId="52"/>
+      <Normalmap fileId="53"/>
+      <Glossmap fileId="54"/>
+    </Material>
+    <Material name="hud_fill_sunflower_mat" materialId="36" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="55"/>
+    </Material>
+    <Material name="fertilizer_mat" materialId="37" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="1 1 1 1"/>
+      <Texture fileId="56"/>
+      <Normalmap fileId="57"/>
+      <Glossmap fileId="58"/>
+    </Material>
+    <Material name="hud_fill_fertilizer_mat" materialId="38" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="59"/>
+    </Material>
+    <Material name="hay_mat" materialId="9" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="1 1 1 1"/>
+      <Texture fileId="60"/>
+      <Normalmap fileId="61"/>
+      <Glossmap fileId="62"/>
+    </Material>
+    <Material name="hud_fill_soyBean_mat" materialId="40" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="63"/>
+    </Material>
+    <Material name="soybean_mat" materialId="39" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="1 1 1 1"/>
+      <Texture fileId="64"/>
+      <Normalmap fileId="65"/>
+      <Glossmap fileId="66"/>
+    </Material>
+    <Material name="barley_mat" materialId="3" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="2 2 2 1"/>
+      <Texture fileId="67"/>
+      <Normalmap fileId="68"/>
+      <Glossmap fileId="69"/>
+    </Material>
+    <Material name="genericSeed_mat" materialId="33" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="2 2 2 1"/>
+      <Texture fileId="70"/>
+      <Normalmap fileId="71"/>
+      <Glossmap fileId="72"/>
+    </Material>
+    <Material name="hud_fill_pigFood_mat" materialId="42" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="73"/>
+    </Material>
+    <Material name="pigFood_mat" materialId="41" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="2 2 2 1"/>
+      <Texture fileId="74"/>
+      <Normalmap fileId="75"/>
+      <Glossmap fileId="76"/>
+    </Material>
+    <Material name="poplar_mat" materialId="43" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="2 2 2 1"/>
+      <Texture fileId="77"/>
+      <Normalmap fileId="78"/>
+      <Glossmap fileId="79"/>
+    </Material>
+    <Material name="hud_fill_poplar_mat" materialId="44" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="80"/>
+    </Material>
+    <Material name="forage_mat" materialId="22" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="2 2 2 1"/>
+      <Texture fileId="81"/>
+      <Normalmap fileId="82"/>
+      <Glossmap fileId="83"/>
+    </Material>
+    <Material name="lime_mat" materialId="45" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="2 2 2 1"/>
+      <Texture fileId="84"/>
+      <Normalmap fileId="85"/>
+      <Glossmap fileId="86"/>
+    </Material>
+    <Material name="hud_fill_lime_mat" materialId="46" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="87"/>
+    </Material>
+    <Material name="hud_fill_oat_mat" materialId="48" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="88"/>
+    </Material>
+    <Material name="oat_mat" materialId="47" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="2 2 2 1"/>
+      <Texture fileId="89"/>
+      <Normalmap fileId="90"/>
+      <Glossmap fileId="91"/>
+    </Material>
+    <Material name="hud_fill_cotton_mat" materialId="50" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="92"/>
+    </Material>
+    <Material name="cotton_mat" materialId="49" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="2 2 2 1"/>
+      <Texture fileId="93"/>
+      <Normalmap fileId="94"/>
+      <Glossmap fileId="95"/>
+    </Material>
+    <Material name="sugarCane_mat" materialId="29" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1" customShaderId="19">
+      <CustomParameter name="uvScale" value="1 1 1 1"/>
+      <Texture fileId="96"/>
+      <Normalmap fileId="97"/>
+      <Glossmap fileId="98"/>
+    </Material>
+    <Material name="hud_fill_sugarCane_mat" materialId="30" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="iconColor" value="0.0 0.0 0.0 1.0"/>
+      <Texture fileId="99"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="fillPlane_materialHolder.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="wheat" collision="false" clipDistance="10" nodeId="1">
+      <Shape name="wheat_plane_materialHolder" shapeId="1" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="10" nodeId="2"/>
+      <Shape name="wheat_icon_materialHolder" shapeId="2" castsShadows="true" receiveShadows="true" materialIds="2" clipDistance="10" nodeId="3"/>
+    </TransformGroup>
+    <TransformGroup name="barley" collision="false" clipDistance="10" nodeId="4">
+      <Shape name="barley_materialHolder" shapeId="3" castsShadows="true" receiveShadows="true" materialIds="3" clipDistance="10" nodeId="5"/>
+      <Shape name="barley_icon_materialHolder" shapeId="4" castsShadows="true" receiveShadows="true" materialIds="4" clipDistance="10" nodeId="6"/>
+    </TransformGroup>
+    <TransformGroup name="chaff" collision="false" clipDistance="10" nodeId="7">
+      <Shape name="chaff_materialHolder" shapeId="5" castsShadows="true" receiveShadows="true" materialIds="5" clipDistance="10" nodeId="8"/>
+      <Shape name="chaff_icon_materialHolder" shapeId="6" castsShadows="true" receiveShadows="true" materialIds="6" clipDistance="10" nodeId="9"/>
+    </TransformGroup>
+    <TransformGroup name="grass_windrow" collision="false" clipDistance="10" nodeId="10">
+      <Shape name="grass_materialHolder" shapeId="7" castsShadows="true" receiveShadows="true" materialIds="7" clipDistance="10" nodeId="11"/>
+      <Shape name="grass_icon_materialHolder" shapeId="8" castsShadows="true" receiveShadows="true" materialIds="8" clipDistance="10" nodeId="12"/>
+    </TransformGroup>
+    <TransformGroup name="dryGrass_windrow" collision="false" clipDistance="10" nodeId="13">
+      <Shape name="dryGrass_materialHolder" shapeId="9" castsShadows="true" receiveShadows="true" materialIds="9" clipDistance="10" nodeId="14"/>
+      <Shape name="dryGrass_icon_materialHolder" shapeId="10" castsShadows="true" receiveShadows="true" materialIds="8" clipDistance="10" nodeId="15"/>
+    </TransformGroup>
+    <TransformGroup name="maize" collision="false" clipDistance="10" nodeId="16">
+      <Shape name="maize_materialHolder" shapeId="11" castsShadows="true" receiveShadows="true" materialIds="10" clipDistance="10" nodeId="17"/>
+      <Shape name="maize_icon_materialHolder" shapeId="12" castsShadows="true" receiveShadows="true" materialIds="11" clipDistance="10" nodeId="18"/>
+    </TransformGroup>
+    <TransformGroup name="manure" collision="false" clipDistance="10" nodeId="19">
+      <Shape name="manure_materialHolder" shapeId="13" castsShadows="true" receiveShadows="true" materialIds="12" clipDistance="10" nodeId="20"/>
+      <Shape name="manure_icon_materialHolder" shapeId="14" castsShadows="true" receiveShadows="true" materialIds="13" clipDistance="10" nodeId="21"/>
+    </TransformGroup>
+    <TransformGroup name="liquidManure" collision="false" clipDistance="10" nodeId="22">
+      <Shape name="liquidManure_materialHolder" shapeId="15" castsShadows="true" receiveShadows="true" materialIds="14" clipDistance="10" nodeId="23"/>
+      <Shape name="liquidManure_icon_materialHolder" shapeId="16" castsShadows="true" receiveShadows="true" materialIds="15" clipDistance="10" nodeId="24"/>
+    </TransformGroup>
+    <TransformGroup name="potato" collision="false" clipDistance="10" nodeId="25">
+      <Shape name="potato_materialHolder" shapeId="17" castsShadows="true" receiveShadows="true" materialIds="16" clipDistance="10" nodeId="26"/>
+      <Shape name="potato_icon_materialHolder" shapeId="18" castsShadows="true" receiveShadows="true" materialIds="17" clipDistance="10" nodeId="27"/>
+    </TransformGroup>
+    <TransformGroup name="canola" collision="false" clipDistance="10" nodeId="28">
+      <Shape name="canola_materialHolder" shapeId="19" castsShadows="true" receiveShadows="true" materialIds="18" clipDistance="10" nodeId="29"/>
+      <Shape name="canola_icon_materialHolder" shapeId="20" castsShadows="true" receiveShadows="true" materialIds="19" clipDistance="10" nodeId="30"/>
+    </TransformGroup>
+    <TransformGroup name="silage" collision="false" clipDistance="10" nodeId="31">
+      <Shape name="silage_materialHolder" shapeId="21" castsShadows="true" receiveShadows="true" materialIds="20" clipDistance="10" nodeId="32"/>
+      <Shape name="silage_icon_materialHolder" shapeId="22" castsShadows="true" receiveShadows="true" materialIds="21" clipDistance="10" nodeId="33"/>
+    </TransformGroup>
+    <TransformGroup name="forage" collision="false" clipDistance="10" nodeId="34">
+      <Shape name="forage_materialHolder" shapeId="23" castsShadows="true" receiveShadows="true" materialIds="22" clipDistance="10" nodeId="35"/>
+      <Shape name="forage_icon_materialHolder" shapeId="24" castsShadows="true" receiveShadows="true" materialIds="23" clipDistance="10" nodeId="36"/>
+    </TransformGroup>
+    <TransformGroup name="forage_mixing" collision="false" clipDistance="10" nodeId="37">
+      <Shape name="forage_mixing_materialHolder" shapeId="25" castsShadows="true" receiveShadows="true" materialIds="20" clipDistance="10" nodeId="38"/>
+      <Shape name="forage_mixing_icon_materialHolder" shapeId="26" castsShadows="true" receiveShadows="true" materialIds="24" clipDistance="10" nodeId="39"/>
+    </TransformGroup>
+    <TransformGroup name="straw" collision="false" clipDistance="10" nodeId="40">
+      <Shape name="straw_materialHolder_wheat" shapeId="27" castsShadows="true" receiveShadows="true" materialIds="25" clipDistance="10" nodeId="41"/>
+      <Shape name="straw_icon_materialHolder" shapeId="28" castsShadows="true" receiveShadows="true" materialIds="26" clipDistance="10" nodeId="42"/>
+    </TransformGroup>
+    <TransformGroup name="sugarBeet" collision="false" clipDistance="10" nodeId="43">
+      <Shape name="sugarBeet_materialHolder" shapeId="29" castsShadows="true" receiveShadows="true" materialIds="27" clipDistance="10" nodeId="44"/>
+      <Shape name="sugarBeet_icon_materialHolder" shapeId="30" castsShadows="true" receiveShadows="true" materialIds="28" clipDistance="10" nodeId="45"/>
+    </TransformGroup>
+    <TransformGroup name="sugarCane" collision="false" clipDistance="10" nodeId="46">
+      <Shape name="sugarCane_materialHolder" shapeId="31" castsShadows="true" receiveShadows="true" materialIds="29" clipDistance="10" nodeId="47"/>
+      <Shape name="sugarCane_icon_materialHolder" shapeId="32" castsShadows="true" receiveShadows="true" materialIds="30" clipDistance="10" nodeId="48"/>
+    </TransformGroup>
+    <TransformGroup name="woodChips" collision="false" clipDistance="10" nodeId="49">
+      <Shape name="woodChips_materialHolder" shapeId="33" castsShadows="true" receiveShadows="true" materialIds="31" clipDistance="10" nodeId="50"/>
+      <Shape name="woodChips_icon_materialHolder" shapeId="34" castsShadows="true" receiveShadows="true" materialIds="32" clipDistance="10" nodeId="51"/>
+    </TransformGroup>
+    <TransformGroup name="seeds" collision="false" clipDistance="10" nodeId="52">
+      <Shape name="seeds_materialHolder" shapeId="35" castsShadows="true" receiveShadows="true" materialIds="33" clipDistance="10" nodeId="53"/>
+      <Shape name="seeds_icon_materialHolder" shapeId="36" castsShadows="true" receiveShadows="true" materialIds="34" clipDistance="10" nodeId="54"/>
+    </TransformGroup>
+    <TransformGroup name="sunflower" collision="false" clipDistance="10" nodeId="55">
+      <Shape name="sunflower_materialHolder" shapeId="37" castsShadows="true" receiveShadows="true" materialIds="35" clipDistance="10" nodeId="56"/>
+      <Shape name="sunflower_icon_materialHolder" shapeId="38" castsShadows="true" receiveShadows="true" materialIds="36" clipDistance="10" nodeId="57"/>
+    </TransformGroup>
+    <TransformGroup name="fertilizer" collision="false" clipDistance="10" nodeId="58">
+      <Shape name="fertilizer_materialHolder" shapeId="39" castsShadows="true" receiveShadows="true" materialIds="37" clipDistance="10" nodeId="59"/>
+      <Shape name="fertilizer_icon_materialHolder" shapeId="40" castsShadows="true" receiveShadows="true" materialIds="38" clipDistance="10" nodeId="60"/>
+    </TransformGroup>
+    <TransformGroup name="soybean" collision="false" clipDistance="10" nodeId="61">
+      <Shape name="soybean_materialHolder" shapeId="41" castsShadows="true" receiveShadows="true" materialIds="39" clipDistance="10" nodeId="62"/>
+      <Shape name="soybean_icon_materialHolder" shapeId="42" castsShadows="true" receiveShadows="true" materialIds="40" clipDistance="10" nodeId="63"/>
+    </TransformGroup>
+    <TransformGroup name="pigFood" collision="false" clipDistance="10" nodeId="64">
+      <Shape name="pigFood_materialHolder" shapeId="43" castsShadows="true" receiveShadows="true" materialIds="41" clipDistance="10" nodeId="65"/>
+      <Shape name="pigFood_icon_materialHolder" shapeId="44" castsShadows="true" receiveShadows="true" materialIds="42" clipDistance="10" nodeId="66"/>
+    </TransformGroup>
+    <TransformGroup name="poplar" collision="false" clipDistance="10" nodeId="67">
+      <Shape name="poplar_materialHolder" shapeId="45" castsShadows="true" receiveShadows="true" materialIds="43" clipDistance="10" nodeId="68"/>
+      <Shape name="poplar_icon_materialHolder" shapeId="46" castsShadows="true" receiveShadows="true" materialIds="44" clipDistance="10" nodeId="69"/>
+    </TransformGroup>
+    <TransformGroup name="digestate" collision="false" clipDistance="10" nodeId="70">
+      <Shape name="liquidManure_materialHolder" shapeId="47" castsShadows="true" receiveShadows="true" materialIds="14" clipDistance="10" nodeId="71"/>
+      <Shape name="liquidManure_icon_materialHolder" shapeId="48" castsShadows="true" receiveShadows="true" materialIds="15" clipDistance="10" nodeId="72"/>
+    </TransformGroup>
+    <TransformGroup name="lime" collision="false" clipDistance="10" nodeId="73">
+      <Shape name="lime_materialHolder" shapeId="49" castsShadows="true" receiveShadows="true" materialIds="45" clipDistance="10" nodeId="74"/>
+      <Shape name="lime_icon_materialHolder" shapeId="50" castsShadows="true" receiveShadows="true" materialIds="46" clipDistance="10" nodeId="75"/>
+    </TransformGroup>
+    <TransformGroup name="oat" collision="false" clipDistance="10" nodeId="76">
+      <Shape name="oat_materialHolder" shapeId="51" castsShadows="true" receiveShadows="true" materialIds="47" clipDistance="10" nodeId="77"/>
+      <Shape name="oat_icon_materialHolder" shapeId="52" castsShadows="true" receiveShadows="true" materialIds="48" clipDistance="10" nodeId="78"/>
+    </TransformGroup>
+    <TransformGroup name="cotton" collision="false" clipDistance="10" nodeId="79">
+      <Shape name="cotton_materialHolder" shapeId="53" castsShadows="true" receiveShadows="true" materialIds="49" clipDistance="10" nodeId="80"/>
+      <Shape name="cotton_icon_materialHolder" shapeId="54" castsShadows="true" receiveShadows="true" materialIds="50" clipDistance="10" nodeId="81"/>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="2">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="wheat"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="3">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="wheat"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="5">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="barley"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="6">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="barley"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="8">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="chaff"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="9">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="chaff"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="11">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="grass_windrow"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="12">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="grass"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="dryGrass_windrow"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="15">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="dryGrass"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="17">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="maize"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="18">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="maize"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="20">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="manure"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="21">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="manure"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="23">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="liquidManure"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="24">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="liquidManure"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="26">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="potato"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="27">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="potato"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="29">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="canola"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="30">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="canola"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="32">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="silage"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="33">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="silage"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="35">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="forage"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="36">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="forage"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="38">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="forage_mixing"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="39">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="forage_mixing"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="41">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="straw"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="42">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="straw"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="44">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="sugarBeet"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="45">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="sugarBeet"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="47">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="sugarCane"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="48">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="sugarCane"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="50">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="woodChips"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="51">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="woodChips"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="53">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="seeds"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="54">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="seeds"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="56">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="sunflower"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="57">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="sunflower"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="59">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="fertilizer"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="60">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="fertilizer"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="62">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="soybean"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="63">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="soybean"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="65">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="pigFood"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="66">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="pigFood"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="68">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="poplar"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="69">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="poplar"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="71">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="digestate"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="72">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="digestate"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="74">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="lime"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="75">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="lime"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="77">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="oat"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="78">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="oat"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+    <UserAttribute nodeId="80">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="cotton"/>
+      <Attribute name="materialType" type="string" value="FILLPLANE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="81">
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+      <Attribute name="fillType" type="string" value="cotton"/>
+      <Attribute name="materialType" type="string" value="ICON"/>
+    </UserAttribute>
+  </UserAttributes>
+</i3D>
