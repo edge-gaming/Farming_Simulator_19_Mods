@@ -2,7 +2,7 @@
 
 # build files
 *.shapes
-!FS19_condado_de_borde/**/.shapes
+!FS19_condado_de_borde/*.shapes
 *.cache
 
 # Object files
