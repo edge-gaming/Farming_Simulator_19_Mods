@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="43">
+    <author>MatsB</author>
+    <version>1.0.0.0</version>
+    <iconFilename>icon.png</iconFilename>
+    <storeItems>
+        <storeItem xmlFilename="SEK802.xml"/>
+    </storeItems>
+</modDesc>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="FST 990" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="9" filename="$data/shared/default_normal.png"/>
+    <File fileId="7" filename="$data/shared/detailArray_diffuse.png"/>
+    <File fileId="6" filename="$data/shared/detailArray_normal.png"/>
+    <File fileId="5" filename="$data/shared/detailArray_specular.png"/>
+    <File fileId="8" filename="$data/vehicles/thunderCreek/FST990/FST990Decals_diffuse.png"/>
+    <File fileId="10" filename="$data/vehicles/thunderCreek/FST990/FST990Decals_specular.png"/>
+    <File fileId="2" filename="$data/vehicles/thunderCreek/FST990/FST990_normal.png"/>
+    <File fileId="3" filename="$data/vehicles/thunderCreek/FST990/FST990_specular.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="reflector_mat" materialId="7" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="reflector_colorMask">
+      <Normalmap fileId="9"/>
+      <Glossmap fileId="10"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="FST990Decals_mat" materialId="6" alphaBlending="true" customShaderId="4" customShaderVariation="Decal">
+      <Texture fileId="8"/>
+      <Normalmap fileId="9"/>
+      <Glossmap fileId="10"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="FST990_mat" materialId="5" diffuseColor="0.498039 0.498039 0.498039 1" customShaderId="4" customShaderVariation="colorMask">
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.144 0.171 0.198 1"/>
+      <CustomParameter name="colorMat1" value="0.063 0.063 0.063 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="lambert1" materialId="4" diffuseColor="0.498039 0.498039 0.498039 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="FST990.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="fst990_main_component1" dynamic="true" compound="true" collisionMask="8397058" density="0.155" clipDistance="300" nodeId="15" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+      <TransformGroup name="wheels" nodeId="16">
+        <TransformGroup name="wheelFrontLeft" translation="0.8784 0.3278 -0.4557" nodeId="17"/>
+        <TransformGroup name="wheelFrontRight" translation="-0.878367 0.327792 -0.455715" nodeId="18"/>
+        <TransformGroup name="wheelBackLeft" translation="0.8784 0.3278 -1.3701" nodeId="19"/>
+        <TransformGroup name="wheelBackRight" translation="-0.8784 0.3278 -1.3701" nodeId="20"/>
+      </TransformGroup>
+      <TransformGroup name="attacherJoint" translation="4.54747e-15 0.383938 2.89551" rotation="0 90 0" nodeId="21"/>
+      <TransformGroup name="supportArm" translation="0.1017 0 2.1894" clipDistance="100" nodeId="22">
+        <Shape shapeId="2" name="supportCol" translation="-0.0139941 0.213197 0.00913706" visibility="false" compoundChild="true" collisionMask="8194" density="0.001" nodeId="23" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </TransformGroup>
+      <TransformGroup name="lights" nodeId="24">
+        <TransformGroup name="sharedLights" nodeId="25">
+          <TransformGroup name="rearLightOvalLEDRed_02_1" translation="0.603822 0.426922 -2.89891" rotation="-90 0 0" nodeId="26"/>
+          <TransformGroup name="rearLightOvalLEDRed_02_2" translation="-0.604 0.426922 -2.89891" rotation="-90 0 0" nodeId="27"/>
+        </TransformGroup>
+        <TransformGroup name="backLights" nodeId="28">
+          <Light name="backLightsHigh" translation="0.608282 0.408064 -2.96361" rotation="-15 0 0" clipDistance="75" nodeId="29" type="spot" color="0.5 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="2.5" coneAngle="130" dropOff="2">
+            <Light name="backLightsHigh1" translation="-1.21628 0 0" clipDistance="75" nodeId="30" type="spot" color="0.5 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="2.5" coneAngle="130" dropOff="2"/>
+          </Light>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="fillLevelMarker" translation="0.741821 1.61837 -0.00321153" nodeId="31"/>
+      <Shape shapeId="3" name="fuelTrigger" translation="0 1.96041 -2.20836" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="6291456" nodeId="32" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <TransformGroup name="tipOcclusionAreas" nodeId="33">
+        <TransformGroup name="area1" nodeId="34">
+          <TransformGroup name="tipOcclusionArea1Start" translation="0.752304 0 1.0714" nodeId="35"/>
+          <TransformGroup name="tipOcclusionArea1Width" translation="-0.752 0 1.0714" nodeId="36"/>
+          <TransformGroup name="tipOcclusionArea1Height" translation="0.752304 0 -2.88845" nodeId="37"/>
+        </TransformGroup>
+        <TransformGroup name="area2" nodeId="38">
+          <TransformGroup name="tipOcclusionArea2Start" translation="0.752304 0 1.0714" nodeId="39"/>
+          <TransformGroup name="tipOcclusionArea2Width" translation="0 0 1.0714" nodeId="40"/>
+          <TransformGroup name="tipOcclusionArea2Height" translation="0.0896002 0 2.49121" nodeId="41"/>
+        </TransformGroup>
+        <TransformGroup name="area3" nodeId="42">
+          <TransformGroup name="tipOcclusionArea3Start" translation="0 0 1.0714" nodeId="43"/>
+          <TransformGroup name="tipOcclusionArea3Width" translation="-0.752 0 1.0714" nodeId="44"/>
+          <TransformGroup name="tipOcclusionArea3Height" translation="0.0896002 0 2.49121" nodeId="45"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="visuals" nodeId="46">
+        <Shape shapeId="4" name="fst990_vis" translation="0 0.920641 0.000476837" clipDistance="300" nodeId="47" materialIds="5" castsShadows="true" receiveShadows="true" skinBindNodeIds="47 22 31"/>
+        <Shape shapeId="5" name="decals" translation="-0.000118685 1.01736 -0.159" rotation="9.33506e-06 0 0" clipDistance="300" nodeId="48" materialIds="6" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+        <Shape shapeId="6" name="reflectors" translation="1.52588e-07 0.462697 -0.163841" clipDistance="300" nodeId="49" materialIds="7" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+    </Shape>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="32">
+      <Attribute name="appearsOnPDA" type="boolean" value="false"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

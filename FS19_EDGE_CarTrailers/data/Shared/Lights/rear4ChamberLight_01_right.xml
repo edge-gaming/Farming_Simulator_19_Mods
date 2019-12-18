@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<light>
+    <filename>$data/shared/assets/lights/lizard/rear4ChamberLight_01.i3d</filename>
+    <rootNode node="1" />
+    <defaultLight node="1|0" lightTypes="0" />
+    <brakeLight node="1|0" />
+    <turnLightRight node="1|1" />
+</light>
