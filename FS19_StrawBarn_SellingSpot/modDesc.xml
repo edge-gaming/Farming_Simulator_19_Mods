@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="47">
+    <author>EDGE Gaming / Castiga</author>
+    <version>2.0.0.0</version>
+    <iconFilename>icon.dds</iconFilename>
+    <title><!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
+        <en>Placeable Straw Barn</en>
+		<de>Platzierbare Strohscheune</de>
+		<fr>Placeable Paille Grange</fr>
+        <es>Granero De Paja Colocable</es>
+        <ru>Размещаемый Cоломенный Cарай</ru>
+        <pl>Stajnia Ze Słomą</pl>
+	</title>
+	<description>
+
+		<en><![CDATA[Nice and clean barn that works as a selling point for straw, grass, hay & silage. The Building has automatic lighting.
+Selling prices for each product will fluctuate and show up on the PDA.
+
+Price: 50.000€
+Size: 18 x 23 Meters
+
+-This selling spot works with courseplay.
+
+Changelog 1.0.0.0:
+- Initial Realease.
+Changelog 1.5.0.0:
+- Added L10N functions and name so it's more understandable for all people, this was prevoisly just in english.
+- Updated the mod with more languages.
+- Created new Decal textures & added shaders to the building.
+- Added node for Interactive Zone Markers. (Warningstripes can now be turned on and off).
+Changelog 2.0.0.0:
+- Updated to support Seasons mod.
+- New Names for all Buildings.]]></en>
+
+		<de><![CDATA[Schöne und saubere Scheune, die als Verkaufsstelle für Stroh, Gras, Heu und Silage dient. Das Gebäude verfügt über eine automatische Beleuchtung.
+Die Verkaufspreise für jedes Produkt schwanken und werden auf dem PDA angezeigt.
+
+Preis: 50.000€
+Größe: 18 x 23 Meter
+
+-Dieser Verkaufsort funktioniert mit Courseplay.
+
+Änderungsprotokoll 1.0.0.0:
+- Erstveröffentlichung.
+Änderungsprotokoll 1.5.0.0:
+- Es wurden L10N-Funktionen und -Namen hinzugefügt, damit es für alle verständlicher ist. Dies war bisher nur in Englisch.
+- Der Mod wurde mit mehr Sprachen aktualisiert.
+- Neue Decal-Texturen erstellt und dem Gebäude Shader hinzugefügt
+- Knoten für interaktive Zonenmarkierungen hinzugefügt (Warnstreifen können jetzt ein- und ausgeschaltet werden)
+Änderungsprotokoll 2.0.0.0:
+- Aktualisiert, um den Seasons-Mod zu unterstützen.
+- Neue Namen für alle Gebäude.]]></de>
+
+		<fr><![CDATA[Belle et propre grange qui fonctionne comme point de vente pour la paille, l'herbe, le foin et l'ensilage. Le bâtiment dispose d'un éclairage automatique.
+Les prix de vente pour chaque produit fluctueront et apparaîtront sur le PDA.
+
+Prix: 50.000€
+Taille: 18 x 23 Mètres
+
+-Ce spot de vente fonctionne avec course.
+
+Changer le journal 1.0.0.0:
+- Première version.
+Changer le journal 1.5.0.0:
+- Ajout des fonctions et du nom de la L10N pour que ce soit plus compréhensible pour tout le monde, c'était avant tout en anglais.
+- Mise à jour du mod avec plus de langues.
+- Création de nouvelles textures de décalques et ajout de shaders au bâtiment
+- Ajout d’un nœud pour les marqueurs de zone interactifs (les bandes d’avertissement peuvent maintenant être activées et désactivées)
+Changer le journal 2.0.0.0:
+- Mis à jour pour supporter le mod de saisons.
+- Nouveaux noms pour tous les bâtiments.]]></fr>
+
+        <es><![CDATA[Granero bonito y limpio que funciona como un punto de venta de paja, hierba, heno y ensilaje. El edificio cuenta con iluminación automática.
+Los precios de venta de cada producto fluctuarán y aparecerán en el PDA.
+
+Precio: 50.000 €
+Tamaño: 18 x 23 Metros
+
+-Este lugar de venta funciona con el juego del curso.
+
+Registro de cambios 1.0.0.0:
+- Versión inicial.
+Registro de cambios 1.5.0.0:
+- Se agregaron las funciones y el nombre de la L10N, por lo que es más comprensible para todas las personas, esto fue antes en inglés.
+- Actualizado el mod con más idiomas.
+- Se crearon nuevas texturas de calcomanías y se agregaron sombreadores al edificio
+- Nodo agregado para marcadores de zona interactivos (ahora las franjas de advertencia se pueden activar y desactivar)
+Registro de cambios 2.0.0.0:
+- Actualizado para admitir el mod Seasons.
+- Nuevos nombres para todos los edificios.]]></es>
+
+        <ru><![CDATA[Хороший и чистый сарай, который служит торговым залом для соломы, травы, сена и силоса. Здание имеет автоматическое освещение.
+Продажные цены на каждый товар будут колебаться и отображаться на КПК.
+
+Цена: 50.000 €
+Размер: 18 х 23 Mетра
+
+-Это место продажи работает с курсом игры.
+
+Изменения 1.0.0.0:
+- Первый выпуск.
+Изменения 1.5.0.0:
+- Добавлены функции и имя L10N, чтобы оно было более понятным для всех, это было сделано только на английском языке.
+- Обновлен мод с большим количеством языков.
+- Созданы новые текстуры Decal и добавлены шейдеры в здание.
+- Добавлен узел для маркеров интерактивной зоны (теперь можно включать и выключать предупреждающие полосы)
+Изменения 2.0.0.0:
+- Обновлено для поддержки мод Seasons.
+- Новые имена для всех зданий.]]></ru>
+
+        <pl><![CDATA[Ładna i czysta stodoła, która służy jako punkt sprzedaży słomy, trawy, siana i kiszonki. Budynek ma automatyczne oświetlenie.
+Ceny sprzedaży każdego produktu będą się zmieniać i pojawiać na PDA.
+
+Cena: 50.000 €
+Rozmiar: 18 x 23 Metrów
+
+-To miejsce sprzedaży działa z kursem.
+
+Lista zmian 1.0.0.0:
+- Pierwsze wydanie.
+Lista zmian 1.5.0.0:
+- Dodano funkcje i nazwę L10N, więc jest to bardziej zrozumiałe dla wszystkich ludzi, było to głównie po angielsku.
+- Zaktualizowałem mod z większą liczbą języków.
+- Utworzono nowe tekstury naklejek i dodano shadery do budynku
+- Dodano węzeł dla interaktywnych znaczników stref (paski ostrzegawcze można teraz włączać i wyłączać)
+Lista zmian 2.0.0.0:
+- Zaktualizowano w celu obsługi modów Seasons.
+- Nowe nazwy dla wszystkich budynków.]]></pl>
+
+	</description>
+    <multiplayer supported="true"/>
+    <storeItems>
+        <storeItem rootNode="placeable" xmlFilename="StrawBarn_SellingSpot.xml"/>
+		<storeItem rootNode="placeable" xmlFilename="StrawBarn_SellingSpot_Dark.xml"/>
+		<storeItem rootNode="placeable" xmlFilename="StrawBarn_SellingSpot_White.xml"/>
+    </storeItems>
+    <l10n>
+        <!-- <text name="typeDesc_StrawBarn_SellingSpot" text="for later use"/> -->
+        <text name="name_StrawBarn_SellingSpot_White">
+            <en>Bailers Barn Deluxe White Edition</en>
+            <de>Verkaufsscheune Deluxe Weiß</de>
+            <fr>Écope Grange Deluxe Édition blanche</fr>
+            <es>Granero Bailer de Lujo Edición Blanca</es>
+            <ru>Черпак Cарай Pоскошный Белое Nздание</ru>
+            <pl>Stodoła Bailersów Luksusowy Biała Edycja</pl>
+        </text>
+        <text name="name_StrawBarn_SellingSpot">
+            <en>Bailers Barn Deluxe</en>
+            <de>Verkaufsscheune Deluxe</de>
+            <fr>Écope Grange Deluxe</fr>
+            <es>Granero Bailer de Lujo</es>
+            <ru>Черпак Иарай Pоскошный</ru>
+            <pl>Stodoła Bailersów Luksusowy</pl>
+        </text>
+        <text name="function_StrawBarn_SellingSpot">
+            <en>Nice and clean barn that works as a selling point for straw, grass, hay and silage. The Building is fitted with automatic lighting inside and outside.</en>
+            <de>Schöne und saubere Scheune, die als Verkaufsstelle für Stroh, Gras, Heu und Silage dient. Das Gebäude ist innen und außen mit einer automatischen Beleuchtung ausgestattet.</de>
+            <fr>Belle et propre grange qui fonctionne comme point de vente pour la paille, l'herbe, le foin et l'ensilage. Le bâtiment est équipé d'un éclairage automatique à l'intérieur et à l'extérieur.</fr>
+            <es>Granero bonito y limpio que funciona como un punto de venta de paja, hierba, heno y ensilaje. El edificio está equipado con iluminación automática interior y exterior.</es>
+            <ru>Хороший и чистый сарай, который служит торговым залом для соломы, травы, сена и силоса. Здание оснащено автоматическим освещением внутри и снаружи.</ru>
+            <pl>Ładna i czysta stodoła, która służy jako punkt sprzedaży słomy, trawy, siana i kiszonki. Budynek jest wyposażony w automatyczne oświetlenie wewnątrz i na zewnątrz.</pl>
+        </text>
+        <text name="name_StrawBarn_SellingSpot_Dark">
+            <en>Bailers Barn Deluxe Black Edition</en>
+            <de>Verkaufsscheune Deluxe Schwarz</de>
+            <fr>Écope Grange Deluxe Edition Noir</fr>
+            <es>Granero Bailer De Lujo Edicion Negra</es>
+            <ru>Черпак Cарай Pоскошный Черное Nздание</ru>
+            <pl>Stodoła bailersów luksusowy Czarna Edycja</pl>
+        </text>
+        <text name="BailersBarnDeluxe">
+            <en>EDGE Bailers Barn Deluxe</en>
+            <de>EDGE Verkaufsscheune Deluxe</de>
+            <fr>EDGE Écope Grange Deluxe</fr>
+            <es>EDGE Achicador Granero de Lujo</es>
+            <ru>EDGE бейлеры Cарай Делюкс</ru>
+            <pl>EDGE Stodoła Bailersów Luksusowy</pl>
+        </text>
+        <text name="BlackBailersBarn">
+            <en>EDGE Black Bailers Barn Deluxe</en>
+            <de>EDGE Verkaufsscheune Deluxe Schwarz</de>
+            <fr>EDGE Écope Grange Deluxe Noir</fr>
+            <es>EDGE Achicador Granero de Lujo Negra</es>
+            <ru>EDGE Черный Cарай Cарай Делюкс</ru>
+            <pl>EDGE Czarny Stodoła Bailersów Luksusowy</pl>
+        </text>
+        <text name="WhiteBailersBarn">
+            <en>EDGE White Bailers Barn Deluxe</en>
+            <de>EDGE Verkaufsscheune Deluxe Weiß</de>
+            <fr>EDGE Blanche Écope Grange Deluxe</fr>
+            <es>EDGE Blanca Achicador Granero de Lujo</es>
+            <ru>EDGE белый Kотелок Cарай Делюкс</ru>
+            <pl>EDGE Biały Stodoła Bailersów Luksusowy</pl>
+        </text>
+    </l10n>
+    <brands>
+        <brand name="EDGE" title="EDGE Industries" image="EDGE_Brand_Logo.dds"/>
+    </brands>
+</modDesc>

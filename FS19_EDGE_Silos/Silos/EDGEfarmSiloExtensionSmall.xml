@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_name_SmallGrainSiloExtension1</name>
+        <functions>
+            <function>$l10n_function_siloExtension</function>
+            <function>$l10n_function_EDGEGrainSilo</function>
+        </functions>
+        <specs>
+            <capacity>100000</capacity>
+            <fillTypeCategories>FARMSILO</fillTypeCategories>
+        </specs>
+        <image>Store/store_EDGEfarmSiloExtensionSmall.png</image>
+        <price>80000</price>
+        <lifetime>1000</lifetime>
+        <dailyUpkeep>20</dailyUpkeep>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <species>placeable</species>
+        <category>silos</category>
+    </storeData>
+    <placeableType>siloExtension</placeableType>
+    <filename>Silos/EDGEfarmSiloExtensionSmall.i3d</filename>
+    <placement testSizeX="4.8" testSizeZ="4.8" sizeX="4.8" sizeZ="4.8" useRandomYRotation="false" useManualYRotation="true"/>
+    <dayNightObjects>
+        <dayNightObject node="1|0|0|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+    </dayNightObjects>
+    <tipOcclusionUpdateArea sizeX="4.8" sizeZ="4.8"/>
+    <storage node="0|0" fillTypeCategories="FARMSILO" capacityPerFillType="100000"/>
+    <clearAreas>
+        <clearArea startIndex="2|0" widthIndex="2|0|0" heightIndex="2|0|1"/>
+    </clearAreas>
+    <leveling requireLeveling="true" maxSmoothDistance="10" maxSlope="75" maxEdgeAngle="30">
+        <levelAreas>
+            <levelArea startNode="2|0" widthNode="2|0|0" heightNode="2|0|1" groundType="asphalt"/>
+        </levelAreas>
+    </leveling>
+    <seasons>
+        <maskAreas>
+            <!-- <maskArea startNode="2|1|0" widthNode="2|1|0|0" heightNode="2|1|0|1"/> -->
+        </maskAreas>
+    </seasons>
+</placeable>

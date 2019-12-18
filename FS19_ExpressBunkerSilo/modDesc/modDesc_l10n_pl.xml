@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+<author>Edge Gaming / Castiga</author>
+<translationby>Castiga</translationby>
+	<texts>
+		<text name="function_EDGEFertilizerStorage" text="Przechowywanie płynnych nawozów dla twojej farmy, tutaj możesz przechowywać gnojowicę, fermentat, herbicyd i zwykły płynny nawóz.">
+		<text name="typeDesc_EDGEFertilizerStorage" text="Przechowywanie płynnych nawozów">
+		<text name="name_EDGEFertilizerStorage" text="EDGE Płynny nawóz">
+		<text name="name_EDGE" text="EDGE Zbiornik na nawóz płynny">
+		<text name="fullname_EDGEFertilizerStorage" text="Przechowywanie płynnych nawozów EDGE">
+		<text name="action_fillStorage" text="Rozpocznij przeładowanie">
+		<text name="action_stopFillStorage" text="Zatrzymaj przeciążanie">
+		<text name="EDGE Liquid Fertilizer" text="EDGE Zbiornik na nawóz płynny"/>
+		<text name="EDGE Liquid Fertilizer Storage" text="Przechowywanie płynnych nawozów EDGE"/>
+	</texts>
+</l10n>

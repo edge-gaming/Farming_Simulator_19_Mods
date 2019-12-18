@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+<author>Edge Gaming / Castiga</author>
+<translationby>Castiga</translationby>
+	<texts>
+		<text name="function_EDGEGrainSilo" 			text="Ten budynek ma automatyczne oświetlenie."/>
+		<text name="name_oldUniversalSilo" 				text="Stary uniwersalny silos"/>
+		<text name="name_newUniversalSilo" 				text="Nowy uniwersalny silos"/>
+		<text name="EDGEFarmsilo" 						text="EDGE Silos Farm"/>
+		<text name="EDGEsilo" 							text="EDGE Silos"/>
+		<text name="station_oldSiloName" 				text="Stary silos rolny"/>
+		<text name="station_newSiloName" 				text="Nowy Silos Farmowy"/>
+		<!-- <text name="name_LargeGrainSiloExtension" 		text="Przedłużenie silosu na duże ziarna"/> -->
+		<!-- <text name="name_SmallGrainSiloExtension" 		text="Przedłużenie silosu na małe ziarna"/> -->
+		<!-- <text name="name_GrainSiloExtension" 			text="Przedłużenie silosu zbożowego"/> -->
+		<!-- <text name="name_NewLargeGrainSiloExtension" 	text="Nowe przedłużenie silosu na duże ziarna"/> -->
+		<!-- <text name="name_NewSmallGrainSiloExtension" 	text="Nowe przedłużenie silosu na małe ziarna"/> -->
+		<!-- <text name="name_NewGrainSiloExtension" 		text="Nowe przedłużenie silosu zbożowego"/> -->
+		<!-- <text name="typeDesc_EDGEGrainSilo" 			text="Silosy mogą służyć do przechowywania ziarna"/> -->
+		<!-- <text name="function_EDGEGrainSiloExtension" 	text="Można go umieścić w odległości 100 metrów od silosu rolniczego."/> -->
+	</texts>
+</l10n>

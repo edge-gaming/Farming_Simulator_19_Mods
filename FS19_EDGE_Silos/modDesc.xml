@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="47">
+    <author>Edge Gaming / Castiga</author>
+    <version>2.0.0.0</version>
+    <title><!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
+        <en>EDGE Grain Silos</en>
+        <de>EDGE Getreidespeicher</de>
+        <fr>EDGE Silos À Grain</fr>
+        <es>EDGE Silos De Grano</es>
+        <ru>EDGE Зернохранилища</ru>
+        <pl>EDGE Silosy Zbożowe</pl>
+        <it>EDGE Silos Di Grano</it>
+    </title>
+    <description>
+        <en><![CDATA[Some silos for storing your grain. The pack contains 4 farm silos, and 6 silo extensions.
+
+-All buildings have automatic lighting.
+-All Buildings supports "Seasons" and "Courseplay Six".
+-All Buildings have FillTypeCategories: Farmsilo (to Support Custom Fruits)
+
+--Technical Info--
+
+Small Grain Silo:
+Price: 110.000€
+Upkeep: 45€ Daily.
+Size: 14 x 15 Meters.
+Capacity: 100.000 Litre.
+Overloading Speed 2000 Liters Per Second.
+
+Large Grain Silo:
+Price: 180.000€
+Upkeep: 60€ Daily.
+Size: 22 x 14 Meters.
+Capacity: 250.000 Litre.
+Overloading Speed 2000 Liters Per Second.
+
+Large Grain Silo System:
+Price: 350.000€
+Upkeep: 60€ Daily.
+Size: 18 x 18 Meters.
+Capacity: 500.000 Litre.
+Overloading Speed 2000 Liters Per Second.
+
+XS Grain Silo Extension:
+Price: 40.000€
+Upkeep: 10€ Daily.
+Size: 3.6 x 3.6 Meters.
+Capacity: 50.000 Litre.
+
+M Grain Silo Extension:
+Price: 80.000€
+Upkeep: 20€ Daily.
+Size: 4.8 x 4.8 Meters.
+Capacity: 100.000 Litre.
+
+L Grain Silo Extension:
+Price: 80.000€
+Upkeep: 20€ Daily.
+Size: 3.6 x 3.6 Meters.
+Capacity: 100.000 Litre.
+
+XL Grain Silo Extension:
+Price: 90.000€
+Upkeep: 25€ Daily.
+Size: 10.5 x 10.5 Meters.
+Capacity: 150.000 Litre.
+
+Changelog 1.0.0.0:
+- Initial Realease.
+Changelog 1.5.0.0:
+- Added L10N functions and name so it's more understandable for all people, this was prevoisly just in english.
+- Updated the mod with more languages.
+- Created new Decal textures & added shaders to the building
+- Made some minor cosmetic changes to all buildings
+- Added node for Interactive Zone Markers (Warningstripes can now be turned on and off)
+Changelog 2.0.0.0:
+- Created "Seasons" mask support.
+- Updated to support custom fruit types & maps.]]></en>
+
+<de><![CDATA[Einige Silos für die Lagerung von Korn. Das Paket enthält vier Hofsilos und 6 Siloerweiterungen.
+
+-Alle Gebäude verfügen über eine automatische Beleuchtung.
+-Alle Gebäude unterstützen "Seasons" und "Courseplay Six".
+-Alle Gebäude haben FillTypeCategories: Farmsilo (zur Unterstützung benutzerdefinierter Früchte)
+
+--Technische Information--
+
+Kleines Getreidesilo:
+Preis: 110.000 €
+Unterhalt: 45 € Täglich.
+Größe: 14 x 15 Meter.
+Fassungsvermögen: 100.000 Liter.
+Überladegeschwindigkeit 2000 Liter pro Sekunde.
+
+Großes Getreidesilo:
+Preis: 180.000 €
+Unterhalt: 60 € Täglich.
+Größe: 22 x 14 Meter.
+Fassungsvermögen: 250.000 Liter.
+Überladegeschwindigkeit 2000 Liter pro Sekunde.
+
+Großes Getreidesilosystem:
+Preis: 350.000 €
+Unterhalt: 60 € Täglich.
+Größe: 18 x 18 Meter.
+Fassungsvermögen: 500.000 Liter.
+Überladegeschwindigkeit 2000 Liter pro Sekunde.
+
+XS Getreidesiloverlängerung:
+Preis: 40.000 €
+Unterhalt: 10 € Täglich.
+Größe: 3,6 x 3,6 Meter.
+Fassungsvermögen: 50.000 Liter.
+
+M Getreidesiloverlängerung:
+Preis: 80.000 €
+Unterhalt: 20 € Täglich.
+Größe: 4,8 x 4,8 Meter.
+Fassungsvermögen: 100.000 Liter.
+
+L Getreidesiloverlängerung:
+Preis: 80.000 €
+Unterhalt: 20 € Täglich.
+Größe: 3,6 x 3,6 Meter.
+Fassungsvermögen: 100.000 Liter.
+
+XL Getreidesiloverlängerung:
+Preis: 90.000 €
+Unterhalt: 25 € Täglich.
+Größe: 10,5 x 10,5 Meter.
+Fassungsvermögen: 150.000 Liter.
+
+Änderungsprotokoll 1.0.0.0:
+- Erstveröffentlichung.
+Änderungsprotokoll 1.5.0.0:
+- Es wurden L10N-Funktionen und -Namen hinzugefügt, damit es für alle verständlicher ist. Dies war bisher nur in Englisch.
+- Der Mod wurde mit mehr Sprachen aktualisiert.
+- Neue Decal-Texturen erstellt und der Gebäude Shader hinzugefügt.
+- Einige kleinere kosmetische Änderungen an allen Gebäuden vorgenommen.
+- Knoten für interaktive Zonenmarkierungen hinzugefügt (Warnstreifen können jetzt ein- und ausgeschaltet werden).
+Änderungsprotokoll 2.0.0.0:
+- "Seasons" Unterstützung
+- Aktualisiert, um benutzerdefinierte Fruchtarten und -karten zu unterstützen]]></de>
+
+        <fr><![CDATA[Quelques silos pour stocker votre Grain. Le pack contient 4 silos de ferme et 6 extensions de silo.
+
+-Tous les bâtiments ont un éclairage automatique.
+-Tous les bâtiments prennent en charge "Seasons" et "Courseplay Six".
+-Tous les bâtiments ont FillTypeCategories: Farmsilo (pour prendre en charge les fruits personnalisés)
+
+--Info technique--
+
+Silo à petits grains:
+Prix: 110.000 €
+Entretien: 45 € par jour.
+Taille: 14 x 15 mètres.
+Capacité: 100.000 litres.
+Vitesse de surcharge 2000 litres par seconde.
+
+Silo à gros grains:
+Prix: 180.000 €
+Entretien: 60 € par jour.
+Taille: 22 x 14 mètres.
+Capacité: 250.000 litres.
+Vitesse de surcharge 2000 litres par seconde.
+
+Système de silo à gros grains:
+Prix: 350.000 €
+Entretien: 60 € par jour.
+Taille: 18 x 18 mètres.
+Capacité: 500.000 litres.
+Vitesse de surcharge 2000 litres par seconde.
+
+Extension de silo à grains XS:
+Prix: 40.000 €
+Entretien: 10 € par jour.
+Taille: 3,6 x 3,6 mètres.
+Capacité: 50.000 litres.
+
+Extension du silo à grains M:
+Prix: 80.000 €
+Entretien: 20 € par jour.
+Taille: 4,8 x 4,8 mètres.
+Capacité: 100.000 litres.
+
+Extension de silo à grains L:
+Prix: 80.000 €
+Entretien: 20 € par jour.
+Taille: 3,6 x 3,6 mètres.
+Capacité: 100.000 litres.
+
+Extension de silo à grains XL:
+Prix: 90.000 €
+Entretien: 25 € par jour.
+Taille: 10,5 x 10,5 mètres.
+Capacité: 150.000 litres.
+
+Changer le journal 1.0.0.0:
+- Première version.
+Changer le journal 1.5.0.0:
+- Ajout des fonctions et du nom de la L10N pour que ce soit plus compréhensible pour tout le monde, c'était avant tout en anglais.
+- Mise à jour du mod avec plus de langues.
+- Création de nouvelles textures de décalques et ajout de shaders au bâtiment.
+- apporté des modifications cosmétiques mineures à tous les bâtiments.
+- Ajout d’un nœud pour les marqueurs de zone interactifs (les bandes d’avertissement peuvent maintenant être activées et désactivées).
+Changer le journal 2.0.0.0:
+- Création du support de masque "Seasons".
+- Mise à jour pour prendre en charge les types de fruits personnalisés et les cartes.]]></fr>
+
+        <es><![CDATA[Algunos silos para almacenar tu grano. El paquete contiene 4 silos de granja y 6 extensiones de silo.
+
+-Todos los edificios tienen iluminación automática.
+-Todos los edificios son compatibles con "Seasons" y "Courseplay Six".
+-Todos los edificios tienen FillTypeCategories: Farmsilo (para admitir frutas personalizadas)
+
+--Información técnica--
+
+Silo de grano pequeño:
+Precio: 110.000 €
+Mantenimiento: 45 € diarios.
+Tamaño: 14 x 15 metros.
+Capacidad: 100.000 litros.
+Velocidad de sobrecarga de 2000 litros por segundo.
+
+Silo de grano grande:
+Precio: 180.000 €
+Mantenimiento: 60 € diario.
+Tamaño: 22 x 14 metros.
+Capacidad: 250.000 litros.
+Velocidad de sobrecarga de 2000 litros por segundo.
+
+Sistema de silo de grano grande:
+Precio: 350.000 €
+Mantenimiento: 60 € diario.
+Tamaño: 18 x 18 metros.
+Capacidad: 500.000 litros.
+Velocidad de sobrecarga de 2000 litros por segundo.
+
+Extensión del silo de grano XS:
+Precio: 40.000 €
+Mantenimiento: 10 € diarios.
+Tamaño: 3.6 x 3.6 metros.
+Capacidad: 50.000 litros.
+
+Extensión de silo de grano M:
+Precio: 80.000 €
+Mantenimiento: 20 € diarios.
+Tamaño: 4.8 x 4.8 metros.
+Capacidad: 100.000 litros.
+
+Extensión de silo de grano L:
+Precio: 80.000 €
+Mantenimiento: 20 € diarios.
+Tamaño: 3.6 x 3.6 metros.
+Capacidad: 100.000 litros.
+
+Extensión de silo de grano XL:
+Precio: 90.000 €
+Mantenimiento: 25 € diarios.
+Tamaño: 10.5 x 10.5 metros.
+Capacidad: 150.000 litros.
+
+Registro de cambios 1.0.0.0:
+- Versión inicial.
+Registro de cambios 1.5.0.0:
+- Se agregaron las funciones y el nombre de la L10N, por lo que es más comprensible para todas las personas, esto fue antes en inglés.
+- Actualizado el mod con más idiomas.
+- Se crearon nuevas texturas de calcomanías y se agregaron sombreadores al edificio.
+- Se hicieron algunos cambios cosméticos menores en todos los edificios.
+- Nodo agregado para marcadores de zona interactivos (ahora las franjas de advertencia se pueden activar y desactivar).
+Registro de cambios 2.0.0.0:
+- Creado el soporte de máscara "Estaciones".
+- Actualizado para admitir tipos de fruta y mapas personalizados.]]></es>
+
+        <ru><![CDATA[Некоторые бункеры для хранения вашего зерна. Пакет содержит 4 бункера фермы и 6 расширений бункера.
+
+-Все здания имеют автоматическое освещение.
+-Все здания поддерживают "Seasons" и "Courseplay Six".
+-Все здания имеют FillTypeCategories: Farmsilo (для поддержки пользовательских фруктов)
+
+--Техническая информация--
+
+Бункер для мелкого зерна:
+Цена: 110.000 €
+Содержание: 45 € в день.
+Размер: 14 х 15 метров.
+Вместимость: 100.000 л.
+Скорость перегрузки 2000 литров в секунду.
+
+Большой зерновой бункер:
+Цена: 180.000 €
+Содержание: 60 € в день.
+Размер: 22 х 14 метров.
+Вместимость: 250.000 литров.
+Скорость перегрузки 2000 литров в секунду.
+
+Большая силосная система:
+Цена: 350.000 €
+Содержание: 60 € в день.
+Размер: 18 х 18 метров.
+Объем: 500.000 литров.
+Скорость перегрузки 2000 литров в секунду.
+
+Расширение силоса XS Grain:
+Цена: 40.000 €
+Содержание: 10 € в день.
+Размер: 3,6 х 3,6 метра.
+Объем: 50.000 литров.
+
+Расширение силоса M Grain:
+Цена: 80.000 €
+Содержание: 20 € в день.
+Размер: 4,8 х 4,8 метра.
+Вместимость: 100.000 л.
+
+Расширение силоса L:
+Цена: 80.000 €
+Содержание: 20 € в день.
+Размер: 3,6 х 3,6 метра.
+Вместимость: 100.000 л.
+
+Удлинитель силоса XL:
+Цена: 90.000 €
+Содержание: 25 € в день.
+Размер: 10,5 х 10,5 метров.
+Объем: 150.000 литров.
+
+Изменения 1.0.0.0:
+- Первый выпуск.
+Изменения 1.5.0.0:
+- Добавлены функции и имя L10N, чтобы оно было более понятным для всех, это было сделано только на английском языке.
+- Обновлен мод с большим количеством языков.
+- Созданы новые текстуры Decal и добавлены шейдеры в здание.
+- внесены незначительные косметические изменения во все здания.
+- Добавлен узел для маркеров интерактивной зоны (теперь можно включать и выключать предупреждающие полосы).
+Изменения 2.0.0.0:
+- Создана поддержка маски "Времена года".
+- Обновлено для поддержки пользовательских типов фруктов и карт.]]></ru>
+
+        <pl><![CDATA[Niektóre silosy do przechowywania zboża. Pakiet zawiera 4 silosy rolnicze i 6 przedłużeń silosów.
+
+-Wszystkie budynki mają automatyczne oświetlenie.
+-Wszystkie budynki obsługują „Pory roku” i „Courseplay Six”.
+-Wszystkie budynki mają FillTypeCategory: Farmsilo (do obsługi niestandardowych owoców)
+
+--Informacje techniczne--
+
+Silos o małych ziarnach:
+Cena: 110.000 €
+Utrzymanie: 45 € dziennie.
+Rozmiar: 14 x 15 metrów.
+Pojemność: 100 000 litrów.
+Prędkość przeciążenia 2000 litrów na sekundę.
+
+Silos o dużych ziarnach:
+Cena: 180.000 €
+Utrzymanie: 60 € dziennie.
+Rozmiar: 22 x 14 metrów.
+Pojemność: 250 000 litrów.
+Prędkość przeciążenia 2000 litrów na sekundę.
+
+System silosów o dużych ziarnach:
+Cena: 350.000 €
+Utrzymanie: 60 € dziennie.
+Rozmiar: 18 x 18 metrów.
+Pojemność: 500 000 litrów.
+Prędkość przeciążenia 2000 litrów na sekundę.
+
+Przedłużenie silosu ziarna XS:
+Cena: 40.000 €
+Utrzymanie: 10 € dziennie.
+Rozmiar: 3,6 x 3,6 metra.
+Pojemność: 50 000 litrów.
+
+Przedłużenie silosu zbożowego M:
+Cena: 80.000 €
+Utrzymanie: 20 € dziennie.
+Rozmiar: 4,8 x 4,8 metra.
+Pojemność: 100 000 litrów.
+
+Przedłużenie silosu L na ziarno:
+Cena: 80.000 €
+Utrzymanie: 20 € dziennie.
+Rozmiar: 3,6 x 3,6 metra.
+Pojemność: 100 000 litrów.
+
+Przedłużenie silosu ziaren XL:
+Cena: 90.000 €
+Utrzymanie: 25 € dziennie.
+Rozmiar: 10,5 x 10,5 metra.
+Pojemność: 150 000 litrów.
+
+Lista zmian 1.0.0.0:
+- Pierwsze wydanie.
+Lista zmian 1.5.0.0:
+- Dodano funkcje i nazwę L10N, więc jest to bardziej zrozumiałe dla wszystkich ludzi, było to głównie po angielsku.
+- Zaktualizowałem mod z większą liczbą języków.
+- Utworzono nowe tekstury naklejek i dodano shadery do budynku.
+- Wprowadzono drobne zmiany kosmetyczne we wszystkich budynkach.
+- Dodano węzeł dla interaktywnych znaczników stref (paski ostrzegawcze można teraz włączać i wyłączać).
+Lista zmian 2.0.0.0:
+- Utworzono obsługę maski „Pory roku”.
+- Zaktualizowano w celu obsługi niestandardowych rodzajów owoców i map.]]></pl>
+        <it><![CDATA[Alcuni silos per conservare il grano. Il pacchetto contiene 4 silos agricoli e 6 estensioni per silo.
+
+-Tutti gli edifici hanno l'illuminazione automatica.
+-Tutti gli edifici supportano "Seasons" e "Courseplay Six".
+-Tutti gli edifici hanno FillTypeCategories: Farmsilo (per supportare la frutta personalizzata)
+
+--Informazioni tecniche--
+
+Silo per cereali piccoli:
+Prezzo: 110.000 €
+Manutenzione: 45 € al giorno.
+Dimensioni: 14 x 15 metri.
+Capacità: 100.000 litri.
+Velocità di sovraccarico 2000 litri al secondo.
+
+Silo per cereali grandi:
+Prezzo: 180.000 €
+Manutenzione: 60 € al giorno.
+Dimensioni: 22 x 14 metri.
+Capacità: 250.000 litri.
+Velocità di sovraccarico 2000 litri al secondo.
+
+Sistema di silo per cereali di grandi dimensioni:
+Prezzo: 350.000 €
+Manutenzione: 60 € al giorno.
+Dimensioni: 18 x 18 metri.
+Capacità: 500.000 litri.
+Velocità di sovraccarico 2000 litri al secondo.
+
+Estensione per silos XS:
+Prezzo: 40.000 €
+Manutenzione: 10 € al giorno.
+Dimensioni: 3,6 x 3,6 metri.
+Capacità: 50.000 litri.
+
+Estensione M Grain Silo:
+Prezzo: 80.000 €
+Manutenzione: 20 € al giorno.
+Dimensioni: 4,8 x 4,8 metri.
+Capacità: 100.000 litri.
+
+Estensione del silo di grano L:
+Prezzo: 80.000 €
+Manutenzione: 20 € al giorno.
+Dimensioni: 3,6 x 3,6 metri.
+Capacità: 100.000 litri.
+
+Estensione XL Silo per cereali:
+Prezzo: 90.000 €
+Manutenzione: 25 € al giorno.
+Dimensioni: 10,5 x 10,5 metri.
+Capacità: 150.000 litri.
+
+Elenco modifiche 1.0.0.0:
+- Realease iniziale.
+Elenco modifiche 1.5.0.0:
+- Aggiunte funzioni e nome L10N, quindi è più comprensibile per tutte le persone, questo era principalmente in inglese.
+- Aggiornato il mod con più lingue.
+- Creato nuove trame di decalcomanie e aggiunto shader all'edificio
+- Apportate alcune piccole modifiche estetiche a tutti gli edifici
+- Aggiunto nodo per gli indicatori interattivi di zona (ora è possibile attivare e disattivare le strisce di avvertimento)
+Log delle modifiche 2.0.0.0:
+- Creazione del supporto maschera "Stagioni".
+- Aggiornato per supportare tipi di frutta e mappe personalizzate.]]></it>
+	</description>
+    <iconFilename>SilosIcon.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <storeItems>
+        <storeItem xmlFilename="Silos/EDGEHugefarmSilo.xml"/>
+        <storeItem xmlFilename="Silos/EDGESiloExtensionLargeDark.xml"/>
+        <storeItem xmlFilename="Silos/EDGESiloExtensionSmallDark.xml"/>
+        <storeItem xmlFilename="Silos/EDGEHugefarmSiloWhite.xml"/>
+        <storeItem xmlFilename="Silos/EDGESiloExtensionLargeWhite.xml"/>
+        <storeItem xmlFilename="Silos/EDGESiloExtensionSmallWhite.xml"/>
+        <storeItem xmlFilename="Silos/EDGEfarmSiloLarge.xml"/>
+        <storeItem xmlFilename="Silos/EDGEsiloExtension.xml"/>
+        <storeItem xmlFilename="Silos/EDGEfarmSilo.xml"/>
+        <storeItem xmlFilename="Silos/EDGEfarmSiloExtensionSmall.xml"/>
+    </storeItems>
+	<l10n filenamePrefix="modDesc/modDesc_l10n"/>
+    <brands>
+        <brand name="EDGE" title="EDGE Industries" image="EDGE_Brand_Logo.dds"/>
+    </brands>
+</modDesc>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="implement">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+    <storeData>
+        <name>
+            <en>1500</en></name>
+        <functions>
+            <function>$l10n_function_weight</function>
+        </functions>
+        <specs>
+            <capacity unit="$l10n_unit_kg">1500</capacity>
+        </specs>
+        <rotation>0</rotation>
+        <image>store_agco1500.png</image>
+        <price>1350</price>
+        <lifetime>600</lifetime>
+        <brand>AGCO</brand>
+        <category>weights</category>
+        <shopTranslationOffset>0 -0.085 0</shopTranslationOffset>
+        <shopRotationOffset>0 0 0</shopRotationOffset>
+        <vertexBufferMemoryUsage>55776</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>8976</indexBufferMemoryUsage>
+        <textureMemoryUsage>8388712</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+    <base>
+        <typeDesc>$l10n_typeDesc_weight</typeDesc>
+        <filename>weight1500.i3d</filename>
+        <size width="1.5" length="1"/>
+        <components>
+            <component centerOfMass="0 0.1 0" solverIterationCount="10" mass="1500"/>
+        </components>
+        <schemaOverlay attacherJointPosition="0 0">
+            <default name="DEFAULT_IMPLEMENT"/>
+            <selected name="DEFAULT_IMPLEMENT_SELECTED"/>
+        </schemaOverlay>
+    </base>
+    <attacherJoints>
+        <attacherJoint node="trailerAttacherJoint" jointType="trailer" lowerRotLimit="10 80 80" upperRotRotationOffset="0" allowsJointLimitMovement="false">
+            <schema position="1 0" rotation="0" invertX="false"/>
+        </attacherJoint>
+        <sounds>
+            <attach template="ATTACH_01" linkNode="0>"/>
+        </sounds>
+    </attacherJoints>
+    <attachable>
+        <inputAttacherJoints>
+            <inputAttacherJoint node="attacherJoint" jointType="implement" topReferenceNode="topReferenceNode" lowerRotLimitScale="0 0 0" upperRotationOffset="3" lowerRotationOffset="0" needsLowering="false">
+                <distanceToGround lower="0" upper="1.5"/>
+            </inputAttacherJoint>
+        </inputAttacherJoints>
+    </attachable>
+    <foliageBending>
+        <bendingNode minX="-0.5" maxX="0.5" minZ="-0.5" maxZ="0.3" yOffset="0.1"/>
+    </foliageBending>
+    <baseMaterial>
+        <material name="agcoWeights_mat" baseNode="agco_vis">
+            <shaderParameter name="colorMat0" value="AGCO_GREY1"/>
+        </material>
+    </baseMaterial>
+    <baseMaterialConfigurations price="100" useDefaultColors="true" defaultColorIndex="6">
+        <material name="agcoWeights_mat" shaderParameter="colorMat0"/>
+    </baseMaterialConfigurations>
+    <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
+    <washable dirtDuration="90" washDuration="1" workMultiplier="2" fieldMultiplier="2"/>
+    <i3dMappings>
+        <i3dMapping id="attacherJoint" node="0>0"/>
+        <i3dMapping id="topReferenceNode" node="0>1"/>
+        <i3dMapping id="trailerAttacherJoint" node="0>2"/>
+        <i3dMapping id="agco_vis" node="0>3"/>
+    </i3dMappings>
+</vehicle>

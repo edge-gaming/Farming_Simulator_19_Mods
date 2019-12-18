@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="46">
+    <author>Edge Gaming / Castiga</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Russian Grain Silos</en>
+        <de>Russische Getreidesilos</de>
+        <fr>Silos à grains russes</fr>
+        <es>Silos de grano ruso</es>
+        <ru>Российские зерновые бункеры</ru>
+        <pl>Rosyjskie silosy zbożowe</pl>
+    </title>
+    <description>
+        <en><![CDATA[Some silos for storing your grain. The pack contains 2 farm silos, with several Silo Extensions to be added to the pack soon.
+All buildings are priced according to storage space and size and they all have automatic lighting.
+
+- Supports "Seasons" and "Courseplay Six".
+
+Changelog 1.0.0.0:
+- Initial Realease.]]></en>
+
+<de><![CDATA[Einige Silos für die Lagerung von Korn. Die Packung enthält 2 Farmsilos mit mehreren Siloerweiterungen, die der Packung in Kürze hinzugefügt werden.
+Alle Gebäude werden nach Speicherplatz und Größe berechnet und haben eine automatisierte Beleuchtung für die Nacht.
+
+- Unterstützt "Seasons" und "Courseplay Six".
+
+Änderungsprotokoll 1.0.0.0:
+- Erstveröffentlichung.]]></de>
+
+        <fr><![CDATA[Quelques silos pour stocker votre Grain. Le pack contient 2 silos de ferme, avec plusieurs extensions de silo à ajouter prochainement.
+Tous les bâtiments sont tarifés en fonction de l'espace de stockage et de la taille. Tous les bâtiments ont un éclairage automatique.
+
+- Supporte "Seasons" et "Courseplay Six".
+
+Changer le journal 1.0.0.0:
+- Première version.]]></fr>
+
+        <es><![CDATA[Algunos silos para almacenar tu grano. El paquete contiene 2 silos de granja, con varias extensiones de silos que se agregarán al paquete pronto.
+Todos los edificios tienen un precio según el espacio de almacenamiento y el tamaño y todos tienen iluminación automática.
+
+- Admite "Seasons" y "Courseplay Six".
+
+Registro de cambios 1.0.0.0:
+- Versión inicial.]]></es>
+
+        <ru><![CDATA[Некоторые бункеры для хранения вашего зерна. Пакет содержит 2 фермерских бункера, и вскоре в него будет добавлено несколько расширений бункеров.
+Все здания оценены в соответствии с местом для хранения и размером, и все они имеют автоматическое освещение.
+
+- Поддерживает «Seasons» и «Courseplay Six».
+
+Изменения 1.0.0.0:
+- Первый выпуск.]]></ru>
+
+        <pl><![CDATA[Niektóre silosy do przechowywania zboża. Paczka zawiera 2 farmy silosów, z kilkoma rozszerzeniami silosów, które wkrótce zostaną dodane do paczki.
+Wszystkie budynki są wycenione według miejsca do przechowywania i wielkości i wszystkie mają automatyczne oświetlenie.
+
+- Obsługuje „Seasons” i „Courseplay Six”.
+
+Lista zmian 1.0.0.0:
+- Pierwsze wydanie.]]></pl>
+
+	</description>
+    <iconFilename>icon.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <storeItems>
+        <storeItem xmlFilename="storage/SeedShop.xml"/>
+        <storeItem xmlFilename="storage/SeedStorage.xml"/>
+    </storeItems>
+    <brands>
+        <brand name="EDGE" title="EDGE Industries" image="Store/EDGE_Brand_Logo.dds"/>
+    </brands>
+    <!-- <l10n>
+        <text name="OUSiloName">
+            <en>Old Farm Silo</en>
+            <de>Alter Bauernhofsilo</de>
+            <fr>Vieux silo de ferme</fr>
+            <es>Viejo silo de granja</es>
+            <ru>Старый фермерский силос</ru>
+            <pl>Stary silos rolny</pl>
+        </text>
+        <text name="NUSiloName">
+            <en>New Farm Silo</en>
+            <de>Neues Bauernhofsilo</de>
+            <fr>Nouveau silo de ferme</fr>
+            <es>Viejo silo de granja</es>
+            <ru>Новый Фермерский Силос</ru>
+            <pl>Nowy Silos Farmowy</pl>
+        </text>
+    </l10n> -->
+</modDesc>

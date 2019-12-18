@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="47">
+    <author>EDGE Gaming / Castiga</author>
+    <version>1.0.0.0</version>
+    <title><!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
+        <en>Seasons GEO: Crater Bay</en>
+        <de>Seasons GEO: Crater Bay</de>
+        <fr>Seasons GEO: Crater Bay</fr>
+        <es>Seasons GEO: Crater Bay</es>
+        <ru>Времена Года GEO: Кратер Бэй</ru>
+        <pl>Seasons GEO: Zatoka Kraterowa</pl>
+        <it>Seasons GEO: Crater Bay</it>
+        <br>Estações GEO: Crater Bay</br>
+        <cs>季节GEO：火山口湾</cs>
+        <ct>GEO季節：火山口灣</ct>
+        <cz>Seasons GEO: Crater Bay</cz>
+        <nl>Seizoenen GEO: Crater Bay</nl>
+        <hu>GEO Évszakok: Crater Bay</hu>
+        <jp>シーズンズGEO：クレーターベイ</jp>
+        <kr>시즌 GEO : 크레이터 베이</kr>
+        <pt>Estações GEO: Crater Bay</pt>
+        <ro>Sezoane GEO: Crater Bay</ro>
+        <tr>Mevsim GEO: Krater Körfezi</tr>
+    </title>
+    <description>
+        <en><![CDATA[Crater Bay is a GEO mod for Seasons that simulates agriculture in the state of Crater Bay, Nosy Be (Antsiranana Province) on the Northern Coast of Madagascar.
+This GEO is specified for The Crater Bay Map, but works with all FS 19 Maps.
+
+Bordered by the tropical Rainforests of Madagascar, this region enjoys a Tropical Climate, with lots of sunlight during the dry season, but also a very arid & wet climate during wet season. Agriculture is an important sector of Madagascar where they farm mostly Vanilla beans & Rice, Rice is the staple food, covering 1.34 million hectares throughout the country, with the exception of some semi-arid areas in the South and in the South-West, under both rain-fed and irrigated systems. Other food crops include maize (mainly grown in the South and Central-East regions), cassava, sorghum (in the South), beans, groundnut, sweet potatoes and a wide variety of vegetables. Cassava is an important component of the smallholder’s risk reduction strategy because it is drought tolerant and resistant to disease. Cassava, sweet potato and maize are the main source of calories in the lean season (from September to January). Groundnut is cultivated on sandy soils in most locations and makes an important contribution to household diet and income. The main cash crops are cotton, vanilla, coffee, litchi, pepper, tobacco, groundnut, sugar cane, sisal, clove and ylang-ylang.
+
+Agriculture in Madagascar is heavily influenced by the island's rainfall, which is generally abundant on the whole East coast, decreases sharply on the highlands, and falls to less than 500 mm per year in the South and South-West. The main growing season starts with the first rains in October – November. The cropping calendar greatly varies from region to region, according to the very different climatic conditions, soils and altitude.
+
+Livestock and forestry are also two important sectors in Madagascar, with extensive stands of ebony, rosewood and mahogany flourish on the East coast.
+While Livestock is widespread, with about 60 percent of rural families depending on it for their income. Animal production is dominated by extensive livestock rearing, pigs and poultry. There is also a growing modern poultry industry around the main cities.
+
+The latest version of the Seasons mod is required.]]></en>
+        <de><![CDATA[Crater Bay ist eine GEO-Modifikation für Jahreszeiten, die die Landwirtschaft im Bundesstaat Crater Bay, Nosy Be (Provinz Antsiranana) an der Nordküste Madagaskars simuliert.
+
+Diese von den tropischen Regenwäldern Madagaskars umgebene Region genießt ein tropisches Klima mit viel Sonnenlicht während der Trockenzeit, aber auch einem sehr trockenen und feuchten Klima während der Regenzeit. Die Landwirtschaft ist ein wichtiger Sektor Madagaskars, in dem hauptsächlich Vanilleschoten und Reis angebaut werden. Reis ist das Grundnahrungsmittel und bedeckt 1,34 Millionen Hektar im ganzen Land, mit Ausnahme einiger halbtrockener Gebiete im Süden und im Südwesten sowohl regengespeiste als auch bewässerte Systeme. Weitere Nahrungspflanzen sind Mais (hauptsächlich in den Regionen Süd- und Zentralostasien angebaut), Maniok, Sorghum (im Süden), Bohnen, Erdnüsse, Süßkartoffeln und eine Vielzahl von Gemüsen. Maniok ist ein wichtiger Bestandteil der Risikominderungsstrategie des Kleinbauern, da er trockenheitstolerant und krankheitsresistent ist. Maniok, Süßkartoffel und Mais sind die Hauptkalorienquelle in der mageren Jahreszeit (von September bis Januar). Erdnuss wird an den meisten Standorten auf sandigen Böden angebaut und leistet einen wichtigen Beitrag zur Ernährung und zum Haushaltseinkommen. Die wichtigsten Erntegüter sind Baumwolle, Vanille, Kaffee, Litschi, Pfeffer, Tabak, Erdnuss, Zuckerrohr, Sisal, Nelke und Ylang-Ylang.
+
+Die Landwirtschaft in Madagaskar wird stark von den Niederschlägen der Insel beeinflusst, die in der Regel an der gesamten Ostküste reichlich sind, im Hochland stark abnehmen und im Süden und Südwesten auf weniger als 500 mm pro Jahr sinken. Die Hauptwachstumszeit beginnt mit den ersten Regenfällen von Oktober bis November. Der Erntekalender variiert stark von Region zu Region, je nach den sehr unterschiedlichen klimatischen Bedingungen, Böden und Höhenlagen.
+
+Viehzucht und Forstwirtschaft sind auch zwei wichtige Sektoren in Madagaskar. An der Ostküste gedeihen umfangreiche Bestände aus Ebenholz, Rosenholz und Mahagoni.
+Während Viehzucht weit verbreitet ist, sind etwa 60 Prozent der ländlichen Familien auf dieses Vieh angewiesen, um ihr Einkommen zu sichern. Die Tierproduktion wird von extensiver Viehzucht, Schweinen und Geflügel dominiert. Es gibt auch eine wachsende moderne Geflügelindustrie in den Hauptstädten.
+
+Es wird die neuste Version vom Seasons mod benötigt.]]></de>
+        <fr><![CDATA[Crater Bay est un mod GEO pour Seasons qui simule l'agriculture dans l'état de Crater Bay, Nosy Be (province d'Antsiranana), sur la côte nord de Madagascar.
+
+Bordée par les forêts tropicales tropicales de Madagascar, cette région bénéficie d'un climat tropical avec beaucoup de soleil pendant la saison sèche, mais aussi d'un climat très aride et humide pendant la saison des pluies. L’agriculture est un secteur important de Madagascar où l’on cultive principalement de la vanille et du riz. Le riz est l’aliment de base, couvrant 1,34 million d’hectares dans tout le pays, à l’exception de certaines zones semi-arides du sud et du sud-ouest systèmes pluviaux et irrigués. Le maïs (principalement cultivé dans les régions du sud et du centre-est), le manioc, le sorgho (au sud), les haricots, les arachides, les patates douces et une grande variété de légumes figurent parmi les autres cultures vivrières. Le manioc est un élément important de la stratégie de réduction des risques des petits exploitants, car il résiste à la sécheresse et aux maladies. Le manioc, la patate douce et le maïs sont la principale source de calories en période de soudure (de septembre à janvier). L'arachide est cultivée sur des sols sableux dans la plupart des endroits et contribue de manière importante au régime alimentaire et au revenu du ménage. Les principales cultures de rapport sont le coton, la vanille, le café, le litchi, le poivre, le tabac, l'arachide, la canne à sucre, le sisal, le clou de girofle et l'ylang-ylang.
+
+L'agriculture à Madagascar est fortement influencée par les précipitations de l'île, qui sont généralement abondantes sur toute la côte est, diminuent fortement sur les hautes terres et tombent à moins de 500 mm par an au sud et au sud-ouest. La saison de croissance principale commence avec les premières pluies d'octobre à novembre. Le calendrier des cultures varie énormément d’une région à l’autre, en fonction des conditions climatiques, des sols et de l’altitude très différents.
+
+L'élevage et la foresterie sont également deux secteurs importants à Madagascar, avec de vastes peuplements d'ébène, de bois de rose et d'acajou florissant sur la côte est.
+Bien que le bétail soit répandu, environ 60% des familles rurales dépendent de son revenu. La production animale est dominée par l'élevage extensif, les porcs et la volaille. Il existe également une industrie avicole moderne en pleine croissance dans les principales villes.
+
+La dernière version du mod Seasons est nécessaire.]]></fr>
+        <es><![CDATA[Crater Bay es un mod GEO para Seasons que simula la agricultura en el estado de Crater Bay, Nosy Be (Provincia de Antsiranana) en la costa norte de Madagascar.
+
+Limita con las selvas tropicales de Madagascar, esta región goza de un clima tropical, con mucha luz solar durante la estación seca, pero también un clima muy árido y húmedo durante la estación húmeda. La agricultura es un sector importante de Madagascar donde cultivan principalmente frijoles de vainilla y arroz, el arroz es el alimento básico, que abarca 1,34 millones de hectáreas en todo el país, con la excepción de algunas áreas semiáridas en el sur y en el suroeste, bajo tanto sistemas de riego como de secano. Otros cultivos alimentarios incluyen maíz (principalmente en las regiones del sur y centro-este), yuca, sorgo (en el sur), frijoles, cacahuetes, batatas y una amplia variedad de verduras. La yuca es un componente importante de la estrategia de reducción de riesgos de los pequeños productores porque es tolerante a la sequía y resistente a las enfermedades. La yuca, la batata y el maíz son la principal fuente de calorías en la temporada de carestía (de septiembre a enero). El maní se cultiva en suelos arenosos en la mayoría de los lugares y hace una contribución importante a la dieta y los ingresos del hogar. Los principales cultivos comerciales son algodón, vainilla, café, lichi, pimienta, tabaco, maní, caña de azúcar, sisal, clavo y ylang-ylang.
+
+La agricultura en Madagascar está fuertemente influenciada por la lluvia de la isla, que generalmente es abundante en toda la costa este, disminuye bruscamente en las tierras altas y cae a menos de 500 mm por año en el sur y el suroeste. La temporada de crecimiento principal comienza con las primeras lluvias en octubre - noviembre. El calendario de cultivo varía mucho de una región a otra, de acuerdo con las condiciones climáticas, suelos y altitud muy diferentes.
+
+La ganadería y la silvicultura también son dos sectores importantes en Madagascar, con grandes extensiones de ébano, palisandro y flor de caoba en la costa este.
+Si bien el ganado está muy extendido, aproximadamente el 60 por ciento de las familias rurales dependen de él para sus ingresos. La producción animal está dominada por la cría extensiva de ganado, cerdos y aves de corral. También hay una creciente industria avícola moderna en las principales ciudades.
+
+Se requiere la última versión del mod Seasons.]]></es>
+        <ru><![CDATA[Crater Bay - это мод для GEO Seasons, который имитирует сельское хозяйство в штате Crater Bay, Нуси-Бе (провинция Анциранана) на северном побережье Мадагаскара.
+
+Граничащий с тропическими тропическими лесами Мадагаскара, этот регион имеет тропический климат, с большим количеством солнечного света в течение сухого сезона, а также очень сухой и влажный климат в течение влажного сезона. Сельское хозяйство является важным сектором Мадагаскара, где они выращивают в основном ванильные бобы и рис. Рис является основным продуктом питания, покрывая 1,34 млн. Га по всей стране, за исключением некоторых полузасушливых районов на юге и на юго-западе, под как дождевые, так и оросительные системы. Другие продовольственные культуры включают кукурузу (в основном выращивается в южных и центрально-восточных регионах), маниоку, сорго (на юге), бобы, арахис, сладкий картофель и большое разнообразие овощей. Кассава является важным компонентом стратегии снижения рисков мелких землевладельцев, поскольку она устойчива к засухе и устойчива к болезням. Кассава, сладкий картофель и кукуруза являются основным источником калорий в постное время года (с сентября по январь). Арахис выращивается на песчаных почвах в большинстве мест и вносит важный вклад в домашний рацион и доходы. Основными товарными культурами являются хлопок, ваниль, кофе, личи, перец, табак, арахис, сахарный тростник, сизаль, гвоздика и иланг-иланг.
+
+Сельское хозяйство на Мадагаскаре находится под сильным влиянием дождевых осадков на острове, которые, как правило, обильные на всем восточном побережье, резко уменьшаются в высокогорьях и падают до менее 500 мм в год на юге и юго-западе. Основной вегетационный период начинается с первых дождей в октябре - ноябре. Календарь обрезки сильно варьируется от региона к региону, в зависимости от самых разных климатических условий, почв и высоты.
+
+Животноводство и лесное хозяйство также являются двумя важными секторами на Мадагаскаре, где на восточном побережье растут обширные насаждения черного дерева, розового дерева и красного дерева.
+В то время как домашний скот широко распространен, около 60 процентов сельских семей зависят от его дохода. В животноводстве преобладает разведение крупного рогатого скота, свиней и птицы. Вокруг основных городов растёт современная птицеводческая отрасль.
+
+Требуется последняя версия мода Seasons.]]></ru>
+        <pl><![CDATA[Crater Bay to mod GEO dla Seasons, który symuluje rolnictwo w stanie Crater Bay, Nosy Be (prowincja Antsiranana) na północnym wybrzeżu Madagaskaru.
+
+Graniczy z tropikalnymi lasami deszczowymi Madagaskaru, region ten cieszy się klimatem tropikalnym, z dużą ilością światła słonecznego w porze suchej, ale także bardzo suchym i wilgotnym klimatem w porze deszczowej. Rolnictwo jest ważnym sektorem Madagaskaru, gdzie uprawia się głównie fasolę waniliową i ryż. Ryż jest podstawowym pożywieniem, obejmującym 1,34 miliona hektarów w całym kraju, z wyjątkiem niektórych półpustynnych obszarów na południu i południowym zachodzie systemy zasilane deszczem i nawadniane. Inne uprawy roślin spożywczych obejmują kukurydzę (uprawianą głównie w regionach południowej i środkowo-wschodniej), maniok, sorgo (na południu), fasolę, orzeszki ziemne, słodkie ziemniaki i szeroką gamę warzyw. Maniok jest ważnym elementem strategii zmniejszania ryzyka drobnego gospodarstwa, ponieważ jest odporny na suszę i odporny na choroby. Maniok, batat i kukurydza są głównym źródłem kalorii w sezonie chudym (od września do stycznia). Orzeszki ziemne są uprawiane na glebach piaszczystych w większości lokalizacji i wnoszą istotny wkład w dietę i dochody gospodarstwa domowego. Głównymi uprawami pieniężnymi są bawełna, wanilia, kawa, liczi, pieprz, tytoń, orzeszki ziemne, trzcina cukrowa, sizal, goździk i ylang-ylang.
+
+Na rolnictwo na Madagaskarze duży wpływ mają opady deszczu na wyspie, które są zwykle obfite na całym wschodnim wybrzeżu, gwałtownie spadają na wyżynach i spadają do mniej niż 500 mm rocznie na południu i południowym zachodzie. Główny sezon wegetacyjny rozpoczyna się od pierwszych opadów w październiku - listopadzie. Kalendarz kadrowania różni się znacznie w zależności od regionu, w zależności od bardzo różnych warunków klimatycznych, gleb i wysokości.
+
+Zwierzęta gospodarskie i leśnictwo to także dwa ważne sektory na Madagaskarze, na wschodnim wybrzeżu kwitną rozległe drzewce hebanu, drzewa różanego i mahoniu.
+Podczas gdy inwentarz żywy jest szeroko rozpowszechniony, około 60 procent rodzin na wsi zależy od niego od swoich dochodów. W produkcji zwierzęcej dominuje ekstensywna hodowla zwierząt, świnie i drób. W głównych miastach rozwija się również nowoczesny przemysł drobiarski.
+
+Wymagana jest najnowsza wersja moda Seasons.]]></pl>
+        <it><![CDATA[Crater Bay è una mod GEO per Seasons che simula l'agricoltura nello stato di Crater Bay, Nosy Be (provincia di Antsiranana) sulla costa settentrionale del Madagascar.
+
+Delimitata dalle foreste pluviali tropicali del Madagascar, questa regione gode di un clima tropicale, con molta luce solare durante la stagione secca, ma anche un clima molto arido e umido durante la stagione delle piogge. L'agricoltura è un importante settore del Madagascar dove coltivano principalmente fagioli e riso alla vaniglia, il riso è l'alimento base, che copre 1,34 milioni di ettari in tutto il paese, ad eccezione di alcune aree semi-aride nel sud e nel sud-ovest, sotto sia sistemi alimentati a pioggia che irrigati. Altre colture alimentari includono mais (coltivato principalmente nelle regioni del sud e del centro-est), manioca, sorgo (nel sud), fagioli, arachidi, patate dolci e un'ampia varietà di verdure. La manioca è un componente importante della strategia di riduzione del rischio per i piccoli proprietari perché è resistente alla siccità e resistente alle malattie. Manioca, patate dolci e mais sono la principale fonte di calorie nella stagione magra (da settembre a gennaio). L'arachide è coltivata su terreni sabbiosi nella maggior parte dei luoghi e fornisce un importante contributo alla dieta e al reddito delle famiglie. Le principali colture in contanti sono cotone, vaniglia, caffè, litchi, pepe, tabacco, arachidi, canna da zucchero, sisal, chiodi di garofano e ylang-ylang.
+
+L'agricoltura in Madagascar è fortemente influenzata dalle precipitazioni dell'isola, che è generalmente abbondante su tutta la costa orientale, diminuisce drasticamente sugli altopiani e scende a meno di 500 mm all'anno nel sud e nel sud-ovest. La stagione di crescita principale inizia con le prime piogge in ottobre - novembre. Il calendario del ritaglio varia notevolmente da regione a regione, a seconda delle condizioni climatiche, dei suoli e dell'altitudine molto diversi.
+
+Il bestiame e la silvicoltura sono anche due settori importanti in Madagascar, con vaste bancarelle di ebano, palissandro e mogano fioriscono sulla costa orientale.
+Mentre il bestiame è molto diffuso, con circa il 60 percento delle famiglie rurali dipende dal reddito. La produzione animale è dominata da un vasto allevamento di bestiame, suini e pollame. Vi è anche una moderna industria avicola in crescita nelle principali città.
+
+È necessaria l'ultima versione della mod Seasons.]]></it>
+        <br><![CDATA[Crater Bay é um mod GEO para o Seasons que simula a agricultura no estado de Crater Bay, Nosy Be (Província de Antsiranana) na costa norte de Madagascar.
+Este GEO é especificado para o The Crater Bay Map, mas funciona com todos os mapas do FS 19.
+
+Limitada pelas florestas tropicais de Madagascar, esta região desfruta de um clima tropical, com muita luz solar durante a estação seca, mas também um clima muito árido e úmido durante a estação chuvosa. A agricultura é um setor importante de Madagascar, onde cultivam principalmente feijão e baunilha; o arroz é o alimento básico, cobrindo 1,34 milhão de hectares em todo o país, com exceção de algumas áreas semi-áridas do sul e do sudoeste, sob sistemas alimentados por chuva e irrigados. Outras culturas alimentares incluem milho (cultivado principalmente nas regiões sul e centro-leste), mandioca, sorgo (no sul), feijão, amendoim, batata doce e uma grande variedade de vegetais. A mandioca é um componente importante da estratégia de redução de risco do pequeno produtor, pois é tolerante à seca e resistente a doenças. Mandioca, batata doce e milho são a principal fonte de calorias na estação de seca (de setembro a janeiro). O amendoim é cultivado em solos arenosos na maioria dos locais e faz uma importante contribuição para a dieta e a renda das famílias. As principais culturas comerciais são algodão, baunilha, café, lichia, pimenta, tabaco, amendoim, cana-de-açúcar, sisal, cravo e ylang-ylang.
+
+A agricultura em Madagascar é fortemente influenciada pelas chuvas da ilha, que geralmente são abundantes em toda a costa leste, diminuem acentuadamente nas terras altas e caem para menos de 500 mm por ano no sul e no sudoeste. A principal estação de crescimento começa com as primeiras chuvas de outubro a novembro. O calendário de cultivo varia muito de região para região, de acordo com as diferentes condições climáticas, solos e altitude.
+
+A pecuária e a silvicultura também são dois setores importantes em Madagascar, com extensos estandes de ébano, pau-rosa e mogno na costa leste.
+Enquanto o gado é generalizado, cerca de 60% das famílias rurais dependem dele para obter renda. A produção animal é dominada pela criação extensiva de gado, porcos e aves. Há também uma crescente indústria avícola moderna nas principais cidades.
+
+A versão mais recente do mod Seasons é necessária.]]></br>
+        <cs><![CDATA[Crater Bay是Seasons的GEO模式，它模拟了马达加斯加北部海岸的Nosy Be（安特西拉纳纳州）的Crater湾州的农业。
+该GEO是为Crater Bay Map指定的，但可用于所有FS 19地图。
+
+该地区与马达加斯加的热带雨林接壤，是热带气候，在干旱季节有很多阳光，但在潮湿季节也非常干旱和潮湿。农业是马达加斯加的重要部门，主要种植香草豆和大米。大米是主食，覆盖全国134万公顷，南部和西南部的一些半干旱地区除外。雨养和灌溉系统。其他粮食作物包括玉米（主要在南部和中东部地区种植），木薯，高粱（在南部），豆类，花生，地瓜和各种蔬菜。木薯是小农降低风险战略的重要组成部分，因为它耐旱且抗病。木薯，地瓜和玉米是在淡季（9月至1月）的主要热量来源。花生在大多数地方都种植在沙质土壤上，对家庭饮食和收入做出了重要贡献。主要经济作物是棉花，香草，咖啡，荔枝，胡椒，烟草，花生，甘蔗，剑麻，丁香和依兰。
+
+马达加斯加的农业受到该岛降雨的严重影响，该岛的降雨在整个东海岸普遍丰富，在高地急剧下降，在南部和西南部每年降至500毫米以下。主要的生长季节始于10月至11月的第一场降雨。根据气候条件，土壤和海拔高度的不同，播种日历因地区而异。
+
+畜牧业和林业也是马达加斯加的两个重要部门，在东海岸，乌木，花梨木和桃花心木林立。
+尽管畜牧业很普遍，但约有60％的农村家庭依靠畜牧业获得收入。畜牧业以广泛的牲畜饲养，猪和家禽为主。在主要城市附近，现代家禽业也在发展。
+
+需要最新版本的Seasons mod。]]></cs>
+        <ct><![CDATA[Crater Bay是Seasons的GEO模式，它模擬了馬達加斯加北部海岸的Nosy Be（安特西拉納納州）的Crater灣州的農業。
+該GEO是為Crater Bay Map指定的，但可用於所有FS 19地圖。
+
+該地區與馬達加斯加的熱帶雨林接壤，是熱帶氣候，在乾旱季節有很多陽光，但在潮濕季節也非常乾旱和潮濕。農業是馬達加斯加的重要部門，主要種植香草豆和大米。大米是主食，覆蓋全國134萬公頃，南部和西南部的一些半乾旱地區除外。雨養和灌溉系統。其他糧食作物包括玉米（主要在南部和中東部地區種植），木薯，高粱（在南部），豆類，花生，地瓜和各種蔬菜。木薯是小農降低風險戰略的重要組成部分，因為它耐旱且抗病。木薯，地瓜和玉米是在淡季（9月至1月）的主要熱量來源。花生在大多數地方都種植在沙質土壤上，對家庭飲食和收入做出了重要貢獻。主要經濟作物是棉花，香草，咖啡，荔枝，胡椒，煙草，花生，甘蔗，劍麻，丁香和依蘭。
+
+馬達加斯加的農業受到該島降雨的嚴重影響，該島的降雨在整個東海岸普遍豐富，在高地急劇下降，在南部和西南部每年降至500毫米以下。主要的生長季節始於10月至11月的第一場降雨。根據氣候條件，土壤和海拔高度的不同，播種日曆因地區而異。
+
+畜牧業和林業也是馬達加斯加的兩個重要部門，東海岸盛產黑檀木，花梨木和桃花心木。
+儘管畜牧業很普遍，但約有60％的農村家庭依靠畜牧業來獲得收入。畜牧業以廣泛的牲畜飼養，豬和家禽為主。在主要城市附近，現代家禽業也在發展。
+
+需要最新版本的Seasons mod。]]></ct>
+        <cz><![CDATA[Crater Bay je GEO mod pro Seasons, který simuluje zemědělství ve státě Crater Bay, Nosy Be (provincie Antsiranana) na severním pobřeží Madagaskaru.
+Tento GEO je určen pro mapu The Crater Bay Map, ale pracuje se všemi mapami FS 19.
+
+Tento region, ohraničený tropickými deštnými pralesy na Madagaskaru, se těší tropickému klimatu se spoustou slunečního záření během suchého období, ale také velmi suchému a vlhkému klimatu během mokrého období. Zemědělství je důležitým odvětvím Madagaskaru, kde obhospodařuje převážně vanilkové lusky a rýži. Rice je základní potravina, která pokrývá 1,34 milionu hektarů v celé zemi, s výjimkou některých polosuchých oblastí na jihu a jihozápadě, pod systémy napájené deštěm i zavlažované. Mezi další potravinářské plodiny patří kukuřice (pěstovaná převážně v jižních a středovýchodních oblastech), kasava, čirok (na jihu), fazole, podzemnice olejná, sladké brambory a široká škála zeleniny. Cassava je důležitou součástí strategie snižování rizik drobného vlastníka, protože je odolná vůči suchu a odolná vůči nemocem. Kasava, sladké brambory a kukuřice jsou hlavním zdrojem kalorií v libové sezóně (od září do ledna). Podzemnice olejná se pěstuje na písčitých půdách ve většině lokalit a významně přispívá k domácí stravě a příjmu. Hlavní peněžní plodiny jsou bavlna, vanilka, káva, litchi, pepř, tabák, podzemnice olejná, cukrová třtina, sisal, hřebíček a ylang-ylang.
+
+Zemědělství na Madagaskaru je silně ovlivněno srážkami ostrova, které jsou obecně bohaté na celém východním pobřeží, prudce klesají na vysočině a na jihu a jihozápadě klesají ročně na méně než 500 mm. Hlavní vegetační období začíná prvními dešti v říjnu - listopadu. Kalendář ořezávání se v jednotlivých regionech velmi liší podle velmi odlišných klimatických podmínek, půd a nadmořské výšky.
+
+Hospodářská zvířata a lesnictví jsou na Madagaskaru také dvěma důležitými sektory, na východním pobřeží vzkvétají rozsáhlé porosty ebenového, růžového a mahagonového dřeva.
+Zatímco hospodářská zvířata jsou široce rozšířená, podle jejich příjmu závisí na tom asi 60 procent venkovských rodin. Živočišné výrobě dominuje extenzivní chov hospodářských zvířat, prasata a drůbež. V hlavních městech roste také moderní drůbežářský průmysl.
+
+Vyžaduje se nejnovější verze režimu Seasons.]]></cz>
+        <nl><![CDATA[Crater Bay is een GEO-mod voor seizoenen die de landbouw simuleert in de staat Crater Bay, Nosy Be (provincie Antsiranana) aan de noordkust van Madagaskar.
+Deze GEO is gespecificeerd voor The Crater Bay Map, maar werkt met alle FS 19-kaarten.
+
+Grenzend aan de tropische regenwouden van Madagaskar, geniet deze regio van een tropisch klimaat, met veel zonlicht tijdens het droge seizoen, maar ook een zeer droog en nat klimaat tijdens het natte seizoen. Landbouw is een belangrijke sector van Madagaskar, waar ze voornamelijk vanillebonen en rijst verbouwen, rijst is het basisvoedsel en beslaat 1,34 miljoen hectare in het hele land, met uitzondering van enkele semi-aride gebieden in het zuiden en het zuidwesten, onder zowel door regen gevoede als geïrrigeerde systemen. Andere voedselgewassen zijn maïs (voornamelijk geteeld in de regio's Zuid en Midden-Oost), cassave, sorghum (in het zuiden), bonen, aardnoten, zoete aardappelen en een grote verscheidenheid aan groenten. Cassave is een belangrijk onderdeel van de risicoverminderingsstrategie van de kleine producent omdat het droogtetolerant is en resistent tegen ziekten. Cassave, zoete aardappel en maïs zijn de belangrijkste bron van calorieën in het magere seizoen (van september tot januari). Aardnoot wordt op de meeste locaties op zandgronden geteeld en levert een belangrijke bijdrage aan het voedingspatroon en het inkomen van huishoudens. De belangrijkste kasgewassen zijn katoen, vanille, koffie, lychee, peper, tabak, aardnoot, suikerriet, sisal, kruidnagel en ylang-ylang.
+
+De landbouw in Madagaskar wordt sterk beïnvloed door de regenval van het eiland, die over het algemeen overvloedig aanwezig is aan de hele oostkust, sterk afneemt op de hooglanden en in het zuiden en zuidwesten daalt tot minder dan 500 mm per jaar. Het belangrijkste groeiseizoen begint met de eerste regens in oktober - november. De bijsnijdkalender varieert sterk van regio tot regio, afhankelijk van de zeer verschillende klimatologische omstandigheden, bodems en hoogte.
+
+Vee en bosbouw zijn ook twee belangrijke sectoren in Madagaskar, met uitgebreide standplaatsen van ebbenhout, rozenhout en mahonie bloeien aan de oostkust.
+Hoewel Vee veel voorkomt, is ongeveer 60 procent van de landelijke gezinnen afhankelijk van hun inkomen. De dierlijke productie wordt gedomineerd door extensieve veehouderij, varkens en pluimvee. Er is ook een groeiende moderne pluimvee-industrie rond de belangrijkste steden.
+
+De nieuwste versie van de Seasons-mod is vereist.]]></nl>
+        <hu><![CDATA[Crater Bay egy GEO mod az évszakokra, amely szimulálja a mezőgazdaságot Crater Bay államában, Nosy Be (Antsiranana tartomány) Madagaszkár északi partján.
+Ezt a GEO-t a The Crater Bay Map meghatározza, de az összes FS 19 Maps programmal együtt működik.
+
+A madagaszkári trópusi esőerdőkkel határolt régió trópusi éghajlatot élvez, sok napfénynek van a száraz évszakban, de nagyon száraz és nedves éghajlattal rendelkezik a nedves évszakban is. A mezőgazdaság Madagaszkár fontos ágazata, ahol elsősorban vaníliababot és rizst termelnek. A rizs az élelmiszer-alapanyag, az ország egész területén 1,34 millió hektáron terjed ki, kivéve néhány délben és délnyugaton félszáraz területet. esővel táplált és öntözött rendszerek. Egyéb élelmiszer-növények között szerepel a kukorica (elsősorban a déli és a közép-keleti régiókban termesztett), a kasszava, a cirok (délen), a bab, a földimogyoró, az édesburgonya és a sokféle zöldség. A kasszava a kistermelők kockázatcsökkentési stratégiájának fontos eleme, mivel az aszálytűrő és ellenálló a betegségekkel szemben. Maniáka, édesburgonya és kukorica a fő kalóriaforrás a sovány szezonban (szeptember-január). A földimogyorót a legtöbb hely homokos talajon termesztik, és ez jelentősen hozzájárul a háztartási étrendhez és jövedelemhez. A fő készpénznövények a gyapot, vanília, kávé, litsi, bors, dohány, földimogyoró, cukornád, szizál, szegfűszeg és az ilang-ilang.
+
+Madagaszkár mezőgazdaságát nagymértékben befolyásolja a sziget csapadékmennyisége, amely általában az egész keleti parton bőséges, a hegyvidéken hirtelen csökken, és délen és délnyugaton évente kevesebb mint 500 mm-re esik. A fő növekedési időszak az első esőkkel kezdődik októberben - novemberben. A növénytermesztési naptár régiónként nagyban változik, a nagyon eltérő éghajlati viszonyok, a talaj és a magasság függvényében.
+
+Az állattenyésztés és az erdőgazdálkodás szintén két fontos ágazat Madagaszkáron, kiterjedt ébenfa, rózsafa és mahagóni állványok virágzik a keleti parton.
+Míg az állattenyésztés széles körben elterjedt, a vidéki családok körülbelül 60 százaléka függ attól, hogy jövedelmet biztosítsanak. Az állattenyésztést az extenzív állattenyésztés, sertések és baromfi uralja. A fő városok környékén egyre növekszik a modern baromfiipar.
+
+A Seasons mod legújabb verziója szükséges.]]></hu>
+        <jp><![CDATA[クレーターベイは、マダガスカルの北海岸にあるノシベ（アンツィラナナ州）のクレーターベイ州の農業をシミュレートする、季節のGEO modです。
+このGEOはクレーターベイマップに指定されていますが、すべてのFS 19マップで機能します。
+
+マダガスカルの熱帯雨林に囲まれたこの地域は、乾季は日光が多い熱帯気候ですが、雨季は非常に乾燥した湿潤な気候です。農業はマダガスカルの重要な部門であり、主にバニラビーンズとライスを栽培しています。ライスは主食であり、南部および南西部の一部の半乾燥地域を除き、全国の134万ヘクタールをカバーしています。天水システムと灌漑システムの両方。他の食用作物には、トウモロコシ（主に南および中東地域で栽培）、キャッサバ、モロコシ（南）、豆、落花生、サツマイモおよび多種多様な野菜が含まれます。キャッサバは干ばつに強く、病気に強いため、小自作農のリスク低減戦略の重要な要素です。キャッサバ、サツマイモ、トウモロコシは、赤身の季節（9月から1月）の主なカロリー源です。落花生はほとんどの場所の砂質土壌で栽培され、家庭の食事と収入に重要な貢献をしています。主な換金作物は、綿、バニラ、コーヒー、ライチ、コショウ、タバコ、落花生、サトウキビ、サイザル、クローブ、イランイランです。
+
+マダガスカルの農業は、島の降雨の影響を強く受けます。降雨は一般に東海岸全体に多く、高地では急激に減少し、南および南西では年間500 mm未満に減少します。主な成長期は、10月から11月にかけての最初の雨から始まります。作物のカレンダーは、気候条件、土壌、標高が大きく異なるため、地域によって大きく異なります。
+
+家畜と林業もマダガスカルの2つの重要な部門であり、東海岸では黒檀、ローズウッド、マホガニーの大規模な林が見られます。
+家畜は広範ですが、農村部の家族の約60％が収入に依存しています。動物の生産は、大規模な家畜飼育、豚および家禽に支配されています。また、主要都市の周辺には、近代的な家禽産業が成長しています。
+
+Seasons modの最新バージョンが必要です。]]></jp>
+        <kr><![CDATA[크레이터 베이는 마다가스카르의 북부 해안에있는 코시 베이 (안 시라 나나 주)의 크레이터 베이 주에서 농업을 시뮬레이션하는 시즌 용 GEO 모드입니다.
+이 GEO는 크레이터 베이 맵에 지정되었지만 모든 FS 19 맵에서 작동합니다.
+
+마다가스카르의 열대 우림에 접해있는이 지역은 건기에는 햇빛이 많이 내리고 우기에는 매우 건조하고 습한 기후입니다. 농업은 마다가스카르의 중요한 부문으로 바닐라 콩과 쌀을 주로 재배하며 쌀은 남과 서남부의 일부 반 건조 지역을 제외하고 전국적으로 134 만 헥타르에 달하는 주식입니다. 비 공급 시스템과 관개 시스템. 다른 식량 작물로는 옥수수 (주로 남동부 및 중부 지역에서 재배), 카사바, 수수 (남부), 콩, 땅콩, 고구마 및 다양한 야채가 있습니다. 카사바는 가뭄에 강하고 질병에 저항력이 있기 때문에 소규모 보유자의 위험 감소 전략의 중요한 구성 요소입니다. 카사바, 고구마 및 옥수수는 마른 계절 (9 월에서 1 월까지)의 주요 칼로리 공급원입니다. 땅콩은 대부분의 지역에서 모래 토양에서 재배되며 가정 식단 및 수입에 중요한 기여를합니다. 주요 현금 작물은 면화, 바닐라, 커피, 열매, 후추, 담배, 땅콩, 사탕 수수, 사이 잘삼, 정향 및 일랑 일랑입니다.
+
+마다가스카르의 농업은이 섬의 강우에 의해 크게 영향을받습니다.이 강우는 일반적으로 동해안 전체에 풍부하며 고지대에서 급격히 감소하며 남서부에서는 매년 500mm 미만으로 떨어집니다. 주요 성장 계절은 10 월 – 11 월의 첫 비로 시작합니다. 자르기 일정은 매우 다른 기후 조건, 토양 및 고도에 따라 지역마다 크게 다릅니다.
+
+가축과 임업은 마다가스카르의 두 가지 중요한 부문으로, 동부 해안에서 광범위한 흑단, 자단, 마호가니 스탠드가 있습니다.
+가축이 널리 퍼져있는 반면, 농촌 가족의 약 60 %가 소득에 따라 다릅니다. 가축 생산은 광범위한 가축 사육, 돼지 및 가금류에 의해 좌우됩니다. 주요 도시 주변에는 현대 가금류 산업도 성장하고 있습니다.
+
+최신 버전의 시즌 모드가 필요합니다.]]></kr>
+        <pt><![CDATA[Crater Bay é um mod GEO para o Seasons que simula a agricultura no estado de Crater Bay, Nosy Be (Província de Antsiranana) na costa norte de Madagascar.
+Este GEO é especificado para o The Crater Bay Map, mas funciona com todos os mapas do FS 19.
+
+Limitada pelas florestas tropicais de Madagascar, esta região desfruta de um clima tropical, com muita luz solar durante a estação seca, mas também um clima muito árido e úmido durante a estação chuvosa. A agricultura é um setor importante de Madagascar, onde cultivam principalmente feijão e baunilha; o arroz é o alimento básico, cobrindo 1,34 milhão de hectares em todo o país, com exceção de algumas áreas semi-áridas do sul e do sudoeste, sob sistemas alimentados por chuva e irrigados. Outras culturas alimentares incluem milho (cultivado principalmente nas regiões sul e centro-leste), mandioca, sorgo (no sul), feijão, amendoim, batata doce e uma grande variedade de vegetais. A mandioca é um componente importante da estratégia de redução de risco do pequeno produtor, pois é tolerante à seca e resistente a doenças. Mandioca, batata doce e milho são a principal fonte de calorias na estação de seca (de setembro a janeiro). O amendoim é cultivado em solos arenosos na maioria dos locais e faz uma importante contribuição para a dieta e a renda das famílias. As principais culturas comerciais são algodão, baunilha, café, lichia, pimenta, tabaco, amendoim, cana-de-açúcar, sisal, cravo e ylang-ylang.
+
+A agricultura em Madagascar é fortemente influenciada pelas chuvas da ilha, que geralmente são abundantes em toda a costa leste, diminuem acentuadamente nas terras altas e caem para menos de 500 mm por ano no sul e no sudoeste. A principal estação de crescimento começa com as primeiras chuvas de outubro a novembro. O calendário de cultivo varia muito de região para região, de acordo com as diferentes condições climáticas, solos e altitude.
+
+A pecuária e a silvicultura também são dois setores importantes em Madagascar, com extensos estandes de ébano, pau-rosa e mogno na costa leste.
+Enquanto o gado é generalizado, cerca de 60% das famílias rurais dependem dele para obter renda. A produção animal é dominada pela criação extensiva de gado, porcos e aves. Há também uma crescente indústria avícola moderna nas principais cidades.
+
+A versão mais recente do mod Seasons é necessária.]]></pt>
+        <ro><![CDATA[Crater Bay este un mod GEO pentru Seasons care simulează agricultura în statul Crater Bay, Nosy Be (provincia Antsiranana) de pe coasta de nord a Madagascarului.
+Această OUG este specificată pentru The Crater Bay Map, dar funcționează cu toate hărțile FS 19.
+
+Învecinată cu pădurile tropicale din Madagascar, această regiune se bucură de un climat tropical, cu multă lumină solară în sezonul uscat, dar și de un climat foarte arid și umed în timpul sezonului umed. Agricultura este un sector important al Madagascarului unde cultivă în mare parte boabele de vanilie și orez, orezul este hrana de bază, care acoperă 1,34 milioane de hectare în toată țara, cu excepția unor zone semi-aride din sud și din sud-vest, în atât sisteme alimentate cu ploaie, cât și irigate. Alte culturi alimentare includ porumbul (cultivat în principal în regiunile Sud și Central-Est), manioca, sorgul (în sud), fasolea, nucul, cartofii dulci și o mare varietate de legume. Manuca este o componentă importantă a strategiei de reducere a riscurilor de către micul proprietar, deoarece este tolerantă la secetă și rezistentă la boli. Manuca, cartoful dulce și porumbul sunt principala sursă de calorii în sezonul slab (din septembrie până în ianuarie). Alunul este cultivat pe soluri nisipoase în majoritatea locurilor și contribuie important la alimentația și venitul gospodăriei. Principalele culturi de numerar sunt bumbacul, vanilia, cafeaua, litchi, piper, tutun, nucă, trestie de zahăr, sisal, cuisoare și ylang-ylang.
+
+Agricultura din Madagascar este puternic influențată de precipitațiile insulei, care sunt în general abundente pe întreaga coastă de est, scade brusc pe zonele de munte și scade la mai puțin de 500 mm pe an în sud și sud-vest. Principalul sezon de creștere începe cu primele ploi din octombrie - noiembrie. Calendarul de cultură variază foarte mult de la o regiune la alta, în funcție de condițiile climatice, solurile și altitudinea foarte diferite.
+
+Animalele și silvicultura sunt, de asemenea, două sectoare importante în Madagascar, cu stânduri extinse de abanos, lemn de trandafir și mahon înfloresc pe coasta de est.
+În timp ce zootehnia este răspândită, aproximativ 60 la sută din familiile rurale depind de aceasta pentru venitul lor. Producția animală este dominată de creșterea extensivă a animalelor, porci și păsări de curte. Există, de asemenea, o industrie modernă de pasăre în creștere în jurul principalelor orașe.
+
+Este necesară cea mai recentă versiune a modului Seasons.]]></ro>
+        <tr><![CDATA[Krater Koyu, Madagaskar'ın Kuzey Kıyısı'ndaki Nosy Be (Antsiranana Eyaleti) eyaletindeki Krater Koyu'ndaki tarımı simüle eden Mevsim için bir GEO modudur.
+Bu GEO, Krater Körfezi Haritası için belirtilmiştir, ancak tüm FS 19 Haritaları ile çalışır.
+
+Madagaskar'ın tropikal yağmur ormanları ile sınırlanan bu bölge, kurak mevsimde çok fazla güneş ışığına sahip olan Tropikal bir iklime sahiptir, ancak yağışlı mevsimde çok kurak ve yağışlı bir iklime sahiptir. Tarım, çoğunlukla Vanilya fasulyesi ve pirinç tarımı yapan Madagaskar'ın önemli bir sektörüdür. Hem yağmurla beslenen hem de sulu sistemler. Diğer gıda ürünleri arasında mısır (çoğunlukla Güney ve Orta Doğu bölgelerinde yetişen), manyok, sorgum (güneyde), fasulye, yer fıstığı, tatlı patates ve çok çeşitli sebzeler bulunur. Manyok, risk alma stratejisinin önemli bir bileşenidir çünkü kuraklığa dayanıklı ve hastalıklara karşı dayanıklıdır. Manyok, tatlı patates ve mısır, yağsız mevsimdeki ana kalori kaynağıdır (eylül ayından ocak ayına kadar). Yer fıstığı çoğu yerde kumlu topraklarda yetişir ve hane halkı diyetine ve gelirine önemli katkı sağlar. Başlıca nakit ürünler pamuk, vanilya, kahve, Çin, karabiber, tütün, yer fıstığı, şeker kamışı, sisal, karanfil ve ylang-ylang'tır.
+
+Madagaskar'daki tarım, genellikle tüm Doğu kıyılarında bol olan adanın yağışlarından büyük ölçüde etkilenir, yaylalarda keskin bir şekilde azalır ve Güney ve Güney-Batı'da yılda 500 mm'nin altına düşer. Ana büyüme mevsimi, ekim-kasım aylarında ilk yağışlarla başlar. Kırpma takvimi çok farklı iklim koşullarına, topraklara ve yüksekliğe göre bölgeden bölgeye büyük ölçüde değişir.
+
+Hayvancılık ve ormancılık da Madagaskar'da iki önemli sektördür; Doğu kıyılarında geniş abanoz, gül ağacı ve maun ayaklıkları vardır.
+Hayvancılık yaygın olmakla birlikte, kırsal ailelerin yaklaşık yüzde 60'ı gelirlerine bağlı olarak değişmektedir. Hayvansal üretim, hayvancılık, domuz ve kümes hayvanı yetiştiriciliğine hakimdir. Ayrıca ana şehirlerin etrafında büyüyen modern bir kümes hayvanları endüstrisi var.
+
+Seasons modunun en son sürümü gereklidir.]]></tr>
+    </description>
+    <iconFilename>icon.dds</iconFilename>
+    <credits><![CDATA[
+## Translations
+- Castiga]]></credits>
+    <multiplayer supported="true" requiredModName="FS19_RM_Seasons"/>
+    <seasons version="11">
+        <type>geo</type>
+        <dataFolder>data/</dataFolder>
+    </seasons>
+</modDesc>

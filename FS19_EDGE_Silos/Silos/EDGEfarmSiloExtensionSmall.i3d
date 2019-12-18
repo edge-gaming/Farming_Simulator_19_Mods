@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Silo Extension" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/maps/textures/european/props/floodlightFixture_diffuse.dds"/>
+    <File fileId="5" filename="$data/maps/textures/european/props/floodlightFixture_normal.dds"/>
+    <File fileId="6" filename="$data/maps/textures/european/props/floodlightFixture_specular.dds"/>
+    <File fileId="11" filename="$data/maps/textures/european/props/lightPoleSet_emissive.dds"/>
+    <File fileId="10" filename="$data/shaders/dashboardLightsShader.xml"/>
+    <File fileId="8" filename="$data/shared/default_normal.dds"/>
+    <File fileId="7" filename="$data/shared/window02_diffuse.dds"/>
+    <File fileId="9" filename="$data/shared/window02_specular.dds"/>
+    <File fileId="15" filename="$data/store/ui/textures/steelGlossy_diffuse.dds"/>
+    <File fileId="16" filename="$data/store/ui/textures/steelGlossy_normal.dds"/>
+    <File fileId="17" filename="$data/store/ui/textures/steelGlossy_specular.dds"/>
+    <File fileId="12" filename="textures/EDGE_Logo.dds"/>
+    <File fileId="13" filename="textures/EDGE_Logo_normal.dds"/>
+    <File fileId="14" filename="textures/EDGE_Logo_specular.dds"/>
+    <File fileId="1" filename="textures/farmSilos_diffuse.dds"/>
+    <File fileId="2" filename="textures/farmSilos_normal.dds"/>
+    <File fileId="3" filename="textures/farmSilos_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="EDGEfarmSiloExtensionSmall" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="floodlightFixture_mat" materialId="5">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+      <Glossmap fileId="6"/>
+    </Material>
+    <Material name="Metal" materialId="4">
+      <Texture fileId="15"/>
+      <Normalmap fileId="16"/>
+      <Glossmap fileId="17"/>
+    </Material>
+    <Material name="EDGEfarmSiloExtensionSmall_mat" materialId="7">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="floodLightGlass_mat" materialId="8" alphaBlending="true" customShaderId="10">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
+      <Glossmap fileId="9"/>
+      <Custommap name="mEmissiveMap" fileId="11"/>
+      <CustomParameter name="lightControl" value="1 1 1 1"/>
+    </Material>
+    <Material name="Decals_mat" materialId="9">
+      <Texture fileId="12"/>
+      <Normalmap fileId="13" bumpDepth="2"/>
+      <Glossmap fileId="14"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="EDGEfarmSiloExtensionSmall.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="EDGEfarmSiloExtensionSmall" nodeId="18">
+      <TransformGroup name="gameplay" nodeId="19">
+        <TransformGroup name="storageFarm" nodeId="20"/>
+      </TransformGroup>
+      <Shape shapeId="1" name="farmSiloExtensionSmall_vis" translation="0 -0.1 0" static="true" clipDistance="300" nodeId="21" materialIds="7" castsShadows="true" receiveShadows="true">
+        <TransformGroup name="Lights" nodeId="22">
+          <Shape shapeId="2" name="floodLightBlue-400" translation="0 14.9 2.95" rotation="90 -0 -90" clipDistance="300" nodeId="23" materialIds="5" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="3" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.000670971" rotation="1.04831e-11 -1.38418e-11 5" clipDistance="80" nodeId="24" materialIds="5" castsShadows="true" receiveShadows="true">
+              <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="25">
+                <Shape shapeId="4" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="26" materialIds="8" castsShadows="true" receiveShadows="true"/>
+                <Light name="spotLight" translation="0.06 0.00588252 0" rotation="3.18055e-15 -90 0" clipDistance="400" nodeId="27" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="40" coneAngle="35" dropOff="4"/>
+              </TransformGroup>
+            </Shape>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="decals" nodeId="28">
+          <Shape shapeId="5" name="Sign" translation="2.05391e-17 4.83 -2.36269" rotation="-180 0 -180" clipDistance="300" nodeId="29" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="Sign" translation="0 4.83 2.36" clipDistance="300" nodeId="30" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <Shape shapeId="6" name="Foundation" translation="0 0.942998 0" scale="0.97 2 0.97" static="true" nodeId="31" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <TransformGroup name="areaDefinitions" nodeId="32">
+        <TransformGroup name="start" translation="-2.5 0 -2.5" nodeId="33">
+          <TransformGroup name="width" translation="5.5 0 0" nodeId="34"/>
+          <TransformGroup name="height" translation="0 0 5.5" nodeId="35"/>
+        </TransformGroup>
+        <TransformGroup name="snowAreas" nodeId="36">
+          <TransformGroup name="Start01" translation="-2 0 -2" nodeId="37">
+            <TransformGroup name="Width" translation="4 0 0" nodeId="38"/>
+            <TransformGroup name="Height" translation="0 0 4" nodeId="39"/>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="7" name="tipCol" translation="-0.18528 0.0317652 -0.855288" scale="0.7 1 0.6" static="true" collisionMask="524288" nodeId="40" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="18">
+      <Attribute name="mapPositionIndex" type="string" value="0|3"/>
+    </UserAttribute>
+    <UserAttribute nodeId="25">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

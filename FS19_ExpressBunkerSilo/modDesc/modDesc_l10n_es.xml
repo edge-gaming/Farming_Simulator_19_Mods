@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+<author>Edge Gaming / Castiga</author>
+<translationby>Castiga</translationby>
+	<texts>
+		<text name="function_EDGEFertilizerStorage" text="Almacenamiento de fertilizante líquido para su granja, aquí puede almacenar su Lodo, Digestato, Herbicida y Fertilizante líquido regular.">
+		<text name="typeDesc_EDGEFertilizerStorage" text="Almacenamiento de fertilizante líquido">
+		<text name="name_EDGEFertilizerStorage" text="Fertilizante líquido EDGE">
+		<text name="name_EDGE" text="EDGE Depósito de Fertilizante Líquido">
+		<text name="fullname_EDGEFertilizerStorage" text="Almacenamiento de fertilizante líquido EDGE">
+		<text name="action_fillStorage" text="Empezar a sobrecargar">
+		<text name="action_stopFillStorage" text="Dejar de sobrecargar">
+		<text name="EDGE Liquid Fertilizer" text="EDGE Depósito de Fertilizante Líquido"/>
+		<text name="EDGE Liquid Fertilizer Storage" text="Almacenamiento de fertilizante líquido EDGE"/>
+	</texts>
+</l10n>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<environment>
+    <annotation>EDGE Gaming AS 2020</annotation>
+    
+    <latitude>13.39</latitude><!--Crater Bay - Nosy Be (Antsiranana Province), Madagascar-->
+
+    <daylight dst="yes" />
+</environment>

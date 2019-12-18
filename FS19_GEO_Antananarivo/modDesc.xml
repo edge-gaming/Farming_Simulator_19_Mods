@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="47">
+    <author>EDGE Gaming / Castiga</author>
+    <version>1.0.0.0</version>
+    <title><!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
+        <en>Seasons GEO: Central Highlands Of Madagascar</en>
+        <de>Seasons GEO: Zentrales Hochland Von Madagaskar</de>
+        <fr>Seasons GEO: Les Hauts Plateaux Du Centre De Madagascar</fr>
+        <es>Seasons GEO: Tierras Altas Centrales De Madagascar</es>
+        <ru>Времена Года GEO: Центральное Hагорье Мадагаскара</ru>
+        <pl>Seasons GEO: Centralne Wyżyny Madagaskaru</pl>
+        <it>Seasons GEO: Altopiani Centrali Del Madagascar</it>
+        <br>Estações GEO: Planalto Central De Madagascar</br>
+        <cs>季节GEO：马达加斯加的中央高地</cs>
+        <ct>GEO季節：馬達加斯加的中央高地</ct>
+        <cz>Seasons GEO: Centrální Vysočina Madagaskaru</cz>
+        <nl>Seizoenen GEO: Centrale Hooglanden Van Madagascar</nl>
+        <hu>GEO Évszakok: Madagaszkár Közép-hegyvidéke</hu>
+        <jp>シーズンズGEO：マダガスカルの中央高地</jp>
+        <kr>시즌 GEO : 마다가스카르의 중앙 고원</kr>
+        <pt>Estações GEO: Planalto Central De Madagascar</pt>
+        <ro>Sezoane GEO: Highlands Centrale Din Madagascar</ro>
+        <tr>Mevsim GEO: Madagaskar'ın Merkez Yaylası</tr>
+    </title>
+    <description>
+        <en><![CDATA[Central Highlands of Madagascar is a GEO mod for Seasons that simulates agriculture in the state of The capital of Madagascar, Antananarivo (formerly Tananarive) in Central Highlands of Madagascar (Region of Analamanga).
+This GEO is specified for The Central Highlands of Madagascar.
+
+- The capital, Antananarivo, is located at 1,300 meters (4,300 feet) above sea level, and has a pleasant climate, in fact, the average ranges from 21 °C (70 °F) in the summer months to 15 °C (59 °F) in July and August. Winter is therefore pretty cool. Here, the best months are April, September and October.
+- In Antananarivo, 1,400 mm (55 in) of rain fall per year, most of which occurring from November to March.
+- In Antananarivo, the amount of sunshine is moderate; however, it reaches a maximum from September to November.
+- the climate in the interior of the country is tempered by altitude, at least at intermediate elevations, while above 2,000 meters (6,500 feet), the temperature during winter can drop below freezing (0 °C or 32 °F), especially in the south.
+- In the dry season, a wind that is able to raise dust from the parched ground can sometimes blow on the plateau. On the other hand, in the rainy season, the rains can make it difficult to get around on unpaved roads.
+
+Agriculture is an important sector of Madagascar where they farm mostly Vanilla beans & Rice, Food crop production is the most important agriculture sub-sector accounting for around 75 percent of the cultivated area (2009). Rice is the staple food, covering 1.34 million hectares throughout the country, with the exception of some semi-arid areas in the South and in the South-West, under both rain-fed and irrigated systems. Other food crops include maize (mainly grown in the South and Central-East regions), cassava, sorghum (in the South), beans, groundnut, sweet potatoes and a wide variety of vegetables. Cassava is an important component of the smallholder’s risk reduction strategy because it is drought tolerant and resistant to disease. Cassava, sweet potato and maize are the main source of calories in the lean season (from September to January). Groundnut is cultivated on sandy soils in most locations and makes an important contribution to household diet and income. The main cash crops are cotton, vanilla, coffee, litchi, pepper, tobacco, groundnut, sugar cane, sisal, clove and ylang-ylang.
+
+Agriculture in Madagascar is heavily influenced by the island's rainfall, which is generally abundant on the whole East coast, decreases sharply on the highlands, and falls to less than 500 mm per year in the South and South-West. The main growing season starts with the first rains in October – November. The cropping calendar greatly varies from region to region, according to the very different climatic conditions, soils and altitude.
+
+Livestock and forestry are also two important sectors in Madagascar, with extensive stands of ebony, rosewood and mahogany flourish on the East coast.
+While Livestock is widespread, with about 60 percent of rural families depending on it for their income. Animal production is dominated by extensive livestock rearing, pigs and poultry. There is also a growing modern poultry industry around the main cities.
+
+- Further south, in Fianarantsoa, at 1,200 meters (3,900 feet), the climate is similar to that of Antananarivo.
+- In the interior, there are also mountains. The highest mountain is Maromokotro, 2,876 meters (9,436 feet), located in the north of the island, in the Tsaratanana Massif. On the other hand, in the south, to the south of Fianarantsoa, in the Andringitra National Park, the highest mountains reach around 2,500 meters (8,200 feet).
+
+The latest version of the Seasons mod is required.]]></en>
+        <de><![CDATA[Central Highlands of Madagascar ist eine GEO-Modifikation für Jahreszeiten, die die Landwirtschaft im Bundesstaat Antananarivo (ehemals Tananarive), der Hauptstadt von Madagaskar, im Central Highlands of Madagascar simuliert.
+Dieser GEO ist für das zentrale Hochland von Madagaskar spezifiziert.
+
+- Die Hauptstadt Antananarivo liegt auf 1.300 Metern über dem Meeresspiegel und hat ein angenehmes Klima. Der Durchschnitt liegt zwischen 21 ° C (70 ° F) in den Sommermonaten und 15 ° C (59 ° F) ° F) im Juli und August. Der Winter ist also ziemlich cool. Hier sind die besten Monate April, September und Oktober.
+- In Antananarivo fallen jährlich 1.400 mm Niederschlag, die meisten von November bis März.
+- In Antananarivo ist die Sonnenscheindauer mäßig. es erreicht jedoch ein Maximum von September bis November.
+- Das Klima im Landesinneren ist zumindest in mittleren Höhenlagen durch die Höhe gemildert, während die Temperatur im Winter über 2.000 m (6.500 Fuß) unter den Gefrierpunkt (0 ° C oder 32 ° F) fallen kann, insbesondere in der Süd.
+- In der Trockenzeit kann es vorkommen, dass ein Wind, der Staub vom trockenen Boden aufwirbelt, auf das Plateau bläst. Andererseits kann es in der Regenzeit aufgrund der Regenfälle schwierig sein, sich auf unbefestigten Straßen fortzubewegen.
+
+Die Landwirtschaft ist ein wichtiger Sektor Madagaskars, in dem hauptsächlich Vanilleschoten und Reis angebaut werden. Die Nahrungsmittelproduktion ist der wichtigste Teilsektor der Landwirtschaft und macht rund 75 Prozent der Anbaufläche aus (2009). Reis ist das Grundnahrungsmittel und bedeckt 1,34 Millionen Hektar im ganzen Land, mit Ausnahme einiger halbtrockener Gebiete im Süden und im Südwesten, sowohl mit Regen als auch mit Bewässerung. Weitere Nahrungspflanzen sind Mais (hauptsächlich in den Regionen Süd- und Zentralostasien angebaut), Maniok, Sorghum (im Süden), Bohnen, Erdnüsse, Süßkartoffeln und eine Vielzahl von Gemüsen. Maniok ist ein wichtiger Bestandteil der Risikominderungsstrategie des Kleinbauern, da er trockenheitstolerant und krankheitsresistent ist. Maniok, Süßkartoffel und Mais sind die Hauptkalorienquelle in der mageren Jahreszeit (von September bis Januar). Erdnuss wird an den meisten Standorten auf sandigen Böden angebaut und leistet einen wichtigen Beitrag zur Ernährung und zum Haushaltseinkommen. Die wichtigsten Erntegüter sind Baumwolle, Vanille, Kaffee, Litschi, Pfeffer, Tabak, Erdnuss, Zuckerrohr, Sisal, Nelke und Ylang-Ylang.
+
+Die Landwirtschaft in Madagaskar wird stark von den Niederschlägen der Insel beeinflusst, die in der Regel an der gesamten Ostküste reichlich sind, im Hochland stark abnehmen und im Süden und Südwesten auf weniger als 500 mm pro Jahr sinken. Die Hauptwachstumszeit beginnt mit den ersten Regenfällen von Oktober bis November. Der Erntekalender variiert stark von Region zu Region, je nach den sehr unterschiedlichen klimatischen Bedingungen, Böden und Höhenlagen.
+
+Viehzucht und Forstwirtschaft sind auch zwei wichtige Sektoren in Madagaskar. An der Ostküste gedeihen umfangreiche Bestände aus Ebenholz, Rosenholz und Mahagoni.
+Während Viehzucht weit verbreitet ist, sind etwa 60 Prozent der ländlichen Familien auf dieses Vieh angewiesen, um ihr Einkommen zu sichern. Die Tierproduktion wird von extensiver Viehzucht, Schweinen und Geflügel dominiert. Es gibt auch eine wachsende moderne Geflügelindustrie in den Hauptstädten.
+
+- Weiter südlich, in Fianarantsoa, ​​in 1.200 Metern Höhe, herrscht ein ähnliches Klima wie in Antananarivo.
+- Im Inneren gibt es auch Berge. Der höchste Berg ist Maromokotro (2876 m) im Norden der Insel im Tsaratanana-Massiv. Im Süden, südlich von Fianarantsoa im Andringitra-Nationalpark, erreichen die höchsten Berge rund 2.500 Meter.
+
+Es wird die neuste Version vom Seasons mod benötigt.]]></de>
+        <fr><![CDATA[Les hauts plateaux du centre de Madagascar sont un mod GEO pour Seasons qui simule l'agriculture dans l'état de la capitale de Madagascar, Antananarivo (anciennement Tananarive) dans les hauts plateaux du centre de Madagascar.
+Ce GEO est spécifié pour les hauts plateaux du centre de Madagascar.
+
+- La capitale, Antananarivo, est située à 1 300 mètres d'altitude et jouit d'un climat agréable. En effet, la moyenne varie entre 21 ° C (70 ° F) en été et 15 ° C (59 ° F) en juillet et août. L'hiver est donc plutôt cool. Ici, les meilleurs mois sont avril, septembre et octobre.
+- À Antananarivo, il tombe 1 400 mm de pluie par an, dont la plupart ont lieu de novembre à mars.
+- À Antananarivo, l'ensoleillement est modéré; cependant, il atteint un maximum de septembre à novembre.
+- le climat à l'intérieur du pays est tempéré par l'altitude, du moins à des altitudes intermédiaires, tandis qu'au-dessus de 2 000 mètres (6 500 pieds), la température en hiver peut descendre en dessous de zéro (0 ° C ou 32 ° F), en particulier dans les Sud.
+- En saison sèche, un vent capable de soulever la poussière du sol desséché peut parfois souffler sur le plateau. Par contre, pendant la saison des pluies, les pluies peuvent rendre difficile les déplacements sur des routes non pavées.
+
+L'agriculture est un secteur important de Madagascar où l'on cultive principalement de la vanille et du riz. La production de cultures vivrières est le sous-secteur agricole le plus important, représentant environ 75 pour cent de la superficie cultivée (2009). Le riz est l'aliment de base, couvrant 1,34 million d'hectares dans tout le pays, à l'exception de certaines zones semi-arides du sud et du sud-ouest, sous systèmes pluviaux et irrigués. Le maïs (principalement cultivé dans les régions du sud et du centre-est), le manioc, le sorgho (au sud), les haricots, les arachides, les patates douces et une grande variété de légumes figurent parmi les autres cultures vivrières. Le manioc est un élément important de la stratégie de réduction des risques des petits exploitants, car il résiste à la sécheresse et aux maladies. Le manioc, la patate douce et le maïs sont la principale source de calories en période de soudure (de septembre à janvier). L'arachide est cultivée sur des sols sableux dans la plupart des endroits et contribue de manière importante au régime alimentaire et au revenu du ménage. Les principales cultures de rapport sont le coton, la vanille, le café, le litchi, le poivre, le tabac, l'arachide, la canne à sucre, le sisal, le clou de girofle et l'ylang-ylang.
+
+L'agriculture à Madagascar est fortement influencée par les précipitations de l'île, qui sont généralement abondantes sur toute la côte est, diminuent fortement sur les hautes terres et tombent à moins de 500 mm par an au sud et au sud-ouest. La saison de croissance principale commence avec les premières pluies d'octobre à novembre. Le calendrier des cultures varie énormément d’une région à l’autre, en fonction des conditions climatiques, des sols et de l’altitude très différents.
+
+L'élevage et la foresterie sont également deux secteurs importants à Madagascar, avec de vastes peuplements d'ébène, de bois de rose et d'acajou florissant sur la côte est.
+Bien que le bétail soit répandu, environ 60% des familles rurales dépendent de son revenu. La production animale est dominée par l'élevage extensif, les porcs et la volaille. Il existe également une industrie avicole moderne en pleine croissance dans les principales villes.
+
+- Plus au sud, à Fianarantsoa, ​​à 1 200 mètres d'altitude, le climat est similaire à celui d'Antananarivo.
+- À l'intérieur, il y a aussi des montagnes. La plus haute montagne est Maromokotro, 2876 mètres, située dans le nord de l'île, dans le massif de Tsaratanana. D'autre part, au sud, au sud de Fianarantsoa, ​​dans le parc national d'Andringitra, les plus hautes montagnes atteignent environ 2 500 mètres.
+
+La dernière version du mod Seasons est nécessaire.]]></fr>
+        <es><![CDATA[Central Highlands of Madagascar es un mod GEO para Seasons que simula la agricultura en el estado de La capital de Madagascar, Antananarivo (anteriormente Tananarive) en Central Highlands de Madagascar.
+Este GEO se especifica para las tierras altas centrales de Madagascar.
+
+- La capital, Antananarivo, se encuentra a 1.300 metros (4.300 pies) sobre el nivel del mar, y tiene un clima agradable, de hecho, el promedio varía de 21 ° C (70 ° F) en los meses de verano a 15 ° C (59 ° F) en julio y agosto. Por lo tanto, el invierno es bastante fresco. Aquí, los mejores meses son abril, septiembre y octubre.
+- En Antananarivo, caen 1.400 mm (55 pulgadas) de lluvia por año, la mayoría de las cuales ocurren de noviembre a marzo.
+- En Antananarivo, la cantidad de luz solar es moderada; sin embargo, alcanza un máximo de septiembre a noviembre.
+- el clima en el interior del país está templado por la altitud, al menos en elevaciones intermedias, mientras que por encima de los 2.000 metros (6.500 pies), la temperatura durante el invierno puede caer por debajo de cero (0 ° C o 32 ° F), especialmente en el sur.
+- En la estación seca, un viento que puede levantar el polvo del suelo seco a veces puede soplar en la meseta. Por otro lado, en la temporada de lluvias, las lluvias pueden dificultar el desplazamiento por caminos sin pavimentar.
+
+La agricultura es un sector importante de Madagascar donde cultivan principalmente frijoles de vainilla y arroz. La producción de cultivos alimentarios es el subsector agrícola más importante y representa alrededor del 75 por ciento de la superficie cultivada (2009). El arroz es el alimento básico, que abarca 1.34 millones de hectáreas en todo el país, con la excepción de algunas áreas semiáridas en el sur y en el suroeste, tanto en sistemas de riego como de secano. Otros cultivos alimentarios incluyen maíz (principalmente en las regiones del sur y centro-este), yuca, sorgo (en el sur), frijoles, cacahuetes, batatas y una amplia variedad de verduras. La yuca es un componente importante de la estrategia de reducción de riesgos de los pequeños productores porque es tolerante a la sequía y resistente a las enfermedades. La yuca, la batata y el maíz son la principal fuente de calorías en la temporada de carestía (de septiembre a enero). El maní se cultiva en suelos arenosos en la mayoría de los lugares y hace una contribución importante a la dieta y los ingresos del hogar. Los principales cultivos comerciales son algodón, vainilla, café, lichi, pimienta, tabaco, maní, caña de azúcar, sisal, clavo y ylang-ylang.
+
+La agricultura en Madagascar está fuertemente influenciada por la lluvia de la isla, que generalmente es abundante en toda la costa este, disminuye bruscamente en las tierras altas y cae a menos de 500 mm por año en el sur y el suroeste. La temporada de crecimiento principal comienza con las primeras lluvias en octubre - noviembre. El calendario de cultivo varía mucho de una región a otra, de acuerdo con las condiciones climáticas, suelos y altitud muy diferentes.
+
+La ganadería y la silvicultura también son dos sectores importantes en Madagascar, con grandes extensiones de ébano, palisandro y flor de caoba en la costa este.
+Si bien el ganado está muy extendido, aproximadamente el 60 por ciento de las familias rurales dependen de él para sus ingresos. La producción animal está dominada por la cría extensiva de ganado, cerdos y aves de corral. También hay una creciente industria avícola moderna en las principales ciudades.
+
+- Más al sur, en Fianarantsoa, ​​a 1.200 metros (3.900 pies), el clima es similar al de Antananarivo.
+- En el interior, también hay montañas. La montaña más alta es Maromokotro, 2.876 metros (9.436 pies), ubicada en el norte de la isla, en el macizo de Tsaratanana. Por otro lado, en el sur, al sur de Fianarantsoa, ​​en el Parque Nacional de Andringitra, las montañas más altas alcanzan alrededor de 2.500 metros (8.200 pies).
+
+Se requiere la última versión del mod Seasons.]]></es>
+        <ru><![CDATA[Центральное нагорье Мадагаскара - это мод GEO для Seasons, имитирующий сельское хозяйство в штате Столица Мадагаскара Антананариву (ранее Тананариве) в Центральном нагорье Мадагаскара.
+Этот GEO указан для Центрального нагорья Мадагаскара.
+
+- Столица, Антананариву, расположена на высоте 1300 метров (4300 футов) над уровнем моря и имеет приятный климат, на самом деле, средняя температура колеблется от 21 ° C (70 ° F) в летние месяцы до 15 ° C (59 ° F) в июле и августе. Поэтому зима довольно прохладная. Здесь лучшие месяцы апрель, сентябрь и октябрь.
+- В Антананариву выпадает 1400 мм (55 дюймов) осадков в год, большинство из которых происходят с ноября по март.
+- В Антананариву количество солнечного света умеренное; однако, он достигает максимума с сентября по ноябрь.
+- климат внутри страны смягчается высотой, по крайней мере, на промежуточных высотах, в то время как выше 2000 метров (6500 футов) температура зимой может опускаться ниже нуля (0 ° C или 32 ° F), особенно в юг.
+- В сухое время года на плато может дуть ветер, способный поднимать пыль с пересохшей земли. С другой стороны, в сезон дождей дожди могут затруднить передвижение по грунтовым дорогам.
+
+Сельское хозяйство является важным сектором Мадагаскара, где в основном выращиваются ванильные бобы и рис. Производство продовольственных культур является наиболее важным сельскохозяйственным подсектором, на который приходится около 75 процентов посевных площадей (2009 год). Рис является основным продуктом питания, покрывающим 1,34 млн. Га по всей стране, за исключением некоторых полузасушливых районов на юге и юго-западе как под дождевыми, так и орошаемыми системами. Другие продовольственные культуры включают кукурузу (в основном выращивается в южных и центрально-восточных регионах), маниоку, сорго (на юге), бобы, арахис, сладкий картофель и большое разнообразие овощей. Кассава является важным компонентом стратегии снижения рисков мелких землевладельцев, поскольку она устойчива к засухе и устойчива к болезням. Кассава, сладкий картофель и кукуруза являются основным источником калорий в постное время года (с сентября по январь). Арахис выращивается на песчаных почвах в большинстве мест и вносит важный вклад в домашний рацион и доходы. Основными товарными культурами являются хлопок, ваниль, кофе, личи, перец, табак, арахис, сахарный тростник, сизаль, гвоздика и иланг-иланг.
+
+Сельское хозяйство на Мадагаскаре находится под сильным влиянием дождевых осадков на острове, которые, как правило, обильные на всем восточном побережье, резко уменьшаются в высокогорьях и падают до менее 500 мм в год на юге и юго-западе. Основной вегетационный период начинается с первых дождей в октябре - ноябре. Календарь обрезки сильно варьируется от региона к региону, в зависимости от самых разных климатических условий, почв и высоты.
+
+Животноводство и лесное хозяйство также являются двумя важными секторами на Мадагаскаре, где на восточном побережье растут обширные насаждения черного дерева, розового дерева и красного дерева.
+В то время как домашний скот широко распространен, около 60 процентов сельских семей зависят от его дохода. В животноводстве преобладает разведение крупного рогатого скота, свиней и птицы. Вокруг основных городов растёт современная птицеводческая отрасль.
+
+- Далее на юге, в Фианаранцуа, на высоте 1200 метров (3900 футов) климат аналогичен климату Антананариву.
+- В интерьере есть и горы. Самая высокая гора - Маромокотро, 2876 метров (9366 футов), расположена на севере острова, в массиве Царатанана. С другой стороны, на юге, к югу от Фианаранцуа, в Национальном парке Андрингитра, самые высокие горы достигают около 2500 метров (8200 футов).
+
+Требуется последняя версия мода Seasons.]]></ru>
+        <pl><![CDATA[Central Highlands of Madagascar to mod GEO dla Seasons, który symuluje rolnictwo w stanie Stolicy Madagaskaru, Antananarywy (dawniej Tananarive) w Central Highlands of Madagascar.
+Ten GEO jest określony dla Central Highlands of Madagascar.
+
+- Stolica, Antananarywa, znajduje się na wysokości 1300 metrów (4300 stóp) nad poziomem morza i ma przyjemny klimat, w rzeczywistości średnia wynosi od 21 ° C (70 ° F) w miesiącach letnich do 15 ° C (59 ° F) w lipcu i sierpniu. Zima jest więc całkiem fajna. Tutaj najlepsze miesiące to kwiecień, wrzesień i październik.
+- W Antananarywie rocznie spada 1400 mm (55 cali), z czego większość występuje od listopada do marca.
+- W Antananarywie ilość słońca jest umiarkowana; osiąga jednak maksimum od września do listopada.
+- klimat we wnętrzu kraju jest łagodzony wysokością, przynajmniej na pośrednich wysokościach, podczas gdy powyżej 2000 metrów (6500 stóp) temperatura w zimie może spaść poniżej zera (0 ° C lub 32 ° F), szczególnie w południe.
+- W porze suchej wiatr, który jest w stanie unieść pył ze spieczonej ziemi, może czasami wiać na płaskowyżu. Z drugiej strony w porze deszczowej deszcze mogą utrudniać poruszanie się po nieutwardzonych drogach.
+
+Rolnictwo jest ważnym sektorem Madagaskaru, w którym uprawia się głównie fasolę waniliową i ryż. Produkcja roślin spożywczych jest najważniejszym podsektorem rolnictwa, który stanowi około 75 procent powierzchni uprawnej (2009). Ryż jest podstawowym pożywieniem, obejmującym 1,34 miliona hektarów w całym kraju, z wyjątkiem półpustynnych obszarów na południu i południowym zachodzie, zarówno w systemach zasilanych deszczem, jak i nawadnianych. Inne uprawy roślin spożywczych obejmują kukurydzę (uprawianą głównie w regionach południowej i środkowo-wschodniej), maniok, sorgo (na południu), fasolę, orzeszki ziemne, słodkie ziemniaki i szeroką gamę warzyw. Maniok jest ważnym elementem strategii zmniejszania ryzyka drobnego gospodarstwa, ponieważ jest odporny na suszę i odporny na choroby. Maniok, batat i kukurydza są głównym źródłem kalorii w sezonie chudym (od września do stycznia). Orzeszki ziemne są uprawiane na glebach piaszczystych w większości lokalizacji i wnoszą istotny wkład w dietę i dochody gospodarstwa domowego. Głównymi uprawami pieniężnymi są bawełna, wanilia, kawa, liczi, pieprz, tytoń, orzeszki ziemne, trzcina cukrowa, sizal, goździk i ylang-ylang.
+
+Na rolnictwo na Madagaskarze duży wpływ mają opady deszczu na wyspie, które są zwykle obfite na całym wschodnim wybrzeżu, gwałtownie spadają na wyżynach i spadają do mniej niż 500 mm rocznie na południu i południowym zachodzie. Główny sezon wegetacyjny rozpoczyna się od pierwszych opadów w październiku - listopadzie. Kalendarz kadrowania różni się znacznie w zależności od regionu, w zależności od bardzo różnych warunków klimatycznych, gleb i wysokości.
+
+Zwierzęta gospodarskie i leśnictwo to także dwa ważne sektory na Madagaskarze, na wschodnim wybrzeżu kwitną rozległe drzewce hebanu, drzewa różanego i mahoniu.
+Podczas gdy inwentarz żywy jest szeroko rozpowszechniony, około 60 procent rodzin na wsi zależy od niego od swoich dochodów. W produkcji zwierzęcej dominuje ekstensywna hodowla zwierząt, świnie i drób. W głównych miastach rozwija się również nowoczesny przemysł drobiarski.
+
+- Dalej na południe, w Fianarantsoa, ​​na wysokości 1200 metrów (3900 stóp) klimat jest podobny do klimatu na Antananarywie.
+- We wnętrzu są też góry. Najwyższą górą jest Maromokotro, 2876 metrów (9436 stóp), położona na północy wyspy, w masywie Tsaratanana. Z drugiej strony, na południu, na południu Fianarantsoa, ​​w Parku Narodowym Andringitra, najwyższe góry sięgają około 2500 metrów (8200 stóp).
+
+Wymagana jest najnowsza wersja moda Seasons.]]></pl>
+        <it><![CDATA[Central Highlands of Madagascar è una mod GEO per Seasons che simula l'agricoltura nello stato della capitale del Madagascar, Antananarivo (precedentemente Tananarive) nelle Central Highlands del Madagascar.
+Questo GEO è specificato per The Central Highlands of Madagascar.
+
+- La capitale, Antananarivo, si trova a 1.300 metri (4.300 piedi) sul livello del mare e ha un clima piacevole, infatti, la media varia da 21 ° C (70 ° F) nei mesi estivi a 15 ° C (59 ° F) in luglio e agosto. L'inverno è quindi piuttosto fresco. Qui, i mesi migliori sono aprile, settembre e ottobre.
+- Ad Antananarivo, cadono 1.400 mm (55 in) di pioggia all'anno, la maggior parte dei quali si verificano da novembre a marzo.
+- In Antananarivo, la quantità di sole è moderata; tuttavia, raggiunge un massimo da settembre a novembre.
+- il clima all'interno del paese è temperato dall'altitudine, almeno a quote intermedie, mentre sopra i 2.000 metri (6.500 piedi), la temperatura durante l'inverno può scendere sotto lo zero (0 ° C o 32 ° F), specialmente nel Sud.
+- Nella stagione secca, un vento in grado di sollevare la polvere dal terreno arido a volte può soffiare sul plateau. D'altra parte, nella stagione delle piogge, le piogge possono rendere difficile muoversi su strade non asfaltate.
+
+L'agricoltura è un settore importante del Madagascar dove coltiva principalmente fagioli e riso alla vaniglia, la produzione di colture alimentari è il sottosettore agricolo più importante che rappresenta circa il 75% della superficie coltivata (2009). Il riso è l'alimento base, che copre 1,34 milioni di ettari in tutto il paese, ad eccezione di alcune aree semi-aride nel sud e nel sud-ovest, con sistemi alimentati dalla pioggia e irrigati. Altre colture alimentari includono mais (coltivato principalmente nelle regioni del sud e del centro-est), manioca, sorgo (nel sud), fagioli, arachidi, patate dolci e un'ampia varietà di verdure. La manioca è un componente importante della strategia di riduzione del rischio per i piccoli proprietari perché è resistente alla siccità e resistente alle malattie. Manioca, patate dolci e mais sono la principale fonte di calorie nella stagione magra (da settembre a gennaio). L'arachide è coltivata su terreni sabbiosi nella maggior parte dei luoghi e fornisce un importante contributo alla dieta e al reddito delle famiglie. Le principali colture in contanti sono cotone, vaniglia, caffè, litchi, pepe, tabacco, arachidi, canna da zucchero, sisal, chiodi di garofano e ylang-ylang.
+
+L'agricoltura in Madagascar è fortemente influenzata dalle precipitazioni dell'isola, che è generalmente abbondante su tutta la costa orientale, diminuisce drasticamente sugli altopiani e scende a meno di 500 mm all'anno nel sud e nel sud-ovest. La stagione di crescita principale inizia con le prime piogge in ottobre - novembre. Il calendario del ritaglio varia notevolmente da regione a regione, a seconda delle condizioni climatiche, dei suoli e dell'altitudine molto diversi.
+
+Il bestiame e la silvicoltura sono anche due settori importanti in Madagascar, con vaste bancarelle di ebano, palissandro e mogano fioriscono sulla costa orientale.
+Mentre il bestiame è molto diffuso, con circa il 60 percento delle famiglie rurali dipende dal reddito. La produzione animale è dominata da un vasto allevamento di bestiame, suini e pollame. Vi è anche una moderna industria avicola in crescita nelle principali città.
+
+- Più a sud, a Fianarantsoa, ​​a 1.200 metri (3.900 piedi), il clima è simile a quello di Antananarivo.
+- All'interno ci sono anche montagne. La montagna più alta è Maromokotro, 2.876 metri (9.436 piedi), situata nel nord dell'isola, nel massiccio dello Tsaratanana. D'altra parte, a sud, a sud di Fianarantsoa, ​​nel Parco Nazionale Andringitra, le montagne più alte raggiungono circa 2.500 metri (8.200 piedi).
+
+È necessaria l'ultima versione della mod Seasons.]]></it>
+        <br><![CDATA[O Planalto Central de Madagascar é um mod de GEO para o Seasons que simula a agricultura no estado de A capital de Madagascar, Antananarivo (anteriormente Tananarive) no Planalto Central de Madagascar.
+Este GEO é especificado para o Planalto Central de Madagascar.
+
+- A capital, Antananarivo, está localizada a 1.300 metros (4.300 pés) acima do nível do mar e possui um clima agradável; de fato, a média varia de 21 ° C (70 ° F) nos meses de verão a 15 ° C (59). ° F) em julho e agosto. O inverno é, portanto, muito legal. Aqui, os melhores meses são abril, setembro e outubro.
+- Em Antananarivo, 1.400 mm (55 pol) de chuva caem por ano, a maioria dos quais ocorre de novembro a março.
+- Em Antananarivo, a quantidade de sol é moderada; no entanto, atinge o máximo de setembro a novembro.
+- o clima no interior do país é temperado pela altitude, pelo menos em elevações intermediárias, enquanto acima de 2.000 metros (6.500 pés), a temperatura durante o inverno pode cair abaixo de zero (0 ° C ou 32 ° F), especialmente no sul.
+- Na estação seca, um vento capaz de levantar poeira do solo ressecado pode às vezes soprar no platô. Por outro lado, na estação chuvosa, as chuvas podem dificultar a locomoção em estradas não pavimentadas.
+
+A agricultura é um setor importante de Madagascar, onde eles cultivam principalmente grãos de baunilha e arroz. A produção de alimentos é o subsetor agrícola mais importante, representando cerca de 75% da área cultivada (2009). O arroz é o alimento básico, cobrindo 1,34 milhão de hectares em todo o país, com exceção de algumas áreas semi-áridas do Sul e do Sudoeste, sob sistemas irrigados e alimentados por chuva. Outras culturas alimentares incluem milho (cultivado principalmente nas regiões sul e centro-leste), mandioca, sorgo (no sul), feijão, amendoim, batata doce e uma grande variedade de vegetais. A mandioca é um componente importante da estratégia de redução de risco do pequeno produtor, pois é tolerante à seca e resistente a doenças. Mandioca, batata doce e milho são a principal fonte de calorias na estação de seca (de setembro a janeiro). O amendoim é cultivado em solos arenosos na maioria dos locais e faz uma importante contribuição para a dieta e a renda das famílias. As principais culturas comerciais são algodão, baunilha, café, lichia, pimenta, tabaco, amendoim, cana-de-açúcar, sisal, cravo e ylang-ylang.
+
+A agricultura em Madagascar é fortemente influenciada pelas chuvas da ilha, que geralmente são abundantes em toda a costa leste, diminuem acentuadamente nas terras altas e caem para menos de 500 mm por ano no sul e no sudoeste. A principal estação de crescimento começa com as primeiras chuvas de outubro a novembro. O calendário de cultivo varia muito de região para região, de acordo com as diferentes condições climáticas, solos e altitude.
+
+A pecuária e a silvicultura também são dois setores importantes em Madagascar, com extensos estandes de ébano, pau-rosa e mogno na costa leste.
+Enquanto o gado é generalizado, cerca de 60% das famílias rurais dependem dele para obter renda. A produção animal é dominada pela criação extensiva de gado, porcos e aves. Há também uma crescente indústria avícola moderna nas principais cidades.
+
+- Mais ao sul, em Fianarantsoa, ​​a 1.200 metros (3.900 pés), o clima é semelhante ao de Antananarivo.
+- No interior, também há montanhas. A montanha mais alta é Maromokotro, 2.876 metros (9.436 pés), localizada no norte da ilha, no Maciço de Tsaratanana. Por outro lado, no sul, ao sul de Fianarantsoa, ​​no Parque Nacional Andringitra, as montanhas mais altas atingem cerca de 2.500 metros (8.200 pés).
+
+A versão mais recente do mod Seasons é necessária.]]></br>
+        <cs><![CDATA[马达加斯加的中央高地是《季节》的GEO模式，它模拟了马达加斯加首府马达加斯加的中央高地的塔那那利佛（以前的塔纳纳里夫）的农业。
+此GEO专为马达加斯加的中央高地指定。
+
+-首都塔那那利佛（Antananarivo）位于海拔1300米（4,300英尺），气候宜人，事实上，夏季的平均温度范围从21°C（70°F）到15°C（59 °F）在7月和8月。因此，冬天非常凉爽。在这里，最好的月份是4月，9月和10月。
+-在塔那那利佛，每年有1,400毫米（55英寸）的降雨，大部分发生在11月至3月。
+-在塔那那利佛，日照适中；但是，从9月到11月达到最大值。
+-该国内部的气候至少在中间海拔高度受海拔高度调节，而在2,000米（6,500英尺）以上，冬季的温度可能降至冰点以下（0°C或32°F），特别是在南。
+-在干旱季节，能够从炎热的地面上扬起灰尘的风有时会吹到高原上。另一方面，在雨季，雨水会使在未铺砌的道路上行驶变得困难。
+
+农业是马达加斯加的重要部门，主要种植香草豆和稻米。粮食作物生产是最重要的农业子部门，约占耕地面积的75％（2009年）。大米是主食，覆盖全国134万公顷，除了南部和西南部的半干旱地区，在雨水和灌溉系统下均如此。其他粮食作物包括玉米（主要在南部和中东部地区种植），木薯，高粱（在南部），豆类，花生，地瓜和各种蔬菜。木薯是小农降低风险战略的重要组成部分，因为它耐旱且抗病。木薯，地瓜和玉米是在淡季（9月至1月）的主要热量来源。花生在大多数地方都种植在沙质土壤上，对家庭饮食和收入做出了重要贡献。主要经济作物是棉花，香草，咖啡，荔枝，胡椒，烟草，花生，甘蔗，剑麻，丁香和依兰。
+
+马达加斯加的农业受到该岛降雨的严重影响，该岛的降雨在整个东海岸普遍丰富，在高地急剧下降，在南部和西南部每年降至500毫米以下。主要的生长季节始于10月至11月的第一场降雨。根据气候条件，土壤和海拔高度的不同，播种日历因地区而异。
+
+畜牧业和林业也是马达加斯加的两个重要部门，在东海岸，乌木，花梨木和桃花心木林立。
+尽管畜牧业很普遍，但约有60％的农村家庭依靠畜牧业获得收入。畜牧业以广泛的牲畜饲养，猪和家禽为主。在主要城市附近，现代家禽业也在发展。
+
+-再往南，在1,200米（3,900英尺）的Fianarantsoa，气候与塔那那利佛（Antananarivo）相似。
+-在内部，还有山脉。最高的山脉是Maromokotro，海拔2876米（9,436英尺），位于该岛的北部，位于Tsaratanana地块。另一方面，在安达林加特拉国家公园以南，在费安纳索索阿以南，最高的山脉达到约2500米（8,200英尺）。
+
+需要最新版本的Seasons mod。]]></cs>
+        <ct><![CDATA[馬達加斯加的中央高地是《季節》的GEO模式，它模擬了馬達加斯加首府馬達加斯加的中央高地的塔那那利佛（以前的塔納納里夫）的農業。
+此GEO專為馬達加斯加的中央高地指定。
+
+-首都塔那那利佛（Antananarivo）位於海拔1300米（4,300英尺），氣候宜人，事實上，夏季的平均溫度範圍從21°C（70°F）到15°C（59 °F）在7月和8月。因此，冬天非常涼爽。在這裡，最好的月份是4月，9月和10月。
+-在塔那那利佛，每年有1,400毫米（55英寸）的降雨，大部分發生在11月至3月。
+-在塔那那利佛，日照適中；但是，從9月到11月達到最大值。
+-該國內部的氣候至少在中間海拔高度受海拔高度調節，而在2,000米（6,500英尺）以上，冬季的溫度可能降至冰點以下（0°C或32°F），特別是在南。
+-在乾旱季節，能夠從炎熱的地面上揚起灰塵的風有時會吹到高原上。另一方面，在雨季，雨水會使在未鋪砌的道路上行駛變得困難。
+
+農業是馬達加斯加的重要部門，主要種植香草豆和稻米。糧食作物生產是最重要的農業子部門，約佔耕地面積的75％（2009年）。大米是主食，覆蓋全國134萬公頃，除了南部和西南部的半乾旱地區，在雨水和灌溉系統下均如此。其他糧食作物包括玉米（主要在南部和中東部地區種植），木薯，高粱（在南部），豆類，花生，地瓜和各種蔬菜。木薯是小農降低風險戰略的重要組成部分，因為它耐旱且抗病。木薯，地瓜和玉米是在淡季（9月至1月）的主要熱量來源。花生在大多數地方都種植在沙質土壤上，對家庭飲食和收入做出了重要貢獻。主要經濟作物是棉花，香草，咖啡，荔枝，胡椒，煙草，花生，甘蔗，劍麻，丁香和依蘭。
+
+馬達加斯加的農業受到該島降雨的嚴重影響，該島的降雨在整個東海岸普遍豐富，在高地急劇下降，在南部和西南部每年降至500毫米以下。主要的生長季節始於10月至11月的第一場降雨。根據氣候條件，土壤和海拔高度的不同，播種日曆因地區而異。
+
+畜牧業和林業也是馬達加斯加的兩個重要部門，東海岸盛產黑檀木，花梨木和桃花心木。
+儘管畜牧業很普遍，但約有60％的農村家庭依靠畜牧業來獲得收入。畜牧業以廣泛的牲畜飼養，豬和家禽為主。在主要城市附近，現代家禽業也在發展。
+
+-再往南，在1,200米（3,900英尺）的Fianarantsoa，氣候與塔那那利佛（Antananarivo）相似。
+-在內部，還有山脈。最高的山脈是Maromokotro，海拔2876米（9,436英尺），位於該島的北部，位於Tsaratanana地塊。另一方面，在安達林加特拉國家公園以南，在費安納索索阿以南，最高的山脈達到約2500米（8,200英尺）。
+
+需要最新版本的Seasons mod。]]></ct>
+        <cz><![CDATA[Central Highlands of Madagascar je GEO mod pro Seasons, který simuluje zemědělství ve státě Hlavní město Madagaskaru, Antananarivo (dříve Tananarive) ve Střední vysočině na Madagaskaru.
+Tento GEO je určen pro Střední vysočinu Madagaskaru.
+
+- Hlavní město Antananarivo se nachází v nadmořské výšce 1300 metrů (4 300 stop) a má příjemné klima, ve skutečnosti je průměrný rozsah od 21 ° C (70 ° F) v letních měsících do 15 ° C (59) ° F) v červenci a srpnu. Zima je tedy docela v pohodě. Zde jsou nejlepší měsíce duben, září a říjen.
+- V Antananarivu padá ročně 1 400 mm (55 palců) srážek, z nichž většina se vyskytuje od listopadu do března.
+- V Antananarivu je množství slunečního svitu mírné; dosahuje však maximum od září do listopadu.
+- podnebí ve vnitrozemí země je zmírněno nadmořskou výškou, alespoň v nadmořských výškách, zatímco nad 2 000 metrů (6 500 stop) může v zimě teplota klesnout pod bod mrazu (0 ° C nebo 32 ° F), zejména v jižní.
+- V období sucha může na náhorní plošinu foukat vítr, který je schopen zvedat prach z vyprahlé půdy. Na druhou stranu, v deštivém období mohou deště ztěžovat obcházení po nezpevněných silnicích.
+
+Zemědělství je důležitým odvětvím Madagaskaru, kde obhospodařuje převážně vanilkové lusky a rýži. Potravinářská produkce je nejdůležitějším subsektorem zemědělství, který představuje přibližně 75 procent obdělávané plochy (2009). Rýže je základní potravina o rozloze 1,34 milionu hektarů po celé zemi, s výjimkou některých polosuchých oblastí na jihu a jihozápadě, a to jak v dešťových, tak zavlažovaných systémech. Mezi další potravinářské plodiny patří kukuřice (pěstovaná převážně v jižních a středovýchodních oblastech), kasava, čirok (na jihu), fazole, podzemnice olejná, sladké brambory a široká škála zeleniny. Cassava je důležitou součástí strategie snižování rizik drobného vlastníka, protože je odolná vůči suchu a odolná vůči nemocem. Kasava, sladké brambory a kukuřice jsou hlavním zdrojem kalorií v libové sezóně (od září do ledna). Podzemnice olejná se pěstuje na písčitých půdách ve většině lokalit a významně přispívá k domácí stravě a příjmu. Hlavní peněžní plodiny jsou bavlna, vanilka, káva, litchi, pepř, tabák, podzemnice olejná, cukrová třtina, sisal, hřebíček a ylang-ylang.
+
+Zemědělství na Madagaskaru je silně ovlivněno srážkami ostrova, které jsou obecně bohaté na celém východním pobřeží, prudce klesají na vysočině a na jihu a jihozápadě klesají ročně na méně než 500 mm. Hlavní vegetační období začíná prvními dešti v říjnu - listopadu. Kalendář ořezávání se v jednotlivých regionech velmi liší podle velmi odlišných klimatických podmínek, půd a nadmořské výšky.
+
+Hospodářská zvířata a lesnictví jsou na Madagaskaru také dvěma důležitými sektory, na východním pobřeží vzkvétají rozsáhlé porosty ebenového, růžového a mahagonového dřeva.
+Zatímco hospodářská zvířata jsou široce rozšířená, podle jejich příjmu závisí na tom asi 60 procent venkovských rodin. Živočišné výrobě dominuje extenzivní chov hospodářských zvířat, prasata a drůbež. V hlavních městech roste také moderní drůbežářský průmysl.
+
+- Dále na jih, ve Fianarantsoa, ​​ve výšce 1 200 metrů (3 900 stop) je klima podobné klimatu v Antananarivu.
+- V interiéru jsou také hory. Nejvyšší hora je Maromokotro, 2 866 metrů (9 436 stop), nacházející se na severu ostrova, v masivu Tsaratanana. Na druhé straně, na jihu, na jih od Fianarantsoa, ​​v národním parku Andringitra, nejvyšší hory dosahují asi 2 500 metrů (8 200 stop).
+
+Vyžaduje se nejnovější verze režimu Seasons.]]></cz>
+        <nl><![CDATA[Central Highlands of Madagascar is een GEO-mod voor Seasons die de landbouw simuleert in de hoofdstad Madagascar, Antananarivo (voorheen Tananarive) in Central Highlands of Madagascar.
+Deze GEO is gespecificeerd voor The Central Highlands of Madagascar.
+
+- De hoofdstad, Antananarivo, bevindt zich op 1.300 meter (4.300 voet) boven zeeniveau en heeft een aangenaam klimaat, in feite varieert het gemiddelde van 21 ° C (70 ° F) in de zomermaanden tot 15 ° C (59 ° F) in juli en augustus. De winter is daarom behoorlijk koel. Hier zijn de beste maanden april, september en oktober.
+- In Antananarivo valt 1400 mm (55 in) regen per jaar, waarvan de meeste van november tot maart.
+- In Antananarivo is de hoeveelheid zonneschijn matig; het bereikt echter een maximum van september tot november.
+- het klimaat in het binnenland van het land wordt getemperd door hoogte, tenminste op tussenliggende hoogten, terwijl boven de 2.000 meter (6.500 voet) de temperatuur in de winter onder het vriespunt (0 ° C of 32 ° F) kan dalen, vooral in de zuiden.
+- In het droge seizoen kan een wind die stof uit de uitgedroogde grond kan halen soms op het plateau blazen. Aan de andere kant kan het in het regenseizoen moeilijk zijn om op onverharde wegen te geraken.
+
+Landbouw is een belangrijke sector van Madagaskar, waar ze voornamelijk vanillestokjes en rijst verbouwen. De productie van voedselgewassen is de belangrijkste subsector van de landbouw en goed voor ongeveer 75 procent van het gecultiveerde gebied (2009). Rijst is het basisvoedsel en beslaat 1,34 miljoen hectare in het hele land, met uitzondering van enkele semi-aride gebieden in het zuiden en het zuidwesten, zowel met regengevoede als met geïrrigeerde systemen. Andere voedselgewassen zijn maïs (voornamelijk geteeld in de regio's Zuid en Midden-Oost), cassave, sorghum (in het zuiden), bonen, aardnoten, zoete aardappelen en een grote verscheidenheid aan groenten. Cassave is een belangrijk onderdeel van de risicoverminderingsstrategie van de kleine producent omdat het droogtetolerant is en resistent tegen ziekten. Cassave, zoete aardappel en maïs zijn de belangrijkste bron van calorieën in het magere seizoen (van september tot januari). Aardnoot wordt op de meeste locaties op zandgronden geteeld en levert een belangrijke bijdrage aan het voedingspatroon en het inkomen van huishoudens. De belangrijkste kasgewassen zijn katoen, vanille, koffie, lychee, peper, tabak, aardnoot, suikerriet, sisal, kruidnagel en ylang-ylang.
+
+De landbouw in Madagaskar wordt sterk beïnvloed door de regenval van het eiland, die over het algemeen overvloedig aanwezig is aan de hele oostkust, sterk afneemt op de hooglanden en in het zuiden en zuidwesten daalt tot minder dan 500 mm per jaar. Het belangrijkste groeiseizoen begint met de eerste regens in oktober - november. De bijsnijdkalender varieert sterk van regio tot regio, afhankelijk van de zeer verschillende klimatologische omstandigheden, bodems en hoogte.
+
+Vee en bosbouw zijn ook twee belangrijke sectoren in Madagaskar, met uitgebreide standplaatsen van ebbenhout, rozenhout en mahonie bloeien aan de oostkust.
+Hoewel Vee veel voorkomt, is ongeveer 60 procent van de landelijke gezinnen afhankelijk van hun inkomen. De dierlijke productie wordt gedomineerd door extensieve veehouderij, varkens en pluimvee. Er is ook een groeiende moderne pluimvee-industrie rond de belangrijkste steden.
+
+- Verder naar het zuiden, in Fianarantsoa, ​​op 1200 meter (3.900 voet), is het klimaat vergelijkbaar met dat van Antananarivo.
+- In het binnenland zijn er ook bergen. De hoogste berg is Maromokotro, 2.876 meter (9.436 voet), gelegen in het noorden van het eiland, in het Tsaratanana-massief. Aan de andere kant, in het zuiden, ten zuiden van Fianarantsoa, ​​in het Andringitra National Park, bereiken de hoogste bergen ongeveer 2500 meter (8.200 voet).
+
+De nieuwste versie van de Seasons-mod is vereist.]]></nl>
+        <hu><![CDATA[Madagaszkár Közép-felföld egy évjáratbeli GEO-mod, amely szimulálja a mezőgazdaságot Madagaszkár fővárosában, Antananarivo (korábban Tananarive) államban, Madagaszkár Közép-felföldjén.
+Ezt a GEO-t Madagaszkár Közép-Felső-hegységére vonatkoznak.
+
+- A főváros, Antananarivo, 1300 méter (4300 láb) tengerszint feletti magasságban helyezkedik el, és kellemes éghajlattal rendelkezik, sőt, az átlag a nyári hónapokban 21 ° C (70 ° F) és 15 ° C (59) között van. ° F) júliusban és augusztusban. Ezért a tél nagyon hideg. Itt a legjobb hónapok az április, szeptember és október.
+- Antananarivo-ban évi 1400 mm (55 hüvelyk) eső esik, amelyek nagy része november-március között zajlik.
+- Antananarivóban mérsékelt a napfény mennyisége; azonban a szeptember és november közötti maximumot érheti el.
+- az ország belső éghajlatát a magasság mérsékelti, legalább köztes magasságokban, míg 2000 méter (6500 láb) felett a hőmérséklet télen a fagypont alá eshet (0 ° C vagy 32 ° F), különösen a déli.
+- A száraz évszakban a szél, amely képes a por felszívására a kiszáradt talajtól, fújhat a fennsíkon. Másrészről, az esős évszakban az esők megnehezíthetik a járhatatlan utakon való közlekedést.
+
+A mezőgazdaság Madagaszkár fontos ágazata, ahol többnyire vaníliababot és rizst termelnek. Az élelmiszer-növénytermesztés a mezőgazdaság legfontosabb alágazata, amely a művelés alatt álló terület 75% -át teszi ki (2009). A rizs az alapanyag, az egész országban 1,34 millió hektáron terjed ki, néhány déli és délnyugati félszáraz terület kivételével, mind az esővel táplált, mind az öntözött rendszerekben. Egyéb élelmiszer-növények között szerepel a kukorica (elsősorban a déli és a közép-keleti régiókban termesztett), a kasszava, a cirok (délen), a bab, a földimogyoró, az édesburgonya és a sokféle zöldség. A kasszava a kistermelők kockázatcsökkentési stratégiájának fontos eleme, mivel az aszálytűrő és ellenálló a betegségekkel szemben. Maniáka, édesburgonya és kukorica a fő kalóriaforrás a sovány szezonban (szeptember-január). A földimogyorót a legtöbb hely homokos talajon termesztik, és ez jelentősen hozzájárul a háztartási étrendhez és jövedelemhez. A fő készpénznövények a gyapot, vanília, kávé, litsi, bors, dohány, földimogyoró, cukornád, szizál, szegfűszeg és az ilang-ilang.
+
+Madagaszkár mezőgazdaságát nagymértékben befolyásolja a sziget csapadékmennyisége, amely általában az egész keleti parton bőséges, a hegyvidéken hirtelen csökken, és délen és délnyugaton évente kevesebb mint 500 mm-re esik. A fő növekedési időszak az első esőkkel kezdődik októberben - novemberben. A növénytermesztési naptár régiónként nagyban változik, a nagyon eltérő éghajlati viszonyok, a talaj és a magasság függvényében.
+
+Az állattenyésztés és az erdőgazdálkodás szintén két fontos ágazat Madagaszkáron, kiterjedt ébenfa, rózsafa és mahagóni állványok virágzik a keleti parton.
+Míg az állattenyésztés széles körben elterjedt, a vidéki családok körülbelül 60 százaléka függ attól, hogy jövedelmet biztosítsanak. Az állattenyésztést az extenzív állattenyésztés, sertések és baromfi uralja. A fő városok környékén egyre növekszik a modern baromfiipar.
+
+- Délen, Fianarantsoa-ban, 1200 méter (3900 láb) magasságban az éghajlat hasonló az Antananarivo éghajlatához.
+- A belső terekben hegyek is vannak. A legmagasabb hegy a Maromokotro, 2876 méter (9436 láb), a sziget északi részén, a Tsaratanana-hegységben. Másrészt, a déli, délre Fianarantsoa-tól, az Andringitra Nemzeti Parkban, a legmagasabb hegyek eléri a 2500 métert (8200 láb).
+
+A Seasons mod legújabb verziója szükséges.]]></hu>
+        <jp><![CDATA[マダガスカルのセントラルハイランドは、マダガスカルのセントラルハイランドにあるマダガスカルの首都アンタナナリボ（以前のTananarive）の州の農業をシミュレートする、季節のGEO modです。
+このGEOは、マダガスカルのセントラルハイランドに指定されています。
+
+-首都アンタナナリボは、海抜1,300メートル（4,300フィート）に位置し、快適な気候です。実際、夏季の平均気温は21°C（70°F）から15°C（59 °F）7月と8月。したがって、冬はかなり涼しいです。ここで、最高の月は4月、9月、10月です。
+-アンタナナリボでは、年間1,400 mm（55インチ）の雨が降っており、そのほとんどは11月から3月に発生します。
+-アンタナナリボでは、日照量は中程度です。ただし、9月から11月までは最大になります。
+-国の内部の気候は、少なくとも中間の高度で高度によって緩和されますが、2,000メートル（6,500フィート）を超えると、冬季の気温は氷点下（0°Cまたは32°F）を下回り、特に南。
+-乾季には、乾いた地面からほこりを上げることができる風が高原に吹き付けることがあります。一方、雨季には、雨により舗装されていない道路を歩き回ることが難しくなります。
+
+農業はマダガスカルの重要なセクターであり、そこでは主にバニラ豆と米を栽培しています。食用作物の生産は、耕作地の約75％を占める最も重要な農業サブセクターです（2009）。米は主食であり、天水と灌漑の両方のシステムの下で、南部と南西部のいくつかの半乾燥地域を除いて、全国の134万ヘクタールをカバーしています。他の食用作物には、トウモロコシ（主に南および中東地域で栽培）、キャッサバ、モロコシ（南）、豆、落花生、サツマイモおよび多種多様な野菜が含まれます。キャッサバは干ばつに強く、病気に強いため、小自作農のリスク低減戦略の重要な要素です。キャッサバ、サツマイモ、トウモロコシは、赤身の季節（9月から1月）の主なカロリー源です。落花生はほとんどの場所の砂質土壌で栽培され、家庭の食事と収入に重要な貢献をしています。主な換金作物は、綿、バニラ、コーヒー、ライチ、コショウ、タバコ、落花生、サトウキビ、サイザル、クローブ、イランイランです。
+
+マダガスカルの農業は、島の降雨の影響を強く受けます。降雨は一般に東海岸全体に多く、高地では急激に減少し、南および南西では年間500 mm未満に減少します。主な成長期は、10月から11月にかけての最初の雨から始まります。作物のカレンダーは、気候条件、土壌、標高が大きく異なるため、地域によって大きく異なります。
+
+家畜と林業もマダガスカルの2つの重要な部門であり、東海岸では黒檀、ローズウッド、マホガニーの大規模な林が見られます。
+家畜は広範ですが、農村部の家族の約60％が収入に依存しています。動物の生産は、大規模な家畜飼育、豚および家禽に支配されています。また、主要都市の周辺には、近代的な家禽産業が成長しています。
+
+-さらに南のFianarantsoaの1,200メートル（3,900フィート）の気候は、アンタナナリボの気候に似ています。
+-内部には山もあります。最も高い山は、サラタナナ山地の島の北部にある2,876メートル（9,436フィート）のマロモコトロです。一方、フィアナランツォアの南、アンドリンギトラ国立公園では、最高峰の山々は約2,500メートル（8,200フィート）に達します。
+
+Seasons modの最新バージョンが必要です。]]></jp>
+        <kr><![CDATA[마다가스카르의 중앙 고원은 마다가스카르의 중앙 고원에있는 마다가스카르, 안타나나리보 (이전의 Tananarive)의 수도에서 농업을 시뮬레이트하는 시즌 용 GEO 모드입니다.
+이 GEO는 마다가스카르의 중부 고원에 지정되어 있습니다.
+
+-수도 인 안타나나리보 (Antananarivo)는 해발 1,300 미터 (4,300 피트)에 있으며 쾌적한 기후를 가지고 있습니다. 실제로 평균 여름 기온은 21 ° C (70 ° F)에서 15 ° C (59 ° C)입니다. 7 월과 8 월). 따라서 겨울은 꽤 시원합니다. 여기서 가장 좋은 달은 4 월, 9 월 및 10 월입니다.
+-안타나나리보에서, 매년 1,400 mm (55 in)의 비가 내립니다. 대부분 11 월에서 3 월까지 발생합니다.
+-안타나나리보에서는 햇빛의 양이 적당합니다. 그러나 9 월에서 11 월까지 최대 값에 도달합니다.
+-국가 내부의 기후는 적어도 중간 고도에서 고도에 의해 템퍼링되며, 2,000 미터 (6,500 피트) 이상에서는 겨울철 온도가 특히 영하 (0 ° C 또는 32 ° F) 아래로 떨어질 수 있습니다. 남쪽.
+-건기에는 마른 땅에서 먼지를 발생시킬 수있는 바람이 때때로 고원에 날릴 수 있습니다. 반면 우기에는 비가 내리면 비포장 도로를 돌아 다니기가 어려울 수 있습니다.
+
+농업은 마다가스카르의 중요한 부문으로 대부분 바닐라 콩과 쌀을 재배하며, 농작물 생산은 재배 지역의 약 75 %를 차지하는 가장 중요한 농업 하위 부문입니다 (2009). 쌀은 전국적으로 134 만 헥타르를 차지하는 주식으로, 비와 관개 시설 하에서 남부와 남서부의 일부 반 건조 지역을 제외하고는 주식입니다. 다른 식량 작물로는 옥수수 (주로 남동부 및 중부 지역에서 재배), 카사바, 수수 (남부), 콩, 땅콩, 고구마 및 다양한 야채가 있습니다. 카사바는 가뭄에 강하고 질병에 저항력이 있기 때문에 소규모 보유자의 위험 감소 전략의 중요한 구성 요소입니다. 카사바, 고구마 및 옥수수는 마른 계절 (9 월에서 1 월까지)의 주요 칼로리 공급원입니다. 땅콩은 대부분의 지역에서 모래 토양에서 재배되며 가정 식단 및 수입에 중요한 기여를합니다. 주요 현금 작물은 면화, 바닐라, 커피, 열매, 후추, 담배, 땅콩, 사탕 수수, 사이 잘삼, 정향 및 일랑 일랑입니다.
+
+마다가스카르의 농업은이 섬의 강우에 의해 크게 영향을받습니다.이 강우는 일반적으로 동해안 전체에 풍부하며 고지대에서 급격히 감소하며 남서부에서는 매년 500mm 미만으로 떨어집니다. 주요 성장 계절은 10 월 – 11 월의 첫 비로 시작합니다. 자르기 일정은 매우 다른 기후 조건, 토양 및 고도에 따라 지역마다 크게 다릅니다.
+
+가축과 임업은 마다가스카르의 두 가지 중요한 부문으로, 동부 해안에서 광범위한 흑단, 자단, 마호가니 스탠드가 있습니다.
+가축이 널리 퍼져있는 반면, 농촌 가족의 약 60 %가 소득에 따라 다릅니다. 가축 생산은 광범위한 가축 사육, 돼지 및 가금류에 의해 좌우됩니다. 주요 도시 주변에는 현대 가금류 산업도 성장하고 있습니다.
+
+-Fianarantsoa의 남쪽 인 1,200 미터 (3,900 피트)의 기후는 안타나나리보의 기후와 유사합니다.
+-내부에는 산도 있습니다. 가장 높은 산은 Tsaratanana Massif의 섬 북쪽에 위치한 2,876 미터 (9,436 피트)의 Maromokotro입니다. 반면, 남쪽, Fianarantsoa 남쪽, Andringitra 국립 공원에서 가장 높은 산은 약 2,500 미터 (8,200 피트)에 이릅니다.
+
+최신 버전의 시즌 모드가 필요합니다.]]></kr>
+        <pt><![CDATA[O Planalto Central de Madagascar é um mod de GEO para o Seasons que simula a agricultura no estado de A capital de Madagascar, Antananarivo (anteriormente Tananarive) no Planalto Central de Madagascar.
+Este GEO é especificado para o Planalto Central de Madagascar.
+
+- A capital, Antananarivo, está localizada a 1.300 metros (4.300 pés) acima do nível do mar e possui um clima agradável; de fato, a média varia de 21 ° C (70 ° F) nos meses de verão a 15 ° C (59). ° F) em julho e agosto. O inverno é, portanto, muito legal. Aqui, os melhores meses são abril, setembro e outubro.
+- Em Antananarivo, 1.400 mm (55 pol) de chuva caem por ano, a maioria dos quais ocorre de novembro a março.
+- Em Antananarivo, a quantidade de sol é moderada; no entanto, atinge o máximo de setembro a novembro.
+- o clima no interior do país é temperado pela altitude, pelo menos em elevações intermediárias, enquanto acima de 2.000 metros (6.500 pés), a temperatura durante o inverno pode cair abaixo de zero (0 ° C ou 32 ° F), especialmente no sul.
+- Na estação seca, um vento capaz de levantar poeira do solo ressecado pode às vezes soprar no platô. Por outro lado, na estação chuvosa, as chuvas podem dificultar a locomoção em estradas não pavimentadas.
+
+A agricultura é um setor importante de Madagascar, onde eles cultivam principalmente grãos de baunilha e arroz. A produção de alimentos é o subsetor agrícola mais importante, representando cerca de 75% da área cultivada (2009). O arroz é o alimento básico, cobrindo 1,34 milhão de hectares em todo o país, com exceção de algumas áreas semi-áridas do Sul e do Sudoeste, sob sistemas irrigados e alimentados por chuva. Outras culturas alimentares incluem milho (cultivado principalmente nas regiões sul e centro-leste), mandioca, sorgo (no sul), feijão, amendoim, batata doce e uma grande variedade de vegetais. A mandioca é um componente importante da estratégia de redução de risco do pequeno produtor, pois é tolerante à seca e resistente a doenças. Mandioca, batata doce e milho são a principal fonte de calorias na estação de seca (de setembro a janeiro). O amendoim é cultivado em solos arenosos na maioria dos locais e faz uma importante contribuição para a dieta e a renda das famílias. As principais culturas comerciais são algodão, baunilha, café, lichia, pimenta, tabaco, amendoim, cana-de-açúcar, sisal, cravo e ylang-ylang.
+
+A agricultura em Madagascar é fortemente influenciada pelas chuvas da ilha, que geralmente são abundantes em toda a costa leste, diminuem acentuadamente nas terras altas e caem para menos de 500 mm por ano no sul e no sudoeste. A principal estação de crescimento começa com as primeiras chuvas de outubro a novembro. O calendário de cultivo varia muito de região para região, de acordo com as diferentes condições climáticas, solos e altitude.
+
+A pecuária e a silvicultura também são dois setores importantes em Madagascar, com extensos estandes de ébano, pau-rosa e mogno na costa leste.
+Enquanto o gado é generalizado, cerca de 60% das famílias rurais dependem dele para obter renda. A produção animal é dominada pela criação extensiva de gado, porcos e aves. Há também uma crescente indústria avícola moderna nas principais cidades.
+
+- Mais ao sul, em Fianarantsoa, ​​a 1.200 metros (3.900 pés), o clima é semelhante ao de Antananarivo.
+- No interior, também há montanhas. A montanha mais alta é Maromokotro, 2.876 metros (9.436 pés), localizada no norte da ilha, no Maciço de Tsaratanana. Por outro lado, no sul, ao sul de Fianarantsoa, ​​no Parque Nacional Andringitra, as montanhas mais altas atingem cerca de 2.500 metros (8.200 pés).
+
+A versão mais recente do mod Seasons é necessária.]]></pt>
+        <ro><![CDATA[Central Highlands of Madagascar este un mod GEO pentru Seasons care simulează agricultura în statul Capitala Madagascarului, Antananarivo (fosta Tananarive) din Highlands Central din Madagascar.
+Acest OUG este specificat pentru The Highlands Central din Madagascar.
+
+- Capitala, Antananarivo, este situată la 1.300 de metri (4.300 de metri) deasupra nivelului mării și are un climat plăcut, de fapt, media variază de la 21 ° C (70 ° F) în lunile de vară la 15 ° C (59 ° F) în iulie și august. Iarna este deci destul de mișto. Aici, cele mai bune luni sunt aprilie, septembrie și octombrie.
+- În Antananarivo, ploiește 1.400 mm (55 in) pe an, cea mai mare parte dintre noiembrie și martie.
+- În Antananarivo, cantitatea de soare este moderată; cu toate acestea, atinge un maxim din septembrie până în noiembrie.
+- climatul din interiorul țării este temperat de altitudine, cel puțin la altitudini intermediare, în timp ce peste 2.000 de metri, temperatura pe timp de iarnă poate scădea sub îngheț (0 ° C sau 32 ° F), în special în sud.
+- În sezonul uscat, un vânt care este capabil să ridice praful de pe pământul parcat poate sufla uneori pe platou. Pe de altă parte, în sezonul ploios, ploile pot îngreuna deplasarea pe drumuri neasfaltate.
+
+Agricultura este un sector important din Madagascar, unde cultivă în mare parte boabele de vanilie și orez, producția de culturi alimentare este cel mai important sub-sector agricol, reprezentând aproximativ 75% din suprafața cultivată (2009). Orezul este hrana de bază, care acoperă 1,34 milioane de hectare în întreaga țară, cu excepția unor zone semi-aride din Sud și din Sud-Vest, atât în ​​sistemele de ploaie cât și în cele irigate. Alte culturi alimentare includ porumbul (cultivat în principal în regiunile Sud și Central-Est), manioca, sorgul (în sud), fasolea, nucul, cartofii dulci și o mare varietate de legume. Manuca este o componentă importantă a strategiei de reducere a riscurilor de către micul proprietar, deoarece este tolerantă la secetă și rezistentă la boli. Manuca, cartoful dulce și porumbul sunt principala sursă de calorii în sezonul slab (din septembrie până în ianuarie). Alunul este cultivat pe soluri nisipoase în majoritatea locurilor și contribuie important la alimentația și venitul gospodăriei. Principalele culturi de numerar sunt bumbacul, vanilia, cafeaua, litchi, piper, tutun, nucă, trestie de zahăr, sisal, cuisoare și ylang-ylang.
+
+Agricultura din Madagascar este puternic influențată de precipitațiile insulei, care sunt în general abundente pe întreaga coastă de est, scade brusc pe zonele de munte și scade la mai puțin de 500 mm pe an în sud și sud-vest. Principalul sezon de creștere începe cu primele ploi din octombrie - noiembrie. Calendarul de cultură variază foarte mult de la o regiune la alta, în funcție de condițiile climatice, solurile și altitudinea foarte diferite.
+
+Animalele și silvicultura sunt, de asemenea, două sectoare importante în Madagascar, cu stânduri extinse de abanos, lemn de trandafir și mahon înfloresc pe coasta de est.
+În timp ce zootehnia este răspândită, aproximativ 60 la sută din familiile rurale depind de aceasta pentru venitul lor. Producția animală este dominată de creșterea extensivă a animalelor, porci și păsări de curte. Există, de asemenea, o industrie modernă de pasăre în creștere în jurul principalelor orașe.
+
+- Mai la sud, în Fianarantsoa, ​​la 1.200 de metri, clima este similară cu cea din Antananarivo.
+- În interior, sunt și munți. Cel mai înalt munte este Maromokotro, la 2.876 de metri, situat în nordul insulei, în Masivul Tsaratanana. Pe de altă parte, în sud, la sud de Fianarantsoa, ​​în Parcul Național Andringitra, cei mai înalți munți ating aproximativ 2.500 de metri.
+
+Este necesară cea mai recentă versiune a modului Seasons.]]></ro>
+        <tr><![CDATA[Madagaskar'ın Merkez Yaylaları, Madagaskar'ın Merkez Yaylaları'ndaki Antananarivo (eski adıyla Tananarive) eyaletinde tarımı simüle eden Mevsim için bir GEO modudur.
+Bu GEO, Madagaskar Merkez Yaylası için belirtilmiştir.
+
+- Başkent Antananarivo, deniz seviyesinden 1.300 metre yüksekte yer almaktadır ve aslında hoş bir iklime sahiptir, aslında yaz aylarında ortalama 21 ° C (70 ° F) ile 15 ° C (59 ° F) arasında değişmektedir. ° F) Temmuz ve Ağustos aylarında. Kış bu nedenle oldukça serin. Burada en iyi aylar Nisan, Eylül ve Ekim aylarıdır.
+- Antananarivo ilinde yılda 1.400 mm (55 inç) yağış düşmekte olup, çoğu Kasım-Mart arasında gerçekleşmektedir.
+- Antananarivo'da güneş ışığı orta düzeydedir; ancak eylül ayından kasım ayına kadar maksimuma ulaşır.
+- Ülke içindeki iklim, en azından orta kotlarda, 2.000 metreden (6.500 fit) yüksekken, kış aylarında sıcaklık, özellikle donma derecesinin (0 ° C veya 32 ° F) altına düşebilir. güney.
+- Kuru mevsimde, kavisli zeminden toz toplayabilen bir rüzgar bazen platoda esebilir. Öte yandan, yağışlı mevsimde yağmurlar asfaltsız yollarda dolaşmayı zorlaştırabilir.
+
+Tarım, çoğunlukla Vanilya fasulyesi & Pirinç tarımı yapan Madagaskar'ın önemli bir sektörüdür. Gıda mahsulü üretimi, ekili alanın yaklaşık yüzde 75'ini oluşturan en önemli tarım alt sektörüdür (2009). Pirinç, hem yağmurla beslenen hem de sulanan sistemler altında, Güney ve Güney-Batı'da bazı yarı kurak alanlar hariç, ülke genelinde 1.34 milyon hektarı kapsayan temel yemektir. Diğer gıda ürünleri arasında mısır (çoğunlukla Güney ve Orta Doğu bölgelerinde yetişen), manyok, sorgum (güneyde), fasulye, yer fıstığı, tatlı patates ve çok çeşitli sebzeler bulunur. Manyok, risk alma stratejisinin önemli bir bileşenidir çünkü kuraklığa dayanıklı ve hastalıklara karşı dayanıklıdır. Manyok, tatlı patates ve mısır, yağsız mevsimdeki ana kalori kaynağıdır (eylül ayından ocak ayına kadar). Yer fıstığı çoğu yerde kumlu topraklarda yetişir ve hane halkı diyetine ve gelirine önemli katkı sağlar. Başlıca nakit ürünler pamuk, vanilya, kahve, Çin, karabiber, tütün, yer fıstığı, şeker kamışı, sisal, karanfil ve ylang-ylang'tır.
+
+Madagaskar'daki tarım, genellikle tüm Doğu kıyılarında bol olan adanın yağışlarından büyük ölçüde etkilenir, yaylalarda keskin bir şekilde azalır ve Güney ve Güney-Batı'da yılda 500 mm'nin altına düşer. Ana büyüme mevsimi, ekim-kasım aylarında ilk yağışlarla başlar. Kırpma takvimi çok farklı iklim koşullarına, topraklara ve yüksekliğe göre bölgeden bölgeye büyük ölçüde değişir.
+
+Hayvancılık ve ormancılık da Madagaskar'da iki önemli sektördür; Doğu kıyılarında geniş abanoz, gül ağacı ve maun ayaklıkları vardır.
+Hayvancılık yaygın olmakla birlikte, kırsal ailelerin yaklaşık yüzde 60'ı gelirlerine bağlı olarak değişmektedir. Hayvansal üretim, hayvancılık, domuz ve kümes hayvanı yetiştiriciliğine hakimdir. Ayrıca ana şehirlerin etrafında büyüyen modern bir kümes hayvanları endüstrisi var.
+
+- Daha güneyde, Fianarantsoa'da, 1.200 metrede (3.900 fit), iklim Antananarivo iklimine benzer.
+- İç kısımda da dağlar var. Tsaratanana Masifi'nde en yüksek dağı Maromokotro, adanın kuzeyindeki 2.876 metre (9.436 feet). Öte yandan, güneyde, Fianarantsoa'nın güneyinde, Andringitra Ulusal Parkı'nda en yüksek dağlar yaklaşık 2.500 metreye (8.200 fit) ulaşmaktadır.
+
+Seasons modunun en son sürümü gereklidir.]]></tr>
+    </description>
+    <iconFilename>central_icon.dds</iconFilename>
+    <credits><![CDATA[
+## Translations
+- Castiga]]></credits>
+    <multiplayer supported="true" requiredModName="FS19_RM_Seasons"/>
+    <seasons version="11">
+        <type>geo</type>
+        <dataFolder>data/</dataFolder>
+    </seasons>
+</modDesc>

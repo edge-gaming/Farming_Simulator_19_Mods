@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="47">
+    <author>Edge Gaming / Castiga</author>
+    <version>1.0.0.0</version>
+    <title><!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
+        <en>Russian Grain Silos</en>
+        <de>Russische Getreidesilos</de>
+        <fr>Silos À Grains Russes</fr>
+        <es>Silos De Grano Ruso</es>
+        <ru>Российские Зерновые Бункеры</ru>
+        <pl>Rosyjskie Silosy Zbożowe</pl>
+        <it>Silos Di Grano Russo</it>
+    </title>
+    <description>
+        <en><![CDATA[Some silos for storing your grain. The pack contains 2 farm silos, with several Silo Extensions to be added to the pack soon.
+All buildings are priced according to storage space and size and they all have automatic lighting.
+
+- Supports "Seasons" and "Courseplay Six".
+
+--Technical Info--
+
+New Universal Silo:
+Price: 250.000€
+Upkeep: 45€ Daily.
+Size: 37 x 30 Meters.
+Capacity: 400.000 Litre.
+Overloading Speed 2000 Liters Per Second.
+
+Old Universal Silo:
+Price: 200.000€
+Upkeep: 40€ Daily.
+Size: 37 x 30 Meters.
+Capacity: 350.000 Litre.
+Overloading Speed 2000 Liters Per Second.]]></en>
+
+<de><![CDATA[Einige Silos für die Lagerung von Korn. Die Packung enthält 2 Farmsilos mit mehreren Siloerweiterungen, die der Packung in Kürze hinzugefügt werden.
+Alle Gebäude werden nach Speicherplatz und Größe berechnet und haben eine automatisierte Beleuchtung für die Nacht.
+
+- Unterstützt "Seasons" und "Courseplay Six".
+
+--Technische Information--
+
+Neues Universalsilo:
+Preis: 250.000 €
+Unterhalt: 45 € Täglich.
+Größe: 37 x 30 Meter.
+Fassungsvermögen: 400.000 Liter.
+Überladegeschwindigkeit 2000 Liter pro Sekunde.
+
+Altes Universalsilo:
+Preis: 200.000 €
+Unterhalt: 40 € täglich.
+Größe: 37 x 30 Meter.
+Fassungsvermögen: 350.000 Liter.
+Überladegeschwindigkeit 2000 Liter pro Sekunde.]]></de>
+
+        <fr><![CDATA[Quelques silos pour stocker votre Grain. Le pack contient 2 silos de ferme, avec plusieurs extensions de silo à ajouter prochainement.
+Tous les bâtiments sont tarifés en fonction de l'espace de stockage et de la taille. Tous les bâtiments ont un éclairage automatique.
+
+- Supporte "Seasons" et "Courseplay Six".
+
+--Info technique--
+
+Nouveau silo universel:
+Prix: 250.000 €
+Entretien: 45 € par jour.
+Taille: 37 x 30 mètres.
+Capacité: 400.000 litres.
+Vitesse de surcharge 2000 litres par seconde.
+
+Ancien silo universel:
+Prix: 200.000 €
+Entretien: 40 € par jour.
+Taille: 37 x 30 mètres.
+Capacité: 350.000 litres.
+Vitesse de surcharge 2000 litres par seconde.]]></fr>
+
+        <es><![CDATA[Algunos silos para almacenar tu grano. El paquete contiene 2 silos de granja, con varias extensiones de silos que se agregarán al paquete pronto.
+Todos los edificios tienen un precio según el espacio de almacenamiento y el tamaño y todos tienen iluminación automática.
+
+- Admite "Seasons" y "Courseplay Six".
+
+--Información técnica--
+
+Nuevo silo universal:
+Precio: 250.000 €
+Mantenimiento: 45 € diarios.
+Tamaño: 37 x 30 metros.
+Capacidad: 400.000 litros.
+Velocidad de sobrecarga de 2000 litros por segundo.
+
+Viejo silo universal:
+Precio: 200.000 €
+Mantenimiento: 40 € diario.
+Tamaño: 37 x 30 metros.
+Capacidad: 350.000 litros.
+Velocidad de sobrecarga de 2000 litros por segundo.]]></es>
+
+        <ru><![CDATA[Некоторые бункеры для хранения вашего зерна. Пакет содержит 2 фермерских бункера, и вскоре в него будет добавлено несколько расширений бункеров.
+Все здания оценены в соответствии с местом для хранения и размером, и все они имеют автоматическое освещение.
+
+- Поддерживает «Seasons» и «Courseplay Six».
+
+--Техническая информация--
+
+Новый Универсальный Силос:
+Цена: 250.000 €
+Содержание: 45 € в день.
+Размер: 37 х 30 метров.
+Объем: 400.000 литров.
+Скорость перегрузки 2000 литров в секунду.
+
+Старый Универсальный Силос:
+Цена: 200.000 €
+Содержание: 40 € в день.
+Размер: 37 х 30 метров.
+Объем: 350.000 литров.
+Скорость перегрузки 2000 литров в секунду.]]></ru>
+
+        <pl><![CDATA[Niektóre silosy do przechowywania zboża. Paczka zawiera 2 farmy silosów, z kilkoma rozszerzeniami silosów, które wkrótce zostaną dodane do paczki.
+Wszystkie budynki są wycenione według miejsca do przechowywania i wielkości i wszystkie mają automatyczne oświetlenie.
+
+- Obsługuje „Seasons” i „Courseplay Six”.
+
+--Informacje techniczne--
+
+Nowy uniwersalny silos:
+Cena: 250.000 €
+Utrzymanie: 45 € dziennie.
+Rozmiar: 37 x 30 metrów.
+Pojemność: 400 000 litrów.
+Prędkość przeciążenia 2000 litrów na sekundę.
+
+Stary uniwersalny silos:
+Cena: 200.000 €
+Utrzymanie: 40 € dziennie.
+Rozmiar: 37 x 30 metrów.
+Pojemność: 350 000 litrów.
+Prędkość przeciążenia 2000 litrów na sekundę.]]></pl>
+        <it><![CDATA[Alcuni silos per conservare il grano. Il pacchetto contiene 2 silos agricoli, con diverse estensioni di silos che verranno presto aggiunte al pacchetto.
+Tutti gli edifici hanno un prezzo in base allo spazio di archiviazione e alle dimensioni e hanno tutti l'illuminazione automatica.
+
+- Supporta "Seasons" e "Courseplay Six".
+
+--Informazioni tecniche--
+
+Nuovo silo universale:
+Prezzo: 250.000 €
+Manutenzione: 45 € al giorno.
+Dimensioni: 37 x 30 metri.
+Capacità: 400.000 litri.
+Velocità di sovraccarico 2000 litri al secondo.
+
+Vecchio silo universale:
+Prezzo: 200.000 €
+Manutenzione: 40 € al giorno.
+Dimensioni: 37 x 30 metri.
+Capacità: 350.000 litri.
+Velocità di sovraccarico 2000 litri al secondo.]]></it>
+	</description>
+    <iconFilename>universalSilosIcon.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <storeItems>
+        <storeItem xmlFilename="Silos/universalSiloNew.xml"/>
+        <storeItem xmlFilename="Silos/universalSilo.xml"/>
+    </storeItems>
+	<l10n filenamePrefix="modDesc/modDesc_l10n"/>
+    <brands>
+        <brand name="EDGE" title="EDGE Industries" image="Store/EDGE_Brand_Logo.dds"/>
+    </brands>
+    <credits><![CDATA[
+## Contributors
+- EDGE Gaming, Castiga
+## Translations
+- Castiga]]></credits>
+</modDesc>

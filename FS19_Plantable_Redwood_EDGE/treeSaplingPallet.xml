@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="pallet">
+    <storeData>
+        <name>
+            <en>Pallet Saplings</en></name>
+        <functions>
+            <function>$l10n_function_saplingPallet</function>
+        </functions>
+        <specs>
+            <capacity unit="$l10n_unit_pieces">20</capacity>
+            <fillTypes>treeSaplings</fillTypes>
+        </specs>
+        <image>store_pallet_saplings.png</image>
+        <price>1000</price>
+        <allowLeasing>false</allowLeasing>
+        <canBeSold>false</canBeSold>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <category>pallets</category>
+        <financeCategory>PURCHASE_SAPLINGS</financeCategory>
+        <shopHeight>2.5</shopHeight>
+        <vertexBufferMemoryUsage>33088</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>3336</indexBufferMemoryUsage>
+        <textureMemoryUsage>6291560</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+    <base>
+        <filename>treeSaplingPallet.i3d</filename>
+        <size width="2" length="2" lengthOffset="1"/>
+        <canBeReset>false</canBeReset>
+        <input allowed="false"/>
+        <components>
+            <component centerOfMass="0 0.1 0" solverIterationCount="10" mass="280"/>
+        </components>
+    </base>
+    <dynamicallyLoadedParts>
+        <dynamicallyLoadedPart filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" node="0" linkNode="sappling01"/>
+        <dynamicallyLoadedPart filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" node="0" linkNode="sappling02"/>
+        <dynamicallyLoadedPart filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" node="0" linkNode="sappling03"/>
+        <dynamicallyLoadedPart filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" node="0" linkNode="sappling04"/>
+        <dynamicallyLoadedPart filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" node="0" linkNode="sappling05"/>
+        <dynamicallyLoadedPart filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" node="0" linkNode="sappling06"/>
+        <dynamicallyLoadedPart filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" node="0" linkNode="sappling07"/>
+        <dynamicallyLoadedPart filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" node="0" linkNode="sappling08"/>
+        <dynamicallyLoadedPart filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" node="0" linkNode="sappling09"/>
+        <dynamicallyLoadedPart filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" node="0" linkNode="sappling10"/>
+        <dynamicallyLoadedPart filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" node="0" linkNode="sappling11"/>
+        <dynamicallyLoadedPart filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" node="0" linkNode="sappling12"/>
+        <dynamicallyLoadedPart filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" node="0" linkNode="sappling13"/>
+        <dynamicallyLoadedPart filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" node="0" linkNode="sappling14"/>
+        <dynamicallyLoadedPart filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" node="0" linkNode="sappling15"/>
+        <dynamicallyLoadedPart filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" node="0" linkNode="sappling16"/>
+        <dynamicallyLoadedPart filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" node="0" linkNode="sappling17"/>
+        <dynamicallyLoadedPart filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" node="0" linkNode="sappling18"/>
+        <dynamicallyLoadedPart filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" node="0" linkNode="sappling19"/>
+        <dynamicallyLoadedPart filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" node="0" linkNode="sappling20"/>
+    </dynamicallyLoadedParts>
+    <animations>
+        <animation name="saplingsAnimation">
+            <part node="sappling01" startTime="0.000" endTime="0.049" visibility="false"/>
+            <part node="sappling01" startTime="0.050" endTime="1.000" visibility="true"/>
+            <part node="sappling02" startTime="0.000" endTime="0.099" visibility="false"/>
+            <part node="sappling02" startTime="0.100" endTime="1.000" visibility="true"/>
+            <part node="sappling03" startTime="0.000" endTime="0.149" visibility="false"/>
+            <part node="sappling03" startTime="0.150" endTime="1.000" visibility="true"/>
+            <part node="sappling04" startTime="0.000" endTime="0.199" visibility="false"/>
+            <part node="sappling04" startTime="0.200" endTime="1.000" visibility="true"/>
+            <part node="sappling05" startTime="0.000" endTime="0.249" visibility="false"/>
+            <part node="sappling05" startTime="0.250" endTime="1.000" visibility="true"/>
+            <part node="sappling06" startTime="0.000" endTime="0.299" visibility="false"/>
+            <part node="sappling06" startTime="0.300" endTime="1.000" visibility="true"/>
+            <part node="sappling07" startTime="0.000" endTime="0.349" visibility="false"/>
+            <part node="sappling07" startTime="0.350" endTime="1.000" visibility="true"/>
+            <part node="sappling08" startTime="0.000" endTime="0.399" visibility="false"/>
+            <part node="sappling08" startTime="0.400" endTime="1.000" visibility="true"/>
+            <part node="sappling09" startTime="0.000" endTime="0.449" visibility="false"/>
+            <part node="sappling09" startTime="0.450" endTime="1.000" visibility="true"/>
+            <part node="sappling10" startTime="0.000" endTime="0.499" visibility="false"/>
+            <part node="sappling10" startTime="0.500" endTime="1.000" visibility="true"/>
+            <part node="sappling11" startTime="0.000" endTime="0.549" visibility="false"/>
+            <part node="sappling11" startTime="0.550" endTime="1.000" visibility="true"/>
+            <part node="sappling12" startTime="0.000" endTime="0.599" visibility="false"/>
+            <part node="sappling12" startTime="0.600" endTime="1.000" visibility="true"/>
+            <part node="sappling13" startTime="0.000" endTime="0.649" visibility="false"/>
+            <part node="sappling13" startTime="0.650" endTime="1.000" visibility="true"/>
+            <part node="sappling14" startTime="0.000" endTime="0.699" visibility="false"/>
+            <part node="sappling14" startTime="0.700" endTime="1.000" visibility="true"/>
+            <part node="sappling15" startTime="0.000" endTime="0.749" visibility="false"/>
+            <part node="sappling15" startTime="0.750" endTime="1.000" visibility="true"/>
+            <part node="sappling16" startTime="0.000" endTime="0.799" visibility="false"/>
+            <part node="sappling16" startTime="0.800" endTime="1.000" visibility="true"/>
+            <part node="sappling17" startTime="0.000" endTime="0.849" visibility="false"/>
+            <part node="sappling17" startTime="0.850" endTime="1.000" visibility="true"/>
+            <part node="sappling18" startTime="0.000" endTime="0.899" visibility="false"/>
+            <part node="sappling18" startTime="0.900" endTime="1.000" visibility="true"/>
+            <part node="sappling19" startTime="0.000" endTime="0.949" visibility="false"/>
+            <part node="sappling19" startTime="0.950" endTime="1.000" visibility="true"/>
+            <part node="sappling20" startTime="0.000" endTime="0.999" visibility="false"/>
+            <part node="sappling20" startTime="1.000" endTime="1.000" visibility="true"/>
+        </animation>
+    </animations>
+    <fillUnit>
+        <fillUnitConfigurations>
+            <fillUnitConfiguration>
+                <fillUnits removeVehicleIfEmpty="true">
+                    <fillUnit unit="$l10n_unit_literShort" fillTypes="TREESAPLINGS" capacity="20" startFillType="TREESAPLINGS" startFillLevel="20">
+                        <exactFillRootNode node="exactFillRootNode"/>
+                        <dashboard displayType="ANIMATION" valueType="fillLevel" animName="saplingsAnimation"/>
+                    </fillUnit>
+                </fillUnits>
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+    </fillUnit>
+    <dischargeable requiresTipOcclusionArea="false"/>
+    <dynamicMount triggerNode="palletAttacherTrigger"/>
+    <tensionBeltObject>
+        <meshNodes>
+            <meshNode node="treeSaplingPallet_vis"/>
+        </meshNodes>
+    </tensionBeltObject>
+    <i3dMappings>
+        <i3dMapping id="treeSaplingPallet_vis" node="0>0"/>
+        <i3dMapping id="palletAttacherTrigger" node="0>1"/>
+        <i3dMapping id="exactFillRootNode" node="0>2"/>
+        <i3dMapping id="sappling01" node="0>3|0"/>
+        <i3dMapping id="sappling02" node="0>3|1"/>
+        <i3dMapping id="sappling03" node="0>3|2"/>
+        <i3dMapping id="sappling04" node="0>3|3"/>
+        <i3dMapping id="sappling05" node="0>3|4"/>
+        <i3dMapping id="sappling06" node="0>3|5"/>
+        <i3dMapping id="sappling07" node="0>3|6"/>
+        <i3dMapping id="sappling08" node="0>3|7"/>
+        <i3dMapping id="sappling09" node="0>3|8"/>
+        <i3dMapping id="sappling10" node="0>3|9"/>
+        <i3dMapping id="sappling11" node="0>3|10"/>
+        <i3dMapping id="sappling12" node="0>3|11"/>
+        <i3dMapping id="sappling13" node="0>3|12"/>
+        <i3dMapping id="sappling14" node="0>3|13"/>
+        <i3dMapping id="sappling15" node="0>3|14"/>
+        <i3dMapping id="sappling16" node="0>3|15"/>
+        <i3dMapping id="sappling17" node="0>3|16"/>
+        <i3dMapping id="sappling18" node="0>3|17"/>
+        <i3dMapping id="sappling19" node="0>3|18"/>
+        <i3dMapping id="sappling20" node="0>3|19"/>
+    </i3dMappings>
+</vehicle>

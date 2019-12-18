@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<weather>
+    <annotation>EDGE Gaming AS 2020</annotation>
+    <startValues>
+        <soilTemp>26</soilTemp>
+        <highAirTemp>32</highAirTemp>
+        <snowDepth>0</snowDepth>
+    </startValues>
+    <temperature> <!--Weather data for Crater Bay - Nosy Be (Antsiranana Province), Madagascar-->
+        <dailyMaximum>
+            <value period="3">31.1</value><!--January-->
+            <value period="4">31.1</value><!--February-->
+            <value period="5">31.8</value><!--March-->
+            <value period="6">32.0</value><!--April-->
+            <value period="7">31.2</value><!--May-->
+            <value period="8">30.0</value><!--June-->
+            <value period="9">29.6</value><!--July-->
+            <value period="10">29.9</value><!--August-->
+            <value period="11">31.0</value><!--September-->
+            <value period="12">32.0</value><!--October-->
+            <value period="1">32.0</value><!--November-->
+            <value period="2">31.5</value><!--December-->
+        </dailyMaximum>
+    </temperature>
+    <clouds>
+        <probability>
+            <value period="3">0.35</value><!--January-->
+            <value period="4">0.30</value><!--February-->
+            <value period="5">0.25</value><!--March-->
+            <value period="6">0.28</value><!--April-->
+            <value period="7">0.25</value><!--May-->
+            <value period="8">0.20</value><!--June-->
+            <value period="9">0.18</value><!--July-->
+            <value period="10">0.20</value><!--August-->
+            <value period="11">0.30</value><!--September-->
+            <value period="12">0.45</value><!--October-->
+            <value period="1">0.45</value><!--November-->
+            <value period="2">0.50</value><!--December-->
+        </probability>
+    </clouds>
+    <rain>
+        <probability>
+            <value period="3">0.58</value><!--January-->
+            <value period="4">0.4</value><!--February-->
+            <value period="5">0.19</value><!--March-->
+            <value period="6">0.2</value><!--April-->
+            <value period="7">0.16</value><!--May-->
+            <value period="8">0.16</value><!--June-->
+            <value period="9">0.2</value><!--July-->
+            <value period="10">0.22</value><!--August-->
+            <value period="11">0.43</value><!--September-->
+            <value period="12">0.58</value><!--October-->
+            <value period="1">0.67</value><!--November-->
+            <value period="2">0.68</value><!--December-->
+        </probability>
+        <rainfall>
+            <value period="3">295</value><!--January-->
+            <value period="4">157</value><!--February-->
+            <value period="5">61</value><!--March-->
+            <value period="6">44</value><!--April-->
+            <value period="7">37</value><!--May-->
+            <value period="8">36</value><!--June-->
+            <value period="9">39</value><!--July-->
+            <value period="10">84</value><!--August-->
+            <value period="11">148</value><!--September-->
+            <value period="12">371</value><!--October-->
+            <value period="1">518</value><!--November-->
+            <value period="2">436</value><!--December-->
+        </rainfall>
+    </rain>
+    <wind>
+        <speed>
+            <value period="3">15.90</value><!--January-->
+            <value period="4">12.20</value><!--February-->
+            <value period="5">10.60</value><!--March-->
+            <value period="6">11.00</value><!--April-->
+            <value period="7">10.80</value><!--May-->
+            <value period="8">12.90</value><!--June-->
+            <value period="9">10.50</value><!--July-->
+            <value period="10">12.90</value><!--August-->
+            <value period="11">15.00</value><!--September-->
+            <value period="12">14.70</value><!--October-->
+            <value period="1">14.60</value><!--November-->
+            <value period="2">13.50</value><!--December-->
+        </speed>
+    </wind>
+    <hail>
+        <probability>
+            <value season="0">0.00</value>
+            <value season="1">0.00</value>
+            <value season="2">0.00</value>
+            <value season="3">0.00</value>
+        </probability>
+    </hail>
+</weather>

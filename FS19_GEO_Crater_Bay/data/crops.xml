@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<crops>
+	<annotation>EDGE Gaming AS 2020</annotation>
+    <version>2</version>
+	<growth overwrite="true">
+        <defaultCrops>
+            <defaultCrop name="BARLEY"/>
+            <defaultCrop name="OAT"/>
+            <defaultCrop name="WHEAT"/>
+            <defaultCrop name="CANOLA"/>
+            <defaultCrop name="MAIZE"/>
+            <defaultCrop name="SOYBEAN"/>
+            <defaultCrop name="SUNFLOWER"/>
+            <defaultCrop name="POTATO"/>
+            <defaultCrop name="SUGARBEET"/>
+            <defaultCrop name="SUGARCANE"/>
+            <defaultCrop name="COTTON"/>
+            <defaultCrop name="POPPY"/>
+            <defaultCrop name="POPPYFLOWER"/>
+            <defaultCrop name="HEMP"/>
+            <defaultCrop name="POPLAR"/>
+            <defaultCrop name="GRASS"/>
+            <defaultCrop name="OILSEEDRADISH"/>
+            <defaultCrop name="WEED"/>
+            <defaultCrop name="DRYGRASS"/>
+        </defaultCrops>
+
+		<growthTransitions>
+			<gt index="1"> <!--late winter to early spring-->
+                <crop name="BARLEY" incrementByOneRange="4"/>
+                <crop name="OAT" incrementByOneRange="3-4"/>
+                <crop name="WHEAT" incrementByOneRange="2-5"/>
+                <crop name="CANOLA" incrementByOneRange="3-5"/>
+                <crop name="MAIZE" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="SOYBEAN" setRange="1-MAX" setTo="WITHERED"/>
+				<crop name="SUNFLOWER" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="GRASS" incrementByOneRange="1-MAX"/>
+                <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
+				<crop name="SUGARCANE" incrementByOneRange="6"/>
+				<crop name="COTTON" setRange="1-MAX" setTo="WITHERED"/>
+				<crop name="POPPY" incrementByOneRange="4-5"/>
+				<crop name="POTATO" setRange="1-6" setTo="CUT" incrementByOneRange="7"/>
+				<crop name="SUGARBEET" setRange="1-6" setTo="CUT" incrementByOneRange="7"/>
+				<crop name="POPPYFLOWER" incrementByOneRange="4-5"/>
+				<crop name="HEMP" incrementByOneRange="4-5"/>
+            </gt>
+			<gt index="2"> <!--early spring to mid spring-->
+                <crop name="BARLEY" incrementByRange="4-5" incrementBy="2"/>
+                <crop name="OAT" incrementByOneRange="4-5"/>
+                <crop name="WHEAT" incrementByOneRange="3-6"/>
+                <crop name="CANOLA" incrementByOneRange="4-6"/>
+                <crop name="MAIZE" incrementByOneRange="1"/>
+                <crop name="SOYBEAN" setRange="1-MAX" setTo="WITHERED"/>
+				<crop name="SUNFLOWER" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="POPLAR" incrementByOneRange="1-MAX" setRange="CUT" setTo="2"/>
+                <crop name="GRASS" incrementByOneRange="1-MAX"/>
+                <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
+				<crop name="SUGARCANE" incrementByOneRange="6"/>
+				<crop name="COTTON" setRange="1-MAX" setTo="WITHERED"/>
+				<crop name="POPPY" incrementByOneRange="4-5"/>
+				<crop name="POTATO" incrementByOneRange="1"/>
+				<crop name="SUGARBEET" incrementByOneRange="1"/>
+				<crop name="POPPYFLOWER" incrementByOneRange="4-5"/>
+				<crop name="HEMP" incrementByOneRange="4-5"/>
+            </gt>
+			<gt index="3"> <!--mid spring to late spring-->
+                <crop name="BARLEY" incrementByOneRange="6"/>
+                <crop name="OAT" incrementByOneRange="5-6"/>
+                <crop name="WHEAT" incrementByOneRange="4-6"/>
+                <crop name="CANOLA" incrementByOneRange="6" incrementByRange="4-5" incrementBy="2"/>
+                <crop name="MAIZE" incrementByOneRange="1-2"/>
+                <crop name="SOYBEAN" incrementByOneRange="1"/>
+                <crop name="SUNFLOWER" incrementByOneRange="1"/>
+                <crop name="GRASS" incrementByOneRange="1-MAX" setRange="CUT" setTo="2"/>
+                <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
+				<crop name="SUGARCANE" setRange="1-MAX" setTo="CUT"/>
+				<crop name="COTTON" incrementByOneRange="1"/>
+				<crop name="POPPY" incrementByOneRange="5-6"/>
+				<crop name="POTATO" incrementByOneRange="1"/>
+				<crop name="SUGARBEET" incrementByOneRange="1"/>
+				<crop name="POPPYFLOWER" incrementByOneRange="5-6"/>
+				<crop name="HEMP" incrementByOneRange="5-6"/>
+            </gt>
+			<gt index="4"> <!--late spring to early summer-->
+                <crop name="BARLEY" incrementByOneRange="6"/>
+                <crop name="OAT" incrementByOneRange="6"/>
+                <crop name="WHEAT" incrementByOneRange="6" incrementByRange="4-5" incrementBy="2"/>
+                <crop name="CANOLA" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="MAIZE" incrementByOneRange="1-3"/>
+                <crop name="SOYBEAN" incrementByOneRange="1-2"/>
+                <crop name="SUNFLOWER" incrementByOneRange="1-2"/>
+                <crop name="GRASS" incrementByOneRange="1-MAX"/>
+                <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
+				<crop name="SUGARCANE" incrementByOneRange="1"/>
+				<crop name="COTTON" incrementByOneRange="1-2"/>
+				<crop name="POPPY" incrementByOneRange="6"/>
+				<crop name="POTATO" incrementByRange="2-5" incrementBy="2" setRange="1" setTo="2"/>
+				<crop name="SUGARBEET" incrementByRange="2-5" incrementBy="2" setRange="1" setTo="2"/>
+				<crop name="POPPYFLOWER" incrementByOneRange="6"/>
+				<crop name="HEMP" incrementByOneRange="6"/>
+            </gt>
+			<gt index="5"> <!--early summer to mid summer-->
+                <crop name="BARLEY" incrementByOneRange="6"/>
+                <crop name="OAT" incrementByOneRange="6"/>
+                <crop name="WHEAT" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="CANOLA" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="MAIZE" incrementByOneRange="1-4"/>
+                <crop name="SOYBEAN" incrementByOneRange="1-3"/>
+                <crop name="SUNFLOWER" incrementByOneRange="1-3"/>
+                <crop name="POPLAR" incrementByOneRange="1-MAX"/>
+                <crop name="GRASS" incrementByOneRange="1-MAX"/>
+                <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
+				<crop name="SUGARCANE" incrementByOneRange="1-2" setRange="CUT" setTo="2"/>
+				<crop name="COTTON" incrementByOneRange="1-3"/>
+				<crop name="POPPY" incrementByOneRange="4-5"/>
+				<crop name="POTATO" incrementByRange="2-5" incrementBy="2" setRange="1" setTo="2"/>
+				<crop name="SUGARBEET" incrementByRange="2-5" incrementBy="2" setRange="1" setTo="2"/>
+				<crop name="POPPYFLOWER" incrementByOneRange="4-5"/>
+				<crop name="HEMP" incrementByOneRange="4-5"/>
+            </gt>
+			<gt index="6"> <!--mid summer to late summer-->
+                <crop name="BARLEY" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="OAT" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="WHEAT" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="CANOLA" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="MAIZE" incrementByOneRange="1-5"/>
+                <crop name="SOYBEAN" incrementByOneRange="2-4"/>
+                <crop name="SUNFLOWER" incrementByOneRange="2-4"/>
+                <crop name="GRASS" incrementByOneRange="1-MAX" setRange="CUT" setTo="2"/>
+                <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
+				<crop name="SUGARCANE" incrementByOneRange="1-3"/>
+				<crop name="COTTON" incrementByOneRange="1-4"/>
+				<crop name="POPPY" incrementByOneRange="WITHERED"/>
+				<crop name="POTATO" incrementByOneRange="6"/>
+				<crop name="SUGARBEET" incrementByOneRange="6"/>
+				<crop name="POPPYFLOWER" incrementByOneRange="WITHERED"/>
+				<crop name="HEMP" incrementByOneRange="WITHERED"/>
+            </gt>
+			<gt index="7"> <!--late summer to early autumn-->
+                <crop name="BARLEY" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="OAT" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="WHEAT" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="CANOLA" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="MAIZE" incrementByOneRange="2-6"/>
+                <crop name="SOYBEAN" incrementByOneRange="3-5"/>
+				<crop name="SUNFLOWER" incrementByOneRange="3-5"/>
+                <crop name="GRASS" incrementByOneRange="1-MAX"/>
+                <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
+				<crop name="SUGARCANE" incrementByOneRange="1-4"/>
+				<crop name="COTTON" incrementByOneRange="2-5"/>
+				<crop name="POPPY" incrementByOneRange="WITHERED"/>
+				<crop name="POTATO" incrementByOneRange="6"/>
+				<crop name="SUGARBEET" incrementByOneRange="6"/>
+				<crop name="POPPYFLOWER" incrementByOneRange="WITHERED"/>
+				<crop name="HEMP" incrementByOneRange="WITHERED"/>
+            </gt>
+			<gt index="8"> <!--early autumn to mid autumn-->
+                <crop name="BARLEY" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="OAT" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="WHEAT" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="CANOLA" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="MAIZE" incrementByOneRange="3-6"/>
+                <crop name="SOYBEAN" incrementByOneRange="4-6"/>
+				<crop name="SUNFLOWER" incrementByOneRange="4-6"/>
+                <crop name="POPLAR" incrementByOneRange="1-MAX" setRange="CUT" setTo="2"/>
+                <crop name="GRASS" incrementByOneRange="1-MAX"/>
+                <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
+				<crop name="SUGARCANE" incrementByOneRange="1-5"/>
+				<crop name="COTTON" incrementByOneRange="3-6"/>
+				<crop name="POPPY" incrementByOneRange="WITHERED"/>
+				<crop name="POTATO" setRange="1-6" setTo="CUT" incrementByOneRange="7"/>
+				<crop name="SUGARBEET" setRange="1-6" setTo="CUT" incrementByOneRange="7"/>
+				<crop name="POPPYFLOWER" incrementByOneRange="WITHERED"/>
+				<crop name="HEMP" incrementByOneRange="WITHERED"/>
+            </gt>
+			<gt index="9"> <!--mid autumn to late autumn-->
+                <crop name="BARLEY" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="OAT" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="WHEAT" incrementByOneRange="1"/>
+                <crop name="CANOLA" incrementByOneRange="1"/>
+                <crop name="MAIZE" incrementByOneRange="4-6"/>
+                <crop name="SOYBEAN" incrementByOneRange="5-6"/>
+                <crop name="SUNFLOWER" incrementByOneRange="5-6"/>
+                <crop name="GRASS" incrementByOneRange="1-MAX" setRange="CUT" setTo="2"/>
+                <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
+				<crop name="SUGARCANE" incrementByOneRange="2-6"/>
+				<crop name="COTTON" incrementByOneRange="4-6"/>
+				<crop name="POPPY" incrementByOneRange="1"/>
+				<crop name="POTATO" setRange="1-6" setTo="CUT" incrementByOneRange="7"/>
+				<crop name="SUGARBEET" setRange="1-6" setTo="CUT" incrementByOneRange="7"/>
+				<crop name="POPPYFLOWER" incrementByOneRange="1"/>
+				<crop name="HEMP" incrementByOneRange="1"/>
+            </gt>
+			<gt index="10"> <!--late autumn to early winter-->
+                <crop name="BARLEY" incrementByOneRange="1"/>
+                <crop name="OAT" incrementByOneRange="1"/>
+                <crop name="WHEAT" incrementByOneRange="1-2"/>
+                <crop name="CANOLA" incrementByOneRange="1-2"/>
+                <crop name="MAIZE" incrementByOneRange="5-6"/>
+                <crop name="SOYBEAN" incrementByOneRange="6"/>
+                <crop name="SUNFLOWER" incrementByOneRange="6"/>
+                <crop name="GRASS" incrementByOneRange="1-MAX"/>
+                <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
+				<crop name="SUGARCANE" incrementByOneRange="3-6"/>
+				<crop name="COTTON" incrementByOneRange="5-6"/>
+				<crop name="POPPY" incrementByOneRange="1"/>
+				<crop name="POTATO" setRange="1-6" setTo="CUT" incrementByOneRange="7"/>
+				<crop name="SUGARBEET" setRange="1-6" setTo="CUT" incrementByOneRange="7"/>
+				<crop name="POPPYFLOWER" incrementByOneRange="1"/>
+				<crop name="HEMP" incrementByOneRange="1"/>
+            </gt>
+			<gt index="11"> <!--early winter to mid winter-->
+                <crop name="BARLEY" incrementByOneRange="2"/>
+                <crop name="OAT" incrementByOneRange="1-2"/>
+                <crop name="WHEAT" incrementByOneRange="1-3"/>
+                <crop name="CANOLA" incrementByOneRange="1-3"/>
+                <crop name="MAIZE" incrementByOneRange="6"/>
+                <crop name="SOYBEAN" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="SUNFLOWER" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="POPLAR" incrementByOneRange="1-MAX"/>
+                <crop name="GRASS" incrementByOneRange="1-MAX"/>
+                <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
+				<crop name="SUGARCANE" incrementByOneRange="4-6"/>
+				<crop name="COTTON" incrementByOneRange="6"/>
+				<crop name="POPPY" incrementByOneRange="1-2"/>
+				<crop name="POTATO" setRange="1-6" setTo="CUT" incrementByOneRange="7"/>
+				<crop name="SUGARBEET" setRange="1-6" setTo="CUT" incrementByOneRange="7"/>
+				<crop name="POPPYFLOWER" incrementByOneRange="1-2"/>
+				<crop name="HEMP" incrementByOneRange="1-2"/>
+            </gt>
+			<gt index="12"> <!--mid winter to late winter-->
+				<crop name="BARLEY" incrementByOneRange="3"/>
+                <crop name="OAT" incrementByOneRange="2-3"/>
+                <crop name="WHEAT" incrementByOneRange="1-4"/>
+                <crop name="CANOLA" incrementByOneRange="2-4"/>
+                <crop name="MAIZE" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="SOYBEAN" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="SUNFLOWER" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="GRASS" incrementByOneRange="1-MAX" setRange="CUT" setTo="2"/>
+                <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
+				<crop name="SUGARCANE" incrementByOneRange="5-6"/>
+				<crop name="COTTON" setRange="1-MAX" setTo="WITHERED"/>
+				<crop name="POPPY" incrementByOneRange="2-3"/>
+				<crop name="POTATO" setRange="1-6" setTo="CUT" incrementByOneRange="7"/>
+				<crop name="SUGARBEET" setRange="1-6" setTo="CUT" incrementByOneRange="7"/>
+				<crop name="POPPYFLOWER" incrementByOneRange="2-3"/>
+				<crop name="HEMP" incrementByOneRange="2-3"/>
+            </gt>
+            <gt index="FIRST_LOAD_TRANSITION">
+                <crop name="BARLEY" setRange="1-MAX" setTo="CUT"/>
+                <crop name="COTTON" setRange="1-MAX" setTo="CUT"/>
+                <crop name="SUGARCANE" setRange="1-MAX" setTo="1"/>
+                <crop name="OAT" setRange="1-MAX" setTo="CUT"/>
+                <crop name="WHEAT" setRange="1-MAX" setTo="CUT"/>
+                <crop name="CANOLA" setRange="1-MAX" setTo="CUT"/>
+                <crop name="MAIZE" setRange="1-MAX" setTo="CUT"/>
+                <crop name="SOYBEAN" setRange="1-MAX" setTo="CUT"/>
+                <crop name="SUNFLOWER" setRange="1-MAX" setTo="CUT"/>
+                <crop name="POTATO" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="SUGARBEET" setRange="1-MAX" setTo="WITHERED"/>
+                <crop name="POPLAR" setRange="1-MAX" setTo="CUT"/>
+                <crop name="GRASS" setRange="1-MAX" setTo="CUT"/>
+                <crop name="OILSEEDRADISH" setRange="1-MAX" setTo="CUT"/>
+                <crop name="POPPY" setRange="1-MAX" setTo="CUT"/>
+                <crop name="POPPYFLOWER" setRange="1-MAX" setTo="CUT"/>
+                <crop name="HEMP" setRange="1-MAX" setTo="CUT"/>
+            </gt>
+		</growthTransitions>
+    </growth>
+	<fruitTypes>
+        <!-- when adding growth for new crops the following at a minimum need to be defined in this section.
+
+        <fruitType name="NEW_CROP">
+            <growth germinateTemp="5"
+                    germinatesoilMoisture="5"
+                    youngPlantMaxState="4"
+                    maxFertiliseState="4"/>
+            <options    seedDroughtResistanceFactor="1"
+                        youngPlantDroughtResistanceFactor="2"
+                        maturePlantDroughtResistanceFactor="3"
+                        seedFrostResistanceFactor="3"
+                        youngPlantFrostResistanceFactor="4"
+                        maturePlantFrostResistanceFactor="1"/>
+            <rotation category="CEREAL"
+                      returnPeriod="2" />
+        </fruitType> -->
+
+        <!--resistance ratings: (float so 1.2 is possible). DO NOT SET ABOVE 4
+        4 = resistant (no damage)
+        3 = min damage
+        2 = medium damage
+        1 = max damage -->
+
+        <!-- There is no need to include the below in your geo as it will be loaded by Seasons.
+             if you want to change a value for a crop all you need to include is the value that you are changing.
+             E.g. changing the germinaition temperature of Barley
+            <fruitType name="BARLEY">
+                <growth germinateTemp="3" />
+            </fruitType> -->
+
+		<fruitType name="POPPY">
+            <cultivation plantsWeed="true"/>
+            <growth germinateTemp="15"
+                    germinatesoilMoisture="4"
+                    youngPlantMaxState="4"
+                    maxFertiliseState="4"/>
+            <options    seedDroughtResistanceFactor="1"
+                        youngPlantDroughtResistanceFactor="2"
+                        maturePlantDroughtResistanceFactor="3"
+                        seedFrostResistanceFactor="3"
+                        youngPlantFrostResistanceFactor="4"
+                        maturePlantFrostResistanceFactor="1"/>
+            <rotation category="CEREAL"
+                      returnPeriod="2" />
+        </fruitType>
+		<fruitType name="POPPYFLOWER">
+            <cultivation plantsWeed="true"/>
+            <growth germinateTemp="15"
+                    germinatesoilMoisture="5"
+                    youngPlantMaxState="4"
+                    maxFertiliseState="4"/>
+            <options    seedDroughtResistanceFactor="1"
+                        youngPlantDroughtResistanceFactor="2"
+                        maturePlantDroughtResistanceFactor="3"
+                        seedFrostResistanceFactor="3"
+                        youngPlantFrostResistanceFactor="4"
+                        maturePlantFrostResistanceFactor="1"/>
+            <rotation category="CEREAL"
+                      returnPeriod="2" />
+        </fruitType>
+		<fruitType name="HEMP">
+            <cultivation plantsWeed="true"/>
+            <growth germinateTemp="6"
+                    germinatesoilMoisture="5"
+                    youngPlantMaxState="4"
+                    maxFertiliseState="4"/>
+            <options    seedDroughtResistanceFactor="1"
+                        youngPlantDroughtResistanceFactor="2"
+                        maturePlantDroughtResistanceFactor="3"
+                        seedFrostResistanceFactor="3"
+                        youngPlantFrostResistanceFactor="4"
+                        maturePlantFrostResistanceFactor="1"/>
+            <rotation category="CEREAL"
+                      returnPeriod="2" />
+        </fruitType>
+    </fruitTypes>
+</crops><!-- TODO:  -consider mature plant damage factor to hot and maybe make heat damage more intense
+					-Adding "RICE" to the crop table-->

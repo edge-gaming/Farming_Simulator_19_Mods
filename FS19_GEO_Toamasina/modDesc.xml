@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="47">
+    <author>EDGE Gaming / Castiga</author>
+    <version>1.0.0.0</version>
+    <title><!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
+        <en>Seasons GEO: The East Coast of Madagascar</en>
+        <de>Seasons GEO: Die Ostküste Von Madagaskar</de>
+        <fr>Seasons GEO: La Côte Est De Madagascar</fr>
+        <es>Seasons GEO: La Costa Este De Madagascar</es>
+        <ru>Времена Года GEO: Восточное Побережье Мадагаскара</ru>
+        <pl>Seasons GEO: Wschodnie Wybrzeże Madagaskaru</pl>
+        <it>Seasons GEO: La Costa Orientale Del Madagascar</it>
+        <br>Estações GEO: A Costa Leste De Madagascar</br>
+        <cs>季节GEO：马达加斯加东海岸</cs>
+        <ct>GEO季節：馬達加斯加東海岸</ct>
+        <cz>Seasons GEO: Východní Pobřeží Madagaskaru</cz>
+        <nl>Seizoenen GEO: De Oostkust Van Madagaskar</nl>
+        <hu>GEO Évszakok: Madagaszkár Keleti Partja</hu>
+        <jp>シーズンズGEO：マダガスカルの東海岸</jp>
+        <kr>시즌 GEO : 마다가스카르의 동부 해안</kr>
+        <pt>Estações GEO: A Costa Leste De Madagascar</pt>
+        <ro>Sezoane GEO: Coasta De Est A Madagascarului</ro>
+        <tr>Mevsim GEO: Madagaskar'ın Doğu Kıyısı</tr>
+    </title>
+    <description>
+        <en><![CDATA[The East Coast of Madagascar is a GEO mod for Seasons that simulates agriculture in the state of Toamasina (formerly Tamatave) on The East Coast of Madagascar (Region of Atsinanana).
+This GEO is specified for The The East Coast of Madagascar.
+
+- In Toamasina there is 3,350 millimeters (132 inches) of rain fall per year. In March, which is the rainiest month, rainfall exceeds 400 mm (16 in). The only period when the rains are not too heavy is from September to November, and this is true in general for the entire east coast.
+- You can notice the decrease during the austral winter: in July and August, the daily average is 21 °C (70 °F).
+- On the east coast, the sun does not shine very often, since the rains are frequent all year round. However, the sunniest season is the winter, from May to August, when the trade winds directly hit the coast, while the sunniest months (albeit slightly) are October and November.
+- The temperature of the sea on the east coast is high enough for swimming all year round, although it decreases a bit from July to October.
+
+Agriculture is an important sector of Madagascar where they farm mostly Vanilla beans & Rice, Food crop production is the most important agriculture sub-sector accounting for around 75 percent of the cultivated area (2009). Rice is the staple food, covering 1.34 million hectares throughout the country, with the exception of some semi-arid areas in the South and in the South-West, under both rain-fed and irrigated systems. Other food crops include maize (mainly grown in the South and Central-East regions), cassava, sorghum (in the South), beans, groundnut, sweet potatoes and a wide variety of vegetables. Cassava is an important component of the smallholder’s risk reduction strategy because it is drought tolerant and resistant to disease. Cassava, sweet potato and maize are the main source of calories in the lean season (from September to January). Groundnut is cultivated on sandy soils in most locations and makes an important contribution to household diet and income. The main cash crops are cotton, vanilla, coffee, litchi, pepper, tobacco, groundnut, sugar cane, sisal, clove and ylang-ylang.
+
+Agriculture in Madagascar is heavily influenced by the island's rainfall, which is generally abundant on the whole East coast, decreases sharply on the highlands, and falls to less than 500 mm per year in the South and South-West. The main growing season starts with the first rains in October – November. The cropping calendar greatly varies from region to region, according to the very different climatic conditions, soils and altitude.
+
+Livestock and forestry are also two important sectors in Madagascar, with extensive stands of ebony, rosewood and mahogany flourish on the East coast.
+While Livestock is widespread, with about 60 percent of rural families depending on it for their income. Animal production is dominated by extensive livestock rearing, pigs and poultry. There is also a growing modern poultry industry around the main cities.
+
+- To the north of Toamasina, we find an island, Sainte-Marie. Between July and September, the humpback whales that come from the Antarctic seas and congregate for breeding in the channel between the island of Sainte-Marie and the coast of Madagascar, are often observed in a rainy context.
+
+The latest version of the Seasons mod is required.
+
+Changelog 1.0.0.0:
+- Initial Realease.]]></en>
+        <de><![CDATA[Die Ostküste Madagaskars ist eine GEO-Modifikation für Jahreszeiten, die die Landwirtschaft im Bundesstaat Toamasina (ehemals Tamatave) an der Ostküste Madagaskars simuliert.
+Dieser GEO ist für Die Ostküste von Madagaskar spezifiziert.
+
+- In Toamasina fallen jährlich 3.350 Millimeter Niederschlag. Im März, dem regnerischsten Monat, beträgt die Niederschlagsmenge mehr als 400 mm. Die einzige Zeit, in der der Regen nicht zu stark ist, ist von September bis November, und dies gilt im Allgemeinen für die gesamte Ostküste.
+- Im australischen Winter ist ein Rückgang zu beobachten: Im Juli und August liegt der Tagesdurchschnitt bei 21 ° C.
+- An der Ostküste scheint die Sonne nicht sehr oft, da es das ganze Jahr über häufig regnet. Die sonnigste Jahreszeit ist jedoch der Winter von Mai bis August, in dem die Passatwinde direkt auf die Küste treffen, während die sonnigsten Monate (wenn auch leicht) Oktober und November sind.
+- Die Temperatur des Meeres an der Ostküste ist hoch genug, um das ganze Jahr über zu schwimmen, obwohl sie von Juli bis Oktober etwas abnimmt.
+
+Die Landwirtschaft ist ein wichtiger Sektor Madagaskars, in dem hauptsächlich Vanilleschoten und Reis angebaut werden. Die Nahrungsmittelproduktion ist der wichtigste Teilsektor der Landwirtschaft und macht rund 75 Prozent der Anbaufläche aus (2009). Reis ist das Grundnahrungsmittel und bedeckt 1,34 Millionen Hektar im ganzen Land, mit Ausnahme einiger halbtrockener Gebiete im Süden und im Südwesten, sowohl mit Regen als auch mit Bewässerung. Weitere Nahrungspflanzen sind Mais (hauptsächlich in den Regionen Süd- und Zentralostasien angebaut), Maniok, Sorghum (im Süden), Bohnen, Erdnüsse, Süßkartoffeln und eine Vielzahl von Gemüsen. Maniok ist ein wichtiger Bestandteil der Risikominderungsstrategie des Kleinbauern, da er trockenheitstolerant und krankheitsresistent ist. Maniok, Süßkartoffel und Mais sind die Hauptkalorienquelle in der mageren Jahreszeit (von September bis Januar). Erdnuss wird an den meisten Standorten auf sandigen Böden angebaut und leistet einen wichtigen Beitrag zur Ernährung und zum Haushaltseinkommen. Die wichtigsten Erntegüter sind Baumwolle, Vanille, Kaffee, Litschi, Pfeffer, Tabak, Erdnuss, Zuckerrohr, Sisal, Nelke und Ylang-Ylang.
+
+Die Landwirtschaft in Madagaskar wird stark von den Niederschlägen der Insel beeinflusst, die in der Regel an der gesamten Ostküste reichlich sind, im Hochland stark abnehmen und im Süden und Südwesten auf weniger als 500 mm pro Jahr sinken. Die Hauptwachstumszeit beginnt mit den ersten Regenfällen von Oktober bis November. Der Erntekalender variiert stark von Region zu Region, je nach den sehr unterschiedlichen klimatischen Bedingungen, Böden und Höhenlagen.
+
+Viehzucht und Forstwirtschaft sind auch zwei wichtige Sektoren in Madagaskar. An der Ostküste gedeihen umfangreiche Bestände aus Ebenholz, Rosenholz und Mahagoni.
+Während Viehzucht weit verbreitet ist, sind etwa 60 Prozent der ländlichen Familien auf dieses Vieh angewiesen, um ihr Einkommen zu sichern. Die Tierproduktion wird von extensiver Viehzucht, Schweinen und Geflügel dominiert. Es gibt auch eine wachsende moderne Geflügelindustrie in den Hauptstädten.
+
+- Nördlich von Toamasina finden wir eine Insel, Sainte-Marie. Zwischen Juli und September werden die Buckelwale, die aus der Antarktis kommen und sich auf dem Kanal zwischen der Insel Sainte-Marie und der Küste Madagaskars zur Brut sammeln, häufig im Regenfall beobachtet.
+
+Es wird die neuste Version vom Seasons mod benötigt.
+
+Änderungsprotokoll 1.0.0.0:
+- Erstveröffentlichung.]]></de>
+        <fr><![CDATA[Die Ostküste Madagaskars ist eine GEO-Modifikation für Jahreszeiten, die die Landwirtschaft im Bundesstaat Toamasina (ehemals Tamatave) an der Ostküste Madagaskars simuliert.
+Dieser GEO ist für Die Ostküste von Madagaskar spezifiziert.
+
+- In Toamasina fallen jährlich 3.350 Millimeter Niederschlag. Im März, dem regnerischsten Monat, beträgt die Niederschlagsmenge mehr als 400 mm. Die einzige Zeit, in der der Regen nicht zu stark ist, ist von September bis November, und dies gilt im Allgemeinen für die gesamte Ostküste.
+- Im australischen Winter ist ein Rückgang zu beobachten: Im Juli und August liegt der Tagesdurchschnitt bei 21 ° C.
+- An der Ostküste scheint die Sonne nicht sehr oft, da es das ganze Jahr über häufig regnet. Die sonnigste Jahreszeit ist jedoch der Winter von Mai bis August, in dem die Passatwinde direkt auf die Küste treffen, während die sonnigsten Monate (wenn auch leicht) Oktober und November sind.
+- Die Temperatur des Meeres an der Ostküste ist hoch genug, um das ganze Jahr über zu schwimmen, obwohl sie von Juli bis Oktober etwas abnimmt.
+
+Die Landwirtschaft ist ein wichtiger Sektor Madagaskars, in dem hauptsächlich Vanilleschoten und Reis angebaut werden. Die Nahrungsmittelproduktion ist der wichtigste Teilsektor der Landwirtschaft und macht rund 75 Prozent der Anbaufläche aus (2009). Reis ist das Grundnahrungsmittel und bedeckt 1,34 Millionen Hektar im ganzen Land, mit Ausnahme einiger halbtrockener Gebiete im Süden und im Südwesten, sowohl mit Regen als auch mit Bewässerung. Weitere Nahrungspflanzen sind Mais (hauptsächlich in den Regionen Süd- und Zentralostasien angebaut), Maniok, Sorghum (im Süden), Bohnen, Erdnüsse, Süßkartoffeln und eine Vielzahl von Gemüsen. Maniok ist ein wichtiger Bestandteil der Risikominderungsstrategie des Kleinbauern, da er trockenheitstolerant und krankheitsresistent ist. Maniok, Süßkartoffel und Mais sind die Hauptkalorienquelle in der mageren Jahreszeit (von September bis Januar). Erdnuss wird an den meisten Standorten auf sandigen Böden angebaut und leistet einen wichtigen Beitrag zur Ernährung und zum Haushaltseinkommen. Die wichtigsten Erntegüter sind Baumwolle, Vanille, Kaffee, Litschi, Pfeffer, Tabak, Erdnuss, Zuckerrohr, Sisal, Nelke und Ylang-Ylang.
+
+Die Landwirtschaft in Madagaskar wird stark von den Niederschlägen der Insel beeinflusst, die in der Regel an der gesamten Ostküste reichlich sind, im Hochland stark abnehmen und im Süden und Südwesten auf weniger als 500 mm pro Jahr sinken. Die Hauptwachstumszeit beginnt mit den ersten Regenfällen von Oktober bis November. Der Erntekalender variiert stark von Region zu Region, je nach den sehr unterschiedlichen klimatischen Bedingungen, Böden und Höhenlagen.
+
+Viehzucht und Forstwirtschaft sind auch zwei wichtige Sektoren in Madagaskar. An der Ostküste gedeihen umfangreiche Bestände aus Ebenholz, Rosenholz und Mahagoni.
+Während Viehzucht weit verbreitet ist, sind etwa 60 Prozent der ländlichen Familien auf dieses Vieh angewiesen, um ihr Einkommen zu sichern. Die Tierproduktion wird von extensiver Viehzucht, Schweinen und Geflügel dominiert. Es gibt auch eine wachsende moderne Geflügelindustrie in den Hauptstädten.
+
+- Nördlich von Toamasina finden wir eine Insel, Sainte-Marie. Zwischen Juli und September werden die Buckelwale, die aus der Antarktis kommen und sich auf dem Kanal zwischen der Insel Sainte-Marie und der Küste Madagaskars zur Brut sammeln, häufig im Regenfall beobachtet.
+
+La dernière version du mod Seasons est nécessaire.
+
+Changer le journal 1.0.0.0:
+- Première version.]]></fr>
+        <es><![CDATA[La costa este de Madagascar es un mod GEO para Seasons que simula la agricultura en el estado de Toamasina (anteriormente Tamatave) en la costa este de Madagascar.
+Este GEO se especifica para La costa este de Madagascar.
+
+- En Toamasina hay 3.350 milímetros (132 pulgadas) de lluvia al año. En marzo, que es el mes más lluvioso, la precipitación excede los 400 mm (16 pulgadas). El único período en que las lluvias no son muy intensas es de septiembre a noviembre, y esto es cierto en general para toda la costa este.
+- Puede notar la disminución durante el invierno austral: en julio y agosto, el promedio diario es de 21 ° C (70 ° F).
+- En la costa este, el sol no brilla con mucha frecuencia, ya que las lluvias son frecuentes durante todo el año. Sin embargo, la temporada más soleada es el invierno, de mayo a agosto, cuando los vientos alisios golpean directamente la costa, mientras que los meses más soleados (aunque ligeramente) son octubre y noviembre.
+- La temperatura del mar en la costa este es lo suficientemente alta como para nadar durante todo el año, aunque disminuye un poco de julio a octubre.
+
+La agricultura es un sector importante de Madagascar donde cultivan principalmente frijoles de vainilla y arroz. La producción de cultivos alimentarios es el subsector agrícola más importante y representa alrededor del 75 por ciento de la superficie cultivada (2009). El arroz es el alimento básico, que abarca 1.34 millones de hectáreas en todo el país, con la excepción de algunas áreas semiáridas en el sur y en el suroeste, tanto en sistemas de riego como de secano. Otros cultivos alimentarios incluyen maíz (principalmente en las regiones del sur y centro-este), yuca, sorgo (en el sur), frijoles, cacahuetes, batatas y una amplia variedad de verduras. La yuca es un componente importante de la estrategia de reducción de riesgos de los pequeños productores porque es tolerante a la sequía y resistente a las enfermedades. La yuca, la batata y el maíz son la principal fuente de calorías en la temporada de carestía (de septiembre a enero). El maní se cultiva en suelos arenosos en la mayoría de los lugares y hace una contribución importante a la dieta y los ingresos del hogar. Los principales cultivos comerciales son algodón, vainilla, café, lichi, pimienta, tabaco, maní, caña de azúcar, sisal, clavo y ylang-ylang.
+
+La agricultura en Madagascar está fuertemente influenciada por la lluvia de la isla, que generalmente es abundante en toda la costa este, disminuye bruscamente en las tierras altas y cae a menos de 500 mm por año en el sur y el suroeste. La temporada de crecimiento principal comienza con las primeras lluvias en octubre - noviembre. El calendario de cultivo varía mucho de una región a otra, de acuerdo con las condiciones climáticas, suelos y altitud muy diferentes.
+
+La ganadería y la silvicultura también son dos sectores importantes en Madagascar, con grandes extensiones de ébano, palisandro y flor de caoba en la costa este.
+Si bien el ganado está muy extendido, aproximadamente el 60 por ciento de las familias rurales dependen de él para sus ingresos. La producción animal está dominada por la cría extensiva de ganado, cerdos y aves de corral. También hay una creciente industria avícola moderna en las principales ciudades.
+
+- Al norte de Toamasina, encontramos una isla, Sainte-Marie. Entre julio y septiembre, las ballenas jorobadas que provienen de los mares antárticos y se congregan para reproducirse en el canal entre la isla de Sainte-Marie y la costa de Madagascar, a menudo se observan en un contexto lluvioso.
+
+Se requiere la última versión del mod Seasons.
+
+Registro de cambios 1.0.0.0:
+- Versión inicial.]]></es>
+        <ru><![CDATA[Восточное побережье Мадагаскара - это мод для GEO Seasons, имитирующий сельское хозяйство в штате Тоамасина (ранее Таматаве) на восточном побережье Мадагаскара.
+Этот GEO указан для Восточного побережья Мадагаскара.
+
+- В Тоамасине в год выпадает 3350 миллиметров (132 дюймов) осадков. В марте, который является самым дождливым месяцем, количество осадков превышает 400 мм (16 дюймов). Единственный период, когда дожди не слишком сильные, - с сентября по ноябрь, и это в целом верно для всего восточного побережья.
+- Вы можете заметить уменьшение во время австралийской зимы: в июле и августе среднесуточное значение составляет 21 ° C (70 ° F).
+- На восточном побережье солнце светит не очень часто, так как дожди бывают часто в течение всего года. Тем не менее, самым солнечным сезоном является зима, с мая по август, когда пассаты попали прямо на побережье, а самые солнечные месяцы (хотя и незначительные) - октябрь и ноябрь.
+- Температура моря на восточном побережье достаточно высока для плавания круглый год, хотя с июля по октябрь она немного снижается.
+
+Сельское хозяйство является важным сектором Мадагаскара, где в основном выращиваются ванильные бобы и рис. Производство продовольственных культур является наиболее важным сельскохозяйственным подсектором, на который приходится около 75 процентов посевных площадей (2009 год). Рис является основным продуктом питания, покрывающим 1,34 млн. Га по всей стране, за исключением некоторых полузасушливых районов на юге и юго-западе как под дождевыми, так и орошаемыми системами. Другие продовольственные культуры включают кукурузу (в основном выращивается в южных и центрально-восточных регионах), маниоку, сорго (на юге), бобы, арахис, сладкий картофель и большое разнообразие овощей. Кассава является важным компонентом стратегии снижения рисков мелких землевладельцев, поскольку она устойчива к засухе и устойчива к болезням. Кассава, сладкий картофель и кукуруза являются основным источником калорий в постное время года (с сентября по январь). Арахис выращивается на песчаных почвах в большинстве мест и вносит важный вклад в домашний рацион и доходы. Основными товарными культурами являются хлопок, ваниль, кофе, личи, перец, табак, арахис, сахарный тростник, сизаль, гвоздика и иланг-иланг.
+
+Сельское хозяйство на Мадагаскаре находится под сильным влиянием дождевых осадков на острове, которые, как правило, обильные на всем восточном побережье, резко уменьшаются в высокогорьях и падают до менее 500 мм в год на юге и юго-западе. Основной вегетационный период начинается с первых дождей в октябре - ноябре. Календарь обрезки сильно варьируется от региона к региону, в зависимости от самых разных климатических условий, почв и высоты.
+
+Животноводство и лесное хозяйство также являются двумя важными секторами на Мадагаскаре, где на восточном побережье растут обширные насаждения черного дерева, розового дерева и красного дерева.
+В то время как домашний скот широко распространен, около 60 процентов сельских семей зависят от его дохода. В животноводстве преобладает разведение крупного рогатого скота, свиней и птицы. Вокруг основных городов растёт современная птицеводческая отрасль.
+
+- К северу от Туамасины мы находим остров Сент-Мари. Между июлем и сентябрем горбатые киты, которые прибывают из антарктических морей и собираются для размножения в канале между островом Сент-Мари и побережьем Мадагаскара, часто наблюдаются в дождливом контексте.
+
+Требуется последняя версия мода Seasons.
+
+Изменения 1.0.0.0:
+- Первый выпуск.]]></ru>
+        <pl><![CDATA[Wschodnie wybrzeże Madagaskaru to mod GEO dla Seasons, który symuluje rolnictwo w stanie Toamasina (wcześniej Tamatave) na wschodnim wybrzeżu Madagaskaru.
+Ten numer GEO jest określony dla Wschodniego wybrzeża Madagaskaru.
+
+- W Toamasina występuje 3350 milimetrów (132 cali) opadów rocznie. W marcu, który jest najbardziej deszczowym miesiącem, opady przekraczają 400 mm (16 cali). Jedyny okres, kiedy deszcze nie są zbyt duże, przypada na okres od września do listopada, i ogólnie rzecz biorąc dotyczy to całego wschodniego wybrzeża.
+- Można zauważyć spadek podczas australijskiej zimy: w lipcu i sierpniu średnia dzienna wynosi 21 ° C (70 ° F).
+- Na wschodnim wybrzeżu słońce nie świeci zbyt często, ponieważ deszcze są częste przez cały rok. Jednak najbardziej nasłonecznioną porą roku jest zima, od maja do sierpnia, kiedy wiatry branżowe uderzają bezpośrednio w wybrzeże, zaś najbardziej słonecznymi miesiącami (choć nieznacznie) są październik i listopad.
+- Temperatura morza na wschodnim wybrzeżu jest wystarczająco wysoka, aby pływać przez cały rok, choć nieco spada od lipca do października.
+
+Rolnictwo jest ważnym sektorem Madagaskaru, w którym uprawia się głównie fasolę waniliową i ryż. Produkcja roślin spożywczych jest najważniejszym podsektorem rolnictwa, który stanowi około 75 procent powierzchni uprawnej (2009). Ryż jest podstawowym pożywieniem, obejmującym 1,34 miliona hektarów w całym kraju, z wyjątkiem półpustynnych obszarów na południu i południowym zachodzie, zarówno w systemach zasilanych deszczem, jak i nawadnianych. Inne uprawy roślin spożywczych obejmują kukurydzę (uprawianą głównie w regionach południowej i środkowo-wschodniej), maniok, sorgo (na południu), fasolę, orzeszki ziemne, słodkie ziemniaki i szeroką gamę warzyw. Maniok jest ważnym elementem strategii zmniejszania ryzyka drobnego gospodarstwa, ponieważ jest odporny na suszę i odporny na choroby. Maniok, batat i kukurydza są głównym źródłem kalorii w sezonie chudym (od września do stycznia). Orzeszki ziemne są uprawiane na glebach piaszczystych w większości lokalizacji i wnoszą istotny wkład w dietę i dochody gospodarstwa domowego. Głównymi uprawami pieniężnymi są bawełna, wanilia, kawa, liczi, pieprz, tytoń, orzeszki ziemne, trzcina cukrowa, sizal, goździk i ylang-ylang.
+
+Na rolnictwo na Madagaskarze duży wpływ mają opady deszczu na wyspie, które są zwykle obfite na całym wschodnim wybrzeżu, gwałtownie spadają na wyżynach i spadają do mniej niż 500 mm rocznie na południu i południowym zachodzie. Główny sezon wegetacyjny rozpoczyna się od pierwszych opadów w październiku - listopadzie. Kalendarz kadrowania różni się znacznie w zależności od regionu, w zależności od bardzo różnych warunków klimatycznych, gleb i wysokości.
+
+Zwierzęta gospodarskie i leśnictwo to także dwa ważne sektory na Madagaskarze, na wschodnim wybrzeżu kwitną rozległe drzewce hebanu, drzewa różanego i mahoniu.
+Podczas gdy inwentarz żywy jest szeroko rozpowszechniony, około 60 procent rodzin na wsi zależy od niego od swoich dochodów. W produkcji zwierzęcej dominuje ekstensywna hodowla zwierząt, świnie i drób. W głównych miastach rozwija się również nowoczesny przemysł drobiarski.
+
+- Na północ od Toamasiny znajdujemy wyspę Sainte-Marie. Pomiędzy lipcem a wrześniem humbaki, które pochodzą z mórz antarktycznych i gromadzą się w celu hodowli w kanale między wyspą Sainte-Marie a wybrzeżem Madagaskaru, często obserwuje się w deszczowym kontekście.
+
+Wymagana jest najnowsza wersja moda Seasons.
+
+Lista zmian 1.0.0.0:
+- Pierwsze wydanie.]]></pl>
+        <it><![CDATA[La costa orientale del Madagascar è una mod GEO per Seasons che simula l'agricoltura nello stato di Toamasina (precedentemente Tamatave) sulla costa orientale del Madagascar.
+Questo GEO è specificato per La costa orientale del Madagascar.
+
+- In Toamasina ci sono 3.350 millimetri (132 pollici) di pioggia all'anno. A marzo, che è il mese più piovoso, le precipitazioni superano i 400 mm (16 pollici). L'unico periodo in cui le piogge non sono troppo intense va da settembre a novembre, e questo vale in generale per l'intera costa orientale.
+- È possibile notare una diminuzione durante l'inverno australe: a luglio e agosto, la media giornaliera è di 21 ° C (70 ° F).
+- Sulla costa orientale, il sole non splende molto spesso, poiché le piogge sono frequenti tutto l'anno. Tuttavia, la stagione più soleggiata è l'inverno, da maggio ad agosto, quando gli alisei colpiscono direttamente la costa, mentre i mesi più soleggiati (anche se leggermente) sono ottobre e novembre.
+- La temperatura del mare sulla costa orientale è abbastanza alta per nuotare tutto l'anno, anche se diminuisce un po 'da luglio a ottobre.
+
+L'agricoltura è un settore importante del Madagascar dove coltiva principalmente fagioli e riso alla vaniglia, la produzione di colture alimentari è il sottosettore agricolo più importante che rappresenta circa il 75% della superficie coltivata (2009). Il riso è l'alimento base, che copre 1,34 milioni di ettari in tutto il paese, ad eccezione di alcune aree semi-aride nel sud e nel sud-ovest, con sistemi alimentati dalla pioggia e irrigati. Altre colture alimentari includono mais (coltivato principalmente nelle regioni del sud e del centro-est), manioca, sorgo (nel sud), fagioli, arachidi, patate dolci e un'ampia varietà di verdure. La manioca è un componente importante della strategia di riduzione del rischio per i piccoli proprietari perché è resistente alla siccità e resistente alle malattie. Manioca, patate dolci e mais sono la principale fonte di calorie nella stagione magra (da settembre a gennaio). L'arachide è coltivata su terreni sabbiosi nella maggior parte dei luoghi e fornisce un importante contributo alla dieta e al reddito delle famiglie. Le principali colture in contanti sono cotone, vaniglia, caffè, litchi, pepe, tabacco, arachidi, canna da zucchero, sisal, chiodi di garofano e ylang-ylang.
+
+L'agricoltura in Madagascar è fortemente influenzata dalle precipitazioni dell'isola, che è generalmente abbondante su tutta la costa orientale, diminuisce drasticamente sugli altopiani e scende a meno di 500 mm all'anno nel sud e nel sud-ovest. La stagione di crescita principale inizia con le prime piogge in ottobre - novembre. Il calendario del ritaglio varia notevolmente da regione a regione, a seconda delle condizioni climatiche, dei suoli e dell'altitudine molto diversi.
+
+Il bestiame e la silvicoltura sono anche due settori importanti in Madagascar, con vaste bancarelle di ebano, palissandro e mogano fioriscono sulla costa orientale.
+Mentre il bestiame è molto diffuso, con circa il 60 percento delle famiglie rurali dipende dal reddito. La produzione animale è dominata da un vasto allevamento di bestiame, suini e pollame. Vi è anche una moderna industria avicola in crescita nelle principali città.
+
+- A nord di Toamasina, troviamo un'isola, Sainte-Marie. Tra luglio e settembre, le megattere che provengono dai mari antartici e si riuniscono per la riproduzione nel canale tra l'isola di Sainte-Marie e la costa del Madagascar, sono spesso osservate in un contesto piovoso.
+
+È necessaria l'ultima versione della mod Seasons.
+
+Elenco modifiche 1.0.0.0:
+- Initease Realease.]]></it>
+        <br><![CDATA[A costa leste de Madagascar é um mod GEO para o Seasons que simula a agricultura no estado de Toamasina (anteriormente Tamatave) na costa leste de Madagascar.
+Este GEO é especificado para a costa leste de Madagascar.
+
+- Em Toamasina, há 3.350 milímetros (132 polegadas) de chuva por ano. Em março, que é o mês mais chuvoso, a precipitação excede 400 mm (16 pol). O único período em que as chuvas não são muito fortes é de setembro a novembro, e isso é verdade em geral para toda a costa leste.
+- Você pode notar a diminuição durante o inverno austral: em julho e agosto, a média diária é de 21 ° C (70 ° F).
+- Na costa leste, o sol não brilha com muita frequência, pois as chuvas são frequentes durante todo o ano. No entanto, a estação mais ensolarada é o inverno, de maio a agosto, quando os ventos alísios atingem diretamente a costa, enquanto os meses mais ensolarados (embora um pouco) são outubro e novembro.
+- A temperatura do mar na costa leste é alta o suficiente para nadar durante todo o ano, embora diminua um pouco de julho a outubro.
+
+A agricultura é um setor importante de Madagascar, onde eles cultivam principalmente grãos de baunilha e arroz. A produção de alimentos é o subsetor agrícola mais importante, representando cerca de 75% da área cultivada (2009). O arroz é o alimento básico, cobrindo 1,34 milhão de hectares em todo o país, com exceção de algumas áreas semi-áridas do Sul e do Sudoeste, sob sistemas irrigados e alimentados por chuva. Outras culturas alimentares incluem milho (cultivado principalmente nas regiões sul e centro-leste), mandioca, sorgo (no sul), feijão, amendoim, batata doce e uma grande variedade de vegetais. A mandioca é um componente importante da estratégia de redução de risco do pequeno produtor, pois é tolerante à seca e resistente a doenças. Mandioca, batata doce e milho são a principal fonte de calorias na estação de seca (de setembro a janeiro). O amendoim é cultivado em solos arenosos na maioria dos locais e faz uma importante contribuição para a dieta e a renda das famílias. As principais culturas comerciais são algodão, baunilha, café, lichia, pimenta, tabaco, amendoim, cana-de-açúcar, sisal, cravo e ylang-ylang.
+
+A agricultura em Madagascar é fortemente influenciada pelas chuvas da ilha, que geralmente são abundantes em toda a costa leste, diminuem acentuadamente nas terras altas e caem para menos de 500 mm por ano no sul e no sudoeste. A principal estação de crescimento começa com as primeiras chuvas de outubro a novembro. O calendário de cultivo varia muito de região para região, de acordo com as diferentes condições climáticas, solos e altitude.
+
+A pecuária e a silvicultura também são dois setores importantes em Madagascar, com extensos estandes de ébano, pau-rosa e mogno na costa leste.
+Enquanto o gado é generalizado, cerca de 60% das famílias rurais dependem dele para obter renda. A produção animal é dominada pela criação extensiva de gado, porcos e aves. Há também uma crescente indústria avícola moderna nas principais cidades.
+
+- Ao norte de Toamasina, encontramos uma ilha, Sainte-Marie. Entre julho e setembro, as baleias jubarte que vêm dos mares da Antártica e se reúnem para procriar no canal entre a ilha de Sainte-Marie e a costa de Madagascar, são frequentemente observadas em um contexto chuvoso.
+
+A versão mais recente do mod Seasons é necessária.
+
+Changelog 1.0.0.0:
+- Realease inicial.]]></br>
+        <cs><![CDATA[马达加斯加东海岸是《季节》的GEO模式，它模拟了马达加斯加东海岸的Toamasina（前称塔玛塔夫）州的农业。
+此GEO专为马达加斯加的东海岸指定。
+
+-在Toamasina，每年有3,350毫米（132英寸）的降雨。 3月，这是最多雨的月份，降雨量超过400毫米（16英寸）。唯一的降雨不是在9月到11月，这在整个东海岸都是正确的。
+-您会注意到南方冬季的气温下降了：在7月和8月，日平均气温为21°C（70°F）。
+-在东海岸，太阳不常发光，因为一年四季都经常下雨。但是，最热的季节是冬天，从5月到8月，贸易风直接袭击海岸，而最热的月份是10月和11月。
+-东海岸的海水温度足够高，全年都可以游泳，尽管从7月到10月有所降低。
+
+农业是马达加斯加的重要部门，主要种植香草豆和稻米。粮食作物生产是最重要的农业子部门，约占耕地面积的75％（2009年）。大米是主食，覆盖全国134万公顷，除了南部和西南部的半干旱地区，在雨水和灌溉系统下均如此。其他粮食作物包括玉米（主要在南部和中东部地区种植），木薯，高粱（在南部），豆类，花生，地瓜和各种蔬菜。木薯是小农降低风险战略的重要组成部分，因为它耐旱且抗病。木薯，地瓜和玉米是在淡季（9月至1月）的主要热量来源。花生在大多数地方都种植在沙质土壤上，对家庭饮食和收入做出了重要贡献。主要经济作物是棉花，香草，咖啡，荔枝，胡椒，烟草，花生，甘蔗，剑麻，丁香和依兰。
+
+马达加斯加的农业受到该岛降雨的严重影响，该岛的降雨在整个东海岸普遍丰富，在高地急剧下降，在南部和西南部每年降至500毫米以下。主要的生长季节始于10月至11月的第一场降雨。根据气候条件，土壤和海拔高度的不同，播种日历因地区而异。
+
+畜牧业和林业也是马达加斯加的两个重要部门，在东海岸，乌木，花梨木和桃花心木林立。
+尽管畜牧业很普遍，但约有60％的农村家庭依靠畜牧业获得收入。畜牧业以广泛的牲畜饲养，猪和家禽为主。在主要城市附近，现代家禽业也在发展。
+
+-在Toamasina的北部，我们发现了一个岛，圣玛丽。在七月至九月之间，经常在多雨的环境中观察到座落在南圣海和圣玛丽岛之间以及马达加斯加海岸之间的河道中的座头鲸。
+
+需要最新版本的Seasons mod。
+
+更改日志1.0.0.0：
+-初始收入。]]></cs>
+        <ct><![CDATA[馬達加斯加東海岸是《季節》的GEO模式，它模擬了馬達加斯加東海岸的Toamasina（前稱塔瑪塔夫）州的農業。
+此GEO專為馬達加斯加的東海岸指定。
+
+-在Toamasina，每年有3,350毫米（132英寸）的降雨。 3月，這是最多雨的月份，降雨量超過400毫米（16英寸）。唯一的降雨不是在9月到11月，這在整個東海岸都是正確的。
+-您會注意到南方冬季的氣溫下降了：在7月和8月，日平均氣溫為21°C（70°F）。
+-在東海岸，由於一年四季都經常下雨，所以太陽並不經常發光。但是，最熱的季節是冬天，從5月到8月，貿易風直接襲擊海岸，而最熱的月份是10月和11月。
+-東海岸的海水溫度足夠高，全年都可以游泳，儘管從7月到10月有所降低。
+
+農業是馬達加斯加的重要部門，主要種植香草豆和稻米。糧食作物生產是最重要的農業子部門，約佔耕地面積的75％（2009年）。大米是主食，覆蓋全國134萬公頃，除了南部和西南部的半乾旱地區，在雨水和灌溉系統下均如此。其他糧食作物包括玉米（主要在南部和中東部地區種植），木薯，高粱（在南部），豆類，花生，地瓜和各種蔬菜。木薯是小農降低風險戰略的重要組成部分，因為它耐旱且抗病。木薯，地瓜和玉米是在淡季（9月至1月）的主要熱量來源。花生在大多數地方都種植在沙質土壤上，對家庭飲食和收入做出了重要貢獻。主要經濟作物是棉花，香草，咖啡，荔枝，胡椒，煙草，花生，甘蔗，劍麻，丁香和依蘭。
+
+馬達加斯加的農業受到該島降雨的嚴重影響，該島的降雨在整個東海岸普遍豐富，在高地急劇下降，在南部和西南部每年降至500毫米以下。主要的生長季節始於10月至11月的第一場降雨。根據氣候條件，土壤和海拔高度的不同，播種日曆因地區而異。
+
+畜牧業和林業也是馬達加斯加的兩個重要部門，東海岸盛產黑檀木，花梨木和桃花心木。
+儘管畜牧業很普遍，但約有60％的農村家庭依靠畜牧業來獲得收入。畜牧業以廣泛的牲畜飼養，豬和家禽為主。在主要城市附近，現代家禽業也在發展。
+
+-在Toamasina的北部，我們發現了一個島，聖瑪麗。在七月至九月之間，經常在多雨的環境中觀察到座落在南聖海和聖瑪麗島之間以及馬達加斯加海岸之間的河道中的座頭鯨。
+
+需要最新版本的Seasons mod。
+
+更改日誌1.0.0.0：
+-初始收入。]]></ct>
+        <cz><![CDATA[Východní pobřeží Madagaskaru je režim GEO pro období, který simuluje zemědělství ve státě Toamasina (dříve Tamatave) na východním pobřeží Madagaskaru.
+Tento GEO je určen pro Východní pobřeží Madagaskaru.
+
+- V Toamasině připadá ročně 3 350 milimetrů (132 palců) srážek. V březnu, což je nejdelší měsíc, srážky přesahují 400 mm (16 palců). Jediné období, kdy deště nejsou příliš silné, je od září do listopadu, a to obecně platí pro celé východní pobřeží.
+- Můžete zaznamenat pokles během australské zimy: v červenci a srpnu je denní průměr 21 ° C (70 ° F).
+- Na východním pobřeží slunce příliš často nesvítí, protože po celý rok jsou časté deště. Nejslunnější sezónou je však zima, od května do srpna, kdy obchodní pobřeží přímo zasáhlo pobřeží, zatímco nejslunnější měsíce (byť mírně) jsou říjen a listopad.
+- Teplota moře na východním pobřeží je dostatečně vysoká pro plavání po celý rok, i když od července do října mírně klesá.
+
+Zemědělství je důležitým odvětvím Madagaskaru, kde obhospodařuje převážně vanilkové lusky a rýži. Potravinářská produkce je nejdůležitějším subsektorem zemědělství, který představuje přibližně 75 procent obdělávané plochy (2009). Rýže je základní potravina o rozloze 1,34 milionu hektarů po celé zemi, s výjimkou některých polosuchých oblastí na jihu a jihozápadě, a to jak v dešťových, tak zavlažovaných systémech. Mezi další potravinářské plodiny patří kukuřice (pěstovaná převážně v jižních a středovýchodních oblastech), kasava, čirok (na jihu), fazole, podzemnice olejná, sladké brambory a široká škála zeleniny. Cassava je důležitou součástí strategie snižování rizik drobného vlastníka, protože je odolná vůči suchu a odolná vůči nemocem. Kasava, sladké brambory a kukuřice jsou hlavním zdrojem kalorií v libové sezóně (od září do ledna). Podzemnice olejná se pěstuje na písčitých půdách ve většině lokalit a významně přispívá k domácí stravě a příjmu. Hlavní peněžní plodiny jsou bavlna, vanilka, káva, litchi, pepř, tabák, podzemnice olejná, cukrová třtina, sisal, hřebíček a ylang-ylang.
+
+Zemědělství na Madagaskaru je silně ovlivněno srážkami ostrova, které jsou obecně bohaté na celém východním pobřeží, prudce klesají na vysočině a na jihu a jihozápadě klesají ročně na méně než 500 mm. Hlavní vegetační období začíná prvními dešti v říjnu - listopadu. Kalendář ořezávání se v jednotlivých regionech velmi liší podle velmi odlišných klimatických podmínek, půd a nadmořské výšky.
+
+Hospodářská zvířata a lesnictví jsou na Madagaskaru také dvěma důležitými sektory, na východním pobřeží vzkvétají rozsáhlé porosty ebenového, růžového a mahagonového dřeva.
+Zatímco hospodářská zvířata jsou široce rozšířená, podle jejich příjmu závisí na tom asi 60 procent venkovských rodin. Živočišné výrobě dominuje extenzivní chov hospodářských zvířat, prasata a drůbež. V hlavních městech roste také moderní drůbežářský průmysl.
+
+- Na sever od Toamasiny najdeme ostrov Sainte-Marie. Od července do září jsou velryby keporkaků, které pocházejí z Antarktického moře a shromažďují se pro chov v kanálu mezi ostrovem Sainte-Marie a Madagaskarským pobřežím, často pozorovány v deštivém kontextu.
+
+Vyžaduje se nejnovější verze režimu Seasons.
+
+Seznam změn 1.0.0.0:
+- Počáteční Realease.]]></cz>
+        <nl><![CDATA[De oostkust van Madagaskar is een GEO-mod voor seizoenen die de landbouw simuleert in de staat Toamasina (voorheen Tamatave) aan de oostkust van Madagaskar.
+Deze GEO is gespecificeerd voor De oostkust van Madagaskar.
+
+- In Toamasina valt er 3.350 millimeter (132 inch) regenval per jaar. In maart, de meest regenachtige maand, valt meer dan 400 mm regen (16 inch). De enige periode waarin de regens niet te zwaar zijn, is van september tot november, en dit geldt in het algemeen voor de hele oostkust.
+- U kunt de daling tijdens de Australische winter opmerken: in juli en augustus is het dagelijkse gemiddelde 21 ° C (70 ° F).
+- Aan de oostkust schijnt de zon niet erg vaak, omdat de regen het hele jaar door frequent is. Het zonnigste seizoen is echter de winter, van mei tot augustus, wanneer de passaatwinden direct de kust raken, terwijl de zonnigste maanden (zij het lichtjes) oktober en november zijn.
+- De temperatuur van de zee aan de oostkust is hoog genoeg om het hele jaar door te zwemmen, hoewel deze van juli tot oktober een beetje daalt.
+
+Landbouw is een belangrijke sector van Madagaskar, waar ze voornamelijk vanillestokjes en rijst verbouwen. De productie van voedselgewassen is de belangrijkste subsector van de landbouw en goed voor ongeveer 75 procent van het gecultiveerde gebied (2009). Rijst is het basisvoedsel en beslaat 1,34 miljoen hectare in het hele land, met uitzondering van enkele semi-aride gebieden in het zuiden en het zuidwesten, zowel met regengevoede als met geïrrigeerde systemen. Andere voedselgewassen zijn maïs (voornamelijk geteeld in de regio's Zuid en Midden-Oost), cassave, sorghum (in het zuiden), bonen, aardnoten, zoete aardappelen en een grote verscheidenheid aan groenten. Cassave is een belangrijk onderdeel van de risicoverminderingsstrategie van de kleine producent omdat het droogtetolerant is en resistent tegen ziekten. Cassave, zoete aardappel en maïs zijn de belangrijkste bron van calorieën in het magere seizoen (van september tot januari). Aardnoot wordt op de meeste locaties op zandgronden geteeld en levert een belangrijke bijdrage aan het voedingspatroon en het inkomen van huishoudens. De belangrijkste kasgewassen zijn katoen, vanille, koffie, lychee, peper, tabak, aardnoot, suikerriet, sisal, kruidnagel en ylang-ylang.
+
+De landbouw in Madagaskar wordt sterk beïnvloed door de regenval van het eiland, die over het algemeen overvloedig aanwezig is aan de hele oostkust, sterk afneemt op de hooglanden en in het zuiden en zuidwesten daalt tot minder dan 500 mm per jaar. Het belangrijkste groeiseizoen begint met de eerste regens in oktober - november. De bijsnijdkalender varieert sterk van regio tot regio, afhankelijk van de zeer verschillende klimatologische omstandigheden, bodems en hoogte.
+
+Vee en bosbouw zijn ook twee belangrijke sectoren in Madagaskar, met uitgebreide standplaatsen van ebbenhout, rozenhout en mahonie bloeien aan de oostkust.
+Hoewel Vee veel voorkomt, is ongeveer 60 procent van de landelijke gezinnen afhankelijk van hun inkomen. De dierlijke productie wordt gedomineerd door extensieve veehouderij, varkens en pluimvee. Er is ook een groeiende moderne pluimvee-industrie rond de belangrijkste steden.
+
+- Ten noorden van Toamasina vinden we een eiland, Sainte-Marie. Tussen juli en september worden de bultruggen die uit de Antarctische zeeën komen en samenkomen voor het broeden in het kanaal tussen het eiland Sainte-Marie en de kust van Madagaskar, vaak waargenomen in een regenachtige context.
+
+De nieuwste versie van de Seasons-mod is vereist.
+
+Changelog 1.0.0.0:
+- Eerste onroerend goed.]]></nl>
+        <hu><![CDATA[Madagaszkár keleti partja egy GEO mod az évszakokra vonatkozóan, amely szimulálja a mezőgazdaságot Toamasina államban (korábban Tamatave), Madagaszkár keleti partján.
+Ezt a GEO-t Madagaszkár keleti partja vonatkozásában határozták meg.
+
+- Toamasinában évente 3350 milliméter (132 hüvelyk) esik az eső. Márciusban, amely a leg esősebb hónap, a csapadékmennyiség meghaladja a 400 mm-t (16 hüvelyk). Az egyetlen időszak, amikor az eső nem túl nehéz, szeptembertől novemberig tart, és ez általában igaz az egész keleti partra.
+- Észreveheti a csökkenést az ausztrál télen: júliusban és augusztusban a napi átlag 21 ° C (70 ° F).
+- A keleti parton a nap nem süt gyakran, mivel az esők egész évben gyakoriak. A legnaposabb évszak azonban a tél május és augusztus között van, amikor a szél közvetlenül a partot érinti, míg a legnaposabb hónapok (bár kissé) október és november.
+- A tenger hőmérséklete a keleti parton elég magas ahhoz, hogy egész évben úszhasson, bár júliustól októberig kissé csökken.
+
+A mezőgazdaság Madagaszkár fontos ágazata, ahol többnyire vaníliababot és rizst termelnek. Az élelmiszer-növénytermesztés a mezőgazdaság legfontosabb alágazata, amely a művelés alatt álló terület 75% -át teszi ki (2009). A rizs az alapanyag, az egész országban 1,34 millió hektáron terjed ki, néhány déli és délnyugati félszáraz terület kivételével, mind az esővel táplált, mind az öntözött rendszerekben. Egyéb élelmiszer-növények között szerepel a kukorica (elsősorban a déli és a közép-keleti régiókban termesztett), a kasszava, a cirok (délen), a bab, a földimogyoró, az édesburgonya és a sokféle zöldség. A kasszava a kistermelők kockázatcsökkentési stratégiájának fontos eleme, mivel az aszálytűrő és ellenálló a betegségekkel szemben. Maniáka, édesburgonya és kukorica a fő kalóriaforrás a sovány szezonban (szeptember-január). A földimogyorót a legtöbb hely homokos talajon termesztik, és ez jelentősen hozzájárul a háztartási étrendhez és jövedelemhez. A fő készpénznövények a gyapot, vanília, kávé, litsi, bors, dohány, földimogyoró, cukornád, szizál, szegfűszeg és az ilang-ilang.
+
+Madagaszkár mezőgazdaságát nagymértékben befolyásolja a sziget csapadékmennyisége, amely általában az egész keleti parton bőséges, a hegyvidéken hirtelen csökken, és délen és délnyugaton évente kevesebb mint 500 mm-re esik. A fő növekedési időszak az első esőkkel kezdődik októberben - novemberben. A növénytermesztési naptár régiónként nagyban változik, a nagyon eltérő éghajlati viszonyok, a talaj és a magasság függvényében.
+
+Az állattenyésztés és az erdőgazdálkodás szintén két fontos ágazat Madagaszkáron, kiterjedt ébenfa, rózsafa és mahagóni állványok virágzik a keleti parton.
+Míg az állattenyésztés széles körben elterjedt, a vidéki családok körülbelül 60 százaléka függ attól, hogy jövedelmet biztosítsanak. Az állattenyésztést az extenzív állattenyésztés, sertések és baromfi uralja. A fő városok környékén egyre növekszik a modern baromfiipar.
+
+- Toamasinától északra egy szigetet, Sainte-Marie-t találunk. Július és szeptember között az Antarktiszi tengerekből származó, a Sainte-Marie-sziget és a Madagaszkár partja közötti csatorna tenyésztésére gyűlöző púpos bálnákat gyakran esős környezetben figyelik meg.
+
+A Seasons mod legújabb verziója szükséges.
+
+Changelog 1.0.0.0:
+- Kezdeti újbóli kiadás.]]></hu>
+        <jp><![CDATA[マダガスカルの東海岸は、マダガスカルの東海岸にあるトアマシナ（旧タマタベ）州の農業をシミュレートする、季節のGEO modです。
+このGEOは、マダガスカルの東海岸に指定されています。
+
+-トアマシナでは、年間3,350ミリメートル（132インチ）の雨が降っています。最も雨の多い月である3月では、降雨量は400 mm（16インチ）を超えます。雨がそれほど激しくない期間は9月から11月までであり、これは一般的に東海岸全体に当てはまります。
+-あなたは南半球の冬の間に減少に気づくことができます：7月と8月に、毎日の平均は21°C（70°F）です。
+-東海岸では、雨は一年中頻繁に降るので、太陽はあまり頻繁に輝きません。ただし、日当たりの良い季節は、貿易風が海岸に直接当たる5月から8月までの冬で、日当たりの良い月（わずかではありますが）は10月と11月です。
+-東海岸の海の温度は、一年中泳ぐのに十分高いですが、7月から10月にかけては少し下がります。
+
+農業はマダガスカルの重要なセクターであり、そこでは主にバニラ豆と米を栽培しています。食用作物の生産は、耕作地の約75％を占める最も重要な農業サブセクターです（2009）。米は主食であり、天水と灌漑の両方のシステムの下で、南部と南西部のいくつかの半乾燥地域を除いて、全国の134万ヘクタールをカバーしています。他の食用作物には、トウモロコシ（主に南および中東地域で栽培）、キャッサバ、モロコシ（南）、豆、落花生、サツマイモおよび多種多様な野菜が含まれます。キャッサバは干ばつに強く、病気に強いため、小自作農のリスク低減戦略の重要な要素です。キャッサバ、サツマイモ、トウモロコシは、赤身の季節（9月から1月）の主なカロリー源です。落花生はほとんどの場所の砂質土壌で栽培され、家庭の食事と収入に重要な貢献をしています。主な換金作物は、綿、バニラ、コーヒー、ライチ、コショウ、タバコ、落花生、サトウキビ、サイザル、クローブ、イランイランです。
+
+マダガスカルの農業は、島の降雨の影響を強く受けます。降雨は一般に東海岸全体に多く、高地では急激に減少し、南および南西では年間500 mm未満に減少します。主な成長期は、10月から11月にかけての最初の雨から始まります。作物のカレンダーは、気候条件、土壌、標高が大きく異なるため、地域によって大きく異なります。
+
+家畜と林業もマダガスカルの2つの重要な部門であり、東海岸では黒檀、ローズウッド、マホガニーの大規模な林が見られます。
+家畜は広範ですが、農村部の家族の約60％が収入に依存しています。動物の生産は、大規模な家畜飼育、豚および家禽に支配されています。また、主要都市の周辺には、近代的な家禽産業が成長しています。
+
+-トアマシナの北には、サントマリー島があります。 7月と9月の間、南極海から来て、サントマリー島とマダガスカルの海岸の間の水路で繁殖するザトウクジラは、雨の中でよく見られます。
+
+Seasons modの最新バージョンが必要です。
+
+変更ログ1.0.0.0：
+-初期リリース。]]></jp>
+        <kr><![CDATA[마다가스카르의 동부 해안은 마다가스카르의 동부 해안에있는 Toamasina (구 Tamatave) 주에서 농업을 시뮬레이트하는 계절별 GEO 모드입니다.
+이 GEO는 마다가스카르의 동부 해안에 지정되었습니다.
+
+-Toamasina에는 매년 3,350 밀리미터 (132 인치)의 비가 내립니다. 비가 가장 많이 내리는 달인 3 월월은 400 mm (16 인치)를 초과합니다. 비가 너무 무겁지 않은 유일한시기는 9 월부터 11 월까지이며 일반적으로 동해안 전체에 적용됩니다.
+-동절기에는 감소하는 것을 알 수 있습니다. 7 월과 8 월의 일일 평균 기온은 21 ° C입니다.
+-동해안에서는 비가 일년 내내 자주 있기 때문에 태양이 자주 비추 지 않습니다. 그러나 가장 햇볕이 잘 드는 계절은 5 월에서 8 월까지 겨울이며, 무역풍이 해안에 직접 닿는 반면, 가장 햇볕이 잘 드는 달 (약간 있지만)은 10 월과 11 월입니다.
+-동해안의 바다 온도는 일년 내내 수영하기에 충분히 높지만 7 월에서 10 월까지 조금 줄어 듭니다.
+
+농업은 마다가스카르의 중요한 부문으로 대부분 바닐라 콩과 쌀을 재배하며, 농작물 생산은 재배 지역의 약 75 %를 차지하는 가장 중요한 농업 하위 부문입니다 (2009). 쌀은 전국적으로 134 만 헥타르를 차지하는 주식으로, 비와 관개 시설 하에서 남부와 남서부의 일부 반 건조 지역을 제외하고는 주식입니다. 다른 식량 작물로는 옥수수 (주로 남동부 및 중부 지역에서 재배), 카사바, 수수 (남부), 콩, 땅콩, 고구마 및 다양한 야채가 있습니다. 카사바는 가뭄에 강하고 질병에 저항력이 있기 때문에 소규모 보유자의 위험 감소 전략의 중요한 구성 요소입니다. 카사바, 고구마 및 옥수수는 마른 계절 (9 월에서 1 월까지)의 주요 칼로리 공급원입니다. 땅콩은 대부분의 지역에서 모래 토양에서 재배되며 가정 식단 및 수입에 중요한 기여를합니다. 주요 현금 작물은 면화, 바닐라, 커피, 열매, 후추, 담배, 땅콩, 사탕 수수, 사이 잘삼, 정향 및 일랑 일랑입니다.
+
+마다가스카르의 농업은이 섬의 강우에 의해 크게 영향을받습니다.이 강우는 일반적으로 동해안 전체에 풍부하며 고지대에서 급격히 감소하며 남서부에서는 매년 500mm 미만으로 떨어집니다. 주요 성장 계절은 10 월 – 11 월의 첫 비로 시작합니다. 자르기 일정은 매우 다른 기후 조건, 토양 및 고도에 따라 지역마다 크게 다릅니다.
+
+가축과 임업은 마다가스카르의 두 가지 중요한 부문으로, 동부 해안에서 광범위한 흑단, 자단, 마호가니 스탠드가 있습니다.
+가축이 널리 퍼져있는 반면, 농촌 가족의 약 60 %가 소득에 따라 다릅니다. 가축 생산은 광범위한 가축 사육, 돼지 및 가금류에 의해 좌우됩니다. 주요 도시 주변에는 현대 가금류 산업도 성장하고 있습니다.
+
+-Toamasina의 북쪽에는 Sainte-Marie 섬이 있습니다. 7 월과 9 월 사이에 남극해에서오고 생트 마리 섬과 마다가스카르 해안 사이의 통로에서 번식하기 위해 모이는 혹등 고래는 종종 비가 오는 상황에서 관찰됩니다.
+
+최신 버전의 시즌 모드가 필요합니다.
+
+변경 로그 1.0.0.0 :
+-초기 현실.]]></kr>
+        <pt><![CDATA[A costa leste de Madagascar é um mod GEO para o Seasons que simula a agricultura no estado de Toamasina (anteriormente Tamatave) na costa leste de Madagascar.
+Este GEO é especificado para a costa leste de Madagascar.
+
+- Em Toamasina, há 3.350 milímetros (132 polegadas) de chuva por ano. Em março, que é o mês mais chuvoso, a precipitação excede 400 mm (16 pol). O único período em que as chuvas não são muito fortes é de setembro a novembro, e isso é verdade em geral para toda a costa leste.
+- Você pode notar a diminuição durante o inverno austral: em julho e agosto, a média diária é de 21 ° C (70 ° F).
+- Na costa leste, o sol não brilha com muita frequência, pois as chuvas são frequentes durante todo o ano. No entanto, a estação mais ensolarada é o inverno, de maio a agosto, quando os ventos alísios atingem diretamente a costa, enquanto os meses mais ensolarados (embora um pouco) são outubro e novembro.
+- A temperatura do mar na costa leste é alta o suficiente para nadar durante todo o ano, embora diminua um pouco de julho a outubro.
+
+A agricultura é um setor importante de Madagascar, onde eles cultivam principalmente grãos de baunilha e arroz. A produção de alimentos é o subsetor agrícola mais importante, representando cerca de 75% da área cultivada (2009). O arroz é o alimento básico, cobrindo 1,34 milhão de hectares em todo o país, com exceção de algumas áreas semi-áridas do Sul e do Sudoeste, sob sistemas irrigados e alimentados por chuva. Outras culturas alimentares incluem milho (cultivado principalmente nas regiões sul e centro-leste), mandioca, sorgo (no sul), feijão, amendoim, batata doce e uma grande variedade de vegetais. A mandioca é um componente importante da estratégia de redução de risco do pequeno produtor, pois é tolerante à seca e resistente a doenças. Mandioca, batata doce e milho são a principal fonte de calorias na estação de seca (de setembro a janeiro). O amendoim é cultivado em solos arenosos na maioria dos locais e faz uma importante contribuição para a dieta e a renda das famílias. As principais culturas comerciais são algodão, baunilha, café, lichia, pimenta, tabaco, amendoim, cana-de-açúcar, sisal, cravo e ylang-ylang.
+
+A agricultura em Madagascar é fortemente influenciada pelas chuvas da ilha, que geralmente são abundantes em toda a costa leste, diminuem acentuadamente nas terras altas e caem para menos de 500 mm por ano no sul e no sudoeste. A principal estação de crescimento começa com as primeiras chuvas de outubro a novembro. O calendário de cultivo varia muito de região para região, de acordo com as diferentes condições climáticas, solos e altitude.
+
+A pecuária e a silvicultura também são dois setores importantes em Madagascar, com extensos estandes de ébano, pau-rosa e mogno na costa leste.
+Enquanto o gado é generalizado, cerca de 60% das famílias rurais dependem dele para obter renda. A produção animal é dominada pela criação extensiva de gado, porcos e aves. Há também uma crescente indústria avícola moderna nas principais cidades.
+
+- Ao norte de Toamasina, encontramos uma ilha, Sainte-Marie. Entre julho e setembro, as baleias jubarte que vêm dos mares da Antártica e se reúnem para procriar no canal entre a ilha de Sainte-Marie e a costa de Madagascar, são frequentemente observadas em um contexto chuvoso.
+
+A versão mais recente do mod Seasons é necessária.
+
+Changelog 1.0.0.0:
+- Realease inicial.]]></pt>
+        <ro><![CDATA[Coasta de Est a Madagascarului este un mod GEO pentru Seasons care simulează agricultura în statul Toamasina (fosta Tamatave) de pe coasta de est a Madagascarului.
+Acest OUG este specificat pentru The East Coast of Madagascar.
+
+- În Toamasina există 3.350 de milimetri (132 inci) de cădere de ploaie pe an. În martie, care este cea mai ploioasă lună, precipitațiile depășesc 400 mm (16 in). Singura perioadă în care ploile nu sunt prea abundente este din septembrie până în noiembrie, iar acest lucru este valabil în general pentru întreaga coastă de est.
+- Puteți observa scăderea în timpul iernii australe: în iulie și august, media zilnică este de 21 ° C (70 ° F).
+- Pe coasta de est, soarele nu strălucește foarte des, deoarece ploile sunt frecvente tot timpul anului. Cu toate acestea, cel mai însorit sezon este iarna, din mai până în august, când vânturile comerciale ating direct coasta, în timp ce lunile cele mai însorite (deși ușor) sunt octombrie și noiembrie.
+- Temperatura mării de pe coasta de est este suficient de ridicată pentru a înota tot timpul anului, deși scade puțin din iulie până în octombrie.
+
+Agricultura este un sector important din Madagascar, unde cultivă în mare parte boabele de vanilie și orez, producția de culturi alimentare este cel mai important sub-sector agricol, reprezentând aproximativ 75% din suprafața cultivată (2009). Orezul este hrana de bază, care acoperă 1,34 milioane de hectare în întreaga țară, cu excepția unor zone semi-aride din Sud și din Sud-Vest, atât în ​​sistemele de ploaie cât și în cele irigate. Alte culturi alimentare includ porumbul (cultivat în principal în regiunile Sud și Central-Est), manioca, sorgul (în sud), fasolea, nucul, cartofii dulci și o mare varietate de legume. Manuca este o componentă importantă a strategiei de reducere a riscurilor de către micul proprietar, deoarece este tolerantă la secetă și rezistentă la boli. Manuca, cartoful dulce și porumbul sunt principala sursă de calorii în sezonul slab (din septembrie până în ianuarie). Alunul este cultivat pe soluri nisipoase în majoritatea locurilor și contribuie important la alimentația și venitul gospodăriei. Principalele culturi de numerar sunt bumbacul, vanilia, cafeaua, litchi, piper, tutun, nucă, trestie de zahăr, sisal, cuisoare și ylang-ylang.
+
+Agricultura din Madagascar este puternic influențată de precipitațiile insulei, care sunt în general abundente pe întreaga coastă de est, scade brusc pe zonele de munte și scade la mai puțin de 500 mm pe an în sud și sud-vest. Principalul sezon de creștere începe cu primele ploi din octombrie - noiembrie. Calendarul de cultură variază foarte mult de la o regiune la alta, în funcție de condițiile climatice, solurile și altitudinea foarte diferite.
+
+Animalele și silvicultura sunt, de asemenea, două sectoare importante în Madagascar, cu stânduri extinse de abanos, lemn de trandafir și mahon înfloresc pe coasta de est.
+În timp ce zootehnia este răspândită, aproximativ 60 la sută din familiile rurale depind de aceasta pentru venitul lor. Producția animală este dominată de creșterea extensivă a animalelor, porci și păsări de curte. Există, de asemenea, o industrie modernă de pasăre în creștere în jurul principalelor orașe.
+
+- La nord de Toamasina, găsim o insulă, Sainte-Marie. Între iulie și septembrie, balenele cu cocoașă care provin din mările Antarctice și se adună pentru reproducere în canalul dintre insula Sainte-Marie și coasta Madagascarului, sunt adesea observate într-un context ploios.
+
+Este necesară cea mai recentă versiune a modului Seasons.
+
+Changelog 1.0.0.0:
+- Revalorizare inițială.]]></ro>
+        <tr><![CDATA[Madagaskar'ın Doğu Kıyısı, Madagaskar'ın Doğu Kıyısı'ndaki Toamasina eyaletinde (eski adıyla Tamatave) tarımı simüle eden Mevsim için bir GEO modudur.
+Bu GEO, Madagaskar'ın Doğu Kıyısı için belirtilmiştir.
+
+- Toamasina'da yılda 3.350 milimetre (132 inç) yağış düşmektedir. En kurak ay olan Mart ayında, yağış miktarı 400 mm'yi (16 inç) aşıyor. Yağmurların çok şiddetli olmadığı tek dönem eylül ayından kasım ayına kadardır ve bu genel olarak tüm doğu kıyıları için geçerlidir.
+- Ostral kış aylarında azalış olduğunu fark edebilirsiniz: Temmuz ve Ağustos aylarında günlük ortalama 21 ° C'dir (70 ° F).
+- Doğu kıyısında, yağmurlar tüm yıl boyunca sık olduğu için güneş çok sık parlamaz. Ancak, en güneşli mevsim, Mayıs-Ağustos ayları arasında, ticaret rüzgarlarının doğrudan kıyıya çarptığı, en güneşli aylar (hafif olsa da) Ekim ve Kasım aylarıdır.
+- Doğu kıyısındaki denizin sıcaklığı tüm yıl boyunca yüzmek için yeterince yüksektir, ancak temmuz-ekim ayları arasında biraz azalır.
+
+Tarım, çoğunlukla Vanilya fasulyesi & Pirinç tarımı yapan Madagaskar'ın önemli bir sektörüdür. Gıda mahsulü üretimi, ekili alanın yaklaşık yüzde 75'ini oluşturan en önemli tarım alt sektörüdür (2009). Pirinç, hem yağmurla beslenen hem de sulanan sistemler altında, Güney ve Güney-Batı'da bazı yarı kurak alanlar hariç, ülke genelinde 1.34 milyon hektarı kapsayan temel yemektir. Diğer gıda ürünleri arasında mısır (çoğunlukla Güney ve Orta Doğu bölgelerinde yetişen), manyok, sorgum (güneyde), fasulye, yer fıstığı, tatlı patates ve çok çeşitli sebzeler bulunur. Manyok, risk alma stratejisinin önemli bir bileşenidir çünkü kuraklığa dayanıklı ve hastalıklara karşı dayanıklıdır. Manyok, tatlı patates ve mısır, yağsız mevsimdeki ana kalori kaynağıdır (eylül ayından ocak ayına kadar). Yer fıstığı çoğu yerde kumlu topraklarda yetişir ve hane halkı diyetine ve gelirine önemli katkı sağlar. Başlıca nakit ürünler pamuk, vanilya, kahve, Çin, karabiber, tütün, yer fıstığı, şeker kamışı, sisal, karanfil ve ylang-ylang'tır.
+
+Madagaskar'daki tarım, genellikle tüm Doğu kıyılarında bol olan adanın yağışlarından büyük ölçüde etkilenir, yaylalarda keskin bir şekilde azalır ve Güney ve Güney-Batı'da yılda 500 mm'nin altına düşer. Ana büyüme mevsimi, ekim-kasım aylarında ilk yağışlarla başlar. Kırpma takvimi çok farklı iklim koşullarına, topraklara ve yüksekliğe göre bölgeden bölgeye büyük ölçüde değişir.
+
+Hayvancılık ve ormancılık da Madagaskar'da iki önemli sektördür; Doğu kıyılarında geniş abanoz, gül ağacı ve maun ayaklıkları vardır.
+Hayvancılık yaygın olmakla birlikte, kırsal ailelerin yaklaşık yüzde 60'ı gelirlerine bağlı olarak değişmektedir. Hayvansal üretim, hayvancılık, domuz ve kümes hayvanı yetiştiriciliğine hakimdir. Ayrıca ana şehirlerin etrafında büyüyen modern bir kümes hayvanları endüstrisi var.
+
+- Toamasina'nın kuzeyinde, bir ada bulduk, Sainte-Marie. Temmuz ve Eylül ayları arasında, Antarktika denizlerinden gelen ve Sainte-Marie adası ile Madagaskar kıyıları arasındaki kanalda üremek için toplanan kambur balinalar, yağmurlu bir ortamda sıklıkla gözlenir.
+
+Seasons modunun en son sürümü gereklidir.
+
+Değişiklikler 1.0.0.0:
+- İlk Gerçeklik.]]></tr>
+    </description>
+    <iconFilename>east_icon.dds</iconFilename>
+    <credits><![CDATA[
+## Translations
+- Castiga]]></credits>
+    <multiplayer supported="true" requiredModName="FS19_RM_Seasons"/>
+    <seasons version="11">
+        <type>geo</type>
+        <dataFolder>data/</dataFolder>
+    </seasons>
+</modDesc>
