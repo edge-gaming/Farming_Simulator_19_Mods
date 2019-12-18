@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="47">
+    <author>Edge Gaming / Castiga</author>
+    <translationby>Castiga</translationby>
+    <version>1.0.0.0</version>
+    <extraSourceFiles>
+		<sourceFile filename="scripts/categorizer.lua" />
+	</extraSourceFiles>
+    <newcategory name="VPC" title="Valtra Pack" type="TOOL" img="store_XSeries.dds" />
+</modDesc>
