@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="46">
+    <author>EDGE Gaming / Castiga</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Sosnovka Uzhe Videl</en>
+        <de>Sosnovka Uzhe Videl</de>
+        <fr>Sosnovka Uzhe Videl</fr>
+        <it>Sosnovka Uzhe Videl</it>
+        <es>Sosnovka Uzhe Videl</es>
+        <br>Sosnovka Uzhe Videl</br>
+        <cs>Sosnovka Uzhe Videl</cs>
+        <ct>Sosnovka Uzhe Videl</ct>
+        <cz>Sosnovka Uzhe Videl</cz>
+        <nl>Sosnovka Uzhe Videl</nl>
+        <hu>Sosnovka Uzhe Videl</hu>
+        <jp>すでに見たソスノフカ</jp>
+        <kr>Sosnovka Uzhe Videl</kr>
+        <pl>Sosnovka Uzhe Videl</pl>
+        <pt>Sosnovka Uzhe Videl</pt>
+        <ro>Sosnovka Uzhe Videl</ro>
+        <ru>Sosnovka Uzhe Videl</ru>
+        <tr>Sosnovka Uzhe Videl</tr>
+    </title>
+    <description>
+        <en><![CDATA[Welcome to Sosnovka Revamped.
+
+From the desire to craft a small development and test card for modding, Minibrunn has emerged: a 50ha large map with all FS19 features.
+
+As a special feature, a green floor is built in to create store photos that can be painted using the Landscaping Tool. In the shop there is also a green wall (without collision), which can be placed to create a green box. The vehicle dealer has an extra ramp for presentation purposes (screen shots)
+
+But even those who only want to be a farmer are in good hands here. The map offers five fields, four can be combined to form a 10 ha huge one. The forester manager is also taken care of. To the west of the map is a forest area that offers many trees for cutting down. The operation of a BGA is possible.
+
+The terrain is surrounded by a mountain range. The only access road is unfortunately blocked by a landslide. Fortunately, there is you as the supplier of idyllic Minibrunn. So, what are you waiting for? Have fun!
+
+Features:
+- greenbox by soil texture and placeable wall
+- 5 fields between 1 and 2.5 ha
+- forest areas with about 7 ha
+- biogas plant
+- 6 outlets for all standard fruits
+- with or without courtyard buildings and vehicles (depending on the level of difficulty)
+- AI-pedestrian and -traffic
+- two waterholes
+- a lime silo
+- mission system (including transport orders)
+- livestock is not permanently installed
+
+Changelog 1.0.0.0:
+- Initial Realease.]]></en>
+        <de><![CDATA[Multi Verkaufsstation. Hier können Sie alles verkaufen, was Sie möchten, von der Ernte bis zu Saatgut und Dünger.
+Die Verkaufspreise schwanken und erscheinen auf dem PDA / der Statistik.
+Die Gebäude verfügen über eine automatische Beleuchtung.
+
+Änderungsprotokoll 1.0.0.0:
+- Erstveröffentlichung.]]></de>
+        <fr><![CDATA[Poste de vente multiple. Ici, vous pouvez vendre ce que vous voulez, de la récolte aux semences et aux engrais.
+Les prix de vente fluctueront et apparaîtront sur le PDA / Statistics.
+Les bâtiments ont un éclairage automatique.
+
+Changer le journal 1.0.0.0:
+- Première version.]]></fr>
+        <es><![CDATA[Estación De Venta Múltiple. Aquí puede vender lo que quiera, desde la cosecha hasta las semillas y los fertilizantes.
+Los precios de venta fluctuarán y aparecerán en el PDA / Estadísticas.
+Los edificios tienen iluminación automática.
+
+Registro de cambios 1.0.0.0:
+- Versión inicial.]]></es>
+        <ru><![CDATA[Мультипродажная станция. Здесь вы можете продать все, что захотите, от сбора урожая до семян и удобрений.
+Продажные цены будут колебаться и отображаться на КПК / Статистика.
+Здания имеют автоматическое освещение.
+
+Изменения 1.0.0.0:
+- Первый выпуск.]]></ru>
+        <pl><![CDATA[Stacja Sprzedaży. Tutaj możesz sprzedać wszystko, co chcesz, od zbiorów upraw po nasiona i nawozy.
+Ceny sprzedaży będą się zmieniać i pojawiać na PDA / statystykach.
+Budynki mają automatyczne oświetlenie.
+
+Lista zmian 1.0.0.0:
+- Pierwsze wydanie.]]></pl>
+        <it>Benvenuto all’Sosnovka Uzhe Videl!</it>
+        <es>¡Te damos la bienvenida a Sosnovka Uzhe Videl!</es>
+        <br>Bem-vindo à Sosnovka Uzhe Videl!</br>
+        <cs>欢迎来到紫檀大庄园！</cs>
+        <ct>歡迎來到紫檀大莊園！</ct>
+        <cz>Vítejte v Sosnovka Uzhe Videl!</cz>
+        <nl>Welkom op de Sosnovka Uzhe Videl!</nl>
+        <hu>Üdvözöl Sosnovka Uzhe Videl!</hu>
+        <jp>へようこそ すでに見たソスノフカ</jp>
+        <kr>Sosnovka Uzhe Videl에 오신 것을 환영합니다!</kr>
+        <pt>Bem-vindo à Estância Lapacho!</pt>
+        <ro>Bun venit la Sosnovka Uzhe Videl!</ro>
+        <tr>Sosnovka Uzhe Videl'ya hoş geldin!</tr>
+    </description>
+    <iconFilename>Uzhe Videl_icon.dds</iconFilename>
+    <multiplayer supported="true" requiredModName="FS19_Sosnovka_By_EDGE"/>
+    <l10n filenamePrefix="modDesc/modDesc_l10n"/>
+    <maps>
+        <map id="Sosnovka Uzhe Videl" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="xmlFiles/Sos_Videl.xml" defaultVehiclesXMLFilename="xmlFiles/defaultVehicles.xml" defaultItemsXMLFilename="xmlFiles/mapItems.xml">
+            <title>
+                <en>Sosnovka Uzhe Videl</en>
+                <de>Sosnovka Uzhe Videl</de>
+                <fr>Sosnovka Uzhe Videl</fr>
+                <it>Sosnovka Uzhe Videl</it>
+                <es>Sosnovka Uzhe Videl</es>
+                <br>Sosnovka Uzhe Videl</br>
+                <cs>Sosnovka Uzhe Videl</cs>
+                <ct>Sosnovka Uzhe Videl</ct>
+                <cz>Sosnovka Uzhe Videl</cz>
+                <nl>Sosnovka Uzhe Videl</nl>
+                <hu>Sosnovka Uzhe Videl</hu>
+                <jp>エスタンシアラパチョ</jp>
+                <kr>Sosnovka Uzhe Videl</kr>
+                <pl>Sosnovka Uzhe Videl</pl>
+                <pt>Sosnovka Uzhe Videl</pt>
+                <ro>Sosnovka Uzhe Videl</ro>
+                <ru>Sosnovka Uzhe Videl</ru>
+                <tr>Sosnovka Uzhe Videl</tr>
+            </title>
+            <description>
+                <en><![CDATA[Sosnovka Revamped. Here you can sell anything you'd like, From crop harvest to seeds and fertilizer.
+        Selling prices will fluctuate and show up on the PDA / Statistics.
+        The Buildings have automatic lighting.]]></en>
+                <de><![CDATA[Multi Verkaufsstation. Hier können Sie alles verkaufen, was Sie möchten, von der Ernte bis zu Saatgut und Dünger.
+        Die Verkaufspreise schwanken und erscheinen auf dem PDA / der Statistik.
+        Die Gebäude verfügen über eine automatische Beleuchtung.]]></de>
+                <fr><![CDATA[Poste de vente multiple. Ici, vous pouvez vendre ce que vous voulez, de la récolte aux semences et aux engrais.
+        Les prix de vente fluctueront et apparaîtront sur le PDA / Statistics.
+        Les bâtiments ont un éclairage automatique.]]></fr>
+                <es><![CDATA[Estación De Venta Múltiple. Aquí puede vender lo que quiera, desde la cosecha hasta las semillas y los fertilizantes.
+        Los precios de venta fluctuarán y aparecerán en el PDA / Estadísticas.
+        Los edificios tienen iluminación automática.]]></es>
+                <ru><![CDATA[Мультипродажная станция. Здесь вы можете продать все, что захотите, от сбора урожая до семян и удобрений.
+        Продажные цены будут колебаться и отображаться на КПК / Статистика.
+        Здания имеют автоматическое освещение.]]></ru>
+                <pl><![CDATA[Stacja Sprzedaży. Tutaj możesz sprzedać wszystko, co chcesz, od zbiorów upraw po nasiona i nawozy.
+        Ceny sprzedaży będą się zmieniać i pojawiać na PDA / statystykach.
+        Budynki mają automatyczne oświetlenie.]]></pl>
+                <it>Benvenuto all’Sosnovka Uzhe Videl!</it>
+                <es>¡Te damos la bienvenida a Sosnovka Uzhe Videl!</es>
+                <br>Bem-vindo à Sosnovka Uzhe Videl!</br>
+                <cs>欢迎来到紫檀大庄园！</cs>
+                <ct>歡迎來到紫檀大莊園！</ct>
+                <cz>Vítejte v Sosnovka Uzhe Videl!</cz>
+                <nl>Welkom op de Sosnovka Uzhe Videl!</nl>
+                <hu>Üdvözöl Sosnovka Uzhe Videl!</hu>
+                <jp>エスタンシアラパチョにようこそ！</jp>
+                <kr>Sosnovka Uzhe Videl에 오신 것을 환영합니다!</kr>
+                <pt>Bem-vindo à Estância Lapacho!</pt>
+                <ro>Bun venit la Sosnovka Uzhe Videl!</ro>
+                <tr>Sosnovka Uzhe Videl'ya hoş geldin!</tr>
+            </description>
+            <iconFilename>Uzhe Videl_preview.dds</iconFilename>
+        </map>
+    </maps>
+    <storeItems>
+        <storeItem xmlFilename="maps/data/placeables/farmBuildings/farmMansion.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/farmBuildings/farmStorageBarn.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/bga/bga01.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/farmBuildings/farmSilo.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/waterFillTriggers/waterFillTriggers01.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/bga/bga02.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/BuyingStations/buyingStationFuel.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/BuyingStations/gasStation.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/BuyingStations/buyingStationLime.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/waterFillTriggers/waterFillTriggers02.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/farmBuildings/farmHouse.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/Extras/greenScreen.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/sellingStations/sellingStationBales01.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/sellingStations/sellingStationDistillery.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/sellingStations/sellingStationMill.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/sellingStations/sellingStationSupermarket.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/sellingStations/sellingStationWoodChips01.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/EDGE/Silos/Silos/EDGEHugefarmSilo.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/EDGE/StrawBarn_SellingSpot/StrawBarn_SellingSpotunowned.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/EDGE/StrawBarn_SellingSpot/StrawBarn_SellingSpot.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/EDGE/universalSilo/universalSilo.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/sellingStations/sellingStationWoodChips02.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/EDGE/Multi_Filling_Station/MultiFillingStationDark.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/EDGE/Multi_Selling_Station/MultiSellingStationDark.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/EDGE/Food_n_Fertilizer_Shop/FoodFertilizerShopBuy.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/EDGE/Food_n_Fertilizer_Shop/FoodFertilizerShop.xml"/>
+        <storeItem xmlFilename="maps/data/vehicles/lizardWeight550/lizardWeight550.xml"/>
+        <storeItem xmlFilename="maps/data/vehicles/DeutzAgroStar661/deutzAgroStar661.xml"/>
+    </storeItems>
+    <!--<storeItems FilenamePrefix="xmlFiles/Sos_Videl_storeItems.xml"/>-->
+    <brands>
+        <brand name="EDGE" title="EDGE Industries" image="icons/EDGE_Brand_Logo.dds"/>
+        <brand name="BOBS" title="Bob&apos;s Burgers" image="icons/Bobs_Burgers_Logo.dds"/>
+        <brand name="BECKS" title="Beck&apos;s Brewery" image="icons/Becks_Logo.dds"/>
+        <brand name="BRU" title="EDGE Industries" image="icons/Bru_Logo.dds"/>
+        <brand name="LIMAGRAIN" title="Limagrain" image="icons/Limagrain_Logo.dds"/>
+        <brand name="PONTE" title="Ponte Realestate" image="icons/Ponte_Logo.dds"/>
+    </brands>
+</modDesc>

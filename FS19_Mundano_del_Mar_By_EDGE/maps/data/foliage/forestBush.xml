@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<foliageType distanceTexturePath="distance">
+    <!-- forest bush -->
+    <foliageLayer cellSize="8" objectMask="16711935" decalLayer="0" densityMapChannelOffset="0" numDensityMapChannels="4" numBlocksPerUnit="0.75" shapeSource="forestBush.i3d">
+        <foliageStateDefaults distanceMapLayer="0" widthVariance="1.5" heightVariance="2" horizontalPositionVariance="0.75"/>
+        <!-- default LOD distances etc -->
+        <foliageLodDefaults lod="0" viewDistance="40"  blendOutDistance="2" />
+        <foliageLodDefaults lod="1" viewDistance="120" blendOutDistance="2"/>
+        <!-- 1 0 0 0 -->
+        <foliageState width="2" height="2" >
+            <foliageShape>
+                <foliageLod blockShape="0" atlasSize="3" atlasOffset="0 0.333333" texCoords="0 0 1 1" />
+                <foliageLod blockShape="1" atlasSize="3" atlasOffset="0 0.25"     texCoords="0 0 1 1" />
+            </foliageShape>
+        </foliageState>
+        <!--  -->
+    </foliageLayer>
+</foliageType>

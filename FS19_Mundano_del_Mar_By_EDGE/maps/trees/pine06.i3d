@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="pine" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="7.0.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="7" filename="pine6LOD_diffuse.png" relativePath="true"/>
+    <File fileId="8" filename="pine6LOD_normal.png" relativePath="true"/>
+    <File fileId="4" filename="pineBranch_diffuse.png" relativePath="true"/>
+    <File fileId="5" filename="pineBranch_normal.png" relativePath="true"/>
+    <File fileId="1" filename="pineTrunkDead_diffuse.png" relativePath="true"/>
+    <File fileId="2" filename="pineTrunkDead_normal.png" relativePath="true"/>
+    <File fileId="9" filename="../../shaders/treeBillboardShader.xml" relativePath="true"/>
+    <File fileId="6" filename="../../shaders/treeBranchShader.xml" relativePath="true"/>
+    <File fileId="3" filename="../../shaders/treeTrunkShader.xml" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="pineTrunkDead_mat" materialId="259" ambientColor="1 1 1" customShaderId="3">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="pine6LOD_mat" materialId="262" ambientColor="1 1 1" customShaderId="9" customShaderVariation="billboard180">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="pineBranch_mat" materialId="17" ambientColor="1 1 1" customShaderId="6">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="pine06.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="pine_stage6" clipDistance="599" nodeId="302" lodDistance="0 120">
+      <Shape shapeId="1" name="LOD0" static="true" collisionMask="16789538" angularDamping="0.15" rollingFriction="0.27" density="0.47" clipDistance="500" nodeId="303" materialIds="259" castsShadows="true" receiveShadows="true" splitType="1" splitUvs="0 0 1 0.064 1.8">
+        <Shape shapeId="2" name="attachments" clipDistance="500" nodeId="304" materialIds="17" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="3" name="LOD1" clipDistance="1500" nodeId="305" materialIds="262" castsShadows="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

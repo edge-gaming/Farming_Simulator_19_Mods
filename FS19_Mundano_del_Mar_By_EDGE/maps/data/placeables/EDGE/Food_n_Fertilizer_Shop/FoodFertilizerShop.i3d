@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Food 'n' Fertilizer Shop" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="36" filename="$data/maps/textures/european/props/fencesDE_diffuse.png"/>
+    <File fileId="37" filename="$data/maps/textures/european/props/fencesDE_normal.png"/>
+    <File fileId="38" filename="$data/maps/textures/european/props/fencesDE_specular.png"/>
+    <File fileId="19" filename="$data/maps/textures/european/props/floodlightFixture_diffuse.dds"/>
+    <File fileId="20" filename="$data/maps/textures/european/props/floodlightFixture_normal.dds"/>
+    <File fileId="21" filename="$data/maps/textures/european/props/floodlightFixture_specular.dds"/>
+    <File fileId="10" filename="$data/maps/textures/european/props/industrialGuardHouseGlass_diffuse.png"/>
+    <File fileId="11" filename="$data/maps/textures/european/props/industrialGuardHouseGlass_specular.png"/>
+    <File fileId="7" filename="$data/maps/textures/european/props/industrialGuardHouse_diffuse.png"/>
+    <File fileId="8" filename="$data/maps/textures/european/props/industrialGuardHouse_normal.png"/>
+    <File fileId="9" filename="$data/maps/textures/european/props/industrialGuardHouse_specular.png"/>
+    <File fileId="18" filename="$data/maps/textures/european/props/lightPoleSet_emissive.dds"/>
+    <File fileId="39" filename="$data/maps/textures/european/props/palletTruck_diffuse.png"/>
+    <File fileId="40" filename="$data/maps/textures/european/props/palletTruck_normal.png"/>
+    <File fileId="41" filename="$data/maps/textures/european/props/palletTruck_specular.png"/>
+    <File fileId="12" filename="$data/maps/textures/european/props/propsDecals_diffuse.png"/>
+    <File fileId="25" filename="$data/maps/textures/shared/sellingStationGeneric_diffuse.png"/>
+    <File fileId="26" filename="$data/maps/textures/shared/sellingStationGeneric_normal.png"/>
+    <File fileId="27" filename="$data/maps/textures/shared/sellingStationGeneric_specular.png"/>
+    <File fileId="54" filename="$data/maps/textures/shared/warningStripes_diffuse.png"/>
+    <File fileId="55" filename="$data/maps/textures/shared/warningStripes_normal.png"/>
+    <File fileId="56" filename="$data/maps/textures/shared/warningStripes_specular.png"/>
+    <File fileId="47" filename="$data/objects/bigBagContainer/bigBagChickenFood_diffuse.png"/>
+    <File fileId="43" filename="$data/objects/bigBagContainer/bigBagContainer_normal.png"/>
+    <File fileId="44" filename="$data/objects/bigBagContainer/bigBagContainer_specular.png"/>
+    <File fileId="49" filename="$data/objects/bigBagContainer/bigBagFertilizer_diffuse.png"/>
+    <File fileId="46" filename="$data/objects/bigBagContainer/bigBagHorseFood_diffuse.png"/>
+    <File fileId="48" filename="$data/objects/bigBagContainer/bigBagLime_diffuse.png"/>
+    <File fileId="45" filename="$data/objects/bigBagContainer/bigBagPigFood_diffuse.png"/>
+    <File fileId="42" filename="$data/objects/bigBagContainer/bigBagSeeds_diffuse.png"/>
+    <File fileId="50" filename="$data/objects/pallets/liquidTank/fertilizerTank_diffuse.png"/>
+    <File fileId="51" filename="$data/objects/pallets/liquidTank/fertilizerTank_normal.png"/>
+    <File fileId="52" filename="$data/objects/pallets/liquidTank/fertilizerTank_specular.png"/>
+    <File fileId="53" filename="$data/objects/pallets/liquidTank/herbicideTank_diffuse.png"/>
+    <File fileId="28" filename="$data/shaders/buildingShader.xml"/>
+    <File fileId="17" filename="$data/shaders/dashboardLightsShader.xml"/>
+    <File fileId="14" filename="$data/shaders/decalShader.xml"/>
+    <File fileId="3" filename="$data/shared/default_normal.png"/>
+    <File fileId="13" filename="$data/shared/default_specular.png"/>
+    <File fileId="15" filename="$data/shared/window02_diffuse.dds"/>
+    <File fileId="16" filename="$data/shared/window02_specular.dds"/>
+    <File fileId="22" filename="textures/Buildings_Diffuse.dds"/>
+    <File fileId="23" filename="textures/Buildings_normal.dds"/>
+    <File fileId="24" filename="textures/Buildings_specular.dds"/>
+    <File fileId="33" filename="textures/Decals_Diffuse.dds"/>
+    <File fileId="34" filename="textures/Decals_normal.dds"/>
+    <File fileId="35" filename="textures/Decals_specular.dds"/>
+    <File fileId="4" filename="textures/SiloBuilding_Diffuse.dds"/>
+    <File fileId="5" filename="textures/SiloBuilding_normal.dds"/>
+    <File fileId="6" filename="textures/SiloBuilding_specular.dds" colorProfile="sRGB"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="floodlightFixture_mat" materialId="18">
+      <Texture fileId="19"/>
+      <Normalmap fileId="20"/>
+      <Glossmap fileId="21"/>
+    </Material>
+    <Material name="bigBagHorseFood_mat" materialId="10">
+      <Texture fileId="46"/>
+      <Normalmap fileId="43"/>
+      <Glossmap fileId="44"/>
+    </Material>
+    <Material name="Decals_mat" materialId="4">
+      <Texture fileId="33"/>
+      <Normalmap fileId="34"/>
+      <Glossmap fileId="35"/>
+    </Material>
+    <Material name="Food_And_Fertilizer_Station1" materialId="13" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="Food_And_Fertilizer_Station" materialId="6" diffuseColor="1 1 1 1">
+    </Material>
+    <Material name="propsDecals_mat" materialId="12" customShaderId="14">
+      <Texture fileId="12"/>
+      <Glossmap fileId="13"/>
+    </Material>
+    <Material name="fertilizerTank_mat" materialId="14">
+      <Texture fileId="50"/>
+      <Normalmap fileId="51"/>
+      <Glossmap fileId="52"/>
+    </Material>
+    <Material name="palletTruck_mat" materialId="15">
+      <Texture fileId="39"/>
+      <Normalmap fileId="40"/>
+      <Glossmap fileId="41"/>
+    </Material>
+    <Material name="Food_And_Fertilizer_Station_mat" materialId="16" diffuseColor="0.494118 0.494118 0.494118 1">
+      <Normalmap fileId="3"/>
+    </Material>
+    <Material name="bigBagLime_mat" materialId="17">
+      <Texture fileId="48"/>
+      <Normalmap fileId="43"/>
+      <Glossmap fileId="44"/>
+    </Material>
+    <Material name="bigBagChickenFood_mat" materialId="5">
+      <Texture fileId="47"/>
+      <Normalmap fileId="43"/>
+      <Glossmap fileId="44"/>
+    </Material>
+    <Material name="bigBagFertilizer_mat" materialId="7">
+      <Texture fileId="49"/>
+      <Normalmap fileId="43"/>
+      <Glossmap fileId="44"/>
+    </Material>
+    <Material name="warningStripes_mat" materialId="8">
+      <Texture fileId="54"/>
+      <Normalmap fileId="55"/>
+      <Glossmap fileId="56"/>
+    </Material>
+    <Material name="bigBagPigFood_mat" materialId="9">
+      <Texture fileId="45"/>
+      <Normalmap fileId="43"/>
+      <Glossmap fileId="44"/>
+    </Material>
+    <Material name="bigBagSeed_mat" materialId="11">
+      <Texture fileId="42"/>
+      <Normalmap fileId="43"/>
+      <Glossmap fileId="44"/>
+    </Material>
+    <Material name="Station_mat" materialId="22">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+      <Glossmap fileId="6"/>
+    </Material>
+    <Material name="herbicideTank_mat" materialId="23">
+      <Texture fileId="53"/>
+      <Normalmap fileId="51"/>
+      <Glossmap fileId="52"/>
+    </Material>
+    <Material name="industrialGuardHouse_mat" materialId="20">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
+      <Glossmap fileId="9"/>
+    </Material>
+    <Material name="fencesDE_mat" materialId="19">
+      <Texture fileId="36"/>
+      <Normalmap fileId="37"/>
+      <Glossmap fileId="38"/>
+    </Material>
+    <Material name="floodLightGlass_mat" materialId="21" alphaBlending="true" customShaderId="17">
+      <Texture fileId="15"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="16"/>
+      <Custommap name="mEmissiveMap" fileId="18"/>
+      <CustomParameter name="lightControl" value="1 1 1 1"/>
+    </Material>
+    <Material name="industrialGuardHouseGlass_mat" materialId="24" alphaBlending="true">
+      <Texture fileId="10"/>
+      <Glossmap fileId="11"/>
+    </Material>
+    <Material name="Buildings_mat" materialId="26">
+      <Texture fileId="22"/>
+      <Normalmap fileId="23"/>
+      <Glossmap fileId="24"/>
+    </Material>
+    <Material name="Food_And_Fertilizer_Station_Generic_mat" materialId="25" customShaderId="28">
+      <Texture fileId="25"/>
+      <Normalmap fileId="26"/>
+      <Glossmap fileId="27"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="FoodFertilizerShop.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="FoodnFertilizer" nodeId="64">
+      <TransformGroup name="gameplay" nodeId="65">
+        <TransformGroup name="OUT" nodeId="66">
+          <TransformGroup name="loadingStation" nodeId="67">
+            <TransformGroup name="loadingTriggers" nodeId="68">
+              <Shape shapeId="1" name="loadingTrigger" translation="0 5.334 0" scale="5 2 5" static="true" trigger="true" collisionMask="1088421888" nodeId="69" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              <TransformGroup name="dischargeNode" translation="0 5.41948 0" nodeId="70"/>
+              <TransformGroup name="dischargeEffect" translation="0 5.40493 0" nodeId="71">
+                <Shape shapeId="2" name="pipeEffect" rotation="90 0 0" visibility="false" clipDistance="300" nodeId="72" materialIds="16" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="3" name="pipeEffectSmoke" translation="0 -4.45118 0" visibility="false" clipDistance="100" nodeId="73" materialIds="16" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="storageFarm" nodeId="74"/>
+        <TransformGroup name="mapPosition" translation="5.5 0 0" nodeId="75"/>
+        <TransformGroup name="IN" translation="4.88389e-07 0 0" rotation="0 -90 0" scale="1 1 1.4" nodeId="76">
+          <Shape shapeId="4" name="triggerPos" static="true" trigger="true" collisionMask="8388608" nodeId="77" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="5" name="exactFillRootNode" rotation="0 90 0" static="true" collisionMask="1073741824" nodeId="78" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="6" name="StrawTrigger" scale="1 0.5 1" static="true" trigger="true" collisionMask="8388608" nodeId="79" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+              <TransformGroup name="triggerStart" translation="0 0 0.5" nodeId="80"/>
+              <TransformGroup name="triggerEnd" translation="0 0 -0.5" nodeId="81"/>
+              <Shape shapeId="7" name="StrawShovelTarget" translation="0 -0.02 0" static="true" nodeId="82" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            </Shape>
+            <Shape shapeId="6" name="baleDestroyerTrigger" scale="1 0.5 1" static="true" trigger="true" collisionMask="16777216" nodeId="83" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="areaDefinitions" nodeId="84">
+        <TransformGroup name="Start" translation="-10.416 0 -2.784" nodeId="85">
+          <TransformGroup name="Width" translation="20.8 0 0" nodeId="86"/>
+          <TransformGroup name="Height" translation="0 0 10.9" nodeId="87"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="FoodnFertilizer_Visuals" nodeId="88">
+        <Shape shapeId="8" name="FillStation" static="true" density="0.0001" nodeId="89" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true">
+          <Shape shapeId="9" name="decalBlack" clipDistance="300" nodeId="90" materialIds="22" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="10" name="FillStation_vis" clipDistance="300" nodeId="91" materialIds="22" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="11" name="GuardHouse_vis" translation="-4.899 0 3.454" rotation="-2.16278e-13 -90 0" clipDistance="100" nodeId="92" materialIds="20" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="12" name="glass" clipDistance="50" nodeId="93" materialIds="24" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="13" name="decals" clipDistance="30" nodeId="94" materialIds="12" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <Shape shapeId="14" name="col" visibility="false" static="true" density="0.0001" nodeId="95" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <TransformGroup name="Light" translation="0.735433 1.92845 0.18737" rotation="0.00620181 0.0187852 -161.73" nodeId="96">
+            <Shape shapeId="15" name="glass" translation="0.0373901 0 0" scale="1 1.3 1" clipDistance="200" nodeId="97" materialIds="21" castsShadows="true" receiveShadows="true"/>
+            <Light name="spotLight" translation="0.06 0.00588252 0" rotation="3.18055e-15 -90 0" clipDistance="400" nodeId="98" type="point" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="2"/>
+          </TransformGroup>
+          <TransformGroup name="Light" translation="0.735375 1.92845 0.347958" rotation="0.00620181 0.0187852 -161.73" nodeId="99">
+            <Shape shapeId="15" name="glass" translation="0.0373901 0 0" scale="1 1.3 1" clipDistance="200" nodeId="100" materialIds="21" castsShadows="true" receiveShadows="true"/>
+            <Light name="spotLight" translation="0.06 0.00588252 0" rotation="3.18055e-15 -90 0" clipDistance="400" nodeId="101" type="point" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="2"/>
+          </TransformGroup>
+        </Shape>
+        <TransformGroup name="Lights" nodeId="102">
+          <Shape shapeId="16" name="floodLightBlue-400" translation="-2.65 6.52322 5.47105e-08" rotation="-180 0 -90" clipDistance="300" nodeId="103" materialIds="18" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="17" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.000670971" rotation="1.58773e-11 -1.03813e-11 20" clipDistance="80" nodeId="104" materialIds="18" castsShadows="true" receiveShadows="true">
+              <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="105">
+                <Shape shapeId="15" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="106" materialIds="21" castsShadows="true" receiveShadows="true"/>
+                <Light name="spotLight" translation="0.06 0.00588252 0" rotation="3.18055e-15 -90 0" clipDistance="400" nodeId="107" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="20" coneAngle="60" dropOff="4"/>
+              </TransformGroup>
+            </Shape>
+          </Shape>
+          <Shape shapeId="16" name="floodLightBlue-400" translation="2.65 6.5 0" rotation="0 -0 -90" clipDistance="300" nodeId="108" materialIds="18" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="17" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.000670971" rotation="1.04831e-11 -1.38418e-11 20" clipDistance="80" nodeId="109" materialIds="18" castsShadows="true" receiveShadows="true">
+              <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="110">
+                <Shape shapeId="15" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="111" materialIds="21" castsShadows="true" receiveShadows="true"/>
+                <Light name="spotLight" translation="0.06 0.00588252 0" rotation="3.18055e-15 -90 0" clipDistance="400" nodeId="112" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="20" coneAngle="60" dropOff="4"/>
+              </TransformGroup>
+            </Shape>
+          </Shape>
+          <Shape shapeId="16" name="floodLightBlue-400" translation="-2.585 5.426 2.756" rotation="90 -0 -90" clipDistance="300" nodeId="113" materialIds="18" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="17" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.000670971" rotation="0 0 25" clipDistance="80" nodeId="114" materialIds="18" castsShadows="true" receiveShadows="true">
+              <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="115">
+                <Shape shapeId="15" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="116" materialIds="21" castsShadows="true" receiveShadows="true"/>
+                <Light name="spotLight" translation="0.06 0.00588252 0" rotation="0 -90 0" clipDistance="400" nodeId="117" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="20" coneAngle="80" dropOff="4"/>
+              </TransformGroup>
+            </Shape>
+          </Shape>
+          <Shape shapeId="16" name="floodLightBlue-400" translation="2.585 5.426 2.756" rotation="90 -0 -90" clipDistance="300" nodeId="118" materialIds="18" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="17" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.000670971" rotation="1.48596e-11 -9.77066e-12 25" clipDistance="80" nodeId="119" materialIds="18" castsShadows="true" receiveShadows="true">
+              <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="120">
+                <Shape shapeId="15" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="121" materialIds="21" castsShadows="true" receiveShadows="true"/>
+                <Light name="spotLight" translation="0.06 0.00588252 0" rotation="3.18055e-15 -90 0" clipDistance="400" nodeId="122" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="20" coneAngle="80" dropOff="4"/>
+              </TransformGroup>
+            </Shape>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="RampArea" nodeId="123">
+          <Shape shapeId="18" name="ramp" static="true" nodeId="124" materialIds="26" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="19" name="sellingStationGeneric" static="true" clipDistance="400" nodeId="125" materialIds="25" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="20" name="weighingStation" translation="0 -0.0134948 0" static="true" clipDistance="300" nodeId="126" materialIds="26" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="Signs" nodeId="127">
+          <Shape shapeId="21" name="Sign2" clipDistance="300" nodeId="128" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="22" name="Sign" clipDistance="300" nodeId="129" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="23" name="Edge_Dec" clipDistance="300" nodeId="130" materialIds="4" receiveShadows="true"/>
+          <Shape shapeId="24" name="Edge_Dec1" clipDistance="300" nodeId="131" materialIds="4" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="Fence" translation="0.427884 -0.0483433 -3.14787" nodeId="132">
+          <Shape shapeId="25" name="FenceTypeCPole" translation="6.45897 0.25 8.08003" static="true" clipDistance="80" nodeId="133" materialIds="19" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="25" name="FenceTypeCPole" translation="6.475 0.25 6.10609" static="true" clipDistance="80" nodeId="134" materialIds="19" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="26" name="FenceTypeC2M" translation="6.475 0.25 8.023" rotation="180 90 180" static="true" clipDistance="80" nodeId="135" materialIds="19" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="Walls" nodeId="136">
+          <Shape shapeId="27" name="bgaSiloWall" static="true" nodeId="137" materialIds="26" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="Stuff" nodeId="138">
+          <Shape shapeId="28" name="palletTruck" translation="-3.01726 0.179805 4.124" rotation="180 20.0251 180" clipDistance="35" nodeId="139" materialIds="15" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="29" name="col" translation="0 0 0.386244" visibility="false" static="true" density="0.0001" nodeId="140" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+          <Shape shapeId="28" name="palletTruck" translation="3.42887 0.179804 3.33752" rotation="2.59515e-06 -76.6904 -2.98413e-05" clipDistance="35" nodeId="141" materialIds="15" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="29" name="col" translation="0 0 0.386244" visibility="false" static="true" density="0.0001" nodeId="142" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="Pallets" nodeId="143">
+          <TransformGroup name="SeedPallets" nodeId="144">
+            <TransformGroup name="SeedPallets4" translation="0 0.185945 0" nodeId="145">
+              <Shape shapeId="30" name="Seedpallet2" translation="4.69173 0 3.50776" static="true" collisionMask="25178120" density="0.1" clipDistance="300" nodeId="146" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visable" nodeId="147">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="148" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="30" name="Seedpallet1" translation="6.09759 0 3.50776" static="true" collisionMask="25178120" density="0.1" clipDistance="300" nodeId="149" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visable" nodeId="150">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="151" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+            </TransformGroup>
+            <TransformGroup name="SeedPallets1" translation="0 1.22772 0" nodeId="152">
+              <Shape shapeId="30" name="Seedpallet3" translation="4.69173 0 3.50776" static="true" collisionMask="25178120" density="0.1" clipDistance="300" nodeId="153" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visable" nodeId="154">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="155" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="30" name="Seedpallet4" translation="6.09759 0 3.50776" static="true" collisionMask="25178120" density="0.1" clipDistance="300" nodeId="156" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visable" nodeId="157">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="158" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+            </TransformGroup>
+            <TransformGroup name="SeedPallets2" translation="0 2.28589 0" nodeId="159">
+              <Shape shapeId="30" name="Seedpallet5" translation="4.69173 0 3.50776" static="true" collisionMask="25178120" density="0.1" clipDistance="300" nodeId="160" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visable" nodeId="161">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="162" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="30" name="Seedpallet6" translation="6.09759 0 3.50776" static="true" collisionMask="25178120" density="0.1" clipDistance="300" nodeId="163" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visable" nodeId="164">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="165" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+            </TransformGroup>
+            <TransformGroup name="SeedPallets3" translation="0 0.185945 1.14604" nodeId="166">
+              <Shape shapeId="30" name="Seedpallet7" translation="4.69173 0 3.50776" static="true" collisionMask="25178120" density="0.1" clipDistance="300" nodeId="167" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visable" nodeId="168">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="169" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="30" name="Seedpallet8" translation="6.09759 0 3.50776" static="true" collisionMask="25178120" density="0.1" clipDistance="300" nodeId="170" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visable" nodeId="171">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="172" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="pigFoodPallets" nodeId="173">
+            <TransformGroup name="pigFoodPallets1" nodeId="174">
+              <Shape shapeId="30" name="pigFoodpallet1" translation="6.06704 0.194056 7.34809" static="true" clipDistance="300" nodeId="175" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="32" name="pigFoodpallet_vis" translation="-0.00649741 0.0776865 -0.0213836" kinematic="true" trigger="true" collisionMask="8192" clipDistance="100" nodeId="176" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                <TransformGroup name="visable" nodeId="177">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="178" materialIds="9" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="30" name="pigFoodpallet2" translation="4.66454 0.194056 7.34809" static="true" clipDistance="300" nodeId="179" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="32" name="pigFoodpallet_vis" translation="-0.00649741 0.0776865 -0.0213836" kinematic="true" trigger="true" collisionMask="8192" clipDistance="100" nodeId="180" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                <TransformGroup name="visable" nodeId="181">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="182" materialIds="9" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="30" name="pigFoodpallet3" translation="3.25735 0.194056 7.34809" static="true" clipDistance="300" nodeId="183" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="32" name="pigFoodpallet_vis" translation="-0.00649741 0.0776865 -0.0213836" kinematic="true" trigger="true" collisionMask="8192" clipDistance="100" nodeId="184" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                <TransformGroup name="visable" nodeId="185">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="186" materialIds="9" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="30" name="pigFoodpallet4" translation="1.86785 0.194056 7.34809" static="true" clipDistance="300" nodeId="187" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="32" name="pigFoodpallet_vis" translation="-0.00649741 0.0776865 -0.0213836" kinematic="true" trigger="true" collisionMask="8192" clipDistance="100" nodeId="188" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                <TransformGroup name="visable" nodeId="189">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="190" materialIds="9" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="HorseFoodPallets" nodeId="191">
+            <TransformGroup name="HorseFoodPallets1" translation="0 1.07501 0" nodeId="192">
+              <Shape shapeId="30" name="HorseFoodPallet1" translation="6.06704 0.194056 7.34809" static="true" clipDistance="300" nodeId="193" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="32" name="pigFoodpallet_vis" translation="-0.00649741 0.0776865 -0.0213836" kinematic="true" trigger="true" collisionMask="8192" clipDistance="100" nodeId="194" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                <TransformGroup name="visable" nodeId="195">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="196" materialIds="10" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="30" name="HorseFoodPallet2" translation="4.66454 0.194056 7.34809" static="true" clipDistance="300" nodeId="197" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="32" name="pigFoodpallet_vis" translation="-0.00649741 0.0776865 -0.0213836" kinematic="true" trigger="true" collisionMask="8192" clipDistance="100" nodeId="198" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                <TransformGroup name="visable" nodeId="199">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="200" materialIds="10" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="30" name="HorseFoodPallet3" translation="3.25735 0.194056 7.34809" static="true" clipDistance="300" nodeId="201" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="32" name="pigFoodpallet_vis" translation="-0.00649741 0.0776865 -0.0213836" kinematic="true" trigger="true" collisionMask="8192" clipDistance="100" nodeId="202" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                <TransformGroup name="visable" nodeId="203">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="204" materialIds="10" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="30" name="HorseFoodPallet4" translation="1.86785 0.194056 7.34809" static="true" clipDistance="300" nodeId="205" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="32" name="pigFoodpallet_vis" translation="-0.00649741 0.0776865 -0.0213836" kinematic="true" trigger="true" collisionMask="8192" clipDistance="100" nodeId="206" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                <TransformGroup name="visable" nodeId="207">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="208" materialIds="10" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="ChickenFoodPallets" nodeId="209">
+            <TransformGroup name="ChickenFoodPallets1" translation="0 2.14589 0" nodeId="210">
+              <Shape shapeId="30" name="ChickenFoodPallet1" translation="6.06704 0.194056 7.34809" static="true" clipDistance="300" nodeId="211" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="32" name="pigFoodpallet_vis" translation="-0.00649741 0.0776865 -0.0213836" kinematic="true" trigger="true" collisionMask="8192" clipDistance="100" nodeId="212" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                <TransformGroup name="visable" nodeId="213">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="214" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="30" name="ChickenFoodPallet2" translation="4.66454 0.194056 7.34809" static="true" clipDistance="300" nodeId="215" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visable" nodeId="216">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="217" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="30" name="ChickenFoodPallet3" translation="3.25735 0.194056 7.34809" static="true" clipDistance="300" nodeId="218" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="32" name="pigFoodpallet_vis" translation="-0.00649741 0.0776865 -0.0213836" kinematic="true" trigger="true" collisionMask="8192" clipDistance="100" nodeId="219" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                <TransformGroup name="visable" nodeId="220">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="221" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="30" name="ChickenFoodPallet4" translation="1.86785 0.194056 7.34809" static="true" clipDistance="300" nodeId="222" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="32" name="pigFoodpallet_vis" translation="-0.00649741 0.0776865 -0.0213836" kinematic="true" trigger="true" collisionMask="8192" clipDistance="100" nodeId="223" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                <TransformGroup name="visable" nodeId="224">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="225" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="LimePallets" nodeId="226">
+            <TransformGroup name="LimePallets1" nodeId="227">
+              <Shape shapeId="30" name="bigBagContainer_main_component1" translation="-0.0809269 0.176502 7.36866" static="true" clipDistance="300" nodeId="228" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visable" nodeId="229">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="230" materialIds="17" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="30" name="bigBagContainer_main_component1" translation="-1.48226 0.176502 7.36866" static="true" clipDistance="300" nodeId="231" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visable" nodeId="232">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="233" materialIds="17" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="30" name="bigBagContainer_main_component1" translation="-0.0809269 1.23531 7.36866" static="true" clipDistance="300" nodeId="234" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visable" nodeId="235">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="236" materialIds="17" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="30" name="bigBagContainer_main_component1" translation="-0.0809269 0.176502 6.2485" static="true" clipDistance="300" nodeId="237" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visable" nodeId="238">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="239" materialIds="17" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="FertilizerPallets" nodeId="240">
+            <TransformGroup name="FertilizerPallets1" nodeId="241">
+              <Shape shapeId="30" name="SolidFertilizerRefillSpot" translation="-4.25096 2.24195 3.25119" rotation="6.58722e-16 90 6.00635e-10" static="true" collisionMask="25178120" density="0.1" clipDistance="300" nodeId="242" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visable" nodeId="243">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="244" materialIds="7" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="30" name="SolidFertilizerRefillSpot" translation="-5.57058 2.24195 3.25119" rotation="6.58722e-16 90 6.00635e-10" static="true" collisionMask="25178120" density="0.1" clipDistance="300" nodeId="245" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visable" nodeId="246">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="247" materialIds="7" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="30" name="SolidFertilizerRefillSpot" translation="-5.57058 3.3052 3.25119" rotation="6.58722e-16 90 6.00635e-10" static="true" collisionMask="25178120" density="0.1" clipDistance="300" nodeId="248" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visable" nodeId="249">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="250" materialIds="7" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="30" name="SolidFertilizerRefillSpot" translation="-4.25098 3.29751 3.25119" rotation="6.58722e-16 90 6.00635e-10" static="true" collisionMask="25178120" density="0.1" clipDistance="300" nodeId="251" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visable" nodeId="252">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="253" materialIds="7" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+            </TransformGroup>
+            <TransformGroup name="FertilizerPallets2" nodeId="254">
+              <Shape shapeId="30" name="SolidFertilizerRefillSpot" translation="-2.69159 0.201328 3.49822" rotation="7.10974e-16 -22.1036 6.00636e-10" static="true" collisionMask="25178120" density="0.1" clipDistance="300" nodeId="255" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visable" nodeId="256">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="257" materialIds="7" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="30" name="SolidFertilizerRefillSpot" translation="-1.48664 1.23178 7.36918" rotation="7.10974e-16 0 6.00636e-10" static="true" collisionMask="25178120" density="0.1" clipDistance="300" nodeId="258" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visable" nodeId="259">
+                  <Shape shapeId="31" name="bigBagContainer_vis" clipDistance="300" nodeId="260" materialIds="7" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="Tanks" nodeId="261">
+          <TransformGroup name="fertilizerTanks" nodeId="262">
+            <TransformGroup name="fertilizerTanks1" nodeId="263">
+              <Shape shapeId="33" name="fertilizerTank_main_component1" translation="-3.19984 0.189024 7.23569" static="true" collisionMask="25178120" density="0.07" clipDistance="300" nodeId="264" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visible" nodeId="265">
+                  <Shape shapeId="34" name="fertilizerTank_vis" translation="0 8.88178e-18 0" clipDistance="300" nodeId="266" materialIds="14" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="33" name="fertilizerTank_main_component1" translation="-4.63195 0.189024 7.23569" static="true" collisionMask="25178120" density="0.07" clipDistance="300" nodeId="267" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visible" nodeId="268">
+                  <Shape shapeId="34" name="fertilizerTank_vis" translation="0 8.88178e-18 0" clipDistance="300" nodeId="269" materialIds="14" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="33" name="fertilizerTank_main_component1" translation="-4.63195 1.67308 7.236" static="true" collisionMask="25178120" density="0.07" clipDistance="300" nodeId="270" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visible" nodeId="271">
+                  <Shape shapeId="34" name="fertilizerTank_vis" translation="0 -0.000108028 0" clipDistance="300" nodeId="272" materialIds="14" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+              <Shape shapeId="33" name="fertilizerTank_main_component1" translation="-3.19698 1.67308 7.23569" static="true" collisionMask="25178120" density="0.07" clipDistance="300" nodeId="273" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visible" nodeId="274">
+                  <Shape shapeId="34" name="fertilizerTank_vis" translation="0 -0.000108028 0" clipDistance="300" nodeId="275" materialIds="14" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="HerbTanks" nodeId="276">
+            <TransformGroup name="HerbTanks1" nodeId="277">
+              <Shape shapeId="33" name="HerbTank_main_component1" translation="-6.05748 0.189024 7.23569" static="true" collisionMask="25178120" density="0.07" clipDistance="300" nodeId="278" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <TransformGroup name="visible" nodeId="279">
+                  <Shape shapeId="34" name="HerbicideTank_vis" translation="0 8.88178e-18 0" clipDistance="300" nodeId="280" materialIds="23" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+              </Shape>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="warningStripesBarn" translation="-6.26714e-08 0.184 1.36353e-15" rotation="-180 -90 -180" scale="0.9 1 0.9" nodeId="281">
+        <Shape shapeId="35" name="warningStripesCorner2" translation="-3 0 5.07" rotation="-180 -0 -180" clipDistance="200" nodeId="282" materialIds="8" receiveShadows="true" decalLayer="1"/>
+        <Shape shapeId="36" name="warningStripesCorner1" translation="-3 0 -5.07" clipDistance="200" nodeId="283" materialIds="8" receiveShadows="true" decalLayer="1"/>
+        <Shape shapeId="35" name="warningStripesCorner2" translation="3 0 -5.07" clipDistance="200" nodeId="284" materialIds="8" receiveShadows="true" decalLayer="1"/>
+        <Shape shapeId="36" name="warningStripesCorner1" translation="3 0 5.07" rotation="-180 -5.00896e-06 -180" clipDistance="200" nodeId="285" materialIds="8" receiveShadows="true" decalLayer="1"/>
+      </TransformGroup>
+    </TransformGroup>
+    <Camera name="persp" translation="-11.6453 19.8638 -20.0971" rotation="136.688 -61.7195 -180" visibility="false" nodeId="286" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="64">
+      <Attribute name="mapPositionIndex" type="string" value="0|2"/>
+    </UserAttribute>
+    <UserAttribute nodeId="77">
+      <Attribute name="shovelTargetIndex" type="string" value="3"/>
+    </UserAttribute>
+    <UserAttribute nodeId="79">
+      <Attribute name="index" type="string" value="WINDROW_STORAGE"/>
+      <Attribute name="onCreate" type="scriptCallback" value="TipTrigger.onCreate"/>
+      <Attribute name="shovelTargetIndex" type="string" value="2"/>
+      <Attribute name="useMapConfigXml" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="83">
+      <Attribute name="appearsOnPDA" type="boolean" value="false"/>
+      <Attribute name="onCreate" type="scriptCallback" value="BaleDestroyerTrigger.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="96">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="99">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="105">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="110">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="115">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="120">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

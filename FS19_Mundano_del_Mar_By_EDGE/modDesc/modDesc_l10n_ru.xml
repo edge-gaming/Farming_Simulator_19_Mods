@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+<author>Edge Gaming / Castiga</author>
+<translationby>Castiga</translationby>
+	<texts>
+		<!--EDGEGrainSilo-->
+		<text name="funcEDGEGrainSilo" 					text="You can Find Matching Silo Extensions By downloading the EDGE Grain Silos mod from Giants modhub"/>
+		<text name="function_EDGEGrainSilo" 			text="Это здание имеет автоматическое освещение."/>
+		<text name="name_LargeGrainSiloSystem" 			text="Большая силосная система"/>
+		<text name="EDGELights" 						text="Automatic Lighting"/>
+		<!-- <text name="typeDesc_EDGEGrainSilo" text="Silos can be used to store grain"/> -->
+
+		<!--Fruits-->
+		<text name="PoppyFlower" 						text="Poppy Flower"/>
+		<text name="PoppySeeds" 						text="Poppy Seeds"/>
+		<text name="Desc_PoppySeeds" 					text="Poppy Seeds is a Fruit"/>
+		<text name="HempPlant" 							text="Hemp Plant"/>
+		<text name="HempFill" 							text="Hemp"/>
+		<text name="Desc_HempPlant" 					text="Hemp can be used for making allmost anything"/>
+
+		<!--Shops-->
+		<text name="EDGEFNF"         					text="EDGE Grains"/>
+		<text name="EDGEFNFBuy"    						text="EDGE Food &apos;n&apos; Fertilizer"/>
+        <text name="station_mill"         				text="Corn Centre"/>
+        <text name="station_distillery"    				text="Distillery"/>
+
+		<!--StrawBarn-->
+        <text name="name_StrawBarn_SellingSpot"			text="EDGE Bigbales!"/>
+        <text name="name_StrawBarn_SellingSpotUn"		text="EDGE Bailing Barn"/>
+        <text name="function_StrawBarn_SellingSpot"		text="Nice and clean barn that works as a selling point for straw, grass, hay and silage. The Building is fitted with automatic lighting inside and outside."/>
+		<text name="function_StrawBarn_SellingSpotUn"	text="Nice and clean barn that works as a selling point for all types of Fruit. The Building is fitted with automatic lighting inside and outside."/>
+		<!-- <text name="typeDesc_StrawBarn_SellingSpot" text="for later use"/> -->
+
+		<!--MultiStations-->
+        <text name="name_MultiSellingStation_Black"		text="Multi Selling Station"/>
+        <text name="function_MultiSellingStation"		text="Here you can sell anything you'd like, From crop harvest to seeds and fertilizer."/>
+        <text name="GrainExpress"						text="EDGE Grain Express"/>
+        <text name="GrainExpressBuy"					text="EDGE Grain Shop Express"/>
+        <text name="name_multifillingstation_Black"		text="Multi Filling Station"/>
+        <text name="function_multifillingstation"		text="Here you can buy anything you'd like, the delivery people take 10%, and 15% on any crop harvest."/>
+
+		<!--GreenScreen-->
+		<text name="function_greenScreen"    			text="You can place this wall in the background for shop phots."/>
+        <text name="shopItem_greenScreen"    			text="Green Screen"/>
+
+		<!--Actions-->
+        <text name="action_toggleFillmark" 				text="Fillmark on/off"/>
+        <text name="configuration_EDGE_DL">
+            <en>Communal</en>
+            <de>Zwillingsradial</de>
+            <fr>Radial double</fr>
+        </text>
+        <text name="configuration_EDGE_DL_R">
+            <en>Race</en>
+            <de>Zwillingsradial</de>
+            <fr>Radial double</fr>
+        </text>
+        <text name="configuration_EDGE_DL_A">
+            <en>Agro</en>
+            <de>Zwillingsradial</de>
+            <fr>Radial double</fr>
+        </text>
+        <text name="function_EDGE_DL">
+            <en>Cargo</en>
+            <de>Fracht</de>
+            <fr>Fliegl surbaissé édition EDGE</fr>
+        </text>
+        <text name="DARK GREY" value="0.037 0.037 0.037 1" color="0.037 0.037 0.037 1" material="0"/>
+        <text name="ITRUNNER" value="0.037 0.037 0.037 1" color="0.0382 0.0369 0.0482 1" material="8"/>
+		<text name="typeDesc_EDGEroller">
+			<en>Rollers can remove fields as well as cleaning an area for wheel tracs</en>
+			<de>Walzen können Felder entfernen und einen Bereich für Radspuren reinigen</de>
+			<fr>Les rouleaux peuvent enlever les champs et nettoyer une zone pour les tracs de roues</fr>
+		</text>
+		<text name="shopItem_EDGEroller_Store">
+			<en>Field Roller</en>
+			<de>Feldwalze</de>
+			<fr>Rouleau De Terrain</fr>
+		</text>
+		<text name="Config_Size">
+			<en>Size</en>
+			<de>Größe</de>
+			<fr>Taille</fr>
+		</text>
+		<text name="Config_4M">
+			<en>4 Meters</en>
+			<de>4 Meter</de>
+			<fr>4 Mètres</fr>
+		</text>
+		<text name="Config_3M">
+			<en>3 Meters</en>
+			<de>3 Meter</de>
+			<fr>3 Mètres</fr>
+		</text>
+		<text name="Config_6M">
+			<en>6 Meters</en>
+			<de>6 Meter</de>
+			<fr>6 Mètres</fr>
+		</text>
+		<!-- <text name="typeDesc_StrawBarn_SellingSpot" text="for later use"/> -->
+        <text name="name_StrawBarn_SellingSpot_White">
+            <en>Bailers Barn Deluxe White Edition</en>
+            <de>Kaution Scheune Deluxe Weiße Ausgabe</de>
+            <fr>Écope Grange Deluxe Édition blanche</fr>
+            <es>Granero Bailer de lujo Edición blanca</es>
+            <ru>черпак сарай роскошный Белое издание</ru>
+            <pl>stodoła bailersów luksusowy Biała edycja</pl>
+        </text>
+        <text name="name_StrawBarn_SellingSpot">
+            <en>Bailers Barn Deluxe</en>
+            <de>Kaution Scheune Deluxe</de>
+            <fr>Écope Grange Deluxe</fr>
+            <es>Granero Bailer de lujo</es>
+            <ru>черпак сарай роскошный</ru>
+            <pl>stodoła bailersów luksusowy</pl>
+        </text>
+        <text name="function_StrawBarn_SellingSpot">
+            <en>Nice and clean barn that works as a selling point for straw, grass, hay and silage. The Building is fitted with automatic lighting inside and outside.</en>
+            <de>Schöne und saubere Scheune, die als Verkaufsstelle für Stroh, Gras, Heu und Silage dient. Das Gebäude ist innen und außen mit einer automatischen Beleuchtung ausgestattet.</de>
+            <fr>Belle et propre grange qui fonctionne comme point de vente pour la paille, l'herbe, le foin et l'ensilage. Le bâtiment est équipé d'un éclairage automatique à l'intérieur et à l'extérieur.</fr>
+            <es>Granero bonito y limpio que funciona como un punto de venta de paja, hierba, heno y ensilaje. El edificio está equipado con iluminación automática interior y exterior.</es>
+            <ru>Хороший и чистый сарай, который служит торговым залом для соломы, травы, сена и силоса. Здание оснащено автоматическим освещением внутри и снаружи.</ru>
+            <pl>Ładna i czysta stodoła, która służy jako punkt sprzedaży słomy, trawy, siana i kiszonki. Budynek jest wyposażony w automatyczne oświetlenie wewnątrz i na zewnątrz.</pl>
+        </text>
+        <text name="name_StrawBarn_SellingSpot_Dark">
+            <en>Bailers Barn Deluxe Black Edition</en>
+            <de>Kaution Scheune Deluxe Schwarze Edition</de>
+            <fr>Écope Grange Deluxe Edition Noir</fr>
+            <es>Granero Bailer De Lujo Edicion Negra</es>
+            <ru>черпак сарай роскошный Черное издание</ru>
+            <pl>stodoła bailersów luksusowy Czarna Edycja</pl>
+        </text>
+        <text name="BailersBarnDeluxe">
+            <en>EDGE Bailers Barn Deluxe</en>
+            <de>EDGE Kaution Scheune Deluxe</de>
+            <fr>EDGE Écope Grange Deluxe</fr>
+            <es>EDGE Achicador Granero de Lujo</es>
+            <ru>EDGE бейлеры сарай делюкс</ru>
+            <pl>EDGE stodoła bailersów luksusowy</pl>
+        </text>
+        <text name="BlackBailersBarn">
+            <en>EDGE Black Bailers Barn Deluxe</en>
+            <de>EDGE Schwarz Kaution Scheune Deluxe</de>
+            <fr>EDGE Écope Grange Deluxe Noir</fr>
+            <es>EDGE Achicador Granero de Lujo Negra</es>
+            <ru>EDGE Черный сарай сарай делюкс</ru>
+            <pl>EDGE czarny stodoła bailersów luksusowy</pl>
+        </text>
+        <text name="WhiteBailersBarn">
+            <en>EDGE White Bailers Barn Deluxe</en>
+            <de>EDGE Weiß Kaution Scheune Deluxe</de>
+            <fr>EDGE Blanche Écope Grange Deluxe</fr>
+            <es>EDGE Blanca Achicador Granero de Lujo</es>
+            <ru>EDGE белый котелок сарай делюкс</ru>
+            <pl>EDGE biały stodoła bailersów luksusowy</pl>
+        </text>
+		<!-- <text name="typeDesc_MultiSellingStation" text="for later use"/> -->
+        <text name="name_MultiSellingStation">
+            <en>Multi Selling Station</en>
+            <de>Multi Verkaufsstation</de>
+            <fr>Poste De Vente Multiple</fr>
+            <es>Estación De Venta Múltiple</es>
+            <ru>Мультипродажная станция</ru>
+            <pl>Stacja Sprzedaży</pl>
+        </text>
+        <text name="name_MultiSellingStation_Black">
+            <en>Multi Selling Station Black Edition</en>
+            <de>Multi Verkaufsstation Schwarze Edition</de>
+            <fr>Poste De Vente Multiple Edition noir</fr>
+            <es>Estación De Venta Múltiple Edicion Negra</es>
+            <ru>Мультипродажная станция Черное издание</ru>
+            <pl>Stacja Sprzedaży Czarna Edycja</pl>
+        </text>
+        <text name="function_MultiSellingStation">
+            <en>Multi Selling Station, Here you can sell anything you'd like, From crop harvest to seeds and fertilizer.</en>
+            <de>Multi Verkaufsstation. Hier können Sie alles verkaufen, was Sie möchten, von der Ernte bis zu Saatgut und Dünger.</de>
+            <fr>Poste De Vente Multiple. Ici, vous pouvez vendre ce que vous voulez, de la récolte aux semences et aux engrais.</fr>
+            <es>Estación De Venta Múltiple. Aquí puede vender lo que quiera, desde la cosecha hasta las semillas y los fertilizantes.</es>
+            <ru>Мультипродажная станция. Здесь вы можете продать все, что захотите, от сбора урожая до семян и удобрений.</ru>
+            <pl>Stacja Sprzedaży. Tutaj możesz sprzedać wszystko, co chcesz, od zbiorów upraw po nasiona i nawozy.</pl>
+        </text>
+        <text name="GrainExpress">
+            <en>EDGE Grain Express</en>
+            <de>EDGE Korn ausdrücken</de>
+            <fr>EDGE Grain Express</fr>
+            <es>EDGE Grano Exprimir</es>
+            <ru>EDGE зерна экспресс</ru>
+            <pl>EDGE Ziarno Wyrazić</pl>
+        </text>
+        <text name="GrainExpressBlack">
+            <en>EDGE Grain Express Black</en>
+            <de>EDGE Korn ausdrücken Schwarz</de>
+            <fr>EDGE Grain Express Noir</fr>
+            <es>EDGE Grano Exprimir Negra</es>
+            <ru>EDGE зерна экспресс черный</ru>
+            <pl>EDGE Ziarno Wyrazić czarny</pl>
+        </text>
+		<!-- <text name="typeDesc_multifillingstation" text="for later use"/> -->
+        <text name="name_multifillingstation">
+            <en>Multi Filling Station</en>
+            <de>Multi Kaufstation</de>
+            <fr>Station De Remplissage Multiple</fr>
+            <es>Estación de llenado múltiple</es>
+            <ru>Мульти АЗС</ru>
+            <pl>Wielo Nadzienie Stacja</pl>
+        </text>
+        <text name="name_multifillingstation_Black">
+            <en>Multi Filling Station Black Edition</en>
+            <de>Multi Kaufstation Schwarze Edition</de>
+            <fr>Station De Remplissage Multiple Edition noir</fr>
+            <es>Estación de llenado múltiple Edicion Negra</es>
+            <ru>Мульти АЗС Черное издание</ru>
+            <pl>Wielo Nadzienie Stacja Czarna Edycja</pl>
+        </text>
+        <text name="function_multifillingstation">
+            <en>Multi Filling station. Here you can buy anything you'd like, the delivery people take 10%, and 15% on any crop harvest.</en>
+            <de>Multi Kaufstation. 10% Lieferkosten, 15% auf die ernte.</de>
+            <fr>FS19 Station de remplissage multiple. ici, vous pouvez acheter ce que vous voulez, les livreurs prennent 10% et 15% de toute récolte.</fr>
+            <es>Estación de llenado múltiple. Aquí puede comprar cualquier cosa que desee, la gente de entrega se lleva el 10% y el 15% de cualquier cosecha.</es>
+            <ru>Мульти АЗС. Здесь вы можете купить все, что захотите, люди, занимающиеся доставкой, получают 10% и 15% на любой урожай.</ru>
+            <pl>Wielo Nadzienie Stacja. Tutaj możesz kupić wszystko, co ci się podoba, a doręczyciele biorą 10%, a 15% na dowolne zbiory.</pl>
+        </text>
+        <text name="GrainExpress">
+            <en>EDGE Grain Express</en>
+            <de>EDGE Korn ausdrücken</de>
+            <fr>EDGE Grain Express</fr>
+            <es>EDGE Grano Exprimir</es>
+            <ru>EDGE зерна экспресс</ru>
+            <pl>EDGE Ziarno Wyrazić</pl>
+        </text>
+        <text name="GrainExpressBlack">
+            <en>EDGE Grain Express Black</en>
+            <de>EDGE Korn ausdrücken Schwarz</de>
+            <fr>EDGE Grain Express Noir</fr>
+            <es>EDGE Grano Exprimir Negra</es>
+            <ru>EDGE зерна экспресс черный</ru>
+            <pl>EDGE Ziarno Wyrazić czarny</pl>
+        </text>
+		<text name="function_greenScreen">    <en>You can place this wall in the background for shop phots.</en> <de>Diese Wand kannst du im Hintergrund platzieren, um Shop-Fotos zu erstellen.</de> </text>
+        <text name="shopItem_greenScreen">    <en>Green Screen</en> <de>Fotowand</de> </text>
+        <text name="action_toggleFillmark"> <en>Fillmark on/off</en> <de>Füllmarkierung ein/aus</de> </text>
+        <text name="station_mill">          <en>Corn Centre</en> <de>Kornzentrum</de> </text>
+        <text name="station_distillery">    <en>Distillery</en> <de>Brennerei</de> </text>
+	</texts>
+</l10n>

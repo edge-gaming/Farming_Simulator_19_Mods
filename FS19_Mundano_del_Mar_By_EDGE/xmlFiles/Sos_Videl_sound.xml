@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<sound>
+    <ambient3d filename="maps/Sos_Videl_sound.i3d" indoorVolumeFactor="0.4" indoorLowpassGainFactor="0.45"/>
+    <ambient indoorFlag="1">
+        <!--
+            state:  out-/indoor
+            bit:    1
+            dec.:   1
+
+                    night/day
+                    2
+                    2
+
+                    hail    rain
+                    3       4
+                    4       8
+
+
+            -> worldStateFlags && mask == flags
+
+        -->
+        <!-- BASIS -->
+
+        <!-- anytime except for rain & hail -->
+        <sample type="basis" file="$data/sounds/maps/environment/shared/xml/wind_generic5.wav"      volume="0.30"  indoorVolumeFactor="0.00"  flags="0" mask="29" />
+
+        <!-- anytime AND rain -->
+        <sample type="basis" file="$data/sounds/maps/environment/shared/xml/rain1.wav"          	 volume="0.80" flags="8" mask="25" indoorVolumeFactor="0.00" />
+
+		<!-- anytime AND rain AND in vehicle -->
+        <sample type="basis" file="$data/sounds/maps/environment/shared/xml/rain_interior.wav"      volume="0.50" flags="9" mask="25" indoorVolumeFactor="0.50" />
+
+    </ambient>
+    <surface>
+        <!--
+            materialId      layer name
+			0				field
+            1               dirt
+            2               grass
+            3               beachSand
+            4
+            5               leaves
+            6               gravel
+            7               rock, asphalt, plate (also used for 'on object')
+
+            Note:
+        -->
+
+        <material materialId="0"  name="field"        type="wheel" loopCount="0" template="DEFAULT_SURFACE_FIELD" />
+        <material materialId="1"  name="dirt"         type="wheel" loopCount="0" template="DEFAULT_SURFACE_DIRT" />
+        <material materialId="2"  name="grass"        type="wheel" loopCount="0" template="DEFAULT_SURFACE_GRASS" />
+        <material materialId="2"  name="grassRough"   type="wheel" loopCount="0" template="DEFAULT_SURFACE_GRASS" />
+        <material materialId="3"  name="sand"         type="wheel" loopCount="0" template="DEFAULT_SURFACE_SAND" />
+        <material materialId="4"  name="sound"        type="wheel" loopCount="0" template="DEFAULT_SURFACE_SOUND" />
+        <material materialId="5"  name="leaves"       type="wheel" loopCount="0" template="DEFAULT_SURFACE_GRASS" />
+        <material materialId="6"  name="gravel"       type="wheel" loopCount="0" template="DEFAULT_SURFACE_GRAVEL" />
+        <material materialId="6"  name="rock"         type="wheel" loopCount="0" template="DEFAULT_SURFACE_GRAVEL" />
+        <material materialId="7"  name="asphalt"      type="wheel" loopCount="0" template="DEFAULT_SURFACE_ASPHALT" />
+        <material materialId="7"  name="concrete"     type="wheel" loopCount="0" template="DEFAULT_SURFACE_ASPHALT" />
+        <material materialId="98" name="railroad"     type="wheel" loopCount="0" template="DEFAULT_SURFACE_RAILROAD" />
+        <material materialId="99" name="shallowWater" type="wheel" loopCount="0" template="DEFAULT_SURFACE_WATER_SHALLOW" />
+
+        <material materialId="0"  name="field"        type="footstep" loopCount="1" template="DEFAULT_FOOTSTEP_FIELD" />
+        <material materialId="1"  name="dirt"         type="footstep" loopCount="1" template="DEFAULT_FOOTSTEP_DIRT" />
+        <material materialId="2"  name="grass"        type="footstep" loopCount="1" template="DEFAULT_FOOTSTEP_GRASS" />
+        <material materialId="2"  name="grassRough"   type="footstep" loopCount="1" template="DEFAULT_FOOTSTEP_GRASS" />
+        <material materialId="3"  name="sand"         type="footstep" loopCount="1" template="DEFAULT_FOOTSTEP_SAND" />
+        <material materialId="4"  name="sound"        type="footstep" loopCount="1" template="DEFAULT_FOOTSTEP_SOUND" />
+        <material materialId="5"  name="leaves"       type="footstep" loopCount="1" template="DEFAULT_FOOTSTEP_GRASS" />
+        <material materialId="6"  name="gravel"       type="footstep" loopCount="1" template="DEFAULT_FOOTSTEP_GRAVEL" />
+        <material materialId="6"  name="rock"         type="footstep" loopCount="1" template="DEFAULT_FOOTSTEP_GRAVEL" />
+        <material materialId="7"  name="asphalt"      type="footstep" loopCount="1" template="DEFAULT_FOOTSTEP_ASPHALT" />
+        <material materialId="7"  name="concrete"     type="footstep" loopCount="1" template="DEFAULT_FOOTSTEP_ASPHALT" />
+        <material materialId="99" name="shallowWater" type="footstep" loopCount="1" template="DEFAULT_FOOTSTEP_WATER_SHALLOW" />
+
+        <material materialId="0"  name="field"        type="hoofstep" loopCount="1" template="DEFAULT_HOOFSTEP_FIELD" />
+        <material materialId="1"  name="dirt"         type="hoofstep" loopCount="1" template="DEFAULT_HOOFSTEP_DIRT" />
+        <material materialId="2"  name="grass"        type="hoofstep" loopCount="1" template="DEFAULT_HOOFSTEP_GRASS" />
+        <material materialId="2"  name="grassRough"   type="hoofstep" loopCount="1" template="DEFAULT_HOOFSTEP_GRASS" />
+        <material materialId="3"  name="sand"         type="hoofstep" loopCount="1" template="DEFAULT_HOOFSTEP_SAND" />
+        <material materialId="4"  name="sound"        type="hoofstep" loopCount="1" template="DEFAULT_HOOFSTEP_SOUND" />
+        <material materialId="5"  name="leaves"       type="hoofstep" loopCount="1" template="DEFAULT_HOOFSTEP_GRASS" />
+        <material materialId="6"  name="gravel"       type="hoofstep" loopCount="1" template="DEFAULT_HOOFSTEP_GRAVEL" />
+        <material materialId="6"  name="rock"         type="hoofstep" loopCount="1" template="DEFAULT_HOOFSTEP_GRAVEL" />
+        <material materialId="7"  name="asphalt"      type="hoofstep" loopCount="1" template="DEFAULT_HOOFSTEP_ASPHALT" />
+        <material materialId="7"  name="concrete"     type="hoofstep" loopCount="1" template="DEFAULT_HOOFSTEP_ASPHALT" />
+        <material materialId="99" name="shallowWater" type="hoofstep" loopCount="1" template="DEFAULT_HOOFSTEP_WATER_SHALLOW" />
+    </surface>
+    <cutting>
+        <sample name="tree" file="$data/sounds/cutting/treeFall.wav" />
+    </cutting>
+    <object>
+        <fillSound01 template="DEFAULT_SILO_FILL" linkNode="0" />
+    </object>
+</sound>

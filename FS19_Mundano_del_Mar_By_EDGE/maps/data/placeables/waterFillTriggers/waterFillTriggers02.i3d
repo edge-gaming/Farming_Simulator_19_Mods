@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.0.0"/>
+  </Asset>
+
+  <Files>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="110" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="waterFillTriggers02.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="waterFillTriggers" nodeId="98712">
+      <Shape shapeId="1" name="waterFillTrigger" translation="-225.161 79.9625 23.5776" static="true" trigger="true" collisionMask="1088421888" nodeId="51333" materialIds="110" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="1" name="waterFillTrigger" translation="668.949 88.354 -868.307" static="true" trigger="true" collisionMask="1088421888" nodeId="51338" materialIds="110" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="1" name="waterFillTrigger" translation="-5.4537 84.131 240.326" static="true" trigger="true" collisionMask="1088421888" nodeId="51341" materialIds="110" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="1" name="waterFillTrigger" translation="-677.172 79.8783 -765.212" rotation="6.77939e-12 84.947 1.36605e-05" scale="3.5 3.5 3.5" static="true" trigger="true" collisionMask="1088421888" nodeId="62822" materialIds="110" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="1" name="waterFillTrigger" translation="649.824 84.0895 -707.289" static="true" trigger="true" collisionMask="1088421888" nodeId="62924" materialIds="110" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="1" name="waterFillTrigger" translation="660.489 83.9835 -708.045" rotation="180 0.665784 180" scale="3.5 3.5 3.5" static="true" trigger="true" collisionMask="1088421888" nodeId="62936" materialIds="110" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="1" name="waterFillTrigger" translation="-167.151 79.7899 142.576" rotation="0 -38.491 2.77529e-07" scale="3.5 3.5 3.5" static="true" trigger="true" collisionMask="1088421888" nodeId="62969" materialIds="110" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="1" name="waterFillTrigger" translation="-758.115 83.5486 278.031" rotation="-4.43218e-07 -38.491 2.77529e-07" scale="3.5 3.5 3.5" static="true" trigger="true" collisionMask="1088421888" nodeId="63710" materialIds="110" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="1" name="waterFillTrigger" translation="370.879 83.8346 885.192" scale="3.5 3.5 3.5" static="true" trigger="true" collisionMask="1088421888" nodeId="69193" materialIds="110" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

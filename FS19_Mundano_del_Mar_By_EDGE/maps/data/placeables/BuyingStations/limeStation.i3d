@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="$data/maps/textures/american/glass_specular.dds"/>
+    <File fileId="5" filename="$data/shaders/emissiveAdditiveShader.xml"/>
+    <File fileId="4" filename="$data/shared/clearGlass_diffuse.png"/>
+    <File fileId="2" filename="$data/shared/default_normal.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="dischargeEffect_mat" materialId="5" diffuseColor="0.494118 0.494118 0.494118 1">
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="lambert1" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="lightglow_mat" materialId="4" alphaBlending="true" customShaderId="5" customShaderVariation="colorScale">
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <Emissivemap fileId="4"/>
+      <CustomParameter name="colorScale" value="0.791 0.106 0.809 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="limeStation.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="limeStation" nodeId="12">
+      <TransformGroup name="gameplay" nodeId="13">
+        <TransformGroup name="OUT" nodeId="14">
+          <TransformGroup name="loadingStation" nodeId="15">
+            <TransformGroup name="loadingTriggers" nodeId="16">
+              <Shape shapeId="1" name="loadingTrigger" translation="0.005 3.67124 3.555" static="true" trigger="true" collisionMask="1073741824" nodeId="17" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              <TransformGroup name="dischargeNode" translation="0.005 3.67124 3.555" nodeId="18"/>
+              <TransformGroup name="dischargeEffect" translation="0.00505275 3.67124 3.55467" nodeId="19">
+                <Shape shapeId="2" name="pipeEffect" rotation="90 0 0" clipDistance="300" nodeId="20" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="3" name="pipeEffectSmoke" translation="0 -4.45118 0" visibility="false" clipDistance="100" nodeId="21" materialIds="5" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="mapPosition" translation="0.00500488 -1.42876 3.55499" nodeId="22"/>
+      </TransformGroup>
+      <TransformGroup name="switchableMark" translation="0.00500488 3.67123 3.55469" nodeId="23">
+        <TransformGroup name="mark" nodeId="24">
+          <TransformGroup name="light" nodeId="25">
+            <Light name="pointLight" translation="0 0 9.11495e-09" rotation="-90 0 0" nodeId="26" type="spot" color="0.791 0.106 0.809" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="10" coneAngle="5" dropOff="4"/>
+            <Shape shapeId="2" name="lightMark" translation="0 0 2.61708e-08" rotation="90 0 0" clipDistance="500" nodeId="27" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+        </TransformGroup>
+        <Shape shapeId="4" name="toggleTrigger" translation="0 -3.41923 0" static="true" trigger="true" collisionMask="3145728" clipDistance="251" nodeId="28" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="12">
+      <Attribute name="mapPositionIndex" type="string" value="0|1"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

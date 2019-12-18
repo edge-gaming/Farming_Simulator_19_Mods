@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="pine" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="7.0.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="pine1LOD_diffuse.png" relativePath="true"/>
+    <File fileId="5" filename="pine1LOD_normal.png" relativePath="true"/>
+    <File fileId="10" filename="pine2LOD_diffuse.png" relativePath="true"/>
+    <File fileId="11" filename="pine2LOD_normal.png" relativePath="true"/>
+    <File fileId="12" filename="pine3LOD_diffuse.png" relativePath="true"/>
+    <File fileId="13" filename="pine3LOD_normal.png" relativePath="true"/>
+    <File fileId="14" filename="pine4LOD_diffuse.png" relativePath="true"/>
+    <File fileId="15" filename="pine4LOD_normal.png" relativePath="true"/>
+    <File fileId="16" filename="pine5LOD_diffuse.png" relativePath="true"/>
+    <File fileId="17" filename="pine5LOD_normal.png" relativePath="true"/>
+    <File fileId="20" filename="pine6LOD_diffuse.png" relativePath="true"/>
+    <File fileId="21" filename="pine6LOD_normal.png" relativePath="true"/>
+    <File fileId="1" filename="pineBranch_diffuse.png" relativePath="true"/>
+    <File fileId="2" filename="pineBranch_normal.png" relativePath="true"/>
+    <File fileId="18" filename="pineTrunkDead_diffuse.png" relativePath="true"/>
+    <File fileId="19" filename="pineTrunkDead_normal.png" relativePath="true"/>
+    <File fileId="7" filename="pineTrunk_diffuse.png" relativePath="true"/>
+    <File fileId="8" filename="pineTrunk_normal.png" relativePath="true"/>
+    <File fileId="6" filename="../../shaders/treeBillboardShader.xml" relativePath="true"/>
+    <File fileId="3" filename="../../shaders/treeBranchShader.xml" relativePath="true"/>
+    <File fileId="9" filename="../../shaders/treeTrunkShader.xml" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="pine5LOD_mat" materialId="13" ambientColor="1 1 1" customShaderId="6" customShaderVariation="billboard180">
+      <Texture fileId="16"/>
+      <Normalmap fileId="17"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="pineTrunkDead_mat" materialId="10" ambientColor="1 1 1" customShaderId="9">
+      <Texture fileId="18"/>
+      <Normalmap fileId="19"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="pine4LOD_mat" materialId="17" ambientColor="1 1 1" customShaderId="6" customShaderVariation="billboard180">
+      <Texture fileId="14"/>
+      <Normalmap fileId="15"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="pine1LOD_mat" materialId="16" ambientColor="1 1 1" customShaderId="6" customShaderVariation="billboard180">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="pine6LOD_mat" materialId="12" ambientColor="1 1 1" customShaderId="6" customShaderVariation="billboard180">
+      <Texture fileId="20"/>
+      <Normalmap fileId="21"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="pine2LOD_mat" materialId="15" ambientColor="1 1 1" customShaderId="6" customShaderVariation="billboard180">
+      <Texture fileId="10"/>
+      <Normalmap fileId="11"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="pine3LOD_mat" materialId="14" ambientColor="1 1 1" customShaderId="6" customShaderVariation="billboard180">
+      <Texture fileId="12"/>
+      <Normalmap fileId="13"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="pineTrunk_mat" materialId="7" ambientColor="1 1 1" customShaderId="9">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="pineBranch_mat" materialId="9" ambientColor="1 1 1" customShaderId="3">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="pine.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="pine_stage1" clipDistance="200" nodeId="372" lodDistance="0 60">
+      <Shape shapeId="1" name="LOD0" clipDistance="500" nodeId="373" materialIds="9" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="LOD1" translation="0 1.42109e-16 0" clipDistance="800" nodeId="374" materialIds="16" castsShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="pine_stage2" clipDistance="599" nodeId="375" lodDistance="0 120">
+      <Shape shapeId="3" name="LOD0" static="true" collisionMask="16789538" angularDamping="0.15" rollingFriction="0.27" density="0.47" clipDistance="500" nodeId="377" materialIds="7" castsShadows="true" receiveShadows="true" splitType="1" splitUvs="0 0 1 0.064 1.8">
+        <Shape shapeId="4" name="attachments" clipDistance="500" nodeId="413" materialIds="9" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="5" name="LOD1" clipDistance="1500" nodeId="414" materialIds="15" castsShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="pine_stage3" clipDistance="599" nodeId="415" lodDistance="0 120">
+      <Shape shapeId="6" name="LOD0" static="true" collisionMask="16789538" angularDamping="0.15" rollingFriction="0.27" density="0.47" clipDistance="500" nodeId="417" materialIds="7" castsShadows="true" receiveShadows="true" splitType="1" splitUvs="0 0 1 0.064 1.8">
+        <Shape shapeId="7" name="attachments" clipDistance="500" nodeId="479" materialIds="9" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="8" name="LOD1" clipDistance="1500" nodeId="480" materialIds="14" castsShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="pine_stage4" clipDistance="599" nodeId="481" lodDistance="0 120">
+      <Shape shapeId="9" name="LOD0" static="true" collisionMask="16789538" angularDamping="0.15" rollingFriction="0.27" density="0.47" clipDistance="500" nodeId="483" materialIds="7" castsShadows="true" receiveShadows="true" splitType="1" splitUvs="0 0 1 0.064 1.8">
+        <Shape shapeId="10" name="attachments" clipDistance="500" nodeId="576" materialIds="9" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="11" name="LOD1" clipDistance="1500" nodeId="577" materialIds="17" castsShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="pine_stage5" clipDistance="599" nodeId="578" lodDistance="0 120">
+      <Shape shapeId="12" name="LOD0" static="true" collisionMask="16789538" angularDamping="0.15" rollingFriction="0.27" density="0.47" clipDistance="500" nodeId="580" materialIds="7" castsShadows="true" receiveShadows="true" splitType="1" splitUvs="0 0 1 0.064 1.8">
+        <Shape shapeId="13" name="attachments" clipDistance="500" nodeId="686" materialIds="9" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="14" name="LOD1" clipDistance="1500" nodeId="687" materialIds="13" castsShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="pine_stage6" clipDistance="599" nodeId="688" lodDistance="0 120">
+      <Shape shapeId="15" name="LOD0" static="true" collisionMask="16789538" angularDamping="0.15" rollingFriction="0.27" density="0.47" clipDistance="500" nodeId="690" materialIds="10" castsShadows="true" receiveShadows="true" splitType="1" splitUvs="0 0 1 0.064 1.8">
+        <Shape shapeId="16" name="attachments" clipDistance="500" nodeId="749" materialIds="9" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="17" name="LOD1" clipDistance="1500" nodeId="750" materialIds="12" castsShadows="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

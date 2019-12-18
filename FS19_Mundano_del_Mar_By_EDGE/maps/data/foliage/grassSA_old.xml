@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<foliageType distanceTexturePath="distance">
+
+    <!-- grass -->
+    <foliageLayer cellSize="8" objectMask="16711935" decalLayer="0" densityMapChannelOffset="0" numDensityMapChannels="4" numBlocksPerUnitDefault="1.5" numBlocksPerUnitMin="1.25" numBlocksPerUnitMax="1.75" shapeSource="grassSA.i3d">
+        <foliageStateDefaults distanceMapLayer="1" horizontalPositionVariance="0.75" />
+        <foliageLodDefaults lod="0" viewDistance="80" texCoords="0 0 1 1" />
+        <foliageState name="invisible" />
+        <foliageState name="green small" width="0.25" height="0.25" widthVariance="" heightVariance="">
+            <foliageShape>
+                <foliageLod blockShape="0>0" atlasSize="1" atlasOffset="0 0" />
+            </foliageShape>
+        </foliageState>
+        <foliageState name="green middle" width="0.5" height="0.4" widthVariance="0.2" heightVariance="0.1">
+            <foliageShape>
+                <foliageLod blockShape="0>1" atlasSize="1" atlasOffset="0.25 0" />
+            </foliageShape>
+        </foliageState>
+        <foliageState name="green big"  width="0.65" height="0.65" widthVariance="0.3" heightVariance="0.3">
+            <foliageShape>
+                <foliageLod blockShape="0>2" atlasSize="3" atlasOffset="0.25 0" />
+            </foliageShape>
+        </foliageState>
+    </foliageLayer>    
+</foliageType>

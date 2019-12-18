@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>TrainSystem</name>
+        <image>$data/store/store_empty.png</image>
+        <price>1</price>
+        <canBeSold>false</canBeSold>
+        <showInStore>false</showInStore>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <species>placeable</species>
+        <category>placeableMisc</category>
+    </storeData>
+
+    <placeableType>trainPlaceable</placeableType>
+    <filename>maps/data/placeables/trainSystem/trainSystem.i3d</filename>
+    <placement testSizeX="7.5" testSizeZ="10" sizeX="3" sizeZ="3" useRandomYRotation="false" useManualYRotation="true" />
+
+    <trainSystem>
+        <spline node="0" splineYOffset="0.155" />
+
+        <train>
+            <vehicle xmlFilename="$data/vehicles/train/locomotive04/locomotive04.xml" />
+            <vehicle xmlFilename="$data/vehicles/train/wagonGrain/wagonGrain.xml" />
+            <vehicle xmlFilename="$data/vehicles/train/wagonWoodChips/wagonWoodChips.xml" />
+            <vehicle xmlFilename="$data/vehicles/train/wagonTimber/wagonTimber.xml" />
+            <vehicle xmlFilename="$data/vehicles/train/wagonSugarbeets/wagonSugarbeets.xml" />
+            <vehicle xmlFilename="$data/vehicles/train/wagonVehicles/wagonVehicles.xml" />
+        </train>
+
+        <railroadCallers>
+        </railroadCallers>
+
+        <railroadCrossings>
+            <railroadCrossing rootNode="1">
+                <activation startDistance="125" endDistance="125" />
+                <gates>
+                    <gate node="1|0|0" startRot="0 0 0" endRot="90 0 0" duration="3" closingOffset="1.5" />
+                    <gate node="1|0|1" startTrans="0 0 0" endTrans="0 1.2 0" duration="2"/>
+                    <gate node="1|1|0" startRot="0 0 0" endRot="90 0 0" duration="3" closingOffset="1.5"/>
+                    <gate node="1|1|1" startTrans="0 0 0" endTrans="0 1.2 0" duration="2"/>
+                </gates>
+                <signals>
+                    <signal node="1|0|2" alternatingLights="true" />
+                    <signal node="1|1|2" alternatingLights="true" />
+                </signals>
+                <sounds>
+                    <crossing template="TRAIN_CROSSING_BELL_01" linkNode="1" />
+                </sounds>
+            </railroadCrossing>
+            <railroadCrossing rootNode="2">
+                <activation startDistance="125" endDistance="125" />
+                <gates>
+                    <gate node="2|0|0" startRot="0 0 0" endRot="90 0 0" duration="3" closingOffset="1.5" />
+                    <gate node="2|0|1" startTrans="0 0 0" endTrans="0 1.2 0" duration="2"/>
+                    <gate node="2|1|0" startRot="0 0 0" endRot="90 0 0" duration="3" closingOffset="1.5"/>
+                    <gate node="2|1|1" startTrans="0 0 0" endTrans="0 1.2 0" duration="2"/>
+                </gates>
+                <signals>
+                    <signal node="2|0|2" alternatingLights="true" />
+                    <signal node="2|1|2" alternatingLights="true" />
+                </signals>
+                <sounds>
+                    <crossing template="TRAIN_CROSSING_BELL_01" linkNode="2" />
+                </sounds>
+            </railroadCrossing>
+        </railroadCrossings>
+    </trainSystem>
+
+</placeable>

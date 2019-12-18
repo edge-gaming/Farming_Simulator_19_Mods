@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map>
+    <fruitTypes>
+        <fruitType name="wheat" shownOnMap="true" useForFieldJob="true" >
+            <general startStateChannel="0" numStateChannels="4" />
+            <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.05" />
+            <harvest minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" minForageGrowthState="3" allowsPartialGrowthState="false" literPerSqm="0.89" />
+            <growth witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="24000000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="NONE" growthRequiresLime="true" />
+            <windrow name="straw" litersPerSqm="3.68" />
+            <options lowSoilDensityRequired="true" increasesSoilDensity="false" consumesLime="true" startSprayState="0" />
+            <destruction filterStart="2" filterEnd="7" state="8" />
+            <mapColors default="0.6172 0.4072 0.0782 1" colorBlind="0.2918 0.3564 0.7011 1"/>
+        </fruitType>
+        <fruitType name="barley" shownOnMap="true" useForFieldJob="true">
+            <general startStateChannel="0" numStateChannels="4" />
+            <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.05" />
+            <harvest minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" minForageGrowthState="3" allowsPartialGrowthState="false" literPerSqm="0.96" />
+            <growth witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="24000000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="NONE" growthRequiresLime="true" />
+            <windrow name="straw" litersPerSqm="3.68" />
+            <options lowSoilDensityRequired="true" increasesSoilDensity="false" consumesLime="true" startSprayState="0" />
+            <destruction filterStart="2" filterEnd="7" state="8" />
+            <mapColors default="0.2502 0.1683 0.0612 1" colorBlind="0.6795 0.6867 0.7231 1"/>
+        </fruitType>
+        <fruitType name="oat" shownOnMap="true" useForFieldJob="true">
+            <general startStateChannel="0" numStateChannels="4" />
+            <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.05" />
+            <harvest minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" minForageGrowthState="3" allowsPartialGrowthState="false" literPerSqm="0.57" />
+            <growth witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="24000000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="NONE" growthRequiresLime="true" />
+            <windrow name="straw" litersPerSqm="3.68" />
+            <options lowSoilDensityRequired="true" increasesSoilDensity="false" consumesLime="true" startSprayState="0" />
+            <destruction filterStart="2" filterEnd="7" state="8" />
+            <mapColors default="0.4508 0.1442 0.0285 1" colorBlind="0.3864 0.3396 0.0340 1"/>
+        </fruitType>
+        <fruitType name="cotton" shownOnMap="true" useForFieldJob="true">
+            <general startStateChannel="0" numStateChannels="4" />
+            <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.05" />
+            <harvest minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" minForageGrowthState="3" allowsPartialGrowthState="false" literPerSqm="0.497" />
+            <growth witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="24000000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="NONE" growthRequiresLime="true" />
+            <options lowSoilDensityRequired="true" increasesSoilDensity="false" consumesLime="true" startSprayState="0" />
+            <destruction filterStart="2" filterEnd="8" state="9" />
+            <mapColors default="0.8879 0.8069 0.7913 1" colorBlind="0.0546 0.0818 0.2789 1"/>
+        </fruitType>
+        <fruitType name="canola" shownOnMap="true" useForFieldJob="true">
+            <general startStateChannel="0" numStateChannels="4" />
+            <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.02" />
+            <harvest minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" literPerSqm="0.58" />
+            <growth witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="24000000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="NONE" growthRequiresLime="true" />
+            <options lowSoilDensityRequired="true" increasesSoilDensity="false" consumesLime="true" startSprayState="0" />
+            <destruction filterStart="2" filterEnd="7" state="8" />
+            <mapColors default="0.3324 0.5395 0.0823 1" colorBlind="0.7681 0.6514 0.0529 1"/>
+        </fruitType>
+        <fruitType name="sunflower" shownOnMap="true" useForFieldJob="true">
+            <general startStateChannel="0" numStateChannels="4" />
+            <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="true" seedUsagePerSqm="0.03" />
+            <harvest minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" literPerSqm="0.52" />
+            <growth witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="24000000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="NONE" growthRequiresLime="true" />
+            <options lowSoilDensityRequired="true" increasesSoilDensity="false" consumesLime="true" startSprayState="0" />
+            <destruction filterStart="2" filterEnd="7" state="8" />
+            <mapColors default="0.8227 0.5972 0.0160 1" colorBlind="0.1384 0.1559 0.2423 1"/>
+        </fruitType>
+        <fruitType name="soybean" shownOnMap="true" useForFieldJob="true">
+            <general startStateChannel="0" numStateChannels="4" />
+            <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.03" />
+            <harvest minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" allowsPartialGrowthState="false" literPerSqm="0.45" />
+            <growth witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="24000000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="NONE" growthRequiresLime="true" />
+            <options lowSoilDensityRequired="true" increasesSoilDensity="false" consumesLime="true" startSprayState="0" />
+            <destruction filterStart="2" filterEnd="7" state="8" />
+            <mapColors default="0.2195 0.2346 0.0273 1" colorBlind="0.3564 0.3095 0.0437 1"/>
+        </fruitType>
+        <fruitType name="maize" shownOnMap="true" useForFieldJob="true">
+            <general startStateChannel="0" numStateChannels="4" />
+            <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.04" />
+            <harvest minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" minForageGrowthState="3" allowsPartialGrowthState="false" literPerSqm="0.92" />
+            <growth witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="24000000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="NONE" growthRequiresLime="true" />
+            <options lowSoilDensityRequired="true" increasesSoilDensity="true" consumesLime="true" startSprayState="0" />
+            <destruction filterStart="2" filterEnd="7" state="8" />
+            <mapColors default="0.8069 0.3231 0.0262 1" colorBlind="0.3968 0.3712 0.2159 1"/>
+        </fruitType>
+        <fruitType name="potato" shownOnMap="true" useForFieldJob="true">
+            <general startStateChannel="0" numStateChannels="4" />
+            <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="true" directionSnapAngle="90" alignsToSun="false" seedUsagePerSqm="0.38" />
+            <harvest minHarvestingGrowthState="9" maxHarvestingGrowthState="9" cutState="8" allowsPartialGrowthState="false" literPerSqm="4.13" />
+            <growth witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="24000000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="NONE" growthRequiresLime="true" />
+            <preparing outputName="potato_haulm" minGrowthState="4" maxGrowthState="6" preparedGrowthState="9" />
+            <options lowSoilDensityRequired="true" increasesSoilDensity="true" consumesLime="true" startSprayState="0" />
+            <destruction filterStart="1" filterEnd="7" state="8" />
+            <mapColors default="0.2622 0.1248 0.0782 1" colorBlind="0.7991 0.7304 0.3419 1"/>
+        </fruitType>
+        <fruitType name="sugarBeet" shownOnMap="true" useForFieldJob="true">
+            <general startStateChannel="0" numStateChannels="4" />
+            <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.04" />
+            <harvest minHarvestingGrowthState="9" maxHarvestingGrowthState="9" cutState="8" allowsPartialGrowthState="false" literPerSqm="5.78" />
+            <growth witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="24000000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="NONE" growthRequiresLime="true" />
+            <preparing outputName="sugarBeet_haulm" minGrowthState="4" maxGrowthState="6" preparedGrowthState="9" />
+            <options lowSoilDensityRequired="true" increasesSoilDensity="true" consumesLime="true" startSprayState="0" />
+            <destruction filterStart="1" filterEnd="7" state="8" />
+            <mapColors default="0.6939 0.3663 0.2747 1" colorBlind="0.1329 0.2664 0.9911 1"/>
+        </fruitType>
+        <fruitType name="oilseedRadish" shownOnMap="true" useForFieldJob="false">
+            <general startStateChannel="0" numStateChannels="4" />
+            <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.01" plantsWeed="false"/>
+            <harvest minHarvestingGrowthState="2" maxHarvestingGrowthState="2" cutState="3" allowsPartialGrowthState="false" literPerSqm="0.99" />
+            <growth witheringNumGrowthStates="2" numGrowthStates="2" growthStateTime="36000000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="NONE" growthRequiresLime="true" />
+            <options lowSoilDensityRequired="false" increasesSoilDensity="false" consumesLime="false" startSprayState="0" />
+            <mapColors default="0.0685 0.4564 0.2307 1" colorBlind="0.0130 0.0908 0.5210 1"/>
+        </fruitType>
+        <fruitType name="poplar" shownOnMap="true" useForFieldJob="false">
+            <general startStateChannel="0" numStateChannels="4" />
+            <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.15" plantsWeed="false"/>
+            <harvest minHarvestingGrowthState="4" maxHarvestingGrowthState="4" cutState="5" allowsPartialGrowthState="false" literPerSqm="2.82" />
+            <growth witheringNumGrowthStates="5" numGrowthStates="5" growthStateTime="72000000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="NONE" growthRequiresLime="true" regrows="true" firstRegrowthState="1" />
+            <options lowSoilDensityRequired="false" increasesSoilDensity="true" consumesLime="true" startSprayState="0" />
+            <destruction filterStart="1" filterEnd="4" state="5" />
+            <mapColors default="0.1384 0.2051 0.1590 1" colorBlind="0.2462 0.2346 0.1746 1"/>
+        </fruitType>
+        <fruitType name="grass" shownOnMap="true" useForFieldJob="false">
+            <general startStateChannel="0" numStateChannels="4" />
+            <cultivation needsSeeding="false" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.03" plantsWeed="false"/>
+            <harvest minHarvestingGrowthState="2" maxHarvestingGrowthState="3" cutState="4" allowsPartialGrowthState="true" literPerSqm="4.37" />
+            <growth witheringNumGrowthStates="4" numGrowthStates="4" growthStateTime="36000000" resetsSpray="true" groundTypeChangeGrowthState="1" groundTypeChanged="GRASS" groundTypeChangeMask="GRASS CULTIVATOR PLOW SOWING SOWING_WIDTH" growthRequiresLime="false" regrows="true" firstRegrowthState="1" />
+            <windrow name="grass_windrow" litersPerSqm="4.37" />
+            <options lowSoilDensityRequired="false" increasesSoilDensity="false" consumesLime="false" startSprayState="1" destroyedByRoller="false" />
+            <mapColors default="0.0423 0.1221 0.0252 1" colorBlind="1.0000 0.9473 0.0369 1"/>
+        </fruitType>
+        <fruitType name="dryGrass" title="$l10n_fillType_dryGrass" showOnPriceTable="false" shownOnMap="false" useForFieldJob="false">
+            <general startStateChannel="0" numStateChannels="4" />
+            <cultivation needsSeeding="false" allowsSeeding="false" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.02" />
+            <harvest minHarvestingGrowthState="2" maxHarvestingGrowthState="3" cutState="1" allowsPartialGrowthState="false" literPerSqm="4.37" />
+            <growth witheringNumGrowthStates="4" numGrowthStates="4" growthStateTime="36000000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="NONE" growthRequiresLime="false" />
+            <windrow name="dryGrass_windrow" litersPerSqm="4.37" />
+            <options lowSoilDensityRequired="false" increasesSoilDensity="false" consumesLime="false" startSprayState="1" />
+            <mapColors default="0.0423 0.1221 0.0252 1" colorBlind="1.0000 0.9473 0.0369 1"/>
+        </fruitType>
+        <fruitType name="sugarCane" title="$l10n_fillType_sugarCane" showOnPriceTable="true" shownOnMap="true" useForFieldJob="false">
+            <general startStateChannel="0" numStateChannels="4" />
+            <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="true" directionSnapAngle="90" alignsToSun="false" seedUsagePerSqm="1.20" />
+            <harvest minHarvestingGrowthState="9" maxHarvestingGrowthState="9" cutState="8" allowsPartialGrowthState="false" literPerSqm="11.34" />
+            <growth witheringNumGrowthStates="7" numGrowthStates="7" growthStateTime="48000000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="NONE" growthRequiresLime="true" regrows="true" firstRegrowthState="1" />
+            <preparing outputName="sugarCane_haulm" minGrowthState="4" maxGrowthState="6" preparedGrowthState="9" />
+            <options lowSoilDensityRequired="false" increasesSoilDensity="true" consumesLime="true" startSprayState="0" />
+            <destruction filterStart="1" filterEnd="7" state="8" />
+            <mapColors default="0.5395 0.6795 0.3206 1" colorBlind="0.0409 0.1070 0.2016 1"/>
+        </fruitType>
+        <fruitType name="weed" title="$l10n_fillType_weed" showOnPriceTable="false" shownOnMap="true" useForFieldJob="false">
+            <general startStateChannel="0" numStateChannels="3" />
+            <cultivation needsSeeding="false" allowsSeeding="false" useSeedingWidth="false" directionSnapAngle="90" alignsToSun="false" seedUsagePerSqm="1.20" />
+            <weedGrowth minGrowthState="1" maxGrowthState="3" growthStateTime="30000000" />
+            <options lowSoilDensityRequired="true" increasesSoilDensity="false" consumesLime="false" startSprayState="0" />
+            <herbicideReplace source="1" target="0" /> <!-- preventative -->
+            <herbicideReplace source="2" target="4" />
+            <herbicideReplace source="3" target="5" />
+            <mapColors default="0.5210 0.2329 0.3862 1" colorBlind="0.0409 0.0409 0.0409 1"/>
+        </fruitType>
+		<fruitType name="poppy" title="$l10n_filltype_poppyflower" shownOnMap="true" useForFieldJob="true">
+            <general startStateChannel="0" numStateChannels="4" />
+            <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.05" />
+            <harvest minHarvestingGrowthState="5" maxHarvestingGrowthState="6" cutState="8" minForageGrowthState="3" maxForageGrowthState="4" allowsPartialGrowthState="false" literPerSqm=".88" />
+            <growth witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="72000000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="NONE" growthRequiresLime="true" />
+            <options lowSoilDensityRequired="true" increasesSoilDensity="false" consumesLime="true" startSprayState="0" />
+            <destruction filterStart="2" filterEnd="7" state="8" />
+            <mapColors default="0.894 0.00000 0.192 1" colorBlind="0.0409  0.0000  0.63922"/>
+        </fruitType>
+        <fruitType name="POPPYFLOWER" title="$l10n_filltype_poppyflower" shownOnMap="false" useForFieldJob="false">
+            <general startStateChannel="0" numStateChannels="4" />
+            <cultivation needsSeeding="true" allowsSeeding="false" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.05" />
+            <harvest minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" minForageGrowthState="3" maxForageGrowthState="5" allowsPartialGrowthState="false" literPerSqm=".88" />
+            <growth witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="72000000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="NONE" growthRequiresLime="true" />
+            <options lowSoilDensityRequired="true" increasesSoilDensity="false" consumesLime="true" startSprayState="0" />
+            <destruction filterStart="2" filterEnd="7" state="8" />
+            <mapColors default="0.894 0.00000 0.192 1" colorBlind="0.0409  0.0000  0.63922"/>
+        </fruitType>
+		<!-- <fruitType name="hemp" title="$l10n_HEMPPLANT" shownOnMap="true" useForFieldJob="true">
+            <general startStateChannel="0" numStateChannels="4" />
+            <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.08" />
+            <harvest minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" minForageGrowthState="3" allowsPartialGrowthState="false" literPerSqm="3.3" />
+            <growth witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="86400000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="NONE" growthRequiresLime="true" />
+            <options lowSoilDensityRequired="true" increasesSoilDensity="false" consumesLime="true" startSprayState="0" />
+            <destruction filterStart="2" filterEnd="7" state="8" />
+            <mapColors default="0.56863 0.00000 0.30196 1" colorBlind="0.28235  0.51373  0.30196"/>
+        </fruitType> -->
+    </fruitTypes>
+
+    <fruitTypeCategories>
+        <fruitTypeCategory name="GRAINHEADER" >WHEAT BARLEY OAT CANOLA SOYBEAN HEMP POPPY POPPYFLOWER</fruitTypeCategory>
+        <fruitTypeCategory name="MAIZEHEADER" >MAIZE SUNFLOWER</fruitTypeCategory>
+        <fruitTypeCategory name="MAIZECUTTER" >MAIZE POPPY POPPYFLOWER</fruitTypeCategory>
+        <fruitTypeCategory name="DIRECTCUTTER" >GRASS WHEAT BARLEY OAT CANOLA SOYBEAN HEMP </fruitTypeCategory>
+        <fruitTypeCategory name="PICKUP" >GRASS DRYGRASS</fruitTypeCategory>
+        <fruitTypeCategory name="SOWINGMACHINE" >WHEAT BARLEY OAT CANOLA SOYBEAN POPPY OILSEEDRADISH HEMP GRASS</fruitTypeCategory>
+        <fruitTypeCategory name="SUGARCANE_PLANTER" >SUGARCANE</fruitTypeCategory>
+        <fruitTypeCategory name="PLANTER" >MAIZE SUNFLOWER SOYBEAN SUGARBEET COTTON</fruitTypeCategory>
+        <fruitTypeCategory name="WEEDER" >OILSEEDRADISH GRASS</fruitTypeCategory>
+    </fruitTypeCategories>
+
+    <fruitTypeConverters>
+        <fruitTypeConverter name="FORAGEHARVESTER">
+            <converter from="MAIZE"     to="CHAFF"         factor="7.8" />
+            <converter from="GRASS"     to="GRASS_WINDROW" factor="1.0" windrowFactor="1.0" />
+            <converter from="DRYGRASS"  to="DRYGRASS_WINDROW" factor="1.0" windrowFactor="1.0" />
+            <converter from="WHEAT"     to="CHAFF"         factor="4.0" windrowFactor="1.0" /> <!-- straw 1:1 conversion -->
+            <converter from="BARLEY"    to="CHAFF"         factor="4.0" windrowFactor="1.0" /> <!-- straw 1:1 conversion -->
+            <converter from="OAT"       to="CHAFF"         factor="4.0" windrowFactor="1.0" /> <!-- straw 1:1 conversion -->
+            <converter from="CANOLA"    to="CHAFF"         factor="3.0" />
+            <converter from="SUNFLOWER" to="CHAFF"         factor="3.0" />
+            <converter from="SOYBEAN"   to="CHAFF"         factor="3.0" />
+            <converter from="POPLAR"    to="WOODCHIPS"     factor="3.0" />
+            <converter from="POPPY"     to="POPPYFLOWER"    factor="1.0" />
+            <!-- <converter from="HEMP"      to="CHAFF"         factor="3.0" /> -->
+        </fruitTypeConverter>
+        <fruitTypeConverter name="MOWER">
+            <converter from="GRASS"     to="GRASS_WINDROW" factor="1.0" windrowFactor="1.0" />
+            <converter from="WHEAT"     to="STRAW"         factor="1.0" windrowFactor="1.0" />
+            <converter from="BARLEY"    to="STRAW"         factor="1.0" windrowFactor="1.0" />
+            <converter from="OAT"       to="STRAW"         factor="1.0" windrowFactor="1.0" />
+        </fruitTypeConverter>
+    </fruitTypeConverters>
+</map>

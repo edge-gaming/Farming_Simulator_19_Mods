@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map>
+    <fillTypeConverters>
+        <fillTypeConverter name="TEDDER">
+            <converter from="GRASS_WINDROW"        to="DRYGRASS_WINDROW" factor="1.0" />
+            <converter from="DRYGRASS_WINDROW"     to="DRYGRASS_WINDROW" factor="1.0" />
+            <converter from="STRAW"                to="STRAW"            factor="1.0" />
+        </fillTypeConverter>
+    </fillTypeConverters>
+
+    <fillTypes>
+        <fillType name="WHEAT" title="$l10n_fillType_wheat" showOnPriceTable="true" pricePerLiter="0.337" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_wheat.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_wheat_sml.dds" />
+            <physics massPerLiter="0.78" maxPhysicalSurfaceAngle="15" />
+            <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+        </fillType>
+        <fillType name="BARLEY" title="$l10n_fillType_barley" showOnPriceTable="true" pricePerLiter="0.313" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_barley.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_barley_sml.dds" />
+            <physics massPerLiter="0.68" maxPhysicalSurfaceAngle="15" />
+            <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+        </fillType>
+        <fillType name="OAT" title="$l10n_fillType_oat" showOnPriceTable="true" pricePerLiter="0.532" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_oat.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_oat_sml.dds" />
+            <physics massPerLiter="0.50" maxPhysicalSurfaceAngle="15" />
+            <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+        </fillType>
+        <fillType name="CANOLA" title="$l10n_fillType_canola" showOnPriceTable="true"  pricePerLiter="0.603" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_canola.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_canola_sml.dds" />
+            <physics massPerLiter="0.60" maxPhysicalSurfaceAngle="15" />
+            <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+        </fillType>
+        <fillType name="SUNFLOWER" title="$l10n_fillType_sunflower" showOnPriceTable="true" pricePerLiter="0.673" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_sunflower.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_sunflower_sml.dds" />
+            <physics massPerLiter="0.35" maxPhysicalSurfaceAngle="15" />
+            <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+        </fillType>
+        <fillType name="SOYBEAN" title="$l10n_fillType_soybean" showOnPriceTable="true"  pricePerLiter="0.778" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_soyBean.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_soyBean_sml.dds" />
+            <physics massPerLiter="0.70" maxPhysicalSurfaceAngle="15" />
+            <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+        </fillType>
+        <fillType name="MAIZE" title="$l10n_fillType_maize" showOnPriceTable="true" pricePerLiter="0.380" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_maize.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_maize_sml.dds" />
+            <physics massPerLiter="0.80" maxPhysicalSurfaceAngle="15" />
+            <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+        </fillType>
+		<fillType name="POPPY" title="$l10n_poppyseeds" showOnPriceTable="true" pricePerLiter="0.91" >
+            <image hud="maps/data/fillTypes/huds/hud_fill_poppySeeds.dds" hudSmall="maps/data/fillTypes/huds/hud_fill_poppySeeds_sml.dds" />
+            <physics massPerLiter="1.05" maxPhysicalSurfaceAngle="12" />
+            <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+       </fillType>
+       <fillType name="POPPYFLOWER" title="$l10n_filltype_poppyflower" showOnPriceTable="true" pricePerLiter="1.79" >
+           <image hud="maps/data/fillTypes/huds/hud_fill_poppy.dds" hudSmall="maps/data/fillTypes/huds/hud_fill_poppy_sml.dds" />
+           <physics massPerLiter="0.5" maxPhysicalSurfaceAngle="25" />
+           <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+      </fillType>
+      <!-- <fillType name="HEMP" title="$l10n_HEMPFILL" showOnPriceTable="true" pricePerLiter="0.85" >
+           <image hud="maps/data/fillTypes/huds/hud_fill_hemp.dds" hudSmall="maps/data/fillTypes/huds/hud_fill_hemp_sml.dds" />
+           <physics massPerLiter="0.78" maxPhysicalSurfaceAngle="15" />
+           <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+       </fillType> -->
+       <fillType name="POTATO" title="$l10n_fillType_potato" showOnPriceTable="true" pricePerLiter="0.172" >
+           <image hud="$dataS2/menu/hud/fillTypes/hud_fill_potato.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_potato_sml.dds" />
+           <physics massPerLiter="0.75" maxPhysicalSurfaceAngle="34" />
+           <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+       </fillType>
+       <fillType name="SUGARBEET" title="$l10n_fillType_sugarBeet" showOnPriceTable="true" pricePerLiter="0.122" >
+           <image hud="$dataS2/menu/hud/fillTypes/hud_fill_sugarBeet.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_sugarBeet_sml.dds" />
+           <physics massPerLiter="0.70" maxPhysicalSurfaceAngle="34" />
+        </fillType>
+        <fillType name="COTTON" title="$l10n_fillType_cotton" showOnPriceTable="true" pricePerLiter="1.252" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_cotton.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_cotton_sml.dds" />
+            <physics massPerLiter="0.23" maxPhysicalSurfaceAngle="15" />
+            <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+        </fillType>
+        <fillType name="SUGARCANE" title="$l10n_fillType_sugarCane" showOnPriceTable="true" pricePerLiter="0.119" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_sugarCane.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_sugarCane_sml.dds" />
+            <physics massPerLiter="0.18" maxPhysicalSurfaceAngle="50" />
+            <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+        </fillType>
+        <fillType name="SEEDS" title="$l10n_fillType_seeds" showOnPriceTable="true" pricePerLiter="0.9" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_seeds.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_seeds_sml.dds" />
+            <physics massPerLiter="0.35" maxPhysicalSurfaceAngle="15" />
+            <pallet filename="$data/objects/bigBagContainer/bigBagContainerSeeds.xml" />
+        </fillType>
+        <fillType name="EGG" title="$l10n_fillType_egg" showOnPriceTable="true" pricePerLiter="1.5" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_egg.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_egg_sml.dds" />
+            <physics massPerLiter="0.01" maxPhysicalSurfaceAngle="23" />
+        </fillType>
+        <fillType name="WOOL" title="$l10n_fillType_wool" showOnPriceTable="true" pricePerLiter="0.6" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_wool.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_wool_sml.dds" />
+            <physics massPerLiter="0.01" maxPhysicalSurfaceAngle="80" />
+        </fillType>
+        <fillType name="MILK" title="$l10n_fillType_milk" showOnPriceTable="true" pricePerLiter="0.7" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_milk.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_milk_sml.dds" />
+            <physics massPerLiter="1.00" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="FUEL" title="$l10n_fillType_fuel" showOnPriceTable="false" pricePerLiter="1.1" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_fuel.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_milk_sml.dds" />
+            <physics massPerLiter="0.84" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="WATER" title="$l10n_fillType_water" showOnPriceTable="true" pricePerLiter="0.1" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_water.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_water_sml.dds" />
+            <physics massPerLiter="1.00" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="FORAGE" title="$l10n_fillType_forage" showOnPriceTable="true" pricePerLiter="0.042" fillPlaneColors="1.0 0.35 0.8" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_forage.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_forage_sml.dds" />
+            <physics massPerLiter="0.30" maxPhysicalSurfaceAngle="40" />
+        </fillType>
+        <fillType name="FORAGE_MIXING" title="$l10n_fillType_forage_mixing" showOnPriceTable="false" pricePerLiter="0.039" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_forageMix.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_forageMix_sml.dds" />
+            <physics massPerLiter="0.30" maxPhysicalSurfaceAngle="40" />
+        </fillType>
+        <fillType name="CHAFF" title="$l10n_fillType_chaff" showOnPriceTable="false" pricePerLiter="0.042" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_chaff.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_chaff_sml.dds" />
+            <physics massPerLiter="0.35" maxPhysicalSurfaceAngle="40" />
+        </fillType>
+        <fillType name="TREESAPLINGS" title="$l10n_fillType_treeSaplings" showOnPriceTable="false" pricePerLiter="0.100" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_treeSaplings.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_treeSaplings_sml.dds" />
+            <physics massPerLiter="0.01" maxPhysicalSurfaceAngle="80" />
+        </fillType>
+        <fillType name="WOODCHIPS" title="$l10n_fillType_woodChips" showOnPriceTable="true" pricePerLiter="0.08" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_woodChips.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_woodChips_sml.dds" />
+            <physics massPerLiter="0.35" maxPhysicalSurfaceAngle="40" />
+        </fillType>
+        <fillType name="SILAGE" title="$l10n_fillType_silage" showOnPriceTable="true" pricePerLiter="0.171" fillPlaneColors="1.0 0.5 0.9" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_silage.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_silage_sml.dds" />
+            <physics massPerLiter="0.45" maxPhysicalSurfaceAngle="40" />
+        </fillType>
+        <fillType name="OILSEEDRADISH" title="$l10n_fillType_oilRadish" showOnPriceTable="false" pricePerLiter="0.250" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_oilRadish.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_oilRadish_sml.dds" />
+            <physics massPerLiter="0.41" maxPhysicalSurfaceAngle="22.5" />
+            <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+        </fillType>
+        <fillType name="POPLAR" title="$l10n_fillType_poplar" showOnPriceTable="false" pricePerLiter="0.040" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_poplar.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_poplar_sml.dds" />
+            <physics massPerLiter="0.40" maxPhysicalSurfaceAngle="50" />
+        </fillType>
+        <fillType name="GRASS" title="$l10n_fillType_grass" showOnPriceTable="true"  pricePerLiter="0.045" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_grass.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_grass_sml.dds" />
+            <physics massPerLiter="0.44" maxPhysicalSurfaceAngle="50" />
+        </fillType>
+        <fillType name="GRASS_WINDROW" title="$l10n_fillType_grass" showOnPriceTable="true"  pricePerLiter="0.045" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_grass_windrow.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_grass_windrow_sml.dds" />
+            <physics massPerLiter="0.350" maxPhysicalSurfaceAngle="50" />
+        </fillType>
+        <fillType name="DRYGRASS" title="$l10n_fillType_grass" showOnPriceTable="false" pricePerLiter="0.048" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_dryGrass_windrow.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_dryGrass_windrow_sml.dds" />
+            <physics massPerLiter="0.07" maxPhysicalSurfaceAngle="50" />
+        </fillType>
+        <fillType name="DRYGRASS_WINDROW" title="$l10n_fillType_dryGrass" showOnPriceTable="true" pricePerLiter="0.056" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_dryGrass_windrow.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_dryGrass_windrow_sml.dds" />
+            <physics massPerLiter="0.07" maxPhysicalSurfaceAngle="50" />
+        </fillType>
+        <fillType name="STRAW" title="$l10n_fillType_straw" showOnPriceTable="true" pricePerLiter="0.041" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_straw.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_straw_sml.dds" />
+            <physics massPerLiter="0.06" maxPhysicalSurfaceAngle="50" />
+        </fillType>
+        <fillType name="DIESEL" title="$l10n_fillType_diesel" showOnPriceTable="false" pricePerLiter="1.25" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_diesel.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_diesel_sml.dds" />
+            <physics massPerLiter="1.00" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="DEF" title="$l10n_fillType_def" showOnPriceTable="false" pricePerLiter="1.25" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_def.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_def_sml.dds" />
+            <physics massPerLiter="1.00" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="AIR" title="$l10n_fillType_air" showOnPriceTable="false" pricePerLiter="0.0" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_air.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_air_sml.dds" />
+            <physics massPerLiter="0.00" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="ROUNDBALE" title="$l10n_fillType_roundBale" showOnPriceTable="false" pricePerLiter="1.00" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_roundBale.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_roundBale_sml.dds" />
+            <physics massPerLiter="300.00" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="ROUNDBALE_GRASS" title="$l10n_fillType_roundBaleGrass" showOnPriceTable="false" pricePerLiter="1.00" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_roundBale.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_roundBale_sml.dds" />
+            <physics massPerLiter="300.00" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="ROUNDBALE_DRYGRASS" title="$l10n_fillType_roundBaleDryGrass" showOnPriceTable="false" pricePerLiter="1.00" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_roundBale.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_roundBale_sml.dds" />
+            <physics massPerLiter="300.00" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="ROUNDBALE_WHEAT" title="$l10n_fillType_roundBaleWheat" showOnPriceTable="false" pricePerLiter="1.00" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_roundBale.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_roundBale_sml.dds" />
+            <physics massPerLiter="300.00" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="ROUNDBALE_BARLEY" title="$l10n_fillType_roundBaleBarley" showOnPriceTable="false" pricePerLiter="1.00" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_roundBale.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_roundBale_sml.dds" />
+            <physics massPerLiter="300.00" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="SQUAREBALE" title="$l10n_fillType_squareBale" showOnPriceTable="false" pricePerLiter="1.00" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_squareBale.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_squareBale_sml.dds" />
+            <physics massPerLiter="300.00" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="SQUAREBALE_WHEAT" title="$l10n_fillType_squareBaleWheat" showOnPriceTable="false" pricePerLiter="1.00" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_squareBale.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_squareBale_sml.dds" />
+            <physics massPerLiter="300.00" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="SQUAREBALE_BARLEY" title="$l10n_fillType_squareBaleBarley" showOnPriceTable="false" pricePerLiter="1.00" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_squareBale.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_squareBale_sml.dds" />
+            <physics massPerLiter="300.00" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="FERTILIZER" title="$l10n_fillType_fertilizer" showOnPriceTable="true" pricePerLiter="1.60" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_fertilizer.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_fertilizer_sml.dds" />
+            <physics massPerLiter="0.8" maxPhysicalSurfaceAngle="15" />
+            <pallet filename="$data/objects/bigBagContainer/bigBagContainerFertilizer.xml" />
+        </fillType>
+        <fillType name="LIQUIDFERTILIZER" title="$l10n_fillType_liquidFertilizer" showOnPriceTable="true" pricePerLiter="1.20" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_liquidFertilizer.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_liquidFertilizer_sml.dds" />
+            <physics massPerLiter="0.90" maxPhysicalSurfaceAngle="0" />
+            <pallet filename="$data/objects/pallets/liquidTank/fertilizerTank.xml" />
+        </fillType>
+        <fillType name="MANURE" title="$l10n_fillType_manure" showOnPriceTable="true" pricePerLiter="0.033" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_manure.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_manure_sml.dds" />
+            <physics massPerLiter="0.83" maxPhysicalSurfaceAngle="50" />
+        </fillType>
+        <fillType name="LIQUIDMANURE" title="$l10n_fillType_liquidManure" showOnPriceTable="true" pricePerLiter="0.033" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_liquidManure.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_liquidManure_sml.dds" />
+            <physics massPerLiter="0.90" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="DIGESTATE" title="$l10n_fillType_digestate" showOnPriceTable="true" pricePerLiter="0.033" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_digestate.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_digestate_sml.dds" />
+            <physics massPerLiter="0.90" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="PIGFOOD" title="$l10n_fillType_pigFood" showOnPriceTable="true" pricePerLiter="1.4" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_pigFood.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_pigFood_sml.dds" />
+            <physics massPerLiter="0.65" maxPhysicalSurfaceAngle="23" />
+        </fillType>
+        <fillType name="TARP" title="$l10n_fillType_tarp" showOnPriceTable="false" pricePerLiter="0" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_tarp.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_tarp_sml.dds" />
+            <physics massPerLiter="0.0" maxPhysicalSurfaceAngle="40" />
+        </fillType>
+        <fillType name="LIME" title="$l10n_fillType_lime" showOnPriceTable="true" pricePerLiter="0.225" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_lime.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_lime_sml.dds" />
+            <physics massPerLiter="1.2" maxPhysicalSurfaceAngle="15" />
+            <pallet filename="$data/objects/bigBagContainer/bigBagContainerLime.xml" />
+        </fillType>
+        <fillType name="HERBICIDE" title="$l10n_fillType_herbicide" showOnPriceTable="true" pricePerLiter="1.2" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_herbicide.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_herbicide_sml.dds" />
+            <physics massPerLiter="1.0" maxPhysicalSurfaceAngle="0" />
+            <pallet filename="$data/objects/pallets/liquidTank/herbicideTank.xml" />
+        </fillType>
+        <fillType name="WEED" title="$l10n_fillType_weed" showOnPriceTable="false" pricePerLiter="0" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_weed.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_weed_sml.dds" />
+            <physics massPerLiter="3.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="HORSE_TYPE_BEIGE" title="$l10n_fillType_horse" showOnPriceTable="false" pricePerLiter="0" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_horse.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_horse_sml.dds" />
+            <physics massPerLiter="600.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="HORSE_TYPE_BLACK" title="$l10n_fillType_horse" showOnPriceTable="false" pricePerLiter="0" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_horse.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_horse_sml.dds" />
+            <physics massPerLiter="600.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="HORSE_TYPE_BROWN" title="$l10n_fillType_horse" showOnPriceTable="false" pricePerLiter="0" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_horse.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_horse_sml.dds" />
+            <physics massPerLiter="600.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="HORSE_TYPE_BROWN_WHITE" title="$l10n_fillType_horse" showOnPriceTable="false" pricePerLiter="0" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_horse.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_horse_sml.dds" />
+            <physics massPerLiter="600.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="HORSE_TYPE_DARK_BROWN" title="$l10n_fillType_horse" showOnPriceTable="false" pricePerLiter="0" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_horse.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_horse_sml.dds" />
+            <physics massPerLiter="600.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="HORSE_TYPE_GREY" title="$l10n_fillType_horse" showOnPriceTable="false" pricePerLiter="0" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_horse.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_horse_sml.dds" />
+            <physics massPerLiter="600.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="HORSE_TYPE_LIGHT_BROWN" title="$l10n_fillType_horse" showOnPriceTable="false" pricePerLiter="0" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_horse.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_horse_sml.dds" />
+            <physics massPerLiter="600.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="HORSE_TYPE_RED_BROWN" title="$l10n_fillType_horse" showOnPriceTable="false" pricePerLiter="0" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_horse.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_horse_sml.dds" />
+            <physics massPerLiter="600.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="COW_TYPE_BROWN" title="$l10n_fillType_cow" showOnPriceTable="false" pricePerLiter="5000" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_cow.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_cow_sml.dds" />
+            <physics massPerLiter="600.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="COW_TYPE_BROWN_WHITE" title="$l10n_fillType_cow" showOnPriceTable="false" pricePerLiter="5000" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_cow.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_cow_sml.dds" />
+            <physics massPerLiter="600.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="COW_TYPE_BLACK" title="$l10n_fillType_cow" showOnPriceTable="false" pricePerLiter="5000" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_cow.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_cow_sml.dds" />
+            <physics massPerLiter="600.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="COW_TYPE_BLACK_WHITE" title="$l10n_fillType_cow" showOnPriceTable="false" pricePerLiter="5000" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_cow.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_cow_sml.dds" />
+            <physics massPerLiter="600.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="COW_TYPE_BRAHMAN_BROWN" title="$l10n_fillType_cow" showOnPriceTable="false" pricePerLiter="5000" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_cow.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_cow_sml.dds" />
+            <physics massPerLiter="600.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="COW_TYPE_BRAHMAN_WHITE" title="$l10n_fillType_cow" showOnPriceTable="false" pricePerLiter="5000" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_cow.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_cow_sml.dds" />
+            <physics massPerLiter="600.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="COW_TYPE_BRAHMAN_LIGHT_BROWN" title="$l10n_fillType_cow" showOnPriceTable="false" pricePerLiter="5000" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_cow.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_cow_sml.dds" />
+            <physics massPerLiter="600.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="COW_TYPE_BRAHMAN_GREY" title="$l10n_fillType_cow" showOnPriceTable="false" pricePerLiter="5000" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_cow.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_cow_sml.dds" />
+            <physics massPerLiter="600.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="SHEEP_TYPE_WHITE" title="$l10n_fillType_sheep" showOnPriceTable="false" pricePerLiter="4000" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_sheep.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_sheep_sml.dds" />
+            <physics massPerLiter="120.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="SHEEP_TYPE_BROWN" title="$l10n_fillType_sheep" showOnPriceTable="false" pricePerLiter="4000" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_sheep.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_sheep_sml.dds" />
+            <physics massPerLiter="120.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="SHEEP_TYPE_BLACK_WHITE" title="$l10n_fillType_sheep" showOnPriceTable="false" pricePerLiter="4000" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_sheep.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_sheep_sml.dds" />
+            <physics massPerLiter="120.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="SHEEP_TYPE_BLACK" title="$l10n_fillType_sheep" showOnPriceTable="false" pricePerLiter="4000" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_sheep.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_sheep_sml.dds" />
+            <physics massPerLiter="120.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="PIG_TYPE_RED" title="$l10n_fillType_pig" showOnPriceTable="false" pricePerLiter="3000" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_pig.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_pig_sml.dds" />
+            <physics massPerLiter="120.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="PIG_TYPE_WHITE" title="$l10n_fillType_pig" showOnPriceTable="false" pricePerLiter="3000" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_pig.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_pig_sml.dds" />
+            <physics massPerLiter="120.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="PIG_TYPE_BLACK_WHITE" title="$l10n_fillType_pig" showOnPriceTable="false" pricePerLiter="3000" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_pig.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_pig_sml.dds" />
+            <physics massPerLiter="120.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="PIG_TYPE_BLACK" title="$l10n_fillType_pig" showOnPriceTable="false" pricePerLiter="3000" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_pig.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_pig_sml.dds" />
+            <physics massPerLiter="120.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="CHICKEN_TYPE_BLACK" title="$l10n_fillType_chicken" showOnPriceTable="false" pricePerLiter="0" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_chicken.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_chicken_sml.dds" />
+            <physics massPerLiter="3.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="CHICKEN_TYPE_WHITE" title="$l10n_fillType_chicken" showOnPriceTable="false" pricePerLiter="0" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_chicken.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_chicken_sml.dds" />
+            <physics massPerLiter="3.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="CHICKEN_TYPE_BROWN" title="$l10n_fillType_chicken" showOnPriceTable="false" pricePerLiter="0" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_chicken.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_chicken_sml.dds" />
+            <physics massPerLiter="3.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+        <fillType name="CHICKEN_TYPE_ROOSTER" title="$l10n_fillType_chicken" showOnPriceTable="false" pricePerLiter="0" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_chicken.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_chicken_sml.dds" />
+            <physics massPerLiter="3.0" maxPhysicalSurfaceAngle="0" />
+        </fillType>
+    </fillTypes>
+
+    <fillTypeCategories>
+        <fillTypeCategory name="BULK" >WHEAT BARLEY OAT CANOLA SUNFLOWER SOYBEAN MAIZE POPPY POPPYFLOWER HEMP POTATO SUGARBEET MANURE SEEDS FORAGE FORAGE_MIXING CHAFF WOODCHIPS SILAGE STRAW GRASS_WINDROW DRYGRASS_WINDROW SUGARCANE FERTILIZER PIGFOOD LIME</fillTypeCategory>
+        <fillTypeCategory name="LIQUID" >MILK FUEL WATER DIESEL DEF</fillTypeCategory>
+        <fillTypeCategory name="PIECE" >WOOL TREESAPLINGS EGG</fillTypeCategory>
+        <fillTypeCategory name="WINDROW" >STRAW DRYGRASS_WINDROW GRASS_WINDROW</fillTypeCategory>
+        <fillTypeCategory name="COMBINE" >WHEAT BARLEY OAT CANOLA SUNFLOWER SOYBEAN MAIZE HEMP POPPYFLOWER POPPY</fillTypeCategory>
+        <fillTypeCategory name="SPRAYER" >LIQUIDFERTILIZER HERBICIDE</fillTypeCategory>
+        <fillTypeCategory name="SPREADER" >FERTILIZER</fillTypeCategory>
+        <fillTypeCategory name="AUGERWAGON" >WHEAT BARLEY OAT CANOLA SOYBEAN SUNFLOWER MAIZE HEMP POPPY POPPYFLOWER FERTILIZER SEEDS</fillTypeCategory>
+        <fillTypeCategory name="FORAGEWAGON" >STRAW GRASS_WINDROW DRYGRASS_WINDROW CHAFF POPPYFLOWER SILAGE</fillTypeCategory>
+        <fillTypeCategory name="SILAGETRAILER" >STRAW GRASS_WINDROW DRYGRASS_WINDROW CHAFF SILAGE WOODCHIPS SUGARCANE</fillTypeCategory>
+        <fillTypeCategory name="TRAINWAGON" >WHEAT BARLEY OAT CANOLA MAIZE HEMP POPPY POPPYFLOWER SUNFLOWER SOYBEAN SUGARBEET POTATO</fillTypeCategory>
+        <fillTypeCategory name="FORAGEHARVESTER" >CHAFF GRASS_WINDROW DRYGRASS_WINDROW WOODCHIPS POPPYFLOWER</fillTypeCategory>
+        <fillTypeCategory name="SLURRYTANK" >LIQUIDMANURE DIGESTATE</fillTypeCategory>
+        <fillTypeCategory name="MANURESPREADER" >MANURE</fillTypeCategory>
+        <fillTypeCategory name="FORK" >MANURE SILAGE CHAFF STRAW GRASS_WINDROW DRYGRASS_WINDROW</fillTypeCategory>
+        <fillTypeCategory name="ANIMAL" >COW_TYPE_BRAHMAN_GREY COW_TYPE_BRAHMAN_LIGHT_BROWN COW_TYPE_BRAHMAN_WHITE COW_TYPE_BRAHMAN_BROWN COW_TYPE_BROWN COW_TYPE_BROWN_WHITE COW_TYPE_BLACK COW_TYPE_BLACK_WHITE SHEEP_TYPE_WHITE SHEEP_TYPE_BROWN SHEEP_TYPE_BLACK_WHITE SHEEP_TYPE_BLACK PIG_TYPE_RED PIG_TYPE_WHITE PIG_TYPE_BLACK_WHITE PIG_TYPE_BLACK CHICKEN_TYPE_BLACK CHICKEN_TYPE_WHITE CHICKEN_TYPE_BROWN CHICKEN_TYPE_ROOSTER</fillTypeCategory>
+        <fillTypeCategory name="HORSE" >HORSE_TYPE_BEIGE HORSE_TYPE_BLACK HORSE_TYPE_BROWN HORSE_TYPE_BROWN_WHITE HORSE_TYPE_DARK_BROWN HORSE_TYPE_GREY HORSE_TYPE_LIGHT_BROWN HORSE_TYPE_RED_BROWN</fillTypeCategory>
+        <fillTypeCategory name="FARMSILO" >WHEAT BARLEY OAT CANOLA SUNFLOWER SOYBEAN MAIZE HEMP POPPY POPPYFLOWER SUGARCANE</fillTypeCategory>
+        <fillTypeCategory name="HAYLOFT" >STRAW DRYGRASS_WINDROW</fillTypeCategory>
+        <fillTypeCategory name="LOADINGVEHICLE">WHEAT BARLEY OAT CANOLA SUNFLOWER SOYBEAN MAIZE HEMP POPPY POPPYFLOWER SEEDS FORAGE CHAFF WOODCHIPS SILAGE FERTILIZER LIME</fillTypeCategory>
+    </fillTypeCategories>
+
+    <fillTypeSounds>
+        <fillTypeSound isDefault="true">
+            <sound template="DEFAULT_SILO_FILL"/>
+        </fillTypeSound>
+
+        <fillTypeSound fillTypes="MANURE">
+            <sound template="DEFAULT_MANURE_FILL"/>
+        </fillTypeSound>
+
+        <fillTypeSound fillTypes="MILK FUEL WATER DIESEL DEF LIQUIDFERTILIZER HERBICIDE LIQUIDMANURE DIGESTATE">
+            <sound template="DEFAULT_REFUEL_SOUND"/>
+        </fillTypeSound>
+    </fillTypeSounds>
+</map>

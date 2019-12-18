@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="5" filename="$data/fillPlanes/woodChips_diffuse.png"/>
+    <File fileId="6" filename="$data/fillPlanes/woodChips_normal.png"/>
+    <File fileId="7" filename="$data/fillPlanes/woodChips_specular.png"/>
+    <File fileId="2" filename="$data/placeables/mapDE/sellingStationWoodChips/woodenFence_diffuse.png"/>
+    <File fileId="3" filename="$data/placeables/mapDE/sellingStationWoodChips/woodenFence_normal.png"/>
+    <File fileId="4" filename="$data/placeables/mapDE/sellingStationWoodChips/woodenFence_specular.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="woodenFence_mat" materialId="4">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+    </Material>
+    <Material name="lambert1" materialId="5" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="woodChipPile_mat" materialId="6">
+      <Texture fileId="5"/>
+      <Normalmap fileId="6"/>
+      <Glossmap fileId="7"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="sellingStationWoodChips01.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="sellingStationWoodChips" rotation="0 0 3.28347e-10" nodeId="12">
+      <TransformGroup name="gameplay" nodeId="13">
+        <TransformGroup name="IN" nodeId="14">
+          <TransformGroup name="unloadingStation" nodeId="15">
+            <TransformGroup name="unloadingTriggers" nodeId="16">
+              <Shape shapeId="1" name="exactFillRootNode" translation="0 0 6.88674" static="true" collisionMask="1073741824" nodeId="17" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              <Shape shapeId="2" name="baleTrigger" translation="0 1.48733 4.008" static="true" trigger="true" collisionMask="16781312" nodeId="18" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="mapPosition" translation="-32 0 18" nodeId="19"/>
+      </TransformGroup>
+      <Shape shapeId="3" name="woodChipsFence" translation="0 2.84217e-16 0" static="true" clipDistance="300" nodeId="20" materialIds="4" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="4" name="woodChipsHill" translation="0.0802618 -0.127711 -0.665104" scale="1.21162 1 1.21162" static="true" clipDistance="300" nodeId="21" materialIds="6" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="12">
+      <Attribute name="mapPositionIndex" type="string" value="0|1"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

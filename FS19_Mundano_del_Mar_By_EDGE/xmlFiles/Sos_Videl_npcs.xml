@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map>
+    <npcs>
+            <!-- Companies -->
+        <npc name="NPC_SO_01" title="EDGE Industries"       category="company"  imageFilename="icons/EDGE_Logo.dds" />
+        <npc name="NPC_SO_02" title="Ponte Realestate"      category="company"  imageFilename="icons/Ponte_Logo.dds" />
+        <npc name="NPC_SO_03" title="Brødrene Bru AS"       category="company"  imageFilename="icons/Bru_Logo.dds" />
+        <npc name="NPC_SO_04" title="Bob&apos;s Burgers"    category="company"  imageFilename="icons/Bobs_Burgers_Logo.dds" />
+            <!-- Ladies -->
+        <npc name="NPC_SO_001" title="Lisov Timofei Tarasovich"     category="female" imageFilename="$dataS2/character/humans/npc/npc18_diffuse.png" />
+        <npc name="NPC_SO_002" title="Vasina Vsevolodovna"          category="female" imageFilename="$dataS2/character/humans/npc/npc22_diffuse.png" />
+        <npc name="NPC_SO_003" title="Olesya Karandashova"          category="female" imageFilename="$dataS2/character/humans/npc/npc08_diffuse.png" />
+        <npc name="NPC_SO_004" title="Sofya Victorovna"             category="female" imageFilename="$dataS2/character/humans/npc/npc43_diffuse.png" />
+        <npc name="NPC_SO_005" title="Lena Petrova"                 category="female" imageFilename="$dataS2/character/humans/npc/npc44_diffuse.png" />
+        <npc name="NPC_SO_006" title="Natasza Rosa"                 category="female" imageFilename="$dataS2/character/humans/npc/npc11_diffuse.png" />
+        <npc name="NPC_SO_007" title="Milena Duniz"                 category="female" imageFilename="$dataS2/character/humans/npc/npc20_diffuse.png" />
+        <npc name="NPC_SO_008" title="Anna Olsen"                   category="female" imageFilename="$dataS2/character/humans/npc/npc15_diffuse.png" />
+        <npc name="NPC_SO_009" title="Lulu Frostplume"              category="female" imageFilename="$dataS2/character/humans/npc/npc13_diffuse.png" />
+        <npc name="NPC_US_010" title="Peanut Rosewing Mossberry"    category="female" imageFilename="$dataS2/character/humans/npc/npc34_diffuse.png" />
+        <npc name="NPC_SO_011" title="Petra Kändler"                category="female" imageFilename="$dataS2/character/humans/npc/npc02_diffuse.png" />
+        <npc name="NPC_SO_012" title="Celina Nessler"               category="female" imageFilename="$dataS2/character/humans/npc/npc09_diffuse.png" />
+        <npc name="NPC_SO_013" title="Fabienne Freudenberger"       category="female" imageFilename="$dataS2/character/humans/npc/npc16_diffuse.png" />
+        <npc name="NPC_SO_014" title="Angelika Yaroslavovna"        category="female" imageFilename="$dataS2/character/humans/npc/npc12_diffuse.png" />
+            <!-- Youngsters -->
+        <npc name="NPC_SO_015" title="Dieter Holzman"   category="young"  imageFilename="$dataS2/character/humans/npc/npc02_diffuse.png" />
+        <npc name="NPC_SO_016" title="Christian Beyer"  category="young"  imageFilename="$dataS2/character/humans/npc/npc10_diffuse.png" />
+        <npc name="NPC_SO_017" title="Bernd Jung"       category="young"  imageFilename="$dataS2/character/humans/npc/npc27_diffuse.png" />
+        <npc name="NPC_SO_018" title="Ralph Hertz"      category="young"  imageFilename="$dataS2/character/humans/npc/npc30_diffuse.png" />
+        <npc name="NPC_SO_019" title="James Harris"     category="young"  imageFilename="$dataS2/character/humans/npc/npc01_diffuse.png" />
+        <npc name="NPC_SO_020" title="Victor Robinson"  category="young"  imageFilename="$dataS2/character/humans/npc/npc08_diffuse.png" />
+        <npc name="NPC_SO_021" title="Alex Young"       category="young"  imageFilename="$dataS2/character/humans/npc/npc13_diffuse.png" />
+        <npc name="NPC_SO_022" title="Able Nelson"      category="young"  imageFilename="$dataS2/character/humans/npc/npc15_diffuse.png" />
+        <npc name="NPC_SO_023" title="Mason Newton"     category="young"  imageFilename="$dataS2/character/humans/npc/npc16_diffuse.png" />
+        <npc name="NPC_SO_024" title="Aaron Buckley"    category="young"  imageFilename="$dataS2/character/humans/npc/npc14_diffuse.png" />
+        <npc name="NPC_SO_025" title="Tyler Fleming"    category="young"  imageFilename="$dataS2/character/humans/npc/npc21_diffuse.png" />
+        <npc name="NPC_SO_026" title="Brian Townsend"   category="young"  imageFilename="$dataS2/character/humans/npc/npc42_diffuse.png" />
+            <!-- Middle aged -->
+        <npc name="NPC_SO_027" title="Benjamin Ecke"    category="middle" imageFilename="$dataS2/character/humans/npc/npc09_diffuse.png" />
+        <npc name="NPC_SO_028" title="Reinhold Meyer"   category="middle" imageFilename="$dataS2/character/humans/npc/npc07_diffuse.png" />
+        <npc name="NPC_SO_029" title="Paul Gerber"      category="middle" imageFilename="$dataS2/character/humans/npc/npc17_diffuse.png" />
+        <npc name="NPC_SO_030" title="David Finkel"     category="middle" imageFilename="$dataS2/character/humans/npc/npc31_diffuse.png" />
+        <npc name="NPC_SO_031" title="Jonas Freeh"      category="middle" imageFilename="$dataS2/character/humans/npc/npc39_diffuse.png" />
+        <npc name="NPC_SO_032" title="Blake C. Colvin"  category="middle" imageFilename="$dataS2/character/humans/npc/npc27_diffuse.png" />
+        <npc name="NPC_SO_033" title="Anthony Morgan"   category="middle" imageFilename="$dataS2/character/humans/npc/npc37_diffuse.png" />
+        <npc name="NPC_SO_034" title="Scott Nix"        category="middle" imageFilename="$dataS2/character/humans/npc/npc29_diffuse.png" />
+        <npc name="NPC_SO_035" title="Toby Law"         category="middle" imageFilename="$dataS2/character/humans/npc/npc23_diffuse.png" />
+        <npc name="NPC_SO_036" title="Paul Carrier"     category="middle" imageFilename="$dataS2/character/humans/npc/npc06_diffuse.png" />
+        <npc name="NPC_SO_037" title="Garry Turner"     category="middle" imageFilename="$dataS2/character/humans/npc/npc18_diffuse.png" />
+        <npc name="NPC_SO_038" title="Peter Wood"       category="middle" imageFilename="$dataS2/character/humans/npc/npc03_diffuse.png" />
+        <npc name="NPC_SO_039" title="George Watson"    category="middle" imageFilename="$dataS2/character/humans/npc/npc04_diffuse.png" />
+        <npc name="NPC_SO_040" title="Dennis Jenkins"   category="middle" imageFilename="$dataS2/character/humans/npc/npc17_diffuse.png" />
+        <npc name="NPC_SO_041" title="Joshua Allen"     category="middle" imageFilename="$dataS2/character/humans/npc/npc06_diffuse.png" />
+            <!-- Old ppl -->
+        <npc name="NPC_SO_042" title="Robert Aachen"        category="old"    imageFilename="$dataS2/character/humans/npc/npc12_diffuse.png" />
+        <npc name="NPC_SO_043" title="Lucas Frankfurter"    category="old"    imageFilename="$dataS2/character/humans/npc/npc32_diffuse.png" />
+        <npc name="NPC_SO_044" title="Florian Konig"        category="old"    imageFilename="$dataS2/character/humans/npc/npc26_diffuse.png" />
+        <npc name="NPC_SO_045" title="Daniel Kohler"        category="old"    imageFilename="$dataS2/character/humans/npc/npc38_diffuse.png" />
+        <npc name="NPC_SO_046" title="Uwe Ziegler"          category="old"    imageFilename="$dataS2/character/humans/npc/npc19_diffuse.png" />
+        <npc name="NPC_SO_047" title="Maik Schuhmacher"     category="old"    imageFilename="$dataS2/character/humans/npc/npc36_diffuse.png" />
+        <npc name="NPC_SO_048" title="Philip Elder"         category="old"    imageFilename="$dataS2/character/humans/npc/npc04_diffuse.png" />
+        <npc name="NPC_SO_049" title="Emerson Ramirez"      category="old"    imageFilename="$dataS2/character/humans/npc/npc25_diffuse.png" />
+        <npc name="NPC_SO_059" title="Robert Rudolph"       category="old"    imageFilename="$dataS2/character/humans/npc/npc01_diffuse.png" />
+        <npc name="NPC_SO_060" title="Leo Thompson"         category="old"    imageFilename="$dataS2/character/humans/npc/npc03_diffuse.png" />
+        <npc name="NPC_SO_061" title="Maurice Vargas"       category="old"    imageFilename="$dataS2/character/humans/npc/npc24_diffuse.png" />
+        <npc name="NPC_SO_062" title="Kenneth Fletcher"     category="old"    imageFilename="$dataS2/character/humans/npc/npc41_diffuse.png" />
+            <!-- Companies -->
+        <npc name="NPC_SO_05" title="The Golden Plum"      category="company"    imageFilename="$dataS2/character/humans/npc/npc05_diffuse.png" />
+        <npc name="NPC_SO_06" title="Flux Cilantro Inc"    category="company"    imageFilename="$dataS2/character/humans/npc/npc19_diffuse.png" />
+        <npc name="NPC_SO_07" title="The Union"            category="company"    imageFilename="$dataS2/character/humans/npc/npc07_diffuse.png" />
+        <npc name="NPC_SO_08" title="North Star Corp"      category="company"    imageFilename="$dataS2/character/humans/npc/npc10_diffuse.png" />
+        <npc name="NPC_SO_09" title="Lemonways"            category="company"    imageFilename="$dataS2/character/humans/npc/npc11_diffuse.png" />
+        <npc name="NPC_SO_10" title="HORSCH"               category="company"    imageFilename="$data/store/brands/brand_horsch.dds" />
+        <npc name="NPC_SO_11" title="Case IH Agriculture"  category="company"    imageFilename="$data/store/brands/brand_caseIH.dds" />
+        <npc name="NPC_SO_12" title="Limagrain"            category="company"    imageFilename="icons/Limagrain_Logo.dds" />
+        <npc name="NPC_SO_13" title="Beck&apos;s Brewery"  category="company"    imageFilename="icons/Becks_Logo.dds" />
+        <npc name="NPC_SO_14" title="Jhon Deere"           category="company"    imageFilename="$data/store/brands/brand_johnDeere.dds" />
+    </npcs>
+</map>

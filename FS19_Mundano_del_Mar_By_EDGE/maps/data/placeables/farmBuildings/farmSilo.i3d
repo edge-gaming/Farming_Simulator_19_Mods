@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.0.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="5" filename="$data/shaders/buildingShader.xml" relativePath="true"/>
+    <File fileId="15" filename="../../textures/southAmerican/buildingsArray_diffuse.dds" relativePath="true"/>
+    <File fileId="16" filename="../../textures/southAmerican/buildingsArray_normal.dds" relativePath="true"/>
+    <File fileId="17" filename="../../textures/southAmerican/buildingsArray_specular.dds" relativePath="true"/>
+    <File fileId="14" filename="../../textures/southAmerican/grainSiloTower_specular.dds" relativePath="true"/>
+    <File fileId="2" filename="../../textures/southAmerican/grainSilo_diffuse.dds" relativePath="true"/>
+    <File fileId="6" filename="../../textures/southAmerican/grainSilo_mask.dds" relativePath="true"/>
+    <File fileId="3" filename="../../textures/southAmerican/grainSilo_normal.dds" relativePath="true"/>
+    <File fileId="4" filename="../../textures/southAmerican/grainSilo_specular.png" relativePath="true"/>
+    <File fileId="11" filename="../../textures/southAmerican/grungeDecalRust_diffuse.png" relativePath="true"/>
+    <File fileId="12" filename="../../textures/southAmerican/grungeDecalRust_normal.png" relativePath="true"/>
+    <File fileId="18" filename="../../textures/southAmerican/unloadingStation_specular.dds" relativePath="true"/>
+    <File fileId="8" filename="../../textures/terrain/roughDirt01_normal.png" relativePath="true"/>
+    <File fileId="7" filename="../../textures/terrain/roughDirtSA01_diffuse.png" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="grainSiloTower_mat" materialId="4" customShaderId="5">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+      <Custommap name="mMaskMap" fileId="14"/>
+      <Custommap name="mDirtDiffuse" fileId="7"/>
+      <Custommap name="mDirtNormal" fileId="8"/>
+    </Material>
+    <Material name="lambert1" materialId="7" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="buildingsArray_mat" materialId="8" customShaderId="5" customShaderVariation="USE_TEXTURE_ARRAY">
+      <Texture fileId="15"/>
+      <Normalmap fileId="16"/>
+      <Glossmap fileId="17"/>
+      <Custommap name="mMaskMap" fileId="18"/>
+      <Custommap name="mDirtDiffuse" fileId="7"/>
+      <Custommap name="mDirtNormal" fileId="8"/>
+    </Material>
+    <Material name="grainSIlo_mat" materialId="5" customShaderId="5">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+      <Custommap name="mMaskMap" fileId="6"/>
+      <Custommap name="mDirtDiffuse" fileId="7"/>
+      <Custommap name="mDirtNormal" fileId="8"/>
+    </Material>
+    <Material name="grungeRustDecal_mat" materialId="6" specularColor="0.494118 1 0.494118">
+      <Texture fileId="11"/>
+      <Normalmap fileId="12"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="farmSilo.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="farmSilo" nodeId="22">
+      <TransformGroup name="unloadingStationFarmSilo" translation="-0.113007 -0.699997 13.313" nodeId="23">
+        <TransformGroup name="unloadTriggers" nodeId="24">
+          <Shape shapeId="1" name="exactFillRoot" translation="0 0.95 0" static="true" collisionMask="1073741824" nodeId="25" materialIds="7" nonRenderable="true" distanceBlending="false"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="loadingStationFarmSilo" translation="-0.0100098 -0.047 -14.665" nodeId="26">
+        <TransformGroup name="loadTriggers" nodeId="27">
+          <TransformGroup name="loadTrigger01" translation="0 5.1 1" nodeId="28">
+            <Shape shapeId="2" name="trigger" translation="0 0 -1.66258e-06" static="true" trigger="true" collisionMask="1073741824" nodeId="29" materialIds="7" nonRenderable="true" distanceBlending="false"/>
+            <TransformGroup name="fillVolumeDischargeNode" nodeId="30"/>
+            <TransformGroup name="effect" nodeId="31">
+              <Shape shapeId="3" name="grain" clipDistance="100" nodeId="32" materialIds="7" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="4" name="smoke" clipDistance="100" nodeId="33" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="storagesFarmSilo" nodeId="34">
+        <TransformGroup name="storage01" nodeId="35"/>
+      </TransformGroup>
+      <TransformGroup name="mapPosition" translation="16 0 9" nodeId="50"/>
+      <Shape shapeId="5" name="silo" translation="9.936 0 -1.183" rotation="0 -57.6088 0" clipDistance="400" nodeId="36" materialIds="5" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="6" name="rust_decal" clipDistance="50" nodeId="37" materialIds="6" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+        <Shape shapeId="7" name="collision" static="true" nodeId="38" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </Shape>
+      <Shape shapeId="5" name="silo" translation="-10.031 0 -1.211" rotation="-180 -0 -180" clipDistance="400" nodeId="39" materialIds="5" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="6" name="rust_decal" clipDistance="50" nodeId="40" materialIds="6" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+        <Shape shapeId="7" name="collision" static="true" nodeId="41" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </Shape>
+      <Shape shapeId="8" name="grainSiloTower_vis" translation="-0.0329895 0.00219727 -7.168" rotation="-180 -0 -180" clipDistance="300" nodeId="42" materialIds="4" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="9" name="grainSiloTower_decals" clipDistance="50" nodeId="43" materialIds="6" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+        <Shape shapeId="10" name="collision" static="true" nodeId="44" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </Shape>
+      <Shape shapeId="11" name="unloadingStationSA" translation="-0.102997 -0.0718994 13.284" clipDistance="300" nodeId="45" materialIds="8" castsShadows="true" receiveShadows="true">
+        <TransformGroup name="collision" translation="0 -0.871023 0" nodeId="46">
+          <Shape shapeId="12" name="collision" translation="0 1.02245 0" visibility="false" static="true" clipDistance="300" nodeId="47" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </Shape>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_shopItem_gasStation</name>
+        <image>$data/store/store_empty.png</image>
+        <price>1</price>
+        <canBeSold>false</canBeSold>
+        <showInStore>false</showInStore>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <species>placeable</species>
+        <category>placeableMisc</category>
+    </storeData>
+
+    <placeableType>buyingStation</placeableType>
+    <filename>maps/data/placeables/Buyingstations/gasStation.i3d</filename>
+    <placement testSizeX="17" testSizeZ="10" sizeX="4" sizeZ="3" useRandomYRotation="false" useManualYRotation="true" />
+
+    <buyingStation stationName="$l10n_station_gasStation" appearsOnPDA="true" storageRadius="0" fillSoundIdentifier="fillSound01" hotspotTextOffset="0px 32px">
+        <loadTrigger triggerNode="0|4" fillLitersPerSecond="20" autoStart="true"/>
+        <fillType name="diesel" priceScale="1" />
+    </buyingStation>
+
+    <dayNightObjects>
+        <dayNightObject node="0|3" visibleDay="false" visibleNight="true" />
+        <dayNightObject node="1|3" visibleDay="false" visibleNight="true" />
+    </dayNightObjects>
+
+</placeable>

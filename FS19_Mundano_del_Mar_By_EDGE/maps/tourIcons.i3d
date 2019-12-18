@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/shaders/fxCircleShader.xml"/>
+    <File fileId="5" filename="data/textures/triggers/triggerIconsGradient_diffuse.dds"/>
+    <File fileId="3" filename="data/textures/triggers/triggerIcons_diffuse.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="triggerIconsGradient_mat" materialId="5" diffuseColor="1 1 1 1" customShaderId="4" customShaderVariation="SCALING">
+      <Emissivemap fileId="5"/>
+      <CustomParameter name="scaleParameters" value="0.75 1 2.5 1"/>
+    </Material>
+    <Material name="triggerIcons_mat" materialId="6" diffuseColor="1 1 1 1" alphaBlending="true" customShaderId="4" customShaderVariation="PULSATING">
+      <Emissivemap fileId="3"/>
+      <CustomParameter name="scaleParameters" value="0.75 1 2.5 1"/>
+    </Material>
+    <Material name="gray_mat" materialId="4" diffuseColor="0.584314 0.584314 0.584314 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="tourIcons.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="tourIcons" nodeId="11">
+      <Shape shapeId="1" name="tourIconTrigger01" translation="222.937 -1000 -67.81" static="true" trigger="true" collisionMask="7340032" nodeId="12" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="triggerIconHelp" translation="0 1 0" clipDistance="300" nodeId="13" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="triggerIconCircle" clipDistance="300" nodeId="14" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="1" name="tourIconTrigger02" translation="169.988 89.991 -21.684" static="true" trigger="true" collisionMask="7340032" nodeId="15" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="triggerIconHelp" translation="0 1 0" clipDistance="300" nodeId="16" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="triggerIconCircle" clipDistance="300" nodeId="17" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="1" name="tourIconTrigger03" translation="162 -1000 -10.416" static="true" trigger="true" collisionMask="7340032" nodeId="18" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="triggerIconHelp" translation="0 1 0" clipDistance="300" nodeId="19" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="triggerIconCircle" clipDistance="300" nodeId="20" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="1" name="tourIconTrigger04" translation="162 -1000 -9.28776" static="true" trigger="true" collisionMask="7340032" nodeId="21" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="triggerIconHelp" translation="0 1 0" clipDistance="300" nodeId="22" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="triggerIconCircle" clipDistance="300" nodeId="23" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="1" name="tourIconTrigger05" translation="162 -1000 -8.071" static="true" trigger="true" collisionMask="7340032" nodeId="24" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="triggerIconHelp" translation="0 1 0" clipDistance="300" nodeId="25" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="triggerIconCircle" clipDistance="300" nodeId="26" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="1" name="tourIconTrigger06" translation="161.896 92.274 19.6041" static="true" trigger="true" collisionMask="7340032" nodeId="27" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="triggerIconHelp" translation="0 1 0" clipDistance="300" nodeId="28" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="triggerIconCircle" clipDistance="300" nodeId="29" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="1" name="tourIconTrigger07" translation="161.764 -1000 24.3884" static="true" trigger="true" collisionMask="7340032" nodeId="30" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="triggerIconHelp" translation="0 1 0" clipDistance="300" nodeId="31" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="triggerIconCircle" clipDistance="300" nodeId="32" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="1" name="tourIconTrigger08" translation="81.797 95.5469 4.91674" static="true" trigger="true" collisionMask="7340032" nodeId="33" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="triggerIconHelp" translation="0 1 0" clipDistance="300" nodeId="34" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="triggerIconCircle" clipDistance="300" nodeId="35" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="1" name="tourIconTrigger09" translation="78.358 -1000 4.91674" static="true" trigger="true" collisionMask="7340032" nodeId="36" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="triggerIconHelp" translation="0 1 0" clipDistance="300" nodeId="37" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="triggerIconCircle" clipDistance="300" nodeId="38" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="1" name="tourIconTrigger10" translation="43.315 97.725 9.15434" static="true" trigger="true" collisionMask="7340032" nodeId="39" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="triggerIconHelp" translation="0 1 0" clipDistance="300" nodeId="40" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="triggerIconCircle" clipDistance="300" nodeId="41" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="1" name="tourIconTrigger11" translation="38.2964 -1000 9.15434" static="true" trigger="true" collisionMask="7340032" nodeId="42" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="triggerIconHelp" translation="0 1 0" clipDistance="300" nodeId="43" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="triggerIconCircle" clipDistance="300" nodeId="44" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="1" name="tourIconTrigger12" translation="43.26 97.6555 -154.184" static="true" trigger="true" collisionMask="7340032" nodeId="45" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="triggerIconHelp" translation="0 1 0" clipDistance="300" nodeId="46" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="triggerIconCircle" clipDistance="300" nodeId="47" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="1" name="tourIconTrigger13" translation="53.402 -1000 -150" static="true" trigger="true" collisionMask="7340032" nodeId="48" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="triggerIconHelp" translation="0 1 0" clipDistance="300" nodeId="49" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="triggerIconCircle" clipDistance="300" nodeId="50" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="1" name="tourIconTrigger14" translation="95.426 95.9369 -150" static="true" trigger="true" collisionMask="7340032" nodeId="51" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="triggerIconHelp" translation="0 1 0" clipDistance="300" nodeId="52" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="triggerIconCircle" clipDistance="300" nodeId="53" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="1" name="tourIconTrigger15" translation="180 89.9378 -26.8752" static="true" trigger="true" collisionMask="7340032" nodeId="54" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="triggerIconHelp" translation="0 1 0" clipDistance="300" nodeId="55" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="triggerIconCircle" clipDistance="300" nodeId="56" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="1" name="tourIconTrigger16" translation="177.241 -1000 -26.8752" static="true" trigger="true" collisionMask="7340032" nodeId="57" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="triggerIconHelp" translation="0 1 0" clipDistance="300" nodeId="58" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="triggerIconCircle" clipDistance="300" nodeId="59" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="1" name="tourIconTrigger17" translation="174.427 -1000 -26.8752" static="true" trigger="true" collisionMask="7340032" nodeId="60" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="triggerIconHelp" translation="0 1 0" clipDistance="300" nodeId="61" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="triggerIconCircle" clipDistance="300" nodeId="62" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="1" name="tourIconTrigger18" translation="330.469 106.279 -535.849" static="true" trigger="true" collisionMask="7340032" nodeId="63" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="triggerIconHelp" translation="0 1 0" clipDistance="300" nodeId="64" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="triggerIconCircle" clipDistance="300" nodeId="65" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="1" name="tourIconTrigger19" translation="330.481 -1000 -545.133" static="true" trigger="true" collisionMask="7340032" nodeId="66" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="triggerIconHelp" translation="0 1 0" clipDistance="300" nodeId="67" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="triggerIconCircle" clipDistance="300" nodeId="68" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="1" name="tourIconTrigger20" translation="330.259 -1000 -571.101" static="true" trigger="true" collisionMask="7340032" nodeId="69" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="triggerIconHelp" translation="0 1 0" clipDistance="300" nodeId="70" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="triggerIconCircle" clipDistance="300" nodeId="71" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="1" name="tourIconTrigger21" translation="-735.943 100 444.915" static="true" trigger="true" collisionMask="7340032" nodeId="72" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="triggerIconHelp" translation="0 1 0" clipDistance="300" nodeId="73" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="triggerIconCircle" clipDistance="300" nodeId="74" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="1" name="tourIconTrigger22" translation="-735.943 -1000 447.411" static="true" trigger="true" collisionMask="7340032" nodeId="75" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="triggerIconHelp" translation="0 1 0" clipDistance="300" nodeId="76" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="triggerIconCircle" clipDistance="300" nodeId="77" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="11">
+      <Attribute name="onCreate" type="scriptCallback" value="TourIcons.onCreate"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

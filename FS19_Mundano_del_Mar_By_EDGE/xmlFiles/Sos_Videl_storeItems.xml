@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<storeItems>
+    <storeItem xmlFilename="$data/placeables/sheds/easyShed01.xml" />
+    <storeItem xmlFilename="$data/placeables/sheds/easyShed02.xml" />
+    <storeItem xmlFilename="$data/placeables/sheds/easyShed03.xml" />
+    <storeItem xmlFilename="$data/placeables/mapDE/sellingStationWool/sellingStationWool.xml" />
+    <storeItem xmlFilename="$data/placeables/mapDE/sellingStationWood/sellingStationWood.xml" />
+    <storeItem xmlFilename="$data/placeables/mapDE/sellingStationVehicles/sellingStationVehicles.xml" />
+</storeItems>
