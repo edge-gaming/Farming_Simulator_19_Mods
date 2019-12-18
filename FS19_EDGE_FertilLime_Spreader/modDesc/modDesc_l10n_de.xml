@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+<author>Edge Gaming / Castiga</author>
+<translationby>Castiga</translationby>
+	<texts>
+		<text name="function_EDGEFertilizerStorage" text="Lagerung von Flüssigdüngern für Ihren Betrieb. Hier können Sie Gülle, Gärreste, Herbizide und normale Flüssigdünger lagern.">
+		<text name="typeDesc_EDGEFertilizerStorage" text="Lagerung von Flüssigdünger">
+		<text name="name_EDGEFertilizerStorage" text="EDGE Flüssigdünger">
+		<text name="name_EDGE" text="EDGE Flüssigdüngertank">
+		<text name="fullname_EDGEFertilizerStorage" text="EDGE Lagerung von Flüssigdünger">
+		<text name="action_fillStorage" text="Starten Sie das Überladen">
+		<text name="action_stopFillStorage" text="Stoppen Sie das Überladen">
+		<text name="EDGE Liquid Fertilizer" text="EDGE Flüssigdüngertank"/>
+		<text name="EDGE Liquid Fertilizer Storage" text="EDGE Lagerung von Flüssigdünger"/>
+	</texts>
+</l10n>

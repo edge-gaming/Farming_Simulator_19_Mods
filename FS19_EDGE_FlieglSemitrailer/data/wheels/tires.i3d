@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="R26_5_TwinRadial" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="16" filename="$data/shared/wheels/michelin/cargoXBib/radial_normal.png"/>
+    <File fileId="17" filename="$data/shared/wheels/michelin/cargoXBib/radial_specular.png"/>
+    <File fileId="14" filename="$data/shared/wheels/michelin/cargoXBibHF/highFlotation_normal.png"/>
+    <File fileId="15" filename="$data/shared/wheels/michelin/cargoXBibHF/highFlotation_specular.png"/>
+    <File fileId="10" filename="$data/shared/wheels/nokian/TRI2/TRI2_normal.png"/>
+    <File fileId="11" filename="$data/shared/wheels/nokian/TRI2/TRI2_specular.png"/>
+    <File fileId="12" filename="$data/shared/wheels/trelleborg/SK800/SK800_normal.png"/>
+    <File fileId="13" filename="$data/shared/wheels/trelleborg/SK800/SK800_specular.png"/>
+    <File fileId="8" filename="$data/shared/wheels/trelleborg/TwinForestry428SB/twinForestry428SB_normal.png"/>
+    <File fileId="9" filename="$data/shared/wheels/trelleborg/TwinForestry428SB/twinForestry428SB_specular.png"/>
+    <File fileId="2" filename="$data/shared/wheels/trelleborg/TwinRadial/twinRadial_normal.png"/>
+    <File fileId="3" filename="$data/shared/wheels/trelleborg/TwinRadial/twinRadial_specular.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="radial_mat1" materialId="82" diffuseColor="0.498039 0.498039 0.498039 1" customShaderId="4" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="16"/>
+      <Glossmap fileId="17"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.37 -0.703 0.5 0.05"/>
+    </Material>
+    <Material name="highFlotation_mat1" materialId="73" diffuseColor="0.498039 0.498039 0.498039 1" customShaderId="4" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="14"/>
+      <Glossmap fileId="15"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.371 -0.698 0.5 0.05"/>
+    </Material>
+    <Material name="SK800_mat" materialId="63" diffuseColor="0.498039 0.498039 0.498039 1" customShaderId="4" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="12"/>
+      <Glossmap fileId="13"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.243 -0.41 0.5 0.05"/>
+    </Material>
+    <Material name="twinForestry428SB_mat5" materialId="26" diffuseColor="0.498039 0.498039 0.498039 1" customShaderId="4" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="8"/>
+      <Glossmap fileId="9"/>
+      <CustomParameter name="RDT" value="1 1 10 5"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.377 -0.668 0.5 0.05"/>
+    </Material>
+    <Material name="twinRadial_mat8" materialId="6" diffuseColor="0.498039 0.498039 0.498039 1" customShaderId="4" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <CustomParameter name="RDT" value="1 1 10 10"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.371 -0.677 0.5 0.05"/>
+    </Material>
+    <Material name="TRI2_mat6" materialId="43" diffuseColor="0.498039 0.498039 0.498039 1" customShaderId="4" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="10"/>
+      <Glossmap fileId="11"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.418 -0.707 0.5 0.05"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="tires.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="_710_50R26_5_" clipDistance="1000" nodeId="20">
+      <Shape shapeId="1" name="left_TwinRadial" clipDistance="1000" nodeId="21" materialIds="6" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="right_TwinRadial" clipDistance="1000" nodeId="22" materialIds="6" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="_710_45_26_5_" clipDistance="1000" nodeId="34">
+      <Shape shapeId="3" name="wheel_TwinForestry428SB" clipDistance="1000" nodeId="35" materialIds="26" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="_540_65R28_" clipDistance="1000" nodeId="61">
+      <Shape shapeId="4" name="wheel_TRI2" clipDistance="1000" nodeId="62" materialIds="43" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="_12_R16_5_" clipDistance="300" nodeId="70">
+      <Shape shapeId="5" name="wheel_SK800" clipDistance="300" nodeId="71" materialIds="63" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="_710_50_R26_5_" nodeId="79">
+      <Shape shapeId="6" name="Wheel_cargoXBibHF" clipDistance="300" nodeId="80" materialIds="73" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="_710_50_R26_5_" nodeId="90">
+      <Shape shapeId="7" name="Wheel_cargoXBib" clipDistance="300" nodeId="91" materialIds="82" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

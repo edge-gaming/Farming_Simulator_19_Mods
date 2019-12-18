@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="47">
+    <author>Castiga / EDGE Gaming</author>
+    <version>2.5.0.0</version>
+    <iconFilename>icon.png</iconFilename>
+    <title><!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
+        <en>Multi Filling Station</en>
+        <de>Multi Kaufstation</de>
+        <fr>Station De Remplissage Multiple</fr>
+        <es>Estación De Llenado Múltiple</es>
+        <ru>Мульти АЗС</ru>
+        <pl>Wielo Nadzienie Stacja</pl>
+    </title>
+    <description>
+        <en>
+			<![CDATA[Multi Filling station, Here you can buy anything you'd like.
+The delivery people take 10%, and 15% on any crop harvest.
+
+Price: 10.000€
+Size: 6x9.5 Meters
+
+Changelog 1.0.0.1:
+- Added Bumpmap and Specmap to Decals.
+Changelog 1.1.0.0:
+- Fixed Radiating light from light pole, this previously just illuminated.
+- Added L10N functions and name so it's more understandable for all people, this was prevoisly just in english.
+- Updated the mod with more languages.
+Changelog 2.0.0.0:
+- Created completely new Decal Texture, fitting all decals in one file (performance).
+- Added warning stripes in load area.
+- Added Shaders & Alpha blending, also reflecting on desired areas.
+Changelog 2.5.0.0:
+- Updated to support Seasons mod.]]>
+		</en>
+        <de>
+			<![CDATA[Multi Kaufstation. 10% Lieferkosten, 15% auf die Ernte.
+
+Preis: 10.000€
+Größe: 6x9.5 Meter
+
+Änderungsprotokoll 1.0.0.1:
+- Bump Map und Specular Map zu Decals hinzugefügt.
+Änderungsprotokoll 1.1.0.0:
+- Strahlungslicht vom Lichtmast behoben, dieses zuvor nur beleuchtet.
+- Es wurden L10N-Funktionen und -Namen hinzugefügt, damit es für alle verständlicher ist. Dies war bisher nur in Englisch.
+- Der Mod wurde mit mehr Sprachen aktualisiert.
+Änderungsprotokoll 2.0.0.0:
+- Es wurde eine komplett neue Decal-Textur erstellt, die alle Decals in eine Datei (Performance) einfügt.
+- Warnstreifen im Ladebereich hinzugefügt.
+- Decal Shader & Alpha Blending hinzugefügt, das sich auch auf die gewünschten Bereiche auswirkt.
+Änderungsprotokoll 2.5.0.0:
+- Aktualisiert, um den Seasons-Mod zu unterstützen.]]>
+		</de>
+        <fr>
+			<![CDATA[Station de remplissage multiple, ici, vous pouvez acheter ce que vous voulez.
+Les livreurs prennent 10% et 15% de toute récolte.
+
+Prix: 10.000€
+Taille: 6x9.5 Mètres
+
+Changer le journal 1.0.0.1:
+- Ajout de bump map et specular map aux décalcomanies.
+Changer le journal 1.1.0.0:
+- Correction de la lumière rayonnante du pôle, précédemment éclairée.
+- Ajout des fonctions et du nom de la L10N pour que ce soit plus compréhensible pour tout le monde, c'était avant tout en anglais.
+- Mise à jour du mod avec plus de langues.
+Changer le journal 2.0.0.0:
+- Création d'une nouvelle texture de décalque, ajustant tous les décalques dans un seul fichier (performance).
+- Ajout de bandes d'avertissement dans la zone de chargement.
+- Ajout du mélange Decal Shader et Alpha, reflétant également les zones souhaitées.
+Changer le journal 2.5.0.0:
+- Mis à jour pour supporter le mod de saisons.]]>
+		</fr>
+        <es>
+			<![CDATA[Estación de llenado múltiple.
+Aquí puede comprar cualquier cosa que desee, la gente de entrega se lleva el 10% y el 15% de cualquier cosecha.
+
+Precio: 10.000 €
+Tamaño: 6x9.5 Metros
+
+Registro de cambios 1.0.0.1:
+- Añadido mapa de relieve y mapa especular a calcomanías.
+Registro de cambios 1.1.0.0:
+- Se arregló la luz de radiación del polo de luz, esto anteriormente solo se ilumina.
+- Se agregaron las funciones y el nombre de la L10N, por lo que es más comprensible para todas las personas, esto fue antes en inglés.
+- Actualizado el mod con más idiomas.
+Registro de cambios 2.0.0.0:
+- Creé una textura de calcomanía completamente nueva, ajustando todas las calcomanías en un archivo (rendimiento).
+- Se agregaron franjas de advertencia en el área de carga.
+- Se agregó Decal Shader y Alpha blending, que también se refleja en las áreas deseadas.
+Registro de cambios 2.5.0.0:
+- Actualizado para admitir el mod Seasons.]]>
+        </es>
+        <ru>
+			<![CDATA[Мульти АЗС.
+Здесь вы можете купить все, что захотите, люди, занимающиеся доставкой, получают 10% и 15% на любой урожай.
+
+Цена: 10.000 €
+Размер: 6x9.5 Mетра
+
+Изменения 1.0.0.1:
+- Добавлены карта рельефа и карта отражений в наклейки.
+Изменения 1.1.0.0:
+- Исправлено излучение света от фонарного столба, этот ранее просто светился.
+- Добавлены функции и имя L10N, чтобы оно было более понятным для всех, это было сделано только на английском языке.
+- Обновлен мод с большим количеством языков.
+Изменения 2.0.0.0:
+- Создана совершенно новая текстура декаля, умещающая все наклейки в один файл (производительность).
+- Добавлены предупреждающие полосы в зоне загрузки.
+- Добавлен Decal Shader & Alpha blending, также отражающий нужные области.
+Изменения 2.5.0.0:
+- Обновлено для поддержки мод Seasons.]]>
+        </ru>
+        <pl>
+			<![CDATA[Wielo Nadzienie Stacja.
+Tutaj możesz kupić wszystko, co ci się podoba, a doręczyciele biorą 10%, a 15% na dowolne zbiory.
+
+Cena: 10.000 €
+Rozmiar: 6x9.5 Metrów
+
+Lista zmian 1.0.0.1:
+- Dodano mapę wypukłości i mapę lustrzaną do kalkomanii.
+Lista zmian 1.1.0.0:
+- Naprawiono Promieniujące światło z słupka światła, które wcześniej było podświetlone.
+- Dodano funkcje i nazwę L10N, więc jest to bardziej zrozumiałe dla wszystkich ludzi, było to głównie po angielsku.
+- Zaktualizowałem mod z większą liczbą języków.
+Lista zmian 2.0.0.0:
+- Utworzono całkowicie nową teksturę kalkomanii, pasującą do wszystkich kalkomanii w jednym pliku (wydajność).
+- Dodano paski ostrzegawcze w obszarze obciążenia.
+- Dodano mieszanie kalkomanii cieniowania i mieszania alfa, odzwierciedlające również pożądane obszary.
+Lista zmian 2.5.0.0:
+- Zaktualizowano w celu obsługi modów Seasons.]]>
+        </pl>
+    </description>
+    <multiplayer supported="true"/>
+    <storeItems>
+        <storeItem rootNode="placeable" xmlFilename="MultiFillingStation.xml"/>
+        <storeItem rootNode="placeable" xmlFilename="MultiFillingStationDark.xml"/>
+    </storeItems>
+    <brands>
+        <brand name="EDGE" title="EDGE Industries" image="EDGE_Brand_Logo.dds"/>
+    </brands>
+    <l10n>
+        <!-- <text name="typeDesc_multifillingstation" text="for later use"/> -->
+        <text name="name_multifillingstation">
+            <en>Multi Filling Station</en>
+            <de>Multi Kaufstation</de>
+            <fr>Station De Remplissage Multiple</fr>
+            <es>Estación de Llenado Múltiple</es>
+            <ru>Мульти АЗС</ru>
+            <pl>Wielo Nadzienie Stacja</pl>
+        </text>
+        <text name="name_multifillingstation_Black">
+            <en>Multi Filling Station Black Edition</en>
+            <de>Multi Kaufstation Schwarze Edition</de>
+            <fr>Station De Remplissage Multiple Edition noir</fr>
+            <es>Estación de llenado múltiple Edicion Negra</es>
+            <ru>Мульти АЗС Черное издание</ru>
+            <pl>Wielo Nadzienie Stacja Czarna Edycja</pl>
+        </text>
+        <text name="function_multifillingstation">
+            <en>Multi Filling station. Here you can buy anything you'd like, the delivery people take 10%, and 15% on any crop harvest.</en>
+            <de>Multi Kaufstation. 10% Lieferkosten, 15% auf die Ernte.</de>
+            <fr>FS19 Station de remplissage multiple. ici, vous pouvez acheter ce que vous voulez, les livreurs prennent 10% et 15% de toute récolte.</fr>
+            <es>Estación de llenado múltiple. Aquí puede comprar cualquier cosa que desee, la gente de entrega se lleva el 10% y el 15% de cualquier cosecha.</es>
+            <ru>Мульти АЗС. Здесь вы можете купить все, что захотите, люди, занимающиеся доставкой, получают 10% и 15% на любой урожай.</ru>
+            <pl>Wielo Nadzienie Stacja. Tutaj możesz kupić wszystko, co ci się podoba, a doręczyciele biorą 10%, a 15% na dowolne zbiory.</pl>
+        </text>
+        <text name="GrainExpress">
+            <en>EDGE Grain Express</en>
+            <de>EDGE Korn Befüllung</de>
+            <fr>EDGE Grain Express</fr>
+            <es>EDGE Grano Exprimir</es>
+            <ru>EDGE Зерна Экспресс</ru>
+            <pl>EDGE Ziarno Wyrazić</pl>
+        </text>
+        <text name="GrainExpressBlack">
+            <en>EDGE Grain Express Black</en>
+            <de>EDGE Korn Schwarz Befüllung</de>
+            <fr>EDGE Grain Express Noir</fr>
+            <es>EDGE Grano Exprimir Negra</es>
+            <ru>EDGE Зерна Экспресс Черный</ru>
+            <pl>EDGE Ziarno Wyrazić Czarny</pl>
+        </text>
+    </l10n>
+</modDesc>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+<author>Edge Gaming / Castiga</author>
+<translationby>Castiga</translationby>
+	<texts>
+		<text name="function_EDGEFertilizerStorage" text="Хранение жидких удобрений для вашей фермы, здесь вы можете хранить жидкий навоз, дигестат, гербицид и обычные жидкие удобрения.">
+		<text name="typeDesc_EDGEFertilizerStorage" text="Хранение жидких удобрений">
+		<text name="name_EDGEFertilizerStorage" text="EDGE Жидкое удобрение">
+		<text name="name_EDGE" text="EDGE Бак для жидких удобрений">
+		<text name="fullname_EDGEFertilizerStorage" text="EDGE Хранение жидких удобрений">
+		<text name="action_fillStorage" text="Начать перегрузку">
+		<text name="action_stopFillStorage" text="Прекратить перегрузку">
+		<text name="EDGE Liquid Fertilizer" text="EDGE Бак для жидких удобрений"/>
+		<text name="EDGE Liquid Fertilizer Storage" text="EDGE Хранение жидких удобрений"/>
+	</texts>
+</l10n>

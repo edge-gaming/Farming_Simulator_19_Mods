@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<vehicle type="roller">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+    <storeData>
+        <name>$l10n_shopItem_EDGEroller_Store</name>
+        <specs>
+            <combination>AGCO 650</combination>
+			<neededPower>50</neededPower>
+        </specs>
+        <functions>
+            <function>$l10n_typeDesc_EDGEroller</function>
+        </functions>
+        <image>store_EDGE_Roller_Pro.dds</image>
+        <price>4900</price>
+        <lifetime>600</lifetime>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <category>misc</category>
+        <shopTranslationOffset>-0.5 0 -1.5</shopTranslationOffset>
+        <shopRotationOffset>1 5 0</shopRotationOffset>
+    </storeData>
+    <base>
+        <typeDesc>$l10n_typeDesc_roller</typeDesc>
+        <filename>EDGE_Roller/EDGE_Roller.i3d</filename>
+        <size width="6" length="2"/>
+        <speedLimit value="17"/>
+        <components>
+            <component centerOfMass="0 0.1 0" solverIterationCount="10" mass="1980"/>
+        </components>
+        <schemaOverlay attacherJointPosition="0 0">
+            <default name="DEFAULT_IMPLEMENT"/>
+            <selected name="DEFAULT_IMPLEMENT_SELECTED"/>
+        </schemaOverlay>
+    </base>
+    <baseMaterial>
+        <material name="EDGE_Roller_Pro_mat" baseNode="Attacher">
+            <shaderParameter name="colorMat0" value="STOLL_GREY1"/>
+        </material>
+        <material name="RollerLite_mat" baseNode="LiteDrum">
+            <shaderParameter name="colorMat2" value="DUEVELSDORF_RED1"/>
+        </material>
+        <material name="RollerPro_mat" baseNode="ProDrum">
+            <shaderParameter name="colorMat2" value="DUEVELSDORF_RED1"/>
+        </material>
+    </baseMaterial>
+    <baseMaterialConfigurations price="100" useDefaultColors="true">
+        <baseMaterialConfiguration color="STOLL_GREY1"/>
+        <baseMaterialConfiguration name="SILVER" color="0.6456 0.6456 0.6456 1" material="8" price="100"/>
+        <baseMaterialConfiguration name="DARK BLUE CHROME" color="0.007 0.029 0.187 1" material="2" price="100"/>
+        <baseMaterialConfiguration name="CHROME" color="0.9800 0.9800 0.9800 1" material="2" price="100"/>
+        <baseMaterialConfiguration name="DARK GREY" color="0.037 0.037 0.037 1" material="0" price="100"/>
+        <baseMaterialConfiguration name="ORANGE CHROME" color="0.932 0.119 0.000 1" material="2" price="100"/>
+        <baseMaterialConfiguration name="GREEN CHROME" color="0.000 0.170 0.001 1" material="2" price="100"/>
+        <baseMaterialConfiguration name="BLUE CHROME" color="0.062 0.251 0.612 1" material="2" price="100"/>
+        <baseMaterialConfiguration name="RED CHROME" color="0.673 0.002 0.000 1" material="2" price="100"/>
+        <material name="EDGE_Roller_Pro_mat" shaderParameter="colorMat0"/>
+    </baseMaterialConfigurations>
+    <designMaterialConfigurations price="100" useDefaultColors="true">
+        <designMaterialConfiguration color="DUEVELSDORF_RED1"/>
+        <designMaterialConfiguration name="SILVER" color="0.6456 0.6456 0.6456 1" material="8" price="100"/>
+        <designMaterialConfiguration name="DARK BLUE CHROME" color="0.007 0.029 0.187 1" material="2" price="100"/>
+        <designMaterialConfiguration name="CHROME" color="0.9800 0.9800 0.9800 1" material="2" price="100"/>
+        <designMaterialConfiguration name="DARK GREY" color="0.037 0.037 0.037 1" material="0" price="100"/>
+        <designMaterialConfiguration name="ORANGE CHROME" color="0.932 0.119 0.000 1" material="2" price="100"/>
+        <designMaterialConfiguration name="GREEN CHROME" color="0.000 0.170 0.001 1" material="2" price="100"/>
+        <designMaterialConfiguration name="BLUE CHROME" color="0.062 0.251 0.612 1" material="2" price="100"/>
+        <designMaterialConfiguration name="RED CHROME" color="0.673 0.002 0.000 1" material="2" price="100"/>
+        <material name="RollerPro_mat" shaderParameter="colorMat2"/>
+        <material name="RollerLite_mat" shaderParameter="colorMat2"/>
+    </designMaterialConfigurations>
+    <designConfigurations>
+        <designConfiguration name="Lite" >
+            <objectChange node="ProDrum" visibilityActive="false"/>
+            <objectChange node="LiteDrum" visibilityActive="true"/>
+        </designConfiguration>
+		<designConfiguration name="Pro" price="100">
+            <objectChange node="LiteDrum" visibilityActive="false"/>
+            <objectChange node="ProDrum" visibilityActive="true"/>
+        </designConfiguration>
+    </designConfigurations>
+    <wheels>
+        <wheelConfigurations>
+            <wheelConfiguration name="$l10n_configuration_valueDefault" price="0">
+                <wheels>
+                    <wheel isLeft="false" hasParticles="true">
+                        <physics restLoad="1.0" repr="wheelDrum" radius="0.468" mass="0.2" width="3" forcePointRatio="0.5" initialCompression="30" suspTravel="0.05" spring="60" damper="20" rotationDamping="0.002"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+        </wheelConfigurations>
+    </wheels>
+    <speedRotatingParts>
+        <speedRotatingPart node="LiteDrum" radius="0.468" wheelIndex="1"/>
+        <speedRotatingPart node="ProDrum" radius="0.468" wheelIndex="1"/>
+    </speedRotatingParts>
+    <attachable>
+        <inputAttacherJoints>
+            <inputAttacherJoint node="attacherJoint" jointType="implement" topReferenceNode="topReferenceNode">
+                <distanceToGround lower="0.63" upper="1.2"/>
+            </inputAttacherJoint>
+        </inputAttacherJoints>
+        <support animationName="moveSupport"/>
+        <brakeForce>0.5</brakeForce>
+    </attachable>
+    <groundReferenceNodes>
+        <groundReferenceNode node="groundReferenceNode" threshold="0.3" chargeValue="1"/>
+    </groundReferenceNodes>
+    <workAreas>
+        <workArea type="roller" functionName="processRollerArea" disableBackwards="false">
+            <area startNode="workAreaStart" widthNode="workAreaWidth" heightNode="workAreaHeight"/>
+            <groundReferenceNode index="1"/>
+        </workArea>
+    </workAreas>
+	<foldable>
+        <foldingConfigurations title="$l10n_Config_Size">
+            <foldingConfiguration name="$l10n_Config_3M" price="0" workingWidth="3" >
+				<objectChange node="EDGERollerSvis" visibilityInactive="false" visibilityActive="true" />
+				<objectChange node="supportCol" compoundChildInactive="false" compoundChildActive="true" />
+				<objectChange node="EDGERollerM" compoundChildInactive="true" compoundChildActive="false" />
+				<objectChange node="supportColM" compoundChildInactive="true" compoundChildActive="false" />
+				<objectChange node="EDGERollerL" compoundChildInactive="true" compoundChildActive="false" />
+				<objectChange node="supportColL" compoundChildInactive="true" compoundChildActive="false" />
+			</foldingConfiguration>
+            <foldingConfiguration name="$l10n_Config_4M" price="2000" workingWidth="4" >
+                <objectChange node="EDGERollerMvis" visibilityInactive="false" visibilityActive="true" />
+				<objectChange node="Support" translationActive="0.372 0 0" translationInactive="0 0 0" />
+				<objectChange node="supportColM" translationActive="-0.372 0.241 0" translationInactive="0 0.241 0" />
+				<objectChange node="wheels" scaleActive="1.34 1 1" scaleInactive="1 1 1" />
+				<objectChange node="workArea" scaleActive="1.34 1 1" scaleInactive="1 1 1" />
+				<objectChange node="EDGERollerM" compoundChildInactive="false" compoundChildActive="true" />
+				<objectChange node="supportColM" compoundChildInactive="false" compoundChildActive="true" />
+            </foldingConfiguration>
+			<foldingConfiguration name="$l10n_Config_6M" price="4000" workingWidth="6" >
+                <objectChange node="EDGERollerLvis" visibilityInactive="false" visibilityActive="true" />
+                <objectChange node="SupportL" visibilityInactive="false" visibilityActive="true" />
+				<objectChange node="Support" translationActive="1.45 0 0" translationInactive="0 0 0" />
+				<objectChange node="supportColL" translationActive="-1.45 0.241 0" translationInactive="0 0.241 0" />
+				<objectChange node="wheels" scaleActive="2 1 1" scaleInactive="1 1 1" />
+				<objectChange node="workArea" scaleActive="2 1 1" scaleInactive="1 1 1" />
+				<objectChange node="EDGERollerL" compoundChildInactive="false" compoundChildActive="true" />
+				<objectChange node="supportColL" compoundChildInactive="false" compoundChildActive="true" />
+            </foldingConfiguration>
+        </foldingConfigurations>
+    </foldable>
+    <animations>
+        <animation name="moveSupport">
+            <part node="supportFoot" startTime="0" endTime="0.2" startTrans="0 0.28 0" endTrans="0 0 0"/>
+			<part node="supportFootL" startTime="0" endTime="0.2" startTrans="0 0.28 0" endTrans="0 0 0"/>
+        </animation>
+    </animations>
+    <roller onlyActiveWhenLowered="true">
+        <sounds>
+            <work template="MEADOW_ROLLER_WORK"/>
+        </sounds>
+    </roller>
+    <foliageBending>
+        <bendingNode minX="-2.0" maxX="2.0" minZ="-0.5" maxZ="0.5" yOffset="0.46"/>
+    </foliageBending>
+	<wearable wearDuration="1000" workMultiplier="5" fieldMultiplier="2"/>
+    <washable dirtDuration="30" washDuration="1" workMultiplier="10" fieldMultiplier="20"/>
+    <i3dMappings>
+        <i3dMapping id="wheelDrum" node="0>0|2"/>
+        <i3dMapping id="LiteDrum" node="0>0|0"/>
+        <i3dMapping id="ProDrum" node="0>0|1"/>
+        <i3dMapping id="supportFoot" node="0>2|1"/>
+        <i3dMapping id="supportFootL" node="0>2|3|1"/>
+        <i3dMapping id="attacherJoint" node="0>1|0"/>
+        <i3dMapping id="workAreaWidth" node="0>3|1"/>
+        <i3dMapping id="workAreaHeight" node="0>3|2"/>
+        <i3dMapping id="workAreaStart" node="0>3|0"/>
+        <i3dMapping id="topReferenceNode" node="0>1|1"/>
+        <i3dMapping id="groundReferenceNode" node="0>3|3"/>
+        <i3dMapping id="Attacher" node="0>1|2"/>
+        <i3dMapping id="SupportMount" node="0>2|0"/>
+        <i3dMapping id="aiMarkerLeft" node="0>6|0|0"/>
+        <i3dMapping id="aiMarkerRight" node="0>6|0|1"/>
+        <i3dMapping id="aiMarkerBack" node="0>6|0|2"/>
+        <i3dMapping id="aiCollisionTriggerS" node="0>7|2|1"/>
+		<i3dMapping id="aiCollisionTriggerM" node="0>7|2|0"/>
+		<i3dMapping id="aiCollisionTriggerL" node="0>7|2|2"/>
+		<i3dMapping id="EDGERollerSvis" node="0>5|1"/>
+		<i3dMapping id="EDGERollerMvis" node="0>5|2"/>
+		<i3dMapping id="EDGERollerLvis" node="0>5|3"/>
+		<i3dMapping id="Support" node="0>2"/>
+		<i3dMapping id="supportCol" node="0>2|1|0"/>
+		<i3dMapping id="supportColM" node="0>2|1|1"/>
+		<i3dMapping id="supportColL" node="0>2|1|2"/>
+		<i3dMapping id="workArea" node="0>3"/>
+		<i3dMapping id="EDGERollerS" node="0>"/>
+		<i3dMapping id="EDGERollerM" node="0>7|0"/>
+		<i3dMapping id="EDGERollerL" node="0>7|1"/>
+		<i3dMapping id="wheels" node="0>0"/>
+		<i3dMapping id="SupportL" node="0>2|3"/>
+    </i3dMappings>
+</vehicle>

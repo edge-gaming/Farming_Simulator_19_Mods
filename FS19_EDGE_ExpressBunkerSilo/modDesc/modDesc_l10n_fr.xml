@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+<author>Edge Gaming / Castiga</author>
+<translationby>Castiga</translationby>
+	<texts>
+		<text name="function_EDGEFertilizerStorage" text="Stockage d'engrais liquide pour votre ferme, vous pouvez y stocker votre lisier, votre digestat, votre herbicide et votre engrais liquide régulier.">
+		<text name="typeDesc_EDGEFertilizerStorage" text="Stockage d'engrais liquide">
+		<text name="name_EDGEFertilizerStorage" text="Engrais liquide EDGE">
+		<text name="name_EDGE" text="EDGE Réservoir d'engrais liquide">
+		<text name="fullname_EDGEFertilizerStorage" text="EDGE Stockage d'engrais liquide">
+		<text name="action_fillStorage" text="EDGE Stockage d'engrais liquide">
+		<text name="action_stopFillStorage" text="EDGE Stockage d'engrais liquide">
+		<text name="EDGE Liquid Fertilizer" text="EDGE Réservoir d'engrais liquide"/>
+		<text name="EDGE Liquid Fertilizer Storage" text="EDGE Stockage d'engrais liquide"/>
+	</texts>
+</l10n>

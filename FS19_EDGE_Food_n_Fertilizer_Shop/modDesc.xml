@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="47">
+    <author>Castiga / EDGE Gaming</author>
+    <translationby>Castiga</translationby>
+    <version>1.5.0.0</version>
+    <iconFilename>icon.dds</iconFilename>
+    <title><!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
+        <en>Food 'N' Fertilizer Shop</en>
+        <de>Futter- Und Düngerhandel</de>
+        <fr>Magasin D'Alimentation Et D'Engrais</fr>
+        <es>Tienda De Alimentos Y Fertilizantes</es>
+        <ru>Магазин Продуктов Питания И Удобрений</ru>
+        <pl>Sklep Z Żywnością I Nawozami</pl>
+    </title>
+    <description>
+        <en><![CDATA[Here you can buy fertilizer of any kind (Manure and slurry excluded), seeds and food for all your animals.
+The delivery costs are +10% on current price.
+It's fitted with Automatic Lighting.
+
+Price: 25.000€
+Size: 21 x 11 Meters
+
+-The Building supports "Seasons" and "Courseplay Six".
+
+Changelog 1.0.0.0:
+- Initial Realease.
+Changelog 1.5.0.0:
+- Added L10N functions and name so it's more understandable for all people, this was previously just in english.
+- Updated the mod with more languages.
+- Created new Decal textures & added shaders to the building
+- Added node for Interactive Zone Markers (Warningstripes can now be turned on and off)
+- Created "Seasons" mask support]]></en>
+        <de><![CDATA[Hier kann jede Art von Dünger (Mist und Gülle ausgeschlossen), sowie jede Art von Futter für Ihre Tiere gekauft werden.
+Die Zustellung kostet 10% extra.
+Die Gebäude verfügen über eine automatische Beleuchtung.
+
+Preis: 25.000€
+Größe: 21 x 11 Meter
+
+-Das Gebäude unterstützt "Seasons" und "Courseplay Six".
+
+Änderungsprotokoll 1.0.0.0:
+- Erstveröffentlichung.
+Änderungsprotokoll 1.5.0.0:
+- Es wurden L10N-Funktionen und -Namen hinzugefügt, damit es für alle verständlicher ist. Dies war bisher nur in Englisch.
+- Der Mod wurde mit mehr Sprachen aktualisiert.
+- Neue Decal-Texturen erstellt und dem Gebäude Shader hinzugefügt.
+- Knoten für interaktive Zonenmarkierungen hinzugefügt (Warnstreifen können jetzt ein- und ausgeschaltet werden).
+- Maskenunterstützung für "Seasons" erstellt]]></de>
+        <fr><![CDATA[Ici, vous pouvez acheter des engrais de toutes sortes (à l'exclusion du fumier et du lisier), des semences et de la nourriture pour tous vos animaux.
+La livraison prend 10% sur le dessus.
+Les bâtiments ont un éclairage automatique.
+
+Prix: 25.000 €
+Taille: 21 x 11 mètres
+
+-Le bâtiment prend en charge "Seasons" et "Courseplay Six".
+
+Changer le journal 1.0.0.0:
+- Première version.
+Changer le journal 1.5.0.0:
+- Ajout des fonctions et du nom de la L10N pour que ce soit plus compréhensible pour tout le monde, c'était avant tout en anglais.
+- Mise à jour du mod avec plus de langues.
+- Création de nouvelles textures de décalques et ajout de shaders au bâtiment.
+- Ajout d’un nœud pour les marqueurs de zone interactifs (les bandes d’avertissement peuvent maintenant être activées et désactivées).
+- Création du support de masque "Seasons"]]></fr>
+        <es><![CDATA[Aquí puede comprar fertilizantes de cualquier tipo (excepto estiércol y purín), semillas y alimentos para todos sus animales.
+La entrega lleva el 10% por encima.
+Los edificios tienen iluminación automática.
+
+Precio: 25.000€
+Tamaño: 21 x 11 Metros
+
+-El edificio admite "Seasons" y "Courseplay Six".
+
+Registro de cambios 1.0.0.0:
+- Versión inicial.
+Registro de cambios 1.5.0.0:
+- Se agregaron las funciones y el nombre de la L10N, por lo que es más comprensible para todas las personas, esto fue antes en inglés.
+- Actualizado el mod con más idiomas.
+- Se crearon nuevas texturas de calcomanías y se agregaron sombreadores al edificio.
+- Nodo agregado para marcadores de zona interactivos (ahora las franjas de advertencia se pueden activar y desactivar).
+- Creado el soporte de máscara "Estaciones"]]></es>
+        <ru><![CDATA[Здесь вы можете купить удобрения любого вида (за исключением навоза и навозной жижи), семена и корм для всех ваших животных.
+Доставка занимает 10% сверху.
+Здания имеют автоматическое освещение.
+
+Цена: 25.000€
+Размер: 21 x 11 Mетра
+
+-Здание поддерживает «Времена года» и «Курсовая игра шесть».
+
+Изменения 1.0.0.0:
+- Первый выпуск.
+Изменения 1.5.0.0:
+- Добавлены функции и имя L10N, чтобы оно было более понятным для всех, это было сделано только на английском языке.
+- Обновлен мод с большим количеством языков.
+- Созданы новые текстуры Decal и добавлены шейдеры в здание.
+- Добавлен узел для маркеров интерактивной зоны (теперь можно включать и выключать предупреждающие полосы).
+- Создана поддержка маски "Времена года"]]></ru>
+        <pl><![CDATA[Tutaj możesz kupić dowolny nawóz (z wyłączeniem obornika i gnojowicy), nasiona i pokarm dla wszystkich swoich zwierząt.
+Dostawa zajmuje 10%.
+Budynki mają automatyczne oświetlenie.
+
+Cena: 25.000€
+Rozmiar: 21 x 11 Metrów
+
+-Budynek obsługuje „Seasons” i „Courseplay Six”.
+
+Lista zmian 1.0.0.0:
+- Pierwsze wydanie.
+Lista zmian 1.5.0.0:
+- Dodano funkcje i nazwę L10N, więc jest to bardziej zrozumiałe dla wszystkich ludzi, było to głównie po angielsku.
+- Zaktualizowałem mod z większą liczbą języków.
+- Utworzono nowe tekstury naklejek i dodano shadery do budynku.
+- Dodano węzeł dla interaktywnych znaczników stref (paski ostrzegawcze można teraz włączać i wyłączać).
+- Utworzono obsługę maski „Pory roku”]]></pl>
+    </description>
+    <multiplayer supported="true"/>
+    <storeItems>
+        <storeItem rootNode="placeable" xmlFilename="FoodFertilizerShop.xml"/>
+    </storeItems>
+    <brands>
+        <brand name="EDGE" title="EDGE Industries" image="EDGE_Brand_Logo.dds"/>
+    </brands>
+    <l10n>
+        <!-- multifillingstation -->
+        <text name="name_EDGEFNF">
+            <en>Food 'n' Fertilizer Shop</en>
+            <de>Futter- und Düngerhandel</de>
+            <fr>Magasin D'Alimentation Et D'Engrais</fr>
+            <es>Tienda De Alimentos Y Fertilizantes</es>
+            <ru>Магазин продуктов питания и удобрений</ru>
+            <pl>Sklep z żywnością i nawozami</pl>
+        </text>
+        <text name="EDGEFNF">
+            <en>EDGE F'N'F</en>
+            <de>EDGE F- Und D</de>
+            <fr>EDGE Magasin D'Engrais</fr>
+            <es>EDGE F'N'F</es>
+            <ru>EDGE F'N'F</ru>
+            <pl>EDGE F'N'F</pl>
+        </text>
+        <text name="EDGEFNFFull">
+            <en>EDGE Food 'n' Fertilizer</en>
+            <de>EDGE Futter- Und Düngerhandel</de>
+            <fr>EDGE Magasin D'Alimentation Et D'Engrais</fr>
+            <es>EDGE Tienda De Alimentos Y Fertilizantes</es>
+            <ru>EDGE Магазин продуктов питания и удобрений</ru>
+            <pl>EDGE Sklep z żywnością i nawozami</pl>
+        </text>
+        <text name="function_EDGEFNF">
+            <en>Here you can buy any type of fertilizer (Manure Excluded), As well as food for your animals. the delivery people take 10%.</en>
+            <de>Hier können Sie jede Art von Dünger sowie Futter für Ihre Tiere kaufen. Die Zusteller nehmen 10%.</de>
+            <fr>Ici vous pouvez acheter n'importe quel type d'engrais (fumier exclu), ainsi que de la nourriture pour vos animaux les livreurs prennent 10%.</fr>
+            <es>Aquí puede comprar fertilizantes de cualquier tipo (excepto estiércol y purín), semillas y alimentos para todos sus animales. La entrega lleva el 10% por encima.</es>
+            <ru>Здесь вы можете купить удобрения любого вида (за исключением навоза и навозной жижи), семена и корм для всех ваших животных. Доставка занимает 10% сверху.</ru>
+            <pl>Tutaj możesz kupić dowolny nawóz (z wyłączeniem obornika i gnojowicy), nasiona i pokarm dla wszystkich swoich zwierząt. Dostawa zajmuje 10%.</pl>
+        </text>
+        <text name="function_EDGELights">
+            <en>This Building have Automatic Lighting.</en>
+            <de>Dieses Gebäude verfügt über eine automatische Beleuchtung.</de>
+            <fr>Ce bâtiment a l'éclairage automatique.</fr>
+            <es>Este edificio tiene iluminación automática.</es>
+            <ru>Это здание имеет автоматическое освещение.</ru>
+            <pl>Ten budynek ma automatyczne oświetlenie.</pl>
+        </text>
+    </l10n>
+</modDesc>

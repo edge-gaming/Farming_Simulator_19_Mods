@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+<author>Edge Gaming / Castiga</author>
+<translationby>Castiga</translationby>
+	<texts>
+		<text name="function_EDGEFertilizerStorage" text="Liquid Ferilizer Storage for your farm, here you can store your Slurry, Digestate, Herbicide & regular Liquid Fertilizer."/>
+		<text name="shopItem_EDGEFertilizerStorage" text="Liquid Ferilizer Storage"/>
+		<text name="name_EDGEFertilizerStorage" text="EDGE Liquid Fertilizer"/>
+		<text name="EDGE Liquid Fertilizer" text="EDGE Liquid Fertilizer"/>
+		<text name="station_EDGE" text="EDGE Liquid Fertilizer Tank"/>
+		<text name="typeDesc_EDGEFertilizerfull" text="EDGE Liquid Fertilizer Storage"/>
+		<text name="EDGE Liquid Fertilizer Storage" text="EDGE Liquid Fertilizer Storage"/>
+		<text name="action_fillStorage" text="Start Overloading"/>
+		<text name="action_stopFillStorage" text="Stop Overloading"/>
+	</texts>
+</l10n>
