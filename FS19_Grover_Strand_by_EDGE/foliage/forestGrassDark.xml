@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<foliageType distanceTexturePath="distance">
+
+    <!-- forest grass dark -->
+    <foliageLayer cellSize="8" objectMask="16711935" decalLayer="0" densityMapChannelOffset="0" numDensityMapChannels="1" numBlocksPerUnit="0.5" shapeSource="grass.i3d">
+        <foliageStateDefaults />
+        <foliageLodDefaults lod="0" viewDistance="60" />
+        <foliageState distanceMapLayer="64" width="1" height="1" widthVariance="0.2" heightVariance="0.2" horizontalPositionVariance="0.75">
+            <foliageShape>
+                <foliageLod blockShape="0>3" atlasSize="2" atlasOffset="0.5 0" texCoords="0 0 0.5 1" />
+            </foliageShape>
+        </foliageState>
+    </foliageLayer>
+    
+</foliageType>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicles>
+    <vehicle filename="data/vehicles/caseIH/magnum7240Pro/magnum7240Pro.xml" farmId="1" propertyState="1" xPosition="-200" yOffset="0.5" zPosition="1" yRotation="-90" defaultFarmProperty="true"/>
+    <vehicle filename="data/vehicles/fiat/fiat1300dt/fiat1300dt.xml" farmId="1" propertyState="1" xPosition="-198" yOffset="0.5" zPosition="25" yRotation="-90" defaultFarmProperty="true"/>
+    
+    <vehicle filename="data/vehicles/strautmann/SEK802/SEK802.xml" farmId="1" propertyState="1" xPosition="-194" yOffset="0.5" zPosition="1" yRotation="-90" defaultFarmProperty="true">
+        <configuration name="fillVolume" id="3"/>
+        <configuration name="trailer" id="3"/>
+        <configuration name="fillUnit" id="3"/>
+        <boughtConfiguration name="fillVolume" id="3"/>
+        <boughtConfiguration name="fillUnit" id="3"/>
+        <boughtConfiguration name="trailer" id="3"/>
+    </vehicle>
+    
+    <vehicle filename="data/vehicles/newHolland/TX32/TX32.xml" farmId="1" propertyState="1" xPosition="-344" yOffset="0.5" zPosition="-69" yRotation="180" defaultFarmProperty="true"/>
+    <vehicle filename="data/vehicles/newHolland/TX32Header/TX32Header.xml" farmId="1" propertyState="1" xPosition="-344" yOffset="0.5" zPosition="-74" yRotation="180" defaultFarmProperty="true"/>
+    
+    <vehicle filename="data/vehicles/amazone/D8_30/D8_30.xml" farmId="1" propertyState="1" xPosition="-182.5" yOffset="0.5" zPosition="24.5" yRotation="-90" defaultFarmProperty="true">
+        <fillUnit>
+            <unit index="1" fillType="SEEDS" fillLevel="1000.000000"/>
+        </fillUnit>
+        <sowingMachine selectedSeedFruitType="WHEAT"/>
+    </vehicle>
+    
+    <vehicle filename="data/vehicles/rau/polymag300/polymag300.xml" farmId="1" propertyState="1" xPosition="-181" yOffset="0.5" zPosition="3" yRotation="-90" defaultFarmProperty="true"/>
+    
+    <vehicle filename="data/vehicles/lizard/pickup1978/pickup1978.xml" farmId="1" propertyState="1" xPosition="-277.5" yOffset="0.5" zPosition="0.5" yRotation="0" defaultFarmProperty="true"/>
+</vehicles>

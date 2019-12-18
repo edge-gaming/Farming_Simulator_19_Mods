@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="44">
+    <author>EDGE Gaming / Castiga</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Grover Strand</en>
+        <de>Condado De Borde</de>
+        <fr>Condado De Borde</fr>
+        <it>Condado De Borde</it>
+        <es>Condado De Borde</es>
+        <br>Condado De Borde</br>
+        <cs>Condado De Borde</cs>
+        <ct>Condado De Borde</ct>
+        <cz>Condado De Borde</cz>
+        <nl>Condado De Borde</nl>
+        <hu>Condado De Borde</hu>
+        <jp>エスタンシアラパチョ</jp>
+        <kr>Condado De Borde</kr>
+        <pl>Condado De Borde</pl>
+        <pt>Condado De Borde</pt>
+        <ro>Condado De Borde</ro>
+        <ru>Condado De Borde</ru>
+        <tr>Condado De Borde</tr>
+    </title>
+    <description>
+        <en><![CDATA[Multi Selling Station. Here you can sell anything you'd like, From crop harvest to seeds and fertilizer.
+Selling prices will fluctuate and show up on the PDA / Statistics.
+The Buildings have automatic lighting.
+
+Price:  10.000€
+Size:   13 x 12.5 Meters
+
+Changelog 1.0.0.0:
+- Initial Realease.]]></en>
+        <de><![CDATA[Multi Verkaufsstation. Hier können Sie alles verkaufen, was Sie möchten, von der Ernte bis zu Saatgut und Dünger.
+Die Verkaufspreise schwanken und erscheinen auf dem PDA / der Statistik.
+Die Gebäude verfügen über eine automatische Beleuchtung.
+
+Preis: 10.000€
+Größe: 6x9.5 Meter
+
+Änderungsprotokoll 1.0.0.0:
+- Erstveröffentlichung.]]></de>
+        <fr><![CDATA[Poste de vente multiple. Ici, vous pouvez vendre ce que vous voulez, de la récolte aux semences et aux engrais.
+Les prix de vente fluctueront et apparaîtront sur le PDA / Statistics.
+Les bâtiments ont un éclairage automatique.
+
+Prix:   10.000€
+Taille: 13 x 12.5 Mètres
+
+Changer le journal 1.0.0.0:
+- Première version.]]></fr>
+        <es><![CDATA[Estación De Venta Múltiple. Aquí puede vender lo que quiera, desde la cosecha hasta las semillas y los fertilizantes.
+Los precios de venta fluctuarán y aparecerán en el PDA / Estadísticas.
+Los edificios tienen iluminación automática.
+
+Precio: 10.000 €
+Tamaño: 13 x 12.5 Metros
+
+Registro de cambios 1.0.0.0:
+- Versión inicial.]]></es>
+        <ru><![CDATA[Мультипродажная станция. Здесь вы можете продать все, что захотите, от сбора урожая до семян и удобрений.
+Продажные цены будут колебаться и отображаться на КПК / Статистика.
+Здания имеют автоматическое освещение.
+
+Цена:   10.000 €
+Размер: 13 x 12.5 Mетра
+
+Изменения 1.0.0.0:
+- Первый выпуск.]]></ru>
+        <pl><![CDATA[Stacja Sprzedaży. Tutaj możesz sprzedać wszystko, co chcesz, od zbiorów upraw po nasiona i nawozy.
+Ceny sprzedaży będą się zmieniać i pojawiać na PDA / statystykach.
+Budynki mają automatyczne oświetlenie.
+
+Cena:       10.000 €
+Rozmiar:    13 x 12.5 Metrów
+
+Lista zmian 1.0.0.0:
+- Pierwsze wydanie.]]></pl>
+        <it>Benvenuto all’Condado De Borde!</it>
+        <es>¡Te damos la bienvenida a Condado De Borde!</es>
+        <br>Bem-vindo à Condado De Borde!</br>
+        <cs>欢迎来到紫檀大庄园！</cs>
+        <ct>歡迎來到紫檀大莊園！</ct>
+        <cz>Vítejte v Condado De Borde!</cz>
+        <nl>Welkom op de Condado De Borde!</nl>
+        <hu>Üdvözöl Condado De Borde!</hu>
+        <jp>エスタンシアラパチョにようこそ！</jp>
+        <kr>Condado De Borde에 오신 것을 환영합니다!</kr>
+        <pt>Bem-vindo à Estância Lapacho!</pt>
+        <ro>Bun venit la Condado De Borde!</ro>
+        <tr>Condado De Borde'ya hoş geldin!</tr>
+    </description>
+    <iconFilename>icon.png</iconFilename>
+    <multiplayer supported="true" requiredModName="FS19_condado_de_borde"/>
+    <brands>
+        <brand name="EDGE" title="EDGE Industries" image="EDGE_Brand_Logo.dds"/>
+    </brands>
+    <l10n filenamePrefix="modDesc/modDesc_l10n"/>
+    <maps>
+        <map id="SouthAmericanMap" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="mapSA.xml" defaultVehiclesXMLFilename="mapSA_vehicles.xml" defaultItemsXMLFilename="mapSA_items.xml">
+            <title>
+                <en>Grover Strand</en>
+                <de>Condado De Borde</de>
+                <fr>Condado De Borde</fr>
+                <it>Condado De Borde</it>
+                <es>Condado De Borde</es>
+                <br>Condado De Borde</br>
+                <cs>Condado De Borde</cs>
+                <ct>Condado De Borde</ct>
+                <cz>Condado De Borde</cz>
+                <nl>Condado De Borde</nl>
+                <hu>Condado De Borde</hu>
+                <jp>エスタンシアラパチョ</jp>
+                <kr>Condado De Borde</kr>
+                <pl>Condado De Borde</pl>
+                <pt>Condado De Borde</pt>
+                <ro>Condado De Borde</ro>
+                <ru>Condado De Borde</ru>
+                <tr>Condado De Borde</tr>
+            </title>
+            <description>
+                <en>Welcome to the Grover Strand !</en>
+                <de>Willkommen auf der Condado De Borde!</de>
+                <fr>Bienvenue à Condado De Borde!</fr>
+                <it>Benvenuto all’Condado De Borde!</it>
+                <es>¡Te damos la bienvenida a Condado De Borde!</es>
+                <br>Bem-vindo à Condado De Borde!</br>
+                <cs>欢迎来到紫檀大庄园！</cs>
+                <ct>歡迎來到紫檀大莊園！</ct>
+                <cz>Vítejte v Condado De Borde!</cz>
+                <nl>Welkom op de Condado De Borde!</nl>
+                <hu>Üdvözöl Condado De Borde!</hu>
+                <jp>エスタンシアラパチョにようこそ！</jp>
+                <kr>Condado De Borde에 오신 것을 환영합니다!</kr>
+                <pl>Witamy w Condado De Borde!</pl>
+                <pt>Bem-vindo à Estância Lapacho!</pt>
+                <ro>Bun venit la Condado De Borde!</ro>
+                <ru>Добро пожаловать в земли Лапачо!</ru>
+                <tr>Condado De Borde'ya hoş geldin!</tr>
+            </description>
+            <iconFilename>mapSA_preview.dds</iconFilename>
+        </map>
+    </maps>
+    <storeItems>
+        <storeItem xmlFilename="placeables/farmBuildings/farmMansion.xml"/>
+        <storeItem xmlFilename="placeables/farmBuildings/farmStorageBarn.xml"/>
+        <storeItem xmlFilename="placeables/bga/bga.xml"/>
+        <storeItem xmlFilename="placeables/farmSilo/farmSilo.xml"/>
+        <storeItem xmlFilename="placeables/waterFillTriggers/waterFillTriggers.xml"/>
+    </storeItems>
+</modDesc>

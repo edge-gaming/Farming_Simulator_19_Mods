@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map width="8192" height="8192" imageFilename="mapSA/pda_map_H.png">
+    <filename>mapSA.i3d</filename>
+    <shop filename="$data/store/ui/shop.xml" />
+    <sounds filename="mapSA_sound.xml" />
+    <environment filename="mapSA_environment.xml" />
+    <colorGrading filename="mapSA_colorGrading.xml" />
+    <wildlife filename="$dataS/character/wildlifeSpawner.xml" />
+    <helpline filename="$dataS/helpLine.xml" />
+    <gameplayHints filename="$dataS/gameplayHints.xml" />
+    <husbandryAnimals filename="$dataS/character/husbandryAnimals.xml" />
+    <animalNames filename="$dataS/character/animalNames.xml" />
+    <husbandryFood filename="$dataS/character/husbandryFoodDefinition.xml" />
+    <transportMissions filename="mapSA_transportMissions.xml" />
+    <missionVehicles filename="$dataS/missionVehicles.xml" />
+    <farmlands filename="mapSA_farmlands.xml" />
+    <npcs filename="$data/maps/mapUS_npcs.xml" />
+    <culling xzOffset="300" />
+    <densityMap revision="1" />
+    <terrainLodTexture revision="1" />
+    <splitShapes revision="1" />
+    <tipCollision revision="1" />
+
+    <hotspots>
+        <hotspot name="Shop" fullName="$l10n_map_shop" imageUVs="264 8 240 240" xMapPos="534" zMapPos="9.5" blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_TRIGGERS"/>
+    </hotspots>
+
+    <additionalFiles>
+        <additionalFile filename="$data/shared/materialHolders/tensionBeltMaterialHolder.i3d" />
+        <additionalFile filename="$data/shared/materialHolders/tireTrackMaterialHolder.i3d" />
+        <additionalFile filename="$data/shared/materialHolders/glowEffectMaterialHolder.i3d" />
+        <additionalFile filename="$data/shared/mapTargetMarker.i3d" />
+        <additionalFile filename="particleSystems/particle_materialHolder.i3d" />
+        <additionalFile filename="particleSystems/effect_materialHolder.i3d" />
+        <additionalFile filename="$data/particleSystems/cutterEffect_materialHolder.i3d" />
+        <additionalFile filename="$data/fillPlanes/fillPlane_materialHolder.i3d" />
+    </additionalFiles>
+
+    <groundTypeMappings>
+        <!-- Base -->
+        <groundTypeMapping type="dirt"              layer="ROUGHDIRT"    />
+        <!-- Standard -->
+        <groundTypeMapping type="asphalt"           layer="CITYASPHALT"/>
+        <groundTypeMapping type="asphalt"           layer="ASPHALT"/>
+        <groundTypeMapping type="gravel"            layer="GRAVEL"/>
+        <groundTypeMapping type="grass"             layer="TOWNGRASS" paintableFoliageId="2"/>
+        <groundTypeMapping type="grassRough"        layer="GRASS" paintableFoliageId="1"/>
+        <groundTypeMapping type="grassRough"        layer="GRASSROUGH" paintableFoliageId="1"/>
+        <groundTypeMapping type="grassMoss"         layer="GRASSMOSS"  paintableFoliageId="5" />
+        <groundTypeMapping type="grassDry"          layer="GRASSDRY"  paintableFoliageId="3" />
+        <groundTypeMapping type="sand"              layer="BEACHSAND" />
+        <groundTypeMapping type="animalMud"         layer="ANIMALMUD"/>
+        <groundTypeMapping type="concrete"          layer="CONCRETE"/>
+        <groundTypeMapping type="plates"            layer="PLATE"/>
+        <groundTypeMapping type="cobblestones"      layer="COBBLESTONE"/>
+        <groundTypeMapping type="flagstones"        layer="FLAGSTONE"/>
+        <groundTypeMapping type="sand"              layer="SANDWET"/>
+        <groundTypeMapping type="sandRough"         layer="SANDROUGH" />
+        <groundTypeMapping type="animalMud"         layer="MUDDARK" />
+        <groundTypeMapping type="industrialMud"     layer="INDUSTRIALMUD"/>
+        <groundTypeMapping type="epoxy"             layer="EPOXY"/>
+        <!-- Special -->
+        <groundTypeMapping type="forestGround"      layer="FORESTGROUND" paintableFoliageId="4"/>
+        <groundTypeMapping type="rock"              layer="MOUNTAINROCK" />
+        <groundTypeMapping type="rockDark"          layer="MOUNTAINROCKDARK" />
+        <groundTypeMapping type="rock"              layer="GRANITEROCK" />
+        <groundTypeMapping type="dirtLight"         layer="DIRTLIGHT" />
+        <groundTypeMapping type="dustyRock"         layer="DUSTYROCK" />
+        <groundTypeMapping type="rock"              layer="CLIFFREDROCK" />
+        <groundTypeMapping type="tiles"             layer="TILE"/>
+    </groundTypeMappings>
+    <paintableFoliages>
+        <paintableFoliage id="1" layerName="grass" firstDensityMapChannel="0" numDensityMapChannels="4" value="2"/>
+		<paintableFoliage id="2" layerName="decoFoliage" firstDensityMapChannel="0" numDensityMapChannels="4" value="11"/>
+        <paintableFoliage id="3" layerName="grassDry" firstDensityMapChannel="0" numDensityMapChannels="4" value="4"  />
+        <paintableFoliage id="4" layerName="forestGrass" firstDensityMapChannel="0" numDensityMapChannels="4" value="4"  />
+        <paintableFoliage id="5" layerName="dryGrass" firstDensityMapChannel="0" numDensityMapChannels="4" value="4"  />
+    </paintableFoliages>
+</map>
