@@ -10,7 +10,7 @@ This repository currently contains the full load of our mods, for singular mods/
 
 All content made by EDGE is property of EDGE Gaming, but you are free to use it as you like provided you use Credits in your files, pointing to the original creator.
 
-When you contribute to this repository you are doing so under the above mentioned Guideline, meaning what ever contributions we might get (and use) will we shown in credits.
+When you contribute to this repository you are doing so under the above mentioned Guideline, meaning what ever contributions we might get (and use) will be shown in credits.
 
 thank you for reading this and enjoy the content!
 EDGE Gaming
