@@ -28,6 +28,10 @@
 # Precompiled Headers
 
 # Libraries
+*Map items/
+*MapBackupWork/
+*Maya_Projects/
+*Mods at work Folder/
 
 # Shared objects (inc. Windows DLLs)
 
