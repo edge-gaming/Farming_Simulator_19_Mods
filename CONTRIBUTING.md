@@ -49,7 +49,7 @@ At this time, we are only set up to translate the mods into various languages by
 - Be sure to @ mention a couple of your friends who are native speakers and ask them to review the translation.
 - Update your translation based on feedback from your friends.
 
-When this process is complete, we will be thankfull to merge the completed document.
+When this process is complete, we will be thankful to merge the completed document.
 
 ### Contribute something new
 
@@ -65,7 +65,7 @@ If you just want to help out, but don't have a particular change in mind, check 
 
 When you are ready to have your mod/contribution tested, you will want submit it [here](https://github.com/edge-gaming/Farming_Simulator_19_Mods/upload/) under a new branch, and create a pull request!
 
-When you are ready to start building a mod with us, you will want to build the repository locally. 
+When you are ready to start building a mod with us, you will want to build the repository locally.
 This can be done by finding our [Template Mod Folder](https://github.com/FS19-Mods-By-EDGE/FS19_Template_modFolder/releases)!
 
-Thank you for contributing, and if there is anything else dont hassitate to check out our [wiki](https://github.com/edge-gaming/Farming_Simulator_19_Mods/wiki) or [Contact us](post@edgegaming.no)
+Thank you for contributing, and if there is anything else don't hesitate to check out our [wiki](https://github.com/edge-gaming/Farming_Simulator_19_Mods/wiki) or [Contact us](post@edgegaming.no)
