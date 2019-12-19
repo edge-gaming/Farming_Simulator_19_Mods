@@ -63,9 +63,9 @@ If you just want to help out, but don't have a particular change in mind, check 
 
 ### Building and testing
 
+When you are ready to have your mod/contribution tested, you will want submit it [here](https://github.com/edge-gaming/Farming_Simulator_19_Mods/upload/) under a new branch, and create a pull request!
+
 When you are ready to start building a mod with us, you will want to build the repository locally. 
 This can be done by finding our [Template Mod Folder](https://github.com/FS19-Mods-By-EDGE/FS19_Template_modFolder/releases)!
-
-When you are ready to have your mod/contribution tested, you will want submit it [here](https://github.com/edge-gaming/Farming_Simulator_19_Mods/upload/) under a new branch, and create a pull request!
 
 Thank you for contributing, and if there is anything else dont hassitate to check out our [wiki](https://github.com/edge-gaming/Farming_Simulator_19_Mods/wiki) or [Contact us](post@edgegaming.no)
