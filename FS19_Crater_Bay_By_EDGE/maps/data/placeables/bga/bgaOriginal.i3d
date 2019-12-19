@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="Sosnovka Uzhe Videl" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+    </Asset>
+    <Files>
+        <File fileId="6" filename="$data/fillPlanes/silage_diffuse.png"/>
+        <File fileId="7" filename="$data/fillPlanes/silage_normal.png"/>
+        <File fileId="17" filename="$data/shaders/buildingShader.xml"/>
+        <File fileId="5" filename="$data/shaders/numberShader.xml"/>
+        <File fileId="4" filename="$data/shared/numbers_diffuse.png"/>
+        <File fileId="13" filename="$data/sounds/tools/mixer/silage_mixer_loop_01.ogg"/>
+        <File fileId="23" filename="data/textures/sosnovka/bgpWetLOD_diffuse.png"/>
+        <File fileId="14" filename="data/textures/sosnovka/bgpWet_diffuse.png"/>
+        <File fileId="15" filename="data/textures/sosnovka/bgpWet_normal.png"/>
+        <File fileId="16" filename="data/textures/sosnovka/bgpWet_specular.png"/>
+        <File fileId="8" filename="data/textures/sosnovka/flieglDecal_diffuse.png"/>
+        <File fileId="1" filename="data/textures/sosnovka/flieglRondomat_diffuse.png"/>
+        <File fileId="2" filename="data/textures/sosnovka/flieglRondomat_normal.png"/>
+        <File fileId="3" filename="data/textures/sosnovka/flieglRondomat_specular.png"/>
+        <File fileId="10" filename="data/textures/sosnovka/liquidManure_diffuse.png"/>
+        <File fileId="11" filename="data/textures/sosnovka/liquidManure_normal.png"/>
+        <File fileId="12" filename="data/textures/sosnovka/liquidManure_specular.png"/>
+        <File fileId="27" filename="data/textures/sosnovka/siloLOD_diffuse.png"/>
+        <File fileId="24" filename="data/textures/sosnovka/silo_diffuse.png"/>
+        <File fileId="25" filename="data/textures/sosnovka/silo_normal.png"/>
+        <File fileId="26" filename="data/textures/sosnovka/silo_specular.png"/>
+    </Files>
+    <Materials>
+        <Material name="flieglRondomat_mat" materialId="215">
+            <Texture fileId="1"/>
+            <Normalmap fileId="2"/>
+            <Glossmap fileId="3"/>
+        </Material>
+        <Material name="bgpWetLOD_mat" materialId="228">
+            <Texture fileId="23"/>
+        </Material>
+        <Material name="silage1_mat" materialId="236">
+            <Texture fileId="6"/>
+            <Normalmap fileId="7"/>
+        </Material>
+        <Material name="lambert1" materialId="248" diffuseColor="0.494118 0.494118 0.494118 1"/>
+        <Material name="siloLOD_mat" materialId="245">
+            <Texture fileId="27"/>
+        </Material>
+        <Material name="liquidManure_mat" materialId="244">
+            <Texture fileId="10"/>
+            <Normalmap fileId="11"/>
+            <Glossmap fileId="12"/>
+        </Material>
+        <Material name="flieglDecal_mat" materialId="6" alphaBlending="true">
+            <Texture fileId="8"/>
+        </Material>
+        <Material name="silo_mat" materialId="16" customShaderId="17">
+            <Texture fileId="24"/>
+            <Normalmap fileId="25"/>
+            <Glossmap fileId="26"/>
+        </Material>
+        <Material name="number_mat" materialId="22" customShaderId="5">
+            <Texture fileId="4"/>
+            <CustomParameter name="number" value="-1 0 0 0"/>
+            <CustomParameter name="numberColor" value="1 0.5 0.25 1"/>
+        </Material>
+        <Material name="bgpWet_mat" materialId="25" customShaderId="17">
+            <Texture fileId="14"/>
+            <Normalmap fileId="15"/>
+            <Glossmap fileId="16"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="bgaOriginal.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <TransformGroup name="BGPFacility" translation="-640.729 94.074 -314.401" static="true" clipDistance="700" nodeId="61971">
+            <TransformGroup name="tipPlace" translation="0 0.283676 12" nodeId="61972">
+                <Shape shapeId="1" name="flieglRondomat" translation="-0.000251416 0 0.000271216" clipDistance="300" nodeId="61973" materialIds="215" castsShadows="true" receiveShadows="true">
+                    <TransformGroup name="rotorRot" translation="-0.018605 0.738238 -0.056567" rotation="45 0 0" nodeId="61974">
+                        <Shape shapeId="2" name="rotor" nodeId="61975" materialIds="215" castsShadows="true" receiveShadows="true"/>
+                    </TransformGroup>
+                    <TransformGroup name="rotors" nodeId="61976">
+                        <Shape shapeId="3" name="rotorLeft" translation="-1.7358 1.1315 -0.000447" nodeId="61977" materialIds="215" castsShadows="true" receiveShadows="true"/>
+                        <Shape shapeId="4" name="rotorRight" translation="1.74732 1.1315 -0.000447" nodeId="61978" materialIds="215" castsShadows="true" receiveShadows="true"/>
+                    </TransformGroup>
+                    <Shape shapeId="5" name="weightDisplay" translation="-4.55947 0 1.06465" static="true" linearDamping="0.5" angularDamping="0.5" clipDistance="200" nodeId="61979" materialIds="215" castsShadows="true" receiveShadows="true">
+                        <Shape shapeId="6" name="numberPart1" translation="0.597525 2.9799 0.046821" clipDistance="75" nodeId="61980" materialIds="22" castsShadows="true" receiveShadows="true"/>
+                        <Shape shapeId="7" name="numberPart2" translation="0.507525 2.9799 0.046821" clipDistance="75" nodeId="61981" materialIds="22" castsShadows="true" receiveShadows="true"/>
+                        <Shape shapeId="7" name="numberPart3" translation="0.417525 2.9799 0.046821" clipDistance="75" nodeId="61982" materialIds="22" castsShadows="true" receiveShadows="true"/>
+                        <Shape shapeId="7" name="numberPart4" translation="0.327525 2.9799 0.046821" clipDistance="75" nodeId="61983" materialIds="22" castsShadows="true" receiveShadows="true"/>
+                        <Shape shapeId="7" name="numberPart5" translation="0.237525 2.9799 0.046821" clipDistance="75" nodeId="61984" materialIds="22" castsShadows="true" receiveShadows="true"/>
+                        <Shape shapeId="7" name="numberPart6" translation="0.147525 2.9799 0.046821" clipDistance="75" nodeId="61985" materialIds="22" castsShadows="true" receiveShadows="true"/>
+                        <Shape shapeId="7" name="numberPart7" translation="0.057525 2.9799 0.046821" clipDistance="75" nodeId="61986" materialIds="22" castsShadows="true" receiveShadows="true"/>
+                        <Shape shapeId="7" name="numberPart8" translation="-0.032475 2.9799 0.046821" clipDistance="75" nodeId="61987" materialIds="22" castsShadows="true" receiveShadows="true"/>
+                        <Shape shapeId="7" name="numberPart9" translation="-0.122475 2.9799 0.046821" clipDistance="75" nodeId="61988" materialIds="22" castsShadows="true" receiveShadows="true"/>
+                        <Shape shapeId="7" name="numberPart10" translation="-0.212475 2.9799 0.046821" clipDistance="75" nodeId="61989" materialIds="22" castsShadows="true" receiveShadows="true"/>
+                    </Shape>
+                    <TransformGroup name="grainPlanes" translation="-1.73553 2.21259 0.000324" nodeId="61990">
+                        <Shape shapeId="8" name="plane1" nodeId="61991" materialIds="236" castsShadows="true" receiveShadows="true"/>
+                        <Shape shapeId="9" name="plane2" translation="3.48189 -0 0" nodeId="61992" materialIds="236" castsShadows="true" receiveShadows="true"/>
+                    </TransformGroup>
+                    <Shape shapeId="10" name="Decals" translation="1.74702 0 0" nodeId="61993" materialIds="6" castsShadows="true" receiveShadows="true"/>
+                    <TransformGroup name="rotorRot1" translation="-0.018605 0.738238 3.54759" nodeId="61994"/>
+                </Shape>
+                <TransformGroup name="tipTriggers" translation="0.0395492 2.223 1.25908" nodeId="61995">
+                    <Shape shapeId="11" name="tipTrigger1" translation="-3.24186 0.105 0.315" static="true" trigger="true" collisionMask="8388608" clipDistance="400" nodeId="61996" materialIds="248" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                        <TransformGroup name="triggerStart" nodeId="61997"/>
+                        <TransformGroup name="triggerEnd" translation="6.3162 0 0" nodeId="61998"/>
+                        <TransformGroup name="iconPos" translation="-1.37207 -2.49728 2.32507" nodeId="61999"/>
+                        <Shape shapeId="12" name="silageCatcher" translation="3.19916 -3.0168 -1.69617" static="true" clipDistance="400" nodeId="62000" materialIds="248" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                    </Shape>
+                </TransformGroup>
+                <Shape shapeId="13" name="objectDeleteTrigger" translation="-0.77835 1.709 -0.0580269" static="true" trigger="true" collisionMask="16781312" clipDistance="400" nodeId="62001" materialIds="248" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                <Shape shapeId="14" name="flieglRondomat_col" translation="-0.000251416 0 0.000271216" static="true" clipDistance="300" nodeId="62002" materialIds="248" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            </TransformGroup>
+            <TransformGroup name="liquidManureTank" translation="45.99 0.05 0" clipDistance="100" nodeId="62003">
+                <Shape shapeId="15" name="liquidManure" translation="0 0.3 0" kinematic="true" nodeId="62004" materialIds="244" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="16" name="liquidManureTrigger" translation="-8 -5.65546e-34 0" scale="18 8 22" static="true" trigger="true" collisionMask="11534336" nodeId="62005" materialIds="248" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            </TransformGroup>
+            <AudioSource name="bunkerSound" translation="0 2 12" nodeId="62006" fileId="13" range="70" innerRange="10" volume="1" loops="0"/>
+            <TransformGroup name="bgpWet" translation="0 0.407352 0" clipDistance="1200" nodeId="62008" lodDistance="0 200">
+                <TransformGroup name="LOD0" nodeId="62009">
+                    <Shape shapeId="17" name="visual" nodeId="62010" materialIds="25" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="18" name="collision" static="true" nodeId="62011" materialIds="248" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                </TransformGroup>
+                <Shape shapeId="19" name="LOD1" nodeId="62012" materialIds="228" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+            <TransformGroup name="bunkerSilo" translation="0 -0.145 63.9169" rotation="0 -90 0" clipDistance="800" nodeId="62013">
+                <Shape shapeId="20" name="collision" static="true" collisionMask="524543" nodeId="62014" materialIds="248" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                <TransformGroup name="visual" clipDistance="800" nodeId="62015" lodDistance="0 200">
+                    <Shape shapeId="21" name="LOD0" nodeId="62016" materialIds="16" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="22" name="LOD1" nodeId="62017" materialIds="245" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+                <TransformGroup name="silo001" clipDistance="800" objectMask="65534" nodeId="62018">
+                    <TransformGroup name="gameplay" clipDistance="400" nodeId="62019">
+                        <Shape shapeId="23" name="interactionTrigger" static="true" trigger="true" collisionMask="15736832" nodeId="62020" materialIds="248" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                        <TransformGroup name="bunkerSiloArea" translation="30.1072 0 -4.9" nodeId="62021">
+                            <TransformGroup name="start" nodeId="62022"/>
+                            <TransformGroup name="width" translation="0 0 9.75" nodeId="62023"/>
+                            <TransformGroup name="height" translation="-60.1025 0 0" nodeId="62024"/>
+                        </TransformGroup>
+                    </TransformGroup>
+                </TransformGroup>
+                <TransformGroup name="silo002" translation="0 0 9.751" clipDistance="800" objectMask="65534" nodeId="62025">
+                    <TransformGroup name="gameplay" clipDistance="400" nodeId="62026">
+                        <Shape shapeId="23" name="interactionTrigger" static="true" trigger="true" collisionMask="15736832" nodeId="62027" materialIds="248" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                        <TransformGroup name="bunkerSiloArea" translation="30.1072 0 -4.9" nodeId="62028">
+                            <TransformGroup name="start" nodeId="62029"/>
+                            <TransformGroup name="width" translation="0 0 9.75" nodeId="62030"/>
+                            <TransformGroup name="height" translation="-60.1025 0 0" nodeId="62031"/>
+                        </TransformGroup>
+                    </TransformGroup>
+                </TransformGroup>
+                <TransformGroup name="silo003" translation="0 0 19.502" clipDistance="800" objectMask="65534" nodeId="62032">
+                    <TransformGroup name="gameplay" clipDistance="400" nodeId="62033">
+                        <Shape shapeId="23" name="interactionTrigger" static="true" trigger="true" collisionMask="15736832" nodeId="62034" materialIds="248" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                        <TransformGroup name="bunkerSiloArea" translation="30.1072 0 -4.9" nodeId="62035">
+                            <TransformGroup name="start" nodeId="62036"/>
+                            <TransformGroup name="width" translation="0 0 9.75" nodeId="62037"/>
+                            <TransformGroup name="height" translation="-60.1025 0 0" nodeId="62038"/>
+                        </TransformGroup>
+                    </TransformGroup>
+                </TransformGroup>
+                <TransformGroup name="silo004" translation="0 0 -9.751" clipDistance="800" objectMask="65534" nodeId="62039">
+                    <TransformGroup name="gameplay" clipDistance="400" nodeId="62040">
+                        <Shape shapeId="23" name="interactionTrigger" static="true" trigger="true" collisionMask="15736832" nodeId="62041" materialIds="248" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                        <TransformGroup name="bunkerSiloArea" translation="30.1072 0 -4.9" nodeId="62042">
+                            <TransformGroup name="start" nodeId="62043"/>
+                            <TransformGroup name="width" translation="0 0 9.75" nodeId="62044"/>
+                            <TransformGroup name="height" translation="-60.1025 0 0" nodeId="62045"/>
+                        </TransformGroup>
+                    </TransformGroup>
+                </TransformGroup>
+                <TransformGroup name="silo005" translation="0 0 -19.502" clipDistance="800" objectMask="65534" nodeId="62046">
+                    <TransformGroup name="gameplay" clipDistance="400" nodeId="62047">
+                        <Shape shapeId="23" name="interactionTrigger" static="true" trigger="true" collisionMask="15736832" nodeId="62048" materialIds="248" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                        <TransformGroup name="bunkerSiloArea" translation="30.1072 0 -4.9" nodeId="62049">
+                            <TransformGroup name="start" nodeId="62050"/>
+                            <TransformGroup name="width" translation="0 0 9.75" nodeId="62051"/>
+                            <TransformGroup name="height" translation="-60.1025 0 0" nodeId="62052"/>
+                        </TransformGroup>
+                    </TransformGroup>
+                </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="iconNode" nodeId="62053"/>
+        </TransformGroup>
+    </Scene>
+    <UserAttributes>
+        <UserAttribute nodeId="61971">
+            <Attribute name="bunkerPlaneIndex" type="string" value="0>0|0|3"/>
+            <Attribute name="bunkerPlaneMinMaxY" type="string" value="0.715 2.213"/>
+            <Attribute name="bunkerRollsIndex" type="string" value="0>0|0|0 0>0|0|1"/>
+            <Attribute name="bunkerRollsSpeed" type="float" value="100"/>
+            <Attribute name="bunkerSoundIndex" type="string" value="0>2"/>
+            <Attribute name="fillDeltaToManureDeltaScale" type="float" value="0.3"/>
+            <Attribute name="liquidManureSiloIndex" type="string" value="0>1"/>
+            <Attribute name="objectDeleteTriggerIndex" type="string" value="0>0|2"/>
+            <Attribute name="onCreate" type="scriptCallback" value="Bga.onCreate"/>
+            <Attribute name="tipTriggersIndex" type="string" value="0>0|1"/>
+            <Attribute name="weightDisplayIndex" type="string" value="0>0|0|2"/>
+        </UserAttribute>
+        <UserAttribute nodeId="61996">
+            <Attribute name="index" type="string" value="BGA_BUNKER"/>
+            <Attribute name="mapPositionIndex" type="string" value="2"/>
+            <Attribute name="shovelTargetIndex" type="string" value="3"/>
+            <Attribute name="useMapConfigXml" type="boolean" value="true"/>
+        </UserAttribute>
+        <UserAttribute nodeId="62003">
+            <Attribute name="capacity" type="integer" value="800000"/>
+            <Attribute name="moveMinMaxY" type="string" value="0.3 6.2"/>
+            <Attribute name="movingIndex" type="string" value="0>0"/>
+            <Attribute name="triggerIndex" type="string" value="0>1"/>
+        </UserAttribute>
+        <UserAttribute nodeId="62014">
+            <Attribute name="collisionHeight" type="float" value="3"/>
+        </UserAttribute>
+        <UserAttribute nodeId="62018">
+            <Attribute name="bunkerSiloArea" type="string" value="0>0|1"/>
+            <Attribute name="fermentedFillTypes" type="string" value="silage silage silage"/>
+            <Attribute name="fillTypes" type="string" value="grass_windrow dryGrass_windrow chaff"/>
+            <Attribute name="interactionTriggerIndex" type="string" value="0>0|0"/>
+            <Attribute name="onCreate" type="scriptCallback" value="BunkerSilo.onCreate"/>
+            <Attribute name="saveId" type="string" value="BunkerSilo_silo3"/>
+        </UserAttribute>
+        <UserAttribute nodeId="62025">
+            <Attribute name="bunkerSiloArea" type="string" value="0>0|1"/>
+            <Attribute name="fermentedFillTypes" type="string" value="silage silage silage"/>
+            <Attribute name="fillTypes" type="string" value="grass_windrow dryGrass_windrow chaff"/>
+            <Attribute name="interactionTriggerIndex" type="string" value="0>0|0"/>
+            <Attribute name="onCreate" type="scriptCallback" value="BunkerSilo.onCreate"/>
+            <Attribute name="saveId" type="string" value="BunkerSilo_silo4"/>
+        </UserAttribute>
+        <UserAttribute nodeId="62032">
+            <Attribute name="bunkerSiloArea" type="string" value="0>0|1"/>
+            <Attribute name="fermentedFillTypes" type="string" value="silage silage silage"/>
+            <Attribute name="fillTypes" type="string" value="grass_windrow dryGrass_windrow chaff"/>
+            <Attribute name="interactionTriggerIndex" type="string" value="0>0|0"/>
+            <Attribute name="onCreate" type="scriptCallback" value="BunkerSilo.onCreate"/>
+            <Attribute name="saveId" type="string" value="BunkerSilo_silo5"/>
+        </UserAttribute>
+        <UserAttribute nodeId="62039">
+            <Attribute name="bunkerSiloArea" type="string" value="0>0|1"/>
+            <Attribute name="fermentedFillTypes" type="string" value="silage silage silage"/>
+            <Attribute name="fillTypes" type="string" value="grass_windrow dryGrass_windrow chaff"/>
+            <Attribute name="interactionTriggerIndex" type="string" value="0>0|0"/>
+            <Attribute name="onCreate" type="scriptCallback" value="BunkerSilo.onCreate"/>
+            <Attribute name="saveId" type="string" value="BunkerSilo_silo6"/>
+        </UserAttribute>
+        <UserAttribute nodeId="62046">
+            <Attribute name="bunkerSiloArea" type="string" value="0>0|1"/>
+            <Attribute name="fermentedFillTypes" type="string" value="silage silage silage"/>
+            <Attribute name="fillTypes" type="string" value="grass_windrow dryGrass_windrow chaff"/>
+            <Attribute name="interactionTriggerIndex" type="string" value="0>0|0"/>
+            <Attribute name="onCreate" type="scriptCallback" value="BunkerSilo.onCreate"/>
+            <Attribute name="saveId" type="string" value="BunkerSilo_silo7"/>
+        </UserAttribute>
+    </UserAttributes>
+</i3D>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Large Grain Silo System" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="24" filename="$data/maps/textures/american/metalGridGrating_diffuse.dds"/>
+    <File fileId="25" filename="$data/maps/textures/american/metalGridGrating_normal.dds"/>
+    <File fileId="26" filename="$data/maps/textures/american/metalGridGrating_specular.dds"/>
+    <File fileId="27" filename="$data/maps/textures/european/props/floodlightFixture_diffuse.dds"/>
+    <File fileId="28" filename="$data/maps/textures/european/props/floodlightFixture_normal.dds"/>
+    <File fileId="29" filename="$data/maps/textures/european/props/floodlightFixture_specular.dds"/>
+    <File fileId="33" filename="$data/maps/textures/european/props/lightPoleSet_emissive.dds"/>
+    <File fileId="13" filename="$data/maps/textures/shared/sellingStationGeneric_ao.dds"/>
+    <File fileId="9" filename="$data/maps/textures/shared/sellingStationGeneric_diffuse.dds"/>
+    <File fileId="10" filename="$data/maps/textures/shared/sellingStationGeneric_normal.dds"/>
+    <File fileId="11" filename="$data/maps/textures/shared/sellingStationGeneric_specular.dds"/>
+    <File fileId="20" filename="$data/maps/textures/shared/warningStripes_diffuse.dds"/>
+    <File fileId="21" filename="$data/maps/textures/shared/warningStripes_normal.dds"/>
+    <File fileId="18" filename="$data/maps/textures/shared/wheatBottom_diffuse.dds"/>
+    <File fileId="19" filename="$data/maps/textures/shared/wheatBottom_normal.dds"/>
+    <File fileId="12" filename="$data/shaders/buildingShader.xml"/>
+    <File fileId="32" filename="$data/shaders/dashboardLightsShader.xml"/>
+    <File fileId="8" filename="$data/shared/default_normal.dds"/>
+    <File fileId="30" filename="$data/shared/window02_diffuse.dds"/>
+    <File fileId="31" filename="$data/shared/window02_specular.dds"/>
+    <File fileId="34" filename="textures/EDGE_Logo.dds"/>
+    <File fileId="35" filename="textures/EDGE_Logo_normal.dds"/>
+    <File fileId="36" filename="textures/EDGE_Logo_specular.dds"/>
+    <File fileId="5" filename="textures/farmSiloSystemAlpha_diffuse.dds"/>
+    <File fileId="6" filename="textures/farmSiloSystemAlpha_normal.dds"/>
+    <File fileId="7" filename="textures/farmSiloSystemAlpha_specular.dds"/>
+    <File fileId="2" filename="textures/farmSiloSystem_diffuse.dds"/>
+    <File fileId="3" filename="textures/farmSiloSystem_normal.dds"/>
+    <File fileId="4" filename="textures/farmSiloSystem_specular.dds"/>
+    <File fileId="23" filename="textures/grainStation_diffuse.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="metalGridGrating_mat" materialId="8">
+      <Texture fileId="24"/>
+      <Normalmap fileId="25"/>
+      <Glossmap fileId="26"/>
+    </Material>
+    <Material name="grainStation_mat" materialId="5">
+      <Texture fileId="23"/>
+    </Material>
+    <Material name="Decals_mat" materialId="10">
+      <Texture fileId="34"/>
+      <Normalmap fileId="35"/>
+      <Glossmap fileId="36"/>
+    </Material>
+    <Material name="floodlightFixture_mat" materialId="11">
+      <Texture fileId="27"/>
+      <Normalmap fileId="28"/>
+      <Glossmap fileId="29"/>
+    </Material>
+    <Material name="EDGEHugefarmSiloSystem_mat" materialId="12">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+    </Material>
+    <Material name="EDGEHugefarmSilo1" materialId="13" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="sellingStationGeneric_mat" materialId="15" customShaderId="12">
+      <Texture fileId="9"/>
+      <Normalmap fileId="10"/>
+      <Glossmap fileId="11"/>
+      <Custommap name="mMaskMap" fileId="13"/>
+    </Material>
+    <Material name="wheatBottom_mat" materialId="14">
+      <Texture fileId="18"/>
+      <Normalmap fileId="19"/>
+    </Material>
+    <Material name="EDGEHugefarmSiloSystemAlpha_mat" materialId="9" alphaBlending="true">
+      <Texture fileId="5"/>
+      <Normalmap fileId="6"/>
+      <Glossmap fileId="7"/>
+    </Material>
+    <Material name="floodLightGlass_mat" materialId="4" alphaBlending="true" customShaderId="32">
+      <Texture fileId="30"/>
+      <Normalmap fileId="8"/>
+      <Glossmap fileId="31"/>
+      <Custommap name="mEmissiveMap" fileId="33"/>
+      <CustomParameter name="lightControl" value="1 1 1 1"/>
+    </Material>
+    <Material name="EDGEHugefarmSilo2" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1">
+      <Normalmap fileId="8"/>
+    </Material>
+    <Material name="warningStripes_mat" materialId="7" specularColor="0.494118 1 0.494118">
+      <Texture fileId="20"/>
+      <Normalmap fileId="21"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="EDGEHugefarmSilo.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="farmSiloSystem" translation="0 0 3.08796" static="true" clipDistance="800" nodeId="47" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+      <TransformGroup name="farmSiloSystem_lods" clipDistance="800" nodeId="48" lodDistance="0 80 150">
+        <Shape shapeId="2" name="farmSiloSystem_lod0" clipDistance="800" nodeId="49" materialIds="12" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="farmSiloSystemAlpha" clipDistance="800" nodeId="50" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="4" name="farmSiloSystem_lod1" clipDistance="800" nodeId="51" materialIds="12" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="5" name="farmSiloSystem_lod2" clipDistance="800" nodeId="52" materialIds="12" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="gameplay" translation="0.423084 -1.94946 8.544" rotation="0 270 0" nodeId="53">
+        <TransformGroup name="IN" translation="0.883528 0 0.34" nodeId="54">
+          <Shape shapeId="6" name="triggerPos" translation="-18.784 2.02 0" static="true" trigger="true" collisionMask="8388608" nodeId="55" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <TransformGroup name="triggerStart" translation="0 0 3.6519" nodeId="56"/>
+            <TransformGroup name="triggerEnd" translation="0 0 -3.49547" nodeId="57"/>
+            <TransformGroup name="iconPos" translation="0.0885234 -0.048111 1.31523" nodeId="58"/>
+            <Shape shapeId="7" name="triggerShovelTarget" translation="0 -0.05 0" static="true" collisionMask="8388608" nodeId="59" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="8" name="exactFillRootNode" rotation="0 90 0" static="true" collisionMask="1073741824" nodeId="60" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="OUT" translation="-2.036 2.10336 0.415" nodeId="61">
+          <Shape shapeId="9" name="triggerSilo01" translation="1.72759e-09 5 0" static="true" trigger="true" collisionMask="1073741824" nodeId="62" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="10" name="triggerSilo02" static="true" trigger="true" collisionMask="1073741824" nodeId="63" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="11" name="triggerSilo03" static="true" trigger="true" collisionMask="1073741824" nodeId="64" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="12" name="triggerSilo04" static="true" trigger="true" collisionMask="1073741824" nodeId="65" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <TransformGroup name="fillVolumeDischargeNode" translation="0 -0.0851433 0" nodeId="66"/>
+            <TransformGroup name="effect" nodeId="67">
+              <Shape shapeId="13" name="grain" translation="0 0 -0.0163591" visibility="false" clipDistance="100" nodeId="68" materialIds="6" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="14" name="pipeEffectSmoke" translation="0 -0.0376328 0" visibility="false" clipDistance="100" nodeId="69" materialIds="6" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="15" name="grainEffect" translation="0 0.0312701 0" rotation="90 0 0" clipDistance="300" nodeId="70" materialIds="6" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="storageFarm" translation="-4.47638 0 0" nodeId="71"/>
+        <TransformGroup name="mapPosition" translation="-13.0654 0 1" nodeId="72"/>
+      </TransformGroup>
+      <Shape shapeId="16" name="farmSiloExtensionLarge" translation="-7.135 0 1.704" static="true" clipDistance="800" nodeId="73" materialIds="12" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="17" name="farmSiloAlpha01" clipDistance="150" nodeId="74" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="18" name="tipBlocker" static="true" collisionMask="524288" nodeId="75" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </Shape>
+      <Shape shapeId="16" name="farmSiloExtensionLarge" translation="-7.135 0 -2.318" static="true" clipDistance="800" nodeId="76" materialIds="12" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="17" name="farmSiloAlpha01" clipDistance="150" nodeId="77" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="18" name="tipBlocker" static="true" collisionMask="524288" nodeId="78" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </Shape>
+      <Shape shapeId="19" name="farmSiloExtensionSmall" rotation="180 -5.151 -180" static="true" clipDistance="800" nodeId="79" materialIds="12" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="20" name="farmSiloAlpha04" clipDistance="150" nodeId="80" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="21" name="tipBlocker" static="true" collisionMask="524288" nodeId="81" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </Shape>
+      <Shape shapeId="19" name="farmSiloExtensionSmall" translation="7.11 2.24639e-06 -0.274168" rotation="180 -5.15137 -180" static="true" clipDistance="800" nodeId="82" materialIds="12" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="20" name="farmSiloAlpha04" clipDistance="150" nodeId="83" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="21" name="tipBlocker" static="true" collisionMask="524288" nodeId="84" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </Shape>
+      <Shape shapeId="22" name="sellingStationGeneric" translation="0 0 -9.38362" static="true" clipDistance="400" nodeId="85" materialIds="15" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="23" name="sellingStationGenericGrainPlane" clipDistance="100" nodeId="86" materialIds="14" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="24" name="sellingStationGenericWarningStripes" clipDistance="200" nodeId="87" materialIds="7" receiveShadows="true"/>
+        <Shape shapeId="25" name="grainStation" translation="0 0.160994 0" scale="1.836 1 1.11" static="true" clipDistance="200" nodeId="88" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="26" name="sellingStationGenericGrid" translation="0 -0.115895 0" scale="0.8 1 1" static="true" clipDistance="400" nodeId="89" materialIds="8" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <TransformGroup name="ClearArea" nodeId="90">
+        <TransformGroup name="Start" translation="-9 0 -12.5" nodeId="91"/>
+        <TransformGroup name="Width" translation="9 0 -12.5" nodeId="92"/>
+        <TransformGroup name="Height" translation="-9 0 4.5" nodeId="93"/>
+      </TransformGroup>
+      <TransformGroup name="areaDefinitions" nodeId="94">
+        <TransformGroup name="Start" translation="-9 0 -12.5" nodeId="95">
+          <TransformGroup name="Width" translation="18 0 0" nodeId="96"/>
+          <TransformGroup name="Height" translation="0 0 17.6" nodeId="97"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="Lights" nodeId="98">
+        <Shape shapeId="27" name="floodLightBlue-400" translation="3.39728 13.6662 -3.65384" rotation="-103.632 -0 -90" clipDistance="300" nodeId="99" materialIds="11" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="28" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.000670971" rotation="0 -4.26887e-07 20" clipDistance="80" nodeId="100" materialIds="11" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="101">
+              <Shape shapeId="29" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="102" materialIds="4" castsShadows="true" receiveShadows="true"/>
+              <Light name="spotLight" translation="0.06 0.00588252 0" rotation="3.18055e-15 -90 0" clipDistance="400" nodeId="103" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="40" coneAngle="60" dropOff="4"/>
+            </TransformGroup>
+          </Shape>
+        </Shape>
+        <Shape shapeId="27" name="floodLightBlue-400" translation="-3.54706 16.8554 -3.65374" rotation="-77.5984 0 -90" clipDistance="300" nodeId="104" materialIds="11" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="28" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.000670971" rotation="0 4.26887e-07 20" clipDistance="80" nodeId="105" materialIds="11" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="106">
+              <Shape shapeId="29" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="107" materialIds="4" castsShadows="true" receiveShadows="true"/>
+              <Light name="spotLight" translation="0.06 0.00588252 0" rotation="3.18055e-15 -90 0" clipDistance="400" nodeId="108" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="40" coneAngle="55" dropOff="4"/>
+            </TransformGroup>
+          </Shape>
+        </Shape>
+        <Shape shapeId="27" name="floodLightBlue-400" translation="-2.00608 3.95283 -4.15461" rotation="-90 -0 -90" clipDistance="300" nodeId="109" materialIds="11" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="28" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.000670971" rotation="1.04831e-11 -1.38418e-11 50" clipDistance="80" nodeId="110" materialIds="11" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="111">
+              <Shape shapeId="29" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="112" materialIds="4" castsShadows="true" receiveShadows="true"/>
+              <Light name="spotLight" translation="0.06 0.00588252 0" rotation="3.18055e-15 -90 0" clipDistance="400" nodeId="113" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="40" coneAngle="90" dropOff="4"/>
+            </TransformGroup>
+          </Shape>
+        </Shape>
+        <Shape shapeId="27" name="floodLightBlue-400" translation="1.97624 3.95283 -4.15461" rotation="-90 -0 -90" clipDistance="300" nodeId="114" materialIds="11" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="28" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.000670971" rotation="1.04831e-11 -1.38418e-11 50" clipDistance="80" nodeId="115" materialIds="11" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="116">
+              <Shape shapeId="29" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="117" materialIds="4" castsShadows="true" receiveShadows="true"/>
+              <Light name="spotLight" translation="0.06 0.00588252 0" rotation="3.18055e-15 -90 0" clipDistance="400" nodeId="118" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="40" coneAngle="90" dropOff="4"/>
+            </TransformGroup>
+          </Shape>
+        </Shape>
+        <Shape shapeId="27" name="floodLightBlue-400" translation="-1.89324 3.95283 3.78706" rotation="90 -0 -90" clipDistance="300" nodeId="119" materialIds="11" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="28" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.000670971" rotation="0 -1.38418e-11 40" clipDistance="80" nodeId="120" materialIds="11" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="121">
+              <Shape shapeId="29" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="122" materialIds="4" castsShadows="true" receiveShadows="true"/>
+              <Light name="spotLight" translation="0.06 0.00588252 0" rotation="0 -90 0" clipDistance="400" nodeId="123" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="40" coneAngle="90" dropOff="4"/>
+            </TransformGroup>
+          </Shape>
+        </Shape>
+        <Shape shapeId="27" name="floodLightBlue-400" translation="1.88821 3.92451 3.78706" rotation="90 -0 -90" clipDistance="300" nodeId="124" materialIds="11" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="28" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.000670971" rotation="1.20098e-11 -1.31293e-11 40" clipDistance="80" nodeId="125" materialIds="11" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="126">
+              <Shape shapeId="29" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="127" materialIds="4" castsShadows="true" receiveShadows="true"/>
+              <Light name="spotLight" translation="0.06 0.00588252 0" rotation="3.18055e-15 -90 0" clipDistance="400" nodeId="128" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="40" coneAngle="90" dropOff="4"/>
+            </TransformGroup>
+          </Shape>
+        </Shape>
+        <Shape shapeId="27" name="floodLightBlue-400" translation="3.39488 13.6296 3.64178" rotation="103.071 -0 -90" clipDistance="300" nodeId="129" materialIds="11" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="28" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.000670971" rotation="3.41509e-06 2.13443e-06 20" clipDistance="80" nodeId="130" materialIds="11" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="131">
+              <Shape shapeId="29" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="132" materialIds="4" castsShadows="true" receiveShadows="true"/>
+              <Light name="spotLight" translation="0.06 0.00588252 0" rotation="0 -90 0" clipDistance="400" nodeId="133" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="40" coneAngle="60" dropOff="4"/>
+            </TransformGroup>
+          </Shape>
+        </Shape>
+        <Shape shapeId="27" name="floodLightBlue-400" translation="-3.16481 13.4989 3.568" rotation="67.5333 -0 -90" clipDistance="300" nodeId="134" materialIds="11" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="28" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.000670971" rotation="1.36604e-05 -1.36604e-05 20" clipDistance="80" nodeId="135" materialIds="11" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="136">
+              <Shape shapeId="29" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="137" materialIds="4" castsShadows="true" receiveShadows="true"/>
+              <Light name="spotLight" translation="0.06 0.00588252 0" rotation="3.18055e-15 -90 0" clipDistance="400" nodeId="138" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="40" coneAngle="60" dropOff="4"/>
+            </TransformGroup>
+          </Shape>
+        </Shape>
+      </TransformGroup>
+      <TransformGroup name="decals" nodeId="139">
+        <Shape shapeId="30" name="Sign" translation="1.492 3.284 3.70269" clipDistance="300" nodeId="140" materialIds="10" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="30" name="Sign" translation="1.492 3.284 -4.10301" rotation="-180 0 -180" clipDistance="300" nodeId="141" materialIds="10" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+    </Shape>
+    <Camera name="persp" translation="-35.3141 20.7287 -10.1908" rotation="150.02 -78.8268 -180" visibility="false" nodeId="142" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="47">
+      <Attribute name="mapPositionIndex" type="string" value="1|3"/>
+    </UserAttribute>
+    <UserAttribute nodeId="55">
+      <Attribute name="shovelTargetIndex" type="string" value="3"/>
+    </UserAttribute>
+    <UserAttribute nodeId="69">
+      <Attribute name="materialType" type="string" value="SMOKE"/>
+      <Attribute name="useSelfAsEffectNode" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="101">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="106">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="111">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="116">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="121">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="126">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="131">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="136">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="leitpfosten" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="Texture/Diffuse_Orange.dds"/>
+    <File fileId="1" filename="Texture/Diffuse_White.dds"/>
+    <File fileId="2" filename="Texture/Normal.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="phong1" materialId="5" specularColor="0.494118 1 0.494118">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="phong1" materialId="4" specularColor="0.494118 1 0.494118">
+      <Texture fileId="4"/>
+      <Normalmap fileId="2"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="leitpfosten.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="Withe" translation="1.33654 0 -0.418055" nodeId="13">
+      <Shape shapeId="1" name="leitpfosten_weiss" translation="1.53535 0 0" static="true" clipDistance="300" nodeId="14" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="leitpfosten_mit_allem_weiss" translation="1.21314 0.00142069 0" rotation="0 180 0" static="true" clipDistance="300" nodeId="15" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="3" name="leitpfosten_mit_schnee_weiss" translation="0.82496 0.00134748 0" rotation="0 180 0" static="true" clipDistance="300" nodeId="16" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="4" name="leitpfosten_mit_wild_weiss" translation="0.449476 0.000234745 -0.000213122" static="true" clipDistance="300" nodeId="17" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="Orange" translation="-1.33654 0 0.418055" nodeId="18">
+        <Shape shapeId="2" name="leitpfosten_mit_allem_gelb" translation="1.10081 0.00142069 -0.396248" rotation="0 180 0" static="true" clipDistance="300" nodeId="19" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="5" name="leitpfosten_gelb" translation="1.42303 0 -0.396248" static="true" clipDistance="300" nodeId="20" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="3" name="leitpfosten_mit_schnee_gelb" translation="0.712636 0 -0.396248" rotation="0 180 0" static="true" clipDistance="300" nodeId="21" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="leitpfosten_mit_wild_gelb" translation="0.337151 0.000234745 -0.396461" static="true" clipDistance="300" nodeId="22" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

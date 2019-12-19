@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<foliageType distanceTexturePath="">
+    <foliageLayer cellSize="8" objectMask="16711935" decalLayer="0" densityMapChannelOffset="0" numDensityMapChannels="1" numBlocksPerUnit="0.5" shapeSource="forestGrass.i3d">
+        <foliageStateDefaults distanceMapLayer="0" widthVariance="0.0" heightVariance="0.0" horizontalPositionVariance="0.00"/>
+        <!-- default LOD distances etc -->
+        <foliageLodDefaults lod="0" viewDistance="60" blendOutDistance="2" atlasSize="2" atlasOffset="0.5 0" texCoords="0 0 1 1"/>
+        <foliageState width="1.0" height="1.0">
+            <foliageShape>
+                <foliageLod blockShape="0>"/>
+            </foliageShape>
+        </foliageState>
+    </foliageLayer>
+</foliageType>

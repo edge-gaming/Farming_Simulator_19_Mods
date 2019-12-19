@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_name_OldUniversalSilo</name>
+        <functions>
+            <function>$l10n_function_farmSilo</function>
+            <function>$l10n_funcEDGEGrainSilo</function>
+            <function>$l10n_function_EDGEGrainSilo</function>
+        </functions>
+        <specs>
+            <capacity>350000</capacity>
+            <fillTypeCategories>FARMSILO</fillTypeCategories>
+        </specs>
+        <image>maps/data/placeables/EDGE/universalSilo/store_universalSilo.dds</image>
+        <price>200000</price>
+        <dailyUpkeep>40</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <species>placeable</species>
+        <category>silos</category>
+    </storeData>
+    <placeableType>silo</placeableType>
+    <filename>maps/data/placeables/EDGE/universalSilo/universalSilo.i3d</filename>
+    <placement testSizeX="30" testSizeZ="37" sizeX="32" sizeZ="39" useRandomYRotation="false" useManualYRotation="true"/>
+    <dayNightObjects>
+        <dayNightObject node="7|0|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="7|1|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="7|2|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="7|3|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="7|4|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="7|5|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="7|6|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="7|7|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="7|8|0" visibleDay="true" visibleNight="true" intensityday="1.0" intensityNight="0.6"/>
+    </dayNightObjects>
+    <loadingStation stationName="$l10n_oldUniversalSiloName" appearsOnPDA="false" storageRadius="100" fillSoundIdentifier="fillSound01">
+        <loadTrigger triggerNode="0|1|0" fillLitersPerSecond="2000" dischargeNode="0|1|0|0">
+            <effectNode effectClass="PipeEffect" effectNode="0|1|0|1|0" materialType="pipe" materialTypeId="1" fadeTime="0.5" maxBending="0" controlPoint="3.25 0 0 0"/>
+            <effectNode effectNode="0|1|0|1|1" materialType="smoke" materialTypeId="1" fadeTime="0.5"/>
+        </loadTrigger>
+    </loadingStation>
+    <unloadingStation stationName="$l10n_OldUniversalSiloName" appearsOnPDA="false" storageRadius="100">
+        <unloadTrigger exactFillRootNode="0|0|0|3"/>
+    </unloadingStation>
+    <storages>
+        <storage node="0|2" fillTypeCategories="FARMSILO" capacityPerFillType="350000"/>
+    </storages>
+    <clearAreas>
+        <clearArea startNode="5|1|0" widthNode="5|1|0|0" heightNode="5|1|0|1"/>
+        <clearArea startNode="5|1|1" widthNode="5|1|1|0" heightNode="5|1|1|1"/>
+        <clearArea startNode="5|1|2" widthNode="5|1|2|0" heightNode="5|1|2|1"/>
+        <clearArea startNode="5|1|3" widthNode="5|1|3|0" heightNode="5|1|3|1"/>
+    </clearAreas>
+    <leveling requireLeveling="true" maxSmoothDistance="5" maxSlope="30" maxEdgeAngle="20">
+        <levelAreas>
+            <levelArea startNode="5|2|0" widthNode="5|2|0|0" heightNode="5|2|0|1" groundType="asphalt"/>
+            <levelArea startNode="5|2|1" widthNode="5|2|1|0" heightNode="5|2|1|1" groundType="asphalt"/>
+            <levelArea startNode="5|2|2" widthNode="5|2|2|0" heightNode="5|2|2|1" groundType="asphalt"/>
+        </levelAreas>
+    </leveling>
+    <seasons>
+        <maskAreas>
+            <maskArea startNode="5|0|0" widthNode="5|0|0|0" heightNode="5|0|0|1"/>
+            <maskArea startNode="5|0|1" widthNode="5|0|1|0" heightNode="5|0|1|1"/>
+            <maskArea startNode="5|0|2" widthNode="5|0|2|0" heightNode="5|0|2|1"/>
+            <maskArea startNode="5|0|3" widthNode="5|0|3|0" heightNode="5|0|3|1"/>
+        </maskAreas>
+    </seasons>
+    <hotspots>
+        <hotspot name="$l10n_station_EDGEFarmsilo" fullName="$l10n_OldUniversalSiloName" imageName="SELLING_POINT" hidable="true" linkNode="0|3" category="CATEGORY_TRIGGERS"/>
+    </hotspots>
+    <tipOcclusionUpdateArea sizeX="33" sizeZ="40"/>
+    <triggerMarkers>
+        <triggerMarker node="4" />
+    </triggerMarkers>
+</placeable>

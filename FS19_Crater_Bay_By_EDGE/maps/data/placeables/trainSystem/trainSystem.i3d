@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.0.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="7" filename="$data/shaders/emissiveLightsShader.xml"/>
+    <File fileId="6" filename="$data/shared/coronaRed_diffuse.dds"/>
+    <File fileId="2" filename="../../textures/american/props/railroadCrossing_diffuse.dds"/>
+    <File fileId="3" filename="../../textures/american/props/railroadCrossing_normal.dds"/>
+    <File fileId="4" filename="../../textures/american/props/railroadCrossing_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="UnnamedMaterial" materialId="9" diffuseColor="1 1 1 1">
+    </Material>
+    <Material name="lambert1" materialId="12" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="coronaBlinkingRed_mat" materialId="13" alphaBlending="true" customShaderId="7" customShaderVariation="BILLBOARD_TURNLIGHT">
+      <Emissivemap fileId="6"/>
+      <CustomParameter name="blinkOffset" value="0 0 0 0"/>
+    </Material>
+    <Material name="railroadCrossing_mat" materialId="14">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3" bumpDepth="0.3"/>
+      <Glossmap fileId="4"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="trainSystem.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="trainSystem" nodeId="7">
+      <Shape shapeId="1" name="track01" translation="0 -0.15 0" visibility="false" nodeId="8"/>
+      <TransformGroup name="railroadCrossing01" translation="-659 85 613" nodeId="24">
+        <Shape shapeId="2" name="railroadCrossing" translation="6.71588 0.221756 4.51758" rotation="0 -73.2819 0" static="true" clipDistance="400" nodeId="25" materialIds="14" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="railroadCrossingBarrier" translation="0 1.30001 -0.15" kinematic="true" clipDistance="400" nodeId="26" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="trafficBlocker" kinematic="true" collisionMask="1048576" nodeId="27" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <TransformGroup name="signals" visibility="false" nodeId="28">
+            <Shape shapeId="5" name="coronaLeft" translation="0.304506 2.10424 0.281461" rotation="0 90 0" clipDistance="129" nodeId="29" materialIds="13" castsShadows="true" receiveShadows="true">
+              <Light name="pointLight1" translation="0 0 3.55271e-17" rotation="0 1.41245e-30 -1.85759e-29" nodeId="30" type="point" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+            </Shape>
+            <Shape shapeId="5" name="coronaRight" translation="0.304506 2.10424 -0.279689" rotation="0 90 0" clipDistance="129" nodeId="31" materialIds="13" castsShadows="true" receiveShadows="true">
+              <Light name="pointLight1" translation="3.55271e-17 0 0" rotation="0 1.41245e-30 -1.85759e-29" nodeId="32" type="point" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+            </Shape>
+            <Shape shapeId="5" name="coronaLeftBack" translation="-0.305 2.10424 0.281461" rotation="0 270 0" clipDistance="129" nodeId="33" materialIds="13" castsShadows="true" receiveShadows="true">
+              <Light name="pointLight1" translation="0 0 3.55271e-17" rotation="0 1.41245e-30 -1.85759e-29" nodeId="34" type="point" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+            </Shape>
+            <Shape shapeId="5" name="coronaRightBack" translation="-0.305 2.10424 -0.279689" rotation="0 270 0" clipDistance="129" nodeId="35" materialIds="13" castsShadows="true" receiveShadows="true">
+              <Light name="pointLight1" translation="3.55271e-17 0 0" rotation="0 1.41245e-30 -1.85759e-29" nodeId="36" type="point" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+            </Shape>
+          </TransformGroup>
+        </Shape>
+        <Shape shapeId="2" name="railroadCrossing" translation="-6.54372 0.168877 -4.11516" rotation="180 71.9796 180" static="true" clipDistance="400" nodeId="37" materialIds="14" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="railroadCrossingBarrier" translation="0 1.30001 -0.15" kinematic="true" clipDistance="400" nodeId="38" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="trafficBlocker" kinematic="true" collisionMask="1048576" nodeId="39" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <TransformGroup name="signals" visibility="false" nodeId="40">
+            <Shape shapeId="5" name="coronaLeft" translation="0.304506 2.10424 0.281461" rotation="0 90 0" clipDistance="129" nodeId="41" materialIds="13" castsShadows="true" receiveShadows="true">
+              <Light name="pointLight1" translation="0 0 3.55271e-17" rotation="0 1.41245e-30 -1.85759e-29" nodeId="42" type="point" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+            </Shape>
+            <Shape shapeId="5" name="coronaRight" translation="0.304506 2.10424 -0.279689" rotation="0 90 0" clipDistance="129" nodeId="43" materialIds="13" castsShadows="true" receiveShadows="true">
+              <Light name="pointLight1" translation="3.55271e-17 0 0" rotation="0 1.41245e-30 -1.85759e-29" nodeId="44" type="point" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+            </Shape>
+            <Shape shapeId="5" name="coronaLeftBack" translation="-0.305 2.10424 0.281461" rotation="0 270 0" clipDistance="129" nodeId="45" materialIds="13" castsShadows="true" receiveShadows="true">
+              <Light name="pointLight1" translation="0 0 3.55271e-17" rotation="0 1.41245e-30 -1.85759e-29" nodeId="46" type="point" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+            </Shape>
+            <Shape shapeId="5" name="coronaRightBack" translation="-0.305 2.10424 -0.279689" rotation="0 270 0" clipDistance="129" nodeId="47" materialIds="13" castsShadows="true" receiveShadows="true">
+              <Light name="pointLight1" translation="3.55271e-17 0 0" rotation="0 1.41245e-30 -1.85759e-29" nodeId="48" type="point" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+            </Shape>
+          </TransformGroup>
+        </Shape>
+      </TransformGroup>
+      <TransformGroup name="railroadCrossing02" translation="691 85 79" nodeId="49">
+        <Shape shapeId="2" name="railroadCrossing" translation="3.8382 0.198639 -5.82528" static="true" clipDistance="400" nodeId="50" materialIds="14" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="railroadCrossingBarrier" translation="0 1.30001 -0.15" kinematic="true" clipDistance="400" nodeId="51" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="trafficBlocker" kinematic="true" collisionMask="1048576" nodeId="52" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <TransformGroup name="signals" visibility="false" nodeId="53">
+            <Shape shapeId="5" name="coronaLeft" translation="0.304506 2.10424 0.281461" rotation="0 90 0" clipDistance="129" nodeId="54" materialIds="13" castsShadows="true" receiveShadows="true">
+              <Light name="pointLight1" translation="0 0 3.55271e-17" rotation="0 1.41245e-30 -1.85759e-29" nodeId="55" type="point" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+            </Shape>
+            <Shape shapeId="5" name="coronaRight" translation="0.304506 2.10424 -0.279689" rotation="0 90 0" clipDistance="129" nodeId="56" materialIds="13" castsShadows="true" receiveShadows="true">
+              <Light name="pointLight1" translation="3.55271e-17 0 0" rotation="0 1.41245e-30 -1.85759e-29" nodeId="57" type="point" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+            </Shape>
+            <Shape shapeId="5" name="coronaLeftBack" translation="-0.305 2.10424 0.281461" rotation="0 270 0" clipDistance="129" nodeId="58" materialIds="13" castsShadows="true" receiveShadows="true">
+              <Light name="pointLight1" translation="0 0 3.55271e-17" rotation="0 1.41245e-30 -1.85759e-29" nodeId="59" type="point" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+            </Shape>
+            <Shape shapeId="5" name="coronaRightBack" translation="-0.305 2.10424 -0.279689" rotation="0 270 0" clipDistance="129" nodeId="60" materialIds="13" castsShadows="true" receiveShadows="true">
+              <Light name="pointLight1" translation="3.55271e-17 0 0" rotation="0 1.41245e-30 -1.85759e-29" nodeId="61" type="point" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+            </Shape>
+          </TransformGroup>
+        </Shape>
+        <Shape shapeId="2" name="railroadCrossing" translation="-4.75494 0.191679 5.63249" rotation="0 180 0" static="true" clipDistance="400" nodeId="62" materialIds="14" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="railroadCrossingBarrier" translation="0 1.30001 -0.15" kinematic="true" clipDistance="400" nodeId="63" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="trafficBlocker" kinematic="true" collisionMask="1048576" nodeId="64" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <TransformGroup name="signals" visibility="false" nodeId="65">
+            <Shape shapeId="5" name="coronaLeft" translation="0.304506 2.10424 0.281461" rotation="0 90 0" clipDistance="129" nodeId="66" materialIds="13" castsShadows="true" receiveShadows="true">
+              <Light name="pointLight1" translation="0 0 3.55271e-17" rotation="0 1.41245e-30 -1.85759e-29" nodeId="67" type="point" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+            </Shape>
+            <Shape shapeId="5" name="coronaRight" translation="0.304506 2.10424 -0.279689" rotation="0 90 0" clipDistance="129" nodeId="68" materialIds="13" castsShadows="true" receiveShadows="true">
+              <Light name="pointLight1" translation="3.55271e-17 0 0" rotation="0 1.41245e-30 -1.85759e-29" nodeId="69" type="point" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+            </Shape>
+            <Shape shapeId="5" name="coronaLeftBack" translation="-0.305 2.10424 0.281461" rotation="0 270 0" clipDistance="129" nodeId="70" materialIds="13" castsShadows="true" receiveShadows="true">
+              <Light name="pointLight1" translation="0 0 3.55271e-17" rotation="0 1.41245e-30 -1.85759e-29" nodeId="71" type="point" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+            </Shape>
+            <Shape shapeId="5" name="coronaRightBack" translation="-0.305 2.10424 -0.279689" rotation="0 270 0" clipDistance="129" nodeId="72" materialIds="13" castsShadows="true" receiveShadows="true">
+              <Light name="pointLight1" translation="3.55271e-17 0 0" rotation="0 1.41245e-30 -1.85759e-29" nodeId="73" type="point" color="1 0 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+            </Shape>
+          </TransformGroup>
+        </Shape>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

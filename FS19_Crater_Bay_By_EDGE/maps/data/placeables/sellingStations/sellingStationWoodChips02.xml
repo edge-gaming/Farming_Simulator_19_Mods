@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_shopItem_sellingStation</name>
+        <image>$data/store/store_empty.png</image>
+        <price>1</price>
+        <canBeSold>false</canBeSold>
+        <showInStore>false</showInStore>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <species>placeable</species>
+        <category>placeableMisc</category>
+    </storeData>
+
+    <placeableType>sellingStation</placeableType>
+    <filename>maps/data/placeables/sellingStations/sellingStationWoodChips02.i3d</filename>
+    <placement testSizeX="1" testSizeZ="1" sizeX="1" sizeZ="1" useRandomYRotation="false" useManualYRotation="true" />
+
+    <sellingStation stationName="$l10n_station_sawmill" appearsOnPDA="true" storageRadius="0" litersForFullPriceDrop="100000" fullPriceRecoverHours="48" hotspotTextOffset="0px 36px">
+        <unloadTrigger exactFillRootNode="0|0|0|0|0" baleTriggerNode="0|0|0|0|1"/>
+        <fillType name="woodChips" priceScale="1" supportsGreatDemand="true" disablePriceDrop="false" />
+    </sellingStation>
+</placeable>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<pedestrianSystem>
+    <pedestrians>
+        <pedestrian filename="../../dataS2/character/pedestrians/man01.i3d" walkClipIndex="19" walkClipSpeed="1.45" walk2ClipIndex="6" walk2ClipSpeed="1.4" walk3ClipIndex="22" walk3ClipSpeed="1.025" headAimPath="0|0|0|0" soundGroup="1"/>
+        <pedestrian filename="../../dataS2/character/pedestrians/man02.i3d" walkClipIndex="19" walkClipSpeed="1.45" walk2ClipIndex="6" walk2ClipSpeed="1.4" walk3ClipIndex="22" walk3ClipSpeed="1.025" headAimPath="0|0|0|0" soundGroup="1"/>
+        <pedestrian filename="../../dataS2/character/pedestrians/man03.i3d" walkClipIndex="19" walkClipSpeed="1.45" walk2ClipIndex="6" walk2ClipSpeed="1.4" walk3ClipIndex="22" walk3ClipSpeed="1.025" headAimPath="0|0|0|0" soundGroup="1"/>
+        <pedestrian filename="../../dataS2/character/pedestrians/man04.i3d" walkClipIndex="19" walkClipSpeed="1.45" walk2ClipIndex="6" walk2ClipSpeed="1.4" walk3ClipIndex="22" walk3ClipSpeed="1.025" headAimPath="0|0|0|0" soundGroup="1"/>
+        <pedestrian filename="../../dataS2/character/pedestrians/man05.i3d" walkClipIndex="19" walkClipSpeed="1.45" walk2ClipIndex="6" walk2ClipSpeed="1.4" walk3ClipIndex="22" walk3ClipSpeed="1.025" headAimPath="0|0|0|0" soundGroup="1"/>
+        <pedestrian filename="../../dataS2/character/pedestrians/man06.i3d" walkClipIndex="19" walkClipSpeed="1.45" walk2ClipIndex="6" walk2ClipSpeed="1.4" walk3ClipIndex="22" walk3ClipSpeed="1.025" headAimPath="0|0|0|0" soundGroup="1"/>
+        <pedestrian filename="../../dataS2/character/pedestrians/woman01.i3d" walkClipIndex="6" walkClipSpeed="1.4" walk2ClipIndex="19" walk2ClipSpeed="1.45" walk3ClipIndex="22" walk3ClipSpeed="1.025" headAimPath="0|0|0|0" soundGroup="2"/>
+        <pedestrian filename="../../dataS2/character/pedestrians/woman02.i3d" walkClipIndex="6" walkClipSpeed="1.4" walk2ClipIndex="19" walk2ClipSpeed="1.45" walk3ClipIndex="22" walk3ClipSpeed="1.025" headAimPath="0|0|0|0" soundGroup="2"/>
+        <pedestrian filename="../../dataS2/character/pedestrians/woman04.i3d" walkClipIndex="6" walkClipSpeed="1.4" walk2ClipIndex="19" walk2ClipSpeed="1.45" walk3ClipIndex="22" walk3ClipSpeed="1.025" headAimPath="0|0|0|0" soundGroup="2"/>
+        <pedestrian filename="../../dataS2/character/pedestrians/woman05.i3d" walkClipIndex="6" walkClipSpeed="1.4" walk2ClipIndex="19" walk2ClipSpeed="1.45" walk3ClipIndex="22" walk3ClipSpeed="1.025" headAimPath="0|0|0|0" soundGroup="2"/>
+        <pedestrian filename="../../dataS2/character/pedestrians/woman06.i3d" walkClipIndex="6" walkClipSpeed="1.4" walk2ClipIndex="19" walk2ClipSpeed="1.45" walk3ClipIndex="22" walk3ClipSpeed="1.025" headAimPath="0|0|0|0" soundGroup="2"/>
+    </pedestrians>
+    <sounds>
+        <sound filename="../../dataS2/character/pedestrians/harrumphMale.wav" volume="1" group="1"/>
+        <sound filename="../../dataS2/character/pedestrians/helloFemale.wav" volume="1" group="2"/>
+        <sound filename="../../dataS2/character/pedestrians/helloMale.wav" volume="1" group="1"/>
+        <sound filename="../../dataS2/character/pedestrians/hiDearFemale.wav" volume="1" group="2"/>
+        <sound filename="../../dataS2/character/pedestrians/hiMale.wav" volume="1" group="1"/>
+        <sound filename="../../dataS2/character/pedestrians/hiFemale.wav" volume="1" group="2"/>
+        <sound filename="../../dataS2/character/pedestrians/howdyPartnerMale.wav" volume="1" group="1"/>
+        <sound filename="../../dataS2/character/pedestrians/sighFemale.wav" volume="1" group="2"/>
+        <sound filename="../../dataS2/character/pedestrians/mumbleMale.wav" volume="1" group="1"/>
+        <sound filename="../../dataS2/character/pedestrians/sneezeFemale.wav" volume="1" group="2"/>
+        <sound filename="../../dataS2/character/pedestrians/whistleSmallMale.wav" volume="1" group="1"/>
+        <sound filename="../../dataS2/character/pedestrians/yeehaMale.wav" volume="1" group="1"/>
+    </sounds>
+</pedestrianSystem>

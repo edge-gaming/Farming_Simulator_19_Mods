@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_fillType_Lime</name>
+        <image>$data/store/store_empty.png</image>
+        <price>1</price>
+        <canBeSold>false</canBeSold>
+        <showInStore>false</showInStore>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <species>placeable</species>
+        <category>placeableMisc</category>
+    </storeData>
+
+	<placeableType>buyingStation</placeableType>
+    <filename>maps/data/placeables/BuyingStations/limeStation.i3d</filename>
+    <placement testSizeX="27" testSizeZ="20" sizeX="27" sizeZ="20" useRandomYRotation="false" useManualYRotation="true" />
+
+	<buyingStation stationName="$l10n_station_lime" appearsOnPDA="true" storageRadius="0" fillSoundIdentifier="fillSound01">
+        <loadTrigger triggerNode="0|0|0|0|0" fillLitersPerSecond="1000" autoStart="true" infiniteCapacity="true" dischargeNode="0|0|0|0|1">
+            <effectNode effectClass="PipeEffect" effectNode="0|0|0|0|2|0" materialType="pipe" materialTypeId="1" fadeTime="0.5" maxBending="0" controlPoint="3.75 0 0 0"/>
+            <effectNode effectNode="0|0|0|0|2|1" materialType="smoke" materialTypeId="1" fadeTime="0.5"/>
+        </loadTrigger>
+		<fillType name="lime" priceScale="0.9"/>
+	</buyingStation>
+
+    <tipOcclusionUpdateArea sizeX="25" sizeZ="25" />
+
+	<animatedObjects>
+        <animatedObject saveId="fillMark_01" >
+            <animation duration="0.1">
+                <part node="1|0|0">
+                    <keyFrame time="0.0" visibility="true"/>
+					<keyFrame time="1" visibility="false" />
+                </part>
+            </animation>
+            <controls triggerNode="1|1" posAction="ACTIVATE_HANDTOOL" posText="action_toggleFillmarker" negText="action_toggleFillmark" />
+            <sounds>
+                <moving file="$data/sounds/player/flashlight/flashlight.wav" loops="1" linkNode="1|1" volume="0.8" radius="25" innerRadius="3" fadeOut="0.25"/>
+            </sounds>
+        </animatedObject>
+    </animatedObjects>
+
+</placeable>

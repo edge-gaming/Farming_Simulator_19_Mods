@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.0.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/shaders/buildingShader.xml"/>
+    <File fileId="13" filename="$data/shared/defaultMetal_specular.png"/>
+    <File fileId="15" filename="$data/shared/default_normal.png"/>
+    <File fileId="14" filename="$data/shared/window_diffuse.png"/>
+    <File fileId="16" filename="$data/shared/window_specular.png"/>
+    <File fileId="1" filename="../../textures/southAmerican/buildingsArray_diffuse.png"/>
+    <File fileId="2" filename="../../textures/southAmerican/buildingsArray_normal.png"/>
+    <File fileId="3" filename="../../textures/southAmerican/buildingsArray_specular.png"/>
+    <File fileId="11" filename="../../textures/southAmerican/hangar_diffuse.png"/>
+    <File fileId="12" filename="../../textures/southAmerican/hangar_normal.png"/>
+    <File fileId="25" filename="../../textures/southAmerican/props/cabinetWorkbench_diffuse.png"/>
+    <File fileId="26" filename="../../textures/southAmerican/props/cabinetWorkbench_normal.png"/>
+    <File fileId="27" filename="../../textures/southAmerican/props/cabinetWorkbench_specular.png"/>
+    <File fileId="19" filename="../../textures/southAmerican/props/cardboardBoxes_diffuse.png"/>
+    <File fileId="20" filename="../../textures/southAmerican/props/cardboardBoxes_normal.png"/>
+    <File fileId="21" filename="../../textures/southAmerican/props/cardboardBoxes_specular.png"/>
+    <File fileId="17" filename="../../textures/southAmerican/props/lightPoleSet_emissive.png"/>
+    <File fileId="28" filename="../../textures/southAmerican/props/metalShelves_diffuse.png"/>
+    <File fileId="29" filename="../../textures/southAmerican/props/metalShelves_normal.png"/>
+    <File fileId="30" filename="../../textures/southAmerican/props/metalShelves_specular.png"/>
+    <File fileId="31" filename="../../textures/southAmerican/props/stools_diffuse.png"/>
+    <File fileId="32" filename="../../textures/southAmerican/props/stools_normal.png"/>
+    <File fileId="33" filename="../../textures/southAmerican/props/stools_specular.png"/>
+    <File fileId="34" filename="../../textures/southAmerican/props/toolBox_diffuse.png"/>
+    <File fileId="35" filename="../../textures/southAmerican/props/toolBox_normal.png"/>
+    <File fileId="36" filename="../../textures/southAmerican/props/toolBox_specular.png"/>
+    <File fileId="22" filename="../../textures/southAmerican/props/workbench_diffuse.png"/>
+    <File fileId="23" filename="../../textures/southAmerican/props/workbench_normal.png"/>
+    <File fileId="24" filename="../../textures/southAmerican/props/workbench_specular.png"/>
+    <File fileId="10" filename="../../textures/southAmerican/vehicleShedRoof_specular.png"/>
+    <File fileId="5" filename="../../textures/southAmerican/vehicleShed_specular.png"/>
+    <File fileId="7" filename="../../textures/terrain/roughDirt01_normal.png"/>
+    <File fileId="6" filename="../../textures/terrain/roughDirtSA01_diffuse.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="window_mat" materialId="15" alphaBlending="true">
+      <Texture fileId="14"/>
+      <Normalmap fileId="15"/>
+      <Glossmap fileId="16"/>
+    </Material>
+    <Material name="buildingsArrayVehicleShedRoof_mat" materialId="11" customShaderId="4" customShaderVariation="USE_TEXTURE_ARRAY">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="mMaskMap" fileId="10"/>
+      <Custommap name="mDirtDiffuse" fileId="6"/>
+      <Custommap name="mDirtNormal" fileId="7"/>
+    </Material>
+    <Material name="lambert1" materialId="12" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="workbench_mat" materialId="8">
+      <Texture fileId="22"/>
+      <Normalmap fileId="23"/>
+      <Glossmap fileId="24"/>
+    </Material>
+    <Material name="stools_mat" materialId="9">
+      <Texture fileId="31"/>
+      <Normalmap fileId="32"/>
+      <Glossmap fileId="33"/>
+    </Material>
+    <Material name="hangar_mat" materialId="13">
+      <Texture fileId="11"/>
+      <Normalmap fileId="12"/>
+      <Glossmap fileId="13"/>
+    </Material>
+    <Material name="metalShelves_mat" materialId="4">
+      <Texture fileId="28"/>
+      <Normalmap fileId="29"/>
+      <Glossmap fileId="30"/>
+    </Material>
+    <Material name="toolBox_mat" materialId="7">
+      <Texture fileId="34"/>
+      <Normalmap fileId="35"/>
+      <Glossmap fileId="36"/>
+    </Material>
+    <Material name="cabinetWorkbench_mat" materialId="5">
+      <Texture fileId="25"/>
+      <Normalmap fileId="26"/>
+      <Glossmap fileId="27"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="6" diffuseColor="1 1 1 1">
+    </Material>
+    <Material name="buildingsArray_mat" materialId="10" customShaderId="4" customShaderVariation="USE_TEXTURE_ARRAY">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="mMaskMap" fileId="5"/>
+      <Custommap name="mDirtDiffuse" fileId="6"/>
+      <Custommap name="mDirtNormal" fileId="7"/>
+    </Material>
+    <Material name="cardboardBoxes_mat" materialId="14">
+      <Texture fileId="19"/>
+      <Normalmap fileId="20"/>
+      <Glossmap fileId="21"/>
+    </Material>
+    <Material name="vehicleShedLights_mat" materialId="112">
+      <Emissivemap fileId="17"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="farmStorageBarn.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="vehicleShed" nodeId="46">
+      <Shape shapeId="1" name="vehicleShedVis" static="true" collisionMask="524543" clipDistance="400" nodeId="47" materialIds="10" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="2" name="vehicleShedRoof" static="true" clipDistance="400" nodeId="48" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="3" name="vehicleShedGrid" static="true" clipDistance="100" nodeId="49" materialIds="13" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="4" name="vehicleShedWindows" static="true" clipDistance="100" nodeId="50" materialIds="15" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="lights" nodeId="51">
+          <Light name="pointLight1" translation="-12.778 6 6.97025" nodeId="52" type="point" color="0.5 0.440924 0.372" emitDiffuse="true" emitSpecular="true" decayRate="1" range="8"/>
+          <Light name="pointLight2" translation="-12.5952 6 -11.3018" nodeId="53" type="point" color="0.5 0.440924 0.372" emitDiffuse="true" emitSpecular="true" decayRate="1" range="8"/>
+          <Light name="pointLight3" translation="11.0618 6 -11.3018" nodeId="54" type="point" color="0.5 0.440924 0.372" emitDiffuse="true" emitSpecular="true" decayRate="1" range="6"/>
+          <Light name="pointLight4" translation="-2.25914 6 -8.65238" nodeId="55" type="point" color="0.5 0.440924 0.372" emitDiffuse="true" emitSpecular="true" decayRate="1" range="10"/>
+          <Light name="pointLight5" translation="8.26012 6 6.97025" nodeId="56" type="point" color="0.5 0.440924 0.372" emitDiffuse="true" emitSpecular="true" decayRate="1" range="8"/>
+          <Light name="pointLight6" translation="-0.0881278 6 11.7884" nodeId="57" type="point" color="0.5 0.440924 0.372" emitDiffuse="true" emitSpecular="true" decayRate="1" range="8"/>
+          <Shape shapeId="5" name="vehicleShedLights" clipDistance="300" nodeId="115" materialIds="112"/>
+        </TransformGroup>
+        <TransformGroup name="props" nodeId="58">
+          <Shape shapeId="6" name="cardboardBox02" translation="12.0434 0.5214 -16.092" rotation="180 9.99999 180" dynamic="true" density="0.75" clipDistance="64" nodeId="59" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="7" name="cardboardBox02_vis" translation="0 2.95626e-30 0" clipDistance="64" nodeId="60" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+          <Shape shapeId="8" name="cardboardBox10" translation="11.6381 0.9366 -6.134" rotation="180 45 180" dynamic="true" density="0.75" clipDistance="64" nodeId="61" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="9" name="cardboardBox10_vis" clipDistance="64" nodeId="62" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+          <Shape shapeId="10" name="cardboardBox09" translation="11.9455 0.9366 -6.28799" rotation="180 85 180" dynamic="true" density="0.75" clipDistance="64" nodeId="63" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="11" name="cardboardBox09_vis" translation="0 5.9952e-15 -4.26326e-16" clipDistance="64" nodeId="64" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+          <Shape shapeId="12" name="workbench" translation="12.4539 -0.0807037 -6.203" rotation="180 -5.00896e-06 180" static="true" clipDistance="129" nodeId="65" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="13" name="workbenchStool" translation="12.4033 -0.0800018 -6.52" rotation="180 85 180" dynamic="true" clipDistance="77" nodeId="66" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="14" name="workbenchStool_vis" clipDistance="77" nodeId="67" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+          <Shape shapeId="15" name="cabinetWorkbenchSmall01" translation="11.0277 -0.0604019 -6.2" rotation="180 -5.00896e-06 180" static="true" clipDistance="129" nodeId="68" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="16" name="cabinetWorkbenchTableBasic" translation="13.5051 -0.138 -13.397" rotation="-0 90 0" static="true" clipDistance="129" nodeId="69" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="17" name="cabinetWorkbenchTable02" translation="13.542 -0.125099 -11.141" rotation="-0 -90 0" static="true" clipDistance="129" nodeId="70" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="18" name="metalShelves01" translation="12.502 -0.0953979 -16.224" rotation="-0 90 0" static="true" clipDistance="129" nodeId="71" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="19" name="cabinetWorkbenchTableLarge" translation="-18.3017 -0.0310974 -7.09599" rotation="-0 90 0" static="true" clipDistance="129" nodeId="72" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="20" name="cabinetWorkbenchTable01" translation="-18.3287 0 -9.37601" rotation="-0 90 0" static="true" clipDistance="129" nodeId="73" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="16" name="cabinetWorkbenchTableBasic" translation="-18.3812 0 -11.651" rotation="-0 90 0" static="true" clipDistance="129" nodeId="74" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="21" name="stool04" translation="-17.7087 -0.0310974 -7.155" rotation="-0 90 0" dynamic="true" clipDistance="77" nodeId="75" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="22" name="stool04_vis" clipDistance="77" nodeId="76" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+          <Shape shapeId="23" name="toolBox_vis" translation="-14 -80 -184" rotation="-0 90 0" clipDistance="69" nodeId="77" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="24" name="cardboardBox05" translation="-18.4038 0.1493 -11.144" rotation="0 -19.264 0" dynamic="true" density="0.75" clipDistance="64" nodeId="78" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="25" name="cardboardBox05_vis" clipDistance="64" nodeId="79" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+          <Shape shapeId="24" name="cardboardBox05" translation="-18.4192 0.1493 -11.766" rotation="180 16.786 180" dynamic="true" density="0.75" clipDistance="64" nodeId="80" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="25" name="cardboardBox05_vis" clipDistance="64" nodeId="81" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+          <Shape shapeId="26" name="cardboardBox01" translation="12.8956 1.0354 -16.135" rotation="180 85 180" dynamic="true" density="0.75" clipDistance="64" nodeId="82" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="27" name="cardboardBox01_vis" clipDistance="64" nodeId="83" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+          <Shape shapeId="28" name="cardboardBox03" translation="13.1685 0.00740051 -16.136" rotation="180 85 180" dynamic="true" density="0.75" clipDistance="64" nodeId="84" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="29" name="cardboardBox03_vis" clipDistance="64" nodeId="85" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+          <Shape shapeId="6" name="cardboardBox02" translation="13.5182 0.0112991 -13.696" rotation="-0 90 0" dynamic="true" density="0.75" clipDistance="64" nodeId="86" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="7" name="cardboardBox02_vis" translation="0 2.95626e-30 0" clipDistance="64" nodeId="87" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </TransformGroup>
+      </Shape>
+      <TransformGroup name="clearArea" nodeId="88">
+        <TransformGroup name="start" translation="-21.5 0 -18" nodeId="89">
+          <TransformGroup name="width" translation="38 0 0" nodeId="90"/>
+          <TransformGroup name="height" translation="0 0 36" nodeId="91"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="levelArea" nodeId="92">
+        <TransformGroup name="start" translation="-21.5 0 -18" nodeId="93">
+          <TransformGroup name="width" translation="38 0 0" nodeId="94"/>
+          <TransformGroup name="height" translation="0 0 36" nodeId="95"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="rampAreas" nodeId="96">
+        <TransformGroup name="start" translation="-21.5 0 -18" rotation="-0 -90 0" nodeId="97">
+          <TransformGroup name="width" translation="36 0 0" nodeId="98"/>
+          <TransformGroup name="height" translation="0 0 5" nodeId="99"/>
+        </TransformGroup>
+        <TransformGroup name="start" translation="-21.5 0 18" nodeId="100">
+          <TransformGroup name="width" translation="38 0 0" nodeId="101"/>
+          <TransformGroup name="height" translation="0 0 5" nodeId="102"/>
+        </TransformGroup>
+        <TransformGroup name="start" translation="16.5 0 18" rotation="-0 90 0" nodeId="103">
+          <TransformGroup name="width" translation="36 0 0" nodeId="104"/>
+          <TransformGroup name="height" translation="0 0 5" nodeId="105"/>
+        </TransformGroup>
+        <TransformGroup name="start" translation="16.5 0 -18" rotation="180 -5.00896e-06 180" nodeId="106">
+          <TransformGroup name="width" translation="38 0 0" nodeId="107"/>
+          <TransformGroup name="height" translation="0 0 5" nodeId="108"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="30" name="refPlane" translation="-2.5 0 0" scale="38 1 36" visibility="false" nodeId="109" materialIds="6" distanceBlending="false"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

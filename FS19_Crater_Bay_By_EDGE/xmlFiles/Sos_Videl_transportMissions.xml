@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transportMissions>
+
+    <mission name="BOTTLE DELIVERY" npcIndex="1">
+        <pickupTrigger index="TRANSPORT03" title="Distillery" /> <!-- distillery -->
+
+        <dropoffTrigger index="TRANSPORT01" title="Trashyard" /> <!-- trashYard -->
+
+        <object filename="$data/objects/pallets/missions/transportPalletBottles.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Bottles Pallet" />
+        <object filename="$data/objects/pallets/missions/transportPalletSoda.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Soda Pallet"/>
+    </mission>
+    <mission name="HARDWARE DELIVERY" rewardScale="2.0" npcIndex="1">
+        <pickupTrigger index="TRANSPORT02" title="$l10n_map_shop" /> <!--vehicleDealer -->
+
+        <dropoffTrigger index="TRANSPORT06" title="Brennerei" /> <!-- distillery -->
+
+        <object filename="$data/objects/pallets/missions/transportPalletWhiteBoxes.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="White Boxes Pallet" />
+        <object filename="$data/objects/pallets/missions/transportPalletPlasticwraps.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Platic Wraps Pallet" />
+    </mission>
+    <mission name="WATER DELIVERY" npcIndex="8">
+        <pickupTrigger index="TRANSPORT03" title="$l10n_station_harbor" /> <!-- Harbor -->
+        <pickupTrigger index="TRANSPORT04" title="$l10n_station_supermarket" /> <!-- Supermarket -->
+        <pickupTrigger index="TRANSPORT05" title="$l10n_station_port01"/> <!-- Port Southeast -->
+
+        <dropoffTrigger index="TRANSPORT01" title="$l10n_station_sugarmill" /> <!-- Sugar Mill -->
+        <dropoffTrigger index="TRANSPORT02" title="$l10n_animals_dealer" /> <!-- Animals Dealer -->
+        <dropoffTrigger index="TRANSPORT06" title="$l10n_station_bgaBunker"/> <!-- Biogas Plant -->
+        <dropoffTrigger index="TRANSPORT07" title="$l10n_station_sawmill" /> <!-- Sawmill -->
+        <dropoffTrigger index="TRANSPORT08" title="$l10n_map_shop" /> <!-- Shop -->
+
+        <object filename="$data/objects/pallets/missions/transportPalletWater.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" />
+    </mission>
+    <mission rewardScale="1.5" name="PORT DELIVERY" npcIndex="1">
+        <pickupTrigger index="TRANSPORT04" title="$l10n_station_supermarket" /> <!-- Supermarket -->
+        <pickupTrigger index="TRANSPORT06" title="$l10n_station_bgaBunker"/> <!-- Biogas Plant -->
+
+        <dropoffTrigger index="TRANSPORT03" title="$l10n_station_harbor" /> <!-- Harbor -->
+        <dropoffTrigger index="TRANSPORT05" title="$l10n_station_port01"/> <!-- Port Southeast -->
+
+        <object filename="$data/objects/pallets/missions/transportPalletWhiteBoxes.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" />
+    </mission>
+    <mission name="SUGAR MILL DELIVERY" npcIndex="6">
+        <pickupTrigger index="TRANSPORT03" title="$l10n_station_harbor" /> <!-- Harbor -->
+        <pickupTrigger index="TRANSPORT05" title="$l10n_station_port01"/> <!-- Port Southeast -->
+
+        <dropoffTrigger index="TRANSPORT01" title="$l10n_station_sugarmill" /> <!-- Sugar Mill -->
+
+        <object filename="$data/objects/pallets/missions/transportPalletCrates.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" />
+    </mission>
+    <mission name="MIX DELIVERY" rewardScale="2.0" npcIndex="1">
+        <pickupTrigger index="TRANSPORT05" title="$l10n_station_sawmill" /> <!-- carpentry -->
+
+        <dropoffTrigger index="TRANSPORT04" title="$l10n_station_bgaBunker" /> <!-- bga -->
+
+        <object filename="$data/objects/pallets/missions/transportPalletCrates.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Crates Pallet"/>
+        <object filename="$data/objects/pallets/missions/transportPalletWater.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Water Pallet" />
+    </mission>
+    <mission name="CORPORATE DELIVERY" rewardScale="2.0" npcIndex="1">
+        <pickupTrigger index="TRANSPORT05" title="$l10n_station_sawmill" /> <!-- carpentry -->
+        <pickupTrigger index="TRANSPORT07" title="EDGE Gaming" /> <!-- EDGE_Office -->
+
+        <dropoffTrigger index="TRANSPORT01" title="$l10n_map_shop" /> <!-- trashYard -->
+        <dropoffTrigger index="TRANSPORT08" title="Food & Fertilizer Shop" /> <!-- FF_Shop -->
+
+        <object filename="$data/objects/pallets/missions/transportPalletIcebox.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Ice Boxes Pallet" />
+        <object filename="$data/objects/pallets/missions/transportPalletSuitcases.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Suitcases Pallet" />
+    </mission>
+    <mission name="SEED & FERTILIZER DELIVERY" rewardScale="1.5" npcIndex="1">
+        <pickupTrigger index="TRANSPORT05" title="$l10n_station_sawmill" /> <!-- carpentry -->
+        <pickupTrigger index="TRANSPORT07" title="EDGE Gaming" /> <!-- EDGE_Office -->
+
+        <dropoffTrigger index="TRANSPORT01" title="$l10n_map_shop" /> <!-- trashYard -->
+        <dropoffTrigger index="TRANSPORT08" title="Food & Fertilizer Shop" /> <!-- FF_Shop -->
+
+        <object filename="$data/objects/pallets/missions/transportPalletIcebox.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Ice Boxes Pallet" />
+        <object filename="$data/objects/pallets/missions/transportPalletSuitcases.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Suitcases Pallet" />
+    </mission>
+    <mission name="COMPUTER DELIVERY" rewardScale="3.0" npcIndex="1">
+        <pickupTrigger index="TRANSPORT07" title="EDGE Gaming" /> <!-- EDGE_Office -->
+
+        <dropoffTrigger index="TRANSPORT09" title="EDGE Bailing Barn" /> <!-- Bailing Barn -->
+
+        <object filename="$data/objects/pallets/missions/transportPalletWhiteBoxes.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="White Boxes Pallet" />
+        <object filename="$data/objects/pallets/missions/transportPalletSuitcases.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Suitcases Pallet" />
+    </mission>
+    <mission name="COMPUTER DELIVERY 2" rewardScale="4.0" npcIndex="1">
+        <pickupTrigger index="TRANSPORT07" title="EDGE Gaming" /> <!-- EDGE_Office -->
+
+        <dropoffTrigger index="TRANSPORT01" title="Brennerei" /> <!-- distillery -->
+
+        <object filename="$data/objects/pallets/missions/transportPalletWhiteBoxes.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="White Boxes Pallet" />
+        <object filename="$data/objects/pallets/missions/transportPalletPlasticwraps.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Platic Wraps Pallet" />
+    </mission>
+    <mission name="BEER DELIVERY" rewardScale="5.0" npcIndex="1">
+        <pickupTrigger index="TRANSPORT03" title="Distillery" /> <!-- distillery -->
+
+        <dropoffTrigger index="TRANSPORT07" title="EDGE Gaming" /> <!-- EDGE_Office -->
+
+        <object filename="$data/objects/pallets/missions/transportPalletBottles.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Bottles Pallet" />
+        <object filename="$data/objects/pallets/missions/transportPalletSoda.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Soda Pallet"/>
+    </mission>
+    <mission name="FOOD DELIVERY" rewardScale="2.0" npcIndex="1">
+        <pickupTrigger index="TRANSPORT08" title="Food & Fertilizer Shop" /> <!-- FF_Shop -->
+        <pickupTrigger index="TRANSPORT09" title="EDGE Bailing Barn" /> <!-- Bailing Barn -->
+
+        <dropoffTrigger index="TRANSPORT07" title="EDGE Gaming" /> <!-- EDGE_Office -->
+
+        <object filename="$data/objects/pallets/missions/transportPalletIcebox.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Ice Boxes Pallet" />
+        <object filename="$data/objects/pallets/missions/transportPalletSuitcases.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Suitcases Pallet" />
+    </mission>
+    <mission name="BALE DELIVERY" rewardScale="2.0" npcIndex="1">
+        <pickupTrigger index="TRANSPORT09" title="EDGE Bailing Barn" /> <!-- Bailing Barn -->
+
+        <dropoffTrigger index="TRANSPORT07" title="EDGE Gaming" /> <!-- EDGE_Office -->
+
+        <object filename="$data/objects/pallets/missions/transportPalletIcebox.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Ice Boxes Pallet" />
+        <object filename="$data/objects/pallets/missions/transportPalletSuitcases.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Suitcases Pallet" />
+    </mission>
+    <mission name="MACHINERY DELIVERY" rewardScale="6.0" npcIndex="1">
+        <pickupTrigger index="TRANSPORT08" title="Food & Fertilizer Shop" /> <!-- FF_Shop -->
+        <pickupTrigger index="TRANSPORT09" title="EDGE Bailing Barn" /> <!-- Bailing Barn -->
+
+        <dropoffTrigger index="TRANSPORT07" title="EDGE Gaming" /> <!-- EDGE_Office -->
+
+        <object filename="$data/objects/pallets/missions/transportPalletIcebox.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Ice Boxes Pallet" />
+        <object filename="$data/objects/pallets/missions/transportPalletSuitcases.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Suitcases Pallet" />
+    </mission>
+
+</transportMissions>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_storageSilo</name>
+        <image>$data/store/store_empty.png</image>
+        <price>1</price>
+        <canBeSold>false</canBeSold>
+        <showInStore>false</showInStore>
+        <boughtWithFarmland>true</boughtWithFarmland>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <species>placeable</species>
+        <category>placeableMisc</category>
+    </storeData>
+
+    <placeableType>bgaPlaceable</placeableType>
+    <filename>maps/data/placeables/bga/bga01.i3d</filename>
+    <placement testSizeX="1" testSizeZ="1" sizeX="1" sizeZ="1" useRandomYRotation="false" useManualYRotation="true" />
+
+    <bga>
+
+        <bunker>
+            <unloadingStation node="0|0" stationName="$l10n_station_bgaBunker" appearsOnPDA="true" appearsOnStats="true" storageRadius="0" >
+                <unloadTrigger exactFillRootNode="0" baleTriggerNode="1"/>
+            </unloadingStation>
+
+            <slot capacity="50000" litersPerSecond="10" >
+                <fillType fillTypes="silage manure" scale="0.4" pricePerLiter="0.5"/>
+                <fillType fillTypes="grass_windrow dryGrass_windrow" scale="0.2" pricePerLiter="0.1"/>
+                <display baseNode="0|1" />
+            </slot>
+            <slot capacity="50000" litersPerSecond="10">
+                <fillType fillTypes="liquidManure" scale="0.3" pricePerLiter="0.4"/>
+            </slot>
+        </bunker>
+
+        <digestateSilo>
+            <loadingStation node="1|0" stationName="$l10n_station_bgaBunker" appearsOnPDA="false" storageRadius="50" fillSoundIdentifier="fillSound01">
+                <loadTrigger triggerNode="0" fillLitersPerSecond="2000" dischargeNode="1" />
+            </loadingStation>
+            <storages>
+                <storage node="1|1" fillTypes="DIGESTATE" capacityPerFillType="800000" />
+            </storages>
+        </digestateSilo>
+
+        <sounds>
+            <work file="$data/sounds/maps/details/shared/biogas_loop.ogg" linkNode="0|2" innerRadius="10" outerRadius="50" loops="0" fadeIn="0.5" fadeOut="0.7" />
+        </sounds>
+    </bga>
+
+    <bunkerSilos>
+        <bunkerSilo acceptedFillTypes="chaff grass_windrow dryGrass_windrow" inputFillType="chaff" outputFillType="silage" fermentingHours="6" distanceToCompactedFillLevel="100" openingLength="5" >
+            <area startNode="2|0|1|0" widthNode="2|0|1|1" heightNode="2|0|1|2" />
+            <interactionTrigger node="2|0|0" />
+        </bunkerSilo>
+        <bunkerSilo acceptedFillTypes="chaff grass_windrow dryGrass_windrow" inputFillType="chaff" outputFillType="silage" fermentingHours="6" distanceToCompactedFillLevel="100" openingLength="5" >
+            <area startNode="2|1|1|0" widthNode="2|1|1|1" heightNode="2|1|1|2" />
+            <interactionTrigger node="2|1|0" />
+        </bunkerSilo>
+    </bunkerSilos>
+
+    <dayNightObjects>
+        <dayNightObject node="0|3" visibleDay="false" visibleNight="true" />
+    </dayNightObjects>
+
+</placeable>

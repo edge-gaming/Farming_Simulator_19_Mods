@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="townDecoGrass" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Files>
+    <File fileId="1" filename="foliage/townDecoGrass_diffuse.png" relativePath="true"/>
+    <File fileId="3" filename="$data/$data/shaders/fruitGrowthFoliageShader.xml" relativePath="true"/>
+  </Files>
+  <Materials>
+    <Material name="foliageGrass_mat" materialId="1" cosPower="" specularColor="" ambientColor="1 1 1" customShaderId="3">
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="frequencyAndScale" value="0.3 0.1 0 0"/>
+      <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+      <Texture fileId="1"/>
+    </Material>
+  </Materials>
+  <Shapes externalShapesFile="townDecoGrass.i3d.shapes">
+  </Shapes>
+  <Scene>
+    <Shape name="townDecoGrass0" shapeId="9" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="0"/>
+  </Scene>
+  <UserAttributes>
+  </UserAttributes>
+</i3D>

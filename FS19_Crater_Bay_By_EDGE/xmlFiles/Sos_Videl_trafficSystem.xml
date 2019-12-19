@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<trafficSystem>
+    <vehicles>
+        <vehicle topSpeed="0.0085" accel="0.0000035">
+            <assets filename="../vehicles/cars/krs500/krs500.i3d" filenameParked="../vehicles/cars/krs500/krs500.i3d" triggerIndex="7" driverIndex="8">
+                <wheels>
+                    <wheel yRotNode="0" xRotNode="0" radius="0.299" distToRotCenter="2.416"/>
+                    <wheel yRotNode="1" xRotNode="1" radius="0.299" distToRotCenter="2.416"/>
+                    <wheel yRotNode="2" xRotNode="2" radius="0.299" distToRotCenter="0"/>
+                    <wheel yRotNode="3" xRotNode="3" radius="0.299" distToRotCenter="0"/>
+                </wheels>
+                <lights>
+                    <light index="4" lowProfile="4|8" highProfile="4|9"/>
+                    <brake decoration="6"/>
+                    <turnLeft decoration="5|0"/>
+                    <turnRight decoration="5|1"/>
+                </lights>
+                <colors index="9" indexParked="9" minDirt="0" maxDirt="0.3">
+                    <color rgb="0.97 0.97 0.97"/>
+                    <!-- white -->
+                    <color rgb="0.815 0.863 0.863"/>
+                    <!-- silver -->
+                    <color rgb="0.270 0.330 0.360"/>
+                    <!-- silver -->
+                    <color rgb="0.3 0.3 0.32"/>
+                    <!-- grey -->
+                    <color rgb="0.660 0.610 0.500"/>
+                    <!-- beige -->
+                    <color rgb="0.420 0.710 0.810"/>
+                    <!-- blue -->
+                    <color rgb="0.030 0.160 0.070"/>
+                    <!-- green -->
+                    <color rgb="0.230 0.070 0.050"/>
+                    <!-- brown -->
+                    <color rgb="0.570 0.060 0.010"/>
+                    <!-- red -->
+                    <color rgb="0.600 0.320 0.010"/>
+                    <!-- yellow -->
+                    <color rgb="0.140 0.010 0.020"/>
+                    <!-- purple -->
+                </colors>
+                <sounds>
+                    <motor filename="../vehicles/cars/carVan_run.wav" volume="1" range="25" innerRange="1" pitchOffset="1" pitchScale="0.022" pitchMin="0.8" pitchMax="1.5"/>
+                    <honk filename="../sounds/hornCar.wav" volume="1" range="25" innerRange="1"/>
+                </sounds>
+            </assets>
+        </vehicle>
+        <vehicle topSpeed="0.0085" accel="0.0000035">
+            <assets filename="../vehicles/cars/suv100/suv100.i3d" filenameParked="../vehicles/cars/suv100/suv100.i3d" triggerIndex="7" driverIndex="8">
+                <wheels>
+                    <wheel yRotNode="0" xRotNode="0" radius="0.335" distToRotCenter="2.19"/>
+                    <wheel yRotNode="1" xRotNode="1" radius="0.335" distToRotCenter="2.19"/>
+                    <wheel yRotNode="2" xRotNode="2" radius="0.335" distToRotCenter="0"/>
+                    <wheel yRotNode="3" xRotNode="3" radius="0.335" distToRotCenter="0"/>
+                </wheels>
+                <lights>
+                    <light index="4" lowProfile="4|7" highProfile="4|8"/>
+                    <brake decoration="6"/>
+                    <turnLeft decoration="5|0"/>
+                    <turnRight decoration="5|1"/>
+                </lights>
+                <colors index="9" indexParked="9" minDirt="0" maxDirt="0.3">
+                    <color rgb="0.97 0.97 0.97"/>
+                    <!-- white -->
+                    <color rgb="0.815 0.863 0.863"/>
+                    <!-- silver -->
+                    <color rgb="0.270 0.330 0.360"/>
+                    <!-- silver -->
+                    <color rgb="0.3 0.3 0.32"/>
+                    <!-- grey -->
+                    <color rgb="0.660 0.610 0.500"/>
+                    <!-- beige -->
+                    <color rgb="0.420 0.710 0.810"/>
+                    <!-- blue -->
+                    <color rgb="0.030 0.160 0.070"/>
+                    <!-- green -->
+                    <color rgb="0.230 0.070 0.050"/>
+                    <!-- brown -->
+                    <color rgb="0.570 0.060 0.010"/>
+                    <!-- red -->
+                    <color rgb="0.600 0.320 0.010"/>
+                    <!-- yellow -->
+                    <color rgb="0.140 0.010 0.020"/>
+                    <!-- purple -->
+                </colors>
+                <sounds>
+                    <motor filename="../vehicles/cars/carVan_run.wav" volume="1" range="25" innerRange="1" pitchOffset="1" pitchScale="0.022" pitchMin="0.8" pitchMax="1.5"/>
+                    <honk filename="../sounds/hornCar.wav" volume="1" range="25" innerRange="1"/>
+                </sounds>
+            </assets>
+        </vehicle>
+        <vehicle topSpeed="0.0085" accel="0.0000035">
+            <assets filename="../vehicles/cars/elite2000/elite2000.i3d" filenameParked="../vehicles/cars/elite2000/elite2000.i3d" triggerIndex="7" driverIndex="8">
+                <wheels>
+                    <wheel yRotNode="0" xRotNode="0" radius="0.33" distToRotCenter="2.81"/>
+                    <wheel yRotNode="1" xRotNode="1" radius="0.33" distToRotCenter="2.81"/>
+                    <wheel yRotNode="2" xRotNode="2" radius="0.33" distToRotCenter="0"/>
+                    <wheel yRotNode="3" xRotNode="3" radius="0.33" distToRotCenter="0"/>
+                </wheels>
+                <lights>
+                    <light index="4" lowProfile="4|7" highProfile="4|8"/>
+                    <brake decoration="6"/>
+                    <turnLeft decoration="5|0"/>
+                    <turnRight decoration="5|1"/>
+                </lights>
+                <colors index="9" indexParked="9" minDirt="0" maxDirt="0.3">
+                    <color rgb="0.97 0.97 0.97"/>
+                    <!-- white -->
+                    <color rgb="0.815 0.863 0.863"/>
+                    <!-- silver -->
+                    <color rgb="0.270 0.330 0.360"/>
+                    <!-- silver -->
+                    <color rgb="0.3 0.3 0.32"/>
+                    <!-- grey -->
+                    <color rgb="0.660 0.610 0.500"/>
+                    <!-- beige -->
+                    <color rgb="0.420 0.710 0.810"/>
+                    <!-- blue -->
+                    <color rgb="0.030 0.160 0.070"/>
+                    <!-- green -->
+                    <color rgb="0.230 0.070 0.050"/>
+                    <!-- brown -->
+                    <color rgb="0.570 0.060 0.010"/>
+                    <!-- red -->
+                    <color rgb="0.600 0.320 0.010"/>
+                    <!-- yellow -->
+                    <color rgb="0.140 0.010 0.020"/>
+                    <!-- purple -->
+                </colors>
+                <sounds>
+                    <motor filename="../vehicles/cars/carVan_run.wav" volume="1" range="25" innerRange="1" pitchOffset="1" pitchScale="0.022" pitchMin="0.8" pitchMax="1.5"/>
+                    <honk filename="../sounds/hornCar.wav" volume="1" range="25" innerRange="1"/>
+                </sounds>
+            </assets>
+        </vehicle>
+        <vehicle topSpeed="0.0085" accel="0.0000035">
+            <assets filename="../vehicles/cars/truck300/truck300.i3d" filenameParked="../vehicles/cars/truck300/truck300.i3d" triggerIndex="7" lightsIndex="4" driverIndex="8">
+                <wheels>
+                    <wheel yRotNode="0" xRotNode="0" radius="0.398" distToRotCenter="3.255"/>
+                    <wheel yRotNode="1" xRotNode="1" radius="0.398" distToRotCenter="3.255"/>
+                    <wheel yRotNode="2" xRotNode="2" radius="0.398" distToRotCenter="0"/>
+                    <wheel yRotNode="3" xRotNode="3" radius="0.398" distToRotCenter="0"/>
+                </wheels>
+                <lights>
+                    <light index="4" lowProfile="4|5" highProfile="4|6"/>
+                    <brake decoration="6"/>
+                    <turnLeft decoration="5|0"/>
+                    <turnRight decoration="5|1"/>
+                </lights>
+                <colors index="9" indexParked="9" minDirt="0" maxDirt="0.3">
+                    <color rgb="0.97 0.97 0.97"/>
+                    <!-- white -->
+                    <color rgb="0.815 0.863 0.863"/>
+                    <!-- silver -->
+                    <color rgb="0.270 0.330 0.360"/>
+                    <!-- silver -->
+                    <color rgb="0.3 0.3 0.32"/>
+                    <!-- grey -->
+                    <color rgb="0.660 0.610 0.500"/>
+                    <!-- beige -->
+                    <color rgb="0.420 0.710 0.810"/>
+                    <!-- blue -->
+                    <color rgb="0.030 0.160 0.070"/>
+                    <!-- green -->
+                    <color rgb="0.230 0.070 0.050"/>
+                    <!-- brown -->
+                    <color rgb="0.570 0.060 0.010"/>
+                    <!-- red -->
+                    <color rgb="0.600 0.320 0.010"/>
+                    <!-- yellow -->
+                    <color rgb="0.140 0.010 0.020"/>
+                    <!-- purple -->
+                </colors>
+                <sounds>
+                    <motor filename="../vehicles/cars/carTruck_run.wav" volume="1" range="36" innerRange="1.475" pitchOffset="0.7" pitchScale="0.1" pitchMin="0.7" pitchMax="1"/>
+                    <honk filename="../sounds/hornCar.wav" volume="1" range="25" innerRange="1"/>
+                </sounds>
+            </assets>
+        </vehicle>
+    </vehicles>
+</trafficSystem>

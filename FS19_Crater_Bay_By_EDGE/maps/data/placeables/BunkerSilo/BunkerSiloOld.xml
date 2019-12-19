@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_storageSilo</name>
+        <image>$data/store/store_empty.png</image>
+        <price>1</price>
+        <canBeSold>false</canBeSold>
+        <showInStore>false</showInStore>
+        <boughtWithFarmland>true</boughtWithFarmland>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <species>placeable</species>
+        <category>placeableMisc</category>
+    </storeData>
+
+    <placeableType>bunkerSiloPlaceable</placeableType>
+    <filename>maps/data/placeables/BunkerSilo/BunkerSiloOld.i3d</filename>
+    <placement testSizeX="1" testSizeZ="1" sizeX="1" sizeZ="1" useRandomYRotation="false" useManualYRotation="true" />
+    <bunkerSilos>
+        <bunkerSilo acceptedFillTypes="chaff grass_windrow dryGrass_windrow" inputFillType="chaff" outputFillType="silage" fermentingHours="6" distanceToCompactedFillLevel="80" openingLength="10" >
+            <area startNode="1|0" widthNode="1|1" heightNode="1|2" />
+            <interactionTrigger node="0" />
+        </bunkerSilo>
+    </bunkerSilos>
+    <tipOcclusionUpdateArea sizeX="60" sizeZ="9.5" />
+</placeable>

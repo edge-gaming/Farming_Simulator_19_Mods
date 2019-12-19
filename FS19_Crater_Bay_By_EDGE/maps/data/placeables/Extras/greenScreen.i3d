@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="greenScreen" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+  </Files>
+
+
+  <Materials>
+    <Material name="greenScreen" materialId="4" diffuseColor="0 1 0 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="greenScreen.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="greenScreen" nodeId="7">
+      <Shape shapeId="1" name="greenScreencube" translation="0 29.5 0" scale="0.902969 1 1" clipDistance="300" nodeId="9" materialIds="4" distanceBlending="false"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

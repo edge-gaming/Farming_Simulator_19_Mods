@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="$data/shaders/emissiveAdditiveShader.xml"/>
+    <File fileId="1" filename="$data/shared/clearGlass_diffuse.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="5" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="lightglow_mat" materialId="4" alphaBlending="true" customShaderId="2" customShaderVariation="colorScale">
+      <Emissivemap fileId="1"/>
+      <CustomParameter name="colorScale" value="1 0 0 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="fillMarkBGP.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="switchableMark" rotation="-9.45007e-06 -3.41509e-06 -4.95593e-06" nodeId="9">
+      <TransformGroup name="mark" nodeId="10">
+        <TransformGroup name="light" nodeId="11">
+          <Light name="pointLight" translation="0 0 9.11495e-09" rotation="-90 0 0" clipDistance="100" nodeId="12" type="spot" color="13.9288 0 0" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="10" coneAngle="5" dropOff="4"/>
+          <Shape shapeId="1" name="lightMark" translation="0 0 2.61708e-08" rotation="90 0 0" clipDistance="100" nodeId="13" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="2" name="toggleTrigger" translation="0 -3 0" static="true" trigger="true" collisionMask="3145728" clipDistance="251" nodeId="14" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<prefabDesc descVersion="1">
+    <author>JD_Power</author>
+    <version>1.0.0.0</version>
+	<title>
+        <en>Reflector Posts Prefab</en>
+    </title>
+	<description>
+        <en><![CDATA[This is a prefab used for a map.]]></en>
+		<de><![CDATA[Dies ist ein Prefab für eine Map.]]></de>
+    </description>
+	<categories>
+        <category>Other</category>
+        <category>Static</category>
+    </categories>
+	<prefabs>
+		<prefab name="Reflector posts Prefab" i3dFilename="leitpfosten.i3d" />
+    </prefabs>
+</prefabDesc>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="4" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="sellingStationSupermarket.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="sellingStationGenericSupermarket" nodeId="13">
+      <TransformGroup name="gameplay" nodeId="14">
+        <TransformGroup name="IN" nodeId="15">
+          <TransformGroup name="unloadingStation" nodeId="16">
+            <TransformGroup name="unloadingTriggers" nodeId="17">
+              <Shape shapeId="1" name="exactFillRootNode" translation="0 -0.45 0" scale="1 1 1.5" static="true" collisionMask="1073741824" nodeId="18" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              <Shape shapeId="2" name="baleTrigger" translation="0 -0.45 0" scale="1 1 1.5" static="true" trigger="true" collisionMask="16781312" nodeId="19" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+</i3D>
