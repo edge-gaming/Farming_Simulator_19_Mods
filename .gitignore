@@ -18,6 +18,10 @@
 *FS19_Sosnovka_By_EDGE/maps/*.shapes
 *FS19_Sosnovka_By_EDGE/maps/*.cache
 
+#	<!-- Crater_Bay -->
+*FS19_Crater_Bay_By_EDGE/maps/*.shapes
+*FS19_Crater_Bay_By_EDGE/maps/*.cache
+
 # Object files
 
 # Precompiled Headers
