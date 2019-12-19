@@ -41,8 +41,8 @@ At this time, we are only set up to translate the mods into various languages by
 
 - Fork this repository
 - Choose your language in the [modDesc Folder](https://github.com/edge-gaming/Farming_Simulator_19_Mods/tree/master/modDesc) using the standard abbreviation for the language you are providing.
-- If u cant find your language.
-- Copy the most recent [English version](https://github.com/edge-gaming/Farming_Simulator_19_Mods/blob/master/modDesc/modDesc_l10n_en.xml) of the l10n_en to the file you created.
+- If u can't find your language.
+  - Copy the most recent [English version](https://github.com/edge-gaming/Farming_Simulator_19_Mods/blob/master/modDesc/modDesc_l10n_en.xml) of the l10n_en to the file you created.
 - Complete the translation
 - Give it a name describing what mod it belongs to like "FS19_"Template"_modDesc_l10n_"en".xml
 - Open a pull request against the `master` branch of this repository.
