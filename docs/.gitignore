@@ -3,26 +3,6 @@
 
 # build files
 
-#	<!-- Grover_Strand -->
-*FS19_Grover_Strand_by_EDGE/*.shapes
-*FS19_Grover_Strand_by_EDGE/*.cache
-
-#	<!-- Mundano_del_Mar -->
-*FS19_Mundano_del_Mar_By_EDGE/maps/*.shapes
-*FS19_Mundano_del_Mar_By_EDGE/maps/*.cache
-
-#	<!-- Condado_de_Borde -->
-*FS19_condado_de_borde/*.shapes
-*FS19_condado_de_borde/*.cache
-
-#	<!-- Sosnovka -->
-*FS19_Sosnovka_By_EDGE/maps/*.shapes
-*FS19_Sosnovka_By_EDGE/maps/*.cache
-
-#	<!-- Crater_Bay -->
-*FS19_Crater_Bay_By_EDGE/maps/*.shapes
-*FS19_Crater_Bay_By_EDGE/maps/*.cache
-
 # Object files
 
 # Precompiled Headers
