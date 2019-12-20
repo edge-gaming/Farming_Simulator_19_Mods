@@ -10,7 +10,7 @@
             <function>$l10n_function_lowLoader</function>
             <function>$l10n_function_semiTrailer</function>
         </functions>
-        <image>store_EDGELowLoader.dds</image>
+        <image>store/store_EDGELowLoader.dds</image>
         <price>35000</price>
         <lifetime>600</lifetime>
         <rotation>0</rotation>

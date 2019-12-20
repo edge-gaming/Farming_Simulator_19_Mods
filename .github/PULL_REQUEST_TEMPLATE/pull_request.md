@@ -6,6 +6,6 @@ _TODO_
 
 _TODO_
 
-If this is a new template:
+***If this is a new addition to our mods:***
 
- - **Link to application or project’s homepage**: _TODO_
+ - **Link to mod or project’s homepage**: _TODO_
