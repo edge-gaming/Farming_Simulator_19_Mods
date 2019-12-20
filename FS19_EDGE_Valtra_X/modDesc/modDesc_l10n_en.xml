@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+<author>Edge Gaming / Castiga</author>
+<translationby>Castiga</translationby>
+	<texts>
+		<text name="EDGELights"					text="Stronger lights for night time work."/>
+		<text name="function_XSeries"			text="Bigger & Stronger Tractors for all your Farm work."/>
+        <text name="name_XSeries" 				text="X Series"/>
+        <text name="shopItem_XSeries" 			text="X Series"/>
+        <text name="Config_Size" 				text="Size"/>
+        <text name="config_mirror" 				text="Default Mirrors"/>
+        <text name="config_mirrorPainted"		text="Painted Mirrors"/>
+        <text name="configuration_Fenders" 		text="Fenders"/>
+        <text name="config_Fenders" 			text="Default Fenders"/>
+        <text name="config_PaintedFenders" 		text="Painted Fenders"/>
+        <text name="config_PaintedFrontFenders"	text="Painted Front Fenders"/>
+        <text name="config_PaintedBackFenders" 	text="Painted Back Fenders"/>
+        <text name="config_noFenders" 			text="No Fenders"/>
+        <text name="config_gridPained" 			text="Painted Mirrors & Grid"/>
+        <text name="config_gridonly" 			text="Painted Grid"/>
+        <text name="typeDesc_XSeries" 			text="Tractors with Reverse Driving, they are stronger and bigger than the S Series."/>
+        <text name="color_EDGEGOLD" 			text="EDGE GOLD"/>
+        <text name="color_EDGESILVER" 			text="EDGE SILVER"/>
+        <text name="color_DARKGREY"				text="DARK GREY"/>
+        <text name="color_ITRUNNER" 			text="IT RUNNER"/>
+        <text name="color_CHROME" 				text="CHROME"/>
+        <text name="color_SILVER" 				text="SILVER"/>
+        <text name="color_DARKBLUECHROME" 		text="DARK BLUE CHROME"/>
+        <text name="color_ORANGECHROME" 		text="ORANGE CHROME"/>
+        <text name="color_GREENCHROME" 			text="GREEN CHROME"/>
+        <text name="color_BLUECHROME" 			text="BLUE CHROME"/>
+        <text name="color_REDCHROME" 			text="RED CHROME"/>
+	</texts>
+</l10n>
