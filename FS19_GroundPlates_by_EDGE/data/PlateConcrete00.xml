@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_name_PlateConcrete00</name>
+        <functions>
+            <function>$l10n_function_GroundPlates</function>
+            <function>$l10n_function_PlatesSnap</function>
+        </functions>
+        <image>store/store_PlateConcrete00.dds</image>
+        <price>60</price>
+        <dailyUpkeep>0</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <species>placeable</species>
+        <category>decoration</category>
+    </storeData>
+    <placeableType>placeable</placeableType>
+    <filename>data/PlateConcrete00.i3d</filename>
+    <placement testSizeX="5" testSizeZ="5" sizeX="5" sizeZ="5" useRandomYRotation="false" useManualYRotation="true"/>
+    <clearAreas>
+        <!-- clearArea needs no mask -->
+    </clearAreas>
+    <leveling requireLeveling="false">
+        <levelAreas>
+            <levelArea startNode="1|2|0" widthNode="1|2|0|0" heightNode="1|2|0|1" groundType="dirt"/>
+        </levelAreas>
+    </leveling>
+    <seasons>
+        <maskAreas>
+            <!-- needs no mask -->
+        </maskAreas>
+    </seasons>
+    <tipOcclusionUpdateArea sizeX="0" sizeZ="0"/>
+</placeable>

@@ -3,14 +3,72 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_EDGEFertilizerStorage" text="Хранение жидких удобрений для вашей фермы, здесь вы можете хранить жидкий навоз, дигестат, гербицид и обычные жидкие удобрения.">
-		<text name="typeDesc_EDGEFertilizerStorage" text="Хранение жидких удобрений">
-		<text name="name_EDGEFertilizerStorage" text="EDGE Жидкое удобрение">
-		<text name="name_EDGE" text="EDGE Бак для жидких удобрений">
-		<text name="fullname_EDGEFertilizerStorage" text="EDGE Хранение жидких удобрений">
-		<text name="action_fillStorage" text="Начать перегрузку">
-		<text name="action_stopFillStorage" text="Прекратить перегрузку">
-		<text name="EDGE Liquid Fertilizer" text="EDGE Бак для жидких удобрений"/>
-		<text name="EDGE Liquid Fertilizer Storage" text="EDGE Хранение жидких удобрений"/>
+		<text name="name_PlateEDGE" text="EDGE Наземные плиты"/>
+		<text name="name_GroundPlates" text="EDGE Наземные плиты"/>
+		<text name="name_Foundations" text="устои"/>
+		<text name="name_PlateAsphalt00" text="Декоративная асфальтовая плитка"/>
+		<text name="name_PlateAsphalt01" text="Декоративная асфальтовая плитка"/>
+		<text name="name_PlateCheckers00" text="Декоративные клетчатые плитки"/>
+		<text name="name_PlateCheckers01" text="Декоративные клетчатые плитки"/>
+		<text name="name_PlateCobblestone00" text="Декоративный булыжник"/>
+		<text name="name_PlateCobblestone01" text="Декоративный булыжник"/>
+		<text name="name_PlateConcrete00" text="Декоративная бетонная плитка"/>
+		<text name="name_PlateConcrete01" text="Декоративная бетонная плитка"/>
+		<text name="name_PlateConcrete02" text="Декоративная бетонная плитка"/>
+		<text name="name_PlateConcrete03" text="Декоративная бетонная плитка"/>
+		<text name="name_PlateConcrete04" text="Декоративная бетонная плитка"/>
+		<text name="name_PlateConcrete05" text="Декоративная бетонная плитка"/>
+		<text name="name_PlateConcrete06" text="Декоративная бетонная плитка"/>
+		<text name="name_PlateConcrete07" text="Декоративная бетонная плитка"/>
+		<text name="name_PlateDefault00" text="Декоративная плитка"/>
+		<text name="name_PlateDefault01" text="Декоративная плитка"/>
+		<text name="name_PlateEDGE00" text="Декоративная плитка EDGE"/>
+		<text name="name_PlateEDGE01" text="Декоративная плитка EDGE"/>
+		<text name="name_PlateEDGE02" text="Декоративная плитка EDGE"/>
+		<text name="name_PlateEDGE03" text="Декоративная плитка EDGE"/>
+		<text name="name_PlateEDGE04" text="Декоративная плитка EDGE"/>
+		<text name="name_PlateEDGE05" text="Декоративная плитка EDGE"/>
+		<text name="name_PlateEmissive00" text="Декоративная плитка с подсветкой"/>
+		<text name="name_PlateEmissive01" text="Декоративная плитка с подсветкой"/>
+		<text name="name_PlateEmissive02" text="Декоративная плитка с подсветкой"/>
+		<text name="name_PlateEmissive03" text="Декоративная плитка с подсветкой"/>
+		<text name="name_PlateEmissive04" text="Декоративная плитка с подсветкой"/>
+		<text name="name_PlateEmissive05" text="Декоративная плитка с подсветкой"/>
+		<text name="name_PlateEmissive06" text="Декоративная плитка с подсветкой"/>
+		<text name="name_PlateEmissive07" text="Декоративная плитка с подсветкой"/>
+		<text name="name_PlateGlass00" text="Декоративная стеклянная плитка"/>
+		<text name="name_PlateGlass01" text="Декоративная стеклянная плитка"/>
+		<text name="name_PlateGlass02" text="Декоративная стеклянная плитка"/>
+		<text name="name_PlateGridMetal00" text="Декоративная металлическая плитка с сеткой"/>
+		<text name="name_PlateGridMetal01" text="Декоративная металлическая плитка с сеткой"/>
+		<text name="name_PlateMetal00" text="Декоративная металлическая плитка"/>
+		<text name="name_PlateMetal01" text="Декоративная металлическая плитка"/>
+		<text name="name_PlateMetal02" text="Декоративная металлическая плитка"/>
+		<text name="name_PlateMetal03" text="Декоративная металлическая плитка"/>
+		<text name="name_PlateMetal04" text="Декоративная металлическая плитка"/>
+		<text name="name_PlateMetal05" text="Декоративная металлическая плитка"/>
+		<text name="name_PlateMetal06" text="Декоративная металлическая плитка"/>
+		<text name="name_PlateMetal07" text="Декоративная металлическая плитка"/>
+		<text name="name_PlateMetal08" text="Декоративная металлическая плитка"/>
+		<text name="name_PlateMetal09" text="Декоративная металлическая плитка"/>
+		<text name="name_PlateRubber00" text="Декоративная резиновая плитка"/>
+		<text name="name_PlateRubber01" text="Декоративная резиновая плитка"/>
+		<text name="name_PlateTile00" text="Декоративная плитка"/>
+		<text name="name_PlateTile01" text="Декоративная плитка"/>
+		<text name="name_PlateTile02" text="Декоративная плитка"/>
+		<text name="name_PlateTile03" text="Декоративная плитка"/>
+		<text name="name_PlateTile04" text="Декоративная плитка"/>
+		<text name="name_PlateWood00" text="Декоративная деревянная плитка"/>
+		<text name="name_PlateWood01" text="Декоративная деревянная плитка"/>
+		<text name="name_PlateWood02" text="Декоративная деревянная плитка"/>
+		<text name="name_PlateWood03" text="Декоративная деревянная плитка"/>
+		<text name="function_GroundPlates" text="Эти плитки могут быть размещены на местности, чтобы ваша ферма выглядела нетронутой!"/>
+		<text name="function_PlatesSnap" text="Настоятельно рекомендуется использовать привязку к сетке для идеального размещения."/>
+		<text name="function_EDGELights" text="Оснащен автоматическими огнями."/>
+		<text name="shopItem_GroundPlates" text="Текстуры плитки"/>
+		<text name="GroundPlates" text="плитки"/>
+		<text name="typeDesc_GroundPlates" text="Плитка с текстурой"/>
+		<text name="action_SwitchColor_up" text="Переключить цвет ->"/>
+		<text name="action_SwitchColor_down" text="<- Переключить цвет"/>
 	</texts>
 </l10n>

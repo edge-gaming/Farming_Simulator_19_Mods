@@ -3,14 +3,72 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_EDGEFertilizerStorage" text="Stockage d'engrais liquide pour votre ferme, vous pouvez y stocker votre lisier, votre digestat, votre herbicide et votre engrais liquide régulier.">
-		<text name="typeDesc_EDGEFertilizerStorage" text="Stockage d'engrais liquide">
-		<text name="name_EDGEFertilizerStorage" text="Engrais liquide EDGE">
-		<text name="name_EDGE" text="EDGE Réservoir d'engrais liquide">
-		<text name="fullname_EDGEFertilizerStorage" text="EDGE Stockage d'engrais liquide">
-		<text name="action_fillStorage" text="EDGE Stockage d'engrais liquide">
-		<text name="action_stopFillStorage" text="EDGE Stockage d'engrais liquide">
-		<text name="EDGE Liquid Fertilizer" text="EDGE Réservoir d'engrais liquide"/>
-		<text name="EDGE Liquid Fertilizer Storage" text="EDGE Stockage d'engrais liquide"/>
+		<text name="name_PlateEDGE" text="EDGE Plaques de masse"/>
+		<text name="name_GroundPlates" text="EDGE Plaques de masse"/>
+		<text name="name_Foundations" text="Fondations"/>
+		<text name="name_PlateAsphalt00" text="Carreau d'asphalte décoratif"/>
+		<text name="name_PlateAsphalt01" text="Carreau d'asphalte décoratif"/>
+		<text name="name_PlateCheckers00" text="Carreaux décoratifs à carreaux"/>
+		<text name="name_PlateCheckers01" text="Carreaux décoratifs à carreaux"/>
+		<text name="name_PlateCobblestone00" text="Pavé décoratif"/>
+		<text name="name_PlateCobblestone01" text="Pavé décoratif"/>
+		<text name="name_PlateConcrete00" text="Carreau de béton décoratif"/>
+		<text name="name_PlateConcrete01" text="Carreau de béton décoratif"/>
+		<text name="name_PlateConcrete02" text="Carreau de béton décoratif"/>
+		<text name="name_PlateConcrete03" text="Carreau de béton décoratif"/>
+		<text name="name_PlateConcrete04" text="Carreau de béton décoratif"/>
+		<text name="name_PlateConcrete05" text="Carreau de béton décoratif"/>
+		<text name="name_PlateConcrete06" text="Carreau de béton décoratif"/>
+		<text name="name_PlateConcrete07" text="Carreau de béton décoratif"/>
+		<text name="name_PlateDefault00" text="Carreau décoratif"/>
+		<text name="name_PlateDefault01" text="Carreau décoratif"/>
+		<text name="name_PlateEDGE00" text="Carrelage EDGE décoratif"/>
+		<text name="name_PlateEDGE01" text="Carrelage EDGE décoratif"/>
+		<text name="name_PlateEDGE02" text="Carrelage EDGE décoratif"/>
+		<text name="name_PlateEDGE03" text="Carrelage EDGE décoratif"/>
+		<text name="name_PlateEDGE04" text="Carrelage EDGE décoratif"/>
+		<text name="name_PlateEDGE05" text="Carrelage EDGE décoratif"/>
+		<text name="name_PlateEmissive00" text="Carreau décoratif avec lumière"/>
+		<text name="name_PlateEmissive01" text="Carreau décoratif avec lumière"/>
+		<text name="name_PlateEmissive02" text="Carreau décoratif avec lumière"/>
+		<text name="name_PlateEmissive03" text="Carreau décoratif avec lumière"/>
+		<text name="name_PlateEmissive04" text="Carreau décoratif avec lumière"/>
+		<text name="name_PlateEmissive05" text="Carreau décoratif avec lumière"/>
+		<text name="name_PlateEmissive06" text="Carreau décoratif avec lumière"/>
+		<text name="name_PlateEmissive07" text="Carreau décoratif avec lumière"/>
+		<text name="name_PlateGlass00" text="Carreau de verre décoratif"/>
+		<text name="name_PlateGlass01" text="Carreau de verre décoratif"/>
+		<text name="name_PlateGlass02" text="Carreau de verre décoratif"/>
+		<text name="name_PlateGridMetal00" text="Carreau métallique décoratif avec grille"/>
+		<text name="name_PlateGridMetal01" text="Carreau métallique décoratif avec grille"/>
+		<text name="name_PlateMetal00" text="Tuile décorative en métal"/>
+		<text name="name_PlateMetal01" text="Tuile décorative en métal"/>
+		<text name="name_PlateMetal02" text="Tuile décorative en métal"/>
+		<text name="name_PlateMetal03" text="Tuile décorative en métal"/>
+		<text name="name_PlateMetal04" text="Tuile décorative en métal"/>
+		<text name="name_PlateMetal05" text="Tuile décorative en métal"/>
+		<text name="name_PlateMetal06" text="Tuile décorative en métal"/>
+		<text name="name_PlateMetal07" text="Tuile décorative en métal"/>
+		<text name="name_PlateMetal08" text="Tuile décorative en métal"/>
+		<text name="name_PlateMetal09" text="Tuile décorative en métal"/>
+		<text name="name_PlateRubber00" text="Carreau décoratif en caoutchouc"/>
+		<text name="name_PlateRubber01" text="Carreau décoratif en caoutchouc"/>
+		<text name="name_PlateTile00" text="Carreau décoratif"/>
+		<text name="name_PlateTile01" text="Carreau décoratif"/>
+		<text name="name_PlateTile02" text="Carreau décoratif"/>
+		<text name="name_PlateTile03" text="Carreau décoratif"/>
+		<text name="name_PlateTile04" text="Carreau décoratif"/>
+		<text name="name_PlateWood00" text="Carreau de bois décoratif"/>
+		<text name="name_PlateWood01" text="Carreau de bois décoratif"/>
+		<text name="name_PlateWood02" text="Carreau de bois décoratif"/>
+		<text name="name_PlateWood03" text="Carreau de bois décoratif"/>
+		<text name="function_GroundPlates" text="Ces tuiles peuvent être placées sur le Terrain pour donner à votre ferme un aspect impeccable!"/>
+		<text name="function_PlatesSnap" text="Il est fortement conseillé d'utiliser l'action d'accrochage à la grille pour un placement parfait."/>
+		<text name="function_EDGELights" text="Équipé de lumières automatiques."/>
+		<text name="shopItem_GroundPlates" text="Carreaux de texture"/>
+		<text name="GroundPlates" text="Carrelage"/>
+		<text name="typeDesc_GroundPlates" text="Tuiles avec texture"/>
+		<text name="action_SwitchColor_up" text="Changer de couleur ->"/>
+		<text name="action_SwitchColor_down" text="<- Changer de couleur"/>
 	</texts>
 </l10n>

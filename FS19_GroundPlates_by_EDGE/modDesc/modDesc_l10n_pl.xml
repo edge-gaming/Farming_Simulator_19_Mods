@@ -3,14 +3,72 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_EDGEFertilizerStorage" text="Przechowywanie płynnych nawozów dla twojej farmy, tutaj możesz przechowywać gnojowicę, fermentat, herbicyd i zwykły płynny nawóz.">
-		<text name="typeDesc_EDGEFertilizerStorage" text="Przechowywanie płynnych nawozów">
-		<text name="name_EDGEFertilizerStorage" text="EDGE Płynny nawóz">
-		<text name="name_EDGE" text="EDGE Zbiornik na nawóz płynny">
-		<text name="fullname_EDGEFertilizerStorage" text="Przechowywanie płynnych nawozów EDGE">
-		<text name="action_fillStorage" text="Rozpocznij przeładowanie">
-		<text name="action_stopFillStorage" text="Zatrzymaj przeciążanie">
-		<text name="EDGE Liquid Fertilizer" text="EDGE Zbiornik na nawóz płynny"/>
-		<text name="EDGE Liquid Fertilizer Storage" text="Przechowywanie płynnych nawozów EDGE"/>
+		<text name="name_PlateEDGE" text="EDGE Płyty naziemne"/>
+		<text name="name_GroundPlates" text="EDGE Płyty naziemne"/>
+		<text name="name_Foundations" text="Podwaliny"/>
+		<text name="name_PlateAsphalt00" text="Dekoracyjna płytka asfaltowa"/>
+		<text name="name_PlateAsphalt01" text="Dekoracyjna płytka asfaltowa"/>
+		<text name="name_PlateCheckers00" text="Dekoracyjne Płytki W Kratkę"/>
+		<text name="name_PlateCheckers01" text="Dekoracyjne Płytki W Kratkę"/>
+		<text name="name_PlateCobblestone00" text="Dekoracyjny bruk"/>
+		<text name="name_PlateCobblestone01" text="Dekoracyjny bruk"/>
+		<text name="name_PlateConcrete00" text="Dekoracyjna płytka betonowa"/>
+		<text name="name_PlateConcrete01" text="Dekoracyjna płytka betonowa"/>
+		<text name="name_PlateConcrete02" text="Dekoracyjna płytka betonowa"/>
+		<text name="name_PlateConcrete03" text="Dekoracyjna płytka betonowa"/>
+		<text name="name_PlateConcrete04" text="Dekoracyjna płytka betonowa"/>
+		<text name="name_PlateConcrete05" text="Dekoracyjna płytka betonowa"/>
+		<text name="name_PlateConcrete06" text="Dekoracyjna płytka betonowa"/>
+		<text name="name_PlateConcrete07" text="Dekoracyjna płytka betonowa"/>
+		<text name="name_PlateDefault00" text="Płytka dekoracyjna"/>
+		<text name="name_PlateDefault01" text="Płytka dekoracyjna"/>
+		<text name="name_PlateEDGE00" text="Dekoracyjna płytka EDGE"/>
+		<text name="name_PlateEDGE01" text="Dekoracyjna płytka EDGE"/>
+		<text name="name_PlateEDGE02" text="Dekoracyjna płytka EDGE"/>
+		<text name="name_PlateEDGE03" text="Dekoracyjna płytka EDGE"/>
+		<text name="name_PlateEDGE04" text="Dekoracyjna płytka EDGE"/>
+		<text name="name_PlateEDGE05" text="Dekoracyjna płytka EDGE"/>
+		<text name="name_PlateEmissive00" text="Płytka dekoracyjna ze światłem"/>
+		<text name="name_PlateEmissive01" text="Płytka dekoracyjna ze światłem"/>
+		<text name="name_PlateEmissive02" text="Płytka dekoracyjna ze światłem"/>
+		<text name="name_PlateEmissive03" text="Płytka dekoracyjna ze światłem"/>
+		<text name="name_PlateEmissive04" text="Płytka dekoracyjna ze światłem"/>
+		<text name="name_PlateEmissive05" text="Płytka dekoracyjna ze światłem"/>
+		<text name="name_PlateEmissive06" text="Płytka dekoracyjna ze światłem"/>
+		<text name="name_PlateEmissive07" text="Płytka dekoracyjna ze światłem"/>
+		<text name="name_PlateGlass00" text="Dekoracyjna szklana płytka"/>
+		<text name="name_PlateGlass01" text="Dekoracyjna szklana płytka"/>
+		<text name="name_PlateGlass02" text="Dekoracyjna szklana płytka"/>
+		<text name="name_PlateGridMetal00" text="Dekoracyjna metalowa płytka z siatką"/>
+		<text name="name_PlateGridMetal01" text="Dekoracyjna metalowa płytka z siatką"/>
+		<text name="name_PlateMetal00" text="Dekoracyjna metalowa płytka"/>
+		<text name="name_PlateMetal01" text="Dekoracyjna metalowa płytka"/>
+		<text name="name_PlateMetal02" text="Dekoracyjna metalowa płytka"/>
+		<text name="name_PlateMetal03" text="Dekoracyjna metalowa płytka"/>
+		<text name="name_PlateMetal04" text="Dekoracyjna metalowa płytka"/>
+		<text name="name_PlateMetal05" text="Dekoracyjna metalowa płytka"/>
+		<text name="name_PlateMetal06" text="Dekoracyjna metalowa płytka"/>
+		<text name="name_PlateMetal07" text="Dekoracyjna metalowa płytka"/>
+		<text name="name_PlateMetal08" text="Dekoracyjna metalowa płytka"/>
+		<text name="name_PlateMetal09" text="Dekoracyjna metalowa płytka"/>
+		<text name="name_PlateRubber00" text="Dekoracyjna gumowa płytka"/>
+		<text name="name_PlateRubber01" text="Dekoracyjna gumowa płytka"/>
+		<text name="name_PlateTile00" text="Płytka dekoracyjna"/>
+		<text name="name_PlateTile01" text="Płytka dekoracyjna"/>
+		<text name="name_PlateTile02" text="Płytka dekoracyjna"/>
+		<text name="name_PlateTile03" text="Płytka dekoracyjna"/>
+		<text name="name_PlateTile04" text="Płytka dekoracyjna"/>
+		<text name="name_PlateWood00" text="Dekoracyjna płytka drewniana"/>
+		<text name="name_PlateWood01" text="Dekoracyjna płytka drewniana"/>
+		<text name="name_PlateWood02" text="Dekoracyjna płytka drewniana"/>
+		<text name="name_PlateWood03" text="Dekoracyjna płytka drewniana"/>
+		<text name="function_GroundPlates" text="Płytki te można umieścić na terenie, aby Twoja farma wyglądała nieskazitelnie!"/>
+		<text name="function_PlatesSnap" text="Zdecydowanie wskazane jest użycie funkcji przyciągania do siatki w celu idealnego umieszczenia."/>
+		<text name="function_EDGELights" text="Wyposażony w automatyczne światła."/>
+		<text name="shopItem_GroundPlates" text="Płytki tekstur"/>
+		<text name="GroundPlates" text="Płytki"/>
+		<text name="typeDesc_GroundPlates" text="Płytki z fakturą"/>
+		<text name="action_SwitchColor_up" text="Zmień kolor ->"/>
+		<text name="action_SwitchColor_down" text="<- Zmień kolor"/>
 	</texts>
 </l10n>

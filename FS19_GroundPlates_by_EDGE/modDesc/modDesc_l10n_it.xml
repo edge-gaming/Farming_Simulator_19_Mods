@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+<author>Edge Gaming / Castiga</author>
+<translationby>Castiga</translationby>
+	<texts>
+		<text name="name_PlateEDGE" text="EDGE Piastre di terra"/>
+		<text name="name_GroundPlates" text="EDGE Piastre di terra"/>
+		<text name="name_Foundations" text="Fondazioni"/>
+		<text name="name_PlateAsphalt00" text="Mattonelle decorative dell'asfalto"/>
+		<text name="name_PlateAsphalt01" text="Mattonelle decorative dell'asfalto"/>
+		<text name="name_PlateCheckers00" text="Piastrelle a scacchi decorative"/>
+		<text name="name_PlateCheckers01" text="Piastrelle a scacchi decorative"/>
+		<text name="name_PlateCobblestone00" text="Ciottoli decorativi"/>
+		<text name="name_PlateCobblestone01" text="Ciottoli decorativi"/>
+		<text name="name_PlateConcrete00" text="Tegola di cemento decorativo"/>
+		<text name="name_PlateConcrete01" text="Tegola di cemento decorativo"/>
+		<text name="name_PlateConcrete02" text="Tegola di cemento decorativo"/>
+		<text name="name_PlateConcrete03" text="Tegola di cemento decorativo"/>
+		<text name="name_PlateConcrete04" text="Tegola di cemento decorativo"/>
+		<text name="name_PlateConcrete05" text="Tegola di cemento decorativo"/>
+		<text name="name_PlateConcrete06" text="Tegola di cemento decorativo"/>
+		<text name="name_PlateConcrete07" text="Tegola di cemento decorativo"/>
+		<text name="name_PlateDefault00" text="Piastrella Decorativa"/>
+		<text name="name_PlateDefault01" text="Piastrella Decorativa"/>
+		<text name="name_PlateEDGE00" text="Piastrella decorativa EDGE"/>
+		<text name="name_PlateEDGE01" text="Piastrella decorativa EDGE"/>
+		<text name="name_PlateEDGE02" text="Piastrella decorativa EDGE"/>
+		<text name="name_PlateEDGE03" text="Piastrella decorativa EDGE"/>
+		<text name="name_PlateEDGE04" text="Piastrella decorativa EDGE"/>
+		<text name="name_PlateEDGE05" text="Piastrella decorativa EDGE"/>
+		<text name="name_PlateEmissive00" text="Piastrella decorativa con luce"/>
+		<text name="name_PlateEmissive01" text="Piastrella decorativa con luce"/>
+		<text name="name_PlateEmissive02" text="Piastrella decorativa con luce"/>
+		<text name="name_PlateEmissive03" text="Piastrella decorativa con luce"/>
+		<text name="name_PlateEmissive04" text="Piastrella decorativa con luce"/>
+		<text name="name_PlateEmissive05" text="Piastrella decorativa con luce"/>
+		<text name="name_PlateEmissive06" text="Piastrella decorativa con luce"/>
+		<text name="name_PlateEmissive07" text="Piastrella decorativa con luce"/>
+		<text name="name_PlateGlass00" text="Mattonelle di vetro decorative"/>
+		<text name="name_PlateGlass01" text="Mattonelle di vetro decorative"/>
+		<text name="name_PlateGlass02" text="Mattonelle di vetro decorative"/>
+		<text name="name_PlateGridMetal00" text="Mattonelle decorative in metallo con griglia"/>
+		<text name="name_PlateGridMetal01" text="Mattonelle decorative in metallo con griglia"/>
+		<text name="name_PlateMetal00" text="Mattonelle decorative in metallo"/>
+		<text name="name_PlateMetal01" text="Mattonelle decorative in metallo"/>
+		<text name="name_PlateMetal02" text="Mattonelle decorative in metallo"/>
+		<text name="name_PlateMetal03" text="Mattonelle decorative in metallo"/>
+		<text name="name_PlateMetal04" text="Mattonelle decorative in metallo"/>
+		<text name="name_PlateMetal05" text="Mattonelle decorative in metallo"/>
+		<text name="name_PlateMetal06" text="Mattonelle decorative in metallo"/>
+		<text name="name_PlateMetal07" text="Mattonelle decorative in metallo"/>
+		<text name="name_PlateMetal08" text="Mattonelle decorative in metallo"/>
+		<text name="name_PlateMetal09" text="Mattonelle decorative in metallo"/>
+		<text name="name_PlateRubber00" text="Piastrella di gomma decorativa"/>
+		<text name="name_PlateRubber01" text="Piastrella di gomma decorativa"/>
+		<text name="name_PlateTile00" text="Piastrella Decorativa"/>
+		<text name="name_PlateTile01" text="Piastrella Decorativa"/>
+		<text name="name_PlateTile02" text="Piastrella Decorativa"/>
+		<text name="name_PlateTile03" text="Piastrella Decorativa"/>
+		<text name="name_PlateTile04" text="Piastrella Decorativa"/>
+		<text name="name_PlateWood00" text="Mattonelle di legno decorative"/>
+		<text name="name_PlateWood01" text="Mattonelle di legno decorative"/>
+		<text name="name_PlateWood02" text="Mattonelle di legno decorative"/>
+		<text name="name_PlateWood03" text="Mattonelle di legno decorative"/>
+		<text name="function_GroundPlates" text="Queste tessere possono essere posizionate sul terreno per dare alla tua fattoria un aspetto incontaminato!"/>
+		<text name="function_PlatesSnap" text="Si consiglia vivamente di utilizzare lo snap alla griglia per un posizionamento perfetto."/>
+		<text name="function_EDGELights" text="Dotato di luci automatiche."/>
+		<text name="shopItem_GroundPlates" text="Piastrelle Texture"/>
+		<text name="GroundPlates" text="piastrelle"/>
+		<text name="typeDesc_GroundPlates" text="Piastrelle con trama"/>
+		<text name="action_SwitchColor_up" text="Cambia colore ->"/>
+		<text name="action_SwitchColor_down" text="<- Cambia colore"/>
+	</texts>
+</l10n>

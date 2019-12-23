@@ -3,14 +3,72 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_EDGEFertilizerStorage" text="Lagerung von Flüssigdüngern für Ihren Betrieb. Hier können Sie Gülle, Gärreste, Herbizide und normale Flüssigdünger lagern.">
-		<text name="typeDesc_EDGEFertilizerStorage" text="Lagerung von Flüssigdünger">
-		<text name="name_EDGEFertilizerStorage" text="EDGE Flüssigdünger">
-		<text name="name_EDGE" text="EDGE Flüssigdüngertank">
-		<text name="fullname_EDGEFertilizerStorage" text="EDGE Lagerung von Flüssigdünger">
-		<text name="action_fillStorage" text="Starten Sie das Überladen">
-		<text name="action_stopFillStorage" text="Stoppen Sie das Überladen">
-		<text name="EDGE Liquid Fertilizer" text="EDGE Flüssigdüngertank"/>
-		<text name="EDGE Liquid Fertilizer Storage" text="EDGE Lagerung von Flüssigdünger"/>
+		<text name="name_PlateEDGE" text="EDGE Bodenplatten"/>
+		<text name="name_GroundPlates" text="EDGE Bodenplatten"/>
+		<text name="name_Foundations" text="Stiftungen"/>
+		<text name="name_PlateAsphalt00" text="Dekorative Asphaltfliese"/>
+		<text name="name_PlateAsphalt01" text="Dekorative Asphaltfliese"/>
+		<text name="name_PlateCheckers00" text="Dekorative karierte Fliesen"/>
+		<text name="name_PlateCheckers01" text="Dekorative karierte Fliesen"/>
+		<text name="name_PlateCobblestone00" text="Dekorativer Kopfsteinpflasterstein"/>
+		<text name="name_PlateCobblestone01" text="Dekorativer Kopfsteinpflasterstein"/>
+		<text name="name_PlateConcrete00" text="Dekorative Betonfliese"/>
+		<text name="name_PlateConcrete01" text="Dekorative Betonfliese"/>
+		<text name="name_PlateConcrete02" text="Dekorative Betonfliese"/>
+		<text name="name_PlateConcrete03" text="Dekorative Betonfliese"/>
+		<text name="name_PlateConcrete04" text="Dekorative Betonfliese"/>
+		<text name="name_PlateConcrete05" text="Dekorative Betonfliese"/>
+		<text name="name_PlateConcrete06" text="Dekorative Betonfliese"/>
+		<text name="name_PlateConcrete07" text="Dekorative Betonfliese"/>
+		<text name="name_PlateDefault00" text="Dekorative Fliese"/>
+		<text name="name_PlateDefault01" text="Dekorative Fliese"/>
+		<text name="name_PlateEDGE00" text="Decorative EDGE Fliese"/>
+		<text name="name_PlateEDGE01" text="Decorative EDGE Fliese"/>
+		<text name="name_PlateEDGE02" text="Decorative EDGE Fliese"/>
+		<text name="name_PlateEDGE03" text="Decorative EDGE Fliese"/>
+		<text name="name_PlateEDGE04" text="Decorative EDGE Fliese"/>
+		<text name="name_PlateEDGE05" text="Decorative EDGE Fliese"/>
+		<text name="name_PlateEmissive00" text="Dekorative Fliese mit Licht"/>
+		<text name="name_PlateEmissive01" text="Dekorative Fliese mit Licht"/>
+		<text name="name_PlateEmissive02" text="Dekorative Fliese mit Licht"/>
+		<text name="name_PlateEmissive03" text="Dekorative Fliese mit Licht"/>
+		<text name="name_PlateEmissive04" text="Dekorative Fliese mit Licht"/>
+		<text name="name_PlateEmissive05" text="Dekorative Fliese mit Licht"/>
+		<text name="name_PlateEmissive06" text="Dekorative Fliese mit Licht"/>
+		<text name="name_PlateEmissive07" text="Dekorative Fliese mit Licht"/>
+		<text name="name_PlateGlass00" text="Dekorative Glasfliese"/>
+		<text name="name_PlateGlass01" text="Dekorative Glasfliese"/>
+		<text name="name_PlateGlass02" text="Dekorative Glasfliese"/>
+		<text name="name_PlateGridMetal00" text="Dekorative Metallfliese mit Gitter"/>
+		<text name="name_PlateGridMetal01" text="Dekorative Metallfliese mit Gitter"/>
+		<text name="name_PlateMetal00" text="Dekorative Metallfliese"/>
+		<text name="name_PlateMetal01" text="Dekorative Metallfliese"/>
+		<text name="name_PlateMetal02" text="Dekorative Metallfliese"/>
+		<text name="name_PlateMetal03" text="Dekorative Metallfliese"/>
+		<text name="name_PlateMetal04" text="Dekorative Metallfliese"/>
+		<text name="name_PlateMetal05" text="Dekorative Metallfliese"/>
+		<text name="name_PlateMetal06" text="Dekorative Metallfliese"/>
+		<text name="name_PlateMetal07" text="Dekorative Metallfliese"/>
+		<text name="name_PlateMetal08" text="Dekorative Metallfliese"/>
+		<text name="name_PlateMetal09" text="Dekorative Metallfliese"/>
+		<text name="name_PlateRubber00" text="Dekorative Kautschukfliese"/>
+		<text name="name_PlateRubber01" text="Dekorative Kautschukfliese"/>
+		<text name="name_PlateTile00" text="Dekorative Fliese"/>
+		<text name="name_PlateTile01" text="Dekorative Fliese"/>
+		<text name="name_PlateTile02" text="Dekorative Fliese"/>
+		<text name="name_PlateTile03" text="Dekorative Fliese"/>
+		<text name="name_PlateTile04" text="Dekorative Fliese"/>
+		<text name="name_PlateWood00" text="Dekorative Holzfliese"/>
+		<text name="name_PlateWood01" text="Dekorative Holzfliese"/>
+		<text name="name_PlateWood02" text="Dekorative Holzfliese"/>
+		<text name="name_PlateWood03" text="Dekorative Holzfliese"/>
+		<text name="function_GroundPlates" text="Diese Kacheln können auf das Terrain gelegt werden, damit Ihre Farm makellos aussieht!"/>
+		<text name="function_PlatesSnap" text="Es wird dringend empfohlen, für eine perfekte Platzierung die Rasterfangaktion zu verwenden."/>
+		<text name="function_EDGELights" text="Ausgestattet mit automatischen Lichtern."/>
+		<text name="shopItem_GroundPlates" text="Textur-Fliesen"/>
+		<text name="GroundPlates" text="Fliesen"/>
+		<text name="typeDesc_GroundPlates" text="Fliesen mit Textur"/>
+		<text name="action_SwitchColor_up" text="Farbe wechseln ->"/>
+		<text name="action_SwitchColor_down" text="<- Farbe wechseln"/>
 	</texts>
 </l10n>

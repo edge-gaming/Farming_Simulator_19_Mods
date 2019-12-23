@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="$l10n_name_PlateEDGE" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/maps/textures/european/props/lightPoleSetGlass_diffuse.dds"/>
+    <File fileId="6" filename="$data/maps/textures/european/props/lightPoleSetGlass_specular.dds"/>
+    <File fileId="8" filename="$data/maps/textures/european/props/lightPoleSet_emissive.dds"/>
+    <File fileId="7" filename="$data/shaders/dashboardLightsShader.xml"/>
+    <File fileId="5" filename="$data/shared/default_normal.dds"/>
+    <File fileId="1" filename="textures/EDGE00_diffuse.dds"/>
+    <File fileId="2" filename="textures/EDGE00_normal.dds"/>
+    <File fileId="3" filename="textures/EDGE00_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="EDGE_Plate_mat" materialId="5">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2" bumpDepth="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="EDGE_Foundation_mat" materialId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="EDGE_Emissive_mat" materialId="6" customShaderId="7">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+      <Glossmap fileId="6"/>
+      <Custommap name="mEmissiveMap" fileId="8"/>
+      <CustomParameter name="lightControl" value="1 1 1 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="PlateEmissive00.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="EDGE_Plate" static="true" restitution="0.1" staticFriction="0.05" dynamicFriction="0.05" clipDistance="500" nodeId="11" materialIds="5" castsShadows="true" receiveShadows="true">
+      <TransformGroup name="illum" translation="1.1795e-12 0 0" visibility="false" nodeId="12">
+        <Light name="spotLight" translation="0 0.1 0" rotation="0 -90 0" clipDistance="300" nodeId="13" type="point" color="0.8 0.5 0.3" emitDiffuse="true" emitSpecular="true" decayRate="1" range="10"/>
+        <Shape shapeId="2" name="EDGE_Emissive" translation="5.64603e-08 0 -0.000149965" rotation="8.53774e-07 -2.27667e-06 0" static="true" restitution="0.1" staticFriction="0.05" dynamicFriction="0.05" clipDistance="500" nodeId="14" materialIds="6" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="areaDefinitions" nodeId="15">
+        <TransformGroup name="snowAreas" nodeId="16">
+          <TransformGroup name="start1" translation="5 0 -5" nodeId="17">
+            <TransformGroup name="width" translation="-10 0 0" nodeId="18"/>
+            <TransformGroup name="height" translation="0 0 10" nodeId="19"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="clearAreas" nodeId="20">
+          <TransformGroup name="start1" translation="5 0 -5" nodeId="21">
+            <TransformGroup name="width" translation="-10 0 0" nodeId="22"/>
+            <TransformGroup name="height" translation="0 0 10" nodeId="23"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="levelingAreas" nodeId="24">
+          <TransformGroup name="start1" translation="4 -0.25 -4" nodeId="25">
+            <TransformGroup name="width" translation="-8 0 0" nodeId="26"/>
+            <TransformGroup name="height" translation="0 0 8" nodeId="27"/>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="3" name="EDGE_Deco" static="true" restitution="0.1" staticFriction="0.05" dynamicFriction="0.05" clipDistance="500" nodeId="28" materialIds="4" castsShadows="true" receiveShadows="true"/>
+    </Shape>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="12">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

@@ -3,14 +3,72 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_EDGEFertilizerStorage" text="Liquid Ferilizer Storage for your farm, here you can store your Slurry, Digestate, Herbicide & regular Liquid Fertilizer."/>
-		<text name="shopItem_EDGEFertilizerStorage" text="Liquid Ferilizer Storage"/>
-		<text name="name_EDGEFertilizerStorage" text="EDGE Liquid Fertilizer"/>
-		<text name="EDGE Liquid Fertilizer" text="EDGE Liquid Fertilizer"/>
-		<text name="station_EDGE" text="EDGE Liquid Fertilizer Tank"/>
-		<text name="typeDesc_EDGEFertilizerfull" text="EDGE Liquid Fertilizer Storage"/>
-		<text name="EDGE Liquid Fertilizer Storage" text="EDGE Liquid Fertilizer Storage"/>
-		<text name="action_fillStorage" text="Start Overloading"/>
-		<text name="action_stopFillStorage" text="Stop Overloading"/>
+		<text name="name_PlateEDGE" text="EDGE Ground Plates"/>
+		<text name="name_GroundPlates" text="EDGE Ground Plates"/>
+		<text name="name_Foundations" text="Foundations"/>
+		<text name="name_PlateAsphalt00" text="Decorative Asphalt Tile"/>
+		<text name="name_PlateAsphalt01" text="Decorative Asphalt Tile"/>
+		<text name="name_PlateCheckers00" text="Decorative Checkered Tiles"/>
+		<text name="name_PlateCheckers01" text="Decorative Checkered Tiles"/>
+		<text name="name_PlateCobblestone00" text="Decorative Cobblestone"/>
+		<text name="name_PlateCobblestone01" text="Decorative Cobblestone"/>
+		<text name="name_PlateConcrete00" text="Decorative Concrete Tile"/>
+		<text name="name_PlateConcrete01" text="Decorative Concrete Tile"/>
+		<text name="name_PlateConcrete02" text="Decorative Concrete Tile"/>
+		<text name="name_PlateConcrete03" text="Decorative Concrete Tile"/>
+		<text name="name_PlateConcrete04" text="Decorative Concrete Tile"/>
+		<text name="name_PlateConcrete05" text="Decorative Concrete Tile"/>
+		<text name="name_PlateConcrete06" text="Decorative Concrete Tile"/>
+		<text name="name_PlateConcrete07" text="Decorative Concrete Tile"/>
+		<text name="name_PlateDefault00" text="Decorative Tile"/>
+		<text name="name_PlateDefault01" text="Decorative Tile"/>
+		<text name="name_PlateEDGE00" text="Decorative EDGE Tile"/>
+		<text name="name_PlateEDGE01" text="Decorative EDGE Tile"/>
+		<text name="name_PlateEDGE02" text="Decorative EDGE Tile"/>
+		<text name="name_PlateEDGE03" text="Decorative EDGE Tile"/>
+		<text name="name_PlateEDGE04" text="Decorative EDGE Tile"/>
+		<text name="name_PlateEDGE05" text="Decorative EDGE Tile"/>
+		<text name="name_PlateEmissive00" text="Decorative Tile with Light"/>
+		<text name="name_PlateEmissive01" text="Decorative Tile with Light"/>
+		<text name="name_PlateEmissive02" text="Decorative Tile with Light"/>
+		<text name="name_PlateEmissive03" text="Decorative Tile with Light"/>
+		<text name="name_PlateEmissive04" text="Decorative Tile with Light"/>
+		<text name="name_PlateEmissive05" text="Decorative Tile with Light"/>
+		<text name="name_PlateEmissive06" text="Decorative Tile with Light"/>
+		<text name="name_PlateEmissive07" text="Decorative Tile with Light"/>
+		<text name="name_PlateGlass00" text="Decorative Glass Tile"/>
+		<text name="name_PlateGlass01" text="Decorative Glass Tile"/>
+		<text name="name_PlateGlass02" text="Decorative Glass Tile"/>
+		<text name="name_PlateGridMetal00" text="Decorative Metal Tile with Grid"/>
+		<text name="name_PlateGridMetal01" text="Decorative Metal Tile with Grid"/>
+		<text name="name_PlateMetal00" text="Decorative Metal Tile"/>
+		<text name="name_PlateMetal01" text="Decorative Metal Tile"/>
+		<text name="name_PlateMetal02" text="Decorative Metal Tile"/>
+		<text name="name_PlateMetal03" text="Decorative Metal Tile"/>
+		<text name="name_PlateMetal04" text="Decorative Metal Tile"/>
+		<text name="name_PlateMetal05" text="Decorative Metal Tile"/>
+		<text name="name_PlateMetal06" text="Decorative Metal Tile"/>
+		<text name="name_PlateMetal07" text="Decorative Metal Tile"/>
+		<text name="name_PlateMetal08" text="Decorative Metal Tile"/>
+		<text name="name_PlateMetal09" text="Decorative Metal Tile"/>
+		<text name="name_PlateRubber00" text="Decorative Rubber Tile"/>
+		<text name="name_PlateRubber01" text="Decorative Rubber Tile"/>
+		<text name="name_PlateTile00" text="Decorative Tile"/>
+		<text name="name_PlateTile01" text="Decorative Tile"/>
+		<text name="name_PlateTile02" text="Decorative Tile"/>
+		<text name="name_PlateTile03" text="Decorative Tile"/>
+		<text name="name_PlateTile04" text="Decorative Tile"/>
+		<text name="name_PlateWood00" text="Decorative Wood Tile"/>
+		<text name="name_PlateWood01" text="Decorative Wood Tile"/>
+		<text name="name_PlateWood02" text="Decorative Wood Tile"/>
+		<text name="name_PlateWood03" text="Decorative Wood Tile"/>
+		<text name="function_GroundPlates" text="These tiles can be placed on the Terrain to make your farm look Pristine!"/>
+		<text name="function_PlatesSnap" text="It's highly advisable to use the snap to grid action for perfect placement."/>
+		<text name="function_EDGELights" text="Fitted with automatic lights."/>
+		<text name="shopItem_GroundPlates" text="Texture Tiles"/>
+		<text name="GroundPlates" text="Tiles"/>
+		<text name="typeDesc_GroundPlates" text="Tiles with texture"/>
+		<text name="action_SwitchColor_up" text="Switch Color ->"/>
+		<text name="action_SwitchColor_down" text="<- Switch Color"/>
 	</texts>
 </l10n>

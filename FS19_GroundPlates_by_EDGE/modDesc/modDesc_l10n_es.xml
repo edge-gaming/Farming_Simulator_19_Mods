@@ -3,14 +3,72 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_EDGEFertilizerStorage" text="Almacenamiento de fertilizante líquido para su granja, aquí puede almacenar su Lodo, Digestato, Herbicida y Fertilizante líquido regular.">
-		<text name="typeDesc_EDGEFertilizerStorage" text="Almacenamiento de fertilizante líquido">
-		<text name="name_EDGEFertilizerStorage" text="Fertilizante líquido EDGE">
-		<text name="name_EDGE" text="EDGE Depósito de Fertilizante Líquido">
-		<text name="fullname_EDGEFertilizerStorage" text="Almacenamiento de fertilizante líquido EDGE">
-		<text name="action_fillStorage" text="Empezar a sobrecargar">
-		<text name="action_stopFillStorage" text="Dejar de sobrecargar">
-		<text name="EDGE Liquid Fertilizer" text="EDGE Depósito de Fertilizante Líquido"/>
-		<text name="EDGE Liquid Fertilizer Storage" text="Almacenamiento de fertilizante líquido EDGE"/>
+		<text name="name_PlateEDGE" text="EDGE Placas de tierra"/>
+		<text name="name_GroundPlates" text="EDGE Placas de tierra"/>
+		<text name="name_Foundations" text="Cimientos"/>
+		<text name="name_PlateAsphalt00" text="Azulejo de asfalto decorativo"/>
+		<text name="name_PlateAsphalt01" text="Azulejo de asfalto decorativo"/>
+		<text name="name_PlateCheckers00" text="Azulejos Cuadros Decorativos"/>
+		<text name="name_PlateCheckers01" text="Azulejos Cuadros Decorativos"/>
+		<text name="name_PlateCobblestone00" text="Adoquín decorativo"/>
+		<text name="name_PlateCobblestone01" text="Adoquín decorativo"/>
+		<text name="name_PlateConcrete00" text="Azulejo decorativo de hormigón"/>
+		<text name="name_PlateConcrete01" text="Azulejo decorativo de hormigón"/>
+		<text name="name_PlateConcrete02" text="Azulejo decorativo de hormigón"/>
+		<text name="name_PlateConcrete03" text="Azulejo decorativo de hormigón"/>
+		<text name="name_PlateConcrete04" text="Azulejo decorativo de hormigón"/>
+		<text name="name_PlateConcrete05" text="Azulejo decorativo de hormigón"/>
+		<text name="name_PlateConcrete06" text="Azulejo decorativo de hormigón"/>
+		<text name="name_PlateConcrete07" text="Azulejo decorativo de hormigón"/>
+		<text name="name_PlateDefault00" text="Azulejo decorativo"/>
+		<text name="name_PlateDefault01" text="Azulejo decorativo"/>
+		<text name="name_PlateEDGE00" text="Azulejo decorativo EDGE"/>
+		<text name="name_PlateEDGE01" text="Azulejo decorativo EDGE"/>
+		<text name="name_PlateEDGE02" text="Azulejo decorativo EDGE"/>
+		<text name="name_PlateEDGE03" text="Azulejo decorativo EDGE"/>
+		<text name="name_PlateEDGE04" text="Azulejo decorativo EDGE"/>
+		<text name="name_PlateEDGE05" text="Azulejo decorativo EDGE"/>
+		<text name="name_PlateEmissive00" text="Azulejo Decorativo con Luz"/>
+		<text name="name_PlateEmissive01" text="Azulejo Decorativo con Luz"/>
+		<text name="name_PlateEmissive02" text="Azulejo Decorativo con Luz"/>
+		<text name="name_PlateEmissive03" text="Azulejo Decorativo con Luz"/>
+		<text name="name_PlateEmissive04" text="Azulejo Decorativo con Luz"/>
+		<text name="name_PlateEmissive05" text="Azulejo Decorativo con Luz"/>
+		<text name="name_PlateEmissive06" text="Azulejo Decorativo con Luz"/>
+		<text name="name_PlateEmissive07" text="Azulejo Decorativo con Luz"/>
+		<text name="name_PlateGlass00" text="Azulejo de vidrio decorativo"/>
+		<text name="name_PlateGlass01" text="Azulejo de vidrio decorativo"/>
+		<text name="name_PlateGlass02" text="Azulejo de vidrio decorativo"/>
+		<text name="name_PlateGridMetal00" text="Azulejo decorativo de metal con rejilla"/>
+		<text name="name_PlateGridMetal01" text="Azulejo decorativo de metal con rejilla"/>
+		<text name="name_PlateMetal00" text="Azulejo decorativo de metal"/>
+		<text name="name_PlateMetal01" text="Azulejo decorativo de metal"/>
+		<text name="name_PlateMetal02" text="Azulejo decorativo de metal"/>
+		<text name="name_PlateMetal03" text="Azulejo decorativo de metal"/>
+		<text name="name_PlateMetal04" text="Azulejo decorativo de metal"/>
+		<text name="name_PlateMetal05" text="Azulejo decorativo de metal"/>
+		<text name="name_PlateMetal06" text="Azulejo decorativo de metal"/>
+		<text name="name_PlateMetal07" text="Azulejo decorativo de metal"/>
+		<text name="name_PlateMetal08" text="Azulejo decorativo de metal"/>
+		<text name="name_PlateMetal09" text="Azulejo decorativo de metal"/>
+		<text name="name_PlateRubber00" text="Azulejo decorativo de goma"/>
+		<text name="name_PlateRubber01" text="Azulejo decorativo de goma"/>
+		<text name="name_PlateTile00" text="Azulejo decorativo"/>
+		<text name="name_PlateTile01" text="Azulejo decorativo"/>
+		<text name="name_PlateTile02" text="Azulejo decorativo"/>
+		<text name="name_PlateTile03" text="Azulejo decorativo"/>
+		<text name="name_PlateTile04" text="Azulejo decorativo"/>
+		<text name="name_PlateWood00" text="Azulejo Decorativo De Madera"/>
+		<text name="name_PlateWood01" text="Azulejo Decorativo De Madera"/>
+		<text name="name_PlateWood02" text="Azulejo Decorativo De Madera"/>
+		<text name="name_PlateWood03" text="Azulejo Decorativo De Madera"/>
+		<text name="function_GroundPlates" text="¡Estas fichas se pueden colocar en el terreno para que su granja se vea impecable!"/>
+		<text name="function_PlatesSnap" text="Es muy recomendable utilizar la acción de ajuste a la cuadrícula para una ubicación perfecta."/>
+		<text name="function_EDGELights" text="Equipado con luces automáticas."/>
+		<text name="shopItem_GroundPlates" text="Azulejos de textura"/>
+		<text name="GroundPlates" text="Losas"/>
+		<text name="typeDesc_GroundPlates" text="Azulejos con textura"/>
+		<text name="action_SwitchColor_up" text="Cambiar color ->"/>
+		<text name="action_SwitchColor_down" text="<- Cambiar color"/>
 	</texts>
 </l10n>
