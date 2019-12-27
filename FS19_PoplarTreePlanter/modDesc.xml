@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="43">
-    <author>Mats-Andre Bru</author>
-    <version>1.0.0.0</version>
-    <iconFilename>icon.png</iconFilename>
-    <storeItems>
-        <storeItem xmlFilename="damconPL75.xml"/>
-    </storeItems>
-</modDesc>

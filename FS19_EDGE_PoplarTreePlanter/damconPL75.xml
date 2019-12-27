@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="treePlanter">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+    <storeData>
+        <name>
+            <en>PL-75</en></name>
+        <specs>
+            <neededPower>120</neededPower>
+            <workingWidth>1</workingWidth>
+            <combination>AGCO 1100</combination>
+            <capacity unit="$l10n_unit_pieces">1</capacity>
+            <fillTypes>TREESAPLINGS POPLAR</fillTypes>
+        </specs>
+        <functions>
+            <function>$l10n_function_forestryPlanter</function>
+        </functions>
+        <image>store_damconPL75.png</image>
+        <price>26000</price>
+        <lifetime>600</lifetime>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <category>wood</category>
+    </storeData>
+    <base>
+        <typeDesc>$l10n_typeDesc_treePlanter</typeDesc>
+        <filename>damconPL75.i3d</filename>
+        <size width="2.8" length="5"/>
+        <speedLimit value="8"/>
+        <components>
+            <component centerOfMass="0 0.5 0.5" solverIterationCount="10" mass="1420"/>
+        </components>
+        <schemaOverlay attacherJointPosition="0 0">
+            <default name="DEFAULT_IMPLEMENT"/>
+            <turnedOn name="DEFAULT_IMPLEMENT_ON"/>
+            <selected name="DEFAULT_IMPLEMENT_SELECTED"/>
+            <turnedOnSelected name="DEFAULT_IMPLEMENT_SELECTED_ON"/>
+        </schemaOverlay>
+    </base>
+    <powerConsumer ptoRpm="540" neededMinPtoPower="65" neededMaxPtoPower="75"/>
+    <wheels>
+        <wheelConfigurations>
+            <wheelConfiguration name="$l10n_configuration_valueDefault" price="0">
+                <wheels>
+                    <wheel>
+                        <physics restLoad="0.4" repr="wheelFrontLeft" forcePointRatio="0.23" initialCompression="25" radius="0.29" width="0.24" mass="0.02" suspTravel="0.1" spring="15" damper="10" rotationDamping="0.0005"/>
+                    </wheel>
+                    <wheel>
+                        <physics restLoad="0.4" repr="wheelFrontRight" forcePointRatio="0.23" initialCompression="25" radius="0.29" width="0.24" mass="0.02" suspTravel="0.1" spring="15" damper="10" rotationDamping="0.0005"/>
+                    </wheel>
+                    <wheel>
+                        <physics restLoad="0.3" repr="wheelBackRight" forcePointRatio="0.23" initialCompression="25" radius="0.29" width="0.24" mass="0.02" suspTravel="0.1" spring="10" damper="10" rotationDamping="0.0005"/>
+                    </wheel>
+                    <wheel>
+                        <physics restLoad="0.3" repr="wheelBackLeft" forcePointRatio="0.23" initialCompression="25" radius="0.29" width="0.24" mass="0.02" suspTravel="0.1" spring="10" damper="10" rotationDamping="0.0005"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+        </wheelConfigurations>
+    </wheels>
+    <attachable>
+        <inputAttacherJoints>
+            <inputAttacherJoint node="attacherJoint" jointType="implement" topReferenceNode="topReferenceNode" upperRotationOffset="6" lowerRotationOffset="0" allowsLowering="true">
+                <distanceToGround lower="0.45" upper="1.15"/>
+            </inputAttacherJoint>
+        </inputAttacherJoints>
+        <support animationName="moveSupport"/>
+        <brakeForce>0.05</brakeForce>
+    </attachable>
+    <lights>
+        <sharedLight linkNode="sideMarker01" filename="$data/shared/assets/lights/lizard/rearLightOvalOrange_01.xml"/>
+        <sharedLight linkNode="sideMarker02" filename="$data/shared/assets/lights/lizard/rearLightOvalOrange_01.xml"/>
+        <sharedLight linkNode="sideMarker03" filename="$data/shared/assets/lights/lizard/rearLightOvalOrange_01.xml"/>
+        <sharedLight linkNode="sideMarker04" filename="$data/shared/assets/lights/lizard/rearLightOvalOrange_01.xml"/>
+    </lights>
+    <powerTakeOffs>
+        <input inputAttacherJointIndices="1" detachNode="ptoDetachNode" inputNode="ptoInputNode" aboveAttacher="true" filename="$data/shared/assets/powerTakeOffs/walterscheidWWZ.xml"/>
+    </powerTakeOffs>
+    <groundReferenceNodes>
+        <groundReferenceNode node="treeNode" threshold="0.1" depthNode="depthNode"/>
+    </groundReferenceNodes>
+    <workParticles>
+        <particleAnimation>
+            <node node="soil" refNodeIndex="1" materialType="SOIL" maxDepth="-0.01"/>
+        </particleAnimation>
+        <particle>
+            <node node="soilEmitter" refNodeIndex="1" particleType="SOIL"/>
+            <node node="smokeEmitter" refNodeIndex="1" particleType="SOIL_SMOKE"/>
+        </particle>
+    </workParticles>
+    <animations>
+        <animation name="moveSupport">
+            <part node="wheelAxis" startTime="0" duration="0.6" startTrans="0 0.525 0.723" endTrans="0 0.155 0.723"/>
+        </animation>
+    </animations>
+    <cylindered>
+        <movingTools>
+            <movingTool node="wheelAxis" wheelIndices="1 2 3 4"/>
+        </movingTools>
+        <sounds>
+            <hydraulic template="DEFAULT_HYDRAULIC_SOUND"/>
+        </sounds>
+    </cylindered>
+    <fillUnit>
+        <fillUnitConfigurations>
+            <fillUnitConfiguration>
+                <fillUnits>
+                    <fillUnit unit="$l10n_unit_pieces" fillTypes="TREESAPLINGS POPLAR" capacity="0" updateMass="false"/>
+                </fillUnits>
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+    </fillUnit>
+    <treePlanter node="treeNode" minDistance="10" palletTrigger="palletTrigger" refNodeIndex="1" saplingPalletGrabNode="treeSaplingAttacher" saplingPalletMountNode="treeSaplingAttacher">
+        <sounds>
+            <work template="DEFAULT_CULTIVATOR_WORK" linkNode="damconPL75"/>
+        </sounds>
+        <animationNodes>
+            <animationNode node="rotor" rotAxis="1" rotSpeed="800" turnOnFadeTime="1" turnOffFadeTime="2"/>
+        </animationNodes>
+    </treePlanter>
+    <ai>
+        <areaMarkers leftNode="areaMarkerLeft" rightNode="areaMarkerRight" backNode="areaMarkerBack"/>
+        <sizeMarkers leftNode="sizeMarkerLeft" rightNode="sizeMarkerRight" backNode="sizeMarkerBack"/>
+        <collisionTrigger node="aiCollisionTrigger"/>
+        <needsLowering value="true"/>
+    </ai>
+    <foliageBending>
+        <bendingNode minX="-1.3" maxX="1.3" minZ="-2.2" maxZ="2.0" yOffset="0.7"/>
+    </foliageBending>
+    <baseMaterial>
+        <material name="damconPL75_mat" baseNode="damcon_vis">
+            <shaderParameter name="colorMat0" value="DAMCON_YELLOW1"/>
+            <shaderParameter name="colorMat1" value="DAMCON_RED1"/>
+        </material>
+    </baseMaterial>
+    <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
+    <washable dirtDuration="90" washDuration="1" workMultiplier="6" fieldMultiplier="2"/>
+    <i3dMappings>
+        <i3dMapping id="damconPL75" node="0>"/>
+        <i3dMapping id="attacherJoint" node="0>0|0"/>
+        <i3dMapping id="ptoInputNode" node="0>0|1"/>
+        <i3dMapping id="ptoDetachNode" node="0>0|2"/>
+        <i3dMapping id="topReferenceNode" node="0>1"/>
+        <i3dMapping id="damcon_vis" node="0>2"/>
+        <i3dMapping id="rotor" node="0>2|0"/>
+        <i3dMapping id="wheelAxis" node="0>2|1"/>
+        <i3dMapping id="wheelFrontLeft" node="0>2|1|0|0"/>
+        <i3dMapping id="wheelFrontRight" node="0>2|1|0|1"/>
+        <i3dMapping id="wheelBackRight" node="0>2|1|1|0"/>
+        <i3dMapping id="wheelBackLeft" node="0>2|1|2|0"/>
+        <i3dMapping id="sideMarker01" node="0>2|2|0"/>
+        <i3dMapping id="sideMarker02" node="0>2|2|1"/>
+        <i3dMapping id="sideMarker03" node="0>2|2|2"/>
+        <i3dMapping id="sideMarker04" node="0>2|2|3"/>
+        <i3dMapping id="treeNode" node="0>2|3"/>
+        <i3dMapping id="treeSaplingAttacher" node="0>2|4"/>
+        <i3dMapping id="areaMarkerLeft" node="0>2|6|0|0"/>
+        <i3dMapping id="areaMarkerRight" node="0>2|6|0|1"/>
+        <i3dMapping id="areaMarkerBack" node="0>2|6|0|2"/>
+        <i3dMapping id="sizeMarkerLeft" node="0>2|6|1|0"/>
+        <i3dMapping id="sizeMarkerRight" node="0>2|6|1|1"/>
+        <i3dMapping id="sizeMarkerBack" node="0>2|6|1|2"/>
+        <i3dMapping id="aiCollisionTrigger" node="0>2|6|2"/>
+        <i3dMapping id="soil" node="0>2|7|0|0"/>
+        <i3dMapping id="soilEmitter" node="0>2|7|0|1"/>
+        <i3dMapping id="smokeEmitter" node="0>2|7|0|2"/>
+        <i3dMapping id="depthNode" node="0>2|7|1"/>
+        <i3dMapping id="palletTrigger" node="0>2|8"/>
+    </i3dMappings>
+</vehicle>
