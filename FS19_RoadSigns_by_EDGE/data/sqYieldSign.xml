@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_name_sqYieldSign</name>
+        <functions>
+            <function>$l10n_function_EDGESign</function>
+            <function>$l10n_function_sqYieldSignDec</function>
+        </functions>
+        <image>store/store_sqYieldSign.dds</image>
+        <price>150</price>
+        <dailyUpkeep>0</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <species>placeable</species>
+        <category>decoration</category>
+    </storeData>
+    <placeableType>placeable</placeableType>
+    <filename>data/sqYieldSign.i3d</filename>
+    <placement testSizeX="0.5" testSizeZ="0.5" sizeX="0.25" sizeZ="0.25" useRandomYRotation="false" useManualYRotation="true"/>
+    <clearAreas>
+        <!-- clearArea needs no mask -->
+    </clearAreas>
+    <leveling requireLeveling="false">
+        <levelAreas>
+            <!-- levelArea needs no mask -->
+        </levelAreas>
+    </leveling>
+    <seasons>
+        <maskAreas>
+            <!-- needs no mask -->
+        </maskAreas>
+    </seasons>
+    <tipOcclusionUpdateArea sizeX="0" sizeZ="0"/>
+</placeable>
