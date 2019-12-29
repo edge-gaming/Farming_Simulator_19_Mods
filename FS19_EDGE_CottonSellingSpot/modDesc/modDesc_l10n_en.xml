@@ -13,4 +13,45 @@
 		<text name="action_fillStorage" text="Start Overloading"/>
 		<text name="action_stopFillStorage" text="Stop Overloading"/>
 	</texts>
+	<!-- <text name="typeDesc_MultiSellingStation" text="for later use"/> -->
+	<text name="name_MultiSellingStation">
+		<en>Multi Selling Station</en>
+		<de>Multi Verkaufsstation</de>
+		<fr>Poste De Vente Multiple</fr>
+		<es>Estación De Venta Múltiple</es>
+		<ru>Мультипродажная станция</ru>
+		<pl>Stacja Sprzedaży</pl>
+	</text>
+	<text name="name_MultiSellingStation_Black">
+		<en>Multi Selling Station Black Edition</en>
+		<de>Multi Verkaufsstation Schwarze Edition</de>
+		<fr>Poste De Vente Multiple Edition noir</fr>
+		<es>Estación De Venta Múltiple Edicion Negra</es>
+		<ru>Мультипродажная станция Черное издание</ru>
+		<pl>Stacja Sprzedaży Czarna Edycja</pl>
+	</text>
+	<text name="function_MultiSellingStation">
+		<en>Multi Selling Station, Here you can sell anything you'd like, From crop harvest to seeds and fertilizer.</en>
+		<de>Multi Verkaufsstation. Hier können Sie alles verkaufen, was Sie möchten, von der Ernte bis zu Saatgut und Dünger.</de>
+		<fr>Poste De Vente Multiple. Ici, vous pouvez vendre ce que vous voulez, de la récolte aux semences et aux engrais.</fr>
+		<es>Estación De Venta Múltiple. Aquí puede vender lo que quiera, desde la cosecha hasta las semillas y los fertilizantes.</es>
+		<ru>Мультипродажная станция. Здесь вы можете продать все, что захотите, от сбора урожая до семян и удобрений.</ru>
+		<pl>Stacja Sprzedaży. Tutaj możesz sprzedać wszystko, co chcesz, od zbiorów upraw po nasiona i nawozy.</pl>
+	</text>
+	<text name="GrainExpress">
+		<en>EDGE Grain Vault</en>
+		<de>EDGE Getreidewölbung</de>
+		<fr>EDGE Coffre À Grains</fr>
+		<es>EDGE Bóveda De Grano</es>
+		<ru>EDGE Хранилище Зерна</ru>
+		<pl>EDGE Skarbiec Ziarna</pl>
+	</text>
+	<text name="GrainExpressBlack">
+		<en>EDGE Grain Vault Black</en>
+		<de>EDGE Getreidewölbung Schwarz</de>
+		<fr>EDGE Coffre À Grains Noir</fr>
+		<es>EDGE Bóveda De Grano Negra</es>
+		<ru>EDGE Хранилище Зерна Черный</ru>
+		<pl>EDGE Skarbiec Ziarna czarny</pl>
+	</text>
 </l10n>

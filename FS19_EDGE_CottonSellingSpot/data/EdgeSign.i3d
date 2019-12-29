@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="EDGE Sign" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="textures/EDGE_Logo.dds"/>
+    <File fileId="2" filename="textures/EDGE_Logo_normal.dds"/>
+    <File fileId="3" filename="textures/EDGE_Logo_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="Decals_mat" materialId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="EdgeSign.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="Sign" clipDistance="300" nodeId="7" materialIds="4" castsShadows="true" receiveShadows="true"/>
+  </Scene>
+
+</i3D>

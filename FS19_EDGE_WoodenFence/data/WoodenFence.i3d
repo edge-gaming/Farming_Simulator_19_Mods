@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="C:/Users/Mats-Andre Bru/OneDrive/Documents/My Games/FarmingSimulator2019/mods/FS19_Fence_Placeable/Textures/fencesDE_diffuse.png"/>
+    <File fileId="2" filename="C:/Users/Mats-Andre Bru/OneDrive/Documents/My Games/FarmingSimulator2019/mods/FS19_Fence_Placeable/Textures/fencesDE_normal.png"/>
+    <File fileId="3" filename="C:/Users/Mats-Andre Bru/OneDrive/Documents/My Games/FarmingSimulator2019/mods/FS19_Fence_Placeable/Textures/fencesDE_specular.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="fencesDE_mat" materialId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="WoodenFence.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="FenceTypeC4M" static="true" clipDistance="80" nodeId="7" materialIds="4" castsShadows="true" receiveShadows="true">
+      <TransformGroup name="clearArea" nodeId="8">
+        <TransformGroup name="start" translation="0.221657 0 -0.2" nodeId="9">
+          <TransformGroup name="width" translation="3.37136 0 0" nodeId="10"/>
+          <TransformGroup name="height" translation="0 0 0.266151" nodeId="11"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="levelArea" nodeId="12">
+        <TransformGroup name="start" translation="0.171624 0 -0.0623575" nodeId="13">
+          <TransformGroup name="width" translation="3.48894 0 0" nodeId="14"/>
+          <TransformGroup name="height" translation="0 0 0.160345" nodeId="15"/>
+        </TransformGroup>
+      </TransformGroup>
+    </Shape>
+  </Scene>
+
+</i3D>

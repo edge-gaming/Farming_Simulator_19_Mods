@@ -1,11 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="47">
     <author>EDGE Gaming / Castiga</author>
-    <translationby>Castiga</translationby>
-    <version>1.0.0.0</version>
-    <iconFilename>Cotton_icon.png</iconFilename>
-    <title>
-        <!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
+    <translationsby>Castiga</translationsby>
+    <version>0.6.0.0</version>
+    <title><!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
         <en>Cotton Selling Station</en>
         <de>Multi Verkaufsstation</de>
         <fr>Poste De Vente Multiple</fr>
@@ -13,6 +11,7 @@
         <ru>Мультипродажная Cтанция</ru>
         <pl>Stacja Sprzedaży</pl>
     </title>
+    <iconFilename>Cotton_icon.png</iconFilename>
     <description>
         <en><![CDATA[Multi Selling Station. Here you can sell anything you'd like, From crop harvest to seeds and fertilizer.
 Selling prices will fluctuate and show up on the PDA / Statistics.
@@ -65,55 +64,13 @@ Rozmiar:    13 x 12.5 Metrów
     </description>
     <multiplayer supported="true"/>
     <storeItems>
-        <storeItem rootNode="placeable" xmlFilename="Cotton_SellingStation.xml"/>
-        <storeItem rootNode="placeable" xmlFilename="Cotton_SellingStationDark.xml"/>
+        <storeItem rootNode="placeable" xmlFilename="data/Cotton_SellingStation.xml"/>
+        <storeItem rootNode="placeable" xmlFilename="data/Cotton_SellingStationDark.xml"/>
     </storeItems>
     <brands>
-        <brand name="EDGE" title="EDGE Industries" image="EDGE_Brand_Logo.dds"/>
+        <brand name="EDGE" title="EDGE Industries" image="store/EDGE_Brand_Logo.dds"/>
     </brands>
-    <l10n>
-        <!-- <text name="typeDesc_MultiSellingStation" text="for later use"/> -->
-        <text name="name_MultiSellingStation">
-            <en>Multi Selling Station</en>
-            <de>Multi Verkaufsstation</de>
-            <fr>Poste De Vente Multiple</fr>
-            <es>Estación De Venta Múltiple</es>
-            <ru>Мультипродажная станция</ru>
-            <pl>Stacja Sprzedaży</pl>
-        </text>
-        <text name="name_MultiSellingStation_Black">
-            <en>Multi Selling Station Black Edition</en>
-            <de>Multi Verkaufsstation Schwarze Edition</de>
-            <fr>Poste De Vente Multiple Edition noir</fr>
-            <es>Estación De Venta Múltiple Edicion Negra</es>
-            <ru>Мультипродажная станция Черное издание</ru>
-            <pl>Stacja Sprzedaży Czarna Edycja</pl>
-        </text>
-        <text name="function_MultiSellingStation">
-            <en>Multi Selling Station, Here you can sell anything you'd like, From crop harvest to seeds and fertilizer.</en>
-            <de>Multi Verkaufsstation. Hier können Sie alles verkaufen, was Sie möchten, von der Ernte bis zu Saatgut und Dünger.</de>
-            <fr>Poste De Vente Multiple. Ici, vous pouvez vendre ce que vous voulez, de la récolte aux semences et aux engrais.</fr>
-            <es>Estación De Venta Múltiple. Aquí puede vender lo que quiera, desde la cosecha hasta las semillas y los fertilizantes.</es>
-            <ru>Мультипродажная станция. Здесь вы можете продать все, что захотите, от сбора урожая до семян и удобрений.</ru>
-            <pl>Stacja Sprzedaży. Tutaj możesz sprzedać wszystko, co chcesz, od zbiorów upraw po nasiona i nawozy.</pl>
-        </text>
-        <text name="GrainExpress">
-            <en>EDGE Grain Vault</en>
-            <de>EDGE Getreidewölbung</de>
-            <fr>EDGE Coffre À Grains</fr>
-            <es>EDGE Bóveda De Grano</es>
-            <ru>EDGE Хранилище Зерна</ru>
-            <pl>EDGE Skarbiec Ziarna</pl>
-        </text>
-        <text name="GrainExpressBlack">
-            <en>EDGE Grain Vault Black</en>
-            <de>EDGE Getreidewölbung Schwarz</de>
-            <fr>EDGE Coffre À Grains Noir</fr>
-            <es>EDGE Bóveda De Grano Negra</es>
-            <ru>EDGE Хранилище Зерна Черный</ru>
-            <pl>EDGE Skarbiec Ziarna czarny</pl>
-        </text>
-    </l10n>
+	<l10n filenamePrefix="modDesc/modDesc_l10n"/>
     <credits><![CDATA[
 ## Contributors
 - Castiga, EDGE Gaming

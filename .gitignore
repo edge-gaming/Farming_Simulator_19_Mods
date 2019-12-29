@@ -1,4 +1,11 @@
-#.md version="1.0" encoding="utf-8" standalone="no"
+#?.md version="1.0" encoding="utf-8" standalone="no"?
+#?author="Castiga"?
+#Exemple
+  #	<!-- Whole Folder -->
+  # *.shapes
+  #	<!-- Specific Folder -->
+  # *data/*.shapes
+
 # Compiled sources
 
 # build files
@@ -23,11 +30,18 @@
 *FS19_Crater_Bay_By_EDGE/maps/*.shapes
 *FS19_Crater_Bay_By_EDGE/maps/*.cache
 
-# Object files
+## Object files
+*.xcf
+
+# Prerequisites
 
 # Precompiled Headers
 
+# Folder config file
+*Desktop.ini
+
 # Libraries
+*.mayaSwatches
 *Map items/
 *MapBackupWork/
 *Maya_Projects/

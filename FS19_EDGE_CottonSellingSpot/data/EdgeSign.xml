@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_name_EDGE_Sign</name>
+        <functions>
+            <function>$l10n_function_EDGE_Sign</function>
+        </functions>
+        <specs>
+            <capacity>50000</capacity>
+            <fillTypeCategories>FARMSILO</fillTypeCategories>
+        </specs>
+        <image>store/store_EDGE Sign.dds</image>
+        <price>40000</price>
+        <dailyUpkeep>10</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <species>placeable</species>
+        <category>silos</category>
+    </storeData>
+    <placeableType>siloExtension</placeableType>
+    <filename>data/EdgeSign.i3d</filename>
+    <placement testSizeX="3.6" testSizeZ="3.6" sizeX="3.6" sizeZ="3.6" useRandomYRotation="false" useManualYRotation="true"/>
+    <dayNightObjects>
+        <dayNightObject node="4|0|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+    </dayNightObjects>
+	<storage node="1|0" fillTypeCategories="FARMSILO" capacityPerFillType="50000"/>
+    <clearAreas>
+        <clearArea startNode="2|0" widthNode="2|1" heightNode="2|2"/>
+    </clearAreas>
+    <leveling requireLeveling="true" maxSmoothDistance="10" maxSlope="75" maxEdgeAngle="30">
+        <levelAreas>
+            <levelArea startNode="3|0" widthNode="3|0|0" heightNode="3|0|1" groundType="asphalt"/>
+        </levelAreas>
+    </leveling>
+    <seasons>
+        <maskAreas>
+            <!-- needs no mask -->
+        </maskAreas>
+    </seasons>
+    <tipOcclusionUpdateArea sizeX="3.6" sizeZ="3.6"/>
+</placeable>

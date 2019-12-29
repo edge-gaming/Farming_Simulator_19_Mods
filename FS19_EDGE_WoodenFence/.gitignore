@@ -6,14 +6,7 @@
   #	<!-- Specific Folder -->
   # *data/*.shapes
 
-#build files
-
-*.mb
-*.mayaSwatches
-*.obj
-
-#Object files
-*.xcf
+# build files
 
 # Prerequisites
 
