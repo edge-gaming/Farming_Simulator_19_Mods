@@ -1,17 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <modDesc descVersion="47">
     <author>Edge Gaming / Castiga</author>
-    <version>0.8.0.0</version>
-    <title><!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
-        <en>Fliegl Lowloader EDGE Edition</en>
-        <de>Fliegl Tieflader EDGE Auflage</de>
-        <fr>Fliegl Surbaissé Édition EDGE</fr>
-        <es>Fliegl Cargador Bajo EDGE Edición</es>
-        <ru>Fliegl Низкорамная платформа EDGE Издание</ru>
-        <pl>Fliegl Niskopodwoziowa EDGE Wydanie</pl>
+    <version>1.0.0.0</version>
+    <title><!-- en=English de=German fr=French es=Spanish ru=Russian pl=Polish it=Italian br=Brazilian-Portuguese cs=Chinese(Simplified) ct=Chinese(Traditional) cz=Czech nl=Netherlands hu=Hungary jp=Japanese kr=Korean pt=Portuguese ro=Romanian tr=Turkish -->
+        <en>Fliegl Low Loader XL</en>
+        <de>Fliegl Tieflader XL</de>
+        <fr>Fliegl Surbaissé XL</fr>
+        <es>Fliegl Cargador Bajo XL</es>
+        <ru>Fliegl Низкорамная Платформа XL</ru>
+        <pl>Fliegl Niski Załadunek XL</pl>
+        <it>Fliegl Caricatore Basso XL</it>
     </title>
     <description>
-        <en><![CDATA[Fliegl Lowloader EDGE Edition is the Worlds first functional low loader that will actually fit your huge machinery.
+        <en><![CDATA[Fliegl Low Loader XL is the Worlds first functional low loader that will actually fit your huge machinery.
 It's wider and longer than most others making it ideal for this kind of work.
 You will have loads of costumizations options, and there is more to come!
 Fitted with worklights for nighttime work. Also fitted with detail lights working with every truck.
@@ -19,14 +20,11 @@ Fitted with worklights for nighttime work. Also fitted with detail lights workin
 The trailer has functioning tensionbelts, these will work on all things made for use with tensionbelt in the original game,
 function with fastening vehicles with these will be added in the future.
 
-Fliegl Lowloader EDGE Edition:
+Fliegl Low Loader XL:
 Price: 35.000€
 Size: 13 x 3m
-Weight: 7.500kg
-
-Changelog 1.0.0.0:
-Initial Release.]]></en>
-        <de><![CDATA[Fliegl Tieflader EDGE Auflage ist der weltweit erste funktionale Tieflader, der für Ihre riesigen Maschinen geeignet ist.
+Weight: 8.118 kg]]></en>
+        <de><![CDATA[Fliegl Tieflader XL ist der weltweit erste funktionale Tieflader, der für Ihre riesigen Maschinen geeignet ist.
 Es ist breiter und länger als die meisten anderen, was es ideal für diese Art von Arbeit macht.
 Sie werden viele Optionen für die Kostümierung haben, und es wird noch mehr geben!
 Ausgestattet mit Arbeitsscheinwerfern für die Nachtarbeit. Auch mit Detailleuchten ausgestattet, die für jeden LKW geeignet sind.
@@ -34,14 +32,11 @@ Ausgestattet mit Arbeitsscheinwerfern für die Nachtarbeit. Auch mit Detailleuch
 Der Trailer hat funktionierende Spanngurte, die auf allen Dingen funktionieren, die für die Verwendung mit Spanngurten im Originalspiel gemacht wurden.
 Funktion bei der Befestigung von Fahrzeugen mit diesen wird in Zukunft hinzukommen.
 
-Fliegl Tieflader EDGE Auflage:
+Fliegl Tieflader XL:
 Preis: 35.000 €
 Größe: 13 x 3 m
-Gewicht: 7.500 kg
-
-Änderungsprotokoll 1.0.0.0:
-Erstveröffentlichung.]]></de>
-        <fr><![CDATA[Fliegl surbaissé édition EDGE est le premier chargeur surbaissé fonctionnel au monde qui conviendra réellement à vos énormes machines.
+Gewicht: 8.118 kg]]></de>
+        <fr><![CDATA[Fliegl Surbaissé XL est le premier chargeur surbaissé fonctionnel au monde qui conviendra réellement à vos énormes machines.
 Il est plus large et plus long que la plupart des autres, ce qui le rend idéal pour ce type de travail.
 Vous aurez une multitude d'options de personnalisation, et d'autres sont à venir!
 Equipé de projecteurs de travail pour le travail de nuit. Également équipé de lumières de détail fonctionnant avec tous les camions.
@@ -49,14 +44,11 @@ Equipé de projecteurs de travail pour le travail de nuit. Également équipé d
 La bande-annonce a des courroies de tension qui fonctionnent sur tout ce qui est conçu pour être utilisé avec une courroie de tension dans le jeu original,
 fonctionner avec des véhicules de fixation avec ceux-ci seront ajoutés à l'avenir.
 
-Fliegl surbaissé édition EDGE:
+Fliegl Surbaissé XL:
 Prix: 35.000 €
 Taille: 13 x 3m
-Poids: 7.500kg
-
-Changer le journal 1.0.0.0:
-Première version.]]></fr>
-        <es><![CDATA[Fliegl Lowloader EDGE Edition es el primer cargador bajo funcional del mundo que realmente se adaptará a su enorme maquinaria.
+Poids: 8.118 kg]]></fr>
+        <es><![CDATA[Fliegl Cargador Bajo XL es el primer cargador bajo funcional del mundo que realmente se adaptará a su enorme maquinaria.
 Es más ancho y más largo que la mayoría de los demás, lo que lo hace ideal para este tipo de trabajo.
 Tendrás un montón de opciones de disfraces, ¡y hay más por venir!
 Equipados con faros de trabajo para trabajo nocturno. También equipado con luces de detalle trabajando con todos los camiones.
@@ -64,14 +56,11 @@ Equipados con faros de trabajo para trabajo nocturno. También equipado con luce
 El tráiler tiene cinturones de tensión en funcionamiento, estos funcionarán en todas las cosas hechas para usar con el cinturón de tensión en el juego original.
 La función con los vehículos de sujeción con estos se añadirá en el futuro.
 
-Fliegl Lowloader EDGE Edition:
+Fliegl Cargador Bajo XL:
 Precio: 35.000 €
 Tamaño: 13 x 3m
-Peso: 7.500kg
-
-Registro de cambios 1.0.0.0:
-Versión inicial.]]></es>
-        <ru><![CDATA[Fliegl Lowloader EDGE edition - первый в мире функциональный низкорамный погрузчик, который действительно подойдет для вашей огромной техники.
+Peso: 8.118 kg]]></es>
+        <ru><![CDATA[Fliegl Низкорамная Платформа XL - первый в мире функциональный низкорамный погрузчик, который действительно подойдет для вашей огромной техники.
 Он шире и длиннее, чем большинство других, что делает его идеальным для такой работы.
 У вас будет множество вариантов расчета стоимости, и это еще не все!
 Оснащен фарами для работы в ночное время. Также оснащен детальными огнями, работающими с каждым грузовиком.
@@ -79,14 +68,11 @@ Versión inicial.]]></es>
 В трейлере есть работающие натяжные ремни, они будут работать на всех вещах, сделанных для использования с натяжными ремнями в оригинальной игре,
 функция с креплением автомобилей с этим будет добавлена в будущем.
 
-Fliegl Lowloader EDGE Edition:
+Fliegl Низкорамная Платформа XL:
 Цена: 35.000 €
 Размер: 13 х 3 м
-Вес: 7.500 кг
-
-Журнал изменений 1.0.0.0:
-Первый выпуск.]]></ru>
-        <pl><![CDATA[Edycja Fliegl Lowloader EDGE to pierwsza na świecie funkcjonalna ładowarka niskopodwoziowa, która rzeczywiście pasuje do ogromnych maszyn.
+Вес: 8.118 кг]]></ru>
+        <pl><![CDATA[Fliegl Niski Załadunek XL to pierwsza na świecie funkcjonalna ładowarka niskopodwoziowa, która rzeczywiście pasuje do ogromnych maszyn.
 Jest szerszy i dłuższy niż większość innych, co czyni go idealnym do tego rodzaju pracy.
 Będziesz mieć mnóstwo opcji kostiumów, a jest ich więcej!
 Wyposażone w reflektory robocze do pracy w nocy. Wyposażony również w oświetlenie szczegółowe współpracujące z każdą ciężarówką.
@@ -94,20 +80,29 @@ Wyposażone w reflektory robocze do pracy w nocy. Wyposażony również w oświe
 Przyczepa ma działające paski napinające, które będą działać na wszystkie rzeczy wykonane z użyciem paska napinającego w oryginalnej grze,
 funkcja z pojazdami mocującymi z tymi zostanie dodana w przyszłości.
 
-Fliegl Lowloader EDGE Edition:
+Fliegl Niski Załadunek XL:
 Cena: 35 000 €
 Rozmiar: 13 x 3 m
-Waga: 7.500 kg
+Waga: 8.118 kg]]></pl>
+        <it><![CDATA[Fliegl Caricatore Basso XL è il primo caricatore basso funzionale al mondo che si adatta perfettamente ai tuoi enormi macchinari.
+È più largo e più lungo della maggior parte degli altri, rendendolo ideale per questo tipo di lavoro.
+Avrai un sacco di opzioni di costumizzazioni e ce ne sarà molte altre in arrivo!
+Dotato di fari da lavoro per il lavoro notturno. Dotato anche di luci di dettaglio funzionanti con ogni camion.
 
-Dziennik zmian 1.0.0.0:
-Pierwsze wydanie.]]></pl>
+Il trailer ha le cinture di sicurezza funzionanti, queste funzioneranno su tutte le cose fatte per l'uso con la cinghia di tensione nel gioco originale,
+la funzione con i veicoli di fissaggio con questi verrà aggiunta in futuro.
+
+Fliegl Caricatore Basso XL:
+Prezzo: 35.000 €
+Dimensioni: 13 x 3m
+Peso: 8.118 kg]]></it>
     </description>
     <iconFilename>EDGELowLoader_icon.dds</iconFilename>
     <multiplayer supported="true"/>
     <storeItems>
         <storeItem xmlFilename="data/EDGELowLoader.xml"/>
     </storeItems>
-	<vehicleTypes>
+    <vehicleTypes>
         <type name="EDGE_fliegl" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
             <specialization name="attacherJoints"/>
             <specialization name="lights"/>
@@ -121,64 +116,19 @@ Pierwsze wydanie.]]></pl>
             <specialization name="mountable"/>
         </type>
     </vehicleTypes>
-    <l10n>
-        <text name="typeDesc_EDGELowLoader">
-            <en>Worlds first functional low loader that will actually fit your huge machinery</en>
-            <de>Der weltweit erste funktionale Tieflader, der in Ihre riesigen Maschinen passt</de>
-            <fr>Le premier chargeur surbaissé fonctionnel au monde qui conviendra réellement à vos énormes machines</fr>
-        </text>
-        <text name="name_EDGELowLoader">
-            <en>Fliegl Lowloader EDGE Edition</en>
-            <de>Fliegl Tieflader EDGE Auflage</de>
-            <fr>Fliegl surbaissé édition EDGE</fr>
-            <es>Fliegl Cargador Bajo EDGE Edición</es>
-            <ru>Fliegl Низкорамная платформа EDGE Издание</ru>
-            <pl>Fliegl Niskopodwoziowa EDGE Wydanie</pl>
-        </text>
-		<text name="configuration_TwinRadial">
-            <en>Twin Radial</en>
-            <de>Zwillingsradial</de>
-            <fr>Radial double</fr>
-        </text>
-        <text name="configuration_CARGOXBIB">
-            <en>Cargo</en>
-            <de>Fracht</de>
-            <fr>Fliegl surbaissé édition EDGE</fr>
-        </text>
-        <text name="configuration_CXBheavyduty">
-            <en>Heavy Duty</en>
-            <de>Schwerlast</de>
-            <fr>À toute épreuve</fr>
-        </text>
-		<text name="configuration_rough">
-            <en>Rough</en>
-            <de>Rau</de>
-            <fr>Rugueux</fr>
-        </text>
-		<text name="configuration_TwinForestry">
-            <en>Forestry</en>
-            <de>Forstwirtschaft</de>
-            <fr>Sylviculture</fr>
-        </text>
-		<text name="input_function_light">
-            <en>Side Lights on/off</en>
-            <de>Lichten an/aus</de>
-            <fr>Lumière</fr>
-            <nl>Licht aan/uit</nl>
-        </text>
-        <text name="function_light">
-            <en>Side Lights on/off</en>
-            <de>Lichten an/aus</de>
-            <fr>Lumière</fr>
-            <nl>Licht aan/uit</nl>
-        </text>
-		<text name="DARK GREY" value="0.037 0.037 0.037 1" color="0.037 0.037 0.037 1" material="0"/>
-		<text name="ITRUNNER" value="0.037 0.037 0.037 1" color="0.0382 0.0369 0.0482 1" material="8"/>
-    </l10n>
     <brands>
         <brand name="EDGE" title="EDGE Industries" image="store/EDGE_Brand_Logo.dds"/>
     </brands>
+    <l10n filenamePrefix="modDesc/modDesc_l10n"/>
     <!--<inputBindings>
-        <input name="unfoldOBJECT" key="ACTIVATE_OBJECT"/>
+        <input name="input_sidelight_on" key="\"/>
+        <input name="input_sidelight_off" key="\"/>
     </inputBindings>-->
+    <credits><![CDATA[
+## Translators
+- Castiga
+## Contributors
+- EDGE Gaming, Castiga
+## Designers
+- Castiga]]></credits>
 </modDesc>

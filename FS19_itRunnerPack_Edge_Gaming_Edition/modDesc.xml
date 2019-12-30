@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="40">
+    <author>Castiga / Edge Gaming</author>
+    <version>2.0.1.2</version>
+    <title>
+        <en>ITRunner Pack Edge Gaming Edition</en>
+    </title>
+    <description>
+        <en>Hooklift</en>
+        <de>Hakenlift</de>
+        <fr>Remorque avec bras de levage</fr>
+        <it>Camion ribaltabile</it>
+        <es>Camión con grúa</es>
+        <pt>Gancho elevatório</pt>
+        <br>Gancho de Elevação</br>
+        <nl>Haakarm</nl>
+        <pl>Hakowiec</pl>
+        <cz>Hákový nakladač</cz>
+        <hu>Kampós emelő</hu>
+        <ro>Camion cu cârlig</ro>
+        <ru>Крюковой погрузчик</ru>
+        <tr>Kanca Lift</tr>
+        <kr>훅리프트</kr>
+        <jp>フックリフト</jp>
+        <cs>吊钩</cs>
+        <ct>吊鉤</ct>
+    </description>
+    <iconFilename>icon_itRunnerPack.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <storeItems>
+        <storeItem xmlFilename="itRunner/itRunner2633HD.xml"/>
+        <storeItem xmlFilename="itRunner/containerDumper.xml"/>
+        <storeItem xmlFilename="itRunner/containerChaff.xml"/>
+        <storeItem xmlFilename="itRunner/containerSilage.xml"/>
+        <storeItem xmlFilename="itRunner/containerWood.xml"/>
+        <storeItem xmlFilename="itRunner/containerBales.xml"/>
+        <storeItem xmlFilename="itRunner/containerSlurry.xml"/>
+        <storeItem xmlFilename="itRunner/containerManureSpreader.xml"/>
+        <storeItem xmlFilename="itRunner/SlurryContainer.xml"/>
+        <storeItem xmlFilename="itRunner/UniversalBarrel.xml"/>
+        <storeItem xmlFilename="itRunner/FuelBarrel.xml"/>
+		<storeItem xmlFilename="itRunner/SlurryBarrel.xml"/>
+    </storeItems>
+    <vehicleTypes>
+        <type name="it_fliegl" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="attacherJoints"/>
+            <specialization name="lights"/>
+            <specialization name="attachable"/>
+            <specialization name="animatedVehicle"/>
+            <specialization name="cylindered"/>
+            <specialization name="turnOnVehicle"/>
+            <specialization name="powerConsumer"/>
+            <specialization name="foldable"/>
+            <specialization name="washable"/>
+            <specialization name="mountable"/>
+        </type>
+        <type name="hookLiftContainerTrailerSpreader" parent="manureSpreader" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="hookLiftContainer"/>
+        </type>
+        <type name="hookLiftContainerTrailerBarrel" parent="manureBarrel" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="hookLiftContainer"/>
+        </type>
+        <type name="hookLiftSlurryContainer" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="hookLiftContainer"/>
+        </type>
+    </vehicleTypes>
+    <l10n>
+        <text name="hookLiftSlurryContainer">
+            <en>Containers can only be lifted and transported by a hooklift trailer and they can be filled with different fruit types.</en>
+            <de>Container können auf einen Hakenliftanhänger aufgesattelt werden und mit verschiedenen Materialien beladen werden.</de>
+            <fr>Les bennes ne peuvent être soulevées et transportées que par une remorque avec bras de levage et peuvent contenir différents types de cultures.</fr>
+            <it>I container possono essere sollevati e trasportati solo da un camion ribaltabile e possono essere riempiti con diversi tipi di prodotto.</it>
+            <es>Los camiones con grúa pueden levantar y transportar los contenedores, que pueden llenarse con varios tipos de producto.</es>
+            <pt>Os contentores apenas podem ser erguidos e transportados por um atrelado de gancho elevatório e podem ser enchidos com diferentes tipos de produtos</pt>
+            <br>O contêiner apenas pode ser erguido e transportado por um reboque com gancho de elevação e pode ser carregado com diferentes tipos de produtos.</br>
+            <nl>Containers kunnen alleen door een haakarmtrailer worden opgetild en getransporteerd en ze kunnen met verschillende fruittypes worden gevuld.</nl>
+            <pl>Kontenery można załadować różnymi rodzajami roślin. Tylko hakowiec może podnosić i transportować kontenery.</pl>
+            <cz>Kontejnery lze plnit různými druhy plodin a může je zvedat a přepravovat pouze vlečka s hákovým nakladačem.</cz>
+            <hu>A konténereket csak kampós emelős pótkocsival lehet felemelni és szállítani. Ezeket különféle gyümölcsökkel tölthetjük fel.</hu>
+            <ro>Containerele pot fi ridicate și transportate doar cu ajutorul unei remorci cu cârlig și pot fi încărcate cu diferite tipuri de recoltă.</ro>
+            <ru>Контейнеры заполняются различными видами культур. Только крюковой погрузчик может поднимать и перевозить контейнеры.</ru>
+            <tr>Konteynerler yalnızca bir kancalı lift ile kaldırılıp taşınabilir ayrıca çeşitli meyve türleriyle doldurulabilir.</tr>
+            <kr>컨테이너는 훅리프트로만 들어 올려서 수송할 수 있으며 여러 종류의 작물 유형을 실을 수 있습니다.</kr>
+            <jp>フックリフトは唯一コンテナを持ち上げ、運搬できます。コンテナには様々な作物を入れることができます。</jp>
+            <cs>集装箱只能被吊钩拖车吊起与运输並且装填不同水果类型</cs>
+            <ct>集裝箱只能被吊勾托車吊起與輸送以及裝運不同作物類型</ct>
+        </text>
+        <text name="function_slurryContainer">
+            <en>Containers can only be lifted and transported by a hooklift trailer and they can be filled with different fruit types.</en>
+        </text>
+        <text name="function_hookLift">
+            <en>Hooklift trailers can lift and transport several different kinds of containers.</en>
+        </text>
+        <text name="function_hookLiftContainer">
+            <en>Containers can only be lifted and transported by a hooklift trailer and they can be filled with different fruit types.</en>
+        </text>
+        <text name="load_container">
+            <en>Load container</en>
+        </text>
+        <text name="unload_container">
+            <en>Drop off container</en>
+        </text>
+        <text name="load_arm">
+            <en>Retract arm</en>
+        </text>
+        <text name="unload_arm">
+            <en>Extend arm</en>
+        </text>
+        <text name="configuration_TwinRadial">
+            <en>Twin Radial</en>
+        </text>
+        <text name="configuration_CARGOXBIB">
+            <en>Cargo</en>
+        </text>
+        <text name="configuration_CXBheavyduty">
+            <en>Heavy Duty</en>
+        </text>
+        <text name="typeDesc_container">
+            <en>Container</en>
+            <de>Container</de>
+            <fr>Benne</fr>
+            <it>Container</it>
+            <es>Contenedor</es>
+            <pt>Contentor</pt>
+            <br>Contêiner</br>
+            <nl>Container</nl>
+            <pl>Kontener</pl>
+            <cz>Kontejner</cz>
+            <hu>Konténer</hu>
+            <ro>Containerul</ro>
+            <ru>контейнер</ru>
+            <tr>Konteyner</tr>
+            <kr>컨테이너 싣기</kr>
+            <jp>コンテナ</jp>
+            <cs>容器</cs>
+            <ct>容器</ct>
+        </text>
+        <text name="typeDesc_hookLiftTrailer">
+            <en>Hooklift</en>
+            <de>Hakenlift</de>
+            <fr>Remorque avec bras de levage</fr>
+            <it>Camion ribaltabile</it>
+            <es>Camión con grúa</es>
+            <pt>Gancho elevatório</pt>
+            <br>Gancho de Elevação</br>
+            <nl>Haakarm</nl>
+            <pl>Hakowiec</pl>
+            <cz>Hákový nakladač</cz>
+            <hu>Kampós emelő</hu>
+            <ro>Camion cu cârlig</ro>
+            <ru>Крюковой погрузчик</ru>
+            <tr>Kanca Lift</tr>
+            <kr>훅리프트</kr>
+            <jp>フックリフト</jp>
+            <cs>吊钩</cs>
+            <ct>吊鉤</ct>
+        </text>
+        <text name="function_hookLift">
+            <en>Hooklift trailers can lift and transport several different kinds of containers.</en>
+            <de>Hakenliftanhänger können verschiedene Container aufsatteln.</de>
+            <fr>Les remorques avec bras de levage peuvent soulever et transporter différents types de bennes.</fr>
+            <it>I camion ribaltabili possono sollevare e trasportare diversi tipi di container.</it>
+            <es>Los camiones con grúa pueden levantar y transportar varios tipos de contenedores.</es>
+            <pt>Os atrelados de gancho elevatório conseguem levantar e transportar vários tipos de contentores</pt>
+            <br>O reboque com gancho de elevação pode erguer e transportar vários tipos de contêiner.</br>
+            <nl>Haakarmtrailers kunnen verschillende soorten containers optillen en transporteren.</nl>
+            <pl>Hakowce służą do podnoszenia i transportu różnych rodzajów kontenerów.</pl>
+            <cz>Vlečky s hákovým nakladačem mohou zvedat a přepravovat různé druhy kontejnerů.</cz>
+            <hu>A kampós emelők számos különféle típusú konténert képesek szállítani.</hu>
+            <ro>Remorcile cu cârlig pot ridica și transporta diferite tipuri de containere.</ro>
+            <ru>Крюковые погрузчики поднимают и перевозят разные типы контейнеров.</ru>
+            <tr>Kancalı lift römorkları çeşitli konteynerleri kaldırabilir ve taşıyabilir.</tr>
+            <kr>훅리프트 트레일러는 여러 종류의 컨테이너를 들어올려서 수송할 수 있습니다.</kr>
+            <jp>フックリフト トレイラーは様々なタイプのコンテナを持ち上げ、運搬できます。</jp>
+            <cs>吊钩拖车能吊起与运输数种不同的集装箱</cs>
+            <ct>吊鉤拖車可以吊起與運送數種不同類型的集裝箱</ct>
+        </text>
+        <text name="function_hookLiftContainer">
+            <en>Containers can only be lifted and transported by a hooklift trailer and they can be filled with different fruit types.</en>
+            <de>Container können auf einen Hakenliftanhänger aufgesattelt werden und mit verschiedenen Materialien beladen werden.</de>
+            <fr>Les bennes ne peuvent être soulevées et transportées que par une remorque avec bras de levage et peuvent contenir différents types de cultures.</fr>
+            <it>I container possono essere sollevati e trasportati solo da un camion ribaltabile e possono essere riempiti con diversi tipi di prodotto.</it>
+            <es>Los camiones con grúa pueden levantar y transportar los contenedores, que pueden llenarse con varios tipos de producto.</es>
+            <pt>Os contentores apenas podem ser erguidos e transportados por um atrelado de gancho elevatório e podem ser enchidos com diferentes tipos de produtos</pt>
+            <br>O contêiner apenas pode ser erguido e transportado por um reboque com gancho de elevação e pode ser carregado com diferentes tipos de produtos.</br>
+            <nl>Containers kunnen alleen door een haakarmtrailer worden opgetild en getransporteerd en ze kunnen met verschillende fruittypes worden gevuld.</nl>
+            <pl>Kontenery można załadować różnymi rodzajami roślin. Tylko hakowiec może podnosić i transportować kontenery.</pl>
+            <cz>Kontejnery lze plnit různými druhy plodin a může je zvedat a přepravovat pouze vlečka s hákovým nakladačem.</cz>
+            <hu>A konténereket csak kampós emelős pótkocsival lehet felemelni és szállítani. Ezeket különféle gyümölcsökkel tölthetjük fel.</hu>
+            <ro>Containerele pot fi ridicate și transportate doar cu ajutorul unei remorci cu cârlig și pot fi încărcate cu diferite tipuri de recoltă.</ro>
+            <ru>Контейнеры заполняются различными видами культур. Только крюковой погрузчик может поднимать и перевозить контейнеры.</ru>
+            <tr>Konteynerler yalnızca bir kancalı lift ile kaldırılıp taşınabilir ayrıca çeşitli meyve türleriyle doldurulabilir.</tr>
+            <kr>컨테이너는 훅리프트로만 들어 올려서 수송할 수 있으며 여러 종류의 작물 유형을 실을 수 있습니다.</kr>
+            <jp>フックリフトは唯一コンテナを持ち上げ、運搬できます。コンテナには様々な作物を入れることができます。</jp>
+            <cs>集装箱只能被吊钩拖车吊起与运输並且装填不同水果类型</cs>
+            <ct>集裝箱只能被吊勾托車吊起與輸送以及裝運不同作物類型</ct>
+        </text>
+        <text name="load_container">
+            <en>Load container</en>
+            <de>Container aufladen</de>
+            <fr>Charger la benne</fr>
+            <it>Carica container</it>
+            <es>Cargar contenedor</es>
+            <pt>Carregar contentor</pt>
+            <br>Carregar contêiner</br>
+            <nl>Container laden</nl>
+            <pl>Załaduj kontener</pl>
+            <cz>Naložit kontejner</cz>
+            <hu>Konténer felrakása</hu>
+            <ro>Încarcă containerul</ro>
+            <ru>Загрузить контейнер</ru>
+            <tr>Konteyner yükle</tr>
+            <kr>컨테이너 싣기</kr>
+            <jp>コンテナを積む</jp>
+            <cs>装载集装箱</cs>
+            <ct>裝載集裝箱</ct>
+        </text>
+        <text name="unload_container">
+            <en>Drop off container</en>
+            <de>Container abladen</de>
+            <fr>Déposer la benne</fr>
+            <it>Scarica container</it>
+            <es>Soltar contenedor</es>
+            <pt>Depositar contentor</pt>
+            <br>Descarregar contêiner</br>
+            <nl>Container lossen</nl>
+            <pl>Wyładuj kontener</pl>
+            <cz>Složit kontejner</cz>
+            <hu>Konténer lerakása</hu>
+            <ro>Descarcă containerul</ro>
+            <ru>Выгрузить контейнер</ru>
+            <tr>Konteyneri bırak</tr>
+            <kr>컨테이너 내리기</kr>
+            <jp>コンテナを降ろす</jp>
+            <cs>卸下集装箱</cs>
+            <ct>卸下集裝箱</ct>
+        </text>
+        <text name="load_arm">
+            <en>Retract arm</en>
+            <de>Arm anheben</de>
+            <fr>Plier le bras de levage</fr>
+            <it>Ritrai braccio</it>
+            <es>Retirar brazo</es>
+            <pt>Retrair braço</pt>
+            <br>Retrair braço</br>
+            <nl>Arm intrekken</nl>
+            <pl>Wsunąć ramię</pl>
+            <cz>Zatáhnout rameno</cz>
+            <hu>Kar behúzása</hu>
+            <ro>Retrage brațul</ro>
+            <ru>Убрать стрелу</ru>
+            <tr>Kolu geriye çek</tr>
+            <kr>암 접기</kr>
+            <jp>アームをしまう</jp>
+            <cs>撤回吊臂</cs>
+            <ct>收回吊臂</ct>
+        </text>
+        <text name="unload_arm">
+            <en>Extend arm</en>
+            <de>Arm senken</de>
+            <fr>Déployer le bras de levage</fr>
+            <it>Estendi braccio</it>
+            <es>Extender brazo</es>
+            <pt>Estender braço</pt>
+            <br>Estender braço</br>
+            <nl>Arm verlengen</nl>
+            <pl>Wysunąć ramię</pl>
+            <cz>Vytáhnout rameno</cz>
+            <hu>Kar kinyújtása</hu>
+            <ro>Întinde brațul</ro>
+            <ru>Выдвинуть стрелу</ru>
+            <tr>Kolu uzat</tr>
+            <kr>암 펼치기</kr>
+            <jp>アームを伸ばす</jp>
+            <cs>伸展吊臂</cs>
+            <ct>伸長吊臂</ct>
+        </text>
+        <text name="function_hookLiftContainerSlurry1">
+            <en>Containers can only be lifted and transported by a hooklift trailer and they can be filled with different fruit types.</en>
+            <de>Container können auf einen Hakenliftanhänger aufgesattelt werden und mit verschiedenen Materialien beladen werden.</de>
+            <fr>Les bennes ne peuvent être soulevées et transportées que par une remorque avec bras de levage et peuvent contenir différents types de cultures.</fr>
+            <it>I container possono essere sollevati e trasportati solo da un camion ribaltabile e possono essere riempiti con diversi tipi di prodotto.</it>
+            <es>Los camiones con grúa pueden levantar y transportar los contenedores, que pueden llenarse con varios tipos de producto.</es>
+            <pt>Os contentores apenas podem ser erguidos e transportados por um atrelado de gancho elevatório e podem ser enchidos com diferentes tipos de produtos</pt>
+            <br>O contêiner apenas pode ser erguido e transportado por um reboque com gancho de elevação e pode ser carregado com diferentes tipos de produtos.</br>
+            <nl>Containers kunnen alleen door een haakarmtrailer worden opgetild en getransporteerd en ze kunnen met verschillende fruittypes worden gevuld.</nl>
+            <pl>Kontenery można załadować różnymi rodzajami roślin. Tylko hakowiec może podnosić i transportować kontenery.</pl>
+            <cz>Kontejnery lze plnit různými druhy plodin a může je zvedat a přepravovat pouze vlečka s hákovým nakladačem.</cz>
+            <hu>A konténereket csak kampós emelős pótkocsival lehet felemelni és szállítani. Ezeket különféle gyümölcsökkel tölthetjük fel.</hu>
+            <ro>Containerele pot fi ridicate și transportate doar cu ajutorul unei remorci cu cârlig și pot fi încărcate cu diferite tipuri de recoltă.</ro>
+            <ru>Контейнеры заполняются различными видами культур. Только крюковой погрузчик может поднимать и перевозить контейнеры.</ru>
+            <tr>Konteynerler yalnızca bir kancalı lift ile kaldırılıp taşınabilir ayrıca çeşitli meyve türleriyle doldurulabilir.</tr>
+            <kr>컨테이너는 훅리프트로만 들어 올려서 수송할 수 있으며 여러 종류의 작물 유형을 실을 수 있습니다.</kr>
+            <jp>フックリフトは唯一コンテナを持ち上げ、運搬できます。コンテナには様々な作物を入れることができます。</jp>
+            <cs>集装箱只能被吊钩拖车吊起与运输並且装填不同水果类型</cs>
+            <ct>集裝箱只能被吊勾托車吊起與輸送以及裝運不同作物類型</ct>
+        </text>
+        <text name="input_function_light">
+            <en>Lights on/off</en>
+            <de>Lichten an/aus</de>
+            <fr>Lumière</fr>
+            <nl>Licht aan/uit</nl>
+        </text>
+        <text name="function_light">
+            <en>Lights on/off</en>
+            <de>Lichten an/aus</de>
+            <fr>Lumière</fr>
+            <nl>Licht aan/uit</nl>
+        </text>
+    </l10n>
+    <brands>
+        <brand name="ITRUNNER" title="IT Runner" image="store/brands/brand_itrunner.dds"/>
+        <brand name="EDGE" title="EDGE Industries" image="store/brands/EDGE_Brand_Logo.dds"/>
+    </brands>
+    <specializations>
+        <specialization name="hoseSystemVehicle" className="HoseSystemVehicle" filename="HoseSystemVehicle.lua"/>
+    </specializations>
+</modDesc>

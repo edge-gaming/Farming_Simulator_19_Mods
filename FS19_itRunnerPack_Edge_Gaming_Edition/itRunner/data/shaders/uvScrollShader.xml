@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<CustomShader version="4">
+    <Parameters>
+        <Parameter name="offsetUV" target="offsetUV" type="float4" defaultValue="0 0 0 0"/>
+    </Parameters>
+    <LodLevel startDistance="0">
+        <CodeInjections>
+          <CodeInjection position="MATERIALINFO">
+            <![CDATA[
+            uniform float4 offsetUV;
+            ]]>
+          </CodeInjection>
+            <CodeInjection position="POST_SET_TEXCOORDS_VS">
+                <![CDATA[
+                #if defined(ALBEDO_MAP) || defined(EMISSIVE_MAP)
+                    float2 uv = getDefaultTexCoords(In);
+                    uv.xy += offsetUV.xy;
+                    Out.defaultTexCoords = uv;
+                #endif
+                ]]>
+            </CodeInjection>
+          </CodeInjections>
+    </LodLevel>
+</CustomShader>

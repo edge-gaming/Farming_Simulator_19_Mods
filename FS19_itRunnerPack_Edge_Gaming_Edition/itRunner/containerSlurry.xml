@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<vehicle type="hookLiftContainerTrailerBarrel">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+    <storeData>
+        <name>
+            <en>Slurry container</en>
+            <de>Güllecontainer</de>
+            <fr>Benne à lisier</fr>
+            <it>Container liquami</it>
+            <es>Contenedor de purín</es>
+            <pt>Contentor de fertilizante</pt>
+            <br>Contêiner de fertilizante</br>
+            <nl>Mestcontainer</nl>
+            <pl>Kontener na obornik</pl>
+            <cz>Kontejner na močůvku</cz>
+            <hu>Iszapkonténer</hu>
+            <ro>Container p. îngrășăminte</ro>
+            <ru>Контейнер под навоз</ru>
+            <tr>Bulamaç konteyneri</tr>
+            <kr>슬러리 컨테이너</kr>
+            <jp>スラリー コンテナ</jp>
+            <cs>泥浆集装箱</cs>
+            <ct>水肥集装箱</ct></name>
+        <specs>
+            <neededPower>140</neededPower>
+            <workingWidth>18</workingWidth>
+            <combination>ITR 26.33 HD</combination>
+        </specs>
+        <functions>
+            <function>$l10n_function_hookLiftContainer</function>
+            <function>$l10n_function_slurrySpreader</function>
+        </functions>
+        <image>store_containerSlurry.png</image>
+        <price>34000</price>
+        <lifetime>600</lifetime>
+        <dailyUpkeep>5</dailyUpkeep>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <category>slurryTanks</category>
+        <vertexBufferMemoryUsage>510488</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>87540</indexBufferMemoryUsage>
+        <textureMemoryUsage>11469208</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+    <base>
+        <typeDesc>$l10n_typeDesc_manureBarrel</typeDesc>
+        <filename>itRunner/containerSlurry.i3d</filename>
+        <size width="3.5" length="8.5" lengthOffset="0.3"/>
+        <speedLimit value="17"/>
+        <components>
+            <component centerOfMass="0 0.2 0" solverIterationCount="10" mass="2600"/>
+        </components>
+        <schemaOverlay attacherJointPosition="0 0">
+            <default name="DEFAULT_IMPLEMENT"/>
+            <turnedOn name="DEFAULT_IMPLEMENT_ON"/>
+            <selected name="DEFAULT_IMPLEMENT_SELECTED"/>
+            <turnedOnSelected name="DEFAULT_IMPLEMENT_SELECTED_ON"/>
+        </schemaOverlay>
+    </base>
+    <wheels>
+        <wheelConfigurations>
+            <wheelConfiguration>
+                <wheels autoRotateBackSpeed="2.0">
+                    <wheel>
+                        <physics restLoad="1.0" tipOcclusionAreaGroupId="1" repr="wheelLeft" radius="0.085" width="0.5" mass="0.02" initialCompression="50" suspTravel="0.05" spring="300" damper="100" frictionScale="0.8" yOffset="0.03"/>
+                    </wheel>
+                    <wheel>
+                        <physics restLoad="1.0" tipOcclusionAreaGroupId="1" repr="wheelRight" radius="0.085" width="0.5" mass="0.02" initialCompression="50" suspTravel="0.05" spring="300" damper="100" frictionScale="0.8" yOffset="0.03"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+        </wheelConfigurations>
+    </wheels>
+    <attachable>
+        <inputAttacherJoints>
+            <inputAttacherJoint node="attacherJoint" jointType="hookLift" upperRotationOffset="0" allowsJointRotLimitMovement="false" forceSelectionOnAttach="false"/>
+        </inputAttacherJoints>
+        <brakeForce>0.5</brakeForce>
+    </attachable>
+    <powerConsumer ptoRpm="450" neededMaxPtoPower="30"/>
+    <workAreas>
+        <workArea type="sprayer" functionName="processSprayerArea" disableBackwards="false" requiresGroundContact="false">
+            <area startNode="startIndex" widthNode="widthIndex" heightNode="heightIndex"/>
+        </workArea>
+    </workAreas>
+    <sprayer>
+        <usageScales workingWidth="18.0" scale="1"/>
+        <effects>
+            <effectNode effectClass="SlurrySideToSideEffect" effectNode="effect_mesh" delay="1" materialType="sprayer" materialTypeId="2" fadeOutTime="1" fadeInTime="1" startDelay="0" stopDelay="0" refAnimation="sprayerAnimation"/>
+        </effects>
+    </sprayer>
+    <fillTriggerVehicle triggerNode="fillTrigger" fillUnitIndex="1" litersPerSecond="1200"/>
+    <dischargeable>
+        <dischargeNode node="dischargeNode" emptySpeed="500" fillUnitIndex="1" unloadInfoIndex="3">
+            <info width="1.0" length="0.5" zOffset="0.4"/>
+            <trigger node="dischargeTrigger"/>
+            <dischargeSound template="SLURRY_02"/>
+        </dischargeNode>
+    </dischargeable>
+    <animations>
+        <animation name="sprayerAnimation" looping="true">
+            <part node="spreader" startTime="0" endTime="0.5" startRot="0 -40 0" endRot="0 40 0"/>
+            <part node="spreader" startTime="0.5" endTime="1.0" startRot="0 40 0" endRot="0 -40 0"/>
+        </animation>
+        <animation name="fillLevelDisplay">
+            <part node="fillMeter" startTime="0.0" endTime="1.0" startRot="0 0 -50" endRot="0 0 50"/>
+        </animation>
+    </animations>
+    <fillUnit>
+        <fillUnitConfigurations>
+            <fillUnitConfiguration>
+                <fillUnits>
+                    <fillUnit unit="$l10n_unit_literShort" fillTypeCategories="slurryTank" capacity="28000">
+                        <dashboard displayType="ANIMATION" valueType="fillLevel" animName="fillLevelDisplay"/>
+                        <exactFillRootNode node="exactFillRootNode"/>
+                    </fillUnit>
+                </fillUnits>
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+        <sounds>
+            <fill template="SLURRY_02"/>
+        </sounds>
+    </fillUnit>
+    <turnOnVehicle>
+        <turnedOnAnimation name="sprayerAnimation"/>
+        <activatableFillUnits>
+            <activatableFillUnit index="1"/>
+        </activatableFillUnits>
+        <sounds>
+            <work template="SLURRY_02">
+                <pitch indoor="0.75" outdoor="0.75"/>
+            </work>
+        </sounds>
+    </turnOnVehicle>
+    <ai>
+        <areaMarkers leftNode="aiMarkerLeft" rightNode="aiMarkerRight" backNode="aiMarkerBack"/>
+        <allowTurnBackward value="true"/>
+    </ai>
+    <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
+    <washable dirtDuration="90" washDuration="1" workMultiplier="3" fieldMultiplier="2"/>
+    <foliageBending>
+        <bendingNode minX="-1.35" maxX="1.35" minZ="-3.5" maxZ="4.1" yOffset="0.2"/>
+    </foliageBending>
+    <baseMaterial>
+        <material name="containerSlurry_mat" baseNode="containerSlurry_vis">
+            <shaderParameter name="colorMat1" value="SHARED_BLACK1"/>
+        </material>
+    </baseMaterial>
+    <baseMaterialConfigurations price="1500" useDefaultColors="true" defaultColorIndex="0">
+        <baseMaterialConfiguration color="0.95 0.95 0.95 1" price="0"/>
+        <baseMaterialConfiguration name="SILVER" color="0.6456 0.6456 0.6456 1" material="8" price="1500"/>
+        <baseMaterialConfiguration name="CHROME" color="0.9800 0.9800 0.9800 1" material="2" price="1500"/>
+        <material name="containerSlurry_mat" shaderParameter="colorMat1"/>
+    </baseMaterialConfigurations>
+    <i3dMappings>
+        <i3dMapping id="containerSlurry_vis" node="0>0"/>
+        <i3dMapping id="wheelLeft" node="0>0|0|0"/>
+        <i3dMapping id="wheelRight" node="0>0|0|1"/>
+        <i3dMapping id="attacherJoint" node="0>0|1"/>
+        <i3dMapping id="spreader" node="0>0|2"/>
+        <i3dMapping id="effect_mesh" node="0>0|2|0|0"/>
+        <i3dMapping id="effectNode" node="0>0|3"/>
+        <i3dMapping id="exactFillRootNode" node="0>0|4|0"/>
+        <i3dMapping id="fillTrigger" node="0>0|4|1"/>
+        <i3dMapping id="dischargeTrigger" node="0>0|4|2"/>
+        <i3dMapping id="dischargeNode" node="0>0|4|3"/>
+        <i3dMapping id="fillMeter" node="0>0|4|4"/>
+        <i3dMapping id="startIndex" node="0>0|5|0"/>
+        <i3dMapping id="widthIndex" node="0>0|5|1"/>
+        <i3dMapping id="heightIndex" node="0>0|5|2"/>
+        <i3dMapping id="aiMarkerLeft" node="0>0|5|3"/>
+        <i3dMapping id="aiMarkerRight" node="0>0|5|4"/>
+        <i3dMapping id="aiMarkerBack" node="0>0|5|5"/>
+    </i3dMappings>
+</vehicle>

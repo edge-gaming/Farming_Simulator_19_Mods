@@ -3,18 +3,26 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_EDGEGrainSilo" 			text="Questo edificio ha illuminazione automatica."/>
-		<text name="name_SmallGrainSilo" 				text="Silo Per Cereali piccoli"/>
-		<text name="name_LargeGrainSilo" 				text="Silo Per Cereali di Grandi Dimensioni"/>
-		<text name="name_LargeGrainSiloSystem" 			text="Sistema di Silo Per Cereali di Grandi Dimensioni"/>
-		<text name="name_LargeWhiteGrainSiloSystem"		text="Grande Sistema di Silo Per Cereali Bianchi"/>
-		<text name="name_SmallGrainSiloExtension" 		text="Prolunga Per Silo Per Cereali Piccoli"/>
-		<text name="name_GrainSiloExtension" 			text="Estensione Del Silo di Grano"/>
-		<text name="name_LargeGrainSiloExtension" 		text="Prolunga Per Silo Per Cereali di Grandi Dimensioni"/>
-		<text name="name_LargeWhiteGrainSiloExtension" 	text="Ampia Estensione Per Silo di Grano Bianco"/>
-		<text name="name_SmallGrainSiloExtension1" 		text="Prolunga Per Silo Per Cereali Piccoli"/>
-		<text name="name_SmallWhiteGrainSiloExtension" 	text="Small White Grain Silo Extension"/>
-		<!-- <text name="typeDesc_EDGEGrainSilo" text="Silos can be used to store grain"/> -->
-		<!-- <text name="function_EDGEGrainSiloExtension" text="It can be placed within 100 Meters of the farmsilo."/> -->
+		<text name="name_EDGELowLoader"			text="Fliegl Caricatore Basso XL"/>
+		<text name="shopItem_EDGELowLoader"		text="Fliegl Caricatore Basso"/>
+		<text name="function_EDGELowLoader"		text="Caricatore basso molto più grande che si adatta perfettamente ai tuoi enormi macchinari."/>
+        <text name="configuration_TwinRadial" 	text="Radiale doppia"/>
+        <text name="configuration_CARGOXBIB" 	text="Carico"/>
+        <text name="configuration_CXBheavyduty" text="Robusto"/>
+        <text name="configuration_rough" 		text="Ruvido"/>
+        <text name="configuration_TwinForestry"	text="Silvicoltura"/>
+        <text name="input_function_light" 		text="Luci laterali accese / spente"/>
+        <text name="function_light" 			text="Dotato di luci di lavoro luminose per il lavoro notturno."/>
+        <text name="color_EDGEGOLD" 			text="EDGE ORO"/>
+        <text name="color_EDGESILVER" 			text="EDGE ARGENTO"/>
+        <text name="color_DARKGREY"				text="GRIGIO SCURO"/>
+        <text name="color_ITRUNNER" 			text="IT RUNNER"/>
+        <text name="color_CHROME" 				text="CROMO"/>
+        <text name="color_SILVER" 				text="ARGENTO"/>
+        <text name="color_DARKBLUECHROME" 		text="BLU SCURO CROMO"/>
+        <text name="color_ORANGECHROME" 		text="ARANCIA CROMO"/>
+        <text name="color_GREENCHROME" 			text="VERDE CROMO"/>
+        <text name="color_BLUECHROME" 			text="BLU CROMO"/>
+        <text name="color_REDCHROME" 			text="ROSSO CROMO"/>
 	</texts>
 </l10n>

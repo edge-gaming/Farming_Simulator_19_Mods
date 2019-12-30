@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Slurry container" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="9" filename="data/shared/assets/assetLibraryDecals_diffuse.dds"/>
+    <File fileId="10" filename="data/shared/assets/assetLibraryDecals_normal.dds"/>
+    <File fileId="8" filename="data/shared/default_normal.dds"/>
+    <File fileId="5" filename="data/shared/detailArray_diffuse.png"/>
+    <File fileId="4" filename="data/shared/detailArray_normal.png"/>
+    <File fileId="3" filename="data/shared/detailArray_specular.png"/>
+    <File fileId="11" filename="data/containerSlurryDecals_specular.dds"/>
+    <File fileId="6" filename="data/containerSlurry_normal.dds"/>
+    <File fileId="7" filename="data/containerSlurry_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="assetLibraryDecals_mat" materialId="5" customShaderId="2" customShaderVariation="Decal_colorMask">
+      <Texture fileId="9"/>
+      <Normalmap fileId="10"/>
+      <Glossmap fileId="11"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="containerSlurry_mat" materialId="7" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="2" customShaderVariation="colorMask">
+      <Normalmap fileId="6"/>
+      <Glossmap fileId="7"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.034 0.095 0.301 0"/>
+      <CustomParameter name="colorMat1" value="0.7372 0.7372 0.7372 0"/>
+      <CustomParameter name="colorMat2" value="0.8751 0.0016 0.0005 0"/>
+      <CustomParameter name="colorMat3" value="0.397 0.202 0.033 0"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="lambert1" materialId="4" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="2">
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="default_mat" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1">
+      <Normalmap fileId="8"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="containerSlurry.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="containerSlurry_main_component1" dynamic="true" compound="true" collisionMask="8397058" density="0.1" clipDistance="300" nodeId="17" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+      <Shape shapeId="2" name="containerSlurry_vis" nodeId="18" materialIds="7" castsShadows="true" receiveShadows="true" skinBindNodeIds="18 20 21 23 32">
+        <TransformGroup name="wheels" nodeId="19">
+          <TransformGroup name="wheelLeft" translation="0.916431 0.089304 -2.95037" nodeId="20"/>
+          <TransformGroup name="wheelRight" translation="-0.916431 0.089304 -2.95037" nodeId="21"/>
+        </TransformGroup>
+        <TransformGroup name="attacherJoint" translation="-1.13687e-15 1.70682 4.09509" rotation="0 90 0" nodeId="22"/>
+        <TransformGroup name="spreader" translation="-6.96182e-07 1.64084 -3.59175" nodeId="23">
+          <TransformGroup name="effect" translation="0 -1.64084 3.59175" nodeId="24">
+            <Shape shapeId="3" name="effect_mesh" translation="0 1.49608 -3.58294" clipDistance="100" nodeId="25" materialIds="6" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="effectNode" translation="0 1.641 -3.592" nodeId="26"/>
+        <TransformGroup name="fillUnit" nodeId="27">
+          <Shape shapeId="4" name="exactFillRootNode" translation="0 1.21961 -0.399868" visibility="false" kinematic="true" compound="true" collisionMask="1073741824" nodeId="28" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="5" name="fillTrigger" translation="0 1.63661 0.39265" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="1073741824" nodeId="29" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="6" name="dischargeTrigger" translation="0 1.63661 0.344925" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="1073741824" nodeId="30" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <TransformGroup name="dischargeNode" translation="0 1.27651 -3.67496" nodeId="31"/>
+          <TransformGroup name="fillMeter" translation="-1.20936 1.31363 3.88086" nodeId="32"/>
+        </TransformGroup>
+        <TransformGroup name="areas" nodeId="33">
+          <TransformGroup name="startIndex" translation="0 0 -5" nodeId="34"/>
+          <TransformGroup name="widthIndex" translation="9 0 -8" nodeId="35"/>
+          <TransformGroup name="heightIndex" translation="-9 0 -8" nodeId="36"/>
+          <TransformGroup name="aiMarkerLeft" translation="9 0 -8" nodeId="37"/>
+          <TransformGroup name="aiMarkerRight" translation="-9 0 -8" nodeId="38"/>
+          <TransformGroup name="aiMarkerBack" translation="0 0 -9" nodeId="39"/>
+        </TransformGroup>
+        <Shape shapeId="7" name="assetLibraryDecals_decal" clipDistance="30" nodeId="40" materialIds="5" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+      </Shape>
+      <Shape shapeId="8" name="colBottom" translation="0 0.22016 0.350519" visibility="false" compoundChild="true" collisionMask="8194" density="0.01" nodeId="41" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+    </Shape>
+  </Scene>
+
+</i3D>

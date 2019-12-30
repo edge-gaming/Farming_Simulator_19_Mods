@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<vehicle type="fuelTrailer">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+    <author>LS-Modsource/Modder Rolf</author>
+    <Convertauthor>Castiga / Edge Gaming</Convertauthor>
+    <storeData>
+        <name>
+            <fr>Fliegl fuelbarrel</fr>
+            <en>Fliegl fuelbarrel</en>
+            <de>Fliegl Kraftstofftank</de></name>
+        <specs>
+            <neededPower>85</neededPower>
+            <combination>ITR 26.33 HD</combination>
+            <capacity unit="$l10n_unit_liter">25000</capacity>
+        </specs>
+        <functions>
+            <function>
+                <fr>Used to transport fuel</fr>
+                <en>Used to transport fuel</en>
+                <de>Dient zum Transport von Treibstoff</de>
+            </function>
+			<function>$l10n_function_tank</function>
+        </functions>
+        <image>store_flieglSlurry.dds</image>
+        <price>12900</price>
+        <lifetime>600</lifetime>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <category>misc</category>
+    </storeData>
+    <base>
+        <typeDesc>$l10n_typeDesc_tipper</typeDesc>
+        <filename>itRunner/FuelBarrel.i3d</filename>
+        <size width="4.5" length="5.6"/>
+        <components>
+            <component centerOfMass="0 0.2 0" solverIterationCount="10" mass="1500"/>
+        </components>
+        <schemaOverlay attacherJointPosition="0 0">
+            <default name="DEFAULT_IMPLEMENT"/>
+            <turnedOn name="DEFAULT_IMPLEMENT_ON"/>
+            <selected name="DEFAULT_IMPLEMENT_SELECTED"/>
+            <turnedOnSelected name="DEFAULT_IMPLEMENT_SELECTED_ON"/>
+        </schemaOverlay>
+    </base>
+    <wheels>
+        <wheelConfigurations>
+            <wheelConfiguration>
+                <wheels autoRotateBackSpeed="2.0">
+                    <wheel>
+                        <physics restLoad="1.0" tipOcclusionAreaGroupId="1" repr="wheelLeft" radius="0.085" width="0.5" mass="0.02" initialCompression="50" suspTravel="0.05" spring="300" damper="100" frictionScale="0.8" yOffset="0.03"/>
+                    </wheel>
+                    <wheel>
+                        <physics restLoad="1.0" tipOcclusionAreaGroupId="1" repr="wheelRight" radius="0.085" width="0.5" mass="0.02" initialCompression="50" suspTravel="0.05" spring="300" damper="100" frictionScale="0.8" yOffset="0.03"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+        </wheelConfigurations>
+    </wheels>
+    <attachable>
+        <inputAttacherJoints>
+            <inputAttacherJoint node="attacherJoint" jointType="hookLift" upperRotationOffset="0" allowsJointRotLimitMovement="false" forceSelectionOnAttach="true" allowDetachingWhileLifted="false"/>
+        </inputAttacherJoints>
+        <brakeForce>0.5</brakeForce>
+    </attachable>
+    <animations>
+        <animation name="tipAnimationBack">
+            <part node="tipdummy" startTime="0" duration="1" startTrans="0 0 0" endTrans="0 0 1"/>
+        </animation>
+    </animations>
+    <fillUnit>
+        <fillUnitConfigurations>
+            <fillUnitConfiguration>
+                <fillUnits>
+                    <fillUnit unit="$l10n_unit_literShort" fillTypes="diesel" capacity="25000">
+                        <dashboard displayType="ANIMATION" valueType="fillLevel" animName="fillLevel"/>
+                        <fillRootNode node="it_Fuel"/>
+                        <fillMassNode node="it_Fuel"/>
+                    </fillUnit>
+                </fillUnits>
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+    </fillUnit>
+    <fillSound file="$data/sounds/tools/slurry/garant_pump_small_loop.ogg" pitchOffset="1.0" volume="0.6" volume3D="0.6" innerRadius="10" radius="40" linkNode="0>"/>
+    <refuelSound file="$data/maps/sounds/vehicles/shared/refuel_loop_01.ogg" pitchOffset="1.0" volume="0.6" volume3D="0.6" innerRadius="10" radius="40" linkNode="0>"/>
+    <fuelFillLitersPerSecond>750</fuelFillLitersPerSecond>
+    <gasStationTrigger index="fuelTrigger"/>
+    <dischargeable>
+        <dischargeNode node="dischargeNode">
+            <info width="2"/>
+        </dischargeNode>
+    </dischargeable>
+	<foliageBending>
+        <bendingNode minX="-1.25" maxX="1.25" minZ="-4.7" maxZ="1.2" yOffset="0.6" />
+    </foliageBending>
+    <trailer>
+        <trailerConfigurations>
+            <trailerConfiguration>
+                <trailer>
+                    <tipSide name="info_tipSideBack">
+                        <animation name="tipAnimationBack" speedScale="1"/>
+                        <doorAnimation name="tipAnimationBackDoor"/>
+                    </tipSide>
+                </trailer>
+            </trailerConfiguration>
+        </trailerConfigurations>
+    </trailer>
+    <pipe>
+        <unloadingTriggers>
+            <unloadingTrigger node="unloadingTrigger"/>
+        </unloadingTriggers>
+    </pipe>
+    <washable dirtDuration="90" washDuration="1" workMultiplier="4"/>
+    <hoseSystem hasPumpMotor="true"/>
+    <pumpMotor startUpTime="1000" litersPerSecond="141"/>
+    <pumpSound file="$data/sounds/garantPump_small.wav" pitchOffset="1.00" volume="1" indoorVolumeFactor="0.48" indoorLowpassGain="0.45"/>
+    <hoseSystemReferences>
+        <hoseSystemReference createNode="true" position="0.954 -2.517 0.348" inRangeDistance="5" rotation="90 0 90" componentIndex="0"/>
+        <hoseSystemReference createNode="true" position="0.992 3.17 0.721" inRangeDistance="2" rotation="90 0 0" componentIndex="0" parkable="true" offsetDirection="right" parkLength="4"/>
+        <!-- startTransOffset="0 0 0" startRotOffset="5 0 0" endTransOffset="0 0.5 0" endRotOffset="5 0 0" /> -->
+        <hoseSystemReference createNode="true" position="0.865 3.17 0.721" inRangeDistance="2" rotation="90 0 0" componentIndex="0" parkable="true" offsetDirection="right" parkLength="4"/>
+        <!-- startTransOffset="0 0 0" startRotOffset="5 0 0" endTransOffset="0 0.5 0" endRotOffset="5 0 0" /> -->
+    </hoseSystemReferences>
+    <unloadTrigger index="0>7"/>
+    <baseColorConfigurations useDefaultColors="true" price="800" defaultColorIndex="4">
+        <colorNode node="fliegl_vis"/>
+    </baseColorConfigurations>
+    <i3dMappings>
+        <i3dMapping id="fliegl_vis" node="0>3"/>
+        <i3dMapping id="wheelLeft" node="0>0"/>
+        <i3dMapping id="wheelRight" node="0>1"/>
+        <i3dMapping id="attacherJoint" node="0>2"/>
+        <i3dMapping id="it_Fuel" node="0>"/>
+        <i3dMapping id="container_vis" node="0>4"/>
+        <i3dMapping id="fillLevelMarker" node="0>14" />
+        <i3dMapping id="fuelTrigger" node="0>10" />
+        <i3dMapping id="dischargeNode" node="0>11" />
+        <i3dMapping id="unloadingTrigger" node="0>7" />
+        <i3dMapping id="tipdummy" node="0>12" />
+    </i3dMappings>
+</vehicle>

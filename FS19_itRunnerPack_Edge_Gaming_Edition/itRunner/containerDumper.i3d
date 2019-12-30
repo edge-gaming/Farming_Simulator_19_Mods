@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Grain Container" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="9" filename="data/shared/default_normal.dds"/>
+    <File fileId="6" filename="data/containerDumper_diffuse.dds"/>
+    <File fileId="7" filename="data/containerDumper_normal.dds"/>
+    <File fileId="8" filename="data/containerDumper_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="effect_mat" materialId="6" diffuseColor="0.498039 0.498039 0.498039 1">
+      <Normalmap fileId="9"/>
+    </Material>
+    <Material name="lambert1" materialId="4" diffuseColor="0.498039 0.498039 0.498039 1" customShaderId="2">
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="containerDumper_mat" materialId="5" customShaderId="2" customShaderVariation="colorMask">
+      <Texture fileId="6"/>
+      <Normalmap fileId="7"/>
+      <Glossmap fileId="8"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.7372 0.7372 0.7372 0"/>
+      <CustomParameter name="colorMat1" value="0.056 0.053 0.048 5"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="containerDumper.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="containerDumper_main_component1" dynamic="true" compound="true" collisionMask="8450" density="1.1" clipDistance="300" objectMask="65535" nodeId="24" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+      <TransformGroup name="wheelLeft" translation="0.915128 0.0899435 -2.95892" nodeId="25"/>
+      <TransformGroup name="wheelRight" translation="-0.915128 0.0899435 -2.95892" nodeId="26"/>
+      <TransformGroup name="attacherJoint" translation="0 1.61523 4.09314" rotation="0 90 0" nodeId="27"/>
+      <Shape shapeId="2" name="container_vis" nodeId="28" materialIds="5" castsShadows="true" receiveShadows="true" skinBindNodeIds="28 25 26 29 32 33">
+        <TransformGroup name="door" translation="1.13687e-15 1.57643 -1.64592" nodeId="29">
+          <TransformGroup name="doorHydrRef" translation="-1.17388e-15 -0.228335 0.203261" nodeId="30"/>
+          <Shape shapeId="3" name="colDoor" translation="-1.13687e-15 -0.673482 -1.35417" rotation="10.2818 0 0" visibility="false" compoundChild="true" collisionMask="8450" linearDamping="0.5" angularDamping="0.5" density="0.001" clipDistance="300" objectMask="65535" nodeId="31" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </TransformGroup>
+        <TransformGroup name="doorHydr" translation="0 1.3481 -2.58514" nodeId="32">
+          <TransformGroup name="doorHydrPunch" translation="-3.70074e-17 7.88371e-07 1.14249" nodeId="33"/>
+          <TransformGroup name="pipe1Ref" translation="-7.88861e-33 -0.152372 0.083788" rotation="-70.6331 0 0" clipDistance="50" nodeId="34"/>
+          <TransformGroup name="pipe2Ref" translation="-1.85037e-17 -0.152372 0.537997" rotation="-51.5577 0 0" clipDistance="50" nodeId="35"/>
+        </TransformGroup>
+        <TransformGroup name="pipes" nodeId="36">
+          <Shape shapeId="4" name="pipe1" translation="1.85037e-17 0.23818 -2.83794" rotation="-70.6331 0 0" clipDistance="50" nodeId="37" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="pipe2" translation="-1.85037e-17 0.237885 -2.80747" rotation="-51.5577 0 0" clipDistance="50" nodeId="38" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <TransformGroup name="pipeRefFrame" translation="-1.85037e-17 1.19573 -2.04715" clipDistance="50" nodeId="39"/>
+        </TransformGroup>
+        <TransformGroup name="grainplanes" translation="0 0.30749 3.77783" nodeId="40">
+          <Shape shapeId="6" name="fillVolume" translation="0 -0.023264 -3.31497" clipDistance="300" nodeId="41" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </TransformGroup>
+        <TransformGroup name="particles" translation="2.27374e-15 0.291627 -3.042" nodeId="42">
+          <Shape shapeId="7" name="grainNorm" translation="-1.86162e-14 0 0" clipDistance="100" nodeId="43" materialIds="6" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="8" name="smokeNorm" translation="-1.86162e-14 0 0" visibility="false" clipDistance="100" nodeId="44" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="tipReferenceNode" translation="-3.66747e-17 0.559194 -3.64841" rotation="0 180 0" nodeId="45"/>
+        <TransformGroup name="fillVolumeHeightNodes" translation="1.45499e-15 0 0" nodeId="46">
+          <TransformGroup name="fillVolumeHeightNode1" translation="-0.5 1.87648 -2.81456" nodeId="47"/>
+          <TransformGroup name="fillVolumeHeightNode2" translation="0.5 1.87648 -2.815" nodeId="48"/>
+          <TransformGroup name="fillVolumeHeightNode3" translation="-0.5 1.87648 3.46233" nodeId="49"/>
+          <TransformGroup name="fillVolumeHeightNode4" translation="0.5 1.87648 3.46189" nodeId="50"/>
+        </TransformGroup>
+      </Shape>
+      <Shape shapeId="9" name="exactFillRootNode" translation="0.000303764 1.75848 0.676026" kinematic="true" collisionMask="1082130432" linearDamping="0.5" angularDamping="0.5" density="0.01" clipDistance="100" nodeId="51" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <TransformGroup name="fillAutoAimTargetNode" translation="0 1.74366 0.0661565" nodeId="52"/>
+      <Shape shapeId="10" name="colFront" translation="0 1.16447 3.60708" visibility="false" compoundChild="true" collisionMask="8194" density="0.001" nodeId="53" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="11" name="containerDumper1" translation="-0.830873 0.351461 0.354882" visibility="false" compoundChild="true" collisionMask="8194" density="0.001" nodeId="54" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="12" name="containerDumper2" translation="1.25676 1.22698 0.391189" visibility="false" compoundChild="true" collisionMask="8194" density="0.001" nodeId="55" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="13" name="containerDumper3" translation="1.17443 0.643053 0.362213" visibility="false" compoundChild="true" collisionMask="8194" density="0.001" nodeId="56" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="14" name="containerDumper4" translation="0.830873 0.351461 0.354882" visibility="false" compoundChild="true" collisionMask="8194" density="0.001" nodeId="57" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="15" name="containerDumper5" translation="-1.25676 1.21057 0.391189" visibility="false" compoundChild="true" collisionMask="8194" density="0.001" nodeId="58" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="16" name="containerDumper6" translation="-1.17443 0.643053 0.362213" visibility="false" compoundChild="true" collisionMask="8194" density="0.001" nodeId="59" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+    </Shape>
+  </Scene>
+
+</i3D>

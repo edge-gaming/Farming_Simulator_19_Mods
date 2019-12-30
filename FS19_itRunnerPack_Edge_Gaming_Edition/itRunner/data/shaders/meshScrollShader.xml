@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomShader version="4">
+    <Parameters>
+        <Parameter name="scrollPosition" target="scrollPosition" type="float4" defaultValue="0 0 0 0"/>
+        <Parameter name="lengthAndRadius" target="lengthAndRadius" type="float4" defaultValue="2.0 0.5 0 0"/>
+    </Parameters>
+    <LodLevel startDistance="0">
+        <CodeInjections>
+            <CodeInjection position="MATERIALINFO"><![CDATA[
+                        uniform float4 scrollPosition;
+                        uniform float4 lengthAndRadius;
+                        ]]></CodeInjection>
+            <CodeInjection position="START_POS_VS"><![CDATA[
+        float crawlerRadius = lengthAndRadius.y;
+        float crawlerRadiusPi = 3.1415926*crawlerRadius;
+        float crawlerLength = lengthAndRadius.x;
+
+        float posFirstRot = crawlerLength;
+        float posAfterRot = posFirstRot + crawlerRadiusPi;
+        float posAfterBottom = posAfterRot + crawlerLength;
+        float posAfterLastRot = posAfterBottom + crawlerRadiusPi;
+
+        float offsetZRaw = scrollPosition.x;
+        #if defined( DEBUG_SHOW_PARALLAX )
+                offsetZRaw = cTime_s;
+        #endif
+        position.z = fmod(position.z+offsetZRaw,posAfterLastRot);
+
+        //if (position.z > posAfterLastRot) {
+        //    position.z -= posAfterLastRot;
+        if (position.z > posAfterBottom) {
+                // z=0 -> 0
+                // z=pi*r -> pi
+                float angle = (position.z - posAfterBottom) / crawlerRadius;
+
+                position.z = - sin(angle)*position.y;
+                position.y = -cos(angle)*position.y;
+        } else if (position.z > posAfterRot) {
+                position.z = posFirstRot - (position.z - posAfterRot);
+                position.y = -position.y;
+        } else if (position.z > posFirstRot) {
+                // z=0 -> 0
+                // z=pi*r -> pi
+                float angle = (position.z - posFirstRot) / crawlerRadius;
+
+                position.z = posFirstRot + sin(angle)*position.y;
+                position.y = cos(angle)*position.y;
+        }
+]]></CodeInjection>
+            <CodeInjection position="GET_NORMAL_VS"><![CDATA[
+        float3 normal = In.normal.xyz;
+
+        float crawlerRadius = lengthAndRadius.y;
+        float crawlerRadiusPi = 3.1415926*crawlerRadius;
+        float crawlerLength = lengthAndRadius.x;
+
+        float posFirstRot = crawlerLength;
+        float posAfterRot = posFirstRot + crawlerRadiusPi;
+        float posAfterBottom = posAfterRot + crawlerLength;
+        float posAfterLastRot = posAfterBottom + crawlerRadiusPi;
+
+        float offsetZRaw = scrollPosition.x;
+        #if defined( DEBUG_SHOW_PARALLAX )
+                offsetZRaw = cTime_s;
+        #endif
+        float posZ = fmod(getPosition(In).z+offsetZRaw,posAfterLastRot);
+
+        if (posZ > posAfterBottom) {
+                // z=0 -> 0
+                // z=pi*r -> pi
+                float angle = (posZ - posAfterBottom) / crawlerRadius;
+
+                float cosAngle = cos(angle);
+                float sinAngle = sin(angle);
+
+                normal.y = -cosAngle*In.normal.y + sinAngle*In.normal.z;
+                normal.z = -sinAngle*In.normal.y - cosAngle*In.normal.z;
+        } else if (posZ > posAfterRot) {
+                normal.yz = -normal.yz;
+        } else if (posZ > posFirstRot) {
+                // z=0 -> 0
+                // z=pi*r -> pi
+                float angle = (posZ - posFirstRot) / crawlerRadius;
+
+                float cosAngle = cos(angle);
+                float sinAngle = sin(angle);
+
+                normal.y = cosAngle*In.normal.y - sinAngle*In.normal.z;
+                normal.z = sinAngle*In.normal.y + cosAngle*In.normal.z;
+        }
+
+        return normal;
+]]></CodeInjection>
+            <CodeInjection position="GET_TANGENT_VS"><![CDATA[
+        float3 tangent = In.tangent.xyz;
+
+        float crawlerRadius = lengthAndRadius.y;
+        float crawlerRadiusPi = 3.1415926*crawlerRadius;
+        float crawlerLength = lengthAndRadius.x;
+
+        float posFirstRot = crawlerLength;
+        float posAfterRot = posFirstRot + crawlerRadiusPi;
+        float posAfterBottom = posAfterRot + crawlerLength;
+        float posAfterLastRot = posAfterBottom + crawlerRadiusPi;
+
+        float offsetZRaw = scrollPosition.x;
+        #if defined( DEBUG_SHOW_PARALLAX )
+                offsetZRaw = cTime_s;
+        #endif
+        float posZ = fmod(getPosition(In).z+offsetZRaw,posAfterLastRot);
+
+        if (posZ > posAfterBottom) {
+                // z=0 -> 0
+                // z=pi*r -> pi
+                float angle = (posZ - posAfterBottom) / crawlerRadius;
+
+                float cosAngle = cos(angle);
+                float sinAngle = sin(angle);
+
+                tangent.y = -cosAngle*In.tangent.y + sinAngle*In.tangent.z;
+                tangent.z = -sinAngle*In.tangent.y - cosAngle*In.tangent.z;
+        } else if (posZ > posAfterRot) {
+                tangent.yz = -tangent.yz;
+        } else if (posZ > posFirstRot) {
+                // z=0 -> 0
+                // z=pi*r -> pi
+                float angle = (posZ - posFirstRot) / crawlerRadius;
+
+                float cosAngle = cos(angle);
+                float sinAngle = sin(angle);
+
+                tangent.y = cosAngle*In.tangent.y - sinAngle*In.tangent.z;
+                tangent.z = sinAngle*In.tangent.y + cosAngle*In.tangent.z;
+        }
+
+        return tangent;
+]]></CodeInjection>
+            <CodeInjection position="GET_BITANGENT_VS"><![CDATA[
+        return cross(getNormal(In), getTangent(In))*In.tangent.w;
+]]></CodeInjection>
+        </CodeInjections>
+    </LodLevel>
+</CustomShader>

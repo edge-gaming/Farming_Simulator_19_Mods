@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Fliegl Slurry barrel" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="data/fass_diffuse.dds"/>
+    <File fileId="3" filename="data/fass_normal.dds"/>
+    <File fileId="4" filename="data/fass_specular.dds"/>
+    <File fileId="7" filename="data/hoses_diffuse.dds"/>
+    <File fileId="8" filename="data/hoses_normal.dds"/>
+    <File fileId="9" filename="data/hoses_specular.dds"/>
+    <File fileId="5" filename="data/shaders/fs17VehicleShader.xml"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="fliegl_mat" materialId="4" customShaderId="5" customShaderVariation="colorMask">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+      <CustomParameter name="colorScale" value="0.8 0.55 0.055 1"/>
+    </Material>
+    <Material name="hoses_mat" materialId="5" customShaderId="5">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
+      <Glossmap fileId="9"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="lambert1" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="SlurryBarrel.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="it_Universal" translation="8.19564e-06 0 2.98023e-06" dynamic="true" compound="true" collisionMask="8397058" density="0.1" clipDistance="300" nodeId="17" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true">
+      <TransformGroup name="WheelLeft" translation="0.914192 0.0899995 -3.3169" nodeId="18"/>
+      <TransformGroup name="WheelRight" translation="-0.914223 0.0899436 -3.31711" nodeId="19"/>
+      <TransformGroup name="attacher" translation="-8.19564e-06 1.59012 4.09681" rotation="0 90 0" nodeId="20"/>
+      <Shape shapeId="2" name="Tank" translation="0.746695 0.349701 2.3145" nodeId="21" materialIds="4" castsShadows="true" receiveShadows="true" skinBindNodeIds="21 18 19 28"/>
+      <TransformGroup name="decal" translation="-8.19564e-08 -4.85541e-15 0.00474575" scale="0.998699 0.998699 0.998699" nodeId="22">
+        <Shape shapeId="3" name="decal_fertilizer" translation="0.746695 0.349701 2.3145" visibility="false" nodeId="23" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="4" name="decal_fuel" translation="0.746695 0.349701 2.3145" visibility="false" nodeId="24" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="5" name="decal_manure" translation="0.746695 0.349701 2.3145" visibility="false" nodeId="25" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="decal_water" translation="0.746695 0.349701 2.3145" visibility="false" nodeId="26" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="7" name="decal_hoses" translation="0.746695 0.349701 2.3145" nodeId="27" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="fuellstand" translation="0.683642 1.17052 3.7324" nodeId="28"/>
+      <Shape shapeId="8" name="colFrame" translation="0 0.10899 0.162518" compoundChild="true" collisionMask="8194" density="0.001" nodeId="29" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="9" name="unloadTrigger" kinematic="true" compound="true" trigger="true" collisionMask="10485760" clipDistance="100" nodeId="30" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="9" name="trailerTrigger" kinematic="true" compound="true" trigger="true" collisionMask="8388608" clipDistance="100" nodeId="31" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="9" name="waterTrigger" kinematic="true" trigger="true" collisionMask="524288" clipDistance="100" nodeId="32" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="9" name="gasTrigger" kinematic="true" trigger="true" collisionMask="6291456" clipDistance="100" nodeId="33" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <TransformGroup name="tipreference" translation="0 -1.1521 -3.37593" nodeId="34"/>
+      <TransformGroup name="tipdummy" nodeId="35"/>
+    </Shape>
+  </Scene>
+
+</i3D>

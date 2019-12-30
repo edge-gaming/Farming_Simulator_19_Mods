@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<vehicle type="hookLiftContainerTrailerSpreader">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+    <storeData>
+        <name>            <en>Fortis 2000</en>
+        </name>
+        <specs>
+            <neededPower>170</neededPower>
+            <workingWidth>21</workingWidth>
+            <combination>ITR 26.33 HD</combination>
+        </specs>
+        <functions>
+            <function>$l10n_function_hookLiftContainer</function>
+            <function>$l10n_function_manureSpreader</function>
+        </functions>
+        <image>store_containerManureSpreader.dds</image>
+        <price>38000</price>
+        <lifetime>600</lifetime>
+        <rotation>0</rotation>
+        <dailyUpkeep>5</dailyUpkeep>
+        <brand>EDGE</brand>
+        <category>manureSpreaders</category>
+        <vertexBufferMemoryUsage>1204496</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>164478</indexBufferMemoryUsage>
+        <textureMemoryUsage>9721344</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+    <base>
+        <typeDesc>$l10n_typeDesc_manureSpreader</typeDesc>
+        <filename>itRunner/containerManureSpreader.i3d</filename>
+        <size width="3.5" length="9.5"/>
+        <speedLimit value="20"/>
+        <components>
+            <component centerOfMass="0 0.7 0" solverIterationCount="10" mass="2200"/>
+        </components>
+        <schemaOverlay attacherJointPosition="0 0">
+            <default name="DEFAULT_IMPLEMENT"/>
+            <turnedOn name="DEFAULT_IMPLEMENT_ON"/>
+            <selected name="DEFAULT_IMPLEMENT_SELECTED"/>
+            <turnedOnSelected name="DEFAULT_IMPLEMENT_SELECTED_ON"/>
+        </schemaOverlay>
+    </base>
+    <wheels>
+        <wheelConfigurations>
+            <wheelConfiguration>
+                <wheels autoRotateBackSpeed="2.0">
+                    <wheel>
+                        <physics restLoad="1.0" tipOcclusionAreaGroupId="1" repr="wheelLeft" radius="0.085" width="0.5" mass="0.02" initialCompression="50" suspTravel="0.05" spring="300" damper="100" frictionScale="0.8" yOffset="0.03"/>
+                    </wheel>
+                    <wheel>
+                        <physics restLoad="1.0" tipOcclusionAreaGroupId="1" repr="wheelRight" radius="0.085" width="0.5" mass="0.02" initialCompression="50" suspTravel="0.05" spring="300" damper="100" frictionScale="0.8" yOffset="0.03"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+        </wheelConfigurations>
+    </wheels>
+    <attachable>
+        <inputAttacherJoints>
+            <inputAttacherJoint node="attacherJoint" jointType="hookLift" upperRotationOffset="0" allowsJointRotLimitMovement="false" forceSelectionOnAttach="false"/>
+        </inputAttacherJoints>
+        <brakeForce>0.5</brakeForce>
+    </attachable>
+    <powerConsumer ptoRpm="450" neededMaxPtoPower="30"/>
+    <lights>
+        <sharedLight linkNode="rear4ChamberLight01Left" filename="$data/shared/assets/lights/lizard/rear4ChamberLight_01_left.xml"/>
+        <sharedLight linkNode="rear4ChamberLight01Right" filename="$data/shared/assets/lights/lizard/rear4ChamberLight_01_right.xml"/>
+        <sharedLight linkNode="sideMarker_01Left" filename="$data/shared/assets/lights/lizard/sideMarker_01_left.xml"/>
+        <sharedLight linkNode="sideMarker_01Right" filename="$data/shared/assets/lights/lizard/sideMarker_01_right.xml"/>
+        <realLights>
+            <high>
+                <light node="backLightsHigh1" lightTypes="0"/>
+                <turnLightLeft node="turnLightLeftBack"/>
+                <turnLightRight node="turnLightRightBack"/>
+                <brakeLight node="backLightsHigh1"/>
+            </high>
+        </realLights>
+    </lights>
+    <workAreas>
+        <workArea type="sprayer" functionName="processSprayerArea" disableBackwards="false" requiresGroundContact="false">
+            <area startNode="workAreaStart" widthNode="workAreaHeight" heightNode="workAreaWidth"/>
+        </workArea>
+    </workAreas>
+    <sprayer fillUnitIndex="1" unloadInfoIndex="1" loadInfoIndex="1">
+        <usageScales workingWidth="21.0" scale="1"/>
+        <effects>
+            <effectNode effectNode="manureShader" delay="0" materialType="spreader" materialTypeId="1"/>
+            <effectNode effectNode="manureEmitter" effectClass="ParticleEffect" particleType="SPREADER" worldSpace="false"/>
+            <effectNode effectNode="smokeEmitter" effectClass="ParticleEffect" particleType="SPREADER_SMOKE" worldSpace="true"/>
+        </effects>
+        <animationNodes>
+            <animationNode node="backRotorRight" rotAxis="3" rotSpeed="1200" turnOnFadeTime="1" turnOffFadeTime="2"/>
+            <animationNode node="backRotorLeft" rotSpeed="-1200" rotAxis="3" turnOnFadeTime="1" turnOffFadeTime="2"/>
+            <animationNode node="rotorTop" rotSpeed="800" rotAxis="1" turnOnFadeTime="1" turnOffFadeTime="2"/>
+            <animationNode node="rotorMiddle" rotSpeed="-800" rotAxis="1" turnOnFadeTime="1" turnOffFadeTime="2"/>
+            <animationNode node="rotorBottom" rotSpeed="800" rotAxis="1" turnOnFadeTime="1" turnOffFadeTime="2"/>
+            <animationNode class="ScrollingAnimation" node="chains" scrollSpeed="0.05"/>
+        </animationNodes>
+        <sounds>
+            <hydraulic template="DEFAULT_HYDRAULIC_SOUND" linkNode="farmtechSpreader_main_component1"/>
+        </sounds>
+    </sprayer>
+    <foldable>
+        <foldingParts startAnimTime="1" turnOnFoldDirection="-1" turnOnFoldMinLimit="0" turnOnFoldMaxLimit="0.5">
+            <foldingPart animationName="openBackDoor" speedScale="1"/>
+        </foldingParts>
+    </foldable>
+    <animations>
+        <animation name="openBackDoor">
+            <part node="backDoorRot" startTime="0" endTime="1.5" startTrans="0 1.8 0" endTrans="0 0 0"/>
+        </animation>
+        <animation name="unloadingAnim">
+            <part node="mover" startTime="0" endTime="329" startTrans="0 0 0" endTrans="0 0 -4.3"/>
+            <part node="chains" startTime="0" endTime="329"/>
+            <part node="chainRollBack" startTime="0" endTime="329" startRot="0 0 0" endRot="-2100 0 0"/>
+            <part node="chainRollFront" startTime="0" endTime="329" startRot="0 0 0" endRot="-2100 0 0"/>
+            <part node="deformerLeft" startTime="0" endTime="329" startTrans="1.11 2.8 -2.83" endTrans="1.11 2.8 -2.82"/>
+            <part node="deformerRight" startTime="0" endTime="329" startTrans="-1.11 2.8 -2.83" endTrans="-1.11 2.8 -2.82"/>
+        </animation>
+    </animations>
+    <fillUnit>
+        <fillUnitConfigurations>
+            <fillUnitConfiguration>
+                <fillUnits>
+                    <fillUnit unit="$l10n_unit_literShort" fillTypeCategories="manureSpreader" capacity="32000">
+                        <exactFillRootNode node="exactFillRootNode"/>
+                    </fillUnit>
+                </fillUnits>
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+    </fillUnit>
+    <turnOnVehicle turnOffIfNotAllowed="true">
+        <turnedAnimation name="unloadingAnim" turnOnSpeedScale="1" turnOffSpeedScale="-15"/>
+        <sounds>
+            <work template="DEFAULT_MANURE_SPREADER_02"/>
+        </sounds>
+    </turnOnVehicle>
+    <fillVolume>
+        <fillVolumeConfigurations>
+            <fillVolumeConfiguration>
+                <volumes>
+                    <volume node="fillVolume" fillUnitIndex="1">
+                        <deformNode node="deformerLeft"/>
+                        <deformNode node="deformerRight"/>
+                    </volume>
+                </volumes>
+            </fillVolumeConfiguration>
+        </fillVolumeConfigurations>
+    </fillVolume>
+    <ai>
+        <areaMarkers leftNode="aiLeftMarker" rightNode="aiRightMarker" backNode="aiBackMarker"/>
+        <allowTurnBackward value="true"/>
+    </ai>
+    <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
+    <washable dirtDuration="90" washDuration="1" workMultiplier="3" fieldMultiplier="2"/>
+    <foliageBending>
+        <bendingNode minX="-1.35" maxX="1.35" minZ="-4.1" maxZ="4.1" yOffset="0.65"/>
+    </foliageBending>
+    <baseMaterial>
+        <material name="containerManureSpreader_mat" baseNode="spreader_vis">
+            <shaderParameter name="colorMat0" value="FARMTECH_GREEN1"/>
+            <shaderParameter name="colorMat1" value="FARMTECH_RED1"/>
+            <shaderParameter name="colorMat3" value="FARMTECH_YELLOW1"/>
+        </material>
+    </baseMaterial>
+    <baseMaterialConfigurations price="1500" useDefaultColors="true">
+        <baseMaterialConfiguration color="0.0718 0.2888 0.2468 0" price="0"/>
+        <baseMaterialConfiguration name="SILVER" color="0.6456 0.6456 0.6456 1" material="8" price="1500"/>
+        <baseMaterialConfiguration name="CHROME" color="0.9800 0.9800 0.9800 1" material="2" price="1500"/>
+        <material name="containerManureSpreader_mat" shaderParameter="colorMat0"/>
+    </baseMaterialConfigurations>
+    <designMaterialConfigurations price="700" useDefaultColors="true">
+        <designMaterialConfiguration color="0.5174 0.0254 0.0231 0" price="0"/>
+        <designMaterialConfiguration name="SILVER" color="0.6456 0.6456 0.6456 1" material="8" price="700"/>
+        <designMaterialConfiguration name="CHROME" color="0.9800 0.9800 0.9800 1" material="2" price="700"/>
+        <material name="containerManureSpreader_mat" shaderParameter="colorMat1"/>
+    </designMaterialConfigurations>
+    <i3dMappings>
+        <i3dMapping id="farmtechSpreader_main_component1" node="0>"/>
+        <i3dMapping id="spreader_vis" node="0>0"/>
+        <i3dMapping id="attacherJoint" node="0>0|0"/>
+        <i3dMapping id="wheelRight" node="0>0|1|0"/>
+        <i3dMapping id="wheelLeft" node="0>0|1|1"/>
+        <i3dMapping id="backDoorRot" node="0>0|2|0"/>
+        <i3dMapping id="mover" node="0>0|3|0"/>
+        <i3dMapping id="fillVolume" node="0>0|3|0|0"/>
+        <i3dMapping id="backRotorRight" node="0>0|4|0|0"/>
+        <i3dMapping id="backRotorLeft" node="0>0|4|0|1"/>
+        <i3dMapping id="rotorTop" node="0>0|4|1"/>
+        <i3dMapping id="rotorMiddle" node="0>0|4|2"/>
+        <i3dMapping id="rotorBottom" node="0>0|4|3"/>
+        <i3dMapping id="chainRollBack" node="0>0|5|0"/>
+        <i3dMapping id="chainRollFront" node="0>0|5|1"/>
+        <i3dMapping id="chains" node="0>0|5|2"/>
+        <i3dMapping id="rear4ChamberLight01Left" node="0>0|6|0|0"/>
+        <i3dMapping id="rear4ChamberLight01Right" node="0>0|6|0|1"/>
+        <i3dMapping id="sideMarker_01Left" node="0>0|6|0|2"/>
+        <i3dMapping id="sideMarker_01Right" node="0>0|6|0|3"/>
+        <i3dMapping id="turnLightLeftBack" node="0>0|6|1"/>
+        <i3dMapping id="turnLightRightBack" node="0>0|6|2"/>
+        <i3dMapping id="backLightsHigh1" node="0>0|6|3"/>
+        <i3dMapping id="deformerLeft" node="0>0|7|0"/>
+        <i3dMapping id="deformerRight" node="0>0|7|1"/>
+        <i3dMapping id="fillVolumeDischargeNode" node="0>0|7|2"/>
+        <i3dMapping id="exactFillRootNode" node="0>0|7|3"/>
+        <i3dMapping id="workAreaStart" node="0>0|8|0"/>
+        <i3dMapping id="workAreaHeight" node="0>0|8|1"/>
+        <i3dMapping id="workAreaWidth" node="0>0|8|2"/>
+        <i3dMapping id="aiLeftMarker" node="0>0|9|0"/>
+        <i3dMapping id="aiRightMarker" node="0>0|9|1"/>
+        <i3dMapping id="aiBackMarker" node="0>0|9|2"/>
+        <i3dMapping id="particle" node="0>1"/>
+        <i3dMapping id="manureShader" node="0>1|0"/>
+        <i3dMapping id="manureEmitter" node="0>1|1"/>
+        <i3dMapping id="smokeEmitter" node="0>1|2"/>
+    </i3dMappings>
+</vehicle>

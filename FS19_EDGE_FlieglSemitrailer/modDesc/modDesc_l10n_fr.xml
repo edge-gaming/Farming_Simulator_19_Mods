@@ -3,18 +3,26 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_EDGEGrainSilo" 			text="Ce bâtiment a un éclairage automatique."/>
-		<text name="name_SmallGrainSilo" 				text="Silo à petit grain"/>
-		<text name="name_LargeGrainSilo" 				text="Grand silo à grain"/>
-		<text name="name_LargeGrainSiloSystem" 			text="Système de silo à gros grains"/>
-		<text name="name_LargeWhiteGrainSiloSystem" 	text="Grand système de silo à grain blanc"/>
-		<text name="name_SmallGrainSiloExtension" 		text="Extension de silo à petit grain"/>
-		<text name="name_GrainSiloExtension" 			text="Extension de silo à grain"/>
-		<text name="name_LargeGrainSiloExtension" 		text="Extension de silo à gros grains"/>
-		<text name="name_LargeWhiteGrainSiloExtension" 	text="Grande extension de silo à grain blanc"/>
-		<text name="name_SmallGrainSiloExtension1" 		text="Extension de silo à petit grain"/>
-		<text name="name_SmallWhiteGrainSiloExtension" 	text="Extension de petit silo à grain blanc"/>
-		<!-- <text name="typeDesc_EDGEGrainSilo" text="Les silos peuvent être utilisés pour stocker le grain"/> -->
-		<!-- <text name="function_EDGEGrainSiloExtension" text="It can be placed within 100 Meters of the farmsilo."/> -->
+		<text name="name_EDGELowLoader"			text="Fliegl Surbaissé XL"/>
+		<text name="shopItem_EDGELowLoader"		text="Fliegl Surbaissé"/>
+		<text name="function_EDGELowLoader"		text="Chargeur surbaissé beaucoup plus grand qui s'adaptera réellement à vos énormes machines."/>
+        <text name="configuration_TwinRadial" 	text="Radial double"/>
+        <text name="configuration_CARGOXBIB" 	text="Cargaison"/>
+        <text name="configuration_CXBheavyduty" text="À toute épreuve"/>
+        <text name="configuration_rough" 		text="Rugueux"/>
+        <text name="configuration_TwinForestry"	text="Sylviculture"/>
+        <text name="input_function_light" 		text="Éclairage latéral allumé / éteint"/>
+        <text name="function_light" 			text="Équipé de lampes de travail lumineuses pour le travail de nuit."/>
+        <text name="color_EDGEGOLD" 			text="EDGE OR"/>
+        <text name="color_EDGESILVER" 			text="EDGE ARGENT"/>
+        <text name="color_DARKGREY"				text="GRIS FONCÉ"/>
+        <text name="color_ITRUNNER" 			text="IT RUNNER"/>
+        <text name="color_CHROME" 				text="CHROME"/>
+        <text name="color_SILVER" 				text="ARGENT"/>
+        <text name="color_DARKBLUECHROME" 		text="BLEU FONCÉ CHROME"/>
+        <text name="color_ORANGECHROME" 		text="ORANGE CHROME"/>
+        <text name="color_GREENCHROME" 			text="VERTE CHROME"/>
+        <text name="color_BLUECHROME" 			text="BLEUE CHROME"/>
+        <text name="color_REDCHROME" 			text="ROUGE CHROME"/>
 	</texts>
 </l10n>

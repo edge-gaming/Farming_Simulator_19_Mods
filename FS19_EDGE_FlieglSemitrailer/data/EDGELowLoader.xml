@@ -9,6 +9,7 @@
         <functions>
             <function>$l10n_function_lowLoader</function>
             <function>$l10n_function_semiTrailer</function>
+            <function>$l10n_function_EDGELowLoader</function>
         </functions>
         <image>store/store_EDGELowLoader.dds</image>
         <price>35000</price>
@@ -22,13 +23,11 @@
     <base>
         <typeDesc>$l10n_typeDesc_lowLoader</typeDesc>
         <filename>data/EDGELowLoader.i3d</filename>
-        <size width="2.8" length="13"/>
+        <size width="3" length="14"/>
         <components>
             <component centerOfMass="0 0.3 -0.6" solverIterationCount="20" mass="6599"/>
-            <component centerOfMass="0 0.5 0" solverIterationCount="12" mass="799" />
-            <component centerOfMass="0 0.2 0" solverIterationCount="6" mass="45" />
-			<joint component1="1" component2="2" node="rampJoints" rotLimit="0 0 0" transLimit="0 0 0" />
-			<joint component1="1" component2="3" node="MudJoint" rotLimit="7 0 0" transLimit="0 0 0" rotLimitSpring="0.01 0 0" rotLimitDamping="0.5 0 0" enableCollision="false" />
+            <component centerOfMass="0 0.5 0" solverIterationCount="12" mass="799"/>
+            <joint component1="1" component2="2" node="rampJoints" rotLimit="0 0 0" transLimit="0 0 0"/>
         </components>
         <schemaOverlay attacherJointPosition="0 0">
             <default name="DEFAULT_IMPLEMENT"/>
@@ -38,184 +37,189 @@
     <baseMaterial>
         <material name="EDGE_Semi_mat" baseNode="fliegl_vis">
             <shaderParameter name="colorMat0" value="DUEVELSDORF_RED1"/>
-            <shaderParameter name="colorMat1" value="STOLL_GREY1" />
-            <shaderParameter name="colorMat2" color="SILVER" value="0.6456 0.6456 0.6456 1" />
+            <shaderParameter name="colorMat1" value="STOLL_GREY1"/>
+            <shaderParameter name="colorMat2" value="0.647 0.667 0.682 1" material="3"/>
         </material>
     </baseMaterial>
-    <baseMaterialConfigurations useDefaultColors="true" price="1000">
+    <baseMaterialConfigurations useDefaultColors="true" price="1000" defaultColor="DUEVELSDORF_RED1">
         <baseMaterialConfiguration color="DUEVELSDORF_RED1"/>
-        <baseMaterialConfiguration name="SILVER" color="0.6456 0.6456 0.6456 1" material="8" price="1000"/>
-        <baseMaterialConfiguration name="DARK BLUE CHROME" color="0.007 0.029 0.187 1" material="2" price="1000"/>
-        <baseMaterialConfiguration name="CHROME" color="0.9800 0.9800 0.9800 1" material="2" price="1000"/>
-        <baseMaterialConfiguration name="DARK GREY" color="0.037 0.037 0.037 1" material="0" price="0"/>
-        <baseMaterialConfiguration name="ORANGE CHROME" color="0.932 0.119 0.000 1" material="2" price="1000"/>
-        <baseMaterialConfiguration name="GREEN CHROME" color="0.000 0.170 0.001 1" material="2" price="1000"/>
-        <baseMaterialConfiguration name="BLUE CHROME" color="0.062 0.251 0.612 1" material="2" price="1000"/>
-        <baseMaterialConfiguration name="RED CHROME" color="0.673 0.002 0.000 1" material="2" price="1000"/>
-        <baseMaterialConfiguration name="ITRUNNER" color="0.0382 0.0369 0.0482 1" material="8" price="1000"/>
+        <baseMaterialConfiguration name="$l10n_color_ITRUNNER" color="0.0382 0.0369 0.0482 1" material="8"/>
+        <baseMaterialConfiguration name="$l10n_color_EDGEGOLD" color="0.776 0.667 0.341 1" material="3"/>
+        <baseMaterialConfiguration name="$l10n_color_EDGESILVER" color="0.647 0.667 0.682 1" material="3"/>
+        <baseMaterialConfiguration name="$l10n_color_CHROME" color="SHARED_WHITE2" material="2"/>
+        <baseMaterialConfiguration name="$l10n_color_SILVER" color="0.6456 0.6456 0.6456 1" material="8"/>
+        <baseMaterialConfiguration name="$l10n_color_DARKGREY" color="0.037 0.037 0.037 1" material="0"/>
+        <baseMaterialConfiguration name="$l10n_color_DARKBLUECHROME" color="0.007 0.029 0.187 1" material="3"/>
+        <baseMaterialConfiguration name="$l10n_color_ORANGECHROME" color="0.932 0.119 0.000 1" material="3"/>
+        <baseMaterialConfiguration name="$l10n_color_GREENCHROME" color="0.000 0.170 0.001 1" material="3"/>
+        <baseMaterialConfiguration name="$l10n_color_BLUECHROME" color="0.062 0.251 0.612 1" material="3"/>
+        <baseMaterialConfiguration name="$l10n_color_REDCHROME" color="0.673 0.002 0.000 1" material="3"/>
+        <baseMaterialConfiguration name="$l10n_color_CHROME" color="0.9800 0.9800 0.9800 1" material="3"/>
         <material name="EDGE_Semi_mat" shaderParameter="colorMat0"/>
     </baseMaterialConfigurations>
-	<designMaterialConfigurations useDefaultColors="true" price="1000">
-        <designMaterialConfiguration name="ITRUNNER" color="0.0382 0.0369 0.0482 1" material="8" price="0"/>
-		<designMaterialConfiguration color="STOLL_GREY1"/>
-		<designMaterialConfiguration name="DARK GREY" color="0.037 0.037 0.037 1" material="0" price="0"/>
-		<designMaterialConfiguration name="SILVER" color="0.6456 0.6456 0.6456 1" material="8" price="1000"/>
-		<designMaterialConfiguration name="DARK BLUE CHROME" color="0.007 0.029 0.187 1" material="2" price="1000"/>
-		<designMaterialConfiguration name="CHROME" color="0.9800 0.9800 0.9800 1" material="2" price="1000"/>
-		<designMaterialConfiguration name="ORANGE CHROME" color="0.932 0.119 0.000 1" material="2" price="1000"/>
-		<designMaterialConfiguration name="GREEN CHROME" color="0.000 0.170 0.001 1" material="2" price="1000"/>
-		<designMaterialConfiguration name="BLUE CHROME" color="0.062 0.251 0.612 1" material="2" price="1000"/>
-		<designMaterialConfiguration name="RED CHROME" color="0.673 0.002 0.000 1" material="2" price="1000"/>
-		<material name="EDGE_Semi_mat" shaderParameter="colorMat1"/>
-	</designMaterialConfigurations>
+    <designMaterialConfigurations useDefaultColors="true" price="1000">
+        <designMaterialConfiguration name="$l10n_color_ITRUNNER" color="0.0382 0.0369 0.0482 1" material="8"/>
+        <designMaterialConfiguration name="$l10n_color_EDGEGOLD" color="0.776 0.667 0.341 3" material="3"/>
+        <designMaterialConfiguration name="$l10n_color_DARKGREY" color="0.037 0.037 0.037 1" material="0"/>
+        <designMaterialConfiguration name="$l10n_color_EDGESILVER" color="0.647 0.667 0.682 9" material="3"/>
+        <designMaterialConfiguration name="$l10n_color_CHROME" color="SHARED_WHITE2" material="2"/>
+        <designMaterialConfiguration name="$l10n_color_CHROME" color="0.9800 0.9800 0.9800 1" material="3"/>
+        <designMaterialConfiguration name="$l10n_color_SILVER" color="0.6456 0.6456 0.6456 1" material="8"/>
+        <designMaterialConfiguration name="$l10n_color_DARKBLUECHROME" color="0.007 0.029 0.187 1" material="3"/>
+        <designMaterialConfiguration name="$l10n_color_ORANGECHROME" color="0.932 0.119 0.000 1" material="3"/>
+        <designMaterialConfiguration name="$l10n_color_GREENCHROME" color="0.000 0.170 0.001 1" material="3"/>
+        <designMaterialConfiguration name="$l10n_color_BLUECHROME" color="0.062 0.251 0.612 1" material="3"/>
+        <designMaterialConfiguration name="$l10n_color_REDCHROME" color="0.673 0.002 0.000 1" material="3"/>
+        <material name="EDGE_Semi_mat" shaderParameter="colorMat1"/>
+    </designMaterialConfigurations>
     <wheels>
         <wheelConfigurations>
-			<wheelConfiguration name="$l10n_configuration_TwinRadial" price="0" brand="TRELLEBORG" >
-                <wheels autoRotateBackSpeed="2.0" >
+            <wheelConfiguration name="$l10n_configuration_TwinRadial" price="0" brand="TRELLEBORG">
+                <wheels autoRotateBackSpeed="2.0">
                     <wheel filename="data/wheels/TwinRadial_710_50R26_5.xml" isLeft="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisFrontLeft" driveNode="wheelFrontLeft" scaleActive="0.85 0.75 0.75" forcePointRatio="0.5" initialCompression="14" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="0.3" rotMax="5" rotMin="-5" />
-						<wheelChock parkingNode="wheelChockParkingLeft" />
-                        <wheelChock parkingNode="wheelChockParkingRight" isInverted="true" />
+                        <steeringAxle scale="0.3" rotMax="3" rotMin="-3"/>
+                        <wheelChock parkingNode="wheelChockParkingLeft"/>
+                        <wheelChock parkingNode="wheelChockParkingRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="data/wheels/TwinRadial_710_50R26_5.xml" isLeft="false" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisFrontRight" driveNode="wheelFrontRight" forcePointRatio="0.5" initialCompression="14" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="0.3" rotMax="5" rotMin="-5" />
-						<wheelChock parkingNode="wheelChockParkingLeft1" />
-                        <wheelChock parkingNode="wheelChockParkingRight1" isInverted="true" />
+                        <steeringAxle scale="0.3" rotMax="3" rotMin="-3"/>
+                        <wheelChock parkingNode="wheelChockParkingLeft1"/>
+                        <wheelChock parkingNode="wheelChockParkingRight1" isInverted="true"/>
                     </wheel>
                     <wheel filename="data/wheels/TwinRadial_710_50R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisBackLeft"  driveNode="wheelBackLeft" forcePointRatio="0.5" initialCompression="33" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="-0.3" rotMax="8" rotMin="-8" />
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisBackLeft" driveNode="wheelBackLeft" forcePointRatio="0.5" initialCompression="33" suspTravel="0.2" spring="35" damper="50"/>
+                        <steeringAxle scale="-0.3" rotMax="5" rotMin="-5"/>
                     </wheel>
                     <wheel filename="data/wheels/TwinRadial_710_50R26_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisBackRight" driveNode="wheelBackRight" forcePointRatio="0.5" initialCompression="33" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="-0.3" rotMax="8" rotMin="-8" />
+                        <steeringAxle scale="-0.3" rotMax="5" rotMin="-5"/>
                     </wheel>
                 </wheels>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_CARGOXBIB" price="1700" brand="MICHELIN">
                 <wheels autoRotateBackSpeed="2.0">
                     <wheel filename="data/wheels/cargoXBib_710_50R26_5.xml" isLeft="true" hasParticles="true">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisFrontLeft"  driveNode="wheelFrontLeft"  forcePointRatio="0.5" initialCompression="14" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="0.3" rotMax="5" rotMin="-5" />
-						<wheelChock parkingNode="wheelChockParkingLeft" />
-                        <wheelChock parkingNode="wheelChockParkingRight" isInverted="true" />
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisFrontLeft" driveNode="wheelFrontLeft" forcePointRatio="0.5" initialCompression="14" suspTravel="0.2" spring="35" damper="50"/>
+                        <steeringAxle scale="0.3" rotMax="3" rotMin="-3"/>
+                        <wheelChock parkingNode="wheelChockParkingLeft"/>
+                        <wheelChock parkingNode="wheelChockParkingRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="data/wheels/cargoXBib_710_50R26_5.xml" isLeft="false" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisFrontRight" driveNode="wheelFrontRight" forcePointRatio="0.5" initialCompression="14" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="0.3" rotMax="5" rotMin="-5" />
-						<wheelChock parkingNode="wheelChockParkingLeft1" />
-                        <wheelChock parkingNode="wheelChockParkingRight1" isInverted="true" />
+                        <steeringAxle scale="0.3" rotMax="3" rotMin="-3"/>
+                        <wheelChock parkingNode="wheelChockParkingLeft1"/>
+                        <wheelChock parkingNode="wheelChockParkingRight1" isInverted="true"/>
                     </wheel>
                     <wheel filename="data/wheels/cargoXBib_710_50R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisBackLeft"  driveNode="wheelBackLeft"  forcePointRatio="0.5" initialCompression="33" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="-0.3" rotMax="8" rotMin="-8" />
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisBackLeft" driveNode="wheelBackLeft" forcePointRatio="0.5" initialCompression="33" suspTravel="0.2" spring="35" damper="50"/>
+                        <steeringAxle scale="-0.3" rotMax="5" rotMin="-5"/>
                     </wheel>
                     <wheel filename="data/wheels/cargoXBib_710_50R26_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisBackRight" driveNode="wheelBackRight" forcePointRatio="0.5" initialCompression="33" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="-0.3" rotMax="8" rotMin="-8" />
+                        <steeringAxle scale="-0.3" rotMax="5" rotMin="-5"/>
                     </wheel>
                 </wheels>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_CXBheavyduty" price="1700" brand="MICHELIN">
                 <wheels autoRotateBackSpeed="2.0">
                     <wheel filename="data/wheels/cargoXBibHF_710_50R26_5.xml" isLeft="true" hasParticles="true">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisFrontLeft"  driveNode="wheelFrontLeft"  forcePointRatio="0.5" initialCompression="14" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="0.3" rotMax="5" rotMin="-5" />
-						<wheelChock parkingNode="wheelChockParkingLeft" />
-                        <wheelChock parkingNode="wheelChockParkingRight" isInverted="true" />
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisFrontLeft" driveNode="wheelFrontLeft" forcePointRatio="0.5" initialCompression="14" suspTravel="0.2" spring="35" damper="50"/>
+                        <steeringAxle scale="0.3" rotMax="3" rotMin="-3"/>
+                        <wheelChock parkingNode="wheelChockParkingLeft"/>
+                        <wheelChock parkingNode="wheelChockParkingRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="data/wheels/cargoXBibHF_710_50R26_5.xml" isLeft="false" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisFrontRight" driveNode="wheelFrontRight" forcePointRatio="0.5" initialCompression="14" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="0.3" rotMax="5" rotMin="-5" />
-						<wheelChock parkingNode="wheelChockParkingLeft1" />
-                        <wheelChock parkingNode="wheelChockParkingRight1" isInverted="true" />
+                        <steeringAxle scale="0.3" rotMax="3" rotMin="-3"/>
+                        <wheelChock parkingNode="wheelChockParkingLeft1"/>
+                        <wheelChock parkingNode="wheelChockParkingRight1" isInverted="true"/>
                     </wheel>
                     <wheel filename="data/wheels/cargoXBibHF_710_50R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisBackLeft"  driveNode="wheelBackLeft"  forcePointRatio="0.5" initialCompression="33" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="-0.3" rotMax="8" rotMin="-8" />
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisBackLeft" driveNode="wheelBackLeft" forcePointRatio="0.5" initialCompression="33" suspTravel="0.2" spring="35" damper="50"/>
+                        <steeringAxle scale="-0.3" rotMax="5" rotMin="-5"/>
                     </wheel>
                     <wheel filename="data/wheels/cargoXBibHF_710_50R26_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisBackRight" driveNode="wheelBackRight" forcePointRatio="0.5" initialCompression="33" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="-0.3" rotMax="8" rotMin="-8" />
+                        <steeringAxle scale="-0.3" rotMax="5" rotMin="-5"/>
                     </wheel>
                 </wheels>
             </wheelConfiguration>
-			<wheelConfiguration name="$l10n_configuration_TwinForestry" price="1700" brand="TRELLEBORG">
+            <wheelConfiguration name="$l10n_configuration_TwinForestry" price="1700" brand="TRELLEBORG">
                 <wheels autoRotateBackSpeed="2.0">
                     <wheel filename="data/wheels/TwinForestry428SB_710_45R26_5.xml" isLeft="true" hasParticles="true">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisFrontLeft"  driveNode="wheelFrontLeft"  forcePointRatio="0.5" initialCompression="14" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="0.3" rotMax="5" rotMin="-5" />
-						<wheelChock parkingNode="wheelChockParkingLeft" />
-                        <wheelChock parkingNode="wheelChockParkingRight" isInverted="true" />
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisFrontLeft" driveNode="wheelFrontLeft" forcePointRatio="0.5" initialCompression="14" suspTravel="0.2" spring="35" damper="50"/>
+                        <steeringAxle scale="0.3" rotMax="3" rotMin="-3"/>
+                        <wheelChock parkingNode="wheelChockParkingLeft"/>
+                        <wheelChock parkingNode="wheelChockParkingRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="data/wheels/TwinForestry428SB_710_45R26_5.xml" isLeft="false" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisFrontRight" driveNode="wheelFrontRight" forcePointRatio="0.5" initialCompression="14" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="0.3" rotMax="5" rotMin="-5" />
-						<wheelChock parkingNode="wheelChockParkingLeft1" />
-                        <wheelChock parkingNode="wheelChockParkingRight1" isInverted="true" />
+                        <steeringAxle scale="0.3" rotMax="3" rotMin="-3"/>
+                        <wheelChock parkingNode="wheelChockParkingLeft1"/>
+                        <wheelChock parkingNode="wheelChockParkingRight1" isInverted="true"/>
                     </wheel>
                     <wheel filename="data/wheels/TwinForestry428SB_710_45R26_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisBackLeft"  driveNode="wheelBackLeft"  forcePointRatio="0.5" initialCompression="33" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="-0.3" rotMax="8" rotMin="-8" />
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisBackLeft" driveNode="wheelBackLeft" forcePointRatio="0.5" initialCompression="33" suspTravel="0.2" spring="35" damper="50"/>
+                        <steeringAxle scale="-0.3" rotMax="5" rotMin="-5"/>
                     </wheel>
                     <wheel filename="data/wheels/TwinForestry428SB_710_45R26_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisBackRight" driveNode="wheelBackRight" forcePointRatio="0.5" initialCompression="33" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="-0.3" rotMax="8" rotMin="-8" />
+                        <steeringAxle scale="-0.3" rotMax="5" rotMin="-5"/>
                     </wheel>
                 </wheels>
             </wheelConfiguration>
             <wheelConfiguration name="$l10n_configuration_valueDefault" price="1100" brand="NOKIAN">
                 <wheels>
-                    <wheel filename="data/wheels/TRI2_540_65R28.xml"  isLeft="true" hasParticles="true">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisFrontLeft"  driveNode="wheelFrontLeft"  forcePointRatio="0.5" initialCompression="14" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="0.3" rotMax="5" rotMin="-5" />
-						<wheelChock parkingNode="wheelChockParkingLeft" />
-                        <wheelChock parkingNode="wheelChockParkingRight" isInverted="true" />
+                    <wheel filename="data/wheels/TRI2_540_65R28.xml" isLeft="true" hasParticles="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisFrontLeft" driveNode="wheelFrontLeft" forcePointRatio="0.5" initialCompression="14" suspTravel="0.2" spring="35" damper="50"/>
+                        <steeringAxle scale="0.3" rotMax="3" rotMin="-3"/>
+                        <wheelChock parkingNode="wheelChockParkingLeft"/>
+                        <wheelChock parkingNode="wheelChockParkingRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="data/wheels/TRI2_540_65R28.xml" isLeft="false" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisFrontRight" driveNode="wheelFrontRight" forcePointRatio="0.5" initialCompression="14" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="0.3" rotMax="5" rotMin="-5" />
-						<wheelChock parkingNode="wheelChockParkingLeft1" />
-                        <wheelChock parkingNode="wheelChockParkingRight1" isInverted="true" />
+                        <steeringAxle scale="0.3" rotMax="3" rotMin="-3"/>
+                        <wheelChock parkingNode="wheelChockParkingLeft1"/>
+                        <wheelChock parkingNode="wheelChockParkingRight1" isInverted="true"/>
                     </wheel>
                     <wheel filename="data/wheels/TRI2_540_65R28.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisBackLeft"  driveNode="wheelBackLeft"  forcePointRatio="0.5" initialCompression="33" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="-0.3" rotMax="8" rotMin="-8" />
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisBackLeft" driveNode="wheelBackLeft" forcePointRatio="0.5" initialCompression="33" suspTravel="0.2" spring="35" damper="50"/>
+                        <steeringAxle scale="-0.3" rotMax="5" rotMin="-5"/>
                     </wheel>
                     <wheel filename="data/wheels/TRI2_540_65R28.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisBackRight" driveNode="wheelBackRight" forcePointRatio="0.5" initialCompression="33" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="-0.3" rotMax="8" rotMin="-8" />
+                        <steeringAxle scale="-0.3" rotMax="5" rotMin="-5"/>
                     </wheel>
                 </wheels>
             </wheelConfiguration>
-			<wheelConfiguration name="$l10n_configuration_rough" price="1100" brand="TRELLEBORG">
+            <wheelConfiguration name="$l10n_configuration_rough" price="1100" brand="TRELLEBORG">
                 <wheels>
-                    <wheel filename="data/wheels/SK800_12_R16_5.xml"  isLeft="true" hasParticles="true">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisFrontLeft"  driveNode="wheelFrontLeft"  forcePointRatio="0.5" initialCompression="14" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="0.3" rotMax="5" rotMin="-5" />
-						<wheelChock parkingNode="wheelChockParkingLeft" />
-                        <wheelChock parkingNode="wheelChockParkingRight" isInverted="true" />
+                    <wheel filename="data/wheels/SK800_12_R16_5.xml" isLeft="true" hasParticles="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisFrontLeft" driveNode="wheelFrontLeft" forcePointRatio="0.5" initialCompression="14" suspTravel="0.2" spring="35" damper="50"/>
+                        <steeringAxle scale="0.3" rotMax="3" rotMin="-3"/>
+                        <wheelChock parkingNode="wheelChockParkingLeft"/>
+                        <wheelChock parkingNode="wheelChockParkingRight" isInverted="true"/>
                     </wheel>
                     <wheel filename="data/wheels/SK800_12_R16_5.xml" isLeft="false" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisFrontRight" driveNode="wheelFrontRight" forcePointRatio="0.5" initialCompression="14" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="0.3" rotMax="5" rotMin="-5" />
-						<wheelChock parkingNode="wheelChockParkingLeft1" />
-                        <wheelChock parkingNode="wheelChockParkingRight1" isInverted="true" />
+                        <steeringAxle scale="0.3" rotMax="3" rotMin="-3"/>
+                        <wheelChock parkingNode="wheelChockParkingLeft1"/>
+                        <wheelChock parkingNode="wheelChockParkingRight1" isInverted="true"/>
                     </wheel>
                     <wheel filename="data/wheels/SK800_12_R16_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisBackLeft"  driveNode="wheelBackLeft"  forcePointRatio="0.5" initialCompression="33" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="-0.3" rotMax="8" rotMin="-8" />
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisBackLeft" driveNode="wheelBackLeft" forcePointRatio="0.5" initialCompression="33" suspTravel="0.2" spring="35" damper="50"/>
+                        <steeringAxle scale="-0.3" rotMax="5" rotMin="-5"/>
                     </wheel>
                     <wheel filename="data/wheels/SK800_12_R16_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
                         <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelAxisBackRight" driveNode="wheelBackRight" forcePointRatio="0.5" initialCompression="33" suspTravel="0.2" spring="35" damper="50"/>
-                        <steeringAxle scale="-0.3" rotMax="8" rotMin="-8" />
+                        <steeringAxle scale="-0.3" rotMax="5" rotMin="-5"/>
                     </wheel>
                 </wheels>
             </wheelConfiguration>
         </wheelConfigurations>
-		<hubs>
+        <hubs>
             <color0>SHARED_BLACK1</color0>
             <color1>SHARED_BLACK2</color1>
             <hub linkNode="wheelBackLeft" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="true" scale="0.335 0.335 0.335"/>
@@ -224,10 +228,19 @@
             <hub linkNode="wheelFrontRight" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="false" scale="0.335 0.335 0.335"/>
         </hubs>
     </wheels>
-	<rimColorConfigurations useDefaultColors="true" price="300">
-        <rimColorConfiguration name="SILVER" color="0.6456 0.6456 0.6456 1" price="300" material="8"/>
-        <rimColorConfiguration name="ITRUNNER" color="0.0382 0.0369 0.0482 1" price="300" material="8"/>
-        <rimColorConfiguration name="CHROME" color="0.9800 0.9800 0.9800 1" price="300" material="2"/>
+    <rimColorConfigurations useDefaultColors="true" price="300">
+        <rimColorConfiguration name="$l10n_color_DARKGREY" color="0.037 0.037 0.037 1" material="0"/>
+        <rimColorConfiguration name="$l10n_color_CHROME" color="0.9800 0.9800 0.9800 1" material="2"/>
+        <rimColorConfiguration name="$l10n_color_EDGEGOLD" color="0.776 0.667 0.341 3" material="3"/>
+        <rimColorConfiguration name="$l10n_color_EDGESILVER" color="0.647 0.667 0.682 9" material="3"/>
+        <rimColorConfiguration name="$l10n_color_CHROME" color="SHARED_WHITE2" material="2"/>
+        <rimColorConfiguration name="$l10n_color_ITRUNNER" color="0.0382 0.0369 0.0482 1" material="8"/>
+        <rimColorConfiguration name="$l10n_color_SILVER" color="0.6456 0.6456 0.6456 1" material="8"/>
+        <rimColorConfiguration name="$l10n_color_DARKBLUECHROME" color="0.007 0.029 0.187 1" material="3"/>
+        <rimColorConfiguration name="$l10n_color_ORANGECHROME" color="0.932 0.119 0.000 1" material="3"/>
+        <rimColorConfiguration name="$l10n_color_GREENCHROME" color="0.000 0.170 0.001 1" material="3"/>
+        <rimColorConfiguration name="$l10n_color_BLUECHROME" color="0.062 0.251 0.612 1" material="3"/>
+        <rimColorConfiguration name="$l10n_color_REDCHROME" color="0.673 0.002 0.000 1" material="3"/>
     </rimColorConfigurations>
     <attachable>
         <inputAttacherJoints>
@@ -236,79 +249,93 @@
         <support animationName="moveSupport"/>
         <brakeForce>1.3</brakeForce>
     </attachable>
-    <!--For Later Use-->
-	<!--<attacherJoints>
-        <attacherJoint node="trailerAttacherJoint" jointType="trailer" lowerRotLimit="10 65 75" upperRotRotationOffset="0" allowsJointLimitMovement="false" canTurnOnImplement="false">
-            <schema position="1 0" rotation="0" invertX="false" />
+    <attacherJoints>
+        <attacherJointConfigurations>
+            <attacherJointConfiguration name="$l10n_configuration_valueDefault" price="0">
+                <objectChange node="RearHitch" visibilityActive="false"/>
+            </attacherJointConfiguration>
+            <attacherJointConfiguration name="$l10n_configuration_trailerAttacherBack" price="500">
+                <attacherJoint node="trailerAttacherJoint" jointType="trailer" lowerRotLimit="10 50 50" upperRotRotationOffset="0" allowsJointLimitMovement="false" comboTime="1">
+                    <schema position="1 0" rotation="0" invertX="false"/>
+                    <objectChange node="RearHitch" visibilityActive="true"/>
+                </attacherJoint>
+            </attacherJointConfiguration>
+        </attacherJointConfigurations>
+    </attacherJoints>
+    <attacherJoints>
+        <attacherJoint node="trailerAttacherJoint" jointType="trailer" lowerRotLimit="10 50 50" upperRotRotationOffset="0" allowsJointLimitMovement="false" comboTime="1">
+            <distanceToGround lower="0.57" upper="1.03"/>
+            <transNode node="trailerAttacherNode" minY="0.523" maxY="0.98" height="0.25"/>
+            <schema position="1 0" rotation="0" invertX="false"/>
         </attacherJoint>
         <sounds>
-            <attach template="ATTACH_01" linkNode="0>" />
+            <attach template="ATTACH_01" linkNode="0>"/>
         </sounds>
-    </attacherJoints>-->
+    </attacherJoints>
     <lights>
         <sharedLight linkNode="worklight01" filename="$data/shared/assets/lights/hella/hellaWorkingLightSquare_02_back.xml">
-            <rotationNode name="rotationNode1" rotation="-15 0 0" />
+            <rotationNode name="rotationNode1" rotation="-15 0 0"/>
         </sharedLight>
         <sharedLight linkNode="worklight02" filename="$data/shared/assets/lights/hella/hellaWorkingLightSquare_02_back.xml">
-            <rotationNode name="rotationNode1" rotation="-15 0 0" />
+            <rotationNode name="rotationNode1" rotation="-15 0 0"/>
         </sharedLight>
-        <sharedLight linkNode="sideMarkerLeft" filename="$data/shared/assets/lights/lizard/sideMarker_03_left.xml" scale="0.5 0.5 0.8" />
-        <sharedLight linkNode="sideMarkerRight" filename="$data/shared/assets/lights/lizard/sideMarker_03_right.xml" scale="0.5 0.5 0.8" />
-        <sharedLight linkNode="backLeft" filename="$data/shared/assets/lights/lizard/rearMultipointLight_01_left.xml" />
-        <sharedLight linkNode="backRight" filename="$data/shared/assets/lights/lizard/rearMultipointLight_01_right.xml" />
-        <sharedLight linkNode="whiteRectangle01" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml" />
-        <sharedLight linkNode="whiteRectangle02" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml" />
-        <sharedLight linkNode="sideMarker_WhiteL0" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml" />
-        <sharedLight linkNode="sideMarker_WhiteL1" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml" />
-        <sharedLight linkNode="sideMarker_WhiteL2" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml" />
-        <sharedLight linkNode="sideMarker_WhiteL3" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml" />
-        <sharedLight linkNode="sideMarker_WhiteR0" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml" />
-        <sharedLight linkNode="sideMarker_WhiteR1" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml" />
-        <sharedLight linkNode="sideMarker_WhiteR2" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml" />
-        <sharedLight linkNode="sideMarker_WhiteR3" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml" />
-        <sharedLight linkNode="sideMarkerL1" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" />
-        <sharedLight linkNode="sideMarkerL2" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" />
-        <sharedLight linkNode="sideMarkerL3" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" />
-        <sharedLight linkNode="sideMarkerL4" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" />
-        <sharedLight linkNode="sideMarkerL5" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" />
-        <sharedLight linkNode="sideMarkerL6" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" />
-        <sharedLight linkNode="sideMarkerL7" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" />
-        <sharedLight linkNode="sideMarkerL8" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" />
-        <sharedLight linkNode="sideMarkerL9" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" />
-        <sharedLight linkNode="sideMarkerR1" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" />
-        <sharedLight linkNode="sideMarkerR2" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" />
-        <sharedLight linkNode="sideMarkerR3" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" />
-        <sharedLight linkNode="sideMarkerR4" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" />
-        <sharedLight linkNode="sideMarkerR5" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" />
-        <sharedLight linkNode="sideMarkerR6" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" />
-        <sharedLight linkNode="sideMarkerR7" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" />
-        <sharedLight linkNode="sideMarkerR8" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" />
-        <sharedLight linkNode="sideMarkerR9" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml" />
-        <sharedLight linkNode="yellowRound01" filename="$data/shared/assets/reflectors/lizard/yellowRound_01.xml" />
-        <sharedLight linkNode="yellowRound02" filename="$data/shared/assets/reflectors/lizard/yellowRound_01.xml" />
+        <sharedLight linkNode="sideMarkerLeft" filename="$data/shared/assets/lights/lizard/sideMarker_03_left.xml" scale="0.5 0.5 0.8"/>
+        <sharedLight linkNode="sideMarkerRight" filename="$data/shared/assets/lights/lizard/sideMarker_03_right.xml" scale="0.5 0.5 0.8"/>
+        <sharedLight linkNode="backLeft" filename="$data/shared/assets/lights/lizard/rearMultipointLight_01_left.xml" scale="1.5 1.8 1.5"/>
+        <sharedLight linkNode="backRight" filename="$data/shared/assets/lights/lizard/rearMultipointLight_01_right.xml" scale="1.5 1.8 1.5"/>
+        <sharedLight linkNode="whiteRectangle01" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="whiteRectangle02" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteL0" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteL1" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteL2" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteL3" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteR0" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteR1" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteR2" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarker_WhiteR3" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDWhite_01.xml"/>
+        <sharedLight linkNode="sideMarkerL1" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
+        <sharedLight linkNode="sideMarkerL2" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
+        <sharedLight linkNode="sideMarkerL3" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
+        <sharedLight linkNode="sideMarkerL4" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
+        <sharedLight linkNode="sideMarkerL5" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
+        <sharedLight linkNode="sideMarkerL6" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
+        <sharedLight linkNode="sideMarkerL7" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
+        <sharedLight linkNode="sideMarkerL8" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
+        <sharedLight linkNode="sideMarkerL9" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
+        <sharedLight linkNode="sideMarkerR1" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
+        <sharedLight linkNode="sideMarkerR2" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
+        <sharedLight linkNode="sideMarkerR3" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
+        <sharedLight linkNode="sideMarkerR4" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
+        <sharedLight linkNode="sideMarkerR5" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
+        <sharedLight linkNode="sideMarkerR6" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
+        <sharedLight linkNode="sideMarkerR7" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
+        <sharedLight linkNode="sideMarkerR8" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
+        <sharedLight linkNode="sideMarkerR9" filename="$data/shared/assets/reflectors/lizard/whiteRectangle_01.xml"/>
+        <sharedLight linkNode="yellowRound01" filename="$data/shared/assets/reflectors/lizard/yellowRound_01.xml"/>
+        <sharedLight linkNode="yellowRound02" filename="$data/shared/assets/reflectors/lizard/yellowRound_01.xml"/>
         <realLights>
             <high>
-                <light node="backLightLeft" lightTypes="0" />
-                <light node="backLightRight" lightTypes="0" />
-                <light node="workLight" lightTypes="1" />
-                <light node="workLight1" lightTypes="1" />
-                <light node="sideLightsHighL0" lightTypes="0" />
-                <light node="sideLightsHighL1" lightTypes="0" />
-                <light node="sideLightsHighL2" lightTypes="0" />
-                <light node="sideLightsHighL3" lightTypes="0" />
-                <light node="sideLightsHighL4" lightTypes="0" />
-                <light node="sideLightsHighR0" lightTypes="0" />
-                <light node="sideLightsHighR1" lightTypes="0" />
-                <light node="sideLightsHighR2" lightTypes="0" />
-                <light node="sideLightsHighR3" lightTypes="0" />
-                <light node="sideLightsHighR4" lightTypes="0" />
-                <turnLightLeft node="turnLightLeftBack" />
-                <turnLightRight node="turnLightRightBack" />
-                <brakeLight node="backLightLeft" />
-                <brakeLight node="backLightRight" />
+                <light node="backLightLeft" lightTypes="0"/>
+                <light node="backLightRight" lightTypes="0"/>
+                <light node="workLight" lightTypes="1"/>
+                <light node="workLight1" lightTypes="1"/>
+                <light node="sideLightsHighL0" lightTypes="0"/>
+                <light node="sideLightsHighL1" lightTypes="0"/>
+                <light node="sideLightsHighL2" lightTypes="0"/>
+                <light node="sideLightsHighL3" lightTypes="0"/>
+                <light node="sideLightsHighL4" lightTypes="0"/>
+                <light node="sideLightsHighR0" lightTypes="0"/>
+                <light node="sideLightsHighR1" lightTypes="0"/>
+                <light node="sideLightsHighR2" lightTypes="0"/>
+                <light node="sideLightsHighR3" lightTypes="0"/>
+                <light node="sideLightsHighR4" lightTypes="0"/>
+                <turnLightLeft node="turnLightLeftBack"/>
+                <turnLightRight node="turnLightRightBack"/>
+                <brakeLight node="backLightLeft"/>
+                <brakeLight node="backLightRight"/>
                 <reverseLight node="reverseLightRight"/>
                 <reverseLight node="reverseLightLeft"/>
-                <light node="BottomLightHigh" lightTypes="0" />
+                <light node="BottomLightHigh" lightTypes="0"/>
             </high>
         </realLights>
         <beaconLights>
@@ -323,21 +350,25 @@
     <animations>
         <animation name="moveSupport">
             <part node="SupportFeet" startTime="0" endTime="0.2" startTrans="0 0.35 0" endTrans="0 0 0"/>
-			<part node="supportCol" startTime="0" endTime="0.1" startTrans="0 0.0 0" endTrans="0 -0.01 0"/>
+            <part node="supportCol" startTime="0" endTime="0.1" startTrans="0 0.0 0" endTrans="0 -0.025 0"/>
         </animation>
         <animation name="folding">
-			<part node="rampJoints" startTime="0" endTime="5" componentJointindex="1" startRot="0 0 0" endRot="-111 0 0" />
+            <part node="rampJoints" startTime="0" endTime="5" componentJointindex="1" startRot="0 0 0" endRot="-107 0 0"/>
+            <part node="rampLock" startTime="0" endTime="0.001" visibility="true"/>
+            <part node="rampLock" startTime="0.001" endTime="0.002" visibility="false"/>
+            <part node="CoversHydraulics"  startTime="0" endTime="5" startRot="0 0 0" endRot="6.5 0 0"/>
+            <part node="ColCovers"  startTime="0" endTime="5" startTrans="0 0 0" endTrans="0 0.5 0"/>
         </animation>
     </animations>
     <cylindered>
         <movingTools>
             <movingTool node="rampJoints" playSound="true">
-                <componentJoint index="1" anchorActor="0" />
+                <componentJoint index="1" anchorActor="0"/>
             </movingTool>
         </movingTools>
         <movingParts>
-            <movingPart node="rampJointsref" referencePoint="rampRef" referenceFrame="rampRef" isActiveDirty="true">
-                <dependentPart node="hydraulicRampPunch" />
+            <movingPart node="hydraulicRamp" referencePoint="rampRef" referenceFrame="rampRef" isActiveDirty="true">
+                <dependentPart node="hydraulicRampPunch"/>
             </movingPart>
             <movingPart node="hydraulicRampPunch" referencePoint="hydraulicRampRef" referenceFrame="hydraulicRampRefFrame">
                 <translatingPart node="RampHydraulicFrame"/>
@@ -350,7 +381,7 @@
             </hydraulic>
         </sounds>
     </cylindered>
-	<tensionBelts>
+    <tensionBelts>
         <tensionBeltsConfigurations>
             <tensionBeltsConfiguration>
                 <tensionBelts linkNode="belts" jointNode="EDGESemiTrailer" width="0.1" maxEdgeLength="0.2" geometryBias="0.01" ratchetPosition="0.8" defaultOffset="0.1" defaultOffsetSide="0.1" defaultHeight="4" activationTrigger="beltActivationTrigger">
@@ -360,17 +391,19 @@
                     <tensionBelt startNode="beltStart4" endNode="beltEnd4"/>
                     <tensionBelt startNode="beltStart5" endNode="beltEnd5"/>
                     <tensionBelt startNode="beltStart6" endNode="beltEnd6"/>
-					<tensionBelt startNode="beltStart7" endNode="beltEnd7"/>
+                    <tensionBelt startNode="beltStart7" endNode="beltEnd7"/>
                     <tensionBelt startNode="beltStart8" endNode="beltEnd8"/>
                     <tensionBelt startNode="beltStart9" endNode="beltEnd9"/>
                     <tensionBelt startNode="beltStart10" endNode="beltEnd10"/>
                     <tensionBelt startNode="beltStart11" endNode="beltEnd11"/>
                     <tensionBelt startNode="beltStart12" endNode="beltEnd12"/>
+                    <tensionBelt startNode="beltStart13" endNode="beltEnd13"/>
+                    <tensionBelt startNode="beltStart14" endNode="beltEnd14"/>
                 </tensionBelts>
             </tensionBeltsConfiguration>
         </tensionBeltsConfigurations>
     </tensionBelts>
-	<ai>
+    <ai>
         <allowTurnBackward value="false"/>
         <turningRadiusLimitation radius="8"/>
     </ai>
@@ -380,125 +413,132 @@
     <dynamicMountAttacher triggerNode="dynamicMountTrigger" rootNode="EDGESemiTrailer" jointNode="EDGESemiTrailer" forceAcceleration="30"/>
     <wearable wearDuration="500" workMultiplier="5" fieldMultiplier="2"/>
     <washable dirtDuration="100" washDuration="1" workMultiplier="3" fieldMultiplier="2"/>
-	<i3dMappings>
-        <i3dMapping id="EDGESemiTrailer" node="0>" />
-        <i3dMapping id="fliegl_vis" node="0>4|0" />
-        <i3dMapping id="FlieglRamp" node="1>1" />
-        <i3dMapping id="rampJoints" node="0>2|0" />
-        <i3dMapping id="rampJointsref" node="0>2|2" />
-        <i3dMapping id="rampRef" node="1>5" />
-        <i3dMapping id="hydraulicRampRef" node="0>2|1" />
-        <i3dMapping id="rampPunchref" node="1>0|0" />
-        <i3dMapping id="hydraulicRampRefFrame" node="1>0|2" />
-        <i3dMapping id="hydraulicRamp" node="1>0" />
-        <i3dMapping id="hydraulicRampPunch" node="1>0|1" />
-        <i3dMapping id="dynamicMountTrigger" node="0>6" />
-        <i3dMapping id="supportArm" node="0>1|2" />
-        <i3dMapping id="SupportFeet" node="0>1|2|0" />
-        <i3dMapping id="supportCol" node="0>1|2|0|0" />
-        <i3dMapping id="Ramp_component2" node="1>" />
-        <i3dMapping id="RampHydraulicFrame" node="1>0|1|0" />
-        <i3dMapping id="backLeft" node="1>3|1|0" />
-        <i3dMapping id="backRight" node="1>3|1|1" />
-        <i3dMapping id="whiteRectangle01" node="1>3|1|2" />
-        <i3dMapping id="whiteRectangle02" node="1>3|1|3" />
-        <i3dMapping id="sideLightsHighL0" node="1>3|1|2|0" />
-        <i3dMapping id="sideLightsHighR0" node="1>3|1|3|0" />
-        <i3dMapping id="sideMarkerRight" node="0>7|1|0" />
-        <i3dMapping id="sideMarkerLeft" node="0>7|1|1" />
-        <i3dMapping id="sideMarker_WhiteL0" node="0>7|2|1|0" />
-        <i3dMapping id="sideMarker_WhiteL1" node="0>7|2|1|1" />
-        <i3dMapping id="sideMarker_WhiteL2" node="0>7|2|1|2" />
-        <i3dMapping id="sideMarker_WhiteL3" node="0>7|2|1|3" />
-        <i3dMapping id="sideMarker_WhiteR0" node="0>7|2|2|0" />
-        <i3dMapping id="sideMarker_WhiteR1" node="0>7|2|2|1" />
-        <i3dMapping id="sideMarker_WhiteR2" node="0>7|2|2|2" />
-        <i3dMapping id="sideMarker_WhiteR3" node="0>7|2|2|3" />
-        <i3dMapping id="sideLightsHighL1" node="0>7|2|1|0|0" />
-        <i3dMapping id="sideLightsHighL2" node="0>7|2|1|1|0" />
-        <i3dMapping id="sideLightsHighL3" node="0>7|2|1|2|0" />
-        <i3dMapping id="sideLightsHighL4" node="0>7|2|1|3|0" />
-        <i3dMapping id="sideLightsHighR1" node="0>7|2|2|0|0" />
-        <i3dMapping id="sideLightsHighR2" node="0>7|2|2|1|0" />
-        <i3dMapping id="sideLightsHighR3" node="0>7|2|2|2|0" />
-        <i3dMapping id="sideLightsHighR4" node="0>7|2|2|3|0" />
-        <i3dMapping id="sideMarkerL1" node="0>7|1|6" />
-        <i3dMapping id="sideMarkerL2" node="0>7|1|7" />
-        <i3dMapping id="sideMarkerL3" node="0>7|2|1|4" />
-        <i3dMapping id="sideMarkerL4" node="0>7|2|1|5" />
-        <i3dMapping id="sideMarkerL5" node="0>7|2|1|6" />
-        <i3dMapping id="sideMarkerL6" node="0>7|2|1|7" />
-        <i3dMapping id="sideMarkerL7" node="0>7|2|1|8" />
-        <i3dMapping id="sideMarkerL8" node="0>7|2|1|9" />
-        <i3dMapping id="sideMarkerL9" node="0>7|2|1|10" />
-        <i3dMapping id="sideMarkerR1" node="0>7|1|8" />
-        <i3dMapping id="sideMarkerR2" node="0>7|1|9" />
-        <i3dMapping id="sideMarkerR3" node="0>7|2|2|4" />
-        <i3dMapping id="sideMarkerR4" node="0>7|2|2|5" />
-        <i3dMapping id="sideMarkerR5" node="0>7|2|2|6" />
-        <i3dMapping id="sideMarkerR6" node="0>7|2|2|7" />
-        <i3dMapping id="sideMarkerR7" node="0>7|2|2|8" />
-        <i3dMapping id="sideMarkerR8" node="0>7|2|2|9" />
-        <i3dMapping id="sideMarkerR9" node="0>7|2|2|10" />
-        <i3dMapping id="yellowRound01" node="0>7|1|2" />
-        <i3dMapping id="yellowRound02" node="0>7|1|3" />
-        <i3dMapping id="worklight01" node="0>7|1|4" />
-        <i3dMapping id="worklight02" node="0>7|1|5" />
-        <i3dMapping id="backLightLeft" node="1>3|1|0|0" />
-        <i3dMapping id="backLightRight" node="1>3|1|1|0" />
-        <i3dMapping id="turnLightLeftBack" node="1>3|1|0|1" />
-        <i3dMapping id="turnLightRightBack" node="1>3|1|1|1" />
-        <i3dMapping id="BottomLightHigh" node="0>7|2|0" />
-        <i3dMapping id="reverseLightRight" node="1>3|1|1|2" />
-        <i3dMapping id="reverseLightLeft" node="1>3|1|0|2" />
-        <i3dMapping id="workLight" node="0>7|0|0" />
-        <i3dMapping id="workLight1" node="0>7|0|1" />
-        <i3dMapping id="axisFront" node="0>0|0|0|0" />
-        <i3dMapping id="axisBack" node="0>0|0|0|1" />
-        <i3dMapping id="attacherJoint" node="0>1|1" />
-        <i3dMapping id="wheelAxisFrontLeft" node="0>0|1" />
-        <i3dMapping id="wheelFrontLeft" node="0>0|1|0" />
-        <i3dMapping id="frontAxisRef" node="0>0|1|1" />
-        <i3dMapping id="wheelAxisFrontRight" node="0>0|2" />
-        <i3dMapping id="wheelFrontRight" node="0>0|2|0" />
-        <i3dMapping id="wheelAxisBackLeft" node="0>0|4" />
-        <i3dMapping id="wheelBackLeft" node="0>0|3|0" />
-        <i3dMapping id="backAxisRef" node="0>0|3|1" />
-        <i3dMapping id="wheelAxisBackRight" node="0>0|4" />
-        <i3dMapping id="wheelBackRight" node="0>0|4|0" />
-        <i3dMapping id="wheelChocksParking" node="0>0|5" />
-        <i3dMapping id="wheelChockParkingLeft" node="0>0|5|0" />
-        <i3dMapping id="wheelChockParkingRight" node="0>0|5|1" />
-        <i3dMapping id="wheelChockParkingLeft1" node="0>0|5|2" />
-        <i3dMapping id="wheelChockParkingRight1" node="0>0|5|3" />
-		<i3dMapping id="beaconLight" node="1>3|0|0" />
-        <i3dMapping id="trailerAttacherJoint" node="0>1|0|0" />
-        <i3dMapping id="belts" node="0>5" />
-        <i3dMapping id="beltStart1" node="0>5|0" />
-        <i3dMapping id="beltEnd1" node="0>5|0|0" />
-        <i3dMapping id="beltStart2" node="0>5|1" />
-        <i3dMapping id="beltEnd2" node="0>5|1|0" />
-        <i3dMapping id="beltStart3" node="0>5|2" />
-        <i3dMapping id="beltEnd3" node="0>5|2|0" />
-        <i3dMapping id="beltStart4" node="0>5|3" />
-        <i3dMapping id="beltEnd4" node="0>5|3|0" />
-        <i3dMapping id="beltStart5" node="0>5|4" />
-        <i3dMapping id="beltEnd5" node="0>5|4|0" />
-        <i3dMapping id="beltStart6" node="0>5|5" />
-        <i3dMapping id="beltEnd6" node="0>5|5|0" />
-        <i3dMapping id="beltStart7" node="0>5|6" />
-        <i3dMapping id="beltEnd7" node="0>5|6|0" />
-        <i3dMapping id="beltStart8" node="0>5|7" />
-        <i3dMapping id="beltEnd8" node="0>5|7|0" />
-        <i3dMapping id="beltStart9" node="0>5|8" />
-        <i3dMapping id="beltEnd9" node="0>5|8|0" />
-        <i3dMapping id="beltStart10" node="0>5|9" />
-        <i3dMapping id="beltEnd10" node="0>5|9|0" />
-        <i3dMapping id="beltStart11" node="0>5|10" />
-        <i3dMapping id="beltEnd11" node="0>5|10|0" />
-        <i3dMapping id="beltStart12" node="0>5|11" />
-        <i3dMapping id="beltEnd12" node="0>5|11|0" />
-        <i3dMapping id="beltActivationTrigger" node="0>5|12" />
-        <i3dMapping id="MudJoint" node="0>9" />
-	</i3dMappings>
+    <i3dMappings>
+        <i3dMapping id="EDGESemiTrailer" node="0>"/>
+        <i3dMapping id="fliegl_vis" node="0>4|0"/>
+        <i3dMapping id="ColCovers" node="1>3|1"/>
+        <i3dMapping id="CoversHydraulics" node="1>3"/>
+        <i3dMapping id="FlieglRamp" node="1>1"/>
+        <i3dMapping id="rampJoints" node="0>2|0"/>
+        <i3dMapping id="rampJointsref" node="0>2|1"/>
+        <i3dMapping id="rampRef" node="1>5"/>
+        <i3dMapping id="hydraulicRampRef" node="0>2|1"/>
+        <i3dMapping id="rampPunchref" node="1>0|0"/>
+        <i3dMapping id="hydraulicRampRefFrame" node="1>0|2"/>
+        <i3dMapping id="hydraulicRamp" node="1>0"/>
+        <i3dMapping id="hydraulicRampPunch" node="1>0|1"/>
+        <i3dMapping id="dynamicMountTrigger" node="0>6"/>
+        <i3dMapping id="supportArm" node="0>1|2"/>
+        <i3dMapping id="SupportFeet" node="0>1|2|0"/>
+        <i3dMapping id="supportCol" node="0>1|2|0|0"/>
+        <i3dMapping id="Ramp_component2" node="1>"/>
+        <i3dMapping id="RampHydraulicFrame" node="1>0|1|0"/>
+        <i3dMapping id="backLeft" node="1>3|0|0"/>
+        <i3dMapping id="backRight" node="1>3|0|1"/>
+        <i3dMapping id="whiteRectangle01" node="1>6|1|0"/>
+        <i3dMapping id="whiteRectangle02" node="1>6|1|1"/>
+        <i3dMapping id="sideLightsHighL0" node="1>6|1|0|0"/>
+        <i3dMapping id="sideLightsHighR0" node="1>6|1|1|0"/>
+        <i3dMapping id="sideMarkerRight" node="0>7|1|0"/>
+        <i3dMapping id="sideMarkerLeft" node="0>7|1|1"/>
+        <i3dMapping id="sideMarker_WhiteL0" node="0>7|2|1|0"/>
+        <i3dMapping id="sideMarker_WhiteL1" node="0>7|2|1|1"/>
+        <i3dMapping id="sideMarker_WhiteL2" node="0>7|2|1|2"/>
+        <i3dMapping id="sideMarker_WhiteL3" node="0>7|2|1|3"/>
+        <i3dMapping id="sideMarker_WhiteR0" node="0>7|2|2|0"/>
+        <i3dMapping id="sideMarker_WhiteR1" node="0>7|2|2|1"/>
+        <i3dMapping id="sideMarker_WhiteR2" node="0>7|2|2|2"/>
+        <i3dMapping id="sideMarker_WhiteR3" node="0>7|2|2|3"/>
+        <i3dMapping id="sideLightsHighL1" node="0>7|2|1|0|0"/>
+        <i3dMapping id="sideLightsHighL2" node="0>7|2|1|1|0"/>
+        <i3dMapping id="sideLightsHighL3" node="0>7|2|1|2|0"/>
+        <i3dMapping id="sideLightsHighL4" node="0>7|2|1|3|0"/>
+        <i3dMapping id="sideLightsHighR1" node="0>7|2|2|0|0"/>
+        <i3dMapping id="sideLightsHighR2" node="0>7|2|2|1|0"/>
+        <i3dMapping id="sideLightsHighR3" node="0>7|2|2|2|0"/>
+        <i3dMapping id="sideLightsHighR4" node="0>7|2|2|3|0"/>
+        <i3dMapping id="sideMarkerL1" node="0>7|1|6"/>
+        <i3dMapping id="sideMarkerL2" node="0>7|1|7"/>
+        <i3dMapping id="sideMarkerL3" node="0>7|2|1|4"/>
+        <i3dMapping id="sideMarkerL4" node="0>7|2|1|5"/>
+        <i3dMapping id="sideMarkerL5" node="0>7|2|1|6"/>
+        <i3dMapping id="sideMarkerL6" node="0>7|2|1|7"/>
+        <i3dMapping id="sideMarkerL7" node="0>7|2|1|8"/>
+        <i3dMapping id="sideMarkerL8" node="0>7|2|1|9"/>
+        <i3dMapping id="sideMarkerL9" node="0>7|2|1|10"/>
+        <i3dMapping id="sideMarkerR1" node="0>7|1|8"/>
+        <i3dMapping id="sideMarkerR2" node="0>7|1|9"/>
+        <i3dMapping id="sideMarkerR3" node="0>7|2|2|4"/>
+        <i3dMapping id="sideMarkerR4" node="0>7|2|2|5"/>
+        <i3dMapping id="sideMarkerR5" node="0>7|2|2|6"/>
+        <i3dMapping id="sideMarkerR6" node="0>7|2|2|7"/>
+        <i3dMapping id="sideMarkerR7" node="0>7|2|2|8"/>
+        <i3dMapping id="sideMarkerR8" node="0>7|2|2|9"/>
+        <i3dMapping id="sideMarkerR9" node="0>7|2|2|10"/>
+        <i3dMapping id="yellowRound01" node="0>7|1|2"/>
+        <i3dMapping id="yellowRound02" node="0>7|1|3"/>
+        <i3dMapping id="worklight01" node="0>7|1|4"/>
+        <i3dMapping id="worklight02" node="0>7|1|5"/>
+        <i3dMapping id="backLightLeft" node="1>3|0|0|0"/>
+        <i3dMapping id="backLightRight" node="1>3|0|1|0"/>
+        <i3dMapping id="turnLightLeftBack" node="1>3|0|0|1"/>
+        <i3dMapping id="turnLightRightBack" node="1>3|0|1|1"/>
+        <i3dMapping id="BottomLightHigh" node="0>7|2|0"/>
+        <i3dMapping id="reverseLightLeft" node="1>3|0|0|2"/>
+        <i3dMapping id="reverseLightRight" node="1>3|0|1|2"/>
+        <i3dMapping id="workLight" node="0>7|0|0"/>
+        <i3dMapping id="workLight1" node="0>7|0|1"/>
+        <i3dMapping id="axisFront" node="0>0|0|0|0"/>
+        <i3dMapping id="axisBack" node="0>0|0|0|1"/>
+        <i3dMapping id="attacherJoint" node="0>1|1"/>
+        <i3dMapping id="wheelAxisFrontLeft" node="0>0|1"/>
+        <i3dMapping id="wheelFrontLeft" node="0>0|1|0"/>
+        <i3dMapping id="frontAxisRef" node="0>0|1|1"/>
+        <i3dMapping id="wheelAxisFrontRight" node="0>0|2"/>
+        <i3dMapping id="wheelFrontRight" node="0>0|2|0"/>
+        <i3dMapping id="wheelAxisBackLeft" node="0>0|4"/>
+        <i3dMapping id="wheelBackLeft" node="0>0|3|0"/>
+        <i3dMapping id="backAxisRef" node="0>0|3|1"/>
+        <i3dMapping id="wheelAxisBackRight" node="0>0|4"/>
+        <i3dMapping id="wheelBackRight" node="0>0|4|0"/>
+        <i3dMapping id="wheelChocksParking" node="0>0|5"/>
+        <i3dMapping id="wheelChockParkingLeft" node="0>0|5|0"/>
+        <i3dMapping id="wheelChockParkingRight" node="0>0|5|1"/>
+        <i3dMapping id="wheelChockParkingLeft1" node="0>0|5|2"/>
+        <i3dMapping id="wheelChockParkingRight1" node="0>0|5|3"/>
+        <i3dMapping id="beaconLight" node="1>6|0|0"/>
+        <i3dMapping id="trailerAttacherJoint" node="0>1|0|0"/>
+        <i3dMapping id="RearHitch" node="0>1|0"/>
+        <i3dMapping id="belts" node="0>5"/>
+        <i3dMapping id="beltStart1" node="0>5|0"/>
+        <i3dMapping id="beltEnd1" node="0>5|0|0"/>
+        <i3dMapping id="beltStart2" node="0>5|1"/>
+        <i3dMapping id="beltEnd2" node="0>5|1|0"/>
+        <i3dMapping id="beltStart3" node="0>5|2"/>
+        <i3dMapping id="beltEnd3" node="0>5|2|0"/>
+        <i3dMapping id="beltStart4" node="0>5|3"/>
+        <i3dMapping id="beltEnd4" node="0>5|3|0"/>
+        <i3dMapping id="beltStart5" node="0>5|4"/>
+        <i3dMapping id="beltEnd5" node="0>5|4|0"/>
+        <i3dMapping id="beltStart6" node="0>5|5"/>
+        <i3dMapping id="beltEnd6" node="0>5|5|0"/>
+        <i3dMapping id="beltStart7" node="0>5|6"/>
+        <i3dMapping id="beltEnd7" node="0>5|6|0"/>
+        <i3dMapping id="beltStart8" node="0>5|7"/>
+        <i3dMapping id="beltEnd8" node="0>5|7|0"/>
+        <i3dMapping id="beltStart9" node="0>5|8"/>
+        <i3dMapping id="beltEnd9" node="0>5|8|0"/>
+        <i3dMapping id="beltStart10" node="0>5|9"/>
+        <i3dMapping id="beltEnd10" node="0>5|9|0"/>
+        <i3dMapping id="beltStart11" node="0>5|10"/>
+        <i3dMapping id="beltEnd11" node="0>5|10|0"/>
+        <i3dMapping id="beltStart12" node="0>5|11"/>
+        <i3dMapping id="beltEnd12" node="0>5|11|0"/>
+        <i3dMapping id="beltStart13" node="0>5|12"/>
+        <i3dMapping id="beltEnd13" node="0>5|12|0"/>
+        <i3dMapping id="beltStart14" node="0>5|13"/>
+        <i3dMapping id="beltEnd14" node="0>5|13|0"/>
+        <i3dMapping id="beltActivationTrigger" node="0>5|14"/>
+        <i3dMapping id="rampLock" node="0>4|3"/>
+    </i3dMappings>
 </vehicle>

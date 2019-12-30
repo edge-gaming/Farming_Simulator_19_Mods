@@ -3,18 +3,26 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_EDGEGrainSilo" 			text="Это здание имеет автоматическое освещение."/>
-		<text name="name_SmallGrainSilo" 				text="Зерновой бункер"/>
-		<text name="name_LargeGrainSilo" 				text="Большой зерновой бункер"/>
-		<text name="name_LargeGrainSiloSystem" 			text="Большая силосная система"/>
-		<text name="name_LargeWhiteGrainSiloSystem" 	text="Большая силосная система из белого зерна"/>
-		<text name="name_SmallGrainSiloExtension" 		text="Расширение бункера для мелкого зерна"/>
-		<text name="name_GrainSiloExtension" 			text="Удлинитель силоса"/>
-		<text name="name_LargeGrainSiloExtension" 		text="Большое зернохранилище"/>
-		<text name="name_LargeWhiteGrainSiloExtension" 	text="Удлинитель бункера большого белого зерна"/>
-		<text name="name_SmallGrainSiloExtension1" 		text="Расширение бункера для мелкого зерна"/>
-		<text name="name_SmallWhiteGrainSiloExtension" 	text="Расширение бункера с белым зерном"/>
-		<!-- <text name="typeDesc_EDGEGrainSilo" text="Silos can be used to store grain"/> -->
-		<!-- <text name="function_EDGEGrainSiloExtension" text="It can be placed within 100 Meters of the farmsilo."/> -->
+		<text name="name_EDGELowLoader"			text="Fliegl Низкорамная Платформа XL"/>
+		<text name="shopItem_EDGELowLoader"		text="Fliegl Низкорамная Платформа"/>
+		<text name="function_EDGELowLoader"		text="Гораздо больший низкий погрузчик, который на самом деле подойдет для вашей огромной техники"/>
+        <text name="configuration_TwinRadial" 	text="Двойной радиальный"/>
+        <text name="configuration_CARGOXBIB" 	text="грузовой"/>
+        <text name="configuration_CXBheavyduty" text="Тяжелые условия"/>
+        <text name="configuration_rough" 		text="Грубый"/>
+        <text name="configuration_TwinForestry"	text="лесоводство"/>
+        <text name="input_function_light" 		text="Боковые фары вкл / выкл"/>
+        <text name="function_light" 			text="Оснащен яркими рабочими огнями для работы в ночное время."/>
+        <text name="color_EDGEGOLD" 			text="EDGE ЗОЛОТО"/>
+        <text name="color_EDGESILVER" 			text="EDGE СЕРЕБРЯНЫЙ"/>
+        <text name="color_DARKGREY"				text="ТЕМНО-СЕРЫЙ"/>
+        <text name="color_ITRUNNER" 			text="IT RUNNER"/>
+        <text name="color_CHROME" 				text="ХРОМ"/>
+        <text name="color_SILVER" 				text="СЕРЕБРЯНЫЙ"/>
+        <text name="color_DARKBLUECHROME" 		text="ТЕМНО-СИНИЙ ХРОМ"/>
+        <text name="color_ORANGECHROME" 		text="ОРАНЖЕВЫЙ ХРОМ"/>
+        <text name="color_GREENCHROME" 			text="ЗЕЛЕНЫЙ ХРОМ"/>
+        <text name="color_BLUECHROME" 			text="СИНИЙ ХРОМ"/>
+        <text name="color_REDCHROME" 			text="КРАСНЫЙ ХРОМ"/>
 	</texts>
 </l10n>

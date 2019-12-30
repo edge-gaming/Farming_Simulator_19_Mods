@@ -3,18 +3,26 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_EDGEGrainSilo" 			text="Ten budynek ma automatyczne oświetlenie."/>
-		<text name="name_SmallGrainSilo" 				text="Silos o małych ziarnach"/>
-		<text name="name_LargeGrainSilo" 				text="Silos o dużych ziarnach"/>
-		<text name="name_LargeGrainSiloSystem" 			text="System silosów o dużych ziarnach"/>
-		<text name="name_LargeWhiteGrainSiloSystem" 	text="Duży system silosów z białym ziarnem"/>
-		<text name="name_SmallGrainSiloExtension" 		text="Przedłużenie silosu na małe ziarna"/>
-		<text name="name_GrainSiloExtension" 			text="Przedłużenie silosu zbożowego"/>
-		<text name="name_LargeGrainSiloExtension" 		text="Przedłużenie silosu na duże ziarna"/>
-		<text name="name_LargeWhiteGrainSiloExtension" 	text="Duże, białe przedłużenie silosu"/>
-		<text name="name_SmallGrainSiloExtension1" 		text="Przedłużenie silosu na małe ziarna"/>
-		<text name="name_SmallWhiteGrainSiloExtension" 	text="Małe białe przedłużenie silosu"/>
-		<!-- <text name="typeDesc_EDGEGrainSilo" text="Silos can be used to store grain"/> -->
-		<!-- <text name="function_EDGEGrainSiloExtension" text="It can be placed within 100 Meters of the farmsilo."/> -->
+		<text name="name_EDGELowLoader"			text="Fliegl Niski Załadunek XL"/>
+		<text name="shopItem_EDGELowLoader"		text="Fliegl Niski Załadunek"/>
+		<text name="function_EDGELowLoader"		text="Znacznie większa naczepa niskopodwoziowa, która faktycznie pasuje do twojej ogromnej maszyny."/>
+        <text name="configuration_TwinRadial" 	text="Podwójny promieniowy"/>
+        <text name="configuration_CARGOXBIB" 	text="Ładunek"/>
+        <text name="configuration_CXBheavyduty" text="ciężki obowiązek"/>
+        <text name="configuration_rough" 		text="Szorstki"/>
+        <text name="configuration_TwinForestry"	text="Leśnictwo"/>
+        <text name="input_function_light" 		text="Światła boczne włączone / wyłączone"/>
+        <text name="function_light" 			text="Wyposażony w jasne światła robocze do pracy w nocy."/>
+        <text name="color_EDGEGOLD" 			text="EDGE ZŁOTO"/>
+        <text name="color_EDGESILVER" 			text="EDGE SREBRO"/>
+        <text name="color_DARKGREY"				text="CIEMNO SZARY"/>
+        <text name="color_ITRUNNER" 			text="IT RUNNER"/>
+        <text name="color_CHROME" 				text="CHROM"/>
+        <text name="color_SILVER" 				text="SREBRO"/>
+        <text name="color_DARKBLUECHROME" 		text="CIEMNY NIEBIESKI CHROM"/>
+        <text name="color_ORANGECHROME" 		text="POMARAŃCZOWY CHROM"/>
+        <text name="color_GREENCHROME" 			text="ZIELONY CHROM"/>
+        <text name="color_BLUECHROME" 			text="NIEBIESKI CHROM"/>
+        <text name="color_REDCHROME" 			text="CZERWONY CHROM"/>
 	</texts>
 </l10n>

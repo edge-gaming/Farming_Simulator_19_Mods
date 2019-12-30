@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<vehicle type="hookLiftContainerTrailerBarrel">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+    <authors>
+        <author>JD7530-Chris</author>
+        <Convertauthor>Castiga / Edge Gaming</Convertauthor>
+    </authors>
+    <storeData>
+        <name>
+            <en>Slurry Container</en>
+            <de>Güllecontainer</de>
+            <fr>Benne à lisier</fr>
+            <nl>Drijfmestcontainer</nl></name>
+        <specs>
+            <combination>ITR 26.33 HD</combination>
+        </specs>
+        <functions>
+            <function>$l10n_function_hookLiftContainer</function>
+            <function>$l10n_function_slurryContainer</function>
+        </functions>
+        <image>store_SlurryContainer.dds</image>
+        <price>14950</price>
+        <lifetime>600</lifetime>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <category>slurryTanks</category>
+    </storeData>
+    <base>
+        <typeDesc>$l10n_typeDesc_manureBarrel</typeDesc>
+        <filename>itRunner/SlurryContainer.i3d</filename>
+        <size width="3.5" length="8.5" lengthOffset="0.3"/>
+        <components>
+            <component centerOfMass="0 0.2 0" solverIterationCount="10" mass="1500"/>
+        </components>
+        <schemaOverlay attacherJointPosition="0 0">
+            <default name="DEFAULT_IMPLEMENT"/>
+            <turnedOn name="DEFAULT_IMPLEMENT_ON"/>
+            <selected name="DEFAULT_IMPLEMENT_SELECTED"/>
+            <turnedOnSelected name="DEFAULT_IMPLEMENT_SELECTED_ON"/>
+        </schemaOverlay>
+    </base>
+    <baseColorConfigurations useDefaultColors="true" price="800" defaultColorIndex="17">
+        <colorNode node="mestContainer_colorMask"/>
+    </baseColorConfigurations>
+    <wheels>
+        <wheelConfigurations>
+            <wheelConfiguration>
+                <wheels autoRotateBackSpeed="2.0">
+                    <wheel>
+                        <physics restLoad="1.0" tipOcclusionAreaGroupId="1" repr="wheelLeft" radius="0.085" width="0.5" mass="0.02" initialCompression="50" suspTravel="0.05" spring="300" damper="100" frictionScale="0.8" yOffset="0.03"/>
+                    </wheel>
+                    <wheel>
+                        <physics restLoad="1.0" tipOcclusionAreaGroupId="1" repr="wheelRight" radius="0.085" width="0.5" mass="0.02" initialCompression="50" suspTravel="0.05" spring="300" damper="100" frictionScale="0.8" yOffset="0.03"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+        </wheelConfigurations>
+    </wheels>
+    <attachable>
+        <inputAttacherJoints>
+            <inputAttacherJoint node="attacherJoint" jointType="hookLift" upperRotationOffset="0" allowsJointRotLimitMovement="false" forceSelectionOnAttach="false"/>
+        </inputAttacherJoints>
+        <brakeForce>0.5</brakeForce>
+    </attachable>
+    <fillUnit>
+        <fillUnitConfigurations>
+            <fillUnitConfiguration>
+                <fillUnits>
+                    <fillUnit unit="$l10n_unit_literShort" fillTypeCategories="slurryTank" capacity="45000"/>
+                </fillUnits>
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+    </fillUnit>
+    <fillVolume>
+        <fillVolumeConfigurations>
+            <fillVolumeConfiguration>
+                <volumes>
+                    <volume node="0>4" maxDelta="0" allSidePlanes="false" fillUnitIndex="1" maxAllowedHeapAngle="0"/>
+                </volumes>
+            </fillVolumeConfiguration>
+        </fillVolumeConfigurations>
+    </fillVolume>
+    <warningSigns>
+        <sign index="0>3" trigger="0>10" isVisible="false"/>
+    </warningSigns>
+    <washable dirtDuration="90" washDuration="1" workMultiplier="4"/>
+    <tipOccluder>
+        <occlusionArea start="0>7|0" width="0>7|1" height="0>7|2"/>
+    </tipOccluder>
+    <i3dMappings>
+        <i3dMapping id="mestContainer_colorMask" node="0>8|0"/>
+        <i3dMapping id="wheelLeft" node="0>0|0"/>
+        <i3dMapping id="wheelRight" node="0>1|0"/>
+        <i3dMapping id="attacherJoint" node="0>2"/>
+        <i3dMapping id="mestContainer_colorMask" node="0>8|0"/>
+        <i3dMapping id="MestContainer" node="0>8"/>
+        <i3dMapping id="door" node="0>3|0"/>
+        <i3dMapping id="doorHydrRef" node="0>3|0|0"/>
+        <i3dMapping id="doorHydr" node="0>3|1"/>
+        <i3dMapping id="doorHydrPunch" node="0>3|1|0"/>
+        <i3dMapping id="pipe1Ref" node="0>3|1|1"/>
+        <i3dMapping id="pipe2Ref" node="0>3|1|2"/>
+        <i3dMapping id="pipe1" node="0>3|2|0"/>
+        <i3dMapping id="pipe2" node="0>3|2|1"/>
+        <i3dMapping id="pipeRefFrame" node="0>3|2|2"/>
+        <i3dMapping id="fillVolume" node="0>3|3|0"/>
+        <i3dMapping id="grainNorm" node="0>3|4|0"/>
+        <i3dMapping id="smokeNorm" node="0>3|4|1"/>
+        <i3dMapping id="tipReferenceNode" node="0>3|5"/>
+        <i3dMapping id="fillVolumeHeightNode1" node="0>3|6|0"/>
+        <i3dMapping id="fillVolumeHeightNode2" node="0>3|6|1"/>
+        <i3dMapping id="fillVolumeHeightNode3" node="0>3|6|2"/>
+        <i3dMapping id="fillVolumeHeightNode4" node="0>3|6|3"/>
+        <i3dMapping id="exactFillRootNode" node="0>4"/>
+        <i3dMapping id="fillAutoAimTargetNode" node="0>5"/>
+    </i3dMappings>
+</vehicle>

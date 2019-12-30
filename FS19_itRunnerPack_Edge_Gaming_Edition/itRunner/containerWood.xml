@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<vehicle type="hookLiftContainerTrailer">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+    <author>Castiga / Edge Gaming</author>
+    <storeData>
+        <name>
+            <en>Wood container</en>
+            <de>Holzcontainer</de>
+            <fr>Benne à bois</fr>
+            <it>Container legno</it>
+            <es>Contenedor de lana</es>
+            <pt>Contentor de madeira</pt>
+            <br>Contêiner de madeira</br>
+            <nl>Houtcontainer</nl>
+            <pl>Kontener na drewno</pl>
+            <cz>Kontejner na dřevo</cz>
+            <hu>Fáskonténer</hu>
+            <ro>Container forestier</ro>
+            <ru>Контейнер под хлысты</ru>
+            <tr>Odun konteyneri</tr>
+            <kr>목재 컨테이너</kr>
+            <jp>木材コンテナ</jp>
+            <cs>木材集装箱</cs>
+            <ct>木材集裝箱</ct></name>
+        <specs>
+            <combination>ITR 26.33 HD</combination>
+        </specs>
+        <functions>
+            <function>$l10n_function_hookLiftContainer</function>
+            <function>$l10n_function_forestryTransport</function>
+        </functions>
+        <image>store_containerWood.png</image>
+        <price>7500</price>
+        <lifetime>600</lifetime>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <category>wood</category>
+        <vertexBufferMemoryUsage>131776</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>17448</indexBufferMemoryUsage>
+        <textureMemoryUsage>5876640</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+    <base>
+        <typeDesc>$l10n_typeDesc_container</typeDesc>
+        <filename>itRunner/containerWood.i3d</filename>
+        <size width="3.5" length="8.5" lengthOffset="0.3"/>
+        <components>
+            <component centerOfMass="0 0.2 0" solverIterationCount="10" mass="2000"/>
+        </components>
+        <schemaOverlay attacherJointPosition="0 0">
+            <default name="DEFAULT_IMPLEMENT"/>
+            <turnedOn name="DEFAULT_IMPLEMENT_ON"/>
+            <selected name="DEFAULT_IMPLEMENT_SELECTED"/>
+            <turnedOnSelected name="DEFAULT_IMPLEMENT_SELECTED_ON"/>
+        </schemaOverlay>
+    </base>
+    <wheels>
+        <wheelConfigurations>
+            <wheelConfiguration>
+                <wheels autoRotateBackSpeed="2.0">
+                    <wheel>
+                        <physics restLoad="1.0" tipOcclusionAreaGroupId="1" repr="wheelLeft" radius="0.085" width="0.5" mass="0.02" initialCompression="50" suspTravel="0.05" spring="300" damper="100" frictionScale="0.8" yOffset="0.03"/>
+                    </wheel>
+                    <wheel>
+                        <physics restLoad="1.0" tipOcclusionAreaGroupId="1" repr="wheelRight" radius="0.085" width="0.5" mass="0.02" initialCompression="50" suspTravel="0.05" spring="300" damper="100" frictionScale="0.8" yOffset="0.03"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+        </wheelConfigurations>
+    </wheels>
+    <attachable>
+        <inputAttacherJoints>
+            <inputAttacherJoint node="attacherJoint" jointType="hookLift" upperRotationOffset="0" allowsJointRotLimitMovement="false" forceSelectionOnAttach="false"/>
+        </inputAttacherJoints>
+        <brakeForce>0.5</brakeForce>
+    </attachable>
+    <tensionBelts>
+        <tensionBeltsConfigurations>
+            <tensionBeltsConfiguration>
+                <tensionBelts linkNode="tensionBelts" jointNode="containerWood_main_component1" width="0.075" maxEdgeLength="0.1" geometryBias="0.01" ratchetPosition="0.2" defaultOffset="0.1" defaultOffsetSide="0.1" defaultHeight="4" activationTrigger="beltActivationTrigger">
+                    <tensionBelt startNode="startPoint01" endNode="startPoint01End" offsetLeft="0.2"/>
+                    <tensionBelt startNode="startPoint02" endNode="startPoint02End" offsetRight="0.2"/>
+                </tensionBelts>
+            </tensionBeltsConfiguration>
+        </tensionBeltsConfigurations>
+    </tensionBelts>
+    <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
+    <washable dirtDuration="90" washDuration="1" workMultiplier="3" fieldMultiplier="2"/>
+    <foliageBending>
+        <bendingNode minX="-1.35" maxX="1.35" minZ="-3.5" maxZ="4.1" yOffset="0.2"/>
+    </foliageBending>
+    <baseMaterial>
+        <material name="containerWood_mat" baseNode="container_vis">
+            <shaderParameter name="colorMat0" value="SHARED_BLACK1"/>
+            <shaderParameter name="colorMat1" value="BERGMANN_RED1"/>
+        </material>
+    </baseMaterial>
+    <baseMaterialConfigurations price="1500" useDefaultColors="true">
+        <baseMaterialConfiguration color="0.0116 0.0944 0.0319 1" price="0"/>
+        <baseMaterialConfiguration name="SILVER" color="0.6456 0.6456 0.6456 1" material="8" price="1500"/>
+        <baseMaterialConfiguration name="CHROME" color="0.9800 0.9800 0.9800 1" material="2" price="1500"/>
+        <material name="containerWood_mat" shaderParameter="colorMat0"/>
+    </baseMaterialConfigurations>
+    <designMaterialConfigurations price="300" useDefaultColors="true">
+        <designMaterialConfiguration color="BERGMANN_RED1" price="0"/>
+        <designMaterialConfiguration name="SILVER" color="0.6456 0.6456 0.6456 1" material="8" price="300"/>
+        <designMaterialConfiguration name="CHROME" color="0.9800 0.9800 0.9800 1" material="2" price="300"/>
+        <material name="containerWood_mat" shaderParameter="colorMat1"/>
+    </designMaterialConfigurations>
+    <i3dMappings>
+        <i3dMapping id="containerWood_main_component1" node="0>"/>
+        <i3dMapping id="wheelLeft" node="0>0"/>
+        <i3dMapping id="wheelRight" node="0>1"/>
+        <i3dMapping id="attacherJoint" node="0>2"/>
+        <i3dMapping id="tensionBelts" node="0>3"/>
+        <i3dMapping id="startPoint01" node="0>3|1"/>
+        <i3dMapping id="startPoint01End" node="0>3|1|0"/>
+        <i3dMapping id="startPoint02" node="0>3|2"/>
+        <i3dMapping id="startPoint02End" node="0>3|2|0"/>
+        <i3dMapping id="beltActivationTrigger" node="0>3|3"/>
+        <i3dMapping id="container_vis" node="0>4"/>
+    </i3dMappings>
+</vehicle>

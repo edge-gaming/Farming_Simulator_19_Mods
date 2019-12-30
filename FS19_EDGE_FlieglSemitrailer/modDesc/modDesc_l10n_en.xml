@@ -3,18 +3,26 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_EDGEGrainSilo" 			text="This Building have automatic lighting."/>
-		<text name="name_SmallGrainSilo" 				text="Small Grain Silo"/>
-		<text name="name_LargeGrainSilo" 				text="Large Grain Silo"/>
-		<text name="name_LargeGrainSiloSystem" 			text="Large Grain Silo System"/>
-		<text name="name_LargeWhiteGrainSiloSystem"		text="Large White Grain Silo System"/>
-		<text name="name_SmallGrainSiloExtension" 		text="Small Grain Silo Extension"/>
-		<text name="name_GrainSiloExtension" 			text="Grain Silo Extension"/>
-		<text name="name_LargeGrainSiloExtension" 		text="Large Grain Silo Extension"/>
-		<text name="name_LargeWhiteGrainSiloExtension" 	text="Large White Grain Silo Extension"/>
-		<text name="name_SmallGrainSiloExtension1" 		text="Small Grain Silo Extension"/>
-		<text name="name_SmallWhiteGrainSiloExtension" 	text="Small White Grain Silo Extension"/>
-		<!-- <text name="typeDesc_EDGEGrainSilo" text="Silos can be used to store grain"/> -->
-		<!-- <text name="function_EDGEGrainSiloExtension" text="It can be placed within 100 Meters of the farmsilo."/> -->
+		<text name="name_EDGELowLoader"			text="Fliegl Low Loader XL"/>
+		<text name="shopItem_EDGELowLoader"		text="Fliegl Low Loader"/>
+		<text name="function_EDGELowLoader"		text="Much bigger low loader that will actually fit your huge machinery."/>
+        <text name="configuration_TwinRadial" 	text="Twin Radial"/>
+        <text name="configuration_CARGOXBIB" 	text="Cargo"/>
+        <text name="configuration_CXBheavyduty" text="Heavy Duty"/>
+        <text name="configuration_rough" 		text="Rough"/>
+        <text name="configuration_TwinForestry"	text="Forestry"/>
+        <text name="input_function_light" 		text="Side Lights on / off"/>
+        <text name="function_light" 			text="Fitted with Bright work lights for night time work."/>
+        <text name="color_EDGEGOLD" 			text="EDGE GOLD"/>
+        <text name="color_EDGESILVER" 			text="EDGE SILVER"/>
+        <text name="color_DARKGREY"				text="DARK GREY"/>
+        <text name="color_ITRUNNER" 			text="IT RUNNER"/>
+        <text name="color_CHROME" 				text="CHROME"/>
+        <text name="color_SILVER" 				text="SILVER"/>
+        <text name="color_DARKBLUECHROME" 		text="DARK BLUE CHROME"/>
+        <text name="color_ORANGECHROME" 		text="ORANGE CHROME"/>
+        <text name="color_GREENCHROME" 			text="GREEN CHROME"/>
+        <text name="color_BLUECHROME" 			text="BLUE CHROME"/>
+        <text name="color_REDCHROME" 			text="RED CHROME"/>
 	</texts>
 </l10n>
