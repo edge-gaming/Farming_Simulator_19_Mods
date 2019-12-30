@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_name_EDGEFertilizerStorage</name>
+        <functions>
+            <function>$l10n_function_EDGEFertilizerStorage</function>
+        </functions>
+        <specs>
+            <capacity>50000</capacity>
+            <fillTypes>DIGESTATE LIQUIDMANURE LIQUIDFERTILIZER HERBICIDE</fillTypes>
+        </specs>
+        <image>store_EDGEFertilizerStorage.dds</image>
+        <price>60000</price>
+        <dailyUpkeep>20</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <species>placeable</species>
+        <category>silos</category>
+    </storeData>
+    <placeableType>silo</placeableType>
+    <filename>Tanks/EDGEFertilizerStorage.i3d</filename>
+    <placement testSizeX="14" testSizeZ="10" sizeX="12" sizesZ="9" useRandomYRotation="false" useManualYRotation="true"/>
+    <loadingStation stationName="EDGE Liquid Fertilizer" appearsOnPDA="false" storageRadius="100" fillSoundIdentifier="SLURRY_01">
+        <loadTrigger triggerNode="2|1|0" fillLitersPerSecond="2000" dischargeNode="2|1|0|3">
+            <effectNode effectNode="2|1|0|2|0" effectClass="ParticleEffect" particleType="smoke" materialTypeId="1" fadeTime="0.5"/>
+        </loadTrigger>
+    </loadingStation>
+    <unloadingStation stationName="EDGE Liquid Fertilizer" appearsOnPDA="false" storageRadius="100">
+        <unloadTrigger triggerNode="2|0|0" exactFillRootNode="2|0|0|3"/>
+		<!-- Controls for use in later update -->
+		<controls triggerNode="2|0|1" posAction="ACTIVATE_OBJECT" posText="$l10n_action_fillStorage" negText="$l10n_action_stopFillStorage" />
+    </unloadingStation>
+    <storages>
+        <storage node="2|2" fillTypes="DIGESTATE LIQUIDMANURE LIQUIDFERTILIZER HERBICIDE" capacityPerFillType="50000"/>
+    </storages>
+    <clearAreas>
+        <clearArea startNode="2|4|0" widthNode="2|4|1" heightNode="2|4|2"/>
+    </clearAreas>
+    <hotspots>
+        <hotspot name="EDGE Liquid Fertilizer" fullName="EDGE Liquid Fertilizer Storage" imageName="SELLING_POINT" hidable="true" linkNode="2|3" category="CATEGORY_TRIGGERS"/>
+    </hotspots>
+    <leveling requireLeveling="true" maxSmoothDistance="5" maxSlope="85" maxEdgeAngle="35">
+        <levelAreas>
+            <levelArea startNode="2|5|0" widthNode="2|5|0|0" heightNode="2|5|0|1" groundType="asphalt"/>
+        </levelAreas>
+    </leveling>
+	<dayNightObjects>
+        <dayNightObject node="4|0|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="4|1|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="4|2|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="4|3|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="4|4|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="4|5|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="4|6|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="4|7|0" visibleDay="true" visibleNight="true" intensityDay="1" intensityNight="0.6"/>
+    </dayNightObjects>
+	<triggerMarkers>
+        <triggerMarker node="2|6" />
+    </triggerMarkers>
+    <tipOcclusionUpdateArea sizeX="10" sizeZ="8"/>
+</placeable>

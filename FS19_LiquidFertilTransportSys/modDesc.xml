@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="43">
+    <author>Edge Gaming / Castiga</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>EDGE Liquid Fertilizer Transport System</en>
+        <de>EDGE Flüssigdüngerlagerung</de>
+        <fr>EDGE Stockage D'engrais Liquide</fr>
+    </title>
+    <description>
+        <en><![CDATA[EDGE Liquid Ferilizer is a placeable Liquid Fertilizer storage for your farm, here you can store Slurry, Digestate, Herbicide & Liquid Fertilizer.
+You will be able to choose between a small version, a bigger one with dubble the storage & one big stacked one for those who wanto save some space at their farm.
+The amount stored will show up in your storage.
+The Buildings have worklights for nightime work, and comes with easy access for all your Machinery.
+
+Building choises are as followed:
+
+EDGE Liquid Fertilizer S:
+Price: 60.000€
+Upkeep: 20€ Daily
+Size: 12 x 9m
+Weight: 80.000kg
+Capacity: 50.000 Litre
+Overloading Speed 2000 L/s
+
+EDGE Liquid Fertilizer L:
+Price: 60.000€
+Upkeep: 20€ Daily
+Size: 12 x 9m
+Weight: 80.000kg
+Capacity: 50.000 Litre
+Overloading Speed 2000 L/s
+
+EDGE Liquid Fertilizer L Stacked:
+Price: 60.000€
+Upkeep: 20€ Daily
+Size: 12 x 9m
+Weight: 80.000kg
+Capacity: 50.000 Litre
+Overloading Speed 2000 L/s
+
+[Changelog 1.0.0.0:]]></en>
+
+        <de><![CDATA[Liquid Ferilizer ist ein platzierbares Flüssigdüngerlager für Ihren Betrieb. Hier können Sie Gülle, Gärreste, Herbizide und Flüssigdünger lagern.
+Sie können zwischen einer kleinen, einer größeren Version mit doppeltem Speicher und einer großen gestapelten Version für diejenigen wählen, die auf ihrer Farm etwas Platz sparen möchten.
+Der gespeicherte Betrag wird in Ihrem Speicher angezeigt.
+Die Gebäude verfügen über Arbeitsscheinwerfer für die Nachtarbeit und sind für alle Ihre Maschinen leicht zugänglich.
+
+Die Auswahl der Gebäude ist wie folgt:
+
+EDGE Flüssigdünger S:
+Preis: 60.000 €
+Unterhalt: 20 € Täglich
+Größe: 12 x 9 m
+Gewicht: 80.000 kg
+Fassungsvermögen: 50.000 Liter
+Überladegeschwindigkeit 2000 L/s
+
+EDGE Flüssigdünger L:
+Preis: 60.000 €
+Unterhalt: 20 € Täglich
+Größe: 12 x 9 m
+Gewicht: 80.000 kg
+Fassungsvermögen: 50.000 Liter
+Überladegeschwindigkeit 2000 L/s
+
+EDGE Flüssigdünger L gestapelt:
+Preis: 60.000 €
+Unterhalt: 20 € Täglich
+Größe: 12 x 9 m
+Gewicht: 80.000 kg
+Fassungsvermögen: 50.000 Liter
+Überladegeschwindigkeit 2000 L/s]
+
+[Änderungsprotokoll 1.0.0.0:]]></de>
+
+        <fr><![CDATA[Liquid Ferilizer est un stockage d’engrais liquides pour votre ferme. Vous pouvez y stocker du lisier, du digestat, des herbicides et des engrais liquides.
+Vous pourrez choisir entre une version plus petite, une version plus grande avec une mémoire double et une grande version empilée pour ceux qui veulent économiser de l’espace sur leur ferme.
+La quantité stockée apparaîtra dans votre mémoire.
+Les bâtiments ont des projecteurs de travail pour le travail de nuit et sont livrés avec un accès facile pour toutes vos machines.
+
+Les choix de construction sont les suivants:
+
+EDGE Engrais liquide S:
+Prix: 60.000 €
+Entretien: 20 € par jour
+Taille: 12 x 9m
+Poids: 80.000kg
+Capacité: 50.000 litres
+Surcharge Vitesse 2000 L/s
+
+EDGE Engrais liquide L:
+Prix: 60.000 €
+Entretien: 20 € par jour
+Taille: 12 x 9m
+Poids: 80.000kg
+Capacité: 50.000 litres
+Surcharge Vitesse 2000 L/s
+
+EDGE Engrais liquide L empilé:
+Prix: 60.000 €
+Entretien: 20 € par jour
+Taille: 12 x 9m
+Poids: 80.000kg
+Capacité: 50.000 litres
+Surcharge Vitesse 2000 L/s]
+
+[Changer le journal 1.0.0.0:]]></fr>
+
+	</description>
+    <iconFilename>Tanks_Icon.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <storeItems>
+        <storeItem xmlFilename="tsa.xml"/>
+    </storeItems>
+    <l10n>
+		<text name="function_EDGEFertilizerStorage">
+			<en>Liquid Ferilizer Storage for your farm, here you can store your Slurry, Digestate, Herbicide & regular Liquid Fertilizer.</en>
+			<de>Lagerung von Flüssigdüngern für Ihren Betrieb. Hier können Sie Gülle, Gärreste, Herbizide und normale Flüssigdünger lagern.</de>
+			<fr>Stockage d'engrais liquide pour votre ferme, vous pouvez y stocker votre lisier, votre digestat, votre herbicide et votre engrais liquide régulier.</fr>
+		</text>
+		<text name="typeDesc_EDGEFertilizerStorage">
+			<en>Liquid Ferilizer Storage</en>
+			<de>Lagerung von Flüssigdünger</de>
+			<fr>Stockage d'engrais liquide</fr>
+		</text>
+		<text name="name_EDGEFertilizerStorage">
+			<en>EDGE Liquid Fertilizer</en>
+			<de>EDGE Flüssigdünger</de>
+			<fr>Engrais liquide EDGE</fr>
+		</text>
+		<text name="station_EDGEFertilizerStorage">
+			<en>EDGE Liquid Fertilizer station</en>
+			<de>EDGE Flüssigdüngerstation</de>
+			<fr>EDGE Station d'engrais liquide</fr>
+		</text>
+		<text name="fullname_EDGEFertilizerStorage">
+			<en>EDGE Liquid Fertilizer Storage</en>
+			<de>EDGE Lagerung von Flüssigdünger</de>
+			<fr>EDGE Stockage d'engrais liquide</fr>
+		</text>
+    </l10n>
+    <brands>
+        <brand name="EDGE" title="EDGE Industries" image="EDGE_Brand_Logo.dds"/>
+    </brands>
+</modDesc>

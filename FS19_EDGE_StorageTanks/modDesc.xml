@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="43">
+    <author>Edge Gaming / Castiga</author>
+    <version>1.0.0.0</version>
+    <title><!-- en=English de=Germany jp=Japan pl=Poland cz=Czechia fr=French es=Spanish ru=Russian it=Italy pt=Portugal hu=Hungary nl=Netherlands cs=Serbia and Montenegro ct=Central African Republic br=Brazil tr=Turkey ro=Romania kr=South Korea -->
+        <en>EDGE Liquid Fertilizer Storage</en>
+        <de>EDGE Flüssigdüngerlagerung</de>
+        <fr>EDGE Stockage D'engrais Liquide</fr>
+		<es>EDGE Almacenamiento de fertilizante líquido</es>
+		<ru>EDGE Хранение жидких удобрений</ru>
+		<pl>EDGE Przechowywanie płynnych nawozów</pl>
+		<jp></jp>
+		<cz></cz>
+		<it></it>
+		<pt></pt>
+		<hu></hu>
+		<nl></nl>
+		<cs></cs>
+		<ct></ct>
+		<br></br>
+		<tr></tr>
+		<ro></ro>
+		<kr></kr>
+    </title>
+    <description>
+        <en><![CDATA[EDGE Liquid Fertilizer is a placeable Liquid Fertilizer storage for your farm, here you can store Slurry, Digestate, Herbicide & Liquid Fertilizer.
+You will be able to choose between a small version, a bigger one with dubble the storage & one big stacked one for those who wanto save some space at their farm.
+The amount stored will show up in your storage.
+The Buildings have worklights for nightime work, and comes with easy access for all your Machinery.
+
+Building choises are as followed:
+
+EDGE Liquid Fertilizer S: 
+Price: 60.000€
+Upkeep: 20€ Daily 
+Size: 12 x 9m
+Weight: 80.000kg
+Capacity: 50.000 Litre
+Overloading Speed 2000 L/s
+
+EDGE Liquid Fertilizer L:
+Price: 60.000€
+Upkeep: 20€ Daily 
+Size: 12 x 9m
+Weight: 80.000kg
+Capacity: 50.000 Litre
+Overloading Speed 2000 L/s
+
+EDGE Liquid Fertilizer L Stacked:
+Price: 60.000€
+Upkeep: 20€ Daily 
+Size: 12 x 9m
+Weight: 80.000kg
+Capacity: 50.000 Litre
+Overloading Speed 2000 L/s]
+
+[Changelog 1.0.0.0:]]></en>
+	
+        <de><![CDATA[Liquid Ferilizer ist ein platzierbares Flüssigdüngerlager für Ihren Betrieb. Hier können Sie Gülle, Gärreste, Herbizide und Flüssigdünger lagern.
+Sie können zwischen einer kleinen, einer größeren Version mit doppeltem Speicher und einer großen gestapelten Version für diejenigen wählen, die auf ihrer Farm etwas Platz sparen möchten.
+Der gespeicherte Betrag wird in Ihrem Speicher angezeigt.
+Die Gebäude verfügen über Arbeitsscheinwerfer für die Nachtarbeit und sind für alle Ihre Maschinen leicht zugänglich.
+
+Die Auswahl der Gebäude ist wie folgt:
+
+EDGE Flüssigdünger S:
+Preis: 60.000 €
+Unterhalt: 20 € Täglich
+Größe: 12 x 9 m
+Gewicht: 80.000 kg
+Fassungsvermögen: 50.000 Liter
+Überladegeschwindigkeit 2000 L/s
+
+EDGE Flüssigdünger L:
+Preis: 60.000 €
+Unterhalt: 20 € Täglich
+Größe: 12 x 9 m
+Gewicht: 80.000 kg
+Fassungsvermögen: 50.000 Liter
+Überladegeschwindigkeit 2000 L/s
+
+EDGE Flüssigdünger L gestapelt:
+Preis: 60.000 €
+Unterhalt: 20 € Täglich
+Größe: 12 x 9 m
+Gewicht: 80.000 kg
+Fassungsvermögen: 50.000 Liter
+Überladegeschwindigkeit 2000 L/s]
+
+[Änderungsprotokoll 1.0.0.0:]]></de>
+
+        <fr><![CDATA[Liquid Ferilizer est un stockage d’engrais liquides pour votre ferme. Vous pouvez y stocker du lisier, du digestat, des herbicides et des engrais liquides.
+Vous pourrez choisir entre une version plus petite, une version plus grande avec une mémoire double et une grande version empilée pour ceux qui veulent économiser de l’espace sur leur ferme.
+La quantité stockée apparaîtra dans votre mémoire.
+Les bâtiments ont des projecteurs de travail pour le travail de nuit et sont livrés avec un accès facile pour toutes vos machines.
+
+Les choix de construction sont les suivants:
+
+EDGE Engrais liquide S:
+Prix: 60.000 €
+Entretien: 20 € par jour
+Taille: 12 x 9m
+Poids: 80.000kg
+Capacité: 50.000 litres
+Surcharge Vitesse 2000 L/s
+
+EDGE Engrais liquide L:
+Prix: 60.000 €
+Entretien: 20 € par jour
+Taille: 12 x 9m
+Poids: 80.000kg
+Capacité: 50.000 litres
+Surcharge Vitesse 2000 L/s
+
+EDGE Engrais liquide L empilé:
+Prix: 60.000 €
+Entretien: 20 € par jour
+Taille: 12 x 9m
+Poids: 80.000kg
+Capacité: 50.000 litres
+Surcharge Vitesse 2000 L/s]
+
+[Changer le journal 1.0.0.0:]]></fr>
+
+		<es><![CDATA[EDGE Fertilizante liquido es un almacenamiento placentero de Fertilizante Líquido para su granja, aquí puede almacenar Lodos, Digestatos, Herbicidas y Fertilizantes Líquidos
+Podrás elegir entre una versión pequeña, una más grande con duplicar el almacenamiento y una grande apilada para aquellos que desean ahorrar algo de espacio en su granja.
+La cantidad almacenada se mostrará en su almacenamiento.
+Los edificios tienen luces de trabajo para el trabajo nocturno y cuentan con un fácil acceso para toda su maquinaria.
+
+Las opciones de construcción son las siguientes:
+
+Fertilizante líquido EDGE S:
+Precio: 60.000 €
+Mantenimiento: 20 € por día.
+Tamaño: 12 x 9m
+Peso: 80.000kg.
+Capacidad: 50.000 litros.
+Velocidad de sobrecarga 2000 L / s
+
+Fertilizante Líquido EDGE L:
+Precio: 60.000 €
+Mantenimiento: 20 € por día.
+Tamaño: 12 x 9m
+Peso: 80.000kg.
+Capacidad: 50.000 litros.
+Velocidad de sobrecarga 2000 L / s
+
+Fertilizante Líquido EDGE L Apilado:
+Precio: 60.000 €
+Mantenimiento: 20 € por día.
+Tamaño: 12 x 9m
+Peso: 80.000kg.
+Capacidad: 50.000 litros.
+Velocidad de sobrecarga 2000 l / s]
+
+[Registro de cambios 1.0.0.0:]]></es>
+
+		<ru><![CDATA[EDGE Жидкое удобрение - это место для хранения жидких удобрений для вашей фермы, здесь вы можете хранить жидкий навоз, дайджест, гербицид и жидкие удобрения.
+Вы сможете выбрать между маленькой версией, более крупной с дублированием хранилища и одной большой, для тех, кто хочет сэкономить место на своей ферме.
+Сумма хранится будет отображаться в вашем хранилище.
+Здания имеют рабочие фары для ночной работы и имеют легкий доступ ко всем вашим машинам.
+
+Выборы здания следующие:
+
+EDGE Жидкое удобрение S:
+Цена: 60.000 €
+Содержание: 20 € в день
+Размер: 12 х 9 м
+Вес: 80.000 кг
+Емкость: 50.000 литров
+Скорость перегрузки 2000 л / с
+
+EDGE Жидкое удобрение L:
+Цена: 60.000 €
+Содержание: 20 € в день
+Размер: 12 х 9 м
+Вес: 80.000 кг
+Емкость: 50.000 литров
+Скорость перегрузки 2000 л / с
+
+EDGE Жидкое удобрение L в штабеле:
+Цена: 60.000 €
+Содержание: 20 € в день
+Размер: 12 х 9 м
+Вес: 80.000 кг
+Емкость: 50.000 литров
+Скорость перегрузки 2000 л / с]
+
+[Изменения 1.0.0.0:]]></ru>
+
+		<pl><![CDATA[EDGE Płynny nawóz to miejsce do przechowywania płynnych nawozów na potrzeby gospodarstwa, w którym można przechowywać gnojowicę, fermentat, herbicyd i płynny nawóz.
+Będziesz mógł wybrać pomiędzy małą wersją, większą z dubble i jedną dużą ułożoną dla tych, którzy chcą zaoszczędzić trochę miejsca w swojej farmie.
+Zapisana ilość pojawi się w Twoim magazynie.
+Budynki mają reflektory robocze do pracy w nocy i są łatwo dostępne dla wszystkich maszyn.
+
+Wybór budynku jest następujący:
+
+EDGE Liquid Fertilizer S:
+Cena: 60 000 €
+Utrzymanie: 20 € dziennie
+Rozmiar: 12 x 9 m
+Waga: 80 000 kg
+Pojemność: 50 000 litrów
+Prędkość przeciążania 2000 L / s
+
+EDGE Liquid Fertilizer L:
+Cena: 60 000 €
+Utrzymanie: 20 € dziennie
+Rozmiar: 12 x 9 m
+Waga: 80 000 kg
+Pojemność: 50 000 litrów
+Prędkość przeciążania 2000 L / s
+
+EDGE Liquid Fertilizer L Stacked:
+Cena: 60 000 €
+Utrzymanie: 20 € dziennie
+Rozmiar: 12 x 9 m
+Waga: 80 000 kg
+Pojemność: 50 000 litrów
+Prędkość przeciążania 2000 L / s]
+
+[Lista zmian 1.0.0.0:]]></pl>
+
+		<jp></jp>
+		<cz></cz>
+		<it></it>
+		<pt></pt>
+		<hu></hu>
+		<nl></nl>
+		<cs></cs>
+		<ct></ct>
+		<br></br>
+		<tr></tr>
+		<ro></ro>
+		<kr></kr>
+    
+	</description>
+    <iconFilename>TanksIcon.dds</iconFilename>
+    <multiplayer supported="true"/>
+	<l10n filenamePrefix="modDesc/modDesc_l10n" />
+    <storeItems>
+        <storeItem xmlFilename="Tanks/EDGEFertilizerStorage.xml"/>
+    </storeItems>
+    <brands>
+        <brand name="EDGE" title="EDGE Industries" image="EDGE_Brand_Logo.dds"/>
+    </brands>
+	<inputBindings>
+        <input name="FillStorage" key="ACTIVATE_OBJECT"/>
+    </inputBindings>
+</modDesc>
