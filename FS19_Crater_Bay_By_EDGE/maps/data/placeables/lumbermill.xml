@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+ <storeData>
+  <name>$l10n_station_sawmill</name>
+  <image>maps/data/placeables/store_lumbermill.png</image>
+  <price>65000</price>
+  <dailyUpkeep>55</dailyUpkeep>
+  <lifetime>1000</lifetime>
+  <rotation>0</rotation>
+  <brand>AJTECH</brand>
+  <species>placeable</species>
+  <category>placeableMisc</category>
+  <vertexBufferMemoryUsage>885064</vertexBufferMemoryUsage>
+  <indexBufferMemoryUsage>111804</indexBufferMemoryUsage>
+  <textureMemoryUsage>6453096</textureMemoryUsage>
+  <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+  <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+ </storeData>
+
+ <placeableType>woodSellPlacable</placeableType>
+ <filename>maps/data/placeables/lumbermill.i3d</filename>
+ <placement testSizeX="34" testSizeZ="11" sizeX="34" sizeZ="11" useRandomYRotation="false" useManualYRotation="true" />
+
+ <woodSellStation stationName="$l10n_station_sawmill" triggerNode="0|0" sellTrigger="0|1" appearsOnPDA="true" />
+
+ <dayNightObjects>
+  <dayNightObject node="4|0|0|0" intensityDay="0" intensityNight="2" />
+  <dayNightObject node="4|0|0|1" visibleDay="true" visibleNight="true" />
+  <dayNightObject node="4|1|0|0" intensityDay="0" intensityNight="2" />
+  <dayNightObject node="4|1|0|1" visibleDay="true" visibleNight="true" />
+  <dayNightObject node="4|2|0|0" intensityDay="0" intensityNight="2" />
+  <dayNightObject node="4|2|0|1" visibleDay="true" visibleNight="true" />
+  <dayNightObject node="4|3|0|0" intensityDay="0" intensityNight="2" />
+  <dayNightObject node="4|3|0|1" visibleDay="true" visibleNight="true" />
+  <dayNightObject node="4|4|0|0" intensityDay="0" intensityNight="2" />
+  <dayNightObject node="4|4|0|1" visibleDay="true" visibleNight="true" />
+  <dayNightObject node="4|5|0|0" intensityDay="0" intensityNight="2" />
+  <dayNightObject node="4|5|0|1" visibleDay="false" visibleNight="true" />
+  <dayNightObject node="4|6|0|0" intensityDay="0" intensityNight="2" />
+  <dayNightObject node="4|6|0|1" visibleDay="false" visibleNight="true" />
+  <dayNightObject node="4|7|0|0" intensityDay="0" intensityNight="2" />
+  <dayNightObject node="4|7|0|1" visibleDay="false" visibleNight="true" />
+  <dayNightObject node="4|8|0|0" intensityDay="0" intensityNight="2" />
+  <dayNightObject node="4|8|0|1" visibleDay="false" visibleNight="true" />
+  <dayNightObject node="4|9|0|0" intensityDay="0" intensityNight="2" />
+  <dayNightObject node="4|9|0|1" visibleDay="false" visibleNight="true" />
+ </dayNightObjects>
+
+ <triggerMarkers>
+  <triggerMarker node="5" />
+ </triggerMarkers>
+
+ <clearAreas>
+  <clearArea startNode="6|0" widthNode="6|0|0" heightNode="6|0|1"/>
+ </clearAreas>
+ <leveling requireLeveling="true" maxSmoothDistance="10" maxSlope="75" maxEdgeAngle="30">
+  <levelAreas>
+   <levelArea startNode="6|0" widthNode="6|0|0" heightNode="6|0|1" groundType="concrete"/>
+  </levelAreas>
+ </leveling>
+ <seasons>
+  <maskAreas>
+   <maskArea startNode="7|0" widthNode="7|0|0" heightNode="7|0|1" />
+   <maskArea startNode="7|1" widthNode="7|1|0" heightNode="7|1|1" />
+  </maskAreas>
+ </seasons>
+
+ <tipOcclusionUpdateArea sizeX="34" sizeZ="11" />
+</placeable>

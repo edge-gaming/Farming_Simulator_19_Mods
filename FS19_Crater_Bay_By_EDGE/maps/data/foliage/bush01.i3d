@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="bush01" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+
+  <Files>
+    <File fileId="1" filename="bush01_diffuse.png" relativePath="true"/>
+    <File fileId="2" filename="bush01_normal.png" relativePath="true"/>
+    <File fileId="5" filename="bush01LOD01_normal_H.png" relativePath="true"/>
+    <File fileId="4" filename="bush01LOD01_diffuse_H.png" relativePath="true"/>
+    <File fileId="6" filename="bush01LOD02_diffuse_H.png" relativePath="true"/>
+    <File fileId="7" filename="bush01LOD02_normal_H.png" relativePath="true"/>
+    <File fileId="8" filename="bush01LOD03_diffuse_H.png" relativePath="true"/>
+    <File fileId="9" filename="bush01LOD03_normal_H.png" relativePath="true"/>
+    <File fileId="10" filename="bush01LOD04_diffuse_H.png" relativePath="true"/>
+    <File fileId="11" filename="bush01LOD04_normal_H.png" relativePath="true"/>
+    <File fileId="3" filename="$data/shaders/fruitGrowthFoliageShader.xml" relativePath="true"/>
+  </Files>
+
+  <Materials>
+    <Material name="bush01_mat" materialId="1" cosPower="100" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="3">
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+      <CustomParameter name="frequencyAndScale" value="0.05 0.02 0 0"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="bush01LOD01_mat" materialId="2" cosPower="100" specularColor="0 1 0" ambientColor="1 1 1" customShaderId="3" customShaderVariation="BILLBOARD">
+      <CustomParameter name="frequencyAndScale" value="0.05 0.02 0 0"/>
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+    </Material>
+    <Material name="bush01LOD02_mat" materialId="3" cosPower="100" specularColor="0 1 0" ambientColor="1 1 1" customShaderId="3" customShaderVariation="BILLBOARD">
+      <CustomParameter name="frequencyAndScale" value="0.05 0.02 0 0"/>
+      <Texture fileId="6"/>
+      <Normalmap fileId="7"/>
+    </Material>
+    <Material name="bush01LOD03_mat" materialId="4" cosPower="100" specularColor="0 1 0" ambientColor="1 1 1" customShaderId="3" customShaderVariation="BILLBOARD">
+      <CustomParameter name="frequencyAndScale" value="0.05 0.02 0 0"/>
+      <Texture fileId="8"/>
+      <Normalmap fileId="9"/>
+    </Material>
+    <Material name="bush01LOD04_mat" materialId="5" cosPower="100" specularColor="0 1 0" ambientColor="1 1 1" customShaderId="3" customShaderVariation="BILLBOARD">
+      <CustomParameter name="frequencyAndScale" value="0.05 0.02 0 0"/>
+      <Texture fileId="10"/>
+      <Normalmap fileId="11"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="bush01.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="_1_15_" nodeId="1">
+      <Shape name="bush01_LOD0" translation="0 7.10543e-17 0" shapeId="1" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="2"/>
+      <Shape name="bush01_01_" shapeId="2" castsShadows="false" receiveShadows="true" materialIds="2" clipDistance="500" nodeId="3"/>
+    </TransformGroup>
+    <TransformGroup name="_1_55_" nodeId="4">
+      <Shape name="bush02_LOD0" translation="0 7.10543e-17 0" shapeId="3" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="5"/>
+      <Shape name="bush01_02_" shapeId="4" castsShadows="false" receiveShadows="true" materialIds="3" clipDistance="500" nodeId="6"/>
+    </TransformGroup>
+    <TransformGroup name="_2_20_" nodeId="7">
+      <Shape name="bush03_LOD0" translation="0 -7.10543e-17 0" shapeId="5" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="8"/>
+      <Shape name="bush03_03_" shapeId="6" castsShadows="false" receiveShadows="true" materialIds="4" clipDistance="500" nodeId="9"/>
+    </TransformGroup>
+    <TransformGroup name="_3_00_" nodeId="10">
+      <Shape name="bush_4_LOD0" shapeId="7" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="500" nodeId="11"/>
+      <Shape name="bush03_04_" shapeId="8" castsShadows="false" receiveShadows="true" materialIds="5" clipDistance="500" nodeId="12"/>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+  </UserAttributes>
+</i3D>

@@ -49,16 +49,11 @@
             <physics massPerLiter="1.05" maxPhysicalSurfaceAngle="12" />
             <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
        </fillType>
-       <!-- <fillType name="POPPYFLOWER" title="$l10n_filltype_poppyflower" showOnPriceTable="true" pricePerLiter="1.79" >
-           <image hud="maps/data/fillTypes/huds/hud_fill_poppy.dds" hudSmall="maps/data/fillTypes/huds/hud_fill_poppy_sml.dds" />
-           <physics massPerLiter="0.5" maxPhysicalSurfaceAngle="25" />
-           <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
-      </fillType> -->
-      <!-- <fillType name="HEMP" title="$l10n_HEMPFILL" showOnPriceTable="true" pricePerLiter="0.85" >
+      <fillType name="HEMP" title="$l10n_filltype_hemp" showOnPriceTable="true" pricePerLiter="0.85" >
            <image hud="maps/data/fillTypes/huds/hud_fill_hemp.dds" hudSmall="maps/data/fillTypes/huds/hud_fill_hemp_sml.dds" />
            <physics massPerLiter="0.78" maxPhysicalSurfaceAngle="15" />
            <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
-       </fillType> -->
+       </fillType>
        <fillType name="POTATO" title="$l10n_fillType_potato" showOnPriceTable="true" pricePerLiter="0.172" >
            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_potato.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_potato_sml.dds" />
            <physics massPerLiter="0.75" maxPhysicalSurfaceAngle="34" />
@@ -356,6 +351,11 @@
             <image hud="$dataS2/menu/hud/fillTypes/hud_fill_chicken.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_chicken_sml.dds" />
             <physics massPerLiter="3.0" maxPhysicalSurfaceAngle="0" />
         </fillType>
+        <!-- <fillType name="POPPYFLOWER" title="$l10n_filltype_poppyflower" showOnPriceTable="true" pricePerLiter="1.79" >
+            <image hud="maps/data/fillTypes/huds/hud_fill_poppy.dds" hudSmall="maps/data/fillTypes/huds/hud_fill_poppy_sml.dds" />
+            <physics massPerLiter="0.5" maxPhysicalSurfaceAngle="25" />
+            <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+       </fillType> -->
     </fillTypes>
 
     <fillTypeCategories>

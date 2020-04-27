@@ -18,7 +18,7 @@
     <placement testSizeX="17" testSizeZ="10" sizeX="4" sizeZ="3" useRandomYRotation="false" useManualYRotation="true" />
 
     <buyingStation stationName="$l10n_station_gasStation" appearsOnPDA="true" storageRadius="0" fillSoundIdentifier="fillSound01" hotspotTextOffset="0px 32px">
-        <loadTrigger triggerNode="0|4" fillLitersPerSecond="20" autoStart="true"/>
+        <loadTrigger triggerNode="0|4" fillLitersPerSecond="50" autoStart="true"/>
         <fillType name="diesel" priceScale="1" />
     </buyingStation>
 

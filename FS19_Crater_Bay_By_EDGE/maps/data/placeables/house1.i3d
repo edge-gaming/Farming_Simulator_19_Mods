@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Sample Mod Map 1" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="../textures/gfx/villageHouse.dds"/>
+    <File fileId="3" filename="../textures/gfx/windowLit_emissive.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="windowLit_mat" materialId="5">
+      <Emissivemap fileId="3"/>
+    </Material>
+    <Material name="Material #168" materialId="4" specularColor="0 1 0.2">
+      <Texture fileId="1"/>
+    </Material>
+    <Material name="lambert1" materialId="22" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="house1.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="house1" nodeId="28">
+      <Shape shapeId="1" name="farmHouse" static="true" clipDistance="300" nodeId="9" materialIds="4" castsShadows="true" receiveShadows="true">
+        <TransformGroup name="nightWindows" visibility="false" nodeId="10">
+          <Shape shapeId="2" name="windowsLit" nodeId="11" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Light name="orangeLight" translation="-2.95884 1.77173 3.30414" clipDistance="120" nodeId="12" type="point" color="1 0.675 0.35" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+          <Light name="orangeLight" translation="0.247559 1.56415 3.79962" clipDistance="120" nodeId="13" type="point" color="1 0.675 0.35" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+          <Light name="orangeLight" translation="0.244324 4.24342 3.79962" clipDistance="120" nodeId="14" type="point" color="1 0.675 0.35" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+          <Light name="orangeLight" translation="4.25178 4.16424 3.29967" clipDistance="120" nodeId="15" type="point" color="1 0.675 0.35" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+          <Light name="orangeLight" translation="6.05052 4.15834 -0.0153656" clipDistance="120" nodeId="16" type="point" color="1 0.675 0.35" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+          <Light name="orangeLight" translation="3.44693 1.76369 -3.30414" clipDistance="120" nodeId="17" type="point" color="1 0.675 0.35" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+          <Light name="orangeLight" translation="0.23962 4.19953 -3.79962" clipDistance="120" nodeId="18" type="point" color="1 0.675 0.35" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+          <Light name="orangeLight" translation="-5.56108 1.4734 1.80019" clipDistance="120" nodeId="19" type="point" color="1 0.675 0.35" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+        </TransformGroup>
+      </Shape>
+      <TransformGroup name="areas" nodeId="39">
+        <TransformGroup name="start" translation="-6.25 0 -4" nodeId="40">
+          <TransformGroup name="width" translation="12.5 0 0" nodeId="41"/>
+          <TransformGroup name="height" translation="0 0 8" nodeId="42"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="seasons" nodeId="43">
+        <TransformGroup name="start" translation="-6.25 0 -4" nodeId="44">
+          <TransformGroup name="width" translation="12.5 0 0" nodeId="45"/>
+          <TransformGroup name="height" translation="0 0 8" nodeId="46"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="3" name="tipBlocker" visibility="false" static="true" collisionMask="524288" nodeId="47" materialIds="22" nonRenderable="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

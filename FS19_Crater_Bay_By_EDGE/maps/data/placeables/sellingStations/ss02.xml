@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+ <storeData>
+  <name>$l10n_shopItem_ss02</name>
+  <functions>
+   <function>$l10n_function_pss</function>
+  </functions>
+  <specs>
+   <fillTypes>wheat barley sunflower maize oat</fillTypes>
+  </specs>
+  <image>placeables/sellingStations/store_sellingStation.png</image>
+  <price>35000</price>
+  <dailyUpkeep>35</dailyUpkeep>
+  <lifetime>1000</lifetime>
+  <rotation>0</rotation>
+  <brand>AJTECH</brand>
+  <species>placeable</species>
+  <category>silos</category>
+  <vertexBufferMemoryUsage>16296</vertexBufferMemoryUsage>
+  <indexBufferMemoryUsage>1872</indexBufferMemoryUsage>
+  <textureMemoryUsage>1529480</textureMemoryUsage>
+  <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+  <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+ </storeData>
+
+ <placeableType>sellingStation</placeableType>
+ <filename>placeables/sellingStations/sellingStation.i3d</filename>
+ <placement testSizeX="10" testSizeZ="6" sizeX="10" sizeZ="6" useRandomYRotation="false" useManualYRotation="true" />
+
+ <clearAreas>
+  <clearArea startNode="2|0" widthNode="2|0|0" heightNode="2|0|1"/>
+ </clearAreas>
+
+ <leveling requireLeveling="true" maxSmoothDistance="5" maxSlope="30" maxEdgeAngle="20">
+  <levelAreas>
+   <levelArea startNode="2|0" widthNode="2|0|0" heightNode="2|0|1" groundType="asphalt"/>
+  </levelAreas>
+ </leveling>
+
+ <seasons>
+  <maskAreas>
+   <maskArea startNode="3|0" widthNode="3|0|0" heightNode="3|0|1" />
+  </maskAreas>
+ </seasons>
+
+ <sellingStation stationName="$l10n_shopItem_ss02" appearsOnPDA="true" storageRadius="0" litersForFullPriceDrop="100000" fullPriceRecoverHours="48">
+  <unloadTrigger exactFillRootNode="0|0|0|0|0" />
+  <fillType name="wheat"            priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+  <fillType name="barley"           priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+  <fillType name="sunflower"        priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+  <fillType name="maize"            priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+  <fillType name="oat"              priceScale="1"		supportsGreatDemand="true"		disablePriceDrop="false" />
+ </sellingStation>
+
+ <tipOcclusionUpdateArea sizeX="10" sizeZ="6" />
+</placeable>

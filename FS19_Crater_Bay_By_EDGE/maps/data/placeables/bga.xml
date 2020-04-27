@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+ <storeData>
+  <name>$l10n_shopItem_smallBGA</name>
+  <functions>
+   <function>$l10n_function_smallBGA</function>
+  </functions>
+  <image>maps/data/placeables/store_bga.png</image>
+  <price>50000</price>
+  <dailyUpkeep>50</dailyUpkeep>
+  <boughtWithFarmland>true</boughtWithFarmland>
+  <lifetime>1000</lifetime>
+  <rotation>0</rotation>
+  <brand>AJTECH</brand>
+  <species>placeable</species>
+  <category>silos</category>
+  <vertexBufferMemoryUsage>273216</vertexBufferMemoryUsage>
+  <indexBufferMemoryUsage>41346</indexBufferMemoryUsage>
+  <textureMemoryUsage>5773368</textureMemoryUsage>
+  <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+  <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+ </storeData>
+
+ <placeableType>bgaPlacable</placeableType>
+ <filename>maps/data/placeables/bga.i3d</filename>
+ <placement testSizeX="28" testSizeZ="26" sizeX="28" sizeZ="26" useRandomYRotation="false" useManualYRotation="true" />
+
+ <dayNightObjects>
+  <dayNightObject node="0|3|0|0" intensityDay="0" intensityNight="2" />
+  <dayNightObject node="0|3|0|1" visibleDay="false" visibleNight="true" />
+  <dayNightObject node="1|3" visibleDay="false" visibleNight="true" />
+  <dayNightObject node="1|4" visibleDay="false" visibleNight="true" />
+ </dayNightObjects>
+
+ <bga>
+  <bunker>
+   <unloadingStation node="1|0" stationName="$l10n_station_bgaBunker" appearsOnPDA="true" appearsOnStats="true" storageRadius="75" hotspotTextOffset="0px -8px">
+    <unloadTrigger exactFillRootNode="0" baleTriggerNode="1"/>
+   </unloadingStation>
+
+   <slot capacity="80000" litersPerSecond="217" >
+    <fillType fillTypes="silage" scale="0.44" pricePerLiter="0.4"/>
+    <fillType fillTypes="grass_windrow dryGrass_windrow" scale="0.3" pricePerLiter="0.055"/>
+    <fillType fillTypes="manure" scale="0.4" pricePerLiter="0.4"/>
+    <fillType fillTypes="potato" scale="0.42" pricePerLiter="0.17"/>
+    <fillType fillTypes="sugarBeet" scale="0.47" pricePerLiter="0.19"/>
+    <display baseNode="1|1" />
+   </slot>
+   <slot capacity="80000" litersPerSecond="217">
+    <fillType fillTypes="liquidManure" scale="0.38" pricePerLiter="0.16"/>
+   </slot>
+  </bunker>
+
+  <digestateSilo>
+   <loadingStation node="2|0" stationName="$l10n_station_bgaBunker" appearsOnPDA="false" storageRadius="75" fillSoundIdentifier="fillSound01">
+    <loadTrigger triggerNode="0" fillLitersPerSecond="2000" dischargeNode="1" />
+   </loadingStation>
+   <storages>
+    <storage node="2|1" fillTypes="DIGESTATE" capacityPerFillType="200000" />
+   </storages>
+  </digestateSilo>
+  <sounds>
+   <work file="$data/sounds/maps/details/shared/biogas_loop.wav" linkNode="1|2" innerRadius="10" outerRadius="50" loops="0" fadeIn="0.5" fadeOut="0.7" />
+  </sounds>
+ </bga>
+
+ <triggerMarkers>
+  <triggerMarker node="3" />
+ </triggerMarkers>
+
+ <clearAreas>
+  <clearArea startNode="4|0" widthNode="4|0|0" heightNode="4|0|1"/>
+ </clearAreas>
+ <leveling requireLeveling="true" maxSmoothDistance="5" maxSlope="30" maxEdgeAngle="20">
+  <levelAreas>
+   <levelArea startNode="4|0" widthNode="4|0|0" heightNode="4|0|1" groundType="concrete"/>
+  </levelAreas>
+ </leveling>
+ <seasons>
+  <maskAreas>
+   <maskArea startNode="5|0" widthNode="5|0|0" heightNode="5|0|1" />
+   <maskArea startNode="5|1" widthNode="5|1|0" heightNode="5|1|1" />
+  </maskAreas>
+ </seasons>
+
+ <tipOcclusionUpdateArea sizeX="28" sizeZ="26" />
+</placeable>

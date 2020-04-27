@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+ <storeData>
+  <name>$l10n_shopItem_house1</name>
+  <functions>
+   <function>$l10n_function_decoration</function>
+  </functions>
+  <image>maps/data/placeables/store_house1.png</image>
+  <price>10000</price>
+  <dailyUpkeep>10</dailyUpkeep>
+  <lifetime>1000</lifetime>
+  <rotation>0</rotation>
+  <brand>AJTECH</brand>
+  <species>placeable</species>
+  <category>decoration</category>
+  <vertexBufferMemoryUsage>26760</vertexBufferMemoryUsage>
+  <indexBufferMemoryUsage>3708</indexBufferMemoryUsage>
+  <textureMemoryUsage>185840</textureMemoryUsage>
+  <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+  <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+ </storeData>
+
+ <placeableType>placeable</placeableType>
+ <filename>maps/data/placeables/house1.i3d</filename>
+ <placement testSizeX="12.5" testSizeZ="8" sizeX="12.5" sizeZ="8" useRandomYRotation="false" useManualYRotation="true" />
+
+ <dayNightObjects>
+  <dayNightObject node="0|0" visibleDay="false" visibleNight="true" />
+ </dayNightObjects>
+
+ <clearAreas>
+  <clearArea startNode="1|0" widthNode="1|0|0" heightNode="1|0|1"/>
+ </clearAreas>
+ <leveling requireLeveling="true" maxSmoothDistance="5" maxSlope="30" maxEdgeAngle="20" >
+  <levelAreas>
+   <levelArea startNode="1|0" widthNode="1|0|0" heightNode="1|0|1"/>
+  </levelAreas>
+ </leveling>
+ <seasons>
+  <maskAreas>
+  </maskAreas>
+ </seasons>
+
+ <tipOcclusionUpdateArea sizeX="12.5" sizeZ="8" />
+</placeable>

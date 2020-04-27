@@ -180,28 +180,83 @@ Lista zmian 1.0.0.0:
         <storeItem xmlFilename="maps/data/placeables/farmBuildings/farmSilo.xml"/>
         <storeItem xmlFilename="maps/data/placeables/waterFillTriggers/waterFillTriggers01.xml"/>
         <storeItem xmlFilename="maps/data/placeables/bga/bga02.xml"/>
-        <storeItem xmlFilename="maps/data/placeables/BuyingStations/buyingStationFuel.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/BuyingStations/gasStation01.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/BuyingStations/gasStation02.xml"/>
         <storeItem xmlFilename="maps/data/placeables/BuyingStations/gasStation.xml"/>
-        <storeItem xmlFilename="maps/data/placeables/BuyingStations/buyingStationLime.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/BuyingStations/LimeStation01.xml"/>
         <storeItem xmlFilename="maps/data/placeables/waterFillTriggers/waterFillTriggers02.xml"/>
-        <storeItem xmlFilename="maps/data/placeables/farmBuildings/farmHouse.xml"/>
         <storeItem xmlFilename="maps/data/placeables/Extras/greenScreen.xml"/>
         <storeItem xmlFilename="maps/data/placeables/sellingStations/sellingStationBales01.xml"/>
         <storeItem xmlFilename="maps/data/placeables/sellingStations/sellingStationDistillery.xml"/>
         <storeItem xmlFilename="maps/data/placeables/sellingStations/sellingStationMill.xml"/>
         <storeItem xmlFilename="maps/data/placeables/sellingStations/sellingStationSupermarket.xml"/>
         <storeItem xmlFilename="maps/data/placeables/sellingStations/sellingStationWoodChips01.xml"/>
-        <storeItem xmlFilename="maps/data/placeables/EDGE/Silos/Silos/EDGEHugefarmSilo.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/sellingStations/sellingStationLimaGrain.xml"/>
         <storeItem xmlFilename="maps/data/placeables/EDGE/StrawBarn_SellingSpot/StrawBarn_SellingSpotunowned.xml"/>
         <storeItem xmlFilename="maps/data/placeables/EDGE/StrawBarn_SellingSpot/StrawBarn_SellingSpot.xml"/>
-        <storeItem xmlFilename="maps/data/placeables/EDGE/universalSilo/universalSilo.xml"/>
         <storeItem xmlFilename="maps/data/placeables/sellingStations/sellingStationWoodChips02.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/EDGE/sellingStationLemonways.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/EDGE/sellingStationGeneric01.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/sellingStations/sellingStationShop.xml"/>
         <storeItem xmlFilename="maps/data/placeables/EDGE/Multi_Filling_Station/MultiFillingStationDark.xml"/>
         <storeItem xmlFilename="maps/data/placeables/EDGE/Multi_Selling_Station/MultiSellingStationDark.xml"/>
         <storeItem xmlFilename="maps/data/placeables/EDGE/Food_n_Fertilizer_Shop/FoodFertilizerShopBuy.xml"/>
         <storeItem xmlFilename="maps/data/placeables/EDGE/Food_n_Fertilizer_Shop/FoodFertilizerShop.xml"/>
         <storeItem xmlFilename="maps/data/vehicles/lizardWeight550/lizardWeight550.xml"/>
         <storeItem xmlFilename="maps/data/vehicles/DeutzAgroStar661/deutzAgroStar661.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/bga.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/bgaExtension.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/doormat/doormat.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/farmSilo.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/farmSiloExtension.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/liquidStorage.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/liquidStorageExtension.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/woodChips.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/woodCrusher.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/lumbermill.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/sellingStationBales.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/sellingStationWool.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/workshop.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/oldNightLight.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/lemon.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/tomato.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/watermill.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/windmill.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/fencePlanks1.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/fencePlanks5.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/fencePlanks10.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/hedge1Piece.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/hedge3Piece.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/house1.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/house2.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/house3.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/bigFactory.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/gardenCentre.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/sweetShop.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/office.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/smallOffice.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/smallOffice2.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/siloBin.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/oldBaleShelter.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/oldShelter.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/rock1.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/rock2.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/rock3.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/rock4.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/rock5.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/sellingStations/ss01.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/sellingStations/ss02.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/sellingStations/ss03.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/sellingStations/ss04.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/sellingStations/ss05.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/sellingStations/ss06.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/warehouse.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/waterTower.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/woodenHouse.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/woodOuthouse.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/huntingHut.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/outlook.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/watermillBroken.xml"/>
     </storeItems>
     <!--<storeItems FilenamePrefix="xmlFiles/Sos_Videl_storeItems.xml"/>-->
     <brands>
@@ -211,6 +266,7 @@ Lista zmian 1.0.0.0:
         <brand name="BRU" title="EDGE Industries" image="icons/Bru_Logo.dds"/>
         <brand name="LIMAGRAIN" title="Limagrain" image="icons/Limagrain_Logo.dds"/>
         <brand name="PONTE" title="Ponte Realestate" image="icons/Ponte_Logo.dds"/>
+        <brand name="AJTECH" title="AJ TECH" image="icons/brand_ajTech.png"/>
     </brands>
     <!-- <EDGEGaming minimumVersion="1.0.0.0">
         <customClasses>

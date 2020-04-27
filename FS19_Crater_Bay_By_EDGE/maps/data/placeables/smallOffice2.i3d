@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Sample Mod Map 1" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="16" filename="$data/shaders/dashboardLightsShader.xml"/>
+    <File fileId="7" filename="../textures/gfx/buildingDetails_diffuse.dds"/>
+    <File fileId="8" filename="../textures/gfx/buildingDetails_normal.dds"/>
+    <File fileId="9" filename="../textures/gfx/buildingDetails_specular.dds"/>
+    <File fileId="4" filename="../textures/gfx/buildingWindows_diffuse.dds"/>
+    <File fileId="5" filename="../textures/gfx/buildingWindows_normal.dds"/>
+    <File fileId="6" filename="../textures/gfx/buildingWindows_specular.dds"/>
+    <File fileId="1" filename="../textures/gfx/gasStationBuilding_diffuse.dds"/>
+    <File fileId="2" filename="../textures/gfx/gasStationBuilding_normal.dds"/>
+    <File fileId="3" filename="../textures/gfx/gasStationBuilding_specular.dds"/>
+    <File fileId="10" filename="../textures/gfx/smallWallLight_diffuse.png"/>
+    <File fileId="11" filename="../textures/gfx/smallWallLight_normal.png"/>
+    <File fileId="12" filename="../textures/gfx/smallWallLight_specular.png"/>
+    <File fileId="14" filename="$data/maps/textures/shared/default_normal.dds"/>
+    <File fileId="17" filename="$data/maps/textures/shared/light_emissive.png"/>
+    <File fileId="13" filename="$data/maps/textures/shared/window02_diffuse.png"/>
+    <File fileId="15" filename="$data/maps/textures/shared/window02_specular.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="buildingWindows_mat" materialId="39">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+      <Glossmap fileId="6"/>
+    </Material>
+    <Material name="gasStationBuilding_mat" materialId="41">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="buildingDetails_mat" materialId="42">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
+      <Glossmap fileId="9"/>
+    </Material>
+    <Material name="smallWallLight_mat" materialId="4">
+      <Texture fileId="10"/>
+      <Normalmap fileId="11"/>
+      <Glossmap fileId="12"/>
+    </Material>
+    <Material name="window02_mat" materialId="5" alphaBlending="true" customShaderId="16">
+      <Texture fileId="13"/>
+      <Normalmap fileId="14"/>
+      <Glossmap fileId="15"/>
+      <Custommap name="mEmissiveMap" fileId="17"/>
+      <CustomParameter name="lightControl" value="1 0 0 0"/>
+    </Material>
+    <Material name="lambert1" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="smallOffice2.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="smallOffice2" nodeId="11">
+      <TransformGroup name="building" nodeId="12">
+        <Shape shapeId="1" name="officeBuilding" static="true" clipDistance="400" nodeId="48" materialIds="41" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="2" name="windows" clipDistance="450" nodeId="49" materialIds="39" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="addons" clipDistance="150" nodeId="50" materialIds="42" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </TransformGroup>
+      <TransformGroup name="lights" nodeId="13">
+        <Shape shapeId="4" name="smallWallLight" translation="1.18864 2.71973 4.90407" rotation="0 -0 90" clipDistance="155" nodeId="19" materialIds="4" castsShadows="true" receiveShadows="true">
+          <TransformGroup name="illum" nodeId="20">
+            <Shape shapeId="5" name="glass" clipDistance="40" nodeId="21" materialIds="5" castsShadows="true" receiveShadows="true"/>
+            <Light name="pointLight1" translation="0 0 0.258425" visibility="false" clipDistance="155" nodeId="22" type="point" color="1 0.95 0.9" emitDiffuse="true" emitSpecular="true" decayRate="1" range="5"/>
+          </TransformGroup>
+          <Shape shapeId="6" name="col" visibility="false" static="true" density="0.0001" nodeId="23" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+      </TransformGroup>
+      <TransformGroup name="areas" nodeId="29">
+        <TransformGroup name="start" translation="-7.5 0 -5.5" nodeId="30">
+          <TransformGroup name="width" translation="15 0 0" nodeId="31"/>
+          <TransformGroup name="height" translation="0 0 11" nodeId="32"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="seasons" nodeId="33">
+        <TransformGroup name="start" translation="-7.5 0 -5.5" nodeId="52">
+          <TransformGroup name="width" translation="15 0 0" nodeId="53"/>
+          <TransformGroup name="height" translation="0 0 11" nodeId="54"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="7" name="tipBlocker" visibility="false" static="true" collisionMask="524288" nodeId="57" materialIds="6" nonRenderable="true"/>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="20">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

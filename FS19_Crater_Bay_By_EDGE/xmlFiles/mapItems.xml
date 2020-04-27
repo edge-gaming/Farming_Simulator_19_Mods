@@ -1,41 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <items>
 		<!-- BioGas Plants -->
-	<item mapBoundId="bga01" 						className="BgaPlaceable" 				filename="$mapdir$/maps/data/placeables/bga/bga01.xml" 												position="240 58.416 640"			rotation="0 0 0" />
-	<item mapBoundId="bga02"						className="BgaPlaceable" 				filename="$mapdir$/maps/data/placeables/bga/bga02.xml" 											position="-775 85 -130" 			rotation="0 0 0" />
+	<item mapBoundId="bga" 						className="BgaPlaceable" 				filename="$mapdir$/maps/data/placeables/bga.xml" 												position="-361.655 24.661 -460.6"			rotation="0 12.684 0" />
+	<item mapBoundId="bgaExtension" 						className="Placeable" 				filename="$mapdir$/maps/data/placeables/bgaExtension.xml" 												position="-334.502 24.661 -464.527"			rotation="0 0 0" />
 		<!-- BuyingStations -->
-	<item mapBoundId="buyingStationWater"			className="BuyingStationPlaceable"		filename="$mapdir$/maps/data/placeables/waterFillTriggers/waterFillTriggers01.xml"									position="0 0 0" 					rotation="0 0 0" />
-	<item mapBoundId="buyingStationLime"			className="BuyingStationPlaceable"		filename="$mapdir$/maps/data/placeables/BuyingStations/buyingStationLime.xml"									position="188 59.66 514"			rotation="0 0 0" />
-	<item mapBoundId="buyingStationFuel"			className="BuyingStationPlaceable"		filename="$mapdir$/maps/data/placeables/BuyingStations/buyingStationFuel.xml"									position="278 58.592 550"			rotation="0 45 0" />
-	<item mapBoundId="MultiFillingStation"			className="BuyingStationPlaceable" 		filename="$mapdir$/maps/data/placeables/EDGE/Multi_Filling_Station/MultiFillingStationDark.xml" 		position="-26.585 58.408 383.02"	rotation="0 0 0"		defaultFarmProperty="true"	farmId="1"/>
-	<item mapBoundId="gasStation"                   className="BuyingStationPlaceable" 		filename="$mapdir$/maps/data/placeables/BuyingStations/gasStation.xml" 								position="-550 82 344" 				rotation="0 0 0" />
-	<item mapBoundId="limeStation01" 				className="BuyingStationPlaceable" 		filename="$mapdir$/maps/data/placeables/BuyingStations/buyingStationLime.xml" 											position="-259 85.2 -550" 			rotation="0 270 0" />
-	<item mapBoundId="FoodnFertilizerBuy"			className="BuyingStationPlaceable" 		filename="$mapdir$/maps/data/placeables/EDGE/Food_n_Fertilizer_Shop/FoodFertilizerShopBuy.xml"		position="167.904 58.799 780.976"	rotation="-180 90 -180" />
+	<item mapBoundId="buyingStationWater"			className="BuyingStationPlaceable"		filename="$mapdir$/maps/data/placeables/waterFillTriggers/waterFillTriggers01.xml"									position="-1504.256 41.141 -1840.876" 					rotation="0 0 0" />
+	<!-- <item mapBoundId="buyingStationLime"			className="BuyingStationPlaceable"		filename="$mapdir$/maps/data/placeables/BuyingStations/buyingStationLime.xml"									position="188 59.66 514"			rotation="0 0 0" />
+	<item mapBoundId="buyingStationFuel"			className="BuyingStationPlaceable"		filename="$mapdir$/maps/data/placeables/BuyingStations/buyingStationFuel.xml"									position="278 58.592 550"			rotation="0 45 0" /> -->
+	<item mapBoundId="MultiFillingStationDark"			className="BuyingStationPlaceable" 		filename="$mapdir$/maps/data/placeables/EDGE/Multi_Filling_Station/MultiFillingStationDark.xml" 		position="-1573.6 33.284 -1893.92"	rotation="180 71.396 180"		defaultFarmProperty="true"	farmId="1"/>
+	<item mapBoundId="gasStation01"                   className="BuyingStationPlaceable" 		filename="$mapdir$/maps/data/placeables/BuyingStations/gasStation01.xml" 								position="-550 82 344" 				rotation="0 0 0" />
+	<item mapBoundId="limeStation01" 				className="BuyingStationPlaceable" 		filename="$mapdir$/maps/data/placeables/BuyingStations/LimeStation01.xml" 											position="-259 85.2 -550" 			rotation="0 270 0" />
+	<!-- <item mapBoundId="FoodnFertilizerBuy"			className="BuyingStationPlaceable" 		filename="$mapdir$/maps/data/placeables/EDGE/Food_n_Fertilizer_Shop/FoodFertilizerShopBuy.xml"		position="167.904 58.799 780.976"	rotation="-180 90 -180" /> -->
 		<!-- SellingStations -->
-	<item mapBoundId="MultiSellingStation"			className="SellingStationPlaceable" 	filename="$mapdir$/maps/data/placeables/EDGE/Multi_Selling_Station/MultiSellingStationDark.xml" 		position="-26.585 58.408 383.02"	rotation="0 0 0"		defaultFarmProperty="true"	farmId="1"/>
-	<item mapBoundId="sellingStationMill"			className="SellingStationPlaceable"		filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationMill.xml"									position="203 58.432 526.5"			rotation="0 0 0" />
+	<item mapBoundId="MultiSellingStation"			className="SellingStationPlaceable" 	filename="$mapdir$/maps/data/placeables/EDGE/Multi_Selling_Station/MultiSellingStationDark.xml" 		position="-1556.297 33.282 -1868.498"	rotation="180 82.052 180"		defaultFarmProperty="true"	farmId="1"/>
+	<!-- <item mapBoundId="sellingStationMill"			className="SellingStationPlaceable"		filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationMill.xml"									position="203 58.432 526.5"			rotation="0 0 0" />
 	<item mapBoundId="sellingStationSupermarket"	className="SellingStationPlaceable"		filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationSupermarket.xml"							position="162 58.42 588"			rotation="0 0 0" />
 	<item mapBoundId="sellingStationDistillery"		className="SellingStationPlaceable"		filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationDistillery.xml"							position="-502 82.778 705.5"		rotation="0 135 0" />
-    <item mapBoundId="sellingStationBales01"		className="SellingStationPlaceable"		filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationBales01.xml" 								position="233 58.432 463"			rotation="0 0 0" />
-    <item mapBoundId="sellingStationWoodChips01"	className="SellingStationPlaceable"		filename="data/placeables/mapDE/sellingStationWoodChips/sellingStationWoodChips.xml"			position="-15 58.42 472"			rotation="0 90 0" />
-    <item mapBoundId="sellingStationWool01"			className="SellingStationPlaceable"		filename="data/placeables/mapDE/sellingStationWool/sellingStationWool.xml"						position="128 58.42 438"			rotation="0 90 0" />
-	<item mapBoundId="sellingStationWood02" 		className="WoodSellStationPlaceable" 	filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationWood01.xml" 					position="128 85.1 -702.5" 			rotation="0 135 0" />
-	<item mapBoundId="sellingStationWoodTrain" 		className="WoodSellStationPlaceable" 	filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationWood02.xml" 					position="122.5 85 -684" 			rotation="0 135 0" />
+  <item mapBoundId="sellingStationBales01"		className="SellingStationPlaceable"		filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationBales01.xml" 								position="233 58.432 463"			rotation="0 0 0" /> -->
+  <item mapBoundId="sellingStationWoodChips02"	className="SellingStationPlaceable"		filename="data/placeables/mapDE/sellingStationWoodChips/sellingStationWoodChips02.xml"			position="1111.43 23.558 -731.192"			rotation="0 -61.694 0" />
+  <!-- <item mapBoundId="sellingStationWool01"			className="SellingStationPlaceable"		filename="data/placeables/mapDE/sellingStationWool/sellingStationWool.xml"						position="128 58.42 438"			rotation="0 90 0" /> -->
+	<item mapBoundId="sellingStationWood02" 		className="WoodSellStationPlaceable" 	filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationWood01.xml" 					position="1099.54 23.11 -665.879" 			rotation="-180 -60 -180" />
+	<!-- <item mapBoundId="sellingStationWoodTrain" 		className="WoodSellStationPlaceable" 	filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationWood02.xml" 					position="122.5 85 -684" 			rotation="0 135 0" />
 	<item mapBoundId="sellingStationWoodChips02" 	className="SellingStationPlaceable" 	filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationWoodChips01.xml" 			position="181.4 85 -723.4" 			rotation="0 -15 0" />
-	<item mapBoundId="sellingStationWool02" 		className="SellingStationPlaceable" 	filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationWool.xml" 					position="440 83.7 910" 			rotation="0 0 0" />
-	<item mapBoundId="sellingStationSugarMill" 		className="SellingStationPlaceable" 	filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationSugarMill.xml" 			position="-815.4 82.85 823" 		rotation="0 90 0" />
-	<item mapBoundId="sellingStationVehicles02" 	className="Workshop" 					filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationVehicles.xml" 				position="509.8 81.65 2.9" 			rotation="0 -8 0" />
-	<item mapBoundId="StrawBarn_SellingSpotunowned" className="SellingStationPlaceable" 	filename="$mapdir$/maps/data/placeables/EDGE/StrawBarn_SellingSpot/StrawBarn_SellingSpotunowned.xml"	position="-518.782 91.1 586.572"	rotation="0 -3.704 0" />
-	<item mapBoundId="FoodnFertilizer"				className="SellingStationPlaceable" 	filename="$mapdir$/maps/data/placeables/EDGE/Food_n_Fertilizer_Shop/FoodFertilizerShop.xml"			position="167.904 58.799 780.976"	rotation="-180 90 -180" />
-	<item mapBoundId="harborSellingStation" 		className="SellingStationPlaceable" 	filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationHarbor.xml" 				position="-206.7 84.3 908" 			rotation="0 0 0" />
-	<item mapBoundId="bakerySellingStation" 		className="SellingStationPlaceable" 	filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationBakery.xml" 				position="683.874 84.05 784.85"		rotation="0 0 0" />
-	<item mapBoundId="trainSellingStation01" 		className="SellingStationPlaceable" 	filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationTrain.xml" 				position="-836 122.4 -933.3" 		rotation="0 0 -1.038" />
+	<item mapBoundId="sellingStationWool02" 		className="SellingStationPlaceable" 	filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationWool.xml" 					position="440 83.7 910" 			rotation="0 0 0" /> -->
+	<!-- <item mapBoundId="sellingStationSugarMill" 		className="SellingStationPlaceable" 	filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationSugarMill.xml" 			position="-815.4 82.85 823" 		rotation="0 90 0" />-->
+	<item mapBoundId="sellingStationVehicles02" 	className="Workshop" 					filename="$mapdir$/maps/data/placeables/workshop.xml" 												position="-445.73 20.515 -638.975" 			rotation="0 90 0" />
+	<!-- <item mapBoundId="StrawBarn_SellingSpotunowned" className="SellingStationPlaceable" 	filename="$mapdir$/maps/data/placeables/EDGE/StrawBarn_SellingSpot/StrawBarn_SellingSpotunowned.xml"	position="-518.782 91.1 586.572"	rotation="0 -3.704 0" />
+	<item mapBoundId="FoodnFertilizer"				className="SellingStationPlaceable" 	filename="$mapdir$/maps/data/placeables/EDGE/Food_n_Fertilizer_Shop/FoodFertilizerShop.xml"			position="167.904 58.799 780.976"	rotation="-180 90 -180" /> -->
+	<item mapBoundId="sellingStationLimaGrain" 		className="SellingStationPlaceable" 	filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationLimaGrain.xml" 				position="1548.07 21.903 1582.47" 			rotation="0 -4.397 0" />
+	<item mapBoundId="SellingStationShop" 		className="SellingStationPlaceable" 	filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationShop.xml" 				position="1109.34 84.05 784.85"		rotation="0 0 0" />
+	<item mapBoundId="sellingStationLemonways" 		className="SellingStationPlaceable" 	filename="$mapdir$/maps/data/placeables/EDGE/sellingStationLemonways.xml" 				position="1109.34 26.891 -478.118"		rotation="-180 45 -180" />
+	<item mapBoundId="sellingStationOceanBeach" 		className="SellingStationPlaceable" 	filename="$mapdir$/maps/data/placeables/EDGE/sellingStationGeneric01.xml" 				position="132.439 68.552 -1735.89"		rotation="0 0 0" />
+	<!-- <item mapBoundId="trainSellingStation01" 		className="SellingStationPlaceable" 	filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationTrain.xml" 				position="-836 122.4 -933.3" 		rotation="0 0 -1.038" />
 	<item mapBoundId="sellingStationBales02" 		className="SellingStationPlaceable" 	filename="$mapdir$/maps/data/placeables/sellingStations/sellingStationBales02.xml" 				position="-728 83.3 361" 			rotation="0 0 0" />
 	<item mapBoundId="StrawBarn_SellingSpot"		className="SellingStationPlaceable" 	filename="$mapdir$/maps/data/placeables/EDGE/StrawBarn_SellingSpot/StrawBarn_SellingSpot.xml" 		position="-26.585 58.408 383.02"	rotation="0 0 0"		defaultFarmProperty="true"	farmId="1"/>
-	<item mapBoundId="sellingStationWood01"			className="WoodSellStationPlaceable"	filename="data/placeables/mapDE/sellingStationWood/sellingStationWood.xml"						position="6 58.42 520"				rotation="0 90 0" />
+	<item mapBoundId="sellingStationWood01"			className="WoodSellStationPlaceable"	filename="data/placeables/mapDE/sellingStationWood/sellingStationWood.xml"						position="6 58.42 520"				rotation="0 90 0" />-->
 		<!-- FarmBuildings -->
-	<item mapBoundId="FarmhousePlaceable01"			className="FarmhousePlaceable"			filename="$mapdir$/maps/data/placeables/farmBuildings/farmHouse.xml"											position="22 58.412 417"			rotation="0 -90 0"		defaultFarmProperty="true"	farmId="1"/>
-	<item mapBoundId="EDGESiloPlaceable"			className="SiloPlaceable"				filename="$mapdir$/maps/data/placeables/EDGE/Silos/Silos/EDGEHugefarmSilo.xml" 						position="428.102 80.78 -236"		rotation="0 180 0"		defaultFarmProperty="true"	farmId="1">
+	<item mapBoundId="FarmhousePlaceable01"			className="FarmhousePlaceable"			filename="$mapdir$/maps/data/placeables/woodenHouse.xml"											position="-478.543 20.782 -694.953"			rotation="0 0 0"		defaultFarmProperty="true"	farmId="1"/>
+	<item mapBoundId="EDGESiloPlaceable"			className="SiloPlaceable"				modName="FS19_EDGE_Silos" 	filename="$moddir$FS19_EDGE_Silos/Silos/EDGEHugefarmSilo.xml" 	position="-431.125 21.327 -533.573" 	rotation="0.0000 90 0.0000"		defaultFarmProperty="true"	farmId="1">
 		<storage index="1" farmId="1">
 			<node fillType="WHEAT" fillLevel="12031.000000"/>
 			<node fillType="BARLEY" fillLevel="10112.000000"/>
@@ -44,35 +46,23 @@
 			<node fillType="OAT" fillLevel="9054.000000"/>
 			<node fillType="SUNFLOWER" fillLevel="14511.000000"/>
 			<node fillType="SOYBEAN" fillLevel="5961.000000"/>
+			<node fillType="POPPY" fillLevel="15961.000000"/>
 		</storage>
 	</item>
-	<item mapBoundId="universalSilo"				className="SiloPlaceable"				filename="$mapdir$/maps/data/placeables/EDGE/universalSilo/universalSilo.xml" 						position="403 80.82 -236"		rotation="0 0 0"		defaultFarmProperty="true"	farmId="1">
-		<storage index="1" farmId="1">
-			<node fillType="WHEAT" fillLevel="12031.000000"/>
-			<node fillType="BARLEY" fillLevel="10112.000000"/>
-			<node fillType="CANOLA" fillLevel="19621.000000"/>
-			<node fillType="MAIZE" fillLevel="11254.000000"/>
-			<node fillType="OAT" fillLevel="9054.000000"/>
-			<node fillType="SUNFLOWER" fillLevel="14511.000000"/>
-			<node fillType="SOYBEAN" fillLevel="5961.000000"/>
-		</storage>
-	</item>
-	<item mapBoundId="farmBarnEDGE"					className="Placeable"					filename="data/placeables/mapDE/farmBuildings/farmBarn.xml"										position="6.75 58.455 383.75"		rotation="0 -90 0"		defaultFarmProperty="true"	farmId="1"/>
+	<!--<item mapBoundId="farmBarnEDGE"					className="Placeable"					filename="data/placeables/mapDE/farmBuildings/farmBarn.xml"										position="6.75 58.455 383.75"		rotation="0 -90 0"		defaultFarmProperty="true"	farmId="1"/>
 	<item mapBoundId="easyShed01"					className="Placeable"					filename="data/placeables/sheds/easyShed01.xml"													position="45 58.42 378"				rotation="0 0 0"		defaultFarmProperty="true"	farmId="1"/>
 	<item mapBoundId="easyShed02"					className="Placeable"					filename="data/placeables/sheds/easyShed02.xml"													position="67 58.42 312"				rotation="0 0 0"		defaultFarmProperty="true"	farmId="1"/>
 	<item mapBoundId="FarmhousePlaceable02" 		className="FarmhousePlaceable"			filename="$mapdir$/maps/data/placeables/farmBuildings/farmMansion.xml" 							position="-307.526 80 8.159" 		rotation="0 0 0" 		defaultFarmProperty="true" farmId="1"/>
-	<item mapBoundId="PlaceableBarn01" 				className="Placeable"					filename="$mapdir$/maps/data/placeables/farmBuildings/farmStorageBarn.xml" 						position="-184 80 14" 				rotation="0 270 0" 		defaultFarmProperty="true" farmId="1"/>
+	<item mapBoundId="PlaceableBarn01" 				className="Placeable"					filename="$mapdir$/maps/data/placeables/farmBuildings/farmStorageBarn.xml" 						position="-184 80 14" 				rotation="0 270 0" 		defaultFarmProperty="true" farmId="1"/>-->
 		<!-- OtherStuff -->
-	<item mapBoundId="sellingStationVehicles01"		className="Workshop"					filename="data/placeables/mapDE/sellingStationVehicles/sellingStationVehicles.xml"						position="307 58.427 424"			rotation="0 0 0" />
-	<item mapBoundId="trainSilo01" 					className="SiloPlaceable" 				filename="$mapdir$/maps/data/placeables/storageSilo/storageSilo01.xml" 							position="-835 85 238" 				rotation="0 0 0" />
+	<item mapBoundId="sellingStationVehicles01"		className="Workshop"					filename="data/placeables/mapDE/sellingStationVehicles/sellingStationVehicles.xml"						position="157.543 61.272 -1556.77"			rotation="0 90 0" />
+	<!--<item mapBoundId="trainSilo01" 					className="SiloPlaceable" 				filename="$mapdir$/maps/data/placeables/storageSilo/storageSilo01.xml" 							position="-835 85 238" 				rotation="0 0 0" />
 	<item mapBoundId="trainSilo02" 					className="SiloPlaceable" 				filename="$mapdir$/maps/data/placeables/storageSilo/storageSilo02.xml" 							position="198 84.714 468.75" 		rotation="0 270 0" />
 	<item mapBoundId="trainSilo03" 					className="SiloPlaceable" 				filename="$mapdir$/maps/data/placeables/storageSilo/storageSilo03.xml" 							position="572.5 84.419 -250" 		rotation="0 45 0" />
-	<item mapBoundId="trainSystem" 					className="TrainPlaceable" 				filename="$mapdir$/maps/data/placeables/trainSystem/trainSystem.xml" 							position="0 0 0" 					rotation="0 0 0" />
-	<item mapBoundId="waterFillTrigger01" 			className="BuyingStationPlaceable" 		filename="$mapdir$/maps/data/placeables/waterFillTriggers/waterFillTriggers01.xml" 				position="0 0 0" 					rotation="0 0 0" />
+	<item mapBoundId="trainSystem" 					className="TrainPlaceable" 				filename="$mapdir$/maps/data/placeables/trainSystem/trainSystem.xml" 							position="0 0 0" 					rotation="0 0 0" />-->
 	<item 											className="Bale" 						filename="data/objects/roundbales/roundbaleStraw_w112_d130.i3d" 													position="-456.3340 80.7200 233.3280" rotation="-96.7036 89.1753 -6.7038" valueScale="1.000000" fillLevel="4000.000000" defaultFarmProperty="true" farmId="1"/>
     <item 											className="Bale" 						filename="data/objects/roundbales/roundbaleStraw_w112_d130.i3d" 													position="-456.3340 80.7366 233.9552" rotation="84.6174 85.7801 174.5590" valueScale="1.000000" fillLevel="4000.000000" defaultFarmProperty="true" farmId="1"/>
     <item 											className="Bale" 						filename="data/objects/roundbales/roundbaleStraw_w112_d130.i3d" 													position="-456.3340 80.7200 234.6990" rotation="-79.9739 85.7188 9.6564" valueScale="1.000000" fillLevel="4000.000000" defaultFarmProperty="true" farmId="1"/>
-	<item mapBoundId="BunkerSiloOld01" 				className="BunkerSiloPlaceable" 		filename="$mapdir$/maps/data/placeables/BunkerSilo/BunkerSiloOld.xml" 							position="428.893 80.763 -281.743"			rotation="0 0 0" />
 
 
 	<!--<item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerSeeds.xml"       position="-168.5 80.2 -1" rotation="0 180 0" fillLevel="1000"/>

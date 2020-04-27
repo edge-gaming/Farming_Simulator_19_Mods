@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+ <storeData>
+  <name>$l10n_shopItem_grainSiloExtension</name>
+  <specs>
+   <capacity>100000</capacity>
+   <fillTypes>wheat barley canola maize oat sunflower soybean</fillTypes>
+  </specs>
+  <image>maps/data/placeables/store_farmSiloExtension.png</image>
+  <functions>
+   <function>$l10n_function_siloExtension</function>
+  </functions>
+  <price>22000</price>
+  <dailyUpkeep>21</dailyUpkeep>
+  <lifetime>1000</lifetime>
+  <dailyUpkeep>10</dailyUpkeep>
+  <rotation>0</rotation>
+  <brand>AJTECH</brand>
+  <species>placeable</species>
+  <category>silos</category>
+  <vertexBufferMemoryUsage>7800</vertexBufferMemoryUsage>
+  <indexBufferMemoryUsage>2016</indexBufferMemoryUsage>
+  <textureMemoryUsage>349680</textureMemoryUsage>
+  <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+  <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+ </storeData>
+
+ <placeableType>siloExtension</placeableType>
+ <filename>maps/data/placeables/farmSiloExtension.i3d</filename>
+ <placement testSizeX="6" testSizeZ="6" sizeX="6" sizeZ="6" useRandomYRotation="false" useManualYRotation="true" />
+
+ <storage node="1" fillTypes="wheat barley canola maize oat sunflower soybean" capacityPerFillType="100000" />
+
+ <clearAreas>
+  <clearArea startIndex="2|0" widthIndex="2|0|0" heightIndex="2|0|1"/>
+ </clearAreas>
+ <leveling requireLeveling="true" maxSmoothDistance="5" maxSlope="30" maxEdgeAngle="20">
+  <levelAreas>
+   <levelArea startNode="2|0" widthNode="2|0|0" heightNode="2|0|1" groundType="dirt"/>
+  </levelAreas>
+ </leveling>
+ <seasons>
+  <maskAreas>
+  </maskAreas>
+ </seasons>
+
+ <tipOcclusionUpdateArea sizeX="6" sizeZ="6" />
+</placeable>

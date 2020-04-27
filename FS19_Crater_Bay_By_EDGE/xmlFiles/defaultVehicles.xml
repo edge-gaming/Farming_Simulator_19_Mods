@@ -2,8 +2,10 @@
 <vehicles>
 
     <vehicle id="1" tourId="tourTractor1" filename="$mapdir$/maps/data/vehicles/DeutzAgroStar661/deutzAgroStar661.xml" farmId="1" isAbsolute="true"  propertyState="1" yOffset="0.5" age="71" operatingTime="139000" defaultFarmProperty="true">
-        <component1 position="517.4022 80.8077 -106.1796" rotation="-178.9815 59.9859 179.9917"/>
-        <component2 position="518.7852 81.3987 -106.9785" rotation="-178.9836 59.9859 179.9893"/>
+        <component1 position="-386.4730 20.0994 -611.8390" rotation="-2.4234 -41.0104 1.5915"/>
+        <component2 position="-387.5145 20.7566 -610.6627" rotation="-2.4064 -41.0107 1.5751"/>
+        <component1 position="-398.4388 20.0573 -615.4033" rotation="-1.2672 -15.1824 -0.2258"/>
+        <component2 position="-398.8479 20.7133 -613.8860" rotation="-1.2728 -15.1818 -0.2038"/>
         <configuration name="wheel" id="3"/>
         <configuration name="fillUnit" id="1"/>
         <configuration name="motor" id="1"/>
@@ -29,8 +31,8 @@
         <attacherJoints comboDirection="-1"/>
     </vehicle>
     <vehicle id="2" tourId="tourTractor2" filename="$mapdir$/maps/data/vehicles/DeutzAgroStar661/deutzAgroStar661.xml" farmId="1" isAbsolute="true" propertyState="1" yOffset="0.5" age="35" operatingTime="74500" defaultFarmProperty="true">
-        <component1 position="123.5409 86.8721 -821.9533" rotation="-0.2891 -11.2341 0.0242"/>
-        <component2 position="123.2323 87.4994 -820.4006" rotation="-0.2893 -11.2341 0.0251"/>
+    <component1 position="-398.4388 20.0573 -615.4033" rotation="-1.2672 -15.1824 -0.2258"/>
+    <component2 position="-398.8479 20.7133 -613.8860" rotation="-1.2728 -15.1818 -0.2038"/>
         <configuration name="wheel" id="6"/>
         <configuration name="fillUnit" id="1"/>
         <configuration name="motor" id="1"/>
@@ -56,8 +58,8 @@
         <attacherJoints comboDirection="-1"/>
     </vehicle>
     <vehicle id="19" tourId="tourTractor3" filename="$mapdir$/maps/data/vehicles/DeutzAgroStar661/deutzAgroStar661.xml" farmId="1" isAbsolute="true" propertyState="1" yOffset="0.5" age="67" operatingTime="112500" defaultFarmProperty="true">
-        <component1 position="128.1004 86.1386 -719.1024" rotation="2.0006 -0.7232 0.5285"/>
-        <component2 position="128.0750 86.7020 -717.4956" rotation="2.0000 -0.7247 0.5713"/>
+        <component1 position="-390.8586 19.9674 -615.1414" rotation="-3.5792 -41.0610 1.1400"/>
+        <component2 position="-391.8873 20.6643 -613.9768" rotation="-3.5783 -41.0607 1.1414"/>
         <configuration name="wheel" id="1"/>
         <configuration name="fillUnit" id="1"/>
         <configuration name="motor" id="1"/>
@@ -82,7 +84,7 @@
         <attacherJoints comboDirection="-1"/>
     </vehicle>
     <vehicle id="3" tourId="tourTrailer" filename="data/vehicles/strautmann/SEK802/SEK802.xml" farmId="1" isAbsolute="true" propertyState="1" yOffset="0.5" age="68" operatingTime="91300" defaultFarmProperty="true">
-        <component1 position="124.4172 86.8301 -826.6517" rotation="1.1916 -10.1594 0.0205"/>
+        <component1 position="-397.2004 19.8995 -620.0078" rotation="-0.3135 -15.0314 -0.3685"/>
         <configuration name="cover" id="1"/>
         <configuration name="fillVolume" id="2"/>
         <configuration name="wheel" id="1"/>
@@ -114,7 +116,7 @@
         <trailer tipSideIndex="1"/>
     </vehicle>
     <vehicle id="4" filename="data/vehicles/farmtech/TDK1600/TDK1600.xml" farmId="1" isAbsolute="true" propertyState="1" yOffset="0.5" age="68" operatingTime="121000"   defaultFarmProperty="true">
-        <component1 position="126.5605 86.7677 -834.3289" rotation="1.6546 -85.1063 0.0051"/>
+        <component1 position="-373.4226 20.5750 -598.2312" rotation="-1.6212 -49.5378 3.0637"/>
         <configuration name="cover" id="1"/>
         <configuration name="fillVolume" id="1"/>
         <configuration name="wheel" id="2"/>
@@ -145,7 +147,7 @@
         <trailer tipSideIndex="1"/>
     </vehicle>
     <vehicle id="5" tourId="tourWeight1" filename="$mapdir$/maps/data/vehicles/lizardWeight550/lizardWeight550.xml" farmId="1" isAbsolute="true" propertyState="1" yOffset="0.5" age="70" operatingTime="100000"   defaultFarmProperty="true">
-        <component1 position="419.1858 81.5575 -78.1846" rotation="-3.7399 15.0378 -0.9348"/>
+        <component1 position="-399.2312 20.6162 -612.4750" rotation="-3.8362 -15.1815 -0.2254"/>
         <configuration name="baseMaterial" id="8"/>
         <boughtConfiguration name="baseMaterial" id="8"/>
         <washable>
@@ -158,7 +160,7 @@
         <foldable foldAnimTime="1.000000"/>
     </vehicle>
     <vehicle id="6" tourId="tourWeight2" filename="data/vehicles/agco/weight1500/weight1500.xml" farmId="1" isAbsolute="true" propertyState="1" yOffset="0.5" age="5" operatingTime="1000" defaultFarmProperty="true" >
-        <component1 position="132.4335 86.7362 -810.0706" rotation="-0.0889 36.4954 -0.0452"/>
+        <component1 position="-392.8282 20.7832 -612.8964" rotation="-6.1061 -41.0612 1.1402"/>
         <configuration name="baseMaterial" id="8"/>
         <boughtConfiguration name="baseMaterial" id="8"/>
         <boughtConfiguration name="baseMaterial" id="6"/>
@@ -171,7 +173,9 @@
         <attacherJoints comboDirection="-1"/>
         <foldable foldAnimTime="1.000000"/>
     </vehicle>
-    <vehicle id="7" filename="data/vehicles/kuhn/kuhnBTF4000/kuhnBTF4000.xml"                      farmId="1" isAbsolute="true" propertyState="1"    xPosition="-16"     yOffset="0.5" zPosition="259"    yRotation="90" age="74" operatingTime="46000" defaultFarmProperty="true">
+    <vehicle id="7" filename="data/vehicles/kuhn/kuhnBTF4000/kuhnBTF4000.xml"                      farmId="1" isAbsolute="true" propertyState="1" operatingTime="46000" defaultFarmProperty="true">
+        <component1 position="-384.5651 20.5735 -614.0473" rotation="5.7336 -41.0102 1.5914"/>
+        <component2 position="-383.8935 20.7975 -614.8264" rotation="5.7427 -41.0102 1.5914"/>
         <configuration name="fillUnit" id="1"/>
         <boughtConfiguration name="fillUnit" id="1"/>
         <washable>
@@ -188,7 +192,7 @@
         <sowingMachine selectedSeedFruitType="POPPY"/>
     </vehicle>
     <vehicle id="8" tourId="tourSowingMachine" filename="data/vehicles/kuhn/kuhnTF1500/kuhnTF1500.xml" farmId="1" isAbsolute="true" propertyState="1" yOffset="0.5" age="73" operatingTime="46000" defaultFarmProperty="true">
-        <component1 position="135.2534 86.6964 -834.4242" rotation="-1.7903 33.4697 -0.0380"/>
+        <component1 position="-388.9449 20.5250 -609.0078" rotation="-6.9599 -41.0102 1.5914"/>
         <configuration name="fillUnit" id="1"/>
         <configuration name="wheel" id="1"/>
         <configuration name="cover" id="1"/>
@@ -212,8 +216,8 @@
         <cover state="0"/>
     </vehicle>
     <vehicle id="9" tourId="tourCultivator" filename="data/vehicles/kuhn/kuhnHR4004/kuhnHR4004.xml" farmId="1" isAbsolute="true" propertyState="1" yOffset="0.5" age="39" operatingTime="26000" defaultFarmProperty="true">
-        <component1 position="138.9158 86.7973 -834.8363" rotation="-0.0048 2.4971 -0.0001"/>
-        <component2 position="138.8902 87.1022 -835.4225" rotation="-0.0048 2.4971 -0.0001"/>
+        <component1 position="-388.5472 20.4616 -617.8055" rotation="9.1631 -41.0604 1.1396"/>
+        <component2 position="-388.2063 20.8620 -618.2059" rotation="9.1267 -41.0603 1.1395"/>
         <configuration name="wheel" id="1"/>
         <boughtConfiguration name="wheel" id="1"/>
         <washable>
@@ -227,8 +231,8 @@
         <ridgeMarker state="0"/>
     </vehicle>
     <vehicle id="10" tourId="tourCombine" filename="data/vehicles/masseyFerguson/activa7347/activa7347.xml"              farmId="1" isAbsolute="true" propertyState="1" yOffset="0.5" age="70" operatingTime="100000"   defaultFarmProperty="true">
-        <component1 position="425.1352 80.7618 -116.5497" rotation="-179.1015 -54.4954 178.8183"/>
-        <component2 position="426.0673 81.6097 -115.8971" rotation="-164.9352 -54.4366 178.4390"/>
+        <component1 position="-411.8430 20.2479 -616.4489" rotation="-0.0952 44.3556 -2.0036"/>
+        <component2 position="-412.6203 21.0034 -617.2706" rotation="-0.0920 44.3557 -1.9990"/>
         <configuration name="wheel" id="2"/>
         <configuration name="motor" id="1"/>
         <configuration name="fillUnit" id="1"/>
@@ -260,7 +264,7 @@
         <pipe state="1"/>
     </vehicle>
     <vehicle id="11" tourId="tourCutter" filename="data/vehicles/masseyFerguson/freeflow/freeflow.xml" farmId="1" isAbsolute="true" propertyState="1" yOffset="0.5" age="70" operatingTime="100000"   defaultFarmProperty="true">
-        <component1 position="420.6272 82.2621 -119.7740" rotation="151.1120 -54.4953 178.8184"/>
+        <component1 position="-413.9806 21.4955 -608.6115" rotation="-19.1775 -84.5205 -0.4356"/>
         <washable>
             <dirtNode amount="0.515780"/>
         </washable>
@@ -275,7 +279,7 @@
         <foldable foldAnimTime="0.000000"/>
     </vehicle>
     <vehicle id="12" filename="data/vehicles/kuhn/kuhnDC401/kuhnDC401.xml" farmId="1" isAbsolute="true" propertyState="1" yOffset="0.5" age="39" operatingTime="26000" defaultFarmProperty="true">
-        <component1 position="117.2500 86.8308 -820.0000" rotation="-0.0910 -0.0001 0.0066"/>
+        <component1 position="-389.1433 20.1361 -617.1139" rotation="11.5404 -41.0608 1.1399"/>
         <washable>
             <dirtNode amount="0.210040"/>
         </washable>
@@ -286,7 +290,7 @@
         <foldable foldAnimTime="1.000000"/>
     </vehicle>
     <vehicle id="13" filename="data/vehicles/thueringerAgrar/leguan/leguan.xml" farmId="1" isAbsolute="true" propertyState="1" yOffset="0.5" age="70" operatingTime="100000"   defaultFarmProperty="true" >
-        <component1 position="120.9992 86.8478 -819.9954" rotation="0.5306 0.1518 0.0162"/>
+        <component1 position="-413.8003 20.3980 -607.0279" rotation="-1.0799 2.5886 -1.3123"/>
         <configuration name="baseMaterial" id="16"/>
         <configuration name="wheel" id="1"/>
         <boughtConfiguration name="baseMaterial" id="1"/>
@@ -304,7 +308,7 @@
         <foldable foldAnimTime="1.000000"/>
     </vehicle>
     <vehicle id="14" filename="data/vehicles/agromasz/agromaszPOH5/agromaszPOH5.xml" farmId="1" isAbsolute="true" propertyState="1" yOffset="0.5" age="120" operatingTime="10000"   defaultFarmProperty="true" >
-        <component1 position="125.2698 86.7539 -817.4838" rotation="5.5115 0.9891 6.3485"/>
+        <component1 position="-375.7317 20.5534 -599.4971" rotation="-3.7432 -38.4333 3.5420"/>
         <configuration name="design" id="1"/>
         <configuration name="wheel" id="1"/>
         <boughtConfiguration name="design" id="1"/>
@@ -321,7 +325,7 @@
         <plow rotationMax="false" turnAnimTime="0.000000"/>
     </vehicle>
     <vehicle id="15" filename="data/vehicles/lizard/pickup1978/pickup1978.xml" isAbsolute="true" yOffset="0.5" age="0.350000" price="31000.000000" farmId="1" propertyState="1" operatingTime="293518" defaultFarmProperty="true">
-        <component1 position="127.9770 86.7789 -820.0426" rotation="-0.4708 0.2004 0.5569"/>
+        <component1 position="-376.0594 20.3361 -604.1099" rotation="-3.6291 -51.8251 3.2567"/>
         <configuration name="baseMaterial" id="15"/>
         <configuration name="motor" id="1"/>
         <configuration name="wheel" id="1"/>
@@ -357,7 +361,7 @@
         <foldable foldAnimTime="0.000000"/>
     </vehicle>
     <vehicle id="16" filename="data/objects/pallets/pioneer/pioneerPallet.xml" isAbsolute="true" yOffset="0.5" age="50.000000" price="1890.000000" farmId="1" propertyState="1" operatingTime="0.000000" defaultFarmProperty="true">
-        <component1 position="127.870 87.0 -820.0426" rotation="-0.4708 0.2004 0.5569"/>
+        <component1 position="-372 21.5 -598.2312" rotation="-1.6212 -49.5378 3.0637"/>
         <configuration name="fillUnit" id="1"/>
         <boughtConfiguration name="fillUnit" id="1"/>
         <washable>
@@ -371,7 +375,7 @@
         </fillUnit>
     </vehicle>
     <vehicle id="17" filename="data/objects/pallets/pioneer/pioneerPallet.xml" isAbsolute="true" yOffset="0.5" age="50.000000" price="1890.000000" farmId="1" propertyState="1" operatingTime="0.000000" defaultFarmProperty="true">
-        <component1 position="131.8959 86.8359 -805.5121" rotation="-0.0977 43.6766 -0.0609"/>
+        <component1 position="-373.4226 21.5 -598.2312" rotation="-1.6212 -49.5378 3.0637"/>
         <configuration name="fillUnit" id="1"/>
         <boughtConfiguration name="fillUnit" id="1"/>
         <washable>
@@ -385,7 +389,7 @@
         </fillUnit>
     </vehicle>
     <vehicle id="18" filename="data/objects/bigBagContainer/bigBagContainerFertilizer.xml" isAbsolute="true" yOffset="0.5" age="50.000000" price="1920.000000" farmId="1" propertyState="1" operatingTime="0.000000" defaultFarmProperty="true">
-        <component1 position="133.9989 86.8181 -819.9987" rotation="-0.0722 -0.1410 0.0075"/>
+        <component1 position="-376.0594 21 -604.1099" rotation="-3.6291 -141.82 3.2567"/>
         <configuration name="fillUnit" id="1"/>
         <boughtConfiguration name="fillUnit" id="1"/>
         <washable>

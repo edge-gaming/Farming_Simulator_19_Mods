@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="bgaExtension.blend" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="7" filename="$data/shaders/decalShader.xml"/>
+    <File fileId="4" filename="../textures/gfx/bgaDecals_diffuse.dds"/>
+    <File fileId="5" filename="../textures/gfx/bgaDecals_normal.dds"/>
+    <File fileId="6" filename="../textures/gfx/bgaDecals_specular.dds"/>
+    <File fileId="1" filename="../textures/gfx/bga_diffuse.dds"/>
+    <File fileId="2" filename="../textures/gfx/bga_normal.dds"/>
+    <File fileId="3" filename="../textures/gfx/bga_specular.dds"/>
+    <File fileId="8" filename="../textures/gfx/decalOilSlicks_diffuse.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="7" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="bgaDecals_mat" materialId="5" alphaBlending="true" customShaderId="7">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+      <Glossmap fileId="6"/>
+    </Material>
+    <Material name="bga_mat" materialId="6">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="decalOilSlick_mat" materialId="4" alphaBlending="true">
+      <Texture fileId="8"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="bgaExtension.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="bgaExtension" nodeId="14">
+      <Shape shapeId="1" name="bgaTankE" clipDistance="400" nodeId="15" materialIds="6" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="2" name="addon" clipDistance="200" nodeId="16" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="3" name="dirtDecals" clipDistance="100" nodeId="17" materialIds="5" receiveShadows="true" decalLayer="1"/>
+        <Shape shapeId="4" name="decalOilSlick03" clipDistance="100" nodeId="18" materialIds="4" receiveShadows="true" decalLayer="1"/>
+        <Shape shapeId="5" name="col" visibility="false" static="true" nodeId="31" materialIds="7" nonRenderable="true"/>
+      </Shape>
+      <TransformGroup name="storage" nodeId="19"/>
+      <TransformGroup name="areas" nodeId="20">
+        <TransformGroup name="start" translation="-9 0 -9" nodeId="21">
+          <TransformGroup name="width" translation="18 0 0" nodeId="22"/>
+          <TransformGroup name="height" translation="0 0 18" nodeId="23"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="seasons" nodeId="24">
+        <TransformGroup name="start" translation="-9 0 -9" nodeId="25">
+          <TransformGroup name="width" translation="18 0 0" nodeId="26"/>
+          <TransformGroup name="height" translation="0 0 18" nodeId="27"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="6" name="tipBlocker" visibility="false" static="true" collisionMask="524288" nodeId="28" materialIds="7" nonRenderable="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

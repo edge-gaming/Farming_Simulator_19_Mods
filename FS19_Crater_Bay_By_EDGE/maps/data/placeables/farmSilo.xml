@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+ <storeData>
+  <name>$l10n_shopItem_grainSilo</name>
+  <functions>
+   <function>$l10n_function_farmSilo</function>
+  </functions>
+  <specs>
+   <capacity>200000</capacity>
+   <fillTypes>wheat barley canola maize oat sunflower soybean</fillTypes>
+  </specs>
+  <image>maps/data/placeables/store_farmSilo.png</image>
+  <price>54000</price>
+  <dailyUpkeep>50</dailyUpkeep>
+  <lifetime>1000</lifetime>
+  <rotation>0</rotation>
+  <brand>AJTECH</brand>
+  <species>placeable</species>
+  <category>silos</category>
+  <vertexBufferMemoryUsage>395228</vertexBufferMemoryUsage>
+  <indexBufferMemoryUsage>52374</indexBufferMemoryUsage>
+  <textureMemoryUsage>2278032</textureMemoryUsage>
+  <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+  <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+ </storeData>
+
+ <placeableType>silo</placeableType>
+ <filename>maps/data/placeables/farmSilo.i3d</filename>
+ <placement testSizeX="12" testSizeZ="9" sizeX="12" sizeZ="9" useRandomYRotation="false" useManualYRotation="true" />
+
+ <dayNightObjects>
+  <dayNightObject node="3|0|0|0|0" intensityDay="0" intensityNight="3" />
+  <dayNightObject node="3|0|0|0|1" visibleDay="false" visibleNight="true" />
+ </dayNightObjects>
+
+ <loadingStation stationName="$l10n_station_farmSilo" appearsOnPDA="false" storageRadius="50" fillSoundIdentifier="fillSound01">
+  <loadTrigger triggerNode="0|1|0|0|0" fillLitersPerSecond="2000" dischargeNode="0|1|0|0|1">
+   <effectNode effectClass="PipeEffect" effectNode="0|1|0|0|2|0" materialType="pipe" materialTypeId="1" fadeTime="0.5" maxBending="0" controlPoint="3.75 0 0 0"/>
+   <effectNode                          effectNode="0|1|0|0|2|1" materialType="smoke"     materialTypeId="1" fadeTime="0.5" />
+  </loadTrigger>
+ </loadingStation>
+
+ <unloadingStation stationName="$l10n_station_farmSilo" appearsOnPDA="false" storageRadius="50">
+  <unloadTrigger exactFillRootNode="0|0|0|0|0" />
+ </unloadingStation>
+
+ <storages>
+  <storage node="0|2" fillTypes="wheat barley canola maize oat sunflower soybean" capacityPerFillType="200000" />
+ </storages>
+
+ <hotspots>
+  <hotspot name="Farm silo" fullName="$l10n_station_farmSilo" imageName="SELLING_POINT" hidable="true" linkNode="0|3" category="CATEGORY_TRIGGERS" />
+ </hotspots>
+
+ <triggerMarkers>
+  <triggerMarker node="4" />
+ </triggerMarkers>
+
+ <clearAreas>
+  <clearArea startNode="5|0" widthNode="5|0|0" heightNode="5|0|1"/>
+ </clearAreas>
+ <leveling requireLeveling="true" maxSmoothDistance="5" maxSlope="30" maxEdgeAngle="20">
+  <levelAreas>
+   <levelArea startNode="5|0" widthNode="5|0|0" heightNode="5|0|1" groundType="dirt"/>
+  </levelAreas>
+ </leveling>
+ <seasons>
+  <maskAreas>
+   <maskArea startNode="6|0" widthNode="6|0|0" heightNode="6|0|1" />
+   <maskArea startNode="6|1" widthNode="6|1|0" heightNode="6|1|1" />
+  </maskAreas>
+ </seasons>
+
+ <tipOcclusionUpdateArea sizeX="12" sizeZ="9" />
+</placeable>

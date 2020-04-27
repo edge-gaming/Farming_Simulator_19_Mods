@@ -160,6 +160,15 @@
             <destruction filterStart="2" filterEnd="7" state="8" />
             <mapColors default="0.894 0.00000 0.192 1" colorBlind="0.0409  0.0000  0.63922"/>
         </fruitType>
+		<fruitType name="hemp" title="$l10n_fruittype_hemp" shownOnMap="true" useForFieldJob="true">
+            <general startStateChannel="0" numStateChannels="4" />
+            <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.08" />
+            <harvest minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" minForageGrowthState="3" allowsPartialGrowthState="false" literPerSqm="3.3" />
+            <growth witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="86400000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="NONE" growthRequiresLime="true" />
+            <options lowSoilDensityRequired="true" increasesSoilDensity="false" consumesLime="true" startSprayState="0" />
+            <destruction filterStart="2" filterEnd="7" state="8" />
+            <mapColors default="0.56863 0.00000 0.30196 1" colorBlind="0.28235  0.51373  0.30196"/>
+        </fruitType>
         <!-- <fruitType name="poppyflower" title="$l10n_fruittype_poppyflower" shownOnMap="false" useForFieldJob="false">
             <general startStateChannel="0" numStateChannels="4" />
             <cultivation needsSeeding="true" allowsSeeding="false" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.05" />
@@ -169,21 +178,12 @@
             <destruction filterStart="2" filterEnd="7" state="8" />
             <mapColors default="0.894 0.00000 0.192 1" colorBlind="0.0409  0.0000  0.63922"/>
         </fruitType> -->
-		<!-- <fruitType name="hemp" title="$l10n_HEMPPLANT" shownOnMap="true" useForFieldJob="true">
-            <general startStateChannel="0" numStateChannels="4" />
-            <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.08" />
-            <harvest minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" minForageGrowthState="3" allowsPartialGrowthState="false" literPerSqm="3.3" />
-            <growth witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="86400000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="NONE" growthRequiresLime="true" />
-            <options lowSoilDensityRequired="true" increasesSoilDensity="false" consumesLime="true" startSprayState="0" />
-            <destruction filterStart="2" filterEnd="7" state="8" />
-            <mapColors default="0.56863 0.00000 0.30196 1" colorBlind="0.28235  0.51373  0.30196"/>
-        </fruitType> -->
     </fruitTypes>
 
     <fruitTypeCategories>
-        <fruitTypeCategory name="GRAINHEADER" >WHEAT BARLEY OAT CANOLA SOYBEAN HEMP POPPY POPPYFLOWER</fruitTypeCategory>
+        <fruitTypeCategory name="GRAINHEADER" >WHEAT BARLEY OAT CANOLA SOYBEAN HEMP POPPY <!--POPPYFLOWER--></fruitTypeCategory>
         <fruitTypeCategory name="MAIZEHEADER" >MAIZE SUNFLOWER</fruitTypeCategory>
-        <fruitTypeCategory name="MAIZECUTTER" >MAIZE POPPY POPPYFLOWER</fruitTypeCategory>
+        <fruitTypeCategory name="MAIZECUTTER" >MAIZE POPPY <!--POPPYFLOWER--></fruitTypeCategory>
         <fruitTypeCategory name="DIRECTCUTTER" >GRASS WHEAT BARLEY OAT CANOLA SOYBEAN HEMP </fruitTypeCategory>
         <fruitTypeCategory name="PICKUP" >GRASS DRYGRASS</fruitTypeCategory>
         <fruitTypeCategory name="SOWINGMACHINE" >WHEAT BARLEY OAT CANOLA SOYBEAN POPPY OILSEEDRADISH HEMP GRASS</fruitTypeCategory>
@@ -194,18 +194,18 @@
 
     <fruitTypeConverters>
         <fruitTypeConverter name="FORAGEHARVESTER">
-            <converter from="MAIZE"     to="CHAFF"         factor="7.8" />
-            <converter from="GRASS"     to="GRASS_WINDROW" factor="1.0" windrowFactor="1.0" />
-            <converter from="DRYGRASS"  to="DRYGRASS_WINDROW" factor="1.0" windrowFactor="1.0" />
-            <converter from="WHEAT"     to="CHAFF"         factor="4.0" windrowFactor="1.0" /> <!-- straw 1:1 conversion -->
-            <converter from="BARLEY"    to="CHAFF"         factor="4.0" windrowFactor="1.0" /> <!-- straw 1:1 conversion -->
-            <converter from="OAT"       to="CHAFF"         factor="4.0" windrowFactor="1.0" /> <!-- straw 1:1 conversion -->
-            <converter from="CANOLA"    to="CHAFF"         factor="3.0" />
-            <converter from="SUNFLOWER" to="CHAFF"         factor="3.0" />
-            <converter from="SOYBEAN"   to="CHAFF"         factor="3.0" />
-            <converter from="POPLAR"    to="WOODCHIPS"     factor="3.0" />
-            <converter from="POPPY"     to="POPPYFLOWER"    factor="1.0" />
-            <!-- <converter from="HEMP"      to="CHAFF"         factor="3.0" /> -->
+            <converter from="MAIZE"     to="CHAFF"              factor="7.8" />
+            <converter from="GRASS"     to="GRASS_WINDROW"      factor="1.0" windrowFactor="1.0" />
+            <converter from="DRYGRASS"  to="DRYGRASS_WINDROW"   factor="1.0" windrowFactor="1.0" />
+            <converter from="WHEAT"     to="CHAFF"              factor="4.0" windrowFactor="1.0" /> <!-- straw 1:1 conversion -->
+            <converter from="BARLEY"    to="CHAFF"              factor="4.0" windrowFactor="1.0" /> <!-- straw 1:1 conversion -->
+            <converter from="OAT"       to="CHAFF"              factor="4.0" windrowFactor="1.0" /> <!-- straw 1:1 conversion -->
+            <converter from="CANOLA"    to="CHAFF"              factor="3.0" />
+            <converter from="SUNFLOWER" to="CHAFF"              factor="3.0" />
+            <converter from="SOYBEAN"   to="CHAFF"              factor="3.0" />
+            <converter from="POPLAR"    to="WOODCHIPS"          factor="3.0" />
+            <converter from="POPPY"     to="CHAFF"              factor="2.0" />
+            <converter from="HEMP"      to="CHAFF"              factor="6.0" />
         </fruitTypeConverter>
         <fruitTypeConverter name="MOWER">
             <converter from="GRASS"     to="GRASS_WINDROW" factor="1.0" windrowFactor="1.0" />

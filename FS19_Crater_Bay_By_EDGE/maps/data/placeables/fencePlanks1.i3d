@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="fencePlanksStraight.blend" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="../textures/gfx/farmShack_diffuse.dds"/>
+    <File fileId="2" filename="../textures/gfx/farmShack_normal.dds"/>
+    <File fileId="3" filename="../textures/gfx/farmShack_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="farmShack_mat" materialId="5">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="lambert1" materialId="4" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="fencePlanks1.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="fencePlanks1" nodeId="10">
+      <TransformGroup name="vis" nodeId="11">
+        <Shape shapeId="1" name="fencePlanksStraight" translation="1 0 0" clipDistance="200" nodeId="12" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="2" name="col" visibility="false" static="true" clipDistance="50" nodeId="13" materialIds="4" nonRenderable="true"/>
+      </TransformGroup>
+      <TransformGroup name="areas" nodeId="15">
+        <TransformGroup name="start" translation="-0.5 0 0.05" nodeId="16">
+          <TransformGroup name="width" translation="2.25 0 0" nodeId="17"/>
+          <TransformGroup name="height" translation="0 0 0.5" nodeId="18"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="foliageAreas" nodeId="19">
+        <TransformGroup name="grass" nodeId="20">
+          <TransformGroup name="corner01_1" translation="-0.9 0 0" nodeId="21">
+            <TransformGroup name="corner01_2" translation="1.9 0 0" nodeId="22"/>
+            <TransformGroup name="corner01_3" translation="1.9 0 0.25" nodeId="23"/>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="seasons" nodeId="24"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

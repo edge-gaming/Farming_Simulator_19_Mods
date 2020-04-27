@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="EDGEsellingStationGeneric01" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="34" filename="C:/Users/Mats-André Bru/OneDrive/Documents/My Games/FarmingSimulator Mods/WORK STUFF!!!/default_normal.dds"/>
+    <File fileId="33" filename="C:/Users/Mats-André Bru/OneDrive/Documents/My Games/FarmingSimulator Mods/WORK STUFF!!!/streetLightGlass_diffuse.png"/>
+    <File fileId="35" filename="C:/Users/Mats-André Bru/OneDrive/Documents/My Games/FarmingSimulator Mods/WORK STUFF!!!/streetLightGlass_specular.png"/>
+    <File fileId="27" filename="C:/Users/Mats-André Bru/OneDrive/Documents/My Games/FarmingSimulator Mods/WORK STUFF!!!/streetLight_diffuse.png"/>
+    <File fileId="37" filename="C:/Users/Mats-André Bru/OneDrive/Documents/My Games/FarmingSimulator Mods/WORK STUFF!!!/streetLight_emissive.png"/>
+    <File fileId="28" filename="C:/Users/Mats-André Bru/OneDrive/Documents/My Games/FarmingSimulator Mods/WORK STUFF!!!/streetLight_normal.png"/>
+    <File fileId="29" filename="C:/Users/Mats-André Bru/OneDrive/Documents/My Games/FarmingSimulator Mods/WORK STUFF!!!/streetLight_specular.png"/>
+    <File fileId="23" filename="Multi_Selling_Station/textures/Decals_diffuse.dds"/>
+    <File fileId="24" filename="Multi_Selling_Station/textures/Decals_normal.dds"/>
+    <File fileId="25" filename="Multi_Selling_Station/textures/Decals_specular.dds"/>
+    <File fileId="17" filename="Multi_Selling_Station/textures/grainStation_diffuse.dds"/>
+    <File fileId="18" filename="Multi_Selling_Station/textures/grainStation_normal.dds"/>
+    <File fileId="19" filename="Multi_Selling_Station/textures/grainStation_specular.dds"/>
+    <File fileId="10" filename="$data/fillPlanes/wheat_diffuse.dds"/>
+    <File fileId="11" filename="$data/fillPlanes/wheat_normal.dds"/>
+    <File fileId="12" filename="$data/fillPlanes/wheat_specular.dds"/>
+    <File fileId="20" filename="$data/maps/textures/american/metalGridGrating_diffuse.dds"/>
+    <File fileId="21" filename="$data/maps/textures/american/metalGridGrating_normal.dds"/>
+    <File fileId="22" filename="$data/maps/textures/american/metalGridGrating_specular.dds"/>
+    <File fileId="30" filename="$data/maps/textures/american/props/propsDecalsUS_diffuse.dds"/>
+    <File fileId="5" filename="$data/maps/textures/shared/sellingStationGeneric_ao.png"/>
+    <File fileId="1" filename="$data/maps/textures/shared/sellingStationGeneric_diffuse.png"/>
+    <File fileId="2" filename="$data/maps/textures/shared/sellingStationGeneric_normal.png"/>
+    <File fileId="3" filename="$data/maps/textures/shared/sellingStationGeneric_specular.png"/>
+    <File fileId="13" filename="$data/maps/textures/shared/warningStripes_diffuse.png"/>
+    <File fileId="14" filename="$data/maps/textures/shared/warningStripes_normal.png"/>
+    <File fileId="15" filename="$data/maps/textures/shared/warningStripes_specular.png"/>
+    <File fileId="4" filename="$data/shaders/buildingShader.xml"/>
+    <File fileId="36" filename="$data/shaders/dashboardLightsShader.xml"/>
+    <File fileId="16" filename="$data/shaders/decalShader.xml"/>
+    <File fileId="31" filename="$data/shared/default_normal.dds"/>
+    <File fileId="32" filename="$data/shared/default_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="grainStation_mat" materialId="11">
+      <Texture fileId="17"/>
+      <Normalmap fileId="18"/>
+      <Glossmap fileId="19"/>
+    </Material>
+    <Material name="sellingStationGeneric_mat" materialId="7" customShaderId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="mMaskMap" fileId="5"/>
+    </Material>
+    <Material name="Decals_mat" materialId="5" customShaderId="16">
+      <Texture fileId="23"/>
+      <Normalmap fileId="24"/>
+      <Glossmap fileId="25"/>
+    </Material>
+    <Material name="metalGridGrating_mat" materialId="9">
+      <Texture fileId="20"/>
+      <Normalmap fileId="21"/>
+      <Glossmap fileId="22"/>
+    </Material>
+    <Material name="wheatBottom_mat" materialId="10">
+      <Texture fileId="10"/>
+      <Normalmap fileId="11"/>
+      <Glossmap fileId="12"/>
+    </Material>
+    <Material name="warningStripes_mat" materialId="12" customShaderId="16" customShaderVariation="reflector">
+      <Texture fileId="13"/>
+      <Normalmap fileId="14"/>
+      <Glossmap fileId="15"/>
+    </Material>
+    <Material name="EDGE_Filling_mat02" materialId="13" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="propsDecalsUS_mat" materialId="8" alphaBlending="true" customShaderId="16">
+      <Texture fileId="30"/>
+      <Normalmap fileId="31"/>
+      <Glossmap fileId="32"/>
+    </Material>
+    <Material name="streetLight_mat" materialId="62">
+      <Texture fileId="27"/>
+      <Normalmap fileId="28"/>
+      <Glossmap fileId="29"/>
+    </Material>
+    <Material name="streetLightGlass_mat" materialId="61" alphaBlending="true" customShaderId="36">
+      <Texture fileId="33"/>
+      <Normalmap fileId="34"/>
+      <Glossmap fileId="35"/>
+      <Custommap name="mEmissiveMap" fileId="37"/>
+      <CustomParameter name="lightControl" value="5 1 1 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="sellingStationGeneric01.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="MultiSellingStation" nodeId="31">
+      <Shape shapeId="1" name="sellingStationGeneric" translation="0 0 6.426" static="true" clipDistance="400" nodeId="32" materialIds="7" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="2" name="sellingStationGenericGrainPlane" clipDistance="100" nodeId="33" materialIds="10" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="warningStripes" translation="0 0.145 0" nodeId="34">
+          <Shape shapeId="3" name="warningStripesCorner1" translation="-5 1.42486e-07 3.4" rotation="-180 -0 -180" clipDistance="200" nodeId="35" materialIds="12" receiveShadows="true" decalLayer="1"/>
+          <Shape shapeId="4" name="warningStripesCorner2" translation="-5 0 -3.4" clipDistance="200" nodeId="36" materialIds="12" receiveShadows="true" decalLayer="1"/>
+          <Shape shapeId="5" name="warningStripesCorner3" translation="5 0 -3.4" clipDistance="200" nodeId="37" materialIds="12" receiveShadows="true" decalLayer="1"/>
+          <Shape shapeId="6" name="warningStripesCorner4" translation="5 0 3.4" rotation="-180 -5.00896e-06 -180" clipDistance="200" nodeId="38" materialIds="12" receiveShadows="true" decalLayer="1"/>
+        </TransformGroup>
+        <Shape shapeId="7" name="grainStation" translation="0 0.161 0" static="true" clipDistance="200" nodeId="39" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="8" name="sellingStationGenericGrid" translation="0 -0.115895 0" static="true" clipDistance="400" nodeId="40" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="9" name="EDGESign" translation="4.15735 -0.0169537 -3.49453" rotation="180 0 -180" clipDistance="300" nodeId="41" materialIds="5" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="10" name="LogoSign" translation="0 0 0.00706983" clipDistance="300" nodeId="42" materialIds="5" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <TransformGroup name="gameplay" nodeId="43">
+        <TransformGroup name="IN" nodeId="44">
+          <Shape shapeId="11" name="triggerPos" translation="0 0.211792 6.426" rotation="0 90 0" scale="0.83 1 0.35" static="true" trigger="true" collisionMask="8388608" nodeId="45" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="12" name="exactFillRootNode" rotation="0 90 0" scale="2.38 1 1.47" static="true" collisionMask="1073741824" nodeId="46" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="13" name="StrawTrigger" scale="7.4 8 26.7" static="true" trigger="true" collisionMask="8388608" nodeId="47" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+              <TransformGroup name="triggerStart" translation="0 0 0.5" nodeId="48"/>
+              <TransformGroup name="triggerEnd" translation="0 0 -0.5" nodeId="49"/>
+              <Shape shapeId="13" name="StrawShovelTarget" translation="0 -0.02 0" scale="1 0.01 1" static="true" nodeId="50" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            </Shape>
+            <Shape shapeId="13" name="baleDestroyerTrigger" scale="7.4 8 26.7" static="true" trigger="true" collisionMask="16777216" nodeId="51" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="storageFarm" nodeId="52"/>
+        <TransformGroup name="mapPosition" translation="0 0 6.426" nodeId="53"/>
+      </TransformGroup>
+      <Shape shapeId="14" name="streetLight" translation="2.156 -0.355 2.097" clipDistance="120" nodeId="66" materialIds="62" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="15" name="decals" translation="-3.47277e-08 -0.198619 -1.51799e-15" clipDistance="50" nodeId="55" materialIds="8" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+        <TransformGroup name="illum" nodeId="67">
+          <Shape shapeId="16" name="glass" clipDistance="120" nodeId="68" materialIds="61" castsShadows="true" receiveShadows="true"/>
+          <Light name="spotLight2" translation="0 8.41706 2.27947" visibility="false" clipDistance="120" nodeId="69" type="spot" color="0.45 0.45 0.45" emitDiffuse="true" emitSpecular="true" decayRate="1" range="15" coneAngle="100" dropOff="1"/>
+        </TransformGroup>
+      </Shape>
+    </TransformGroup>
+    <Camera name="persp" translation="-14.3413 21.0877 4.25234" rotation="133.132 -83.0774 -180" visibility="false" nodeId="59" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="31">
+      <Attribute name="mapPositionIndex" type="string" value="1|2"/>
+    </UserAttribute>
+    <UserAttribute nodeId="45">
+      <Attribute name="shovelTargetIndex" type="string" value="3"/>
+    </UserAttribute>
+    <UserAttribute nodeId="47">
+      <Attribute name="index" type="string" value="WINDROW_STORAGE"/>
+      <Attribute name="onCreate" type="scriptCallback" value="TipTrigger.onCreate"/>
+      <Attribute name="shovelTargetIndex" type="string" value="2"/>
+      <Attribute name="useMapConfigXml" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="51">
+      <Attribute name="appearsOnPDA" type="boolean" value="false"/>
+      <Attribute name="onCreate" type="scriptCallback" value="BaleDestroyerTrigger.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="67">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

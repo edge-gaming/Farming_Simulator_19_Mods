@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Sample Mod Map 1" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="9" filename="$data/shaders/dashboardLightsShader.xml"/>
+    <File fileId="1" filename="../textures/gfx/office01a_diffuse.dds"/>
+    <File fileId="2" filename="../textures/gfx/office01a_specular.dds"/>
+    <File fileId="3" filename="../textures/gfx/smallWallLight_diffuse.png"/>
+    <File fileId="4" filename="../textures/gfx/smallWallLight_normal.png"/>
+    <File fileId="5" filename="../textures/gfx/smallWallLight_specular.png"/>
+    <File fileId="7" filename="$data/maps/textures/shared/default_normal.dds"/>
+    <File fileId="10" filename="$data/maps/textures/shared/light_emissive.png"/>
+    <File fileId="6" filename="$data/maps/textures/shared/window02_diffuse.png"/>
+    <File fileId="8" filename="$data/maps/textures/shared/window02_specular.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="5" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="smallWallLight_mat" materialId="4">
+      <Texture fileId="3"/>
+      <Normalmap fileId="4"/>
+      <Glossmap fileId="5"/>
+    </Material>
+    <Material name="pOffice_mat" materialId="8">
+      <Texture fileId="1"/>
+      <Glossmap fileId="2"/>
+    </Material>
+    <Material name="window02_mat" materialId="6" alphaBlending="true" customShaderId="9">
+      <Texture fileId="6"/>
+      <Normalmap fileId="7"/>
+      <Glossmap fileId="8"/>
+      <Custommap name="mEmissiveMap" fileId="10"/>
+      <CustomParameter name="lightControl" value="1 0 0 0"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="office.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="office" nodeId="16">
+      <TransformGroup name="building" nodeId="17">
+        <Shape shapeId="1" name="pOffice" static="true" clipDistance="300" nodeId="18" materialIds="8" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="lights" nodeId="19">
+        <Shape shapeId="2" name="smallWallLight" translation="3.96264 3.601 7.18352" rotation="0 -90 90" clipDistance="155" nodeId="20" materialIds="4" castsShadows="true" receiveShadows="true">
+          <TransformGroup name="illum" nodeId="21">
+            <Shape shapeId="3" name="glass" clipDistance="40" nodeId="22" materialIds="6" castsShadows="true" receiveShadows="true"/>
+            <Light name="pointLight1" translation="0 0 0.258425" visibility="false" clipDistance="155" nodeId="23" type="point" color="1 0.95 0.9" emitDiffuse="true" emitSpecular="true" decayRate="1" range="5"/>
+          </TransformGroup>
+          <Shape shapeId="4" name="col" visibility="false" static="true" density="0.0001" nodeId="24" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+        <Shape shapeId="2" name="smallWallLight" translation="-9.62027 3.601 -1.4635" rotation="90 0 0" clipDistance="155" nodeId="25" materialIds="4" castsShadows="true" receiveShadows="true">
+          <TransformGroup name="illum" nodeId="26">
+            <Shape shapeId="3" name="glass" clipDistance="40" nodeId="27" materialIds="6" castsShadows="true" receiveShadows="true"/>
+            <Light name="pointLight1" translation="0 0 0.258425" visibility="false" clipDistance="155" nodeId="28" type="point" color="1 0.95 0.9" emitDiffuse="true" emitSpecular="true" decayRate="1" range="5"/>
+          </TransformGroup>
+          <Shape shapeId="4" name="col" visibility="false" static="true" density="0.0001" nodeId="29" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+      </TransformGroup>
+      <TransformGroup name="areas" nodeId="30">
+        <TransformGroup name="start" translation="-12 0 -10" nodeId="31">
+          <TransformGroup name="width" translation="24 0 0" nodeId="32"/>
+          <TransformGroup name="height" translation="0 0 20" nodeId="33"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="seasons" nodeId="34">
+        <TransformGroup name="start" translation="-12 0 -10" nodeId="35">
+          <TransformGroup name="width" translation="24 0 0" nodeId="36"/>
+          <TransformGroup name="height" translation="0 0 20" nodeId="37"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="5" name="tipBlocker" visibility="false" static="true" collisionMask="524288" nodeId="38" materialIds="5" nonRenderable="true"/>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="21">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="26">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

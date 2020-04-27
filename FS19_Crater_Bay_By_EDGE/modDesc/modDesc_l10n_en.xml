@@ -19,31 +19,38 @@
 		<text name="fruittype_poppyflower" 				text="Poppy Flower"/>
 		<text name="fruittype_poppyseeds" 				text="Poppy Seeds"/>
 		<text name="Desc_PoppySeeds" 					text="Poppy Seeds is a Fruit."/>
-		<!-- <text name="HEMPPLANT" 							text="Hemp Plant"/>
-		<text name="HEMPFILL" 							text="Hemp"/>
-		<text name="Desc_HempPlant" 					text="Hemp can be used for making allmost anything."/> -->
-		<text name="filltype_rice" 						text="Poppy Seeds"/>
-		<text name="fruittype_rice" 					text="Poppy Seeds"/>
-		<text name="Desc_rice" 							text="Poppy Seeds is a Fruit."/>
+		<text name="fruittype_hemp" 					text="Hemp Plant"/>
+		<text name="filltype_hemp" 						text="Hemp"/>
+		<text name="Desc_HempPlant" 					text="Hemp can be used for making allmost anything."/>
+		<!--	<text name="filltype_rice" 						text="Poppy Seeds"/>
+				<text name="fruittype_rice" 					text="Poppy Seeds"/>
+				<text name="Desc_rice" 							text="Poppy Seeds is a Fruit."/> -->
 
 		<!--Shops-->
 		<text name="EDGEFNF"         					text="EDGE Grains"/>
 		<text name="EDGEFNFBuy"    						text="EDGE Food &apos;n&apos; Fertilizer"/>
         <text name="station_mill"         				text="Corn Centre"/>
         <text name="station_distillery"    				text="Distillery"/>
+        <text name="station_Lemonways"    				text="LemonWays"/>
+        <text name="station_OceanBeach"    				text="Ocean Beach"/>
+        <text name="station_Limagrain"    				text="Limagrain"/>
+        <text name="station_shop"    					text="Mess hall Grains"/>
+
+		<!--Hotspots-->
+        <text name="map_stationLumberyard"    			text="Lumberyard"/>
 
 		<!--StrawBarn-->
         <text name="name_StrawBarn_SellingSpot"			text="EDGE Bigbales!"/>
         <text name="name_StrawBarn_SellingSpotUn"		text="EDGE Bailing Barn"/>
         <text name="function_StrawBarn_SellingSpot"		text="Nice and clean barn that works as a selling point for straw, grass, hay and silage. The Building is fitted with automatic lighting inside and outside."/>
 		<text name="function_StrawBarn_SellingSpotUn"	text="Nice and clean barn that works as a selling point for all types of Fruit. The Building is fitted with automatic lighting inside and outside."/>
-		<!-- <text name="typeDesc_StrawBarn_SellingSpot" text="for later use"/> -->
+		<!-- 	<text name="typeDesc_StrawBarn_SellingSpot" text="for later use"/> -->
 
 		<!--MultiStations-->
         <text name="name_MultiSellingStation_Black"		text="Multi Selling Station"/>
         <text name="function_MultiSellingStation"		text="Here you can sell anything you'd like, From crop harvest to seeds and fertilizer."/>
-        <text name="GrainExpress"						text="EDGE Grain Express"/>
-        <text name="GrainExpressBuy"					text="EDGE Grain Shop Express"/>
+        <text name="GrainExpress"						text="EDGE Industries Export"/>
+        <text name="GrainExpressBuy"					text="EDGE Industries Import"/>
         <text name="name_multifillingstation_Black"		text="Multi Filling Station"/>
         <text name="function_multifillingstation"		text="Here you can buy anything you'd like, the delivery people take 10%, and 15% on any crop harvest."/>
 

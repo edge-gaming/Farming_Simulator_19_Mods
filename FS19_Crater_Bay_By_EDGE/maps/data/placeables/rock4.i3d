@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Sample Mod Map 1" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="5" filename="$data/maps/textures/terrain/cliffRockDE01_diffuse.png"/>
+    <File fileId="6" filename="$data/maps/textures/terrain/cliffRockDE01_normal.png"/>
+    <File fileId="7" filename="$data/maps/textures/terrain/grassDirtDE01_diffuse.png"/>
+    <File fileId="8" filename="$data/maps/textures/terrain/grassDirtDE01_normal.png"/>
+    <File fileId="4" filename="$data/shaders/triPlanarShader.xml"/>
+    <File fileId="1" filename="../textures/gfx/rocksSet01_diffuse.png"/>
+    <File fileId="2" filename="../textures/gfx/rocksSet01_normal.png"/>
+    <File fileId="3" filename="../textures/gfx/rocksSet01_specular.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="rocksSet01_mat" materialId="5" customShaderId="4" customShaderVariation="enable_proj2_masking_terrainFormat_diffuseMix">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="projDiffuse1" fileId="5"/>
+      <Custommap name="projNormal1" fileId="6"/>
+      <Custommap name="projDiffuse2" fileId="7"/>
+      <Custommap name="projNormal2" fileId="8"/>
+      <CustomParameter name="uvScale" value="0.5 0.5 1 1"/>
+      <CustomParameter name="diffuseMix" value="0.9 0 0 0"/>
+    </Material>
+    <Material name="lambert1" materialId="4" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="rock4.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="rock4" nodeId="9">
+      <TransformGroup name="vis" nodeId="10">
+        <Shape shapeId="1" name="rock04" translation="0 -0.25 0" rotation="153.607 -0 0" scale="1.2 1.2 1.2" static="true" clipDistance="300" nodeId="11" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="areas" nodeId="12">
+        <TransformGroup name="start" translation="-0.5 0 -0.5" nodeId="13">
+          <TransformGroup name="width" translation="1 0 0" nodeId="14"/>
+          <TransformGroup name="height" translation="0 0 1" nodeId="15"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="seasons" nodeId="16">
+        <TransformGroup name="start" translation="-0.5 0 -0.5" nodeId="23">
+          <TransformGroup name="width" translation="1 0 0" nodeId="24"/>
+          <TransformGroup name="height" translation="0 0 1" nodeId="25"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="2" name="tipBlocker" visibility="false" static="true" collisionMask="524288" nodeId="20" materialIds="4" nonRenderable="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

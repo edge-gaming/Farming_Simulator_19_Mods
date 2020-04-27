@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="woodChips.blend" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="5" filename="$data/fillPlanes/woodChips_diffuse.png"/>
+    <File fileId="6" filename="$data/fillPlanes/woodChips_normal.png"/>
+    <File fileId="7" filename="$data/fillPlanes/woodChips_specular.png"/>
+    <File fileId="8" filename="$data/maps/textures/shared/warningStripes_diffuse.png"/>
+    <File fileId="9" filename="$data/maps/textures/shared/warningStripes_normal.png"/>
+    <File fileId="10" filename="$data/maps/textures/shared/warningStripes_specular.png"/>
+    <File fileId="2" filename="../textures/gfx/lumbermill_diffuse.dds"/>
+    <File fileId="3" filename="../textures/gfx/lumbermill_normal.dds"/>
+    <File fileId="4" filename="../textures/gfx/lumbermill_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lumbermill_mat" materialId="6">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+    </Material>
+    <Material name="woodChipPile_mat" materialId="4">
+      <Texture fileId="5"/>
+      <Normalmap fileId="6"/>
+      <Glossmap fileId="7"/>
+    </Material>
+    <Material name="lambert1" materialId="5" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="warningStripes_mat" materialId="7">
+      <Texture fileId="8"/>
+      <Normalmap fileId="9"/>
+      <Glossmap fileId="10"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="woodChips.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="sellingStationWoodChips" nodeId="15">
+      <TransformGroup name="gameplay" nodeId="16">
+        <TransformGroup name="IN" nodeId="17">
+          <TransformGroup name="unloadingStation" nodeId="18">
+            <TransformGroup name="unloadingTriggers" nodeId="19">
+              <Shape shapeId="1" name="exactFillRootNode" translation="0 0 5" static="true" collisionMask="1073741824" nodeId="20" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              <Shape shapeId="2" name="baleTrigger" static="true" trigger="true" collisionMask="16781312" nodeId="21" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="mapPosition" translation="0 0 8" nodeId="22"/>
+      </TransformGroup>
+      <Shape shapeId="3" name="woodChipsFence" static="true" clipDistance="300" nodeId="23" materialIds="6" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="4" name="woodChipsHill" static="true" clipDistance="300" nodeId="24" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <TransformGroup name="warningStripes" nodeId="25">
+        <Shape shapeId="5" name="stripe" translation="0 -0.01 6.148" scale="1.20007 1 1" clipDistance="100" nodeId="26" materialIds="7" receiveShadows="true" decalLayer="1"/>
+      </TransformGroup>
+      <TransformGroup name="areas" nodeId="27">
+        <TransformGroup name="start" translation="-7 0 -7" nodeId="28">
+          <TransformGroup name="width" translation="14 0 0" nodeId="29"/>
+          <TransformGroup name="height" translation="0 0 14" nodeId="30"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="seasons" nodeId="31">
+        <TransformGroup name="start" translation="-3 0 4" nodeId="32">
+          <TransformGroup name="width" translation="6 0 0" nodeId="33"/>
+          <TransformGroup name="height" translation="0 0 5" nodeId="34"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="6" name="tipBlocker" visibility="false" static="true" collisionMask="524288" nodeId="35" materialIds="5" nonRenderable="true"/>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="15">
+      <Attribute name="mapPositionIndex" type="string" value="0|1"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

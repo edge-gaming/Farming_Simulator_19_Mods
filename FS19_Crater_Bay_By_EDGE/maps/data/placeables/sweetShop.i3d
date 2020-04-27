@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="sweetShopBuilding.blend" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="26" filename="$data/shaders/dashboardLightsShader.xml"/>
+    <File fileId="15" filename="../textures/gfx/awningSet_diffuse.png"/>
+    <File fileId="16" filename="../textures/gfx/awningSet_normal.png"/>
+    <File fileId="17" filename="../textures/gfx/awningSet_specular.png"/>
+    <File fileId="12" filename="../textures/gfx/bin2.dds"/>
+    <File fileId="9" filename="../textures/gfx/foldSign_diffuse.png"/>
+    <File fileId="10" filename="../textures/gfx/foldSign_normal.png"/>
+    <File fileId="11" filename="../textures/gfx/foldSign_specular.png"/>
+    <File fileId="20" filename="../textures/gfx/smallWallLight_diffuse.png"/>
+    <File fileId="21" filename="../textures/gfx/smallWallLight_normal.png"/>
+    <File fileId="22" filename="../textures/gfx/smallWallLight_specular.png"/>
+    <File fileId="5" filename="../textures/gfx/sweetDispenser_diffuse.png"/>
+    <File fileId="6" filename="../textures/gfx/sweetDispenser_normal.png"/>
+    <File fileId="7" filename="../textures/gfx/sweetDispenser_specular.png"/>
+    <File fileId="18" filename="../textures/gfx/sweetShopClosed_diffuse.dds"/>
+    <File fileId="19" filename="../textures/gfx/sweetShopClosed_specular.dds"/>
+    <File fileId="2" filename="../textures/gfx/sweetShopGreen.dds"/>
+    <File fileId="14" filename="../textures/gfx/sweetShopOpen_diffuse.dds"/>
+    <File fileId="13" filename="../textures/gfx/sweetShopOpen_specular.dds"/>
+    <File fileId="4" filename="../textures/gfx/sweetShopRoof.dds"/>
+    <File fileId="1" filename="../textures/gfx/sweetShopWall.dds"/>
+    <File fileId="24" filename="$data/maps/textures/shared/default_normal.dds"/>
+    <File fileId="27" filename="$data/maps/textures/shared/light_emissive.png"/>
+    <File fileId="23" filename="$data/maps/textures/shared/window02_diffuse.png"/>
+    <File fileId="25" filename="$data/maps/textures/shared/window02_specular.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="window02_mat" materialId="12" alphaBlending="true" customShaderId="26">
+      <Texture fileId="23"/>
+      <Normalmap fileId="24"/>
+      <Glossmap fileId="25"/>
+      <Custommap name="mEmissiveMap" fileId="27"/>
+      <CustomParameter name="lightControl" value="1 0 0 0"/>
+    </Material>
+    <Material name="sweetShopWall_mat" materialId="5">
+      <Texture fileId="1"/>
+    </Material>
+    <Material name="sweetShopClosed_mat" materialId="8">
+      <Texture fileId="18"/>
+      <Glossmap fileId="19"/>
+    </Material>
+    <Material name="smallWallLight_mat" materialId="11">
+      <Texture fileId="20"/>
+      <Normalmap fileId="21"/>
+      <Glossmap fileId="22"/>
+    </Material>
+    <Material name="sweetShopRoof_mat" materialId="4">
+      <Texture fileId="4"/>
+    </Material>
+    <Material name="awningSet_mat" materialId="7">
+      <Texture fileId="15"/>
+      <Normalmap fileId="16"/>
+      <Glossmap fileId="17"/>
+    </Material>
+    <Material name="lambert1" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="sweetShopGreen_mat" materialId="9" specularColor="0.494118 1 0.0941177">
+      <Texture fileId="2"/>
+    </Material>
+    <Material name="sweetShopOpen_mat" materialId="10">
+      <Glossmap fileId="13"/>
+      <Emissivemap fileId="14"/>
+    </Material>
+    <Material name="litterBin_mat" materialId="77">
+      <Texture fileId="12"/>
+    </Material>
+    <Material name="foldSign_mat" materialId="71">
+      <Texture fileId="9"/>
+      <Normalmap fileId="10"/>
+      <Glossmap fileId="11"/>
+    </Material>
+    <Material name="sweetDispenser_mat" materialId="65">
+      <Texture fileId="5"/>
+      <Normalmap fileId="6"/>
+      <Glossmap fileId="7"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="sweetShop.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="sweetShop" nodeId="26">
+      <TransformGroup name="building" nodeId="27">
+        <Shape shapeId="1" name="sweetShopWall" static="true" clipDistance="400" nodeId="28" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="2" name="sweetShopGreen" static="true" clipDistance="250" nodeId="29" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="3" name="sweetShopRoof" static="true" clipDistance="400" nodeId="30" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="deco" nodeId="83">
+          <Shape shapeId="4" name="sweetDispenser" translation="6.11758 1.19318 4.79379" clipDistance="65" nodeId="69" materialIds="65" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="5" name="coll" translation="-0.456078 0 0.141879" visibility="false" static="true" clipDistance="5" nodeId="70" materialIds="6" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+          <Shape shapeId="6" name="foldSign" translation="-2.11832 2.3942e-09 5.41608" rotation="9.97111e-07 -57.1656 -8.40759e-07" clipDistance="65" nodeId="75" materialIds="71" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="7" name="col" visibility="false" static="true" density="0.0001" nodeId="76" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+          <Shape shapeId="8" name="litterBin" translation="-5.55197 0 5.15136" rotation="0 3.31882 0" clipDistance="65" nodeId="81" materialIds="77" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="9" name="col" visibility="false" static="true" nodeId="82" materialIds="6" nonRenderable="true"/>
+          </Shape>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="shopFront" nodeId="31">
+        <TransformGroup name="open" rotation="-1.85909e-12 0 3.09849e-12" nodeId="32">
+          <Shape shapeId="10" name="sweetShopOpen" translation="0 -0.02 6.26" clipDistance="400" nodeId="33" materialIds="10" receiveShadows="true" decalLayer="2"/>
+          <Shape shapeId="11" name="awningUnfolded" translation="-3.363 2.82876 4.81042" rotation="1.73028e-05 0 0" scale="1.15 1 1" clipDistance="120" nodeId="34" materialIds="7" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="12" name="col" visibility="false" static="true" density="0.0001" nodeId="35" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+          <Shape shapeId="11" name="awningUnfolded" translation="-1.10284 2.82876 4.81042" rotation="1.73028e-05 0 0" scale="1.15 1 1" clipDistance="120" nodeId="36" materialIds="7" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="12" name="col" visibility="false" static="true" density="0.0001" nodeId="37" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+          <Shape shapeId="11" name="awningUnfolded" translation="1.14957 2.82876 4.81042" rotation="1.73028e-05 0 0" scale="1.15 1 1" clipDistance="120" nodeId="38" materialIds="7" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="12" name="col" visibility="false" static="true" density="0.0001" nodeId="39" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+          <Shape shapeId="11" name="awningUnfolded" translation="3.418 2.82876 4.81042" rotation="1.73028e-05 0 0" scale="1.15 1 1" clipDistance="120" nodeId="40" materialIds="7" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="12" name="col" visibility="false" static="true" density="0.0001" nodeId="41" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="closed" rotation="-1.85909e-12 0 3.09849e-12" visibility="false" nodeId="42">
+          <Shape shapeId="13" name="sweetShopClosed" translation="0 -0.02 6.26" clipDistance="400" nodeId="43" materialIds="8" receiveShadows="true" decalLayer="1"/>
+          <Shape shapeId="14" name="awningFolded" translation="-3.363 2.82876 4.811" rotation="-3.01699e-08 0 5.77316e-09" scale="1.15 1 1" clipDistance="70" nodeId="44" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="14" name="awningFolded" translation="-1.1026 2.82876 4.811" rotation="-3.01699e-08 0 5.77316e-09" scale="1.15 1 1" clipDistance="70" nodeId="45" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="14" name="awningFolded" translation="1.14969 2.82876 4.811" rotation="-3.01699e-08 0 5.77316e-09" scale="1.15 1 1" clipDistance="70" nodeId="46" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="14" name="awningFolded" translation="3.41958 2.82876 4.811" rotation="-3.01699e-08 0 5.77316e-09" scale="1.15 1 1" clipDistance="70" nodeId="47" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="lights" nodeId="48">
+        <Shape shapeId="15" name="smallWallLight" translation="7.35883 3.05262 3.55046" rotation="90 -0 90" clipDistance="155" nodeId="49" materialIds="11" castsShadows="true" receiveShadows="true">
+          <TransformGroup name="illum" nodeId="50">
+            <Shape shapeId="16" name="glass" clipDistance="40" nodeId="51" materialIds="12" castsShadows="true" receiveShadows="true"/>
+            <Light name="pointLight1" translation="0 0 0.258425" visibility="false" clipDistance="155" nodeId="52" type="point" color="1 0.95 0.9" emitDiffuse="true" emitSpecular="true" decayRate="1" range="5"/>
+          </TransformGroup>
+          <Shape shapeId="17" name="col" visibility="false" static="true" density="0.0001" nodeId="53" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+      </TransformGroup>
+      <TransformGroup name="areas" nodeId="54">
+        <TransformGroup name="start" translation="-7.5 0 -5" nodeId="55">
+          <TransformGroup name="width" translation="15 0 0" nodeId="56"/>
+          <TransformGroup name="height" translation="0 0 10" nodeId="57"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="seasons" nodeId="58">
+        <TransformGroup name="start" translation="-7.5 0 -5" nodeId="59">
+          <TransformGroup name="width" translation="15 0 0" nodeId="60"/>
+          <TransformGroup name="height" translation="0 0 10" nodeId="61"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="18" name="tipBlocker" visibility="false" static="true" collisionMask="524288" nodeId="62" materialIds="6" nonRenderable="true"/>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="32">
+      <Attribute name="onCreate" type="scriptCallback" value="SunAdmirer.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="42">
+      <Attribute name="onCreate" type="scriptCallback" value="Nightlight2.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="50">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>
