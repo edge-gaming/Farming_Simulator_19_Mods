@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="queenPalm" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="7" filename="queenPalm1LOD_diffuse.png"/>
+    <File fileId="8" filename="queenPalm1LOD_normal.png"/>
+    <File fileId="12" filename="queenPalm4LOD_diffuse.png"/>
+    <File fileId="13" filename="queenPalm4LOD_normal.png"/>
+    <File fileId="14" filename="queenPalm5LOD_diffuse.png"/>
+    <File fileId="15" filename="queenPalm5LOD_normal.png"/>
+    <File fileId="1" filename="queenPalmTrunk_diffuse.png"/>
+    <File fileId="2" filename="queenPalmTrunk_normal.png"/>
+    <File fileId="4" filename="queenPalm_diffuse.png"/>
+    <File fileId="5" filename="queenPalm_normal.png"/>
+    <File fileId="9" filename="$data/shaders/treeBillboardShader.xml"/>
+    <File fileId="6" filename="$data/shaders/treeBranchShader.xml"/>
+    <File fileId="3" filename="$data/shaders/treeTrunkShader.xml"/>
+    <File fileId="10" filename="queenPalm3LOD_diffuse.dds"/>
+    <File fileId="11" filename="queenPalm3LOD_normal.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="queenPalm_mat" materialId="4" customShaderId="6">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="queenPalm5LOD_mat" materialId="5" customShaderId="9" customShaderVariation="billboard180">
+      <Texture fileId="14"/>
+      <Normalmap fileId="15"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="queenPalm1LOD_mat" materialId="6" customShaderId="9" customShaderVariation="billboard180">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="queenPalm4LOD_mat" materialId="7" customShaderId="9" customShaderVariation="billboard180">
+      <Texture fileId="12"/>
+      <Normalmap fileId="13"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="queenPalm2LOD_mat" materialId="9" customShaderId="9" customShaderVariation="billboard180">
+      <Texture fileId="10"/>
+      <Normalmap fileId="11"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="queenPalmTrunk_mat" materialId="8" customShaderId="3">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="windScale" value="1 0 0 0"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="queen_palm.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Camera name="persp" translation="20 20 20" rotation="-45 45 0" visibility="false" nodeId="3" fov="60" nearClip="0.1" farClip="1000" orthographicHeight="1"/>
+    <TransformGroup name="queenPalm_stage1" clipDistance="200" nodeId="24" lodDistance="0 80">
+      <Shape shapeId="1" name="LOD0" translation="-9.9476e-16 0 0" static="true" collisionMask="16789538" angularDamping="0.15" rollingFriction="0.27" density="0.47" clipDistance="500" nodeId="25" materialIds="8" castsShadows="true" receiveShadows="true" splitType="1" splitUvs="0 0 1 0.06 1.8">
+        <Shape shapeId="2" name="attachments" clipDistance="500" nodeId="26" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="3" name="LOD1" translation="-9.9476e-16 0 0" clipDistance="1500" nodeId="27" materialIds="6" castsShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="queenPalm_stage2" rotation="0 -0 5" clipDistance="599" nodeId="28" lodDistance="0 120">
+      <Shape shapeId="4" name="LOD0" static="true" collisionMask="16789538" angularDamping="0.15" rollingFriction="0.27" density="0.47" clipDistance="500" nodeId="29" materialIds="8" castsShadows="true" receiveShadows="true" splitType="1" splitUvs="0 0 1 0.06 1.8">
+        <Shape shapeId="5" name="attachments" clipDistance="500" nodeId="30" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="6" name="LOD1" clipDistance="1500" nodeId="31" materialIds="9" castsShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="queenPalm_Stage3" rotation="0 -0 5" clipDistance="599" nodeId="32" lodDistance="0 120">
+      <Shape shapeId="4" name="LOD0" scale="1.5 1.5 1.5" static="true" collisionMask="16789538" angularDamping="0.15" rollingFriction="0.27" density="0.47" clipDistance="500" nodeId="33" materialIds="8" castsShadows="true" receiveShadows="true" splitType="1" splitUvs="0 0 1 0.06 1.8">
+        <Shape shapeId="5" name="attachments" clipDistance="500" nodeId="34" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="6" name="LOD1" scale="1.5 1.5 1.5" clipDistance="1500" nodeId="35" materialIds="9" castsShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="queenPalm_stage4" translation="0 8.95572e-06 0" rotation="2.44028e-05 -1.57147e-06 2.5" clipDistance="599" nodeId="36" lodDistance="0 120">
+      <Shape shapeId="7" name="LOD0" static="true" collisionMask="16789538" angularDamping="0.15" rollingFriction="0.27" density="0.47" clipDistance="500" nodeId="37" materialIds="8" castsShadows="true" receiveShadows="true" splitType="1" splitUvs="0 0 1 0.06 1.8">
+        <Shape shapeId="8" name="attachments" clipDistance="500" nodeId="38" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="9" name="LOD1" clipDistance="1500" nodeId="39" materialIds="7" castsShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="queenPalm_stage5" rotation="0 -0 2.5" clipDistance="599" nodeId="40" lodDistance="0 120">
+      <Shape shapeId="10" name="LOD0" static="true" collisionMask="16789538" angularDamping="0.15" rollingFriction="0.27" density="0.47" clipDistance="500" nodeId="41" materialIds="8" castsShadows="true" receiveShadows="true" splitType="1" splitUvs="0 0 1 0.06 1.8">
+        <Shape shapeId="11" name="attachments" clipDistance="500" nodeId="42" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="12" name="LOD1" clipDistance="1500" nodeId="43" materialIds="5" castsShadows="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>
