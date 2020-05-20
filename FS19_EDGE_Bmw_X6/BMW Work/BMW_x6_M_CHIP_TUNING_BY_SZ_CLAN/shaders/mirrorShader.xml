@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<CustomShader version="4">
+    <Parameters>
+        <Parameter name="reflectionScale"  target="reflectionScale" type="float" defaultValue ="2.0"/>
+    </Parameters>
+    <Textures>
+        <Texture name = "reflectionMaskMap" group="mask" defaultColorProfile = "linearRGB"/>
+    </Textures>
+    <VertexAttributes>
+        <VertexAttribute name="uv1" group="mask"/>
+    </VertexAttributes>
+    <Variations>
+        <Variation name="reflectionScaleMask" groups="mask">
+<![CDATA[
+    #define REFLECTION_SCALE_MASK_MASK
+]]>
+        </Variation>
+    </Variations>
+    <LodLevel startDistance="0">
+        <CodeInjections>
+            <CodeInjection position="MATERIALINFO">
+<![CDATA[
+    uniform float reflectionScale;
+]]>
+            </CodeInjection>
+            <CodeInjection position = "SAMPLERS">
+<![CDATA[
+#if defined( REFLECTION_SCALE_MASK )
+    sampler2D reflectionMaskMap;
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="VS_OUTPUT">
+<![CDATA[
+#if defined( REFLECTION_SCALE_MASK )
+    float2 glossMapTexCoords2 : TEXCOORDn;
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position = "POST_SET_TEXCOORDS_VS">
+<![CDATA[
+#if defined( REFLECTION_SCALE_MASK )
+    Out.glossMapTexCoords2 = convertDefaultTexCoords(In, In.texCoords1.xy);
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position = "GET_REFLECTION_COLOR_FS">
+<![CDATA[
+{
+    float3 res = oColor;
+    float3 reflectionColor = getReflectionColorTex(In, globals, normal, tangentSpaceNormal, viewDir, roughness, fresnelStrength)*reflectionFactor;
+#if defined( REFLECTION_SCALE_MASK )
+    res += reflectionColor;
+    float reflectionMask = reflectionScale*tex2D(reflectionMaskMap, In.vs.glossMapTexCoords2).x;
+    res = lerp(oColor,res,reflectionMask);
+#else
+    res += reflectionScale*reflectionColor;
+#endif
+    return res;
+}
+]]>
+            </CodeInjection>
+        </CodeInjections>
+    </LodLevel>
+</CustomShader>

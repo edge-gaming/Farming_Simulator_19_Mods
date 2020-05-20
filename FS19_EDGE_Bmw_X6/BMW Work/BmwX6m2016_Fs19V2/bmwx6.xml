@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="carFillable">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+    <storeData>
+        <name>
+            <en>Bmw X6M F86</en></name>
+        <specs>
+            <power>313</power>
+			<power>400</power>
+            <maxSpeed>320</maxSpeed>
+        </specs>
+        <functions>
+            <function>$l10n_function_car</function>
+        </functions>
+        <image>store.dds</image>
+        <price>90000</price>
+        <lifetime>600</lifetime>
+        <rotation>0</rotation>
+        <brand>BMW</brand>
+        <category>cars</category>
+        <shopTranslationOffset>0 0.04 0</shopTranslationOffset>
+        <shopRotationOffset>0 0 0</shopRotationOffset>
+        <vertexBufferMemoryUsage>1803844</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>433242</indexBufferMemoryUsage>
+        <textureMemoryUsage>15379440</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+    <base>
+        <typeDesc>$l10n_typeDesc_car</typeDesc>
+        <filename>x6m.i3d</filename>
+        <size width="3" length="6.5"/>
+        <components count="1">
+            <component centerOfMass="0 0.4 -0.24" solverIterationCount="15" mass="1800"/>
+        </components>
+        <schemaOverlay attacherJointPosition="0 0">
+            <default name="DEFAULT_VEHICLE"/>
+            <selected name="DEFAULT_VEHICLE_SELECTED"/>
+        </schemaOverlay>
+    </base>
+    <wheels>
+        <wheelConfigurations>
+            <wheelConfiguration name="$l10n_configuration_valueDefault" price="0">
+                <wheels autoRotateBackSpeed="2.5">
+                    <wheel filename="wheels/235_85R16.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                        <physics rotSpeed="1" restLoad="0.5" repr="axisFrontLeft" driveNode="wheelFrontLeft" radius="0.42" width="0.27" forcePointRatio="0.5" initialCompression="25" suspTravel="0.14" spring="18" damper="9" frictionScale="8"  maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2"/>
+                        <tire tireTrackAtlasIndex="1"/>
+                    </wheel>
+                    <wheel filename="wheels/235_85R16.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                        <physics rotSpeed="1" restLoad="0.5" repr="axisFrontRight" driveNode="wheelFrontRight" radius="0.42" width="0.27" forcePointRatio="0.5" initialCompression="25" suspTravel="0.14" spring="18" damper="9" frictionScale="8" maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2"/>
+                        <tire tireTrackAtlasIndex="1"/>
+                    </wheel>
+                    <wheel filename="wheels/235_85R16.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                        <physics rotSpeed="0" restLoad="0.7" repr="wheelBackLeft" radius="0.42" width="0.27" forcePointRatio="0.5" initialCompression="25" suspTravel="0.14" spring="28" damper="9" frictionScale="8" maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2"/>
+                        <tire tireTrackAtlasIndex="1"/>
+                    </wheel>
+                   <wheel filename="wheels/235_85R16.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                        <physics rotSpeed="0" restLoad="0.7" repr="wheelBackRight" radius="0.42" width="0.27" forcePointRatio="0.5" initialCompression="25" suspTravel="0.14" spring="28" damper="9" frictionScale="8" maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2"/>
+                        <tire tireTrackAtlasIndex="1"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+			<wheelConfiguration name="Off RoadTyres" price="500">
+                <wheels autoRotateBackSpeed="2.5">
+                    <wheel filename="wheels/235_85R17.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                        <physics rotSpeed="1" restLoad="0.5" repr="axisFrontLeft" driveNode="wheelFrontLeftoff" radius="0.42" width="0.27" forcePointRatio="0.5" initialCompression="25" suspTravel="0.14" spring="18" damper="9" frictionScale="8"  maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2"/>
+                        <tire tireTrackAtlasIndex="1"/>
+                    </wheel>
+                    <wheel filename="wheels/235_85R17.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                        <physics rotSpeed="1" restLoad="0.5" repr="axisFrontRight" driveNode="wheelFrontRightoff" radius="0.42" width="0.27" forcePointRatio="0.5" initialCompression="25" suspTravel="0.14" spring="18" damper="9" frictionScale="8" maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2"/>
+                        <tire tireTrackAtlasIndex="1"/>
+                    </wheel>
+                    <wheel filename="wheels/235_85R17.xml" isLeft="true" hasTireTracks="true" hasParticles="true" >
+                        <physics rotSpeed="0" restLoad="0.7" repr="wheelBackLeftoff" radius="0.42" width="0.27" forcePointRatio="0.5" initialCompression="25" suspTravel="0.14" spring="28" damper="9" frictionScale="8" maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2"/>
+                        <tire tireTrackAtlasIndex="1"/>
+                    </wheel>
+                   <wheel filename="wheels/235_85R17.xml" isLeft="false" hasTireTracks="true" hasParticles="true" >
+                        <physics rotSpeed="0" restLoad="0.7" repr="wheelBackRightoff" radius="0.42" width="0.27" forcePointRatio="0.5" initialCompression="25" suspTravel="0.14" spring="28" damper="9" frictionScale="8" maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2"/>
+                        <tire tireTrackAtlasIndex="1"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+        </wheelConfigurations>
+        <ackermannSteeringConfigurations>
+            <ackermannSteering rotSpeed="45" rotMax="45" rotCenterWheel1="3" rotCenterWheel2="4"/>
+        </ackermannSteeringConfigurations>
+    </wheels>
+    <lights>
+        <states>
+            <state lightTypes="0"/>
+            <state lightTypes="0 1"/>
+        </states>
+        <realLights>
+            <low>
+                <light node="frontLightLow" lightTypes="0"/>
+                <light node="highBeamLow" lightTypes="1"/>
+            </low>
+            <high>
+                <light node="frontLightHigh" lightTypes="0"/>
+                <light node="highBeamHigh" lightTypes="1"/>
+                <light node="backLightsHigh1" lightTypes="0 3"/>
+                <brakeLight node="backLightsHigh1"/>
+                <turnLightLeft node="turnLightLeftFront"/>
+                <turnLightLeft node="turnLightLeftBack"/>
+                <turnLightRight node="turnLightRightFront"/>
+                <turnLightRight node="turnLightRightBack"/>
+                <reverseLight node="reverseLight"/>
+            </high>
+        </realLights>
+        <defaultLights>
+            <defaultLight shaderNode="backlightsStatic" lightTypes="0 3"/>
+            <defaultLight shaderNode="frontLightStatic" lightTypes="1" intensity="6.3"/>
+			<defaultLight shaderNode="static_lights_dayTimerunning" lightTypes="0" />
+			
+			<defaultLight shaderNode="needleRPMRot" lightTypes="0 3" intensity="0.5" />
+			<defaultLight shaderNode="needleSpeedRot" lightTypes="0 3"  intensity="0.5"/>
+			<defaultLight shaderNode="needleTempRot" lightTypes="0 3" intensity="0.5"/>
+			<defaultLight shaderNode="needleFuelRot" lightTypes="0 3" intensity="0.5"/>
+        </defaultLights>
+        <brakeLights>
+            <brakeLight shaderNode="backlightsStatic"/>
+        </brakeLights>
+        <reverseLights>
+            <reverseLight shaderNode="reverseLightsStatic"/>
+        </reverseLights>
+        <turnLights>
+            <turnLightLeft shaderNode="turnlightLeftStatic" intensity="6.3"/>
+            <turnLightRight shaderNode="turnlightRightStatic" intensity="6.3"/>
+        </turnLights>
+        <sounds>
+            <switchLight template="SWITCH_01"/>
+            <turnLight template="SWITCH_TURNLIGHT"/>
+        </sounds>
+		<dashboards>
+            <dashboard displayType="EMITTER" valueType="lightState" node="dashLights" intensity="0.3" lightTypes="0" groups="MOTOR_ACTIVE"/>
+			<dashboard displayType="EMITTER" valueType="lightState" node="x6m_icons" intensity="0.3" lightTypes="0" groups="MOTOR_ACTIVE"/>
+        </dashboards>
+    </lights>
+    <enterable isTabbable="true">
+        <enterReferenceNode node="pickup2014_main_component1"/>
+        <exitPoint node="exitPoint"/>
+        <cameras count="2">
+            <camera node="outdoorCamera1" rotatable="true" rotateNode="outdoorCameraTarget" limit="true" useWorldXZRotation="true" rotMinX="-1.4" rotMaxX="1" transMin="4" transMax="40" translation="0 0 5.5" rotation="-17.5 180 0">
+                <raycastNode node="cameraRaycastNode1"/>
+                <raycastNode node="cameraRaycastNode2"/>
+            </camera>
+            <camera node="indoorCamera1" rotatable="true" limit="true" rotMinX="-1.1" rotMaxX="0.4" transMin="0" transMax="0" useMirror="true" isInside="true" positionSmoothingParameter="0" shadowFocusBox="shadowFocusBox"/>
+        </cameras>
+        <mirrors>
+            <mirror node="mirror01decal" prio="1"/>
+            <mirror node="mirror02decal" prio="1"/>
+            <mirror node="mirror03decal" prio="1"/>
+        </mirrors>
+        <characterNode node="player_skin" cameraMinDistance="1.5" spineRotation="-90 0 90">
+            <target ikChain="rightFoot" targetNode="player_rightFoot"/>
+            <target ikChain="leftFoot" targetNode="player_leftFoot"/>
+            <target ikChain="rightArm" targetNode="player_rightHand" poseId="wideFingers"/>
+            <target ikChain="leftArm" targetNode="player_leftHand" poseId="wideFingers"/>
+        </characterNode>
+        <characterTargetNodeModifier node="player_rightFoot" transitionTime="0.1">
+            <state node="player_rightFootGas" referenceNode="gasPedal"/>
+            <state node="player_rightFootBrake" referenceNode="brakePedal"/>
+        </characterTargetNodeModifier>
+    </enterable>
+    <attacherJoints>
+        <attacherJoint node="trailerAttacherJointBack" jointType="trailer" lowerRotLimit="10 70 50" upperRotationOffset="0" allowsJointLimitMovement="false" canTurnOnImplement="false" comboTime="1">
+            <schema position="1 0" rotation="0" invertX="false"/>
+            <attachSound template="ATTACH_01" linkNode="0>"/>
+        </attacherJoint>
+        <attacherJoint node="trailerAttacherJointBack" jointType="trailerLow" lowerRotLimit="10 70 50" upperRotationOffset="0" allowsJointLimitMovement="false" canTurnOnImplement="false" comboTime="1">
+            <schema position="1 0" rotation="0" invertX="false"/>
+            <attachSound template="ATTACH_01" linkNode="0>"/>
+        </attacherJoint>
+    </attacherJoints>
+    <connectionHoses>
+        <target attacherJointIndices="1 2" type="electric" node="electricBack" socket="electric"/>
+    </connectionHoses>
+    <drivable>
+        <sounds>
+            <waterSplash template="WATER_SPLASH_01"/>
+        </sounds>
+        <steeringWheel node="steeringWheel" indoorRotation="260" outdoorRotation="260"/>
+        <dashboards>
+            <dashboard displayType="ROT" valueType="accelerationAxis" node="gasPedal" minRot="0 0 0" maxRot="30 0 0" doInterpolation="true" groups="MOTOR_ACTIVE"/>
+            <dashboard displayType="ROT" valueType="decelerationAxis" node="brakePedal" minRot="0 0 0" maxRot="20 0 0" doInterpolation="true" groups="MOTOR_ACTIVE"/>
+        </dashboards>
+    </drivable>
+    <fillUnit>
+        <fillUnitConfigurations>
+            <fillUnitConfiguration>
+                <fillUnits>
+                    <fillUnit unit="$l10n_unit_literShort" showOnHud="false" showInShop="false" fillTypes="diesel" capacity="120">
+                    </fillUnit>
+                </fillUnits>
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+    </fillUnit>
+    <motorized>
+        <consumerConfigurations>
+            <consumerConfiguration>
+                <consumer fillUnitIndex="1" usage="30" fillType="diesel"/>
+                <!-- usage is per hour at max load and max rpm -->
+            </consumerConfiguration>
+        </consumerConfigurations>
+        <differentialConfigurations>
+            <differentialConfiguration>
+                <differentials>
+                    <differential torqueRatio="0.5" maxSpeedRatio="1.8" wheelIndex1="1" wheelIndex2="2" /> <!-- front left-right -->
+                    <differential torqueRatio="0.5" maxSpeedRatio="1.5" wheelIndex1="3" wheelIndex2="4" /> <!-- back left-right -->
+                    <differential torqueRatio="0.5" maxSpeedRatio="1.5" differentialIndex1="1" differentialIndex2="2" /> <!-- front-back -->
+                </differentials>
+            </differentialConfiguration>
+        </differentialConfigurations>
+
+        <motorConfigurations>
+            <motorConfiguration name="40_D" hp="313" price="0">
+                <motor torqueScale="2.6" minRpm="1000" maxRpm="6000" maxForwardSpeed="220" maxBackwardSpeed="45" brakeForce="5" lowBrakeForceScale="0.22">
+                    <torque rpm="1000" torque="0.9"/>
+                    <torque rpm="2400" torque="1"/>
+                    <torque rpm="3480" torque="1"/>
+                    <torque rpm="4560" torque="0.75"/>
+                    <torque rpm="5280" torque="0.63"/>
+                    <torque rpm="6000" torque="0.2"/>
+                </motor>
+                <transmission minForwardGearRatio="10" maxForwardGearRatio="24" minBackwardGearRatio="40" maxBackwardGearRatio="100" />
+            </motorConfiguration>
+			<motorConfiguration name="50_D TUNED" hp="400" price="1500"  dailyUpkeep="335" >
+                <motor torqueScale="8.5" minRpm="1000" maxRpm="18302" maxForwardSpeed="320" maxBackwardSpeed="45" brakeForce="6" lowBrakeForceScale="0.22" rotInertia="0.0015">
+                    <torque rpm="850" torque="0.9"/>
+                    <torque rpm="1000" torque="1"/>
+                    <torque rpm="1450" torque="1"/>
+                    <torque rpm="1900" torque="0.75"/>
+                    <torque rpm="2200" torque="0.63"/>
+                    <torque rpm="18302" torque="0.3"/>
+                </motor>
+               <transmission minForwardGearRatio="20" maxForwardGearRatio="53" minBackwardGearRatio="20" maxBackwardGearRatio="30" />
+            </motorConfiguration>
+        </motorConfigurations>
+        <exhaustEffects>
+            <exhaustEffect node="exhaustParticle" filename="$data/particleSystems/shared/exhaust.i3d" minRpmColor="0.9 0.9 0.9 0.1" maxRpmColor="0.9 0.9 0.9 0.4" minRpmScale="0.02" maxRpmScale="0.25"/>
+			<exhaustEffect node="exhaustParticle" filename="$data/particleSystems/shared/exhaust.i3d" minRpmColor="0.9 0.9 0.9 0.1" maxRpmColor="0.9 0.9 0.9 0.4" minRpmScale="0.02" maxRpmScale="0.25"/>
+        </exhaustEffects>
+		
+		<dashboards>
+            <dashboard displayType="ANIMATION" valueType="rpm"   animName="rpmDisplay"   minValueAnim="0" maxValueAnim="7000" groups="MOTOR_ACTIVE"/>
+            <dashboard displayType="ANIMATION" valueType="speed" animName="speedDisplay" minValueAnim="0" maxValueAnim="220"  groups="MOTOR_ACTIVE"/>
+            <dashboard displayType="ANIMATION" valueType="motorTemperature" animName="loadingBarTemperature" minValueAnim="0" maxValueAnim="120" groups="MOTOR_ACTIVE"/>
+          
+        </dashboards>
+		
+        <sounds externalSoundFile="sounds/Bmw_X6_2010/Bmw_X6_2010.xml"/>
+    </motorized>
+    
+    <cylindered>
+        <movingParts>
+            <movingPart node="steeringBarFrontLeft" referencePoint="steeringBarFrontLeftRef" referenceFrame="steeringBarFrontLeftRef" scaleZ="true" isActiveDirty="true"/>
+            <movingPart node="steeringBarFrontRight" referencePoint="steeringBarFrontRightRef" referenceFrame="steeringBarFrontRightRef" scaleZ="true" isActiveDirty="true"/>
+        </movingParts>
+    </cylindered>
+    <suspensions>
+        <suspension useCharacterTorso="true" weight="90" minRotation="0 -5 -5" maxRotation="0 5 5" suspensionParametersY="7 1" suspensionParametersZ="7 1"/>
+    </suspensions>
+	
+	<animations>
+        <animation name="rpmDisplay">
+            <part node="needleRPMRot" startTime="0" endTime="1" startRot="0 0 0" endRot="0 0 200" />
+        </animation>
+        <animation name="speedDisplay">
+            <part node="needleSpeedRot" startTime="0" endTime="1" startRot="0 0 0" endRot="0 0 210"/>
+        </animation>
+        <animation name="loadingBarTemperature">
+            <part node="needleTempRot" startTime="0" endTime="1" startRot="0 0 0" endRot="0 0 120"/>
+        </animation>
+        <animation name="loadingBarFuel">
+            <part node="needleFuelRot" startTime="0" endTime="1" startRot="0 0 105" endRot="0 0 0"/>
+        </animation>
+  
+    </animations> 
+	<dashboard>
+        <groups>
+            <group name="MOTOR_STARTING" isMotorStarting="true"/>
+            <group name="MOTOR_ACTIVE" isMotorStarting="true" isMotorRunning="true"/>
+        </groups>
+    </dashboard>
+	<baseMaterial>
+        <material name="material2" baseNode="x6bodyshape">
+            <shaderParameter name="colorMat0" value="SHARED_GREY2"/>
+        </material>
+    </baseMaterial>
+
+    <baseMaterialConfigurations price="1000" useDefaultColors="true" defaultColorIndex="1">
+	    <baseMaterialConfiguration name="New Silver"  color="SHARED_GREY2" material="28"/>
+		<baseMaterialConfiguration name="Scarlet Red"  color="CASEIH_RED1" material="28"/>
+		<baseMaterialConfiguration name="Pearl White"  color="STOLL_WHITE2" material="28"/>
+        <baseMaterialConfiguration name="Gun Metal"  color="SHARED_GREY5" material="28"/>
+		<baseMaterialConfiguration name="Blaze Orange"  color="FLIEGL_ORANGE1" material="32"/>
+		<baseMaterialConfiguration name="Nitro Blue"  color="NEWHOLLAND_BLUE1" material="28"/>
+		<baseMaterialConfiguration name="brown silver"  color="0.403 0.309 0.239" material="28"/>
+		<baseMaterialConfiguration name="GREEN3"  color="ZUNHAMMER_GREEN3" material="32"/>
+		<baseMaterialConfiguration name="OLIVE1"  color="URSUS_OLIVE1" material="27"/>
+		<baseMaterialConfiguration name="Black Chrome" color="SHARED_BLACK2" material="32" />
+		<baseMaterialConfiguration name="Chrome" color="SHARED_WHITE2" material="27"/>
+		<baseMaterialConfiguration name="Silver Metallic" color="ITRUNNER_WHITE1" material="27"/>
+		<baseMaterialConfiguration name="Blue Metallic" color="FLIEGL_BLUE1" material="27" />
+        <baseMaterialConfiguration name="Purple Metallic" color="LIZARD_PURPLE1" material="27" />
+        <baseMaterialConfiguration name="Orange Metallic" color="FIAT_ORANGEPAINT" material="27" />
+        <baseMaterialConfiguration name="Black Metallic" color="FIAT_BLACKPAINT"  material="27" />
+        <baseMaterialConfiguration name="Green Metallic" color="FIAT_GREENPAINT" material="27" />
+		<baseMaterialConfiguration name="Claas Monster Metallic" color="0.4 0.6 0.02 1.0" material="27"  />
+        <baseMaterialConfiguration name="Red Metallic" color="FLIEGL_RED1" material="27" />
+        <baseMaterialConfiguration name="Yellow Metallic" color="BEDNAR_YELLOW1" material="27" />
+        <baseMaterialConfiguration name="Brown Metallic" color="FLIEGL_BROWN1" material="27" />
+		<baseMaterialConfiguration name="Midnight Purple Metallic" color="0.001 0 0.015 1" material="27" />
+		<baseMaterialConfiguration name="Black Cherry Metallic" color="0.010 0 0 1" material="27" />
+		<baseMaterialConfiguration name="Pearl White" color="FIAT_WHITEPAINT" material="27" />
+        <baseMaterialConfiguration name="Stainless Steel" color="SHARED_WHITE2" material="35"/>
+		<baseMaterialConfiguration name="Exley Fav" color="0.041 0.245 0.223 1.0" material="27" />
+		<baseMaterialConfiguration name="Ice" color="0.455 0.855 1 1.0" material="32" />
+		<baseMaterialConfiguration name="Midnight Purple" color="0.001 0 0.015 1" material="32" />
+		<baseMaterialConfiguration name="Black Cherry" color="0.010 0 0 1" material="32" />
+		<baseMaterialConfiguration name="Claas" color="0.4 0.6 0.02 1.0" material="32" />
+        <baseMaterialConfiguration name="Claas Cat" color="0.800 0.443 0.008 1.0" material="32" />
+        <baseMaterialConfiguration name="Claas Monster" color="0.4 0.6 0.02 1.0" material="32"  />
+        <baseMaterialConfiguration name="KRONE YELLOW" color="KRONE_YELLOW1" material="32"/>
+        <baseMaterialConfiguration name="KRONE GREEN" color="KRONE_GREEN1" material="32"/>
+		<baseMaterialConfiguration name="STARA ORANGE" color="STARA_ORANGE" material="32"/>
+        <baseMaterialConfiguration name="STARA GREEN" color="STARA_GREEN" material="32"/>
+        <baseMaterialConfiguration name="BERGMANN GREEN" color="BERGMANN_GREEN1"/>
+        <baseMaterialConfiguration name="BERGMANN WHITE" color="ITRUNNER_WHITE1" material="32"/>
+		<baseMaterialConfiguration name="JOSKIN GREEN" color="JOSKIN_GREEN1"/>
+        <baseMaterialConfiguration name="JOSKIN YELLOW" color="JOSKIN_YELLOW1"/>
+		<baseMaterialConfiguration name="STRAUTMANN GREEN" color="STRAUTMANN_GREEN1"/>
+        <baseMaterialConfiguration name="STRAUTMANN RED" color="STRAUTMANN_RED1"/>
+		<baseMaterialConfiguration name="HAWE GREEN" color="0.0697 0.1541 0.0545 1"/>
+        <baseMaterialConfiguration name="HAWE GREY" color="0.0962 0.0962 0.0962 1"/>
+		<baseMaterialConfiguration name="TEBBE GREEN" color="0.0008 0.3685 0.1449 1"/>
+        <baseMaterialConfiguration name="TEBBE GREY" color="0.6940 0.6940 0.6940 1"/>
+		<baseMaterialConfiguration name="MENGELE RED" color="0.7372 0.0151 0.0265 1"/>
+        <baseMaterialConfiguration name="MENGELE BLUE" color="0.0759 0.3392 0.4205 1"/>
+		<baseMaterialConfiguration name="ANNABURGER RED" color="ANNABURGER_RED1"/>
+        <baseMaterialConfiguration name="ANNABURGER WHITE" color="ANNABURGER_WHITE1"/>
+		<baseMaterialConfiguration name="KAWECO GREEN" color="0.4 0.6 0.05 1"/>
+        <baseMaterialConfiguration name="KAWECO ORANGE" color="0.98 0.31 0.02 1"/>
+        <baseMaterialConfiguration name="KAWECO GREY" color="0.8671 0.7893 0.6253 1"/>
+		<baseMaterialConfiguration name="BRIRI GREEN" color="0.0461 0.0600 0.0414 1"/>
+		<baseMaterialConfiguration name="BRIRI GREY" color="0.4423 0.4423 0.4534 1"/>
+        <baseMaterialConfiguration name="VICON RED" color="VICON_RED1"/>		
+        <baseMaterialConfiguration name="VICON DARKBLUE" color="VICON_DARKBLUE"/>		
+        <baseMaterialConfiguration name="MAN BEIGE" color="MAN_BEIGECLASSIC"/>		
+        <baseMaterialConfiguration name="MAN OLDGREEN" color="MAN_OLDGREEN"/>		
+        <baseMaterialConfiguration name="MAN BLUE" color="MAN_BLUE6"/>
+        <material name="material2" shaderParameter="colorMat0" />
+    </baseMaterialConfigurations>
+	
+    <ai>
+        <collisionTrigger node="aiCollisionTrigger"/>
+    </ai>
+    <honk>
+        <sound template="HONK_JD8400R"/>
+    </honk>
+    <foliageBending>
+        <bendingNode minX="-1.15" maxX="1.15" minZ="-2.8" maxZ="2.8" yOffset="0.05"/>
+    </foliageBending>
+    <dischargeable requiresTipOcclusionArea="false"/>
+    <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
+    <washable dirtDuration="90" washDuration="1" workMultiplier="3" fieldMultiplier="2"/>
+    <i3dMappings>
+        <i3dMapping id="pickup2014_main_component1" node="0>"/>
+        <i3dMapping id="pickup2014_vis" node="0>0"/>
+		<i3dMapping id="x6bodyshape" node="0>0|15|0"/>
+        <i3dMapping id="wheels" node="0>0|0"/>
+		<i3dMapping id="dashLights" node="0>0|9|7" />
+        <i3dMapping id="axisFrontLeft" node="0>0|0|0|0"/>
+        <i3dMapping id="wheelFrontLeft" node="0>0|0|0|0|0"/>
+        <i3dMapping id="steeringBarFrontLeft" node="0>0|0|0|0|1"/>
+        <i3dMapping id="axisFrontRight" node="0>0|0|1|0"/>
+        <i3dMapping id="wheelFrontRight" node="0>0|0|1|0|0"/>
+        <i3dMapping id="steeringBarFrontRight" node="0>0|0|1|0|1"/>
+        <i3dMapping id="wheelBackLeft" node="0>0|0|2"/>
+        <i3dMapping id="wheelBackRight" node="0>0|0|3"/>
+        <i3dMapping id="steeringBarFrontRightRef" node="0>0|0|4"/>
+        <i3dMapping id="steeringBarFrontLeftRef" node="0>0|0|5"/>
+        <i3dMapping id="frontLightLow" node="0>0|1|0"/>
+        <i3dMapping id="highBeamLow" node="0>0|1|1"/>
+        <i3dMapping id="frontLightHigh" node="0>0|1|2"/>
+        <i3dMapping id="highBeamHigh" node="0>0|1|3"/>
+        <i3dMapping id="backLightsHigh1" node="0>0|1|4"/>
+        <i3dMapping id="turnLightLeftFront" node="0>0|1|5"/>
+        <i3dMapping id="turnLightLeftBack" node="0>0|1|6"/>
+        <i3dMapping id="turnLightRightFront" node="0>0|1|7"/>
+        <i3dMapping id="turnLightRightBack" node="0>0|1|8"/>
+        <i3dMapping id="reverseLight" node="0>0|1|9"/>
+        <i3dMapping id="frontLightStatic" node="0>0|1|10|0"/>
+        <i3dMapping id="backlightsStatic" node="0>0|1|10|1"/>
+        <i3dMapping id="reverseLightsStatic" node="0>0|1|10|2"/>
+        <i3dMapping id="turnlightLeftStatic" node="0>0|1|10|4"/>
+        <i3dMapping id="turnlightRightStatic" node="0>0|1|10|5"/>
+        <i3dMapping id="outdoorCameraTarget" node="0>0|2|0"/>
+        <i3dMapping id="outdoorCamera1" node="0>0|2|0|0"/>
+        <i3dMapping id="indoorCamera1" node="0>0|2|1"/>
+        <i3dMapping id="cameraRaycastNode1" node="0>0|2|2"/>
+        <i3dMapping id="cameraRaycastNode2" node="0>0|2|3"/>
+        <i3dMapping id="cameraRaycastNode3" node="0>0|2|4"/>
+        <i3dMapping id="shadowFocusBox" node="0>0|2|5"/>
+        <i3dMapping id="player_skin" node="0>0|3|0"/>
+        <i3dMapping id="player_rightFoot" node="0>0|3|1"/>
+        <i3dMapping id="player_leftFoot" node="0>0|3|2"/>
+        <i3dMapping id="exitPoint" node="0>0|4"/>
+        <i3dMapping id="trailerAttacherJointBack" node="0>0|5"/>
+        <i3dMapping id="electricBack" node="0>0|6"/>
+        <i3dMapping id="steeringWheel" node="0>0|7|0"/>
+		<i3dMapping id="player_rightHand" node="0>0|3|3"/>
+        <i3dMapping id="player_leftHand" node="0>0|7|0|0"/>
+        <i3dMapping id="exhaustParticle" node="0>0|8|0"/>
+		<i3dMapping id="exhaustParticle" node="0>0|8|1"/>
+        <i3dMapping id="gasPedal" node="0>0|9|0"/>
+        <i3dMapping id="player_rightFootGas" node="0>0|9|0|0"/>
+		<i3dMapping id="static_lights_dayTimerunning" node="0>0|1|10|6" />
+        <i3dMapping id="brakePedal" node="0>0|9|1"/>
+        <i3dMapping id="player_rightFootBrake" node="0>0|9|1|0"/>
+        <i3dMapping id="aiCollisionTrigger" node="0>0|12|0"/>
+        <i3dMapping id="mirror01decal" node="0>0|13|0"/>
+        <i3dMapping id="mirror02decal" node="0>0|13|1"/>
+        <i3dMapping id="mirror03decal" node="0>0|13|2"/>
+		<i3dMapping id="indoorHud" node="0>0|9" />
+		<i3dMapping id="needleRPM" node="0>0|9|3" />
+        <i3dMapping id="needleRPMRot" node="0>0|9|3|0" />
+        <i3dMapping id="needleSpeed" node="0>0|9|4" />
+        <i3dMapping id="needleSpeedRot" node="0>0|9|4|0" />
+        <i3dMapping id="needleTemp" node="0>0|9|5" />
+        <i3dMapping id="needleTempRot" node="0>0|9|5|0" />
+        <i3dMapping id="needleFuel" node="0>0|9|6" />
+        <i3dMapping id="needleFuelRot" node="0>0|9|6|0" />
+		<i3dMapping id="wheelFrontLeftoff" node="0>0|0|0|0|3"/>
+		<i3dMapping id="wheelFrontRightoff" node="0>0|0|1|0|3"/>
+		<i3dMapping id="wheelBackLeftoff" node="0>0|0|6"/>
+		<i3dMapping id="wheelBackRightoff" node="0>0|0|7"/>
+		<i3dMapping id="x6m_icons" node="0>0|15|1"/>
+    </i3dMappings>
+</vehicle>

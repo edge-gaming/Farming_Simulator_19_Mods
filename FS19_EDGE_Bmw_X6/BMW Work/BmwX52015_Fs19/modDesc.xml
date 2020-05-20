@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="40">
+    <author>Edward`s Modding,zzzhanterzzz</author>
+    <version>1.1</version>
+	<title>
+        <en>Bmw X5m</en>
+    </title>
+    <description>
+        <en>
+            <![CDATA[Bmw x5m]]>
+        </en>
+        <de>
+            <![CDATA[Bmw x5m]]>
+        </de>
+    </description>
+    <iconFilename>store.dds</iconFilename>
+	<multiplayer supported="true" />
+    <storeItems>
+        <storeItem rootNode="vehicle" xmlFilename="bmwx5.xml"/>
+    </storeItems>
+</modDesc>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Wood container" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="5" filename="data/containerWood_diffuse.dds"/>
+    <File fileId="4" filename="data/containerWood_normal.png"/>
+    <File fileId="3" filename="data/containerWood_specular.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="containerWood_mat" materialId="5" diffuseColor="0.498039 0.498039 0.498039 1" specularColor="1 1 1" customShaderId="2" customShaderVariation="colorMask">
+      <Texture fileId="5"/>
+      <Normalmap fileId="4"/>
+      <Glossmap fileId="3"/>
+	  <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.905 0.905 0.905 0"/>
+      <CustomParameter name="colorMat1" value="0.402 0.024 0.024 0"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="lambert1" materialId="4" diffuseColor="0.498039 0.498039 0.498039 1" customShaderId="2">
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="containerWood.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="containerWood_main_component1" dynamic="true" compound="true" collisionMask="8194" clipDistance="300" objectMask="65535" nodeId="18" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+      <TransformGroup name="wheelLeft" translation="0.916431 0.089944 -3.26524" nodeId="19"/>
+      <TransformGroup name="wheelRight" translation="-0.916431 0.089944 -3.26524" nodeId="20"/>
+      <TransformGroup name="attacherJoint" translation="0 1.6372 4.09314" rotation="0 90 0" nodeId="21"/>
+      <TransformGroup name="tensionBelts" nodeId="22">
+        <TransformGroup name="jointNode" nodeId="23"/>
+        <TransformGroup name="startPoint01" translation="1.26151 0.388 1.40215" rotation="0 -90 0" nodeId="24">
+          <TransformGroup name="startPoint01End" translation="0 3.15544e-32 2.521" nodeId="25"/>
+        </TransformGroup>
+        <TransformGroup name="startPoint02" translation="1.26151 0.388 -0.943449" rotation="0 -90 0" nodeId="26">
+          <TransformGroup name="startPoint02End" translation="0 3.15544e-32 2.521" nodeId="27"/>
+        </TransformGroup>
+        <Shape shapeId="2" name="beltActivationTrigger" translation="0 1.97519 -2.0348" visibility="false" kinematic="true" trigger="true" collisionMask="1048576" nodeId="28" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </TransformGroup>
+      <Shape shapeId="3" name="container_vis" nodeId="29" materialIds="5" castsShadows="true" receiveShadows="true" skinBindNodeIds="29 19 20"/>
+      <Shape shapeId="4" name="colPart1" translation="1.19539 0.462689 2.5768" visibility="false" compoundChild="true" collisionMask="8194" linearDamping="0.5" angularDamping="0.5" density="0.1" nodeId="30" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="5" name="colPart2" translation="1.19539 0.462689 0.227352" visibility="false" compoundChild="true" collisionMask="8194" linearDamping="0.5" angularDamping="0.5" density="0.1" nodeId="31" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="4" name="colPart3" translation="1.19539 0.462689 -2.11005" visibility="false" compoundChild="true" collisionMask="8194" linearDamping="0.5" angularDamping="0.5" density="0.1" nodeId="32" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="4" name="colPart4" translation="-1.19134 0.462689 -2.11005" visibility="false" compoundChild="true" collisionMask="8194" linearDamping="0.5" angularDamping="0.5" density="0.1" nodeId="33" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="5" name="colPart5" translation="-1.19134 0.462689 0.227352" visibility="false" compoundChild="true" collisionMask="8194" linearDamping="0.5" angularDamping="0.5" density="0.1" nodeId="34" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="4" name="colPart6" translation="-1.19134 0.462689 2.5768" visibility="false" compoundChild="true" collisionMask="8194" linearDamping="0.5" angularDamping="0.5" density="0.1" nodeId="35" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="6" name="colPart" translation="0 1.14231 3.86551" visibility="false" compoundChild="true" collisionMask="8194" linearDamping="0.5" angularDamping="0.5" density="0.1" nodeId="36" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="7" name="colBottom" visibility="false" compoundChild="true" collisionMask="8194" linearDamping="0.5" angularDamping="0.5" density="0.1" nodeId="37" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+    </Shape>
+  </Scene>
+
+</i3D>

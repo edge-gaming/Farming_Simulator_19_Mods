@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="46">
+    <author>5nine / EDGE Gaming</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Warrior EDGE Edition</en>
+    </title>
+    <description>
+<en>
+<![CDATA[Lizard Warrior++
+Price: 142.000 €
+Power: 460-590 hp
+Top speed: 110km/h
+
+Variations:
+- 4 different semis
+- Flat bed
+- Log bed
+- Hooklift
+- Multiple design options
+
+Changelog 1.0.0.1
+- Added single axle chassi
+- Added fasterlift compatible chassi
+- Added sleeper chassi
+- Added hooklift chassi
+- Added better rear attacher
+- Fixed shop title on some fender
+- Fixed colour picker structure
+]]>
+</en>
+<de>
+<![CDATA[Lizard Warrior++
+Preis: 142.000 €
+Leistung: 460-590 PS
+Höchstgeschwindigkeit: 110km/h
+
+Konfigurationen:
+- 4 unterschiedliche Sattelauflieger
+- Flachbett
+- Plattform mit Rungen für Holztransport
+- Hakenlift Aufbau
+- Mehrere Design Optionen
+
+Changelog 1.0.0.1
+- Zweiachschassis hinzugefügt
+- Fasterlift kompatibles Chassis hinzugefügt
+- Schlafkabine hinzugefügt
+- Hakenlift hinzugefügt
+- Bessere Anhängerkupplung hinzugefügt
+- Shop Beschreibung einiger Kotflügel gefixt
+]]>
+</de>
+    </description>
+    <iconFilename>icon.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <storeItems>
+        <storeItem xmlFilename="truckS.xml"/>
+    </storeItems>
+    <vehicleTypes>
+        <type name="hookLiftTruck" parent="baseDrivable" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="foldable"/>
+            <specialization name="hookLiftTrailer"/>
+            <specialization name="powerConsumer"/>
+        </type>
+    </vehicleTypes>
+    <brands>
+        <brand name="EDGE" title="EDGE Industries" image="store/EDGE_Brand_Logo.dds"/>
+    </brands>
+    <l10n>
+        <text name="configuration_rim1_lowered">
+            <en>Rim 1, lowered</en>
+            <de>Felge 1, Tiefergelegt</de>
+        </text>
+        <text name="configuration_rim2_lowered">
+            <en>Rim 2, lowered</en>
+            <de>Felge 2, Tiefergelegt</de>
+        </text>
+        <text name="configuration_rim1_higher">
+            <en>Rim 1, higher and softer</en>
+            <de>Felge 1, Höher und Weicher</de>
+        </text>
+        <text name="configuration_rim2_higher">
+            <en>Rim 2, higher and softer</en>
+            <de>Felge 2, Höher und Weicher</de>
+        </text>
+       <text name="configuration_no">
+            <en>No</en>
+            <de>Nein</de>
+        </text>
+       <text name="configuration_yes">
+            <en>Yes</en>
+            <de>Ja</de>
+        </text>
+       <text name="configuration_bumper">
+            <en>Bumper</en>
+            <de>Stoßstange</de>
+        </text>
+       <text name="configuration_type1">
+            <en>Type 1</en>
+            <de>Variante 1</de>
+        </text>
+		<text name="configuration_type2">
+            <en>Type 2</en>
+            <de>Variante 2</de>
+        </text>
+		<text name="configuration_type3">
+            <en>Type 3</en>
+            <de>Variante 3</de>
+        </text>
+		<text name="configuration_exhaust_windows">
+            <en>Exhaust and windows</en>
+            <de>Auspuff und fenster</de>
+        </text>
+		<text name="configuration_exhaust_1_no_tint">
+            <en>Exhaust 1, normal windows</en>
+            <de>Auspuff 1, normale Fenster</de>
+        </text>
+		<text name="configuration_exhaust_2_no_tint">
+            <en>Exhaust 2, normal windows</en>
+            <de>Auspuff 2, normale Fenster</de>
+        </text>
+		<text name="configuration_exhaust_1_tint">
+            <en>Exhaust 1, tinted windows</en>
+            <de>Auspuff 1, Getönte Scheiben</de>
+        </text>
+		<text name="configuration_exhaust_2_tint">
+            <en>Exhaust 2, tinted windows</en>
+            <de>Auspuff 2, Getönte Scheiben</de>
+        </text>
+		<text name="configuration_semi_short">
+            <en>Semi (short)</en>
+            <de>Semi (kurz)</de>
+        </text>
+        <text name="configuration_semi_single">
+            <en>Semi (single axle)</en>
+            <de>Semi (einachsig)</de>
+        </text>
+        <text name="configuration_semi_single_FL">
+            <en>Semi (Fasterlift)</en>
+            <de>Semi (Fasterlift)</de>
+        </text>
+        <text name="configuration_semi_normal">
+            <en>Semi (normal)</en>
+            <de>Semi (normal)</de>
+        </text>
+		<text name="configuration_semi_long">
+            <en>Semi (long)</en>
+            <de>Semi (lang)</de>
+        </text>
+		<text name="configuration_flatbed">
+            <en>Flat bed</en>
+            <de>Flache Auflage</de>
+        </text>
+		<text name="configuration_logbed">
+            <en>Log bed</en>
+            <de>Stammholz Aufbau</de>
+        </text>
+        <text name="configuration_hooklift">
+            <en>Hooklift</en>
+            <de>Hakenlift</de>
+        </text>
+        <text name="configuration_hooklift2">
+            <en>Hooklift (2 axles)</en>
+            <de>Hakenlift (2 Achsen)</de>
+        </text>
+        <text name="configuration_semi_sleeper">
+            <en>Semi (sleeper)</en>
+            <de>Semi (Schlafkabine)</de>
+        </text>
+        <text name="configuration_semi_sleeper_long">
+            <en>Semi (sleeper long)</en>
+            <de>Semi (Schlafkabine lang)</de>
+        </text>
+        <text name="configuration_fenders">
+            <en>Fenders</en>
+            <de>Kotflügel</de>
+        </text>
+		<text name="configuration_covered_paint">
+            <en>Covered (paint)</en>
+            <de>Abgedeckt (Hauptfarbe)</de>
+        </text>
+		<text name="configuration_covered_design">
+            <en>Covered (design)</en>
+            <de>Abgedeckt (Designfarbe)</de>
+        </text>
+		<text name="configuration_half_paint">
+            <en>Half (paint)</en>
+            <de>Halb (Hauptfarbe)</de>
+        </text>
+		<text name="configuration_half_design">
+            <en>Half (design)</en>
+            <de>Halb (Designfarbe)</de>
+        </text>
+		<text name="configuration_long_paint">
+            <en>Long (paint)</en>
+            <de>Lang (Hauptfarbe)</de>
+        </text>
+		<text name="configuration_long_design">
+            <en>Long (design)</en>
+            <de>Lang (Designfarbe)</de>
+        </text>
+        <text name="configuration_mudflaps">
+            <en>Mudflaps</en>
+            <de>Schmutzfänger</de>
+        </text>
+        <text name="configuration_nofenders">
+            <en>None</en>
+            <de>Keiner</de>
+        </text>
+		<text name="configuration_warrior_standard">configuration_EDGE_Edition
+            <en>Warrior++ 460 hp</en>
+            <de>Warrior++ 460 PS</de>
+        </text>
+		<text name="configuration_EDGE_Edition">
+            <en>Warrior EDGE Edition</en>
+            <de>Warrior EDGE Editon</de>
+        </text>
+		<text name="configuration_warrior_tuned">
+            <en>Warrior++ 590 hp</en>
+            <de>Warrior++ 590 PS</de>
+		</text>
+        <text name="function_hookLift">
+            <en>Hooklift trailers can lift and transport several different kinds of containers.</en>
+            <de>Hakenliftanhänger können verschiedene Container aufsatteln.</de>
+            <fr>Les remorques avec bras de levage peuvent soulever et transporter différents types de bennes.</fr>
+            <it>I camion ribaltabili possono sollevare e trasportare diversi tipi di container.</it>
+            <es>Los camiones con grúa pueden levantar y transportar varios tipos de contenedores.</es>
+            <pt>Os atrelados de gancho elevatório conseguem levantar e transportar vários tipos de contentores</pt>
+            <br>O reboque com gancho de elevação pode erguer e transportar vários tipos de contêiner.</br>
+            <nl>Haakarmtrailers kunnen verschillende soorten containers optillen en transporteren.</nl>
+            <pl>Hakowce służą do podnoszenia i transportu różnych rodzajów kontenerów.</pl>
+            <cz>Vlečky s hákovým nakladačem mohou zvedat a přepravovat různé druhy kontejnerů.</cz>
+            <hu>A kampós emelők számos különféle típusú konténert képesek szállítani.</hu>
+            <ro>Remorcile cu cârlig pot ridica și transporta diferite tipuri de containere.</ro>
+            <ru>Крюковые погрузчики поднимают и перевозят разные типы контейнеров.</ru>
+            <tr>Kancalı lift römorkları çeşitli konteynerleri kaldırabilir ve taşıyabilir.</tr>
+            <kr>훅리프트 트레일러는 여러 종류의 컨테이너를 들어올려서 수송할 수 있습니다.</kr>
+            <jp>フックリフト トレイラーは様々なタイプのコンテナを持ち上げ、運搬できます。</jp>
+            <cs>吊钩拖车能吊起与运输数种不同的集装箱</cs>
+            <ct>吊鉤拖車可以吊起與運送數種不同類型的集裝箱</ct>
+        </text>
+        <text name="function_hookLiftContainer">
+            <en>Containers can only be lifted and transported by a hooklift trailer and they can be filled with different fruit types.</en>
+            <de>Container können auf einen Hakenliftanhänger aufgesattelt werden und mit verschiedenen Materialien beladen werden.</de>
+            <fr>Les bennes ne peuvent être soulevées et transportées que par une remorque avec bras de levage et peuvent contenir différents types de cultures.</fr>
+            <it>I container possono essere sollevati e trasportati solo da un camion ribaltabile e possono essere riempiti con diversi tipi di prodotto.</it>
+            <es>Los camiones con grúa pueden levantar y transportar los contenedores, que pueden llenarse con varios tipos de producto.</es>
+            <pt>Os contentores apenas podem ser erguidos e transportados por um atrelado de gancho elevatório e podem ser enchidos com diferentes tipos de produtos</pt>
+            <br>O contêiner apenas pode ser erguido e transportado por um reboque com gancho de elevação e pode ser carregado com diferentes tipos de produtos.</br>
+            <nl>Containers kunnen alleen door een haakarmtrailer worden opgetild en getransporteerd en ze kunnen met verschillende fruittypes worden gevuld.</nl>
+            <pl>Kontenery można załadować różnymi rodzajami roślin. Tylko hakowiec może podnosić i transportować kontenery.</pl>
+            <cz>Kontejnery lze plnit různými druhy plodin a může je zvedat a přepravovat pouze vlečka s hákovým nakladačem.</cz>
+            <hu>A konténereket csak kampós emelős pótkocsival lehet felemelni és szállítani. Ezeket különféle gyümölcsökkel tölthetjük fel.</hu>
+            <ro>Containerele pot fi ridicate și transportate doar cu ajutorul unei remorci cu cârlig și pot fi încărcate cu diferite tipuri de recoltă.</ro>
+            <ru>Контейнеры заполняются различными видами культур. Только крюковой погрузчик может поднимать и перевозить контейнеры.</ru>
+            <tr>Konteynerler yalnızca bir kancalı lift ile kaldırılıp taşınabilir ayrıca çeşitli meyve türleriyle doldurulabilir.</tr>
+            <kr>컨테이너는 훅리프트로만 들어 올려서 수송할 수 있으며 여러 종류의 작물 유형을 실을 수 있습니다.</kr>
+            <jp>フックリフトは唯一コンテナを持ち上げ、運搬できます。コンテナには様々な作物を入れることができます。</jp>
+            <cs>集装箱只能被吊钩拖车吊起与运输並且装填不同水果类型</cs>
+            <ct>集裝箱只能被吊勾托車吊起與輸送以及裝運不同作物類型</ct>
+        </text>
+        <text name="load_container">
+            <en>Load container</en>
+            <de>Container aufladen</de>
+            <fr>Charger la benne</fr>
+            <it>Carica container</it>
+            <es>Cargar contenedor</es>
+            <pt>Carregar contentor</pt>
+            <br>Carregar contêiner</br>
+            <nl>Container laden</nl>
+            <pl>Załaduj kontener</pl>
+            <cz>Naložit kontejner</cz>
+            <hu>Konténer felrakása</hu>
+            <ro>Încarcă containerul</ro>
+            <ru>Загрузить контейнер</ru>
+            <tr>Konteyner yükle</tr>
+            <kr>컨테이너 싣기</kr>
+            <jp>コンテナを積む</jp>
+            <cs>装载集装箱</cs>
+            <ct>裝載集裝箱</ct>
+        </text>
+        <text name="unload_container">
+            <en>Drop off container</en>
+            <de>Container absetzen</de>
+            <fr>Déposer la benne</fr>
+            <it>Scarica container</it>
+            <es>Soltar contenedor</es>
+            <pt>Depositar contentor</pt>
+            <br>Descarregar contêiner</br>
+            <nl>Container lossen</nl>
+            <pl>Wyładuj kontener</pl>
+            <cz>Složit kontejner</cz>
+            <hu>Konténer lerakása</hu>
+            <ro>Descarcă containerul</ro>
+            <ru>Выгрузить контейнер</ru>
+            <tr>Konteyneri bırak</tr>
+            <kr>컨테이너 내리기</kr>
+            <jp>コンテナを降ろす</jp>
+            <cs>卸下集装箱</cs>
+            <ct>卸下集裝箱</ct>
+        </text>
+        <text name="load_arm">
+            <en>Retract arm</en>
+            <de>Arm anheben</de>
+            <fr>Plier le bras de levage</fr>
+            <it>Ritrai braccio</it>
+            <es>Retirar brazo</es>
+            <pt>Retrair braço</pt>
+            <br>Retrair braço</br>
+            <nl>Arm intrekken</nl>
+            <pl>Wsunąć ramię</pl>
+            <cz>Zatáhnout rameno</cz>
+            <hu>Kar behúzása</hu>
+            <ro>Retrage brațul</ro>
+            <ru>Убрать стрелу</ru>
+            <tr>Kolu geriye çek</tr>
+            <kr>암 접기</kr>
+            <jp>アームをしまう</jp>
+            <cs>撤回吊臂</cs>
+            <ct>收回吊臂</ct>
+        </text>
+        <text name="unload_arm">
+            <en>Extend arm</en>
+            <de>Arm senken</de>
+            <fr>Déployer le bras de levage</fr>
+            <it>Estendi braccio</it>
+            <es>Extender brazo</es>
+            <pt>Estender braço</pt>
+            <br>Estender braço</br>
+            <nl>Arm verlengen</nl>
+            <pl>Wysunąć ramię</pl>
+            <cz>Vytáhnout rameno</cz>
+            <hu>Kar kinyújtása</hu>
+            <ro>Întinde brațul</ro>
+            <ru>Выдвинуть стрелу</ru>
+            <tr>Kolu uzat</tr>
+            <kr>암 펼치기</kr>
+            <jp>アームを伸ばす</jp>
+            <cs>伸展吊臂</cs>
+            <ct>伸長吊臂</ct>
+        </text>
+    </l10n>
+</modDesc>

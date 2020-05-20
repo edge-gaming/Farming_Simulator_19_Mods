@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="$l10n_name_PlateEDGE" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="textures/GridEDGE00_normal.dds"/>
+    <File fileId="3" filename="textures/GridEDGE00_specular.dds"/>
+    <File fileId="1" filename="textures/GridEDGE01_diffuse.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="EDGE_Plate_mat" materialId="25">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2" bumpDepth="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="EDGE_Foundation_mat" materialId="24">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="PlateGridMetal01.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="EDGE_Plate" static="true" restitution="0.1" staticFriction="0.05" dynamicFriction="0.05" clipDistance="500" nodeId="31" materialIds="25" castsShadows="true" receiveShadows="true">
+      <Shape shapeId="2" name="Metal_Deco" static="true" restitution="0.1" staticFriction="0.6" dynamicFriction="0.7" density="1.6" clipDistance="500" nodeId="48" materialIds="24" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="areaDefinitions" nodeId="35">
+        <TransformGroup name="snowAreas" nodeId="36">
+          <TransformGroup name="start1" translation="5 0 -5" nodeId="37">
+            <TransformGroup name="width" translation="-10 0 0" nodeId="38"/>
+            <TransformGroup name="height" translation="0 0 10" nodeId="39"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="clearAreas" nodeId="40">
+          <TransformGroup name="start1" translation="5 0 -5" nodeId="41">
+            <TransformGroup name="width" translation="-10 0 0" nodeId="42"/>
+            <TransformGroup name="height" translation="0 0 10" nodeId="43"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="levelingAreas" nodeId="44">
+          <TransformGroup name="start1" translation="4 -0.25 -4" nodeId="45">
+            <TransformGroup name="width" translation="-8 0 0" nodeId="46"/>
+            <TransformGroup name="height" translation="0 0 8" nodeId="47"/>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+    </Shape>
+  </Scene>
+
+</i3D>

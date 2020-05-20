@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <!-- 
+        Please contribute any other translations at 
+        https://github.com/DeckerMMIV/FarmSim_Mod_VehicleGroupsSwitcher
+    -->
+
+    <!-- Add your own name or nickname here, when you contribute to this file's translation, so I know who to put into the credits. -->
+    <translationContributors>
+        Dzi4d3k
+    </translationContributors>
+
+    <!-- Note that 'description' is only here for easier translations. I will manually copy it to ModDesc.XML later. -->
+    <description>
+Podziel swoją flotę pojazdów na łatwiej zarządzalne grupy i przełączaj się wewnątrz nich.
+    </description>
+
+    <texts>
+        <text name="VEGS"               text="== VehicleGroupsSwitcher - 'VeGS' ==" />
+
+        <text name="ControlsErrorTitle" text="VeGS: Problem z przypisaniem klawiszy!" />
+        <text name="ControlsError"      text="Proszę przypisać ten sam klawisz sterujący dla czyności 'Grupa 1 .. 10' oraz 'Przełączanie trybu edycji' modu VeGS, w Opcje - Sterowanie.
+Klawisz sterujcy to SHIFT, CTRL lub ALT." />
+        
+        <text name="groupLabel"         text="%d: %s" />
+        <text name="group"              text="Grupa %d" />
+        <text name="unassigned"         text="Nieprzypisane" />
+
+        <text name="editGroupUp"        text="VeGS: Przejść do poprzedniej grupy" />
+        <text name="editGroupDown"      text="VeGS: Przejść do następnej grupy" />
+        <text name="editPosUp"          text="VeGS: Przenieś w górę w obrębie grupy" />
+        <text name="editPosDown"        text="VeGS: Przenieś w dół w obrębie grupy" />
+
+        <!-- Tips when in edit-mode -->
+        <text name="tip-1"              text="Będąc w trybie edycji, użyj przycisków w górę/w dół, aby przejść do innej grupy pojazdów." />
+        <text name="tip-2"              text="Będąc w trybie edycji, użyj przycisków w lewo/w prawo, aby przesunąć pojazd w grupie." />
+        <text name="tip-3"              text="Będąc w trybie edycji, zmień nazwę grupy, przytrzymując klawisz modyfikujący dla grupy i numer." />
+
+        <!-- Tips for all users -->
+        <text name="tip1"               text="Włączanie/wyłączanie grupy przytrzymując klawisz modyfikujący dla grupy i numer." />
+        <text name="tip2"               text="Będąc pieszo, kliknij dwukrotnie klawisz modyfikujący, aby pokazać VeGS." />
+        <text name="tip3"               text="Klawisze skrótów do VeGS można zmienić w opcjach, ekran Sterowanie." />
+
+        <text name="player"             text="(Gracz)" />
+        <text name="hired"              text="(Pracownik)" />
+        <text name="courseplay"         text="(Courseplay)" />
+        <text name="followme"           text="(FollowMe)" />
+        <text name="autodrive"          text="(AutoDrive)" />
+        <text name="unknown"            text="(?)" />
+
+        <text name="input_VEGS_GRP_TAB"       text="VeGS: Przełącz się w ramach grupy" />
+        <text name="input_VEGS_GRP_NXT"       text="VeGS: Do następnej grupy" />
+        <text name="input_VEGS_GRP_01"        text="VeGS: Grupa 1" />
+        <text name="input_VEGS_GRP_02"        text="VeGS: Grupa 2" />
+        <text name="input_VEGS_GRP_03"        text="VeGS: Grupa 3" />
+        <text name="input_VEGS_GRP_04"        text="VeGS: Grupa 4" />
+        <text name="input_VEGS_GRP_05"        text="VeGS: Grupa 5" />
+        <text name="input_VEGS_GRP_06"        text="VeGS: Grupa 6" />
+        <text name="input_VEGS_GRP_07"        text="VeGS: Grupa 7" />
+        <text name="input_VEGS_GRP_08"        text="VeGS: Grupa 8" />
+        <text name="input_VEGS_GRP_09"        text="VeGS: Grupa 9" />
+        <text name="input_VEGS_GRP_10"        text="VeGS: Grupa 10" />
+        <text name="input_VEGS_TOGGLE_EDIT"   text="VeGS: Przełączanie trybu edycji" />
+        
+        <text name="VEGS_GRP_TAB"             text="VeGS: Przełącz się w ramach grupy" />
+        <text name="VEGS_GRP_NXT"             text="VeGS: Do następnej grupy" />
+        <text name="VEGS_TOGGLE_EDIT"         text="VeGS: Przełączanie trybu edycji" />
+        
+    </texts>
+</l10n>

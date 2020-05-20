@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="5" filename="EMzone_Stabdziu_diskas.dds"/>
+    <File fileId="7" filename="bridgestone.dds"/>
+    <File fileId="1" filename="wheel_lod0.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="wheel_lod0__spec_" materialId="4" specularColor="0.694118 1 0.784314">
+      <Texture fileId="1"/>
+    </Material>
+    <Material name="emzone_stabdziu_diskas__spec_" materialId="5" specularColor="0.8 1 0.694118">
+      <Texture fileId="5"/>
+    </Material>
+    <Material name="Matte__FFCCCCCC" materialId="6" diffuseColor="0.364706 0.364706 0.364706 1" specularColor="1 1 1">
+    </Material>
+    <Material name="bridgestone" materialId="7" specularColor="0.294118 1 1">
+      <Texture fileId="7"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="stockWheels.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="wheelLeft" scale="1.2 1.1 1.1" nodeId="11" materialIds="4,6,5,7" castsShadows="true" receiveShadows="true"/>
+    <Shape shapeId="2" name="wheelRight" scale="1.2 1.1 1.1" nodeId="12" materialIds="4,6,5,7" castsShadows="true" receiveShadows="true"/>
+  </Scene>
+
+</i3D>

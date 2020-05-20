@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<vehicle type="hookLiftContainerTrailer">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+    <author>Castiga / Edge Gaming</author>
+    <storeData>
+        <name>
+            <en>Grain Container</en>
+            <de>Mulde</de>
+            <fr>Container</fr>
+            <it>Cassone</it>
+            <es>Contenedor</es>
+            <pt>Contentor</pt>
+            <br>Caçamba</br>
+            <nl>Containerbak</nl>
+            <pl>Kontener na odpady</pl>
+            <cz>Velkoobjemový kontejner</cz>
+            <hu>Vályú</hu>
+            <ro>Container deșeuri</ro>
+            <ru>Бункер</ru>
+            <tr>Konteyner</tr>
+            <kr>페기물 적재함</kr>
+            <jp>スキップ</jp>
+            <cs>料车斗</cs>
+            <ct>車斗</ct></name>
+        <specs>
+            <combination>ITR 26.33 HD</combination>
+        </specs>
+        <functions>
+            <function>$l10n_function_hookLiftContainer</function>
+        </functions>
+        <image>store_containerDumper.dds</image>
+        <price>8500</price>
+        <lifetime>600</lifetime>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <category>trailers</category>
+        <vertexBufferMemoryUsage>150696</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>28080</indexBufferMemoryUsage>
+        <textureMemoryUsage>11469208</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+    <base>
+        <typeDesc>$l10n_typeDesc_container</typeDesc>
+        <filename>itRunner/containerDumper.i3d</filename>
+        <size width="3.5" length="8.5" lengthOffset="0.5"/>
+        <components>
+            <component centerOfMass="0 0.2 0" solverIterationCount="10" mass="2000"/>
+        </components>
+        <schemaOverlay attacherJointPosition="0 0">
+            <default name="DEFAULT_IMPLEMENT"/>
+            <turnedOn name="DEFAULT_IMPLEMENT_ON"/>
+            <selected name="DEFAULT_IMPLEMENT_SELECTED"/>
+            <turnedOnSelected name="DEFAULT_IMPLEMENT_SELECTED"/>
+        </schemaOverlay>
+    </base>
+    <wheels>
+        <wheelConfigurations>
+            <wheelConfiguration>
+                <wheels autoRotateBackSpeed="2.0">
+                    <wheel>
+                        <physics restLoad="1.0" tipOcclusionAreaGroupId="1" repr="wheelLeft" radius="0.085" width="0.5" mass="0.02" initialCompression="50" suspTravel="0.05" spring="300" damper="100" frictionScale="0.8" yOffset="0.03"/>
+                    </wheel>
+                    <wheel>
+                        <physics restLoad="1.0" tipOcclusionAreaGroupId="1" repr="wheelRight" radius="0.085" width="0.5" mass="0.02" initialCompression="50" suspTravel="0.05" spring="300" damper="100" frictionScale="0.8" yOffset="0.03"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+        </wheelConfigurations>
+    </wheels>
+    <attachable>
+        <inputAttacherJoints>
+            <inputAttacherJoint node="attacherJoint" jointType="hookLift" upperRotationOffset="0" allowsJointRotLimitMovement="false" forceSelectionOnAttach="false"/>
+        </inputAttacherJoints>
+        <brakeForce>0.5</brakeForce>
+    </attachable>
+    <animations>
+        <animation name="tipAnimationBack">
+            <part node="door" startTime="0" endTime="4" startRot="0 0 0" endRot="90 0 0"/>
+        </animation>
+    </animations>
+    <cylindered>
+        <movingTools>
+            <movingTool node="door" playSound="true">
+                <dependentPart node="doorHydr"/>
+            </movingTool>
+        </movingTools>
+        <movingParts>
+            <movingPart node="doorHydr" referencePoint="doorHydrRef" referenceFrame="containerDumper_main_component1">
+                <translatingPart node="doorHydrPunch"/>
+                <dependentPart node="pipe1"/>
+                <dependentPart node="pipe2"/>
+            </movingPart>
+            <movingPart node="pipe1" referencePoint="pipe1Ref" referenceFrame="pipeRefFrame" scaleZ="true"/>
+            <movingPart node="pipe2" referencePoint="pipe2Ref" referenceFrame="pipeRefFrame" scaleZ="true"/>
+        </movingParts>
+        <sounds>
+            <hydraulic template="DEFAULT_HYDRAULIC_SOUND" linkNode="0>"/>
+        </sounds>
+    </cylindered>
+    <fillUnit>
+        <fillUnitConfigurations>
+            <fillUnitConfiguration>
+                <fillUnits>
+                    <fillUnit unit="$l10n_unit_literShort" fillTypeCategories="bulk" capacity="18000">
+                        <exactFillRootNode node="exactFillRootNode"/>
+                        <autoAimTargetNode node="fillAutoAimTargetNode" startZ="2.2" endZ="-4.0" invert="false" fillUnitIndex="1" startPercentage="25"/>
+                    </fillUnit>
+                </fillUnits>
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+    </fillUnit>
+    <fillVolume>
+        <fillVolumeConfigurations>
+            <fillVolumeConfiguration>
+                <volumes>
+                    <volume node="fillVolume" maxDelta="0.23" maxAllowedHeapAngle="18" fillUnitIndex="1"/>
+                </volumes>
+            </fillVolumeConfiguration>
+        </fillVolumeConfigurations>
+        <unloadInfos>
+            <unloadInfo>
+                <node node="fillVolumeHeightNode1" width="1.0" length="2.6" minHeight="0.7" priority="2"/>
+                <node node="fillVolumeHeightNode2" width="1.0" length="2.6" minHeight="0.7" priority="2"/>
+                <node node="fillVolumeHeightNode3" width="1.0" length="8.6"/>
+                <node node="fillVolumeHeightNode4" width="1.0" length="8.6"/>
+            </unloadInfo>
+        </unloadInfos>
+        <heightNodes>
+            <heightNode>
+                <refNode node="fillVolumeHeightNode1"/>
+                <refNode node="fillVolumeHeightNode2"/>
+                <refNode node="fillVolumeHeightNode3"/>
+                <refNode node="fillVolumeHeightNode4"/>
+                <node node="grainNorm" baseScale="1 1 1" transAxis="0 0.9 0" scaleAxis="0 0 0" alignToWorldY="true"/>
+            </heightNode>
+        </heightNodes>
+    </fillVolume>
+    <trailer>
+        <trailerConfigurations>
+            <trailerConfiguration name="$l10n_configuration_valueDefault" price="0">
+                <trailer>
+                    <tipSide name="$l10n_info_tipSideBack" dischargeNodeIndex="1">
+                        <animation name="tipAnimationBack" speedScale="1.0"/>
+                        <doorAnimation name="tipAnimationBackDoor" speedScale="1.0"/>
+                    </tipSide>
+                </trailer>
+            </trailerConfiguration>
+        </trailerConfigurations>
+    </trailer>
+    <dischargeable>
+        <dischargeNode node="tipReferenceNode" emptySpeed="1285" fillUnitIndex="1" unloadInfoIndex="1">
+            <info width="1.5" length="0.5"/>
+            <effects>
+                <effectNode effectClass="TipEffect">
+                    <effectNode effectNode="grainNorm" materialType="unloading" materialTypeId="1" delay="0.5" fadeTime="0.5" extraDistance="0.25" alignXAxisToWorldY="true"/>
+                </effectNode>
+                <effectNode effectNode="smokeNorm" materialType="smoke" materialTypeId="1" fadeTime="0.5"/>
+            </effects>
+        </dischargeNode>
+    </dischargeable>
+    <hookLiftContainer canBeTippedManually="true"/>
+    <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
+    <washable dirtDuration="90" washDuration="1" workMultiplier="3" fieldMultiplier="2"/>
+    <foliageBending>
+        <bendingNode minX="-1.35" maxX="1.35" minZ="-3.2" maxZ="4.1" yOffset="-0.05"/>
+    </foliageBending>
+    <baseMaterial>
+        <material name="containerDumper_mat" baseNode="container_vis">
+            <shaderParameter name="colorMat0" value="SHARED_BLACK1"/>
+        </material>
+    </baseMaterial>
+    <baseMaterialConfigurations price="1500" useDefaultColors="true" defaultColorIndex="0">
+        <baseMaterialConfiguration color="0.3920 0.0232 0.0232 1" price="0"/>
+        <baseMaterialConfiguration name="SILVER" color="0.6456 0.6456 0.6456 1" material="8" price="1500"/>
+        <baseMaterialConfiguration name="CHROME" color="0.9800 0.9800 0.9800 1" material="2" price="1500"/>
+        <material name="containerDumper_mat" shaderParameter="colorMat0"/>
+    </baseMaterialConfigurations>
+    <i3dMappings>
+        <i3dMapping id="containerDumper_main_component1" node="0>"/>
+        <i3dMapping id="wheelLeft" node="0>0"/>
+        <i3dMapping id="wheelRight" node="0>1"/>
+        <i3dMapping id="attacherJoint" node="0>2"/>
+        <i3dMapping id="container_vis" node="0>3"/>
+        <i3dMapping id="door" node="0>3|0"/>
+        <i3dMapping id="doorHydrRef" node="0>3|0|0"/>
+        <i3dMapping id="doorHydr" node="0>3|1"/>
+        <i3dMapping id="doorHydrPunch" node="0>3|1|0"/>
+        <i3dMapping id="pipe1Ref" node="0>3|1|1"/>
+        <i3dMapping id="pipe2Ref" node="0>3|1|2"/>
+        <i3dMapping id="pipe1" node="0>3|2|0"/>
+        <i3dMapping id="pipe2" node="0>3|2|1"/>
+        <i3dMapping id="pipeRefFrame" node="0>3|2|2"/>
+        <i3dMapping id="fillVolume" node="0>3|3|0"/>
+        <i3dMapping id="grainNorm" node="0>3|4|0"/>
+        <i3dMapping id="smokeNorm" node="0>3|4|1"/>
+        <i3dMapping id="tipReferenceNode" node="0>3|5"/>
+        <i3dMapping id="fillVolumeHeightNode1" node="0>3|6|0"/>
+        <i3dMapping id="fillVolumeHeightNode2" node="0>3|6|1"/>
+        <i3dMapping id="fillVolumeHeightNode3" node="0>3|6|2"/>
+        <i3dMapping id="fillVolumeHeightNode4" node="0>3|6|3"/>
+        <i3dMapping id="exactFillRootNode" node="0>4"/>
+        <i3dMapping id="fillAutoAimTargetNode" node="0>5"/>
+    </i3dMappings>
+</vehicle>

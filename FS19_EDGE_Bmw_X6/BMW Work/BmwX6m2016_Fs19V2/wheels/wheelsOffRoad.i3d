@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Peterbilt_359.blend" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="../shaders/vehicleShader.xml"/>
+    <File fileId="2" filename="../shared/default_normal.dds"/>
+    <File fileId="3" filename="baseS.dds"/>
+    <File fileId="8" filename="bfgoodrich.dds"/>
+    <File fileId="10" filename="brembo_disk.dds"/>
+    <File fileId="12" filename="x6m_1.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="x6m_28__spec_" materialId="6" specularColor="0.0392157 1 0">
+      <Texture fileId="10"/>
+    </Material>
+    <Material name="x6m_1" materialId="7" specularColor="0.8 1 0.694118">
+      <Texture fileId="12"/>
+    </Material>
+    <Material name="bfgoodrich" materialId="5" specularColor="0.4 1 0.4">
+      <Texture fileId="8"/>
+    </Material>
+    <Material name="rim.mat" materialId="4" diffuseColor="0.152941 0.152941 0.152941 1" customShaderId="4" customShaderVariation="colorMask">
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <CustomParameter name="RDT" value="1 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.5 0.5 0.5 2"/>
+      <CustomParameter name="colorMat1" value="0.03 0.03 0.03 3"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="wheelsOffRoad.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="rim2Right" translation="0 8.18995e-05 0" scale="1 0.9 0.9" nodeId="14" materialIds="4" castsShadows="true" receiveShadows="true">
+      <Shape shapeId="2" name="Tyre" translation="-0.100282 0 0" nodeId="15" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="3" name="Brakedisk" translation="-0.091 0 2.74333e-09" rotation="0 180 0" scale="1.32181 1 1" nodeId="16" materialIds="6,7" castsShadows="true" receiveShadows="true"/>
+    </Shape>
+    <Shape shapeId="4" name="rim2Left" scale="1 0.9 0.9" nodeId="17" materialIds="4" castsShadows="true" receiveShadows="true">
+      <Shape shapeId="5" name="Tyre" translation="0.102932 0 -7.55686e-10" nodeId="18" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="3" name="Brakedisk" translation="0.0992765 0 0" scale="1.32181 1 1" nodeId="19" materialIds="6,7" castsShadows="true" receiveShadows="true"/>
+    </Shape>
+  </Scene>
+
+</i3D>

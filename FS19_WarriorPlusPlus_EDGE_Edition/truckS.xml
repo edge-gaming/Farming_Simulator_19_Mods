@@ -1,0 +1,1514 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="woodTruck">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+    <storeData>
+        <name>Warrior++</name>
+        <specs>
+            <power>1500</power>
+            <maxSpeed>120</maxSpeed>
+            <combination>Fasterlift, Palfinger Q17Z</combination>
+        </specs>
+        <functions>
+            <function>$l10n_function_truck</function>
+            <function>$l10n_function_hookLift</function>
+        </functions>
+        <image>store.png</image>
+        <price>142000</price>
+        <lifetime>600</lifetime>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <category>trucks</category>
+        <shopTranslationOffset>0 0.03 0</shopTranslationOffset>
+        <shopRotationOffset>0 0 0</shopRotationOffset>
+        <vertexBufferMemoryUsage>5114184</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>1047672</indexBufferMemoryUsage>
+        <textureMemoryUsage>74975592</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+    <base>
+        <typeDesc>$l10n_typeDesc_truck</typeDesc>
+        <filename>truckS.i3d</filename>
+        <size width="3.5" length="12"/>
+        <components>
+            <component centerOfMass="0 0.43 0.5" solverIterationCount="10" mass="9535"/>
+        </components>
+        <schemaOverlay attacherJointPosition="0 0">
+            <default name="DEFAULT_VEHICLE"/>
+            <selected name="DEFAULT_VEHICLE_SELECTED"/>
+        </schemaOverlay>
+    </base>
+    <wheels>
+        <wheelConfigurations>
+            <wheelConfiguration name="$l10n_configuration_rim1_lowered" price="0" brand="LIZARD">
+                <wheels autoRotateBackSpeed="2.2">
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck1" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="2.5" repr="axisFrontLeft" driveNode="wheelFrontLeft" forcePointRatio="0.5" initialCompression="22" suspTravel="0.19" spring="38" damper="50" frictionScale="3"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck1" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="2.5" repr="axisFrontRight" driveNode="wheelFrontRight" forcePointRatio="0.5" initialCompression="22" suspTravel="0.19" spring="38" damper="50" frictionScale="3"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck2" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.4" repr="wheel_rear_left1" forcePointRatio="0.5" initialCompression="15" suspTravel="0.08" spring="117" damper="50" frictionScale="3"/>
+                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck2" isLeft="true" offset="0.07"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck2" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.4" repr="wheel_rear_right1" forcePointRatio="0.5" initialCompression="15" suspTravel="0.08" spring="117" damper="50" frictionScale="3"/>
+                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck2" isLeft="false" offset="0.07"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck2" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.4" repr="wheel_rear_left2" forcePointRatio="0.5" initialCompression="30" suspTravel="0.08" spring="117" damper="50" frictionScale="3"/>
+                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck2" isLeft="true" offset="0.07"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck2" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.4" repr="wheel_rear_right2" forcePointRatio="0.5" initialCompression="30" suspTravel="0.08" spring="117" damper="50" frictionScale="3"/>
+                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck2" isLeft="false" offset="0.07"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck1" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="2" restLoad="2.5" repr="axisTagLeft" driveNode="wheelTagLeft" forcePointRatio="0.5" initialCompression="15" suspTravel="0.03" spring="90" damper="50" brakeFactor="0" rotationDamping="0.02"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck1" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="2" restLoad="2.5" repr="axisTagRight" driveNode="wheelTagRight" forcePointRatio="0.5" initialCompression="15" suspTravel="0.03" spring="90" damper="50" brakeFactor="0" rotationDamping="0.02"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+            <wheelConfiguration name="$l10n_configuration_rim2_lowered" price="0" brand="LIZARD">
+                <wheels autoRotateBackSpeed="2.2">
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="man" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="2.5" repr="axisFrontLeft" driveNode="wheelFrontLeft" forcePointRatio="0.5" initialCompression="22" suspTravel="0.19" spring="38" damper="50" frictionScale="3"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="man" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="2.5" repr="axisFrontRight" driveNode="wheelFrontRight" forcePointRatio="0.5" initialCompression="22" suspTravel="0.19" spring="38" damper="50" frictionScale="3"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.4" repr="wheel_rear_left1" forcePointRatio="0.5" initialCompression="15" suspTravel="0.08" spring="117" damper="50" frictionScale="3"/>
+                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="true" offset="0.07"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.4" repr="wheel_rear_right1" forcePointRatio="0.5" initialCompression="15" suspTravel="0.08" spring="117" damper="50" frictionScale="3"/>
+                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="false" offset="0.07"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.4" repr="wheel_rear_left2" forcePointRatio="0.5" initialCompression="30" suspTravel="0.08" spring="117" damper="50" frictionScale="3"/>
+                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="true" offset="0.07"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.4" repr="wheel_rear_right2" forcePointRatio="0.5" initialCompression="30" suspTravel="0.08" spring="117" damper="50" frictionScale="3"/>
+                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="false" offset="0.07"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="man" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="2" restLoad="2.5" repr="axisTagLeft" driveNode="wheelTagLeft" forcePointRatio="0.5" initialCompression="15" suspTravel="0.03" spring="90" damper="50" brakeFactor="0" rotationDamping="0.02"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="man" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="2" restLoad="2.5" repr="axisTagRight" driveNode="wheelTagRight" forcePointRatio="0.5" initialCompression="15" suspTravel="0.03" spring="90" damper="50" brakeFactor="0" rotationDamping="0.02"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+            <wheelConfiguration name="$l10n_configuration_rim2_higher" price="0" brand="LIZARD">
+                <wheels autoRotateBackSpeed="2.2">
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="man" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="2.4" repr="axisFrontLeft" driveNode="wheelFrontLeft" forcePointRatio="0.5" initialCompression="55" suspTravel="0.23" spring="28" damper="40" frictionScale="2"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="man" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="2.4" repr="axisFrontRight" driveNode="wheelFrontRight" forcePointRatio="0.5" initialCompression="55" suspTravel="0.23" spring="28" damper="40" frictionScale="2"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.6" repr="wheel_rear_left1" forcePointRatio="0.5" initialCompression="55" suspTravel="0.19" spring="49" damper="40" frictionScale="1.9"/>
+                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="true" offset="0.08"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.6" repr="wheel_rear_right1" forcePointRatio="0.5" initialCompression="55" suspTravel="0.19" spring="49" damper="40" frictionScale="1.9"/>
+                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="false" offset="0.08"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.6" repr="wheel_rear_left2" forcePointRatio="0.5" initialCompression="55" suspTravel="0.19" spring="49" damper="40" frictionScale="1.9"/>
+                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="true" offset="0.08"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dual" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.6" repr="wheel_rear_right2" forcePointRatio="0.5" initialCompression="55" suspTravel="0.19" spring="49" damper="40" frictionScale="1.9"/>
+                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="dualConnector" isLeft="false" offset="0.08"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="man" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="2.4" repr="axisTagLeft" driveNode="wheelTagLeft" forcePointRatio="0.5" initialCompression="35" suspTravel="0.23" spring="28" damper="40" frictionScale="2"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="man" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="2.4" repr="axisTagRight" driveNode="wheelTagRight" forcePointRatio="0.5" initialCompression="35" suspTravel="0.23" spring="28" damper="40" frictionScale="2"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+            <wheelConfiguration name="$l10n_configuration_rim1_higher" price="0" brand="LIZARD">
+                <wheels autoRotateBackSpeed="2.2">
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck1" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="2.4" repr="axisFrontLeft" driveNode="wheelFrontLeft" forcePointRatio="0.5" initialCompression="55" suspTravel="0.23" spring="28" damper="40" frictionScale="2"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck1" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="2.4" repr="axisFrontRight" driveNode="wheelFrontRight" forcePointRatio="0.5" initialCompression="55" suspTravel="0.23" spring="28" damper="40" frictionScale="2"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck2" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.6" repr="wheel_rear_left1" forcePointRatio="0.5" initialCompression="55" suspTravel="0.19" spring="49" damper="40" frictionScale="1.9"/>
+                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck2" isLeft="true" offset="0.08"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck2" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.6" repr="wheel_rear_right1" forcePointRatio="0.5" initialCompression="55" suspTravel="0.19" spring="49" damper="40" frictionScale="1.9"/>
+                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck2" isLeft="false" offset="0.08"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck2" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.6" repr="wheel_rear_left2" forcePointRatio="0.5" initialCompression="55" suspTravel="0.19" spring="49" damper="40" frictionScale="1.9"/>
+                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck2" isLeft="true" offset="0.08"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck2" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.6" repr="wheel_rear_right2" forcePointRatio="0.5" initialCompression="55" suspTravel="0.19" spring="49" damper="40" frictionScale="1.9"/>
+                        <additionalWheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck2" isLeft="false" offset="0.08"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck1" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="2.4" repr="axisTagLeft" driveNode="wheelTagLeft" forcePointRatio="0.5" initialCompression="35" suspTravel="0.23" spring="28" damper="40" frictionScale="2"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="truck1" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="2.4" repr="axisTagRight" driveNode="wheelTagRight" forcePointRatio="0.5" initialCompression="35" suspTravel="0.23" spring="28" damper="40" frictionScale="2"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+            <wheelConfiguration name="$l10n_configuration_valueDefault" price="0" brand="TRELLEBORG">
+                <wheels autoRotateBackSpeed="2.2">
+                    <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/500_60R22_5.xml" configId="truckFront" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="2.4" repr="axisFrontLeft" driveNode="wheelFrontLeft" forcePointRatio="0.5" initialCompression="35" suspTravel="0.23" spring="28" damper="40" frictionScale="2"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/500_60R22_5.xml" configId="truckFront" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="2.4" repr="axisFrontRight" driveNode="wheelFrontRight" forcePointRatio="0.5" initialCompression="35" suspTravel="0.23" spring="28" damper="40" frictionScale="2"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/600_50R22_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.6" repr="wheel_rear_left1" forcePointRatio="0.5" initialCompression="15" suspTravel="0.23" spring="42" damper="40" frictionScale="1.9"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/600_50R22_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.6" repr="wheel_rear_right1" forcePointRatio="0.5" initialCompression="15" suspTravel="0.23" spring="42" damper="40" frictionScale="1.9"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/600_50R22_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.6" repr="wheel_rear_left2" forcePointRatio="0.5" initialCompression="15" suspTravel="0.23" spring="42" damper="40" frictionScale="1.9"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/600_50R22_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="0" restLoad="1.6" repr="wheel_rear_right2" forcePointRatio="0.5" initialCompression="15" suspTravel="0.23" spring="42" damper="40" frictionScale="1.9"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/500_60R22_5.xml" configId="truckFront" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics radius="0.59" rotSpeed="1" restLoad="2.4" repr="axisTagLeft" driveNode="wheelTagLeft" forcePointRatio="0.5" initialCompression="35" suspTravel="0.23" spring="28" damper="40" frictionScale="2"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/trelleborg/TwinRadial/500_60R22_5.xml" configId="truckFront" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics radius="0.59" rotSpeed="1" restLoad="2.4" repr="axisTagRight" driveNode="wheelTagRight" forcePointRatio="0.5" initialCompression="35" suspTravel="0.23" spring="28" damper="40" frictionScale="2"/>
+                    </wheel>
+                </wheels>
+                <objectChange node="wheelFrontLeft" translationActive="0.15 -0.011 0.002"/>
+                <objectChange node="wheelFrontRight" translationActive="-0.15 -0.011 0.002"/>
+                <objectChange node="wheelTagLeft" translationActive="0.05 0.03 0"/>
+                <objectChange node="wheelTagRight" translationActive="-0.05 0.03 0"/>
+                <objectChange node="wheelTagLeft" scaleActive="0.93 1 1"/>
+                <objectChange node="wheelTagRight" scaleActive="0.93 1 1"/>
+                <objectChange node="wheel_rear_left1" translationActive="0.83 0.52 -1.547"/>
+                <objectChange node="wheel_rear_left2" translationActive="0.83 0.52 -2.947"/>
+                <objectChange node="wheel_rear_right1" translationActive="-0.83 0.52 -1.547"/>
+                <objectChange node="wheel_rear_right2" translationActive="-0.83 0.52 -2.947"/>
+                <objectChange node="wheel_rear_left1" scaleActive="1.05 1 1"/>
+                <objectChange node="wheel_rear_left2" scaleActive="1.05 1 1"/>
+                <objectChange node="wheel_rear_right1" scaleActive="1.05 1 1"/>
+                <objectChange node="wheel_rear_right2" scaleActive="1.05 1 1"/>
+            </wheelConfiguration>
+            <wheelConfiguration name="$l10n_configuration_valueDefault" price="0" brand="NOKIAN">
+                <wheels autoRotateBackSpeed="2.2">
+                    <wheel filename="$data/shared/wheels/nokian/TRI2/460_65R24.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="2.4" repr="axisFrontLeft" driveNode="wheelFrontLeft" forcePointRatio="0.5" initialCompression="35" suspTravel="0.23" spring="28" damper="40" frictionScale="2"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/nokian/TRI2/460_65R24.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="2.4" repr="axisFrontRight" driveNode="wheelFrontRight" forcePointRatio="0.5" initialCompression="35" suspTravel="0.23" spring="28" damper="40" frictionScale="2"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/nokian/TRI2/540_65R24.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics radius="0.59" rotSpeed="0" restLoad="1.6" repr="wheel_rear_left1" forcePointRatio="0.5" initialCompression="15" suspTravel="0.23" spring="42" damper="40" frictionScale="1.9"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/nokian/TRI2/540_65R24.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics radius="0.59" rotSpeed="0" restLoad="1.6" repr="wheel_rear_right1" forcePointRatio="0.5" initialCompression="15" suspTravel="0.23" spring="42" damper="40" frictionScale="1.9"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/nokian/TRI2/540_65R24.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics radius="0.59" rotSpeed="0" restLoad="1.6" repr="wheel_rear_left2" forcePointRatio="0.5" initialCompression="15" suspTravel="0.23" spring="42" damper="40" frictionScale="1.9"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/nokian/TRI2/540_65R24.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics radius="0.59" rotSpeed="0" restLoad="1.6" repr="wheel_rear_right2" forcePointRatio="0.5" initialCompression="15" suspTravel="0.23" spring="42" damper="40" frictionScale="1.9"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/nokian/TRI2/460_65R24.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="2.4" repr="axisTagLeft" driveNode="wheelTagLeft" forcePointRatio="0.5" initialCompression="35" suspTravel="0.23" spring="28" damper="40" frictionScale="2"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/nokian/TRI2/460_65R24.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics rotSpeed="1" restLoad="2.4" repr="axisTagRight" driveNode="wheelTagRight" forcePointRatio="0.5" initialCompression="35" suspTravel="0.23" spring="28" damper="40" frictionScale="2"/>
+                    </wheel>
+                </wheels>
+                <objectChange node="wheelFrontLeft" translationActive="0.15 -0.011 0.002"/>
+                <objectChange node="wheelFrontRight" translationActive="-0.15 -0.011 0.002"/>
+                <objectChange node="wheelTagLeft" translationActive="0.05 0 0"/>
+                <objectChange node="wheelTagRight" translationActive="-0.05 0 0"/>
+                <objectChange node="wheelTagLeft" scaleActive="0.97 1 1"/>
+                <objectChange node="wheelTagRight" scaleActive="0.97 1 1"/>
+                <objectChange node="wheel_rear_left1" translationActive="0.85 0.52 -1.547"/>
+                <objectChange node="wheel_rear_left2" translationActive="0.85 0.52 -2.947"/>
+                <objectChange node="wheel_rear_right1" translationActive="-0.85 0.52 -1.547"/>
+                <objectChange node="wheel_rear_right2" translationActive="-0.85 0.52 -2.947"/>
+                <objectChange node="wheel_rear_left1" scaleActive="1.1 0.9 0.9"/>
+                <objectChange node="wheel_rear_left2" scaleActive="1.1 0.9 0.9"/>
+                <objectChange node="wheel_rear_right1" scaleActive="1.1 0.9 0.9"/>
+                <objectChange node="wheel_rear_right2" scaleActive="1.1 0.9 0.9"/>
+            </wheelConfiguration>
+        </wheelConfigurations>
+        <ackermannSteeringConfigurations>
+            <ackermannSteering rotSpeed="40" rotMax="45" rotCenterWheel1="3" rotCenterWheel2="4"/>
+        </ackermannSteeringConfigurations>
+        <hubs>
+            <color0>SHARED_BLACK2</color0>
+            <color1>SHARED_GREY1</color1>
+            <hub linkNode="wheelFrontLeft" filename="$data/shared/wheels/hubs/hub_n10_13.xml" isLeft="true" scale="0.33 0.33 0.33"/>
+            <hub linkNode="wheelFrontRight" filename="$data/shared/wheels/hubs/hub_n10_13.xml" isLeft="false" scale="0.33 0.33 0.33"/>
+            <hub linkNode="wheelTagLeft" filename="$data/shared/wheels/hubs/hub_n10_13.xml" isLeft="true" scale="0.33 0.33 0.33"/>
+            <hub linkNode="wheelTagRight" filename="$data/shared/wheels/hubs/hub_n10_13.xml" isLeft="false" scale="0.33 0.33 0.33"/>
+            <hub linkNode="wheel_rear_left1" filename="$data/shared/wheels/hubs/hub_n10_13.xml" isLeft="true" scale="0.33 0.33 0.33"/>
+            <hub linkNode="wheel_rear_left2" filename="$data/shared/wheels/hubs/hub_n10_13.xml" isLeft="true" scale="0.33 0.33 0.33"/>
+            <hub linkNode="wheel_rear_right1" filename="$data/shared/wheels/hubs/hub_n10_13.xml" isLeft="false" scale="0.33 0.33 0.33"/>
+            <hub linkNode="wheel_rear_right2" filename="$data/shared/wheels/hubs/hub_n10_13.xml" isLeft="false" scale="0.33 0.33 0.33"/>
+        </hubs>
+    </wheels>
+    <rimColorConfigurations useDefaultColors="true" price="300">
+        <rimColorConfiguration name="Polished Metal" color="0.8 0.8 0.8 3" material="3" price="100"/>
+        <rimColorConfiguration name="Chrome" color="0.8 0.8 0.8 2" material="2" price="4100"/>
+        <rimColorConfiguration name="Stainless Steel" color="0.7 0.7 0.7 8" material="8" price="100"/>
+        <rimColorConfiguration name="Tan" color="KRONE_YELLOW1" material="27" price="100"/>
+        <rimColorConfiguration name="Challenger Yellow" color="CHALLENGER_YELLOW1" material="6" price="100"/>
+        <rimColorConfiguration name="Challenger Orange" color="CHALLENGER_ORANGE1" material="6" price="100"/>
+        <rimColorConfiguration name="JD Green" color="JOHNDEERE_GREEN1" material="6" price="100"/>
+        <rimColorConfiguration name="Dark Blue" color="0 0 0.2 6" material="6" price="100"/>
+        <rimColorConfiguration name="RED OLD" color="CASEIH_RED1" material="6" price="500"/>
+        <rimColorConfiguration name="WHITE OLD" color="SHARED_WHITE2" material="6" price="500"/>
+        <rimColorConfiguration name="GOLD OLD" color="KRONE_YELLOW1" material="6" price="500"/>
+        <rimColorConfiguration name="BLACK OLD" color="SHARED_BLACK2" material="6" price="500"/>
+        <rimColorConfiguration name="BLUE OLD" color="NEWHOLLAND_BLUE1" material="6" price="500"/>
+        <rimColorConfiguration name="GREEN OLD" color="KRONE_GREEN1" material="6" price="500"/>
+        <rimColorConfiguration name="YELLOW OLD" color="JOHNDEERE_YELLOW1" material="6" price="500"/>
+        <rimColorConfiguration name="ORANGE OLD" color="STARA_ORANGE" material="6" price="500"/>
+        <rimColorConfiguration name="RED METALLIC" color="CASEIH_RED1" material="3" price="2300"/>
+        <rimColorConfiguration name="WHITE METALLIC" color="SHARED_WHITE2" material="3" price="2300"/>
+        <rimColorConfiguration name="GOLD METALLIC" color="KRONE_YELLOW1" material="3" price="2300"/>
+        <rimColorConfiguration name="BLACK METALLIC" color="SHARED_BLACK2" material="3" price="2300"/>
+        <rimColorConfiguration name="BLUE METALLIC" color="NEWHOLLAND_BLUE1" material="3" price="2300"/>
+        <rimColorConfiguration name="GREEN METALLIC" color="KRONE_GREEN1" material="3" price="2300"/>
+        <rimColorConfiguration name="YELLOW METALLIC" color="JOHNDEERE_YELLOW1" material="3" price="2300"/>
+        <rimColorConfiguration name="ORANGE METALLIC" color="STARA_ORANGE" material="3" price="2300"/>
+        <rimColorConfiguration name="RED SATIN" color="CASEIH_RED1" material="27" price="1400"/>
+        <rimColorConfiguration name="WHITE SATIN" color="SHARED_WHITE2" material="27" price="1400"/>
+        <rimColorConfiguration name="TAN SATIN" color="KRONE_YELLOW1" material="27" price="1400"/>
+        <rimColorConfiguration name="BLACK SATIN" color="SHARED_BLACK2" material="27" price="1400"/>
+        <rimColorConfiguration name="BLUE SATIN" color="NEWHOLLAND_BLUE1" material="27" price="1400"/>
+        <rimColorConfiguration name="GREEN SATIN" color="KRONE_GREEN1" material="27" price="1400"/>
+        <rimColorConfiguration name="YELLOW SATIN" color="JOHNDEERE_YELLOW1" material="27" price="1400"/>
+        <rimColorConfiguration name="ORANGE SATIN" color="STARA_ORANGE" material="27" price="1400"/>
+    </rimColorConfigurations>
+    <speedRotatingParts>
+        <speedRotatingPart node="cardan01" radius="0.1"/>
+        <speedRotatingPart node="cardanNormalSemi" radius="0.1"/>
+        <speedRotatingPart node="cardanShortSemi" radius="-0.1"/>
+        <speedRotatingPart node="cardanSingleSemi" radius="-0.1"/>
+        <speedRotatingPart node="cardanFlatbed" radius="0.1"/>
+        <speedRotatingPart node="cardanHooklift" radius="0.1"/>
+        <speedRotatingPart node="cardanHooklift2" radius="0.1"/>
+        <speedRotatingPart node="cardan04" radius="-0.1"/>
+        <speedRotatingPart node="cardan05" radius="-0.1"/>
+        <speedRotatingPart node="cardan06" radius="-0.1"/>
+        <speedRotatingPart node="cardan07" radius="-0.1"/>
+        <speedRotatingPart node="cardanTagToRearConnector" radius="-0.1"/>
+        <speedRotatingPart node="cardanTagToRear" radius="-0.1"/>
+        <speedRotatingPart node="cardanTagToGearbox" radius="-0.1"/>
+    </speedRotatingParts>
+    <lights>
+        <sharedLight linkNode="sidemarker01" filename="textures/sideMarker_06Orange.xml"/>
+        <sharedLight linkNode="sidemarker02" filename="textures/sideMarker_06Orange.xml"/>
+        <sharedLight linkNode="sidemarker03" filename="textures/sideMarker_06Orange.xml"/>
+        <sharedLight linkNode="sidemarker04" filename="textures/sideMarker_06Orange.xml"/>
+        <sharedLight linkNode="sidemarker05" filename="textures/sideMarker_06Orange.xml"/>
+        <sharedLight linkNode="sidemarker06" filename="textures/sideMarker_06Orange.xml"/>
+        <sharedLight linkNode="sidemarker07" filename="textures/sideMarker_06Orange.xml"/>
+        <sharedLight linkNode="sidemarker08" filename="textures/sideMarker_06Orange.xml"/>
+        <sharedLight linkNode="sidemarker09" filename="textures/sideMarker_06Orange.xml"/>
+        <sharedLight linkNode="sidemarker10" filename="textures/sideMarker_06Orange.xml"/>
+        <sharedLight linkNode="sidemarker11" filename="textures/sideMarker_06Orange.xml"/>
+        <sharedLight linkNode="sidemarker12" filename="textures/sideMarker_06Orange.xml"/>
+        <sharedLight linkNode="sidemarker13" filename="textures/sideMarker_06Orange.xml"/>
+        <sharedLight linkNode="sidemarker14" filename="textures/sideMarker_06Orange.xml"/>
+        <sharedLight linkNode="workingLight01" filename="$data/shared/assets/lights/lizard/workingLightCircle_01.xml" lightTypes="1"/>
+        <sharedLight linkNode="workingLight02" filename="$data/shared/assets/lights/lizard/workingLightCircle_01.xml" lightTypes="1"/>
+        <sharedLight linkNode="workingLight03" filename="$data/shared/assets/lights/lizard/workingLightCircle_01.xml" lightTypes="1"/>
+        <sharedLight linkNode="workingLight04" filename="$data/shared/assets/lights/lizard/workingLightCircle_01.xml" lightTypes="1"/>
+        <sharedLight linkNode="sidemarkerSleeper01" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDOrange_01.xml" lightTypes="0"/>
+        <sharedLight linkNode="sidemarkerSleeper02" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDOrange_01.xml" lightTypes="0"/>
+        <sharedLight linkNode="sidemarkerSleeper03" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDOrange_01.xml" lightTypes="0"/>
+        <sharedLight linkNode="sidemarkerSleeper04" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDOrange_01.xml" lightTypes="0"/>
+        <sharedLight linkNode="sidemarkerSleeper05" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDOrange_01.xml" lightTypes="0"/>
+        <sharedLight linkNode="sidemarkerSleeper06" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDOrange_01.xml" lightTypes="0"/>
+        <sharedLight linkNode="sidemarkerSleeper07" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDOrange_01.xml" lightTypes="0"/>
+        <sharedLight linkNode="sidemarkerSleeper08" filename="$data/shared/assets/lights/lizard/rearLightOvalLEDOrange_01.xml" lightTypes="0"/>
+        <states>
+            <state lightTypes="0"/>
+            <state lightTypes="0 2"/>
+            <state lightTypes="0 1 2"/>
+        </states>
+        <realLights>
+            <low>
+                <light node="frontLightLow" lightTypes="0" excludedLightTypes="2 3"/>
+                <light node="workLightBackLow" lightTypes="1"/>
+                <light node="workLightFrontLow" lightTypes="2"/>
+                <light node="highBeamLow" lightTypes="3"/>
+            </low>
+            <high>
+                <light node="frontLightHigh" lightTypes="0" excludedLightTypes="2 3"/>
+                <light node="workLightBackHigh1" lightTypes="1"/>
+                <light node="workLightFrontHigh1" lightTypes="2"/>
+                <light node="highBeamHigh" lightTypes="3"/>
+                <light node="backLightsHigh1" lightTypes="0"/>
+                <light node="bumperLightFlat" lightTypes="0"/>
+                <brakeLight node="backLightsHigh1"/>
+                <turnLightLeft node="turnLightLeftFront"/>
+                <turnLightLeft node="turnLightLeftBack"/>
+                <turnLightRight node="turnLightRightFront"/>
+                <turnLightRight node="turnLightRightBack"/>
+                <reverseLight node="reverseLight"/>
+            </high>
+        </realLights>
+        <defaultLights>
+            <defaultLight shaderNode="defaultLightStatic" lightTypes="0 3"/>
+            <defaultLight shaderNode="backlightStatic" lightTypes="0"/>
+            <defaultLight shaderNode="backlightStatic1" lightTypes="0"/>
+            <defaultLight shaderNode="worklightFrontStatic" lightTypes="2"/>
+            <defaultLight shaderNode="worklightBackStatic" lightTypes="1"/>
+            <defaultLight shaderNode="sleeperStatic1" lightTypes="1"/>
+            <defaultLight shaderNode="sleeperStatic2" lightTypes="1"/>
+            <defaultLight shaderNode="worklightBackRackStatic" lightTypes="1"/>
+            <defaultLight shaderNode="bumperFlatStatic0" lightTypes="0" intensity="20"/>
+            <defaultLight shaderNode="bumperFlatStatic1" lightTypes="0" intensity="20"/>
+            <defaultLight shaderNode="bumperFlatStatic2" lightTypes="0" intensity="20"/>
+            <defaultLight shaderNode="bumperFlatStatic3" lightTypes="0" intensity="20"/>
+            <defaultLight shaderNode="bumperFlatStatic4" lightTypes="0" intensity="20"/>
+            <defaultLight shaderNode="bumperFlatStatic5" lightTypes="0" intensity="20"/>
+            <defaultLight shaderNode="bumperFlatStatic6" lightTypes="0" intensity="20"/>
+            <defaultLight shaderNode="bumperFlatStatic7" lightTypes="0" intensity="20"/>
+            <defaultLight shaderNode="bumperFlatStatic8" lightTypes="0" intensity="20"/>
+            <defaultLight shaderNode="bumperFlatStatic9" lightTypes="0" intensity="20"/>
+        </defaultLights>
+        <turnLights>
+            <turnLightLeft shaderNode="turnlightFrontLeftStatic"/>
+            <turnLightLeft shaderNode="turnlightBackLeftStatic"/>
+            <turnLightRight shaderNode="turnlightFrontRightStatic"/>
+            <turnLightRight shaderNode="turnlightBackRightStatic"/>
+        </turnLights>
+        <brakeLights>
+            <brakeLight shaderNode="backlightStatic"/>
+            <brakeLight shaderNode="backlightStatic1"/>
+        </brakeLights>
+        <reverseLights>
+            <reverseLight shaderNode="reverseLightStatic"/>
+        </reverseLights>
+        <sounds>
+            <switchLight template="SWITCH_01" linkNode="0>"/>
+            <turnLight template="SWITCH_TURNLIGHT" linkNode="0>"/>
+        </sounds>
+        <dashboards>
+            <dashboard displayType="EMITTER" valueType="lightState" node="decals_interior" baseColor="GREY" emitColor="GREY" intensity="0.5" lightTypes="0 1 2 3" groups="MOTOR_ACTIVE"/>
+        </dashboards>
+    </lights>
+    <enterable isTabbable="true">
+        <enterReferenceNode node="exitPoint"/>
+        <exitPoint node="exitPoint"/>
+        <cameras>
+            <camera node="outdoorCamera1" rotatable="true" rotateNode="outdoorCameraTarget" limit="true" useWorldXZRotation="true" rotMinX="-1.4" rotMaxX="1" transMin="5" transMax="40" translation="0 0 10" rotation="-20 180 0">
+                <raycastNode node="cameraRaycastNode1"/>
+                <raycastNode node="cameraRaycastNode2"/>
+                <raycastNode node="cameraRaycastNode3"/>
+            </camera>
+            <camera node="indoorCamera1" rotatable="true" limit="true" rotMinX="-1.1" rotMaxX="0.4" transMin="0" transMax="0" useMirror="true" isInside="true" shadowFocusBox="shadowFocusBox"/>
+        </cameras>
+        <characterNode node="playerSkin" cameraMinDistance="1.5" spineRotation="-90 0 90">
+            <target ikChain="rightFoot" targetNode="playerRightFootTarget"/>
+            <target ikChain="leftFoot" targetNode="playerLeftFootTarget"/>
+            <target ikChain="rightArm" targetNode="playerRightHandTarget"/>
+            <target ikChain="leftArm" targetNode="playerLeftHandTarget"/>
+        </characterNode>
+        <characterTargetNodeModifier node="playerRightFootTarget" transitionTime="0.1">
+            <state node="playerRightFootTargetGas" referenceNode="gasPedal" directionReferenceNode="playerRightFootTargetGasRef"/>
+            <state node="playerRightFootTargetBrake" referenceNode="brakePedal"/>
+        </characterTargetNodeModifier>
+        <mirrors>
+            <mirror node="mirrorsDecal01" prio="1"/>
+            <mirror node="mirrorsDecal02" prio="2"/>
+            <mirror node="mirrorsDecal03" prio="1"/>
+            <mirror node="mirrorsDecal04" prio="2"/>
+        </mirrors>
+    </enterable>
+    <motorized>
+        <consumerConfigurations>
+            <consumerConfiguration>
+                <consumer fillUnitIndex="1" usage="138" fillType="diesel"/>
+                <!-- usage is per hour at max load and max rpm -->
+                <consumer fillUnitIndex="2" usage="250" fillType="air" permanentConsumption="false" refillLitersPerSecond="300" refillCapacityPercentage="0.5"/>
+                <!-- usage per second at full brake power -->
+            </consumerConfiguration>
+        </consumerConfigurations>
+        <differentialConfigurations>
+            <differentialConfiguration>
+                <differentials>
+                    <differential torqueRatio="0.5" maxSpeedRatio="1.3" wheelIndex1="3" wheelIndex2="4"/>
+                    <!-- middle -->
+                    <differential torqueRatio="0.5" maxSpeedRatio="1.3" wheelIndex1="5" wheelIndex2="6"/>
+                    <!-- back -->
+                    <differential torqueRatio="0.5" maxSpeedRatio="1.2" differentialIndex1="1" differentialIndex2="2"/>
+                    <!-- middle-back -->
+                    <differential torqueRatio="0.5" maxSpeedRatio="1.3" wheelIndex1="1" wheelIndex2="2"/>
+                    <!-- front -->
+                    <differential torqueRatio="0.5" maxSpeedRatio="1.3" differentialIndex1="3" differentialIndex2="4"/>
+                    <!-- middle-front -->
+                </differentials>
+            </differentialConfiguration>
+        </differentialConfigurations>
+        <motorConfigurations>
+            <motorConfiguration name="$l10n_configuration_warrior_standard" hp="460" price="0">
+                <motor torqueScale="3.205" minRpm="850" maxRpm="2500" maxForwardSpeed="110" maxBackwardSpeed="15" brakeForce="5" lowBrakeForceScale="0.22">
+                    <torque rpm="850" torque="0.9"/>
+                    <torque rpm="1000" torque="1"/>
+                    <torque rpm="1450" torque="1"/>
+                    <torque rpm="1900" torque="0.75"/>
+                    <torque rpm="2200" torque="0.63"/>
+                    <torque rpm="2500" torque="0.2"/>
+                </motor>
+                <transmission minForwardGearRatio="8" maxForwardGearRatio="200" minBackwardGearRatio="40" maxBackwardGearRatio="200"/>
+            </motorConfiguration>
+           <motorConfiguration name="$l10n_configuration_warrior_tuned" hp="590" price="4700">
+                <motor torqueScale="5.205" minRpm="850" maxRpm="2500" maxForwardSpeed="110" maxBackwardSpeed="15" brakeForce="5" lowBrakeForceScale="0.22">
+                    <torque rpm="850" torque="0.9"/>
+                    <torque rpm="1000" torque="1"/>
+                    <torque rpm="1450" torque="1"/>
+                    <torque rpm="1900" torque="0.75"/>
+                    <torque rpm="2200" torque="0.63"/>
+                    <torque rpm="2500" torque="0.2"/>
+                </motor>
+                <transmission minForwardGearRatio="8" maxForwardGearRatio="200" minBackwardGearRatio="40" maxBackwardGearRatio="200"/>
+            </motorConfiguration>
+           <motorConfiguration name="$l10n_configuration_EDGE_Edition" hp="1500" price="10800">
+                <motor torqueScale="8.5" minRpm="850" maxRpm="2800" maxForwardSpeed="120" maxBackwardSpeed="20" brakeForce="8" lowBrakeForceScale="0.22">
+                    <torque rpm="850" torque="0.9"/>
+                    <torque rpm="1000" torque="1"/>
+                    <torque rpm="1450" torque="1"/>
+                    <torque rpm="1900" torque="0.95"/>
+                    <torque rpm="2200" torque="0.73"/>
+                    <torque rpm="2500" torque="0.45"/>
+                    <torque rpm="2500" torque="0.2"/>
+                </motor>
+                <transmission minForwardGearRatio="8" maxForwardGearRatio="200" minBackwardGearRatio="40" maxBackwardGearRatio="200"/>
+            </motorConfiguration>
+        </motorConfigurations>
+        <exhaustEffects>
+            <exhaustEffect node="exhaustParticle01" filename="$data/particleSystems/shared/exhaust.i3d" minRpmColor="0 0 0 1" maxRpmColor="0.01 0.01 0.01 5" minRpmScale="0.1" maxRpmScale="0.55" xzRotationsOffset="40 0" xzRotationsForward="0 0" xzRotationsBackward="100 0" xzRotationsLeft="0 -100" xzRotationsRight="0 100"/>
+            <exhaustEffect node="exhaustParticle02" filename="$data/particleSystems/shared/exhaust.i3d" minRpmColor="0 0 0 1" maxRpmColor="0.01 0.01 0.01 5" minRpmScale="0.1" maxRpmScale="0.55" xzRotationsOffset="40 0" xzRotationsForward="0 0" xzRotationsBackward="100 0" xzRotationsLeft="0 -100" xzRotationsRight="0 100"/>
+            <exhaustEffect node="exhaustParticle03" filename="$data/particleSystems/shared/exhaust.i3d" minRpmColor="0 0 0 1" maxRpmColor="0.01 0.01 0.01 5" minRpmScale="0.1" maxRpmScale="0.55" xzRotationsOffset="40 0" xzRotationsForward="0 0" xzRotationsBackward="100 0" xzRotationsLeft="0 -100" xzRotationsRight="0 100"/>
+            <exhaustEffect node="exhaustParticle04" filename="$data/particleSystems/shared/exhaust.i3d" minRpmColor="0 0 0 1" maxRpmColor="0.01 0.01 0.01 5" minRpmScale="0.1" maxRpmScale="0.55" xzRotationsOffset="40 0" xzRotationsForward="0 0" xzRotationsBackward="100 0" xzRotationsLeft="0 -100" xzRotationsRight="0 100"/>
+        </exhaustEffects>
+        <sounds externalSoundFile="$data/sounds/vehicles/engine/lizard_truck/lizard_truck.xml"/>
+        <dashboards>
+            <dashboard displayType="ANIMATION" valueType="rpm" animName="rpmDisplay" minValueAnim="0" maxValueAnim="4000" groups="MOTOR_ACTIVE"/>
+            <dashboard displayType="ANIMATION" valueType="speed" animName="speedDisplay" minValueAnim="0" maxValueAnim="160" groups="MOTOR_ACTIVE"/>
+        </dashboards>
+    </motorized>
+    <drivable>
+        <sounds>
+            <waterSplash template="WATER_SPLASH_01" linkNode="0>"/>
+        </sounds>
+        <steeringWheel node="steeringWheel" indoorRotation="360" outdoorRotation="37"/>
+        <dashboards>
+            <dashboard displayType="ROT" valueType="decelerationAxis" node="brakePedal" minRot="0 0 0" maxRot="-20 0 0" doInterpolation="true" groups="MOTOR_ACTIVE"/>
+            <dashboard displayType="ROT" valueType="accelerationAxis" node="gasPedal" minRot="0 0 0" maxRot="12 0 0" doInterpolation="true" groups="MOTOR_ACTIVE"/>
+        </dashboards>
+    </drivable>
+    <wipers>
+        <wiper animName="wiperFrontAnimation">
+            <state animSpeed="0.75" animPause="2.0"/>
+            <state animSpeed="0.75" animPause="0.0"/>
+            <state animSpeed="1.10" animPause="0.0"/>
+        </wiper>
+    </wipers>
+    <fillUnit>
+        <fillUnitConfigurations title="$l10n_configuration_bumper">
+            <fillUnitConfiguration name="$l10n_configuration_type1" price="0">
+                <fillUnits>
+                    <fillUnit unit="$l10n_unit_literShort" showOnHud="false" showInShop="false" fillTypes="diesel" capacity="440"/>
+                    <fillUnit unit="$l10n_unit_literShort" showOnHud="false" showInShop="false" fillTypes="air" capacity="4000"/>
+                </fillUnits>
+                <objectChange node="bumper1" visibilityActive="true" visibilityInactive="false"/>
+            </fillUnitConfiguration>
+            <fillUnitConfiguration name="$l10n_configuration_type2" price="1200">
+                <fillUnits>
+                    <fillUnit unit="$l10n_unit_literShort" showOnHud="false" showInShop="false" fillTypes="diesel" capacity="440"/>
+                    <fillUnit unit="$l10n_unit_literShort" showOnHud="false" showInShop="false" fillTypes="air" capacity="4000"/>
+                </fillUnits>
+                <objectChange node="bumper2" visibilityActive="true" visibilityInactive="false"/>
+            </fillUnitConfiguration>
+            <fillUnitConfiguration name="$l10n_configuration_type3" price="700">
+                <fillUnits>
+                    <fillUnit unit="$l10n_unit_literShort" showOnHud="false" showInShop="false" fillTypes="diesel" capacity="440"/>
+                    <fillUnit unit="$l10n_unit_literShort" showOnHud="false" showInShop="false" fillTypes="air" capacity="4000"/>
+                </fillUnits>
+                <objectChange node="bumper3" visibilityActive="true" visibilityInactive="false"/>
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+    </fillUnit>
+    <attacherJoints comboDuration="2">
+        <attacherJointConfigurations title="$l10n_configuration_exhaust_windows">
+            <attacherJointConfiguration name="$l10n_configuration_exhaust_1_no_tint" price="0">
+                <attacherJoint node="attacherJointSemiTrailer" jointType="semitrailer" allowsJointLimitMovement="false" allowsLowering="false" lowerRotLimit="12 125 12">
+                    <schema position="1 0" rotation="0" invertX="false"/>
+                    <attachSound template="TRUCK_ATTACH_01" linkNode="0>"/>
+                </attacherJoint>
+                <attacherJoint node="attacherJointTrailer" jointType="trailer" lowerRotLimit="10 80 50" upperRotRotationOffset="0" allowsJointLimitMovement="false" comboTime="1">
+                    <distanceToGround lower="0.52" upper="1.065"/>
+                    <transNode node="attacherJointTrailerTranspart" minY="-0.234" maxY="0.326" height="0.1"/>
+                    <schema position="1 0" rotation="0" invertX="false"/>
+                    <attachSound template="ATTACH_01" linkNode="0>"/>
+                </attacherJoint>
+                <attacherJoint node="attacherJointTrailer" jointType="trailerLow" lowerRotLimit="10 80 50" upperRotRotationOffset="0" allowsJointLimitMovement="false" comboTime="1">
+                    <distanceToGround lower="0.52" upper="1.065"/>
+                    <transNode node="attacherJointTrailerTranspart" minY="-0.234" maxY="0.326" height="0.1"/>
+                    <schema position="1 0" rotation="0" invertX="false"/>
+                    <attachSound template="ATTACH_01" linkNode="0>"/>
+                </attacherJoint>
+                <attacherJoint node="containerAttacherJoint" jointType="hookLift" lowerRotLimit="0 40 80" upperRotLimit="0 40 80" allowsLowering="false" enableCollision="true">
+                    <schema position="0.6 0.6" rotation="0" invertX="false"/>
+                </attacherJoint>
+				<attacherJoint node="attacherJointCrane" upperRotationOffset="-0.7" moveTime="2.5" comboTime="1" forceSelectionOnAttach="true">
+				   <distanceToGround lower="0.35" upper="1.06" />
+				   <schema position="0.5 0" rotation="0" invertX="false" />
+				</attacherJoint>
+                <objectChange node="exhaust_truckS" visibilityActive="true" visibilityInactive="false"/>
+                <objectChange node="glass_clear" visibilityActive="true" visibilityInactive="false"/>
+            </attacherJointConfiguration>
+            <attacherJointConfiguration name="$l10n_configuration_exhaust_2_no_tint" price="2300">
+                <attacherJoint node="attacherJointSemiTrailer" jointType="semitrailer" allowsJointLimitMovement="false" allowsLowering="false" lowerRotLimit="12 125 12">
+                    <schema position="1 0" rotation="0" invertX="false"/>
+                    <attachSound template="TRUCK_ATTACH_01" linkNode="0>"/>
+                </attacherJoint>
+                <attacherJoint node="attacherJointTrailer" jointType="trailer" lowerRotLimit="10 80 50" upperRotRotationOffset="0" allowsJointLimitMovement="false" comboTime="1">
+                    <distanceToGround lower="0.52" upper="1.065"/>
+                    <transNode node="attacherJointTrailerTranspart" minY="-0.234" maxY="0.326" height="0.1"/>
+                    <schema position="1 0" rotation="0" invertX="false"/>
+                    <attachSound template="ATTACH_01" linkNode="0>"/>
+                </attacherJoint>
+                <attacherJoint node="attacherJointTrailer" jointType="trailerLow" lowerRotLimit="10 80 50" upperRotRotationOffset="0" allowsJointLimitMovement="false" comboTime="1">
+                    <distanceToGround lower="0.52" upper="1.065"/>
+                    <transNode node="attacherJointTrailerTranspart" minY="-0.234" maxY="0.326" height="0.1"/>
+                    <schema position="1 0" rotation="0" invertX="false"/>
+                    <attachSound template="ATTACH_01" linkNode="0>"/>
+                </attacherJoint>
+                <attacherJoint node="containerAttacherJoint" jointType="hookLift" lowerRotLimit="0 40 80" upperRotLimit="0 40 80" allowsLowering="false" enableCollision="true">
+                    <schema position="0.6 0.6" rotation="0" invertX="false"/>
+                </attacherJoint>
+				<attacherJoint node="attacherJointCrane" upperRotationOffset="-0.7" moveTime="2.5" comboTime="1" forceSelectionOnAttach="true">
+				   <distanceToGround lower="0.35" upper="1.06" />
+				   <schema position="0.5 0" rotation="0" invertX="false" />
+				</attacherJoint>
+                <objectChange node="exhaust_truckM" visibilityActive="true" visibilityInactive="false"/>
+                <objectChange node="glass_clear" visibilityActive="true" visibilityInactive="false"/>
+            </attacherJointConfiguration>
+            <attacherJointConfiguration name="$l10n_configuration_exhaust_1_tint" price="0">
+                <attacherJoint node="attacherJointSemiTrailer" jointType="semitrailer" allowsJointLimitMovement="false" allowsLowering="false" lowerRotLimit="12 125 12">
+                    <schema position="1 0" rotation="0" invertX="false"/>
+                    <attachSound template="TRUCK_ATTACH_01" linkNode="0>"/>
+                </attacherJoint>
+                <attacherJoint node="attacherJointTrailer" jointType="trailer" lowerRotLimit="10 80 50" upperRotRotationOffset="0" allowsJointLimitMovement="false" comboTime="1">
+                    <distanceToGround lower="0.52" upper="1.065"/>
+                    <transNode node="attacherJointTrailerTranspart" minY="-0.234" maxY="0.326" height="0.1"/>
+                    <schema position="1 0" rotation="0" invertX="false"/>
+                    <attachSound template="ATTACH_01" linkNode="0>"/>
+                </attacherJoint>
+                <attacherJoint node="attacherJointTrailer" jointType="trailerLow" lowerRotLimit="10 80 50" upperRotRotationOffset="0" allowsJointLimitMovement="false" comboTime="1">
+                    <distanceToGround lower="0.52" upper="1.065"/>
+                    <transNode node="attacherJointTrailerTranspart" minY="-0.234" maxY="0.326" height="0.1"/>
+                    <schema position="1 0" rotation="0" invertX="false"/>
+                    <attachSound template="ATTACH_01" linkNode="0>"/>
+                </attacherJoint>
+                <attacherJoint node="containerAttacherJoint" jointType="hookLift" lowerRotLimit="0 40 80" upperRotLimit="0 40 80" allowsLowering="false" enableCollision="true">
+                    <schema position="0.6 0.6" rotation="0" invertX="false"/>
+                </attacherJoint>
+				<attacherJoint node="attacherJointCrane" upperRotationOffset="-0.7" moveTime="2.5" comboTime="1" forceSelectionOnAttach="true">
+				   <distanceToGround lower="0.35" upper="1.06" />
+				   <schema position="0.5 0" rotation="0" invertX="false" />
+				</attacherJoint>
+                <objectChange node="exhaust_truckS" visibilityActive="true" visibilityInactive="false"/>
+                <objectChange node="glass_tinted" visibilityActive="true" visibilityInactive="false"/>
+            </attacherJointConfiguration>
+            <attacherJointConfiguration name="$l10n_configuration_exhaust_2_tint" price="2300">
+                <attacherJoint node="attacherJointSemiTrailer" jointType="semitrailer" allowsJointLimitMovement="false" allowsLowering="false" lowerRotLimit="12 125 12">
+                    <schema position="1 0" rotation="0" invertX="false"/>
+                    <attachSound template="TRUCK_ATTACH_01" linkNode="0>"/>
+                </attacherJoint>
+                <attacherJoint node="attacherJointTrailer" jointType="trailer" lowerRotLimit="10 80 50" upperRotRotationOffset="0" allowsJointLimitMovement="false" comboTime="1">
+                    <distanceToGround lower="0.52" upper="1.065"/>
+                    <transNode node="attacherJointTrailerTranspart" minY="-0.234" maxY="0.326" height="0.1"/>
+                    <schema position="1 0" rotation="0" invertX="false"/>
+                    <attachSound template="ATTACH_01" linkNode="0>"/>
+                </attacherJoint>
+                <attacherJoint node="attacherJointTrailer" jointType="trailerLow" lowerRotLimit="10 80 50" upperRotRotationOffset="0" allowsJointLimitMovement="false" comboTime="1">
+                    <distanceToGround lower="0.52" upper="1.065"/>
+                    <transNode node="attacherJointTrailerTranspart" minY="-0.234" maxY="0.326" height="0.1"/>
+                    <schema position="1 0" rotation="0" invertX="false"/>
+                    <attachSound template="ATTACH_01" linkNode="0>"/>
+                </attacherJoint>
+                <attacherJoint node="containerAttacherJoint" jointType="hookLift" lowerRotLimit="0 40 80" upperRotLimit="0 40 80" allowsLowering="false" enableCollision="true">
+                    <schema position="0.6 0.6" rotation="0" invertX="false"/>
+                </attacherJoint>
+				<attacherJoint node="attacherJointCrane" upperRotationOffset="-0.7" moveTime="2.5" comboTime="1" forceSelectionOnAttach="true">
+				   <distanceToGround lower="0.35" upper="1.06" />
+				   <schema position="0.5 0" rotation="0" invertX="false" />
+				</attacherJoint>
+                <objectChange node="exhaust_truckM" visibilityActive="true" visibilityInactive="false"/>
+                <objectChange node="glass_tinted" visibilityActive="true" visibilityInactive="false"/>
+            </attacherJointConfiguration>
+        </attacherJointConfigurations>
+        <sounds>
+            <attach template="ATTACH_01" linkNode="0>"/>
+            <hydraulic template="DEFAULT_HYDRAULIC_SOUND" linkNode="0>"/>
+        </sounds>
+    </attacherJoints>
+    <frontloaderConfigurations>
+        <frontloaderConfiguration>
+            <attacherJoint node="attacherJointFasterLift" jointType="attachableFrontloader" lowerTransLimit="0 0 0" lowerRotLimit="0 0 0" moveTime="2" frontAxisLimitJoint="false">
+                <rotationNode upperRotation="0 0 0" lowerRotation="0 0 0"/>
+                <schema position="1 0.4" rotation="0" invertX="false"/>
+            </attacherJoint>
+        </frontloaderConfiguration>
+        <frontloaderConfiguration/>
+    </frontloaderConfigurations>
+    <connectionHoses>
+        <target attacherJointIndices="2 3 5" type="electric" node="electricBack" socket="electric_metal"/>
+        <target attacherJointIndices="2 3 5" type="hydraulicIn" node="hydraulicIn01" socket="hydraulic01"/>
+        <target attacherJointIndices="2 3 5" type="hydraulicIn" node="hydraulicIn02" socket="hydraulic03"/>
+        <target attacherJointIndices="2 3 5" type="hydraulicOut" node="hydraulicOut01" socket="hydraulic02"/>
+        <target attacherJointIndices="2 3 5" type="hydraulicOut" node="hydraulicOut02" socket="hydraulic04"/>
+        <target attacherJointIndices="2 3 5" type="airDoubleRed" node="airDoubleStorage" socket="air_red"/>
+        <target attacherJointIndices="2 3 5" type="airDoubleYellow" node="airDoubleControl" socket="air_yellow"/>
+        <target attacherJointIndices="6" type="hydraulicIn" node="hoseRef1" socket="hydraulic01"/>
+        <target attacherJointIndices="6" type="hydraulicOut" node="hoseRef2" socket="hydraulic01"/>
+        <target attacherJointIndices="6" type="hydraulicIn" node="hoseRef3" socket="hydraulic02"/>
+        <target attacherJointIndices="6" type="hydraulicOut" node="hoseRef4" socket="hydraulic02"/>
+    </connectionHoses>
+    <honk>
+        <sound template="HONK_LIZARD_TRUCK" linkNode="0>"/>
+    </honk>
+    <dashboard>
+        <groups>
+            <group name="MOTOR_STARTING" isMotorStarting="true"/>
+            <group name="MOTOR_ACTIVE" isMotorStarting="true" isMotorRunning="true"/>
+        </groups>
+    </dashboard>
+    <animations>
+        <animation name="wiperFrontAnimation">
+            <part node="wiper01" startTime="0.0" endTime="0.6" startRot="0 0 0" endRot="0 -13 -75"/>
+            <part node="wiper02" startTime="0.0" endTime="0.6" startRot="0 0 0" endRot="0 -15 -75"/>
+        </animation>
+        <animation name="speedDisplay">
+            <part node="speedNeedle" startTime="0" endTime="1" startRot="0 0 0" endRot="0 0 243"/>
+        </animation>
+        <animation name="rpmDisplay">
+            <part node="rpmNeedle" startTime="0" endTime="1" startRot="0 0 0" endRot="0 0 210"/>
+        </animation>
+        <animation name="lowerAxle">
+            <part node="liftAxle" startTime="0" endTime="2" startTrans="0 0 0" endTrans="0 -0.081 0"/>
+        </animation>
+        <animation name="unfoldHand">
+            <part node="handMovePart" startTime="0" endTime="2" startTrans="0 0 0" endTrans="0 0 -1.19036"/>
+            <part node="handRotPart" startTime="2" endTime="10" startRot="0 0 0" endRot="-143 0 0"/>
+            <part node="jointRot" startTime="2" endTime="4.51" startRot="0 0 0" endRot="20 0 0"/>
+            <part node="jointRot" startTime="4.51" endTime="10" startRot="20 0 0" endRot="143 0 0"/>
+        </animation>
+        <animation name="unloading">
+            <part node="containerHand" startTime="0" endTime="14" startRot="0 0 0" endRot="-35 0 0"/>
+        </animation>
+    </animations>
+    <hookLiftTrailer>
+        <jointLimits refAnimation="unfoldHand">
+            <key time="0" rotLimit="0 0 0"/>
+            <key time="0.25" rotLimit="0 0 0"/>
+            <key time="0.30" rotLimit="0 0 180"/>
+            <key time="0.50" rotLimit="0 0 180"/>
+            <key time="1" rotLimit="0 40 180"/>
+        </jointLimits>
+        <unloadingAnimation name="unloading" speed="1" reverseSpeed="-2"/>
+        <texts unloadContainer="unload_container" loadContainer="load_container" unloadArm="unload_arm" loadArm="load_arm"/>
+    </hookLiftTrailer>
+    <cylindered>
+        <movingTools>
+            <movingTool node="liftAxle" playSound="true" wheelIndices="3 4 5 6 7 8"/>
+            <movingTool node="containerHand" playSound="true">
+                <attacherJoint jointIndices="4"/>
+                <dependentPart node="containerArmHydraulic"/>
+            </movingTool>
+            <movingTool node="handRotPart" playSound="true">
+                <attacherJoint jointIndices="4"/>
+                <dependentPart node="containerArmHydraulic"/>
+            </movingTool>
+            <movingTool node="handMovePart" playSound="true">
+                <attacherJoint jointIndices="4"/>
+                <dependentPart node="soundNode_hooklift"/>
+            </movingTool>
+            <movingTool node="handLockArm">
+                <attacherJoint jointIndices="4"/>
+            </movingTool>
+        </movingTools>
+        <movingParts>
+            <movingPart node="axisFrontRightHydraulic" referencePoint="axisFrontRightHydraulicRef" referenceFrame="axisFrontRightHydraulicRef" isActiveDirty="true">
+                <translatingPart node="axisFrontRightHydraulicPunch"/>
+            </movingPart>
+            <movingPart node="axisFrontLeftHydraulic" referencePoint="axisFrontLeftHydraulicRef" referenceFrame="axisFrontLeftHydraulicRef" isActiveDirty="true">
+                <translatingPart node="axisFrontLeftHydraulicPunch"/>
+            </movingPart>
+            <movingPart node="steeringBar" referencePoint="steeringBarRef" referenceFrame="steeringBarRef" isActiveDirty="true"/>
+            <movingPart node="steeringBarTag" referencePoint="steeringBarRefTag" referenceFrame="steeringBarRefTag" isActiveDirty="true"/>
+            <movingPart node="containerArmHydraulic" referencePoint="refPoint_hooklift" referenceFrame="0>">
+                <translatingPart node="containerArmHydraulicPunch"/>
+            </movingPart>
+            <movingPart node="soundNode_hooklift" referencePoint="handMovePart" referenceFrame="0>"/>
+        </movingParts>
+        <sounds>
+            <hydraulic template="DEFAULT_HYDRAULIC_SOUND"/>
+        </sounds>
+    </cylindered>
+    <suspensions>
+        <suspension useCharacterTorso="true" weight="90" minRotation="0 -5 -5" maxRotation="0 5 5" suspensionParametersY="7 1" suspensionParametersZ="7 1"/>
+    </suspensions>
+    <ai>
+        <collisionTrigger node="aiCollisionTrigger"/>
+    </ai>
+    <foliageBending>
+        <bendingNode minX="-1.25" maxX="1.25" minZ="-4" maxZ="4" yOffset="0.5"/>
+    </foliageBending>
+    <configurationSets>
+        <configurationSet name="$l10n_configuration_semi_short">
+            <configuration name="vehicleType" index="1"/>
+            <configuration name="tensionBelts" index="2"/>
+            <configuration name="folding" index="2"/>
+            <configuration name="frontloader" index="2"/>
+        </configurationSet>
+        <configurationSet name="$l10n_configuration_semi_normal">
+            <configuration name="vehicleType" index="2"/>
+            <configuration name="tensionBelts" index="2"/>
+            <configuration name="folding" index="2"/>
+            <configuration name="frontloader" index="2"/>
+        </configurationSet>
+        <configurationSet name="$l10n_configuration_semi_long">
+            <configuration name="vehicleType" index="3"/>
+            <configuration name="tensionBelts" index="2"/>
+            <configuration name="folding" index="1"/>
+            <configuration name="frontloader" index="2"/>
+        </configurationSet>
+        <configurationSet name="$l10n_configuration_flatbed">
+            <configuration name="vehicleType" index="4"/>
+            <configuration name="tensionBelts" index="1"/>
+            <configuration name="folding" index="1"/>
+            <configuration name="frontloader" index="2"/>
+        </configurationSet>
+        <configurationSet name="$l10n_configuration_logbed">
+            <configuration name="vehicleType" index="5"/>
+            <configuration name="tensionBelts" index="3"/>
+            <configuration name="folding" index="1"/>
+            <configuration name="frontloader" index="2"/>
+        </configurationSet>
+        <configurationSet name="$l10n_configuration_hooklift">
+            <configuration name="vehicleType" index="6"/>
+            <configuration name="tensionBelts" index="3"/>
+            <configuration name="folding" index="3"/>
+            <configuration name="frontloader" index="2"/>
+        </configurationSet>
+        <configurationSet name="$l10n_configuration_hooklift2">
+            <configuration name="vehicleType" index="7"/>
+            <configuration name="tensionBelts" index="3"/>
+            <configuration name="folding" index="3"/>
+            <configuration name="frontloader" index="2"/>
+        </configurationSet>
+        <configurationSet name="$l10n_configuration_semi_single">
+            <configuration name="vehicleType" index="8"/>
+            <configuration name="tensionBelts" index="2"/>
+            <configuration name="folding" index="2"/>
+            <configuration name="frontloader" index="2"/>
+        </configurationSet>
+        <configurationSet name="$l10n_configuration_semi_single_FL">
+            <configuration name="vehicleType" index="9"/>
+            <configuration name="tensionBelts" index="2"/>
+            <configuration name="folding" index="2"/>
+            <configuration name="frontloader" index="1"/>
+        </configurationSet>
+        <configurationSet name="$l10n_configuration_semi_sleeper">
+            <configuration name="vehicleType" index="10"/>
+            <configuration name="tensionBelts" index="2"/>
+            <configuration name="folding" index="2"/>
+            <configuration name="frontloader" index="2"/>
+        </configurationSet>
+        <configurationSet name="$l10n_configuration_semi_sleeper_long">
+            <configuration name="vehicleType" index="11"/>
+            <configuration name="tensionBelts" index="2"/>
+            <configuration name="folding" index="1"/>
+            <configuration name="frontloader" index="2"/>
+        </configurationSet>
+    </configurationSets>
+    <vehicleTypeConfigurations>
+        <vehicleTypeConfiguration name="Semi (Short)" price="0" vehicleType="woodTruck">
+            <objectChange node="0>" centerOfMassActive="0 0.43 1.65"/>
+            <objectChange node="chassi_ext" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardanShortSemi" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="chassi" translationActive="0 0 0.833" translationInactive="0 0 -1.082"/>
+            <objectChange node="tagAxleMain" translationActive="0 0.655 -1.533" translationInactive="0 0.547 -0.146"/>
+            <objectChange node="tagAxleMain" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="rack" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="worklightBackStatic" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="workLightBack" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="connectorLong" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="TagcoveredPaint" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="TagcoveredDesign" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="Tag1coveredPaint" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="Tag1coveredDesign" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="sidemarkersCoveredTag" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardanTagToRearConnector" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardanTagToRear" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardanTagToGearbox" visibilityActive="false" visibilityInactive="true"/>
+        </vehicleTypeConfiguration>
+        <vehicleTypeConfiguration name="Semi (Normal)" price="1500" vehicleType="woodTruck">
+            <objectChange node="0>" centerOfMassActive="0 0.43 0.5"/>
+            <objectChange node="chassi_ext" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardanNormalSemi" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="chassi" translationActive="0 0 0" translationInactive="0 0 -1.082"/>
+            <objectChange node="tagAxleMain" translationActive="0 0.655 -1.533" translationInactive="0 0.547 -0.146"/>
+            <objectChange node="tagAxleMain" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="rack" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="connectorShort" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="TagcoveredPaint" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="TagcoveredDesign" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="Tag1coveredPaint" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="Tag1coveredDesign" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="sidemarkersCoveredTag" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardanTagToRearConnector" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardanTagToRear" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardanTagToGearbox" visibilityActive="false" visibilityInactive="true"/>
+        </vehicleTypeConfiguration>
+        <vehicleTypeConfiguration name="Semi (long)" price="3600" vehicleType="woodTruck">
+            <objectChange node="0>" centerOfMassActive="0 0.43 0.051"/>
+            <objectChange node="rack" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="cardanFlatbed" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="connectorLong" visibilityActive="true" visibilityInactive="false"/>
+        </vehicleTypeConfiguration>
+        <vehicleTypeConfiguration name="Flat bed" price="4500" vehicleType="woodTruck">
+            <objectChange node="0>" centerOfMassActive="0 0.1 0.47"/>
+            <objectChange node="flatbed" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="cardanFlatbed" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="fifthWheel" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="worklightBackStatic" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="workLightBack" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="flatbed_col" compoundChildInactive="false" compoundChildActive="true"/>
+            <objectChange node="flatbed_col1" compoundChildInactive="false" compoundChildActive="true"/>
+        </vehicleTypeConfiguration>
+        <vehicleTypeConfiguration name="Log bed" price="4700" vehicleType="woodTruck">
+            <objectChange node="0>" centerOfMassActive="0 0.1 0.47"/>
+            <objectChange node="woodConfig" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="cardanFlatbed" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="fifthWheel" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="worklightBackStatic" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="colRack" compoundChildInactive="false" compoundChildActive="true"/>
+            <objectChange node="colBottom" compoundChildInactive="false" compoundChildActive="true"/>
+            <objectChange node="bunk1ColPart1" compoundChildInactive="false" compoundChildActive="true"/>
+            <objectChange node="bunk1ColPart2" compoundChildInactive="false" compoundChildActive="true"/>
+            <objectChange node="bunk1ColPart3" compoundChildInactive="false" compoundChildActive="true"/>
+            <objectChange node="bunk2ColPart1" compoundChildInactive="false" compoundChildActive="true"/>
+            <objectChange node="bunk2ColPart2" compoundChildInactive="false" compoundChildActive="true"/>
+            <objectChange node="bunk2ColPart3" compoundChildInactive="false" compoundChildActive="true"/>
+            <objectChange node="bunk3ColPart1" compoundChildInactive="false" compoundChildActive="true"/>
+            <objectChange node="bunk3ColPart2" compoundChildInactive="false" compoundChildActive="true"/>
+            <objectChange node="bunk3ColPart3" compoundChildInactive="false" compoundChildActive="true"/>
+            <objectChange node="bunk4ColPart1" compoundChildInactive="false" compoundChildActive="true"/>
+            <objectChange node="bunk4ColPart2" compoundChildInactive="false" compoundChildActive="true"/>
+            <objectChange node="bunk4ColPart3" compoundChildInactive="false" compoundChildActive="true"/>
+        </vehicleTypeConfiguration>
+        <vehicleTypeConfiguration name="hooklift" price="7000" vehicleType="hookLiftTruck">
+            <objectChange node="0>" centerOfMassActive="0 0 -0.433"/>
+            <objectChange node="0>" massActive="14000"/>
+            <objectChange node="itrunner_vis" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="fueltanksBack" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="cardanHooklift" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="fifthWheel" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="rearAxles" translationActive="0 0 0.374" translationInactive="0 0 -0.05"/>
+            <objectChange node="tagAxleMain" translationActive="0 0.47 -0.146" translationInactive="0 0.547 -0.146"/>
+            <objectChange node="allFenders" translationActive="0 0 0.374" translationInactive="0 0 -0.05"/>
+            <objectChange node="cardansChassi" translationActive="0 0 0.374" translationInactive="0 0 0"/>
+            <objectChange node="chassi_ext_hooklift" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="rack" visibilityActive="false"/>
+            <objectChange node="chassi" translationActive="0 0 -2.223" translationInactive="0 0 -1.082"/>
+            <objectChange node="colPartHooklift" compoundChildInactive="false" compoundChildActive="true"/>
+        </vehicleTypeConfiguration>
+        <vehicleTypeConfiguration name="hooklift2" price="7000" vehicleType="hookLiftTruck">
+            <objectChange node="0>" centerOfMassActive="0 0 -0.433"/>
+            <objectChange node="0>" massActive="14000"/>
+            <objectChange node="itrunner_vis" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="cardanHooklift2" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="fifthWheel" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="rearAxles" translationActive="0 0 1.1" translationInactive="0 0 0"/>
+            <objectChange node="allFenders" translationActive="0 0 1.1" translationInactive="0 0 0"/>
+            <objectChange node="cardansChassi" translationActive="0 0 1.1" translationInactive="0 0 0"/>
+            <objectChange node="chassi_ext_hooklift" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="chassi" translationActive="0 0 -2.223" translationInactive="0 0 -1.082"/>
+            <objectChange node="colPartHooklift" compoundChildInactive="false" compoundChildActive="true"/>
+            <objectChange node="tagAxleMain" translationActive="0 0.655 -1.533" translationInactive="0 0.547 -0.146"/>
+            <objectChange node="tagAxleMain" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="rack" visibilityActive="false"/>
+            <objectChange node="TagcoveredPaint" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="TagcoveredDesign" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="Tag1coveredPaint" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="Tag1coveredDesign" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="sidemarkersCoveredTag" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardanTagToRearConnector" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardanTagToRear" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardanTagToGearbox" visibilityActive="false" visibilityInactive="true"/>
+        </vehicleTypeConfiguration>
+        <vehicleTypeConfiguration name="Semi (Single)" price="0" vehicleType="woodTruck">
+            <objectChange node="0>" centerOfMassActive="0 0.43 1.65"/>
+            <objectChange node="chassi_ext" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardanSingleSemi" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="chassi" translationActive="0 0 2.267" translationInactive="0 0 -1.082"/>
+            <objectChange node="rearAxles" translationActive="0 0 -1.412" translationInactive="0 0 0"/>
+            <objectChange node="allFenders" translationActive="0 0 -1.412" translationInactive="0 0 0"/>
+            <objectChange node="cardansChassi" translationActive="0 0 -1.412" translationInactive="0 0 0"/>
+            <objectChange node="mudflaps" translationActive="0 0.869 -2.194" translationInactive="0 0.869 -3.591"/>
+            <objectChange node="fifth_vis" translationActive="0 0.65 -1.575" translationInactive="0 0.65 -0.915"/>
+            <objectChange node="fifth_vis" scaleActive="0.817 1 1" scaleInactive="1 1 1"/>
+            <objectChange node="axle2" translationActive="0 0 1.403" translationInactive="0 0 0"/>
+            <objectChange node="axle2" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="chassi_blocks" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="axle2_fender_coveredPaint1" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="axle2_fender_coveredPaint2" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="axle2_fender_coveredDesign1" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="axle2_fender_coveredDesign2" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="axle2_fender_sideMarker1" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="axle2_fender_sideMarker2" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="fender_long_group" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardan05" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardan06" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardan07" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="tagAxleMain" translationActive="0 0.655 -1.533" translationInactive="0 0.547 -0.146"/>
+            <objectChange node="tagAxleMain" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="rack" visibilityActive="false"/>
+            <objectChange node="connectorLong" visibilityActive="false"/>
+            <objectChange node="TagcoveredPaint" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="TagcoveredDesign" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="Tag1coveredPaint" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="Tag1coveredDesign" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="sidemarkersCoveredTag" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardanTagToRearConnector" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardanTagToRear" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardanTagToGearbox" visibilityActive="false" visibilityInactive="true"/>
+        </vehicleTypeConfiguration>
+        <vehicleTypeConfiguration name="Semi (Single FL)" price="0" vehicleType="woodTruck">
+            <objectChange node="0>" centerOfMassActive="0 0.43 1.65"/>
+            <objectChange node="chassi_ext" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="toolboxes" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardanSingleSemi" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="chassi" translationActive="0 0 2.267" translationInactive="0 0 -1.082"/>
+            <objectChange node="rearAxles" translationActive="0 0 -1.412" translationInactive="0 0 0"/>
+            <objectChange node="wheel_shift_left" translationActive="0.067 0 0" translationInactive="0 0 0"/>
+            <objectChange node="wheel_shift_right" translationActive="-0.067 0 0" translationInactive="0 0 0"/>
+            <objectChange node="allFenders" translationActive="0 0 -1.412" translationInactive="0 0 0"/>
+            <objectChange node="cardansChassi" translationActive="0 0 -1.412" translationInactive="0 0 0"/>
+            <objectChange node="mudflaps" translationActive="0 0.869 -2.194" translationInactive="0 0.869 -3.591"/>
+            <objectChange node="fifth_vis" translationActive="0 0.65 -1.575" translationInactive="0 0.65 -0.915"/>
+            <objectChange node="fifth_vis" scaleActive="0.817 1 1" scaleInactive="1 1 1"/>
+			<objectChange node="fueltanksFront" translationActive="0 1.033 1.218" translationInactive="0 1.006 0.544"/>
+			<objectChange node="fueltanksFront" scaleActive="1 1 0.87" scaleInactive="1 1 1"/>
+            <objectChange node="axle2" translationActive="0 0 1.403" translationInactive="0 0 0"/>
+            <objectChange node="axle2" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="chassi_blocks" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="toolbarFasterLift" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="allFenders" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardan05" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardan06" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardan07" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="tagAxleMain" translationActive="0 0.655 -1.533" translationInactive="0 0.547 -0.146"/>
+            <objectChange node="tagAxleMain" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="rack" visibilityActive="false"/>
+            <objectChange node="connectorLong" visibilityActive="false"/>
+            <objectChange node="cardanTagToRearConnector" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardanTagToRear" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardanTagToGearbox" visibilityActive="false" visibilityInactive="true"/>
+        </vehicleTypeConfiguration>
+        <vehicleTypeConfiguration name="Semi (Sleeper)" price="3500" vehicleType="woodTruck">
+            <objectChange node="0>" centerOfMassActive="0 0.43 0.5"/>
+            <objectChange node="chassi_ext" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardanNormalSemi" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="sleeperConfig" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="chassi" translationActive="0 0 0" translationInactive="0 0 -1.082"/>
+            <objectChange node="connectorLong" translationActive="0 0.166 1.764" translationInactive="0 0.166 2.02"/>
+            <objectChange node="workLightBack" translationActive="0.668 3.075 -0.245" translationInactive="0.668 2.737 0.475"/>
+            <objectChange node="tagAxleMain" translationActive="0 0.655 -1.533" translationInactive="0 0.547 -0.146"/>
+            <objectChange node="tagAxleMain" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="rack" visibilityActive="false"/>
+            <objectChange node="connectorLong" visibilityActive="true"/>
+            <objectChange node="TagcoveredPaint" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="TagcoveredDesign" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="Tag1coveredPaint" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="Tag1coveredDesign" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="sidemarkersCoveredTag" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardanTagToRearConnector" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardanTagToRear" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="cardanTagToGearbox" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="sleeper_col" compoundChildInactive="false" compoundChildActive="true"/>
+        </vehicleTypeConfiguration>
+        <vehicleTypeConfiguration name="Semi (sleeper long)" price="5600" vehicleType="woodTruck">
+            <objectChange node="0>" centerOfMassActive="0 0.43 0.051"/>
+            <objectChange node="sleeperConfig" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="rack" visibilityActive="false"/>
+            <objectChange node="workLightBack" translationActive="0.668 3.075 -0.245" translationInactive="0.668 2.737 0.475"/>
+            <objectChange node="connectorLong" visibilityActive="true"/>
+            <objectChange node="cardanFlatbed" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="sleeper_col" compoundChildInactive="false" compoundChildActive="true"/>
+        </vehicleTypeConfiguration>
+    </vehicleTypeConfigurations>
+    <tensionBelts>
+        <tensionBeltsConfigurations>
+            <tensionBeltsConfiguration name="Flatbed" price="0">
+                <tensionBelts linkNode="tensionBelts" jointNode="trucks_main_component1" width="0.1" maxEdgeLength="0.1" geometryBias="0.01" ratchetPosition="0.4" defaultOffset="-0.25" defaultOffsetSide="0.1" defaultHeight="2.75" interactionRadius="1.5" totalInteractionRadius="6.5" activationTrigger="beltActivationTrigger">
+                    <tensionBelt startNode="beltStart1" endNode="beltEnd1" offsetLeft="0.95"/>
+                    <tensionBelt startNode="beltStart2" endNode="beltEnd2"/>
+                    <tensionBelt startNode="beltStart3" endNode="beltEnd3"/>
+                    <tensionBelt startNode="beltStart4" endNode="beltEnd4"/>
+                    <tensionBelt startNode="beltStart5" endNode="beltEnd5"/>
+                    <tensionBelt startNode="beltStart6" endNode="beltEnd6"/>
+                    <tensionBelt startNode="beltStart7" endNode="beltEnd7"/>
+                    <tensionBelt startNode="beltStart8" endNode="beltEnd8"/>
+                    <tensionBelt startNode="beltStart9" endNode="beltEnd9" offsetRight="0.8"/>
+                </tensionBelts>
+            </tensionBeltsConfiguration>
+            <tensionBeltsConfiguration name="None" price="0"/>
+            <tensionBeltsConfiguration name="logbed" price="0">
+                <tensionBelts linkNode="logLinkNode" rootNode="trucks_main_component1" jointNode="trucks_main_component1" width="0.075" maxEdgeLength="0.1" geometryBias="0.01" ratchetPosition="0.2" defaultOffset="-0.45" defaultOffsetSide="0.1" defaultHeight="3" interactionRadius="1.75" totalInteractionRadius="3.5" activationTrigger="beltActivationTrigger">
+                    <tensionBelt startNode="logBeltStart1" endNode="logBeltEnd1" offsetLeft="0.85"/>
+                    <tensionBelt startNode="logBeltStart2" endNode="logBeltEnd2"/>
+                    <tensionBelt startNode="logBeltStart3" endNode="logBeltEnd3"/>
+                    <tensionBelt startNode="logBeltStart4" endNode="logBeltEnd4" offsetRight="0.85"/>
+                </tensionBelts>
+            </tensionBeltsConfiguration>
+        </tensionBeltsConfigurations>
+    </tensionBelts>
+    <foldable>
+        <foldingConfigurations>
+            <foldingConfiguration name="tagAxle">
+                <foldingParts startMoveDirection="-1" turnOnFoldDirection="-1">
+                    <foldingPart animationName="lowerAxle" speedScale="1"/>
+                </foldingParts>
+            </foldingConfiguration>
+            <foldingConfiguration name="None">
+                <foldingParts startMoveDirection="-1" turnOnFoldDirection="-1"/>
+            </foldingConfiguration>
+            <foldingConfiguration name="Hooklift">
+                <foldingParts startMoveDirection="-1" turnOnFoldDirection="-1">
+                    <foldingPart animationName="unfoldHand" speedScale="1"/>
+                </foldingParts>
+            </foldingConfiguration>
+        </foldingConfigurations>
+    </foldable>
+    <designConfigurations title="$l10n_configuration_fenders">
+        <designConfiguration name="$l10n_configuration_covered_paint" price="1500">
+            <objectChange node="coveredPaint" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="sidemarkersCovered" visibilityActive="true" visibilityInactive="false"/>
+        </designConfiguration>
+        <designConfiguration name="$l10n_configuration_covered_design" price="1500">
+            <objectChange node="coveredDesign" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="sidemarkersCovered" visibilityActive="true" visibilityInactive="false"/>
+        </designConfiguration>
+        <designConfiguration name="$l10n_configuration_half_paint" price="0">
+            <objectChange node="halfPaint" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="sidemarkersHalf" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="mudflaps" visibilityActive="true" visibilityInactive="false"/>
+        </designConfiguration>
+        <designConfiguration name="$l10n_configuration_half_design" price="0">
+            <objectChange node="halfDesign" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="sidemarkersHalf" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="mudflaps" visibilityActive="true" visibilityInactive="false"/>
+        </designConfiguration>
+        <designConfiguration name="$l10n_configuration_long_paint" price="500">
+            <objectChange node="longPaint" visibilityActive="true" visibilityInactive="false"/>
+        </designConfiguration>
+        <designConfiguration name="$l10n_configuration_long_design" price="500">
+            <objectChange node="longDesign" visibilityActive="true" visibilityInactive="false"/>
+        </designConfiguration>
+        <designConfiguration name="$l10n_configuration_mudflaps" price="200">
+            <objectChange node="mudflaps" visibilityActive="true" visibilityInactive="false"/>
+        </designConfiguration>
+        <designConfiguration name="$l10n_configuration_nofenders" price="200"/>
+    </designConfigurations>
+    <baseMaterial>
+        <material name="truckS_mat" baseNode="truckS_color">
+            <shaderParameter name="colorMat0" value="SHARED_BLACK2"/>
+            <shaderParameter name="colorMat5" value="0.8 0.8 0.8 2"/>
+        </material>
+        <material name="truckM_mat" baseNode="truckM_color">
+            <shaderParameter name="colorMat0" value="SHARED_BLACK2"/>
+            <shaderParameter name="colorMat5" value="0.8 0.8 0.8 2"/>
+        </material>
+        <material name="truckL_mat" baseNode="truckL_color">
+            <shaderParameter name="colorMat0" value="SHARED_BLACK2"/>
+            <shaderParameter name="colorMat5" value="0.8 0.8 0.8 2"/>
+        </material>
+        <material name="bumper_mat" baseNode="bumper_color">
+			<shaderParameter name="colorMat0" value="SHARED_BLACK2"/>
+            <shaderParameter name="colorMat5" value="0.8 0.8 0.8 2"/>
+        </material>
+    </baseMaterial>
+    <baseMaterialConfigurations price="1000" useDefaultColors="true">
+        <baseMaterialConfiguration name="GOLD OLD" color="KRONE_YELLOW1" material="6" price="500"/>
+        <baseMaterialConfiguration name="RED OLD" color="CASEIH_RED1" material="6" price="500"/>
+        <baseMaterialConfiguration name="WHITE OLD" color="SHARED_WHITE2" material="6" price="500"/>
+        <baseMaterialConfiguration name="BLACK OLD" color="SHARED_BLACK2" material="6" price="500"/>
+        <baseMaterialConfiguration name="BLUE OLD" color="NEWHOLLAND_BLUE1" material="6" price="500"/>
+        <baseMaterialConfiguration name="GREEN OLD" color="KRONE_GREEN1" material="6" price="500"/>
+        <baseMaterialConfiguration name="YELLOW OLD" color="JOHNDEERE_YELLOW1" material="6" price="500"/>
+        <baseMaterialConfiguration name="ORANGE OLD" color="STARA_ORANGE" material="6" price="500"/>
+        <baseMaterialConfiguration name="GOLD METALLIC" color="KRONE_YELLOW1" material="3" price="2300"/>
+        <baseMaterialConfiguration name="RED METALLIC" color="CASEIH_RED1" material="3" price="2300"/>
+        <baseMaterialConfiguration name="WHITE METALLIC" color="SHARED_WHITE2" material="3" price="2300"/>
+        <baseMaterialConfiguration name="BLACK METALLIC" color="SHARED_BLACK2" material="3" price="2300"/>
+        <baseMaterialConfiguration name="BLUE METALLIC" color="NEWHOLLAND_BLUE1" material="3" price="2300"/>
+        <baseMaterialConfiguration name="GREEN METALLIC" color="KRONE_GREEN1" material="3" price="2300"/>
+        <baseMaterialConfiguration name="YELLOW METALLIC" color="JOHNDEERE_YELLOW1" material="3" price="2300"/>
+        <baseMaterialConfiguration name="ORANGE METALLIC" color="STARA_ORANGE" material="3" price="2300"/>
+        <baseMaterialConfiguration name="TAN MATTE" color="KRONE_YELLOW1" material="1" price="1500"/>
+        <baseMaterialConfiguration name="RED MATTE" color="CASEIH_RED1" material="1" price="1500"/>
+        <baseMaterialConfiguration name="WHITE MATTE" color="SHARED_WHITE2" material="1" price="1500"/>
+        <baseMaterialConfiguration name="BLACK MATTE" color="SHARED_BLACK2" material="1" price="1500"/>
+        <baseMaterialConfiguration name="BLUE MATTE" color="NEWHOLLAND_BLUE1" material="1" price="1500"/>
+        <baseMaterialConfiguration name="GREEN MATTE" color="KRONE_GREEN1" material="1" price="1500"/>
+        <baseMaterialConfiguration name="YELLOW MATTE" color="JOHNDEERE_YELLOW1" material="1" price="1500"/>
+        <baseMaterialConfiguration name="ORANGE MATTE" color="STARA_ORANGE" material="1" price="1500"/>
+        <baseMaterialConfiguration name="TAN SATIN" color="KRONE_YELLOW1" material="27" price="1400"/>
+        <baseMaterialConfiguration name="RED SATIN" color="CASEIH_RED1" material="27" price="1400"/>
+        <baseMaterialConfiguration name="WHITE SATIN" color="SHARED_WHITE2" material="27" price="1400"/>
+        <baseMaterialConfiguration name="BLACK SATIN" color="SHARED_BLACK2" material="27" price="1400"/>
+        <baseMaterialConfiguration name="BLUE SATIN" color="NEWHOLLAND_BLUE1" material="27" price="1400"/>
+        <baseMaterialConfiguration name="GREEN SATIN" color="KRONE_GREEN1" material="27" price="1400"/>
+        <baseMaterialConfiguration name="YELLOW SATIN" color="JOHNDEERE_YELLOW1" material="27" price="1400"/>
+        <baseMaterialConfiguration name="ORANGE SATIN" color="STARA_ORANGE" material="27" price="1400"/>
+        <material name="truckS_mat" shaderParameter="colorMat0"/>
+        <material name="truckM_mat" shaderParameter="colorMat0"/>
+        <material name="truckL_mat" shaderParameter="colorMat0"/>
+        <material name="bumper_mat" shaderParameter="colorMat0"/>
+    </baseMaterialConfigurations>
+    <designMaterialConfigurations price="1000" useDefaultColors="true">
+        <designMaterialConfiguration name="Polished Metal" color="0.8 0.8 0.8 3" material="3" price="100"/>
+        <designMaterialConfiguration name="Chrome" color="0.8 0.8 0.8 2" material="2" price="4500"/>
+        <designMaterialConfiguration name="Stainless Steel" color="0.7 0.7 0.7 8" material="8" price="100"/>
+        <designMaterialConfiguration name="Tan" color="KRONE_YELLOW1" material="27" price="100"/>
+        <designMaterialConfiguration name="Challenger Yellow" color="CHALLENGER_YELLOW1" material="6" price="100"/>
+        <designMaterialConfiguration name="Challenger Orange" color="CHALLENGER_ORANGE1" material="6" price="100"/>
+        <designMaterialConfiguration name="JD Green" color="JOHNDEERE_GREEN1" material="6" price="100"/>
+        <designMaterialConfiguration name="Dark Blue" color="0 0 0.2 6" material="6" price="100"/>
+        <designMaterialConfiguration name="RED OLD" color="CASEIH_RED1" material="6" price="500"/>
+        <designMaterialConfiguration name="WHITE OLD" color="SHARED_WHITE2" material="6" price="500"/>
+        <designMaterialConfiguration name="GOLD OLD" color="KRONE_YELLOW1" material="6" price="500"/>
+        <designMaterialConfiguration name="BLACK OLD" color="SHARED_BLACK2" material="6" price="500"/>
+        <designMaterialConfiguration name="BLUE OLD" color="NEWHOLLAND_BLUE1" material="6" price="500"/>
+        <designMaterialConfiguration name="GREEN OLD" color="KRONE_GREEN1" material="6" price="500"/>
+        <designMaterialConfiguration name="YELLOW OLD" color="JOHNDEERE_YELLOW1" material="6" price="500"/>
+        <designMaterialConfiguration name="ORANGE OLD" color="STARA_ORANGE" material="6" price="500"/>
+        <designMaterialConfiguration name="RED METALLIC" color="CASEIH_RED1" material="3" price="2300"/>
+        <designMaterialConfiguration name="WHITE METALLIC" color="SHARED_WHITE2" material="3" price="2300"/>
+        <designMaterialConfiguration name="GOLD METALLIC" color="KRONE_YELLOW1" material="3" price="2300"/>
+        <designMaterialConfiguration name="BLACK METALLIC" color="SHARED_BLACK2" material="3" price="2300"/>
+        <designMaterialConfiguration name="BLUE METALLIC" color="NEWHOLLAND_BLUE1" material="3" price="2300"/>
+        <designMaterialConfiguration name="GREEN METALLIC" color="KRONE_GREEN1" material="3" price="2300"/>
+        <designMaterialConfiguration name="YELLOW METALLIC" color="JOHNDEERE_YELLOW1" material="3" price="2300"/>
+        <designMaterialConfiguration name="ORANGE METALLIC" color="STARA_ORANGE" material="3" price="2300"/>
+        <designMaterialConfiguration name="RED SATIN" color="CASEIH_RED1" material="27" price="1400"/>
+        <designMaterialConfiguration name="WHITE SATIN" color="SHARED_WHITE2" material="27" price="1400"/>
+        <designMaterialConfiguration name="TAN SATIN" color="KRONE_YELLOW1" material="27" price="1400"/>
+        <designMaterialConfiguration name="BLACK SATIN" color="SHARED_BLACK2" material="27" price="1400"/>
+        <designMaterialConfiguration name="BLUE SATIN" color="NEWHOLLAND_BLUE1" material="27" price="1400"/>
+        <designMaterialConfiguration name="GREEN SATIN" color="KRONE_GREEN1" material="27" price="1400"/>
+        <designMaterialConfiguration name="YELLOW SATIN" color="JOHNDEERE_YELLOW1" material="27" price="1400"/>
+        <designMaterialConfiguration name="ORANGE SATIN" color="STARA_ORANGE" material="27" price="1400"/>
+        <material name="truckS_mat" shaderParameter="colorMat5"/>
+        <material name="truckM_mat" shaderParameter="colorMat5"/>
+        <material name="truckL_mat" shaderParameter="colorMat5"/>
+        <material name="bumper_mat" shaderParameter="colorMat5"/>
+    </designMaterialConfigurations>
+    <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
+    <washable dirtDuration="90" washDuration="1" workMultiplier="3" fieldMultiplier="2"/>
+    <i3dMappings>
+        <i3dMapping id="trucks_main_component1" node="0>"/>
+        <i3dMapping id="truckS_vis" node="0>0"/>
+        <i3dMapping id="truckS_color" node="0>6|5"/>
+        <i3dMapping id="truckM_color" node="0>4|3|2|0|0"/>
+        <i3dMapping id="truckL_color" node="0>4|3|4|0|0"/>
+        <i3dMapping id="bumper_color" node="0>3|1|1|0"/>
+        <i3dMapping id="axisFrontLeft" node="0>0|0|0"/>
+        <i3dMapping id="wheelFrontLeft" node="0>0|0|0|0"/>
+        <i3dMapping id="steeringBar" node="0>0|0|0|1"/>
+        <i3dMapping id="axisFrontLeftHydraulicRef" node="0>0|0|0|2"/>
+        <i3dMapping id="axisFrontRight" node="0>0|0|1"/>
+        <i3dMapping id="wheelFrontRight" node="0>0|0|1|0"/>
+        <i3dMapping id="steeringBarRef" node="0>0|0|1|1"/>
+        <i3dMapping id="axisFrontRightHydraulicRef" node="0>0|0|1|2"/>
+        <i3dMapping id="rearAxles" node="0>4|2"/>
+        <i3dMapping id="allFenders" node="0>4|3"/>
+        <i3dMapping id="wheel_shift_left" node="0>4|2|0|0"/>
+        <i3dMapping id="wheel_shift_right" node="0>4|2|0|1"/>
+        <i3dMapping id="wheel_rear_left1" node="0>4|2|0|0|0"/>
+        <i3dMapping id="wheel_rear_right1" node="0>4|2|0|1|0"/>
+        <i3dMapping id="wheel_rear_left2" node="0>4|2|1|0"/>
+        <i3dMapping id="wheel_rear_right2" node="0>4|2|1|1"/>
+        <i3dMapping id="tagAxleMain" node="0>4|2|2"/>
+        <i3dMapping id="axisTagLeft" node="0>4|2|2|0|0"/>
+        <i3dMapping id="wheelTagLeft" node="0>4|2|2|0|0|0"/>
+        <i3dMapping id="steeringBarTag" node="0>4|2|2|0|0|1"/>
+        <i3dMapping id="axisTagRight" node="0>4|2|2|0|1"/>
+        <i3dMapping id="wheelTagRight" node="0>4|2|2|0|1|0"/>
+        <i3dMapping id="steeringBarRefTag" node="0>4|2|2|0|1|1"/>
+        <i3dMapping id="liftAxle" node="0>4|2|2|0"/>
+        <i3dMapping id="sleeperStatic1" node="0>3|7|9|0|0"/>
+        <i3dMapping id="sleeperStatic2" node="0>3|7|10|0|0"/>
+        <i3dMapping id="worklightBackRackStatic" node="0>6|0|0"/>
+        <i3dMapping id="defaultLightStatic" node="0>0|1|0|0"/>
+        <i3dMapping id="lightsGlassStatic" node="0>0|1|6|0"/>
+        <i3dMapping id="turnlightFrontLeftStatic" node="0>0|1|0|1"/>
+        <i3dMapping id="turnlightBackLeftStatic" node="0>4|1|4|2"/>
+        <i3dMapping id="turnlightFrontRightStatic" node="0>0|1|0|2"/>
+        <i3dMapping id="turnlightBackRightStatic" node="0>4|1|5|2"/>
+        <i3dMapping id="reverseLightStatic" node="0>4|1|3|0"/>
+        <i3dMapping id="backlightStatic" node="0>4|1|4|0"/>
+        <i3dMapping id="backlightStatic1" node="0>4|1|5|0"/>
+        <i3dMapping id="worklightFrontStatic" node="0>0|1|0|3"/>
+        <i3dMapping id="worklightBackStatic" node="0>6|0|1"/>
+        <i3dMapping id="highBeamHigh" node="0>0|1|1|0"/>
+        <i3dMapping id="frontLightHigh" node="0>0|1|1|1"/>
+        <i3dMapping id="highBeamLow" node="0>0|1|1|2"/>
+        <i3dMapping id="frontLightLow" node="0>0|1|1|3"/>
+        <i3dMapping id="workLightBackLow" node="0>0|1|2|2|0"/>
+        <i3dMapping id="workLightBack" node="0>0|1|2|2"/>
+        <i3dMapping id="workLightFrontLow" node="0>0|1|2|0"/>
+        <i3dMapping id="workLightBackHigh1" node="0>0|1|2|2|1"/>
+        <i3dMapping id="workLightFrontHigh1" node="0>0|1|2|1"/>
+        <i3dMapping id="turnLightLeftFront" node="0>0|1|3|0"/>
+        <i3dMapping id="turnLightRightFront" node="0>0|1|3|1"/>
+        <i3dMapping id="turnLightLeftBack" node="0>4|1|0|0"/>
+        <i3dMapping id="turnLightRightBack" node="0>4|1|0|1"/>
+        <i3dMapping id="backLightsHigh1" node="0>4|1|1|0"/>
+        <i3dMapping id="reverseLight" node="0>4|1|2|0"/>
+        <i3dMapping id="outdoorCameraTarget" node="0>0|2|0"/>
+        <i3dMapping id="outdoorCamera1" node="0>0|2|0|0"/>
+        <i3dMapping id="indoorCamera1" node="0>0|2|1"/>
+        <i3dMapping id="cameraRaycastNode1" node="0>0|2|2"/>
+        <i3dMapping id="cameraRaycastNode2" node="0>0|2|3"/>
+        <i3dMapping id="cameraRaycastNode3" node="0>0|2|4"/>
+        <i3dMapping id="shadowFocusBox" node="0>0|2|5"/>
+        <i3dMapping id="exitPoint" node="0>0|3"/>
+        <i3dMapping id="attacherJointSemiTrailer" node="0>4|4|0|0|0"/>
+        <i3dMapping id="attacherJointTrailer" node="0>4|6|0|0|0"/>
+        <i3dMapping id="attacherJointTrailerTranspart" node="0>4|6|0|0"/>
+        <i3dMapping id="steeringWheel" node="0>0|5|0"/>
+        <i3dMapping id="playerLeftHandTarget" node="0>0|5|0|0"/>
+        <i3dMapping id="playerRightHandTarget" node="0>0|5|0|1"/>
+        <i3dMapping id="cardan01" node="0>6|7|0|0"/>
+        <i3dMapping id="cardanNormalSemi" node="0>6|7|1|0"/>
+        <i3dMapping id="cardanShortSemi" node="0>6|7|3|0"/>
+        <i3dMapping id="cardanFlatbed" node="0>6|7|2|0"/>
+        <i3dMapping id="cardanHooklift" node="0>6|7|4|0"/>
+        <i3dMapping id="cardanHooklift2" node="0>6|7|5|0"/>
+        <i3dMapping id="cardanSingleSemi" node="0>6|7|6|0"/>
+        <i3dMapping id="cardan04" node="0>4|7|0|0"/>
+        <i3dMapping id="cardan05" node="0>4|7|1|0"/>
+        <i3dMapping id="cardan06" node="0>4|7|2|0"/>
+        <i3dMapping id="cardan07" node="0>4|7|3|0"/>
+        <i3dMapping id="cardanTagToRearConnector" node="0>4|7|4|0"/>
+        <i3dMapping id="cardanTagToRear" node="0>4|7|5|0"/>
+        <i3dMapping id="cardanTagToGearbox" node="0>4|7|6|0"/>
+        <i3dMapping id="gasPedal" node="0>0|7|0"/>
+        <i3dMapping id="playerRightFootTargetGasRef" node="0>0|7|0|0"/>
+        <i3dMapping id="brakePedal" node="0>0|7|1"/>
+        <i3dMapping id="playerRightFootTargetBrake" node="0>0|7|1|0"/>
+        <i3dMapping id="wiper01" node="0>0|7|2|0"/>
+        <i3dMapping id="wiper02" node="0>0|7|3|0"/>
+        <i3dMapping id="playerSkin" node="0>0|8|0"/>
+        <i3dMapping id="playerRightFootTarget" node="0>0|8|1"/>
+        <i3dMapping id="playerLeftFootTarget" node="0>0|8|2"/>
+        <i3dMapping id="playerRightFootTargetGas" node="0>0|8|3"/>
+        <i3dMapping id="aiCollisionTrigger" node="0>0|9|0"/>
+        <i3dMapping id="exhaustParticle01" node="0>3|0|1|1"/>
+        <i3dMapping id="exhaustParticle02" node="0>3|0|1|2"/>
+        <i3dMapping id="exhaustParticle03" node="0>3|0|0|0|0"/>
+        <i3dMapping id="exhaustParticle04" node="0>3|0|0|0|1"/>
+        <i3dMapping id="axisFrontLeftHydraulic" node="0>0|11|0"/>
+        <i3dMapping id="axisFrontLeftHydraulicPunch" node="0>0|11|0|0"/>
+        <i3dMapping id="axisFrontRightHydraulic" node="0>0|11|1"/>
+        <i3dMapping id="axisFrontRightHydraulicPunch" node="0>0|11|1|0"/>
+        <i3dMapping id="speedNeedle" node="0>0|12|0|0"/>
+        <i3dMapping id="rpmNeedle" node="0>0|12|1|0"/>
+        <i3dMapping id="decals_interior" node="0>0|12|2"/>
+        <i3dMapping id="mirrorsDecal01" node="0>0|13|0"/>
+        <i3dMapping id="mirrorsDecal02" node="0>0|13|1"/>
+        <i3dMapping id="mirrorsDecal03" node="0>0|13|2"/>
+        <i3dMapping id="mirrorsDecal04" node="0>0|13|3"/>
+        <i3dMapping id="mudflaps" node="0>4|3|8"/>
+        <i3dMapping id="coveredPaint" node="0>4|3|2"/>
+        <i3dMapping id="halfPaint" node="0>4|3|4"/>
+        <i3dMapping id="longPaint" node="0>4|3|0|0"/>
+        <i3dMapping id="coveredDesign" node="0>4|3|3"/>
+        <i3dMapping id="halfDesign" node="0>4|3|5"/>
+        <i3dMapping id="longDesign" node="0>4|3|0|1"/>
+        <i3dMapping id="TagcoveredPaint" node="0>4|3|2|4"/>
+        <i3dMapping id="TagcoveredDesign" node="0>4|3|3|4"/>
+        <i3dMapping id="Tag1coveredPaint" node="0>4|3|2|5"/>
+        <i3dMapping id="Tag1coveredDesign" node="0>4|3|3|5"/>
+        <i3dMapping id="axle2_fender_coveredPaint1" node="0>4|3|2|2"/>
+        <i3dMapping id="axle2_fender_coveredPaint2" node="0>4|3|2|3"/>
+        <i3dMapping id="axle2_fender_coveredDesign1" node="0>4|3|3|2"/>
+        <i3dMapping id="axle2_fender_coveredDesign2" node="0>4|3|3|3"/>
+        <i3dMapping id="axle2_fender_sideMarker1" node="0>4|3|6|2"/>
+        <i3dMapping id="axle2_fender_sideMarker2" node="0>4|3|6|3"/>
+        <i3dMapping id="axle2" node="0>4|2|1"/>
+        <i3dMapping id="fender_long_group" node="0>4|3|0"/>
+        <i3dMapping id="exhaust_truckM" node="0>3|0|0"/>
+        <i3dMapping id="exhaust_truckS" node="0>3|0|1"/>
+        <i3dMapping id="flatbed" node="0>2"/>
+        <i3dMapping id="flatbed_col" node="0>2|2"/>
+        <i3dMapping id="flatbed_col1" node="0>2|3"/>
+        <i3dMapping id="tensionBelts" node="0>5"/>
+        <i3dMapping id="beltStart1" node="0>5|0"/>
+        <i3dMapping id="beltEnd1" node="0>5|0|0"/>
+        <i3dMapping id="beltStart2" node="0>5|1"/>
+        <i3dMapping id="beltEnd2" node="0>5|1|0"/>
+        <i3dMapping id="beltStart3" node="0>5|2"/>
+        <i3dMapping id="beltEnd3" node="0>5|2|0"/>
+        <i3dMapping id="beltStart4" node="0>5|3"/>
+        <i3dMapping id="beltEnd4" node="0>5|3|0"/>
+        <i3dMapping id="beltStart5" node="0>5|4"/>
+        <i3dMapping id="beltEnd5" node="0>5|4|0"/>
+        <i3dMapping id="beltStart6" node="0>5|5"/>
+        <i3dMapping id="beltEnd6" node="0>5|5|0"/>
+        <i3dMapping id="beltStart7" node="0>5|6"/>
+        <i3dMapping id="beltEnd7" node="0>5|6|0"/>
+        <i3dMapping id="beltStart8" node="0>5|7"/>
+        <i3dMapping id="beltEnd8" node="0>5|7|0"/>
+        <i3dMapping id="beltStart9" node="0>5|8"/>
+        <i3dMapping id="beltEnd9" node="0>5|8|0"/>
+        <i3dMapping id="beltActivationTrigger" node="0>5|9"/>
+        <i3dMapping id="dynamicMountTrigger" node="0>2|1"/>
+        <i3dMapping id="chassi" node="0>4"/>
+        <i3dMapping id="chassi_ext" node="0>4|0|1"/>
+        <i3dMapping id="chassi_ext_hooklift" node="0>4|0|2"/>
+        <i3dMapping id="fifthWheel" node="0>4|4"/>
+        <i3dMapping id="connectorLong" node="0>4|4|0|1"/>
+        <i3dMapping id="rack" node="0>6|0"/>
+        <i3dMapping id="connectorShort" node="0>6|1"/>
+        <i3dMapping id="fifth_vis" node="0>4|4|0|0"/>
+        <i3dMapping id="bumperLightFlat" node="0>3|1|1|2|10"/>
+        <i3dMapping id="bumperFlatStatic0" node="0>3|1|1|2|0|1"/>
+        <i3dMapping id="bumperFlatStatic1" node="0>3|1|1|2|1|1"/>
+        <i3dMapping id="bumperFlatStatic2" node="0>3|1|1|2|2|1"/>
+        <i3dMapping id="bumperFlatStatic3" node="0>3|1|1|2|3|1"/>
+        <i3dMapping id="bumperFlatStatic4" node="0>3|1|1|2|4|1"/>
+        <i3dMapping id="bumperFlatStatic5" node="0>3|1|1|2|5|1"/>
+        <i3dMapping id="bumperFlatStatic6" node="0>3|1|1|2|6|1"/>
+        <i3dMapping id="bumperFlatStatic7" node="0>3|1|1|2|7|1"/>
+        <i3dMapping id="bumperFlatStatic8" node="0>3|1|1|2|8|1"/>
+        <i3dMapping id="bumperFlatStatic9" node="0>3|1|1|2|9|1"/>
+        <i3dMapping id="bumper1" node="0>3|1|0"/>
+        <i3dMapping id="bumper2" node="0>3|1|1"/>
+        <i3dMapping id="bumper3" node="0>3|1|2"/>
+        <i3dMapping id="glass_clear" node="0>0|14|2"/>
+        <i3dMapping id="glass_tinted" node="0>0|14|3"/>
+        <i3dMapping id="worklight_rack" node="0>0|14|3"/>
+        <i3dMapping id="sidemarkersCovered" node="0>4|3|6"/>
+        <i3dMapping id="sidemarkersHalf" node="0>4|3|7"/>
+        <i3dMapping id="sidemarkersCoveredTag" node="0>4|3|6|4"/>
+        <i3dMapping id="sidemarker01" node="0>4|3|6|0|0"/>
+        <i3dMapping id="sidemarker02" node="0>4|3|6|0|1"/>
+        <i3dMapping id="sidemarker03" node="0>4|3|6|1|0"/>
+        <i3dMapping id="sidemarker04" node="0>4|3|6|1|1"/>
+        <i3dMapping id="sidemarker05" node="0>4|3|6|2|0"/>
+        <i3dMapping id="sidemarker06" node="0>4|3|6|2|1"/>
+        <i3dMapping id="sidemarker07" node="0>4|3|6|3|0"/>
+        <i3dMapping id="sidemarker08" node="0>4|3|6|3|1"/>
+        <i3dMapping id="sidemarker09" node="0>4|3|6|4|0|0"/>
+        <i3dMapping id="sidemarker10" node="0>4|3|6|4|0|1"/>
+        <i3dMapping id="sidemarker11" node="0>4|3|6|4|1|0"/>
+        <i3dMapping id="sidemarker12" node="0>4|3|6|4|1|1"/>
+        <i3dMapping id="sidemarker13" node="0>4|3|7|0"/>
+        <i3dMapping id="sidemarker14" node="0>4|3|7|1"/>
+        <i3dMapping id="workingLight01" node="0>7|0|0"/>
+        <i3dMapping id="workingLight02" node="0>7|0|1"/>
+        <i3dMapping id="workingLight03" node="0>7|0|2"/>
+        <i3dMapping id="workingLight04" node="0>7|0|3"/>
+        <i3dMapping id="woodConfig" node="0>7"/>
+        <i3dMapping id="colRack" node="0>7|3|0"/>
+        <i3dMapping id="colBottom" node="0>7|3|1"/>
+        <i3dMapping id="bunk1ColPart1" node="0>7|2|1|0"/>
+        <i3dMapping id="bunk1ColPart2" node="0>7|2|1|1"/>
+        <i3dMapping id="bunk1ColPart3" node="0>7|2|1|2"/>
+        <i3dMapping id="bunk2ColPart1" node="0>7|2|2|0"/>
+        <i3dMapping id="bunk2ColPart2" node="0>7|2|2|1"/>
+        <i3dMapping id="bunk2ColPart3" node="0>7|2|2|2"/>
+        <i3dMapping id="bunk3ColPart1" node="0>7|2|3|0"/>
+        <i3dMapping id="bunk3ColPart2" node="0>7|2|3|1"/>
+        <i3dMapping id="bunk3ColPart3" node="0>7|2|3|2"/>
+        <i3dMapping id="bunk4ColPart1" node="0>7|2|4|0"/>
+        <i3dMapping id="bunk4ColPart2" node="0>7|2|4|1"/>
+        <i3dMapping id="bunk4ColPart3" node="0>7|2|4|2"/>
+        <i3dMapping id="logBeltStart1" node="0>7|2|1|3"/>
+        <i3dMapping id="logBeltStart2" node="0>7|2|2|3"/>
+        <i3dMapping id="logBeltStart3" node="0>7|2|3|3"/>
+        <i3dMapping id="logBeltStart4" node="0>7|2|4|3"/>
+        <i3dMapping id="logBeltEnd1" node="0>7|2|1|3|0"/>
+        <i3dMapping id="logBeltEnd2" node="0>7|2|2|3|0"/>
+        <i3dMapping id="logBeltEnd3" node="0>7|2|3|3|0"/>
+        <i3dMapping id="logBeltEnd4" node="0>7|2|4|3|0"/>
+        <i3dMapping id="logLinkNode" node="0>7|2"/>
+        <i3dMapping id="electricBack" node="0>4|6|1|0"/>
+        <i3dMapping id="hydraulicIn01" node="0>4|6|1|1"/>
+        <i3dMapping id="hydraulicIn02" node="0>4|6|1|5"/>
+        <i3dMapping id="hydraulicOut01" node="0>4|6|1|2"/>
+        <i3dMapping id="hydraulicOut02" node="0>4|6|1|6"/>
+        <i3dMapping id="airDoubleStorage" node="0>4|6|1|4"/>
+        <i3dMapping id="airDoubleControl" node="0>4|6|1|3"/>
+        <i3dMapping id="fueltanksBack" node="0>3|4"/>
+        <i3dMapping id="fueltanksFront" node="0>3|3"/>
+        <i3dMapping id="toolboxes" node="0>3|2"/>
+        <i3dMapping id="cardansChassi" node="0>4|7"/>
+        <i3dMapping id="attacherJointFasterLift" node="0>4|8"/>
+        <i3dMapping id="attacherJointCrane" node="0>4|9"/>
+        <i3dMapping id="chassi_blocks" node="0>4|4|1"/>
+        <i3dMapping id="hoseRef1" node="0>11|0"/>
+        <i3dMapping id="hoseRef2" node="0>11|1"/>
+        <i3dMapping id="hoseRef3" node="0>11|2"/>
+        <i3dMapping id="hoseRef4" node="0>11|3"/>
+        <i3dMapping id="toolbarFasterLift" node="0>3|6"/>
+        <i3dMapping id="frontFender_color" node="0>0|16|1"/>
+        <i3dMapping id="sleeperConfig" node="0>3|7"/>
+        <i3dMapping id="sleeper_col" node="0>3|7|11"/>
+        <i3dMapping id="sidemarkerSleeper01" node="0>3|7|8|0"/>
+        <i3dMapping id="sidemarkerSleeper02" node="0>3|7|8|1"/>
+        <i3dMapping id="sidemarkerSleeper03" node="0>3|7|8|2"/>
+        <i3dMapping id="sidemarkerSleeper04" node="0>3|7|8|3"/>
+        <i3dMapping id="sidemarkerSleeper05" node="0>3|7|8|4"/>
+        <i3dMapping id="sidemarkerSleeper06" node="0>3|7|8|5"/>
+        <i3dMapping id="sidemarkerSleeper07" node="0>3|7|8|6"/>
+        <i3dMapping id="sidemarkerSleeper08" node="0>3|7|8|7"/>
+        <i3dMapping id="colPartHooklift" node="0>9|1"/>
+        <i3dMapping id="itrunner_vis" node="0>9"/>
+        <i3dMapping id="containerHand" node="0>9|0|0"/>
+        <i3dMapping id="handRotPart" node="0>9|0|0|0"/>
+        <i3dMapping id="handMovePart" node="0>9|0|0|0|0"/>
+        <i3dMapping id="handLockArm" node="0>9|0|0|0|0|0"/>
+        <i3dMapping id="jointRot" node="0>9|0|0|0|0|0|0"/>
+        <i3dMapping id="containerAttacherJoint" node="0>9|0|0|0|0|0|0|0"/>
+        <i3dMapping id="refPoint_hooklift" node="0>9|0|0|0|1"/>
+        <i3dMapping id="soundNode_hooklift" node="0>9|0|0|1"/>
+        <i3dMapping id="containerArmHydraulic" node="0>9|0|1"/>
+        <i3dMapping id="containerArmHydraulicPunch" node="0>9|0|1|0"/>
+    </i3dMappings>
+</vehicle>

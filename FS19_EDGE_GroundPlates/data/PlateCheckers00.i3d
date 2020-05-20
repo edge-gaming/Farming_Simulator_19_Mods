@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="$l10n_name_PlateEDGE" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="textures/Checkers_diffuse.dds"/>
+    <File fileId="2" filename="textures/Checkers_normal.dds"/>
+    <File fileId="3" filename="textures/Checkers_specular.dds"/>
+    <File fileId="4" filename="textures/ConcreteLines_diffuse.dds"/>
+    <File fileId="5" filename="textures/ConcreteLines_normal.dds"/>
+    <File fileId="6" filename="textures/ConcreteLines_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="EDGE_Plate_mat" materialId="26">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2" bumpDepth="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="EDGE_Foundation_mat" materialId="27">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+      <Glossmap fileId="6"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="PlateCheckers00.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="Tiles_Plate" static="true" restitution="1" staticFriction="0.7" dynamicFriction="0.7" clipDistance="500" nodeId="31" materialIds="26" castsShadows="true" receiveShadows="true">
+      <Shape shapeId="2" name="Tiles_Foundation" translation="0 -2.2 0" static="true" restitution="1" staticFriction="0.7" dynamicFriction="0.7" clipDistance="500" nodeId="32" materialIds="27" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="areaDefinitions" nodeId="33">
+        <TransformGroup name="snowAreas" nodeId="34">
+          <TransformGroup name="start1" translation="5 0 -5" nodeId="35">
+            <TransformGroup name="width" translation="-10 0 0" nodeId="36"/>
+            <TransformGroup name="height" translation="0 0 10" nodeId="37"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="clearAreas" nodeId="38">
+          <TransformGroup name="start1" translation="5 0 -5" nodeId="39">
+            <TransformGroup name="width" translation="-10 0 0" nodeId="40"/>
+            <TransformGroup name="height" translation="0 0 10" nodeId="41"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="levelingAreas" nodeId="42">
+          <TransformGroup name="start1" translation="5 0 -5" nodeId="43">
+            <TransformGroup name="width" translation="-10 0 0" nodeId="44"/>
+            <TransformGroup name="height" translation="0 0 10" nodeId="45"/>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+    </Shape>
+  </Scene>
+
+</i3D>

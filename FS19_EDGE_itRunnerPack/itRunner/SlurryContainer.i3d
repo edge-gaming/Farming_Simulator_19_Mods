@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Slurry Container" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="data/diffuse/SlurryContainer_diffuse.dds"/>
+    <File fileId="8" filename="data/diffuse/decals_diffuse.dds"/>
+    <File fileId="10" filename="data/shaders/emissiveLightsShader.xml"/>
+    <File fileId="5" filename="data/shaders/fs17VehicleShader.xml"/>
+    <File fileId="9" filename="data/shared/coronaWhite_diffuse.dds"/>
+    <File fileId="3" filename="data/shared/default_normal.dds"/>
+    <File fileId="4" filename="data/specular/SlurryContainer_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="car_corona_white_mat" materialId="6" alphaBlending="true" customShaderId="10" customShaderVariation="BILLBOARD">
+      <Emissivemap fileId="9"/>
+      <CustomParameter name="blinkOffset" value="0 0 0 0"/>
+    </Material>
+    <Material name="lambert1" materialId="4" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="lightEmissive" materialId="5" diffuseColor="1 1 1 1" specularColor="1 1 1" alphaBlending="true">
+      <Normalmap fileId="3"/>
+      <Emissivemap fileId="8"/>
+    </Material>
+    <Material name="decals_diffuse" materialId="8" specularColor="1 1 1" alphaBlending="true">
+      <Texture fileId="8"/>
+      <Normalmap fileId="3"/>
+    </Material>
+    <Material name="cable_diffuse" materialId="9" diffuseColor="0.027451 0.027451 0.027451 1" specularColor="1 1 1">
+    </Material>
+    <Material name="MestContainer_colorMask" materialId="7" customShaderId="5" customShaderVariation="colorMask">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+      <CustomParameter name="colorScale" value="0.8 0.55 0.055 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="SlurryContainer.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="SlurryContainer" dynamic="true" compound="true" collisionMask="8397058" density="0.068" clipDistance="300" objectMask="65535" nodeId="25" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+      <TransformGroup name="wheelLeft" nodeId="26">
+        <Shape shapeId="2" name="wheelLeft" translation="0.917 0.117 -3.19577" nodeId="27" materialIds="7" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="wheelRight" nodeId="28">
+        <Shape shapeId="3" name="wheelRight" translation="-0.91662 0.117 -3.19577" nodeId="29" materialIds="7" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="attacherJoint" translation="0 1.6372 4.09314" rotation="0 90 0" nodeId="30"/>
+      <TransformGroup name="light" visibility="false" nodeId="31">
+        <TransformGroup name="coronas" nodeId="32">
+          <Shape shapeId="4" name="static_Light" nodeId="33" materialIds="5" castsShadows="true" receiveShadows="true" decalLayer="2"/>
+          <Shape shapeId="5" name="corona_white" translation="1.04549 2.82427 3.84872" rotation="-161.161 -31.532 -178.263" scale="1.1 1.1 1" clipDistance="75" nodeId="34" materialIds="6" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <Shape shapeId="5" name="corona_white" translation="-1.045 2.82427 3.84872" rotation="-161.161 31.532 -178.263" scale="1.1 1.1 1" clipDistance="75" nodeId="35" materialIds="6" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+        </TransformGroup>
+        <TransformGroup name="frontLightHigh" nodeId="36">
+          <Light name="frontLightHigh" translation="1.05602 2.84309 3.85013" rotation="-18.5 24 0" clipDistance="75" nodeId="37" type="spot" color="0.85 0.85 1" emitDiffuse="true" emitSpecular="true" decayRate="1" range="25" coneAngle="70" dropOff="3"/>
+          <Light name="frontLightHigh" translation="-1.056 2.84309 3.85013" rotation="-18.5 -24 0" clipDistance="75" nodeId="38" type="spot" color="0.85 0.85 1" emitDiffuse="true" emitSpecular="true" decayRate="1" range="25" coneAngle="70" dropOff="3"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="6" name="fillVolume" nodeId="39" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="7" name="unloadTrigger" translation="0 1.326 0" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="10485760" clipDistance="100" nodeId="40" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="7" name="trailerTrigger" translation="0 1.3256 0" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="8388608" clipDistance="100" nodeId="41" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <TransformGroup name="tipOcclusionArea" nodeId="42">
+        <TransformGroup name="start" translation="1.13717 0 -3.333" nodeId="43"/>
+        <TransformGroup name="width" translation="-1.137 0 -3.333" nodeId="44"/>
+        <TransformGroup name="height" translation="1.13717 0 3.90578" nodeId="45"/>
+      </TransformGroup>
+      <Shape shapeId="8" name="MestContainer" nodeId="46" materialIds="7" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="9" name="mestContainer_colorMask" nodeId="47" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="10" name="decals" nodeId="48" materialIds="8" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+        <Shape shapeId="11" name="kabels" nodeId="49" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="12" name="knop_uit" translation="0 1.1824 3.94228" rotation="-4 -0 0" nodeId="50" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="12" name="knop_aan" translation="0 1.1824 3.94228" rotation="2.21189 -0 0" visibility="false" nodeId="51" materialIds="7" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="13" name="colBottom" compoundChild="true" collisionMask="8194" linearDamping="0.5" angularDamping="0.5" density="0.1" nodeId="52" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="14" name="playerTrigger" translation="0.616839 0.7211 4.35326" kinematic="true" trigger="true" collisionMask="1048576" density="0.0001" nodeId="53" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+    </Shape>
+  </Scene>
+
+</i3D>

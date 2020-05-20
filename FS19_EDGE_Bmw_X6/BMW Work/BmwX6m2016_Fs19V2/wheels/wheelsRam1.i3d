@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="freio.dds"/>
+    <File fileId="5" filename="nav_wheel_gr.dds"/>
+    <File fileId="1" filename="tenzo_r6.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="matt" materialId="4" specularColor="0.658824 1 0.388235">
+      <Texture fileId="1"/>
+    </Material>
+    <Material name="matt" materialId="5" specularColor="0.74902 1 0.756863">
+      <Texture fileId="3"/>
+    </Material>
+    <Material name="nav_wheel_gr__spec_" materialId="6" specularColor="0.4 1 0.494118">
+      <Texture fileId="5"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="wheelsRam1.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="wheelRight" translation="0.236229 0 0" rotation="104.666 -0 0" scale="100 100 100" nodeId="10" materialIds="4,5,6" castsShadows="true" receiveShadows="true" distanceBlending="false"/>
+    <Shape shapeId="2" name="wheelLeft" translation="0.582969 0 0" scale="100 100 100" nodeId="11" materialIds="4,5,6" castsShadows="true" receiveShadows="true" distanceBlending="false"/>
+    <Light name="light" translation="1.10758 1.6171 0.909553" rotation="41.7924 76.1432 3.39558" nodeId="14" type="point" color="4 4 4" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" numShadowMapSplits="3" shadowMapSplitDistance0="16.5466" shadowMapSplitDistance1="35.9759" shadowMapSplitDistance2="80" shadowMapSplitDistance3="80" decayRate="4" range="2222"/>
+  </Scene>
+
+</i3D>

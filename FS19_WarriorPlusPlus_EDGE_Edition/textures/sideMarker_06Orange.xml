@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<light>
+    <filename>$data/shared/assets/lights/lizard/sideMarker_06Orange.i3d</filename>
+    <rootNode node="0" />
+    <defaultLight node="0|0" lightTypes="0" />	
+</light>

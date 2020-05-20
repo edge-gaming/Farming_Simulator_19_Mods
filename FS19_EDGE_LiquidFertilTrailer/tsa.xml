@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="manureTrailer">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+    <storeData>
+        <name>
+            <en>TSA 30000</en></name>
+        <specs>
+            <neededPower>240</neededPower>
+            <combination>Truck, Dolly, Kotte FRC</combination>
+        </specs>
+        <functions>
+            <function>$l10n_function_tank</function>
+            <function>$l10n_function_semiTrailer</function>
+        </functions>
+        <image>store_tsa.png</image>
+        <price>72000</price>
+        <lifetime>600</lifetime>
+        <rotation>0</rotation>
+        <brand>KOTTE</brand>
+        <category>slurryTanks</category>
+        <shopTranslationOffset>0 0.025 0</shopTranslationOffset>
+        <shopRotationOffset>0 0 0</shopRotationOffset>
+        <vertexBufferMemoryUsage>530188</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>82968</indexBufferMemoryUsage>
+        <textureMemoryUsage>8781376</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+    <base>
+        <typeDesc>$l10n_typeDesc_manureBarrel</typeDesc>
+        <filename>tsa.i3d</filename>
+        <size width="3" length="9" lengthOffset="-0.4"/>
+        <components>
+            <component centerOfMass="0 0.65 0.5" solverIterationCount="10" mass="9200"/>
+        </components>
+        <schemaOverlay attacherJointPosition="0 0">
+            <default name="DEFAULT_IMPLEMENT"/>
+            <selected name="DEFAULT_IMPLEMENT_SELECTED"/>
+        </schemaOverlay>
+    </base>
+    <wheels>
+        <wheelConfigurations>
+            <wheelConfiguration name="$l10n_configuration_valueDefault" price="0">
+                <wheels>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="trailer" isLeft="true" hasParticles="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.1" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="20" suspTravel="0.10" spring="45" damper="50"/>
+                        <steeringAxle scale="0.8" rotMax="20" rotMin="-20"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="trailer" isLeft="false" hasParticles="true">
+                        <physics tipOcclusionAreaGroupId="2" restLoad="1.1" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="20" suspTravel="0.10" spring="45" damper="50"/>
+                        <steeringAxle scale="0.8" rotMax="20" rotMin="-20"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="trailer" isLeft="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.0" repr="wheelMiddleLeft" forcePointRatio="0.5" initialCompression="15" suspTravel="0.10" spring="45" damper="50"/>
+                        <wheelChock parkingNode="wheelChock01"/>
+                        <wheelChock parkingNode="wheelChock02" isInverted="true"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="trailer" isLeft="false">
+                        <physics tipOcclusionAreaGroupId="2" restLoad="1.0" repr="wheelMiddleRight" forcePointRatio="0.5" initialCompression="15" suspTravel="0.10" spring="45" damper="50"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="trailer" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="0.8" repr="wheelBackLeft" forcePointRatio="0.5" initialCompression="10" suspTravel="0.10" spring="45" damper="50"/>
+                        <steeringAxle scale="-1" rotMax="25" rotMin="-25"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/lizard/implement/315_80R22_5.xml" configId="trailer" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics tipOcclusionAreaGroupId="2" restLoad="0.8" repr="wheelBackRight" forcePointRatio="0.5" initialCompression="10" suspTravel="0.10" spring="45" damper="50"/>
+                        <steeringAxle scale="-1" rotMax="25" rotMin="-25"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+            <wheelConfiguration name="$l10n_configuration_valueWheelBroad" price="2850">
+                <wheels>
+                    <wheel filename="$data/shared/wheels/trelleborg/T404/560_45R22_5.xml" isLeft="true" hasParticles="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.2" repr="wheelFrontLeft" forcePointRatio="0.5" initialCompression="35" suspTravel="0.10" spring="45" damper="50"/>
+                        <steeringAxle scale="0.8" rotMax="20" rotMin="-20"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/trelleborg/T404/560_45R22_5.xml" isLeft="false" hasParticles="true">
+                        <physics tipOcclusionAreaGroupId="2" restLoad="1.2" repr="wheelFrontRight" forcePointRatio="0.5" initialCompression="35" suspTravel="0.10" spring="45" damper="50"/>
+                        <steeringAxle scale="0.8" rotMax="20" rotMin="-20"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/trelleborg/T404/560_45R22_5.xml" isLeft="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="0.9" repr="wheelMiddleLeft" forcePointRatio="0.5" initialCompression="20" suspTravel="0.10" spring="45" damper="50"/>
+                        <wheelChock parkingNode="wheelChock01"/>
+                        <wheelChock parkingNode="wheelChock02" isInverted="true"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/trelleborg/T404/560_45R22_5.xml" isLeft="false">
+                        <physics tipOcclusionAreaGroupId="2" restLoad="0.9" repr="wheelMiddleRight" forcePointRatio="0.5" initialCompression="20" suspTravel="0.10" spring="45" damper="50"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/trelleborg/T404/560_45R22_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="0.9" repr="wheelBackLeft" forcePointRatio="0.5" initialCompression="10" suspTravel="0.10" spring="45" damper="50"/>
+                        <steeringAxle scale="-1" rotMax="25" rotMin="-25"/>
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/trelleborg/T404/560_45R22_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics tipOcclusionAreaGroupId="2" restLoad="0.9" repr="wheelBackRight" forcePointRatio="0.5" initialCompression="10" suspTravel="0.10" spring="45" damper="50"/>
+                        <steeringAxle scale="-1" rotMax="25" rotMin="-25"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+        </wheelConfigurations>
+        <hubs>
+            <color0>SHARED_BLACK1</color0>
+            <color1>SHARED_BLACK1</color1>
+            <hub linkNode="wheelFrontLeft" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="true" scale="0.335 0.335 0.335"/>
+            <hub linkNode="wheelFrontRight" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="false" scale="0.335 0.335 0.335"/>
+            <hub linkNode="wheelMiddleLeft" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="true" scale="0.335 0.335 0.335"/>
+            <hub linkNode="wheelMiddleRight" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="false" scale="0.335 0.335 0.335"/>
+            <hub linkNode="wheelBackLeft" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="true" scale="0.335 0.335 0.335"/>
+            <hub linkNode="wheelBackRight" filename="$data/shared/wheels/hubs/hub_n10_5.xml" isLeft="false" scale="0.335 0.335 0.335"/>
+        </hubs>
+    </wheels>
+    <attachable>
+        <inputAttacherJoints>
+            <inputAttacherJoint jointType="semitrailer" node="attacherJoint"/>
+        </inputAttacherJoints>
+        <brakeForce>0.55</brakeForce>
+        <support animationName="moveSupport"/>
+    </attachable>
+    <lights>
+        <sharedLight linkNode="rear5ChamberLight_02_Left" filename="$data/shared/assets/lights/lizard/rear5ChamberLight_02_left.xml"/>
+        <sharedLight linkNode="rear5ChamberLight_02_Right" filename="$data/shared/assets/lights/lizard/rear5ChamberLight_02_right.xml"/>
+        <sharedLight linkNode="workingLightSquare_03_" lightTypes="2" filename="$data/shared/assets/lights/lizard/workingLightSquare_03.xml"/>
+        <sharedLight linkNode="workingLightSquare_03_1" lightTypes="2" filename="$data/shared/assets/lights/lizard/workingLightSquare_03.xml"/>
+        <sharedLight linkNode="workingLightSquare_03_2" lightTypes="2" filename="$data/shared/assets/lights/lizard/workingLightSquare_03.xml"/>
+        <sharedLight linkNode="workingLightSquare_03_3" lightTypes="2" filename="$data/shared/assets/lights/lizard/workingLightSquare_03.xml"/>
+        <sharedLight linkNode="sideMarker_04White2" filename="$data/shared/assets/reflectors/lizard/whiteRound_03.xml"/>
+        <sharedLight linkNode="sideMarker_04White3" filename="$data/shared/assets/reflectors/lizard/whiteRound_03.xml"/>
+        <sharedLight linkNode="sideMarker_04Orange" filename="$data/shared/assets/reflectors/lizard/yellowRound_03.xml"/>
+        <sharedLight linkNode="sideMarker_04Orange1" filename="$data/shared/assets/reflectors/lizard/yellowRound_03.xml"/>
+        <sharedLight linkNode="sideMarker_04Orange2" filename="$data/shared/assets/reflectors/lizard/yellowRound_03.xml"/>
+        <sharedLight linkNode="sideMarker_04Orange3" filename="$data/shared/assets/reflectors/lizard/yellowRound_03.xml"/>
+        <sharedLight linkNode="sideMarker_01Left" filename="$data/shared/assets/lights/lizard/sideMarker_01_left.xml"/>
+        <sharedLight linkNode="sideMarker_01Right" filename="$data/shared/assets/lights/lizard/sideMarker_01_right.xml"/>
+        <realLights>
+            <low>
+                <light node="workLightBackLow" lightTypes="1"/>
+            </low>
+            <high>
+                <light node="backLightsHigh1" lightTypes="0"/>
+                <light node="workLightBackHigh1" lightTypes="1"/>
+                <light node="workLightBackLow" lightTypes="1"/>
+                <brakeLight node="backLightsHigh1"/>
+                <turnLightLeft node="turnLightLeftBack"/>
+                <turnLightRight node="turnLightRightBack"/>
+                <reverseLight node="reverseLight"/>
+            </high>
+        </realLights>
+    </lights>
+    <animations>
+        <animation name="moveSupport">
+            <part node="supportArm" startTime="0" endTime="0.2" duration="1" startTrans="0 0.5 0.792" endTrans="0 -0.05 0.792"/>
+        </animation>
+    </animations>
+    <fillUnit>
+        <fillUnitConfigurations>
+            <fillUnitConfiguration>
+                <fillUnits>
+                    <fillUnit unit="$l10n_unit_literShort" fillTypes="DIGESTATE LIQUIDMANURE LIQUIDFERTILIZER HERBICIDE" capacity="30000">
+                        <exactFillRootNode node="exactFillRootNode"/>
+                        <measurementNodes>
+                            <measurementNode node="slurryMeasurement"/>
+                        </measurementNodes>
+                    </fillUnit>
+                    <fillTrigger consumePtoPower="true"/>
+                </fillUnits>
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+        <sounds>
+            <fill template="SLURRY_01"/>
+        </sounds>
+    </fillUnit>
+    <fillTriggerVehicle triggerNode="fillTrigger" fillUnitIndex="1" litersPerSecond="1000"/>
+    <dischargeable>
+        <dischargeNode node="dischargeNode" emptySpeed="1000" fillUnitIndex="1" unloadInfoIndex="3">
+            <info width="1.0" length="0.5" zOffset="0.4"/>
+            <trigger node="dischargeTrigger"/>
+            <dischargeSound template="SLURRY_01"/>
+        </dischargeNode>
+    </dischargeable>
+    <foliageBending>
+        <bendingNode minX="-1.25" maxX="1.25" minZ="-4.7" maxZ="1.2" yOffset="0.6"/>
+    </foliageBending>
+    <designConfigurations>
+        <designConfiguration name="$l10n_configuration_valueWhite" price="0">
+            <objectChange node="decal_white" visibilityActive="true" visibilityInactive="false"/>
+        </designConfiguration>
+        <designConfiguration name="$l10n_configuration_valueColor" price="200">
+            <objectChange node="decal_color" visibilityActive="true" visibilityInactive="false"/>
+        </designConfiguration>
+    </designConfigurations>
+    <baseMaterial>
+        <material name="tsa_mat" baseNode="kotte_vis">
+            <shaderParameter name="colorMat0" value="KOTTE_GREEN2"/>
+            <shaderParameter name="colorMat3" value="SHARED_BLACK1"/>
+            <shaderParameter name="colorMat4" value="KOTTE_GREEN2"/>
+            <shaderParameter name="colorMat5" value="KOTTE_RED1"/>
+        </material>
+    </baseMaterial>
+    <baseMaterialConfigurations price="1000" useDefaultColors="true" defaultColorIndex="0">
+        <baseMaterialConfiguration color="KOTTE_GREEN2"/>
+        <material name="tsa_mat" shaderParameter="colorMat0"/>
+        <material name="tsa_mat" shaderParameter="colorMat4"/>
+    </baseMaterialConfigurations>
+    <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
+    <washable dirtDuration="90" washDuration="1" workMultiplier="1" fieldMultiplier="2"/>
+    <i3dMappings>
+        <i3dMapping id="tsa_main_component1" node="0>"/>
+        <i3dMapping id="kotte_vis" node="0>0"/>
+        <i3dMapping id="attacherJoint" node="0>0|0|0"/>
+        <i3dMapping id="supportArm" node="0>0|0|1|0"/>
+        <i3dMapping id="wheelChock01" node="0>0|0|2|0"/>
+        <i3dMapping id="wheelChock02" node="0>0|0|2|1"/>
+        <i3dMapping id="wheelFrontLeft" node="0>0|1|0"/>
+        <i3dMapping id="wheelFrontRight" node="0>0|1|1"/>
+        <i3dMapping id="wheelMiddleLeft" node="0>0|1|2"/>
+        <i3dMapping id="wheelMiddleRight" node="0>0|1|3"/>
+        <i3dMapping id="wheelBackLeft" node="0>0|1|4"/>
+        <i3dMapping id="wheelBackRight" node="0>0|1|5"/>
+        <i3dMapping id="rear5ChamberLight_02_Right" node="0>0|2|0|0"/>
+        <i3dMapping id="rear5ChamberLight_02_Left" node="0>0|2|0|1"/>
+        <i3dMapping id="workingLightSquare_03_" node="0>0|2|0|2"/>
+        <i3dMapping id="workingLightSquare_03_1" node="0>0|2|0|3"/>
+        <i3dMapping id="workingLightSquare_03_2" node="0>0|2|0|4"/>
+        <i3dMapping id="workingLightSquare_03_3" node="0>0|2|0|5"/>
+        <i3dMapping id="sideMarker_04White2" node="0>0|2|0|6"/>
+        <i3dMapping id="sideMarker_04White3" node="0>0|2|0|7"/>
+        <i3dMapping id="sideMarker_04Orange" node="0>0|2|0|8"/>
+        <i3dMapping id="sideMarker_04Orange1" node="0>0|2|0|9"/>
+        <i3dMapping id="sideMarker_04Orange2" node="0>0|2|0|10"/>
+        <i3dMapping id="sideMarker_04Orange3" node="0>0|2|0|11"/>
+        <i3dMapping id="sideMarker_01Left" node="0>0|2|0|12"/>
+        <i3dMapping id="sideMarker_01Right" node="0>0|2|0|13"/>
+        <i3dMapping id="backLightsHigh1" node="0>0|2|1"/>
+        <i3dMapping id="turnLightLeftBack" node="0>0|2|2"/>
+        <i3dMapping id="turnLightRightBack" node="0>0|2|3"/>
+        <i3dMapping id="reverseLight" node="0>0|2|4"/>
+        <i3dMapping id="workLightBackLow" node="0>0|2|5"/>
+        <i3dMapping id="workLightBackHigh1" node="0>0|2|6"/>
+        <i3dMapping id="slurryMeasurement" node="0>0|3|0|1"/>
+        <i3dMapping id="exactFillRootNode" node="0>0|3|1"/>
+        <i3dMapping id="fillTrigger" node="0>0|3|2"/>
+        <i3dMapping id="dischargeNode" node="0>0|3|3"/>
+        <i3dMapping id="dischargeTrigger" node="0>0|3|4"/>
+        <i3dMapping id="decal_white" node="0>0|4|0"/>
+        <i3dMapping id="decal_color" node="0>0|4|1"/>
+    </i3dMappings>
+</vehicle>
