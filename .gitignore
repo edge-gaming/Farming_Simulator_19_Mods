@@ -32,9 +32,6 @@
 
 ## Object files
 *.xcf
-*.mb
-*.md
-*.shapes
 
 # Prerequisites
 
