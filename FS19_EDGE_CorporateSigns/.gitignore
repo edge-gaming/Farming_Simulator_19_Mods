@@ -1,0 +1,30 @@
+#?.md version="1.0" encoding="utf-8" standalone="no"?
+#?author="Castiga"?
+#Exemple
+  #	<!-- Whole Folder -->
+  # *.shapes
+  #	<!-- Specific Folder -->
+  # *data/*.shapes
+
+# build files
+*.mb
+*.mayaSwatches
+*.obj
+
+# Object files
+*.xcf
+
+# Folder config file
+*Desktop.ini
+
+# Prerequisites
+
+# Compiled sources
+
+# Precompiled Headers
+
+# Libraries
+
+# Shared objects (inc. Windows DLLs)
+
+# Executables

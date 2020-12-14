@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+<author>Edge Gaming / Castiga</author>
+<translationby>Castiga</translationby>
+	<texts>
+		<text name="function_EDGESign" 					text="This sign can be placed by the road or around your farm & fields for decorative purposes."/>
+		<text name="function_EDGESignDec" 				text="Decorative Sign with EDGE Logo."/>
+		<text name="name_EDGESign" 						text="Decorative Sign"/>
+		<text name="function_60KMhSignDec" 				text="Decorative 60 Kilometers per Hour Sign"/>
+		<text name="name_60KMhSign" 					text="Speed Limit 60 Sign"/>
+		<text name="function_YieldSignDec" 				text="Decorative Yield Sign"/>
+		<text name="name_YieldSign" 					text="Yield Sign"/>
+		<text name="function_StopSignDec" 				text="Decorative Stop Sign"/>
+		<text name="name_StopSign" 						text="Stop Sign"/>
+		<text name="function_sqYieldSignDec" 			text="Decorative Yield Sign"/>
+		<text name="name_sqYieldSign" 					text="Yield Sign"/>
+		<text name="function_ParkingSignDec" 			text="Decorative Parking Sign"/>
+		<text name="name_ParkingSign" 					text="Parking Sign"/>
+		<text name="function_ExtraSignDec" 				text="Decorative Sign"/>
+		<text name="name_ExtraSign" 					text="Extra Sign"/>
+		<text name="function_ArrowSignDec" 				text="Decorative Arrow Sign"/>
+		<text name="name_ArrowSign" 					text="Arrow Sign"/>
+	</texts>
+</l10n>

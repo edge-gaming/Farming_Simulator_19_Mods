@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="EDGE Sign" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/shaders/buildingShader.xml"/>
+    <File fileId="10" filename="$data/shaders/decalShader.xml"/>
+    <File fileId="1" filename="textures/Sign_diffuse.dds"/>
+    <File fileId="2" filename="textures/Sign_normal.dds"/>
+    <File fileId="3" filename="textures/Sign_specular.dds"/>
+    <File fileId="11" filename="textures/StopSign_diffuse.dds"/>
+    <File fileId="12" filename="textures/StopSign_normal.dds"/>
+    <File fileId="13" filename="textures/StopSign_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="sign_mat" materialId="7">
+    </Material>
+    <Material name="hexSign_mat" materialId="9" customShaderId="10" customShaderVariation="reflector">
+      <Texture fileId="11"/>
+      <Normalmap fileId="12"/>
+      <Glossmap fileId="13"/>
+    </Material>
+    <Material name="EDGESign_mat00" materialId="5" customShaderId="10">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="EDGEPole_mat" materialId="8" customShaderId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="EDGEDecal_mat" materialId="4" customShaderId="10" customShaderVariation="reflector">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="StopSign.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="Pole" clipDistance="200" nodeId="30" materialIds="8" castsShadows="true" receiveShadows="true">
+      <Shape shapeId="2" name="col00" translation="0 1.0041 0" visibility="false" static="true" clipDistance="200" nodeId="31" materialIds="7" nonRenderable="true" distanceBlending="false">
+        <Shape shapeId="3" name="colsq" translation="0.0008775 1.24238 0" static="true" clipDistance="200" nodeId="32" materialIds="7" nonRenderable="true" distanceBlending="false"/>
+      </Shape>
+      <Shape shapeId="4" name="hexSign" translation="0 2.236 -0.043" clipDistance="200" nodeId="33" materialIds="5" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="5" name="hexSignDec" translation="0 0 -0.00375" clipDistance="200" nodeId="34" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="EDGEDecal" translation="-0.152446 -0.153634 0.004" rotation="0 -0 -45" clipDistance="100" nodeId="52" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <TransformGroup name="Clips" nodeId="35">
+        <Shape shapeId="7" name="Clip01" translation="0 2.43468 0.0062397" clipDistance="200" nodeId="36" materialIds="8" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="8" name="Clip00" translation="0 2.01199 0.0062397" clipDistance="200" nodeId="37" materialIds="8" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+    </Shape>
+  </Scene>
+
+</i3D>
