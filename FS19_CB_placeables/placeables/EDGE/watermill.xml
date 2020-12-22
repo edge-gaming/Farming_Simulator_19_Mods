@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+ <storeData>
+  <name>$l10n_shopItem_watermill</name>
+  <image>store/store_watermill.png</image>
+  <functions>
+   <function>$l10n_function_mills</function>
+  </functions>
+  <price>17000</price>
+  <dailyUpkeep>15</dailyUpkeep>
+  <canBeSold>true</canBeSold>
+  <showInStore>true</showInStore>
+  <lifetime>1000</lifetime>
+  <rotation>0</rotation>
+  <brand>AJTECH</brand>
+  <species>placeable</species>
+  <category>placeableMisc</category>
+ </storeData>
+ <placeableType>windTurbine</placeableType>
+ <filename>placeables/EDGE/watermill.i3d</filename>
+ <placement testSizeX="2" testSizeZ="2" sizeX="1.5" sizeZ="1.5" useRandomYRotation="false" useManualYRotation="true" />
+
+ <incomePerHour1>1000</incomePerHour1>
+ <incomePerHour2>500</incomePerHour2>
+ <incomePerHour3>250</incomePerHour3>
+
+ <windTurbine headNode="0|0" rotationNode="0|0|0" />
+
+ <clearAreas>
+  <clearArea startNode="2|0" widthNode="2|0|0" heightNode="2|0|1"/>
+ </clearAreas>
+ <leveling requireLeveling="true" maxSmoothDistance="5" maxSlope="30" maxEdgeAngle="20">
+  <levelAreas>
+   <levelArea startNode="2|0" widthNode="2|0|0" heightNode="2|0|1" groundType="dirt"/>
+  </levelAreas>
+ </leveling>
+ <seasons>
+  <maskAreas>
+  </maskAreas>
+ </seasons>
+
+ <tipOcclusionUpdateArea sizeX="1.5" sizeZ="1.5" />
+</placeable>

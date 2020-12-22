@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map>
+    <farmlands densityMapFilename="maps/mapUS/mapUS_farmland.grle" numChannels="6" pricePerHa="60000">
+        <farmland id="1"  priceScale="1"    npcName="NPC_US_18" />
+        <farmland id="2"  priceScale="1"    npcName="NPC_US_20" />
+        <farmland id="3"  priceScale="1"    npcName="NPC_US_10" />
+        <farmland id="4"  priceScale="1"    npcName="NPC_US_07" />
+        <farmland id="5"  priceScale="1"    npcName="NPC_US_17" />
+        <farmland id="6"  priceScale="1"    npcName="NPC_US_12" />
+        <farmland id="7"  priceScale="1"    npcName="NPC_US_08" />
+        <farmland id="8"  priceScale="1"    npcName="NPC_US_13" />
+        <farmland id="9"  priceScale="1"    npcName="NPC_US_01" />
+        <farmland id="10" priceScale="1"    npcName="NPC_US_01" />
+        <farmland id="11" priceScale="1"    npcName="NPC_US_07" />
+        <farmland id="12" priceScale="1"    npcName="NPC_US_03" />
+        <farmland id="13" priceScale="1"    npcName="NPC_US_08" />
+        <farmland id="14" priceScale="1"    npcName="NPC_US_17" />
+        <farmland id="15" priceScale="1"    npcName="NPC_US_02" />
+        <farmland id="16" priceScale="1"    npcName="NPC_US_12" />
+        <farmland id="17" priceScale="1"    npcName="NPC_US_11" />
+        <farmland id="18" priceScale="1"    npcName="NPC_US_16" />
+        <farmland id="19" priceScale="1"    npcName="NPC_US_09" /> <!-- horse training -->
+        <farmland id="20" priceScale="1"    npcName="NPC_US_13" />
+        <farmland id="21" priceScale="1"    npcName="NPC_US_04" />
+        <farmland id="22" priceScale="1"    npcName="NPC_US_11" />
+        <farmland id="23" priceScale="1"    npcName="NPC_US_08" />
+        <farmland id="24" priceScale="1"    npcName="NPC_US_01" />
+        <farmland id="25" priceScale="1"    npcName="NPC_US_16" />
+        <farmland id="26" priceScale="1"    npcName="NPC_US_10" />
+        <farmland id="27" priceScale="2"    npcName="NPC_US_09" /> <!-- bga -->
+        <farmland id="28" priceScale="1"    npcName="NPC_US_02" />
+        <farmland id="29" priceScale="1"    npcName="NPC_US_20" />
+        <farmland id="30" priceScale="1"    npcName="NPC_US_18" />
+        <farmland id="31" priceScale="1"    npcName="NPC_US_03" />
+        <farmland id="32" priceScale="1"    npcName="NPC_US_16" />
+        <farmland id="33" priceScale="1"    npcName="NPC_US_19" />
+        <farmland id="34" priceScale="1"    npcName="NPC_US_03" />
+        <farmland id="35" priceScale="1"    npcName="NPC_US_12" />
+        <farmland id="36" priceScale="1"    npcName="NPC_US_20" />
+        <farmland id="37" priceScale="1"    npcName="NPC_US_18" />
+        <farmland id="38" priceScale="0.6"  npcName="NPC_US_16" defaultFarmProperty="true" /> <!-- half is useless rock -->
+        <farmland id="39" priceScale="1"    npcName="NPC_US_18" />
+        <farmland id="40" priceScale="1"    npcName="NPC_US_05" />
+        <farmland id="41" priceScale="1"    npcName="NPC_US_07" />
+        <farmland id="42" priceScale="1"    npcName="NPC_US_15" />
+        <farmland id="43" priceScale="1"    npcName="NPC_US_19" />
+        <farmland id="44" priceScale="1"    npcName="NPC_US_06" />
+        <farmland id="45" priceScale="1"    npcName="NPC_US_10" />
+        <farmland id="46" priceScale="1"    npcName="NPC_US_15" defaultFarmProperty="true" />
+        <farmland id="47" priceScale="1"    npcName="NPC_US_10" />
+        <farmland id="48" priceScale="1"    npcName="NPC_US_17" />
+        <farmland id="49" priceScale="1"    npcName="NPC_US_04" /> <!-- coastal, but not very useful -->
+        <farmland id="50" priceScale="1"    npcName="NPC_US_13" />
+        <farmland id="51" priceScale="1"    npcName="NPC_US_17" />
+        <farmland id="52" priceScale="1"    npcName="NPC_US_15" />
+        <farmland id="53" priceScale="1"    npcName="NPC_US_02" />
+        <farmland id="54" priceScale="1"    npcName="NPC_US_03" />
+        <farmland id="55" priceScale="1"    npcName="NPC_US_10" />
+    </farmlands>
+</map>

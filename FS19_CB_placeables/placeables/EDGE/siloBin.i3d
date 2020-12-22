@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="../textures/craterBay/bSilo_diffuse.dds"/>
+    <File fileId="4" filename="../textures/craterBay/bSilo_normal.dds"/>
+    <File fileId="5" filename="../textures/craterBay/bSilo_specular.dds"/>
+    <File fileId="1" filename="../textures/craterBay/galvScrached_diffuse.dds"/>
+    <File fileId="2" filename="../textures/craterBay/galvScrached_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="4" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="siloRoof_mat" materialId="19">
+      <Texture fileId="1"/>
+      <Glossmap fileId="2"/>
+    </Material>
+    <Material name="siloBin_mat" materialId="20">
+      <Texture fileId="3"/>
+      <Normalmap fileId="4"/>
+      <Glossmap fileId="5"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="siloBin.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="siloBin" nodeId="7">
+      <TransformGroup name="silo" nodeId="24">
+        <Shape shapeId="1" name="siloRoof" clipDistance="200" nodeId="25" materialIds="19" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="2" name="siloBin" static="true" clipDistance="300" nodeId="26" materialIds="20" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="areas" nodeId="8">
+        <TransformGroup name="start" translation="-3.5 0 -3.5" nodeId="9">
+          <TransformGroup name="width" translation="7 0 0" nodeId="10"/>
+          <TransformGroup name="height" translation="0 0 7" nodeId="11"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="seasons" nodeId="12">
+        <TransformGroup name="start" translation="-3.5 0 -3.5" nodeId="30">
+          <TransformGroup name="width" translation="7 0 0" nodeId="31"/>
+          <TransformGroup name="height" translation="0 0 7" nodeId="32"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="3" name="tipBlocker" visibility="false" static="true" collisionMask="524288" nodeId="16" materialIds="4" nonRenderable="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

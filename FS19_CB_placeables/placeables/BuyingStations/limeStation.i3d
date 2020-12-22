@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Crater Bay" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="../EDGE/Multi_Filling_Station/textures/Decals_diffuse.dds"/>
+    <File fileId="2" filename="../EDGE/Multi_Filling_Station/textures/Decals_normal.dds"/>
+    <File fileId="3" filename="../EDGE/Multi_Filling_Station/textures/Decals_specular.dds"/>
+    <File fileId="19" filename="../EDGE/Multi_Filling_Station/textures/MultiFillingStation_diffuse.dds"/>
+    <File fileId="20" filename="../EDGE/Multi_Filling_Station/textures/MultiFillingStation_normal.dds"/>
+    <File fileId="21" filename="../EDGE/Multi_Filling_Station/textures/MultiFillingStation_specular.dds"/>
+    <File fileId="7" filename="$data/maps/textures/american/glass_specular.dds"/>
+    <File fileId="32" filename="$data/maps/textures/american/props/propsDecalsUS_diffuse.dds"/>
+    <File fileId="29" filename="$data/maps/textures/american/props/streetLanternSET_diffuse.dds"/>
+    <File fileId="30" filename="$data/maps/textures/american/props/streetLanternSET_normal.dds"/>
+    <File fileId="31" filename="$data/maps/textures/american/props/streetLanternSET_specular.dds"/>
+    <File fileId="22" filename="$data/maps/textures/european/props/floodlightFixture_diffuse.dds"/>
+    <File fileId="23" filename="$data/maps/textures/european/props/floodlightFixture_normal.dds"/>
+    <File fileId="24" filename="$data/maps/textures/european/props/floodlightFixture_specular.dds"/>
+    <File fileId="34" filename="$data/maps/textures/european/props/lightPoleSetGlass_diffuse.dds"/>
+    <File fileId="35" filename="$data/maps/textures/european/props/lightPoleSetGlass_specular.dds"/>
+    <File fileId="28" filename="$data/maps/textures/european/props/lightPoleSet_emissive.dds"/>
+    <File fileId="36" filename="$data/maps/textures/shared/warningStripes_diffuse.png"/>
+    <File fileId="37" filename="$data/maps/textures/shared/warningStripes_normal.png"/>
+    <File fileId="38" filename="$data/maps/textures/shared/warningStripes_specular.png"/>
+    <File fileId="10" filename="$data/placeables/animalHusbandry/animalHusbandry_diffuse.dds"/>
+    <File fileId="11" filename="$data/placeables/animalHusbandry/animalHusbandry_normal.dds"/>
+    <File fileId="12" filename="$data/placeables/animalHusbandry/animalHusbandry_specular.dds"/>
+    <File fileId="14" filename="$data/placeables/animalHusbandry/foodSilos01_specular.dds"/>
+    <File fileId="13" filename="$data/shaders/buildingShader.xml"/>
+    <File fileId="27" filename="$data/shaders/dashboardLightsShader.xml"/>
+    <File fileId="4" filename="$data/shaders/decalShader.xml"/>
+    <File fileId="9" filename="$data/shaders/emissiveAdditiveShader.xml"/>
+    <File fileId="8" filename="$data/shared/clearGlass_diffuse.png"/>
+    <File fileId="6" filename="$data/shared/default_normal.png"/>
+    <File fileId="33" filename="$data/shared/default_specular.dds"/>
+    <File fileId="25" filename="$data/shared/window02_diffuse.dds"/>
+    <File fileId="26" filename="$data/shared/window02_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="warningStripes_mat" materialId="4" customShaderId="4" customShaderVariation="reflector">
+      <Texture fileId="36"/>
+      <Normalmap fileId="37"/>
+      <Glossmap fileId="38"/>
+    </Material>
+    <Material name="limeSilo_mat" materialId="6" customShaderId="13">
+      <Texture fileId="10"/>
+      <Normalmap fileId="11"/>
+      <Glossmap fileId="12"/>
+      <Custommap name="mMaskMap" fileId="14"/>
+    </Material>
+    <Material name="propsDecalsUS_mat" materialId="14" alphaBlending="true" customShaderId="4">
+      <Texture fileId="32"/>
+      <Normalmap fileId="6"/>
+      <Glossmap fileId="33"/>
+    </Material>
+    <Material name="floodLightGlass_mat" materialId="11" alphaBlending="true" customShaderId="27">
+      <Texture fileId="25"/>
+      <Normalmap fileId="6"/>
+      <Glossmap fileId="26"/>
+      <Custommap name="mEmissiveMap" fileId="28"/>
+      <CustomParameter name="lightControl" value="1 1 1 1"/>
+    </Material>
+    <Material name="EDGE_Filling_mat" materialId="8">
+      <Texture fileId="19"/>
+      <Normalmap fileId="20"/>
+      <Glossmap fileId="21"/>
+    </Material>
+    <Material name="lambert1" materialId="15" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="dischargeEffect_mat" materialId="7" diffuseColor="0.494118 0.494118 0.494118 1">
+      <Normalmap fileId="6"/>
+    </Material>
+    <Material name="floodlightFixture_mat" materialId="10">
+      <Texture fileId="22"/>
+      <Normalmap fileId="23"/>
+      <Glossmap fileId="24"/>
+    </Material>
+    <Material name="lightglow_mat" materialId="9" alphaBlending="true" customShaderId="9" customShaderVariation="colorScale">
+      <Normalmap fileId="6"/>
+      <Glossmap fileId="7"/>
+      <Emissivemap fileId="8"/>
+      <CustomParameter name="colorScale" value="1 0.58 0.71 1"/>
+    </Material>
+    <Material name="Decals_mat" materialId="12" customShaderId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="lightPoleSetGlass_mat" materialId="5" alphaBlending="true" customShaderId="27">
+      <Texture fileId="34"/>
+      <Normalmap fileId="6"/>
+      <Glossmap fileId="35"/>
+      <Custommap name="mEmissiveMap" fileId="28"/>
+      <CustomParameter name="lightControl" value="1 1 1 1"/>
+    </Material>
+    <Material name="streetLanternSET_mat" materialId="13">
+      <Texture fileId="29"/>
+      <Normalmap fileId="30"/>
+      <Glossmap fileId="31"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="limeStation.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="limeStation" nodeId="35">
+      <Shape shapeId="1" name="EDGESign" translation="0 4.06553 1.79487" clipDistance="300" nodeId="36" materialIds="12" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="2" name="LogoSign" translation="0 0 0.00706983" clipDistance="300" nodeId="37" materialIds="12" receiveShadows="true"/>
+      </Shape>
+      <TransformGroup name="gameplay" nodeId="38">
+        <TransformGroup name="OUT" nodeId="39">
+          <TransformGroup name="loadingStation" nodeId="40">
+            <TransformGroup name="loadingTriggers" nodeId="41">
+              <Shape shapeId="3" name="loadingTrigger" translation="0 5 5.74" scale="1 1.5 1" static="true" trigger="true" collisionMask="1073741824" nodeId="42" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              <TransformGroup name="dischargeNode" translation="0 5.1 5.74" nodeId="43"/>
+              <TransformGroup name="dischargeEffect" translation="0 5.1 5.74" nodeId="44">
+                <Shape shapeId="4" name="pipeEffect" rotation="90 0 0" clipDistance="300" nodeId="45" materialIds="7" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="5" name="pipeEffectSmoke" translation="0 -4.45118 0" visibility="false" clipDistance="100" nodeId="46" materialIds="7" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+              <TransformGroup name="switchableMark" translation="0 5 5.74" nodeId="47">
+                <TransformGroup name="mark" nodeId="48">
+                  <TransformGroup name="light" visibility="false" nodeId="49">
+                    <Light name="pointLight" translation="0 0 9.11495e-09" rotation="-90 0 0" nodeId="50" type="spot" color="1 0.58 0.71" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="10" coneAngle="5" dropOff="4"/>
+                    <Shape shapeId="6" name="lightMark" translation="0 0 2.61708e-08" rotation="90 0 0" clipDistance="500" nodeId="51" materialIds="9" castsShadows="true" receiveShadows="true"/>
+                  </TransformGroup>
+                </TransformGroup>
+                <Shape shapeId="7" name="toggleTrigger" translation="0 -3.88705 0" static="true" trigger="true" collisionMask="3145728" clipDistance="251" nodeId="52" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="storageFarm" nodeId="53"/>
+        <TransformGroup name="mapPosition" translation="0 0 5.5" nodeId="54"/>
+      </TransformGroup>
+      <Shape shapeId="8" name="limeSilo" static="true" clipDistance="300" nodeId="55" materialIds="6" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="9" name="farmSiloSmallUnloadingPipe" static="true" nodeId="56" materialIds="8" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <TransformGroup name="areaDefinitions" nodeId="57">
+        <TransformGroup name="start" translation="-3 0 -3" nodeId="58">
+          <TransformGroup name="width" translation="6 0 0" nodeId="59"/>
+          <TransformGroup name="height" translation="0 0 9.5" nodeId="60"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="10" name="tipCol" static="true" collisionMask="524288" nodeId="61" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="11" name="floodLightOrange-300" translation="-3.39383e-07 4.40807 1.71377" rotation="90 3.91809e-06 -90" clipDistance="300" nodeId="62" materialIds="10" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="12" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.001" rotation="2.03555e-13 -4.45278e-13 0" clipDistance="80" nodeId="63" materialIds="10" castsShadows="true" receiveShadows="true">
+          <TransformGroup name="illum" translation="0 -1.20185e-17 0" visibility="false" nodeId="64">
+            <Shape shapeId="13" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="65" materialIds="11" castsShadows="true" receiveShadows="true"/>
+            <Light name="spotLight" translation="0.04439 0.0059147 0" rotation="0 -90 0" clipDistance="300" nodeId="66" type="spot" color="0.8 0.5 0.3" emitDiffuse="true" emitSpecular="true" decayRate="1" range="10" coneAngle="60" dropOff="5"/>
+          </TransformGroup>
+        </Shape>
+      </Shape>
+      <Shape shapeId="14" name="streetLaternMedium-Orange-150" translation="2.04501 -0.355 2.20607" rotation="-180 -90 -180" static="true" clipDistance="300" nodeId="67" materialIds="13" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="15" name="decals" translation="0 -7.10543e-17 0" clipDistance="50" nodeId="68" materialIds="14" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+        <TransformGroup name="illum" translation="0 -7.10543e-17 0" visibility="false" nodeId="69">
+          <Shape shapeId="16" name="glass" translation="-8.88178e-18 0 0" clipDistance="150" nodeId="70" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Light name="spotLight" translation="2.32192 10.6997 -2.04656e-07" rotation="-90 -3.35922e-08 0" clipDistance="300" nodeId="71" type="spot" color="0.8 0.5 0.3" emitDiffuse="true" emitSpecular="true" decayRate="1" range="15" coneAngle="110" dropOff="5"/>
+        </TransformGroup>
+      </Shape>
+      <TransformGroup name="warningStripes" translation="0 0 5.74" visibility="false" nodeId="72">
+        <Shape shapeId="17" name="warningStripesCorner1" translation="-3 -1.37586e-08 3" rotation="-180 -0 -180" clipDistance="200" nodeId="73" materialIds="4" receiveShadows="true" decalLayer="1"/>
+        <Shape shapeId="18" name="warningStripesCorner2" translation="-3 0 -3" clipDistance="200" nodeId="74" materialIds="4" receiveShadows="true" decalLayer="1"/>
+        <Shape shapeId="17" name="warningStripesCorner3" translation="3 0 -3" clipDistance="200" nodeId="75" materialIds="4" receiveShadows="true" decalLayer="1"/>
+        <Shape shapeId="18" name="warningStripesCorner4" translation="3 0 3" rotation="-180 -5.00896e-06 -180" clipDistance="200" nodeId="76" materialIds="4" receiveShadows="true" decalLayer="1"/>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="35">
+      <Attribute name="mapPositionIndex" type="string" value="1|2"/>
+    </UserAttribute>
+    <UserAttribute nodeId="64">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="69">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

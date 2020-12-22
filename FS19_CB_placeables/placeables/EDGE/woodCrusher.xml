@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+ <storeData>
+  <name>$l10n_shopItem_woodCrusher</name>
+  <image>store/store_woodCrusher.png</image>
+  <specs>
+   <fillTypes>treeSaplings</fillTypes>
+  </specs>
+  <functions>
+   <function>$l10n_function_placeableChipper</function>
+  </functions>
+  <price>55000</price>
+  <dailyUpkeep>55</dailyUpkeep>
+  <lifetime>1000</lifetime>
+  <rotation>0</rotation>
+  <brand>AJTECH</brand>
+  <species>placeable</species>
+  <category>placeableMisc</category>
+  <vertexBufferMemoryUsage>1359468</vertexBufferMemoryUsage>
+  <indexBufferMemoryUsage>187602</indexBufferMemoryUsage>
+  <textureMemoryUsage>2608016</textureMemoryUsage>
+  <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+  <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+ </storeData>
+
+ <placeableType>woodCrusher</placeableType>
+ <filename>placeables/EDGE/woodCrusher.i3d</filename>
+ <placement testSizeX="10" testSizeZ="12" sizeX="10" sizeZ="12" useRandomYRotation="false" useManualYRotation="true" />
+
+ <woodCrusher priceScale="2" cutNode="1|0|2" cutSizeY="1.5" cutSizeZ="2" downForceNode="1|0|3" mainDrumRefNode="1|0|5" downForce="1" moveMaxForce="9" automaticallyTurnOn="true">
+  <moveTriggers>
+   <trigger node="1|0|0" />
+  </moveTriggers>
+  <moveCollisions>
+   <collision node="1|0|1|0" />
+   <collision node="1|0|1|1" />
+   <collision node="1|0|1|2" />
+  </moveCollisions>
+  <crushEffects>
+   <effectNode effectClass="ParticleEffect" effectNode="1|0|4|0" particleType="CRUSHER_DUST"/>
+   <effectNode effectClass="ParticleEffect" effectNode="1|0|4|1" particleType="CRUSHER_WOOD"/>
+  </crushEffects>
+  <animationNodes>
+   <animationNode node="1|1|0" rotSpeed="100"  rotAxis="1" />
+   <animationNode node="1|1|1" rotSpeed="-450" rotAxis="1" />
+   <animationNode node="1|1|2" rotSpeed="450"  rotAxis="1" />
+   <animationNode class="ScrollingAnimation" node="1|2" scrollSpeed="0.25" shaderParameterComponent="2" />
+  </animationNodes>
+  <sounds>
+   <work template="WOOD_CHIPPER_WORK" linkNode="1|0" />
+  </sounds>
+ </woodCrusher>
+
+ <dayNightObjects>
+  <dayNightObject node="0|3|0|0" intensityDay="0" intensityNight="2" />
+  <dayNightObject node="0|4|0|0" intensityDay="0" intensityNight="2" />
+  <dayNightObject node="0|3|0|1" visibleDay="false" visibleNight="true" />
+  <dayNightObject node="0|4|0|1" visibleDay="false" visibleNight="true" />
+ </dayNightObjects>
+
+ <clearAreas>
+  <clearArea startNode="2|0" widthNode="2|0|0" heightNode="2|0|1"/>
+ </clearAreas>
+ <leveling requireLeveling="true" maxSmoothDistance="10" maxSlope="75" maxEdgeAngle="30">
+  <levelAreas>
+   <levelArea startNode="2|0" widthNode="2|0|0" heightNode="2|0|1" groundType="dirt"/>
+  </levelAreas>
+ </leveling>
+ <seasons>
+  <maskAreas>
+   <maskArea startNode="2|0" widthNode="2|0|0" heightNode="2|0|1" />
+  </maskAreas>
+ </seasons>
+
+ <tipOcclusionUpdateArea sizeX="10" sizeZ="12" />
+</placeable>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+ <storeData>
+  <name>$l10n_shopItem_bgaExtension</name>
+  <functions>
+   <function>$l10n_function_bgaExtension</function>
+  </functions>
+  <specs>
+   <capacity>200000</capacity>
+   <fillTypes>digestate</fillTypes>
+  </specs>
+  <image>store/store_bgaExtension.png</image>
+  <price>30000</price>
+  <lifetime>1000</lifetime>
+  <dailyUpkeep>30</dailyUpkeep>
+  <rotation>0</rotation>
+  <brand>AJTECH</brand>
+  <species>placeable</species>
+  <category>silos</category>
+ </storeData>
+
+ <placeableType>siloExtension</placeableType>
+ <filename>placeables/bga/bgaExtension.i3d</filename>
+ <placement testSizeX="18" testSizeZ="18" sizeX="18" sizeZ="18" useRandomYRotation="false" useManualYRotation="true"/>
+
+ <storage node="1" fillTypes="digestate" capacityPerFillType="200000" />
+
+ <clearAreas>
+  <clearArea startNode="2|0" widthNode="2|0|0" heightNode="2|0|1"/>
+ </clearAreas>
+ <leveling requireLeveling="true" maxSmoothDistance="5" maxSlope="30" maxEdgeAngle="20">
+  <levelAreas>
+   <levelArea startNode="2|0" widthNode="2|0|0" heightNode="2|0|1" groundType="concrete"/>
+  </levelAreas>
+ </leveling>
+ <seasons>
+  <maskAreas>
+  </maskAreas>
+ </seasons>
+
+ <tipOcclusionUpdateArea sizeX="18" sizeZ="18" />
+</placeable>

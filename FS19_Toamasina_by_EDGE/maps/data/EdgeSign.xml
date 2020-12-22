@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_name_EDGE_Sign</name>
+        <functions>
+            <function>$l10n_function_EDGE_Sign</function>
+        </functions>
+        <specs>
+            <capacity>50000</capacity>
+            <fillTypeCategories>FARMSILO</fillTypeCategories>
+        </specs>
+        <image>store/store_EDGE Sign.dds</image>
+        <price>40000</price>
+        <dailyUpkeep>10</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <species>placeable</species>
+        <category>silos</category>
+    </storeData>
+    <placeableType>siloExtension</placeableType>
+    <filename>data/EdgeSign.i3d</filename>
+    <placement testSizeX="3.6" testSizeZ="3.6" sizeX="3.6" sizeZ="3.6" useRandomYRotation="false" useManualYRotation="true"/>
+    <dayNightObjects>
+        <dayNightObject node="4|0|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+    </dayNightObjects>
+	<storage node="1|0" fillTypeCategories="FARMSILO" capacityPerFillType="50000"/>
+    <clearAreas>
+        <clearArea startNode="2|0" widthNode="2|1" heightNode="2|2"/>
+    </clearAreas>
+    <leveling requireLeveling="true" maxSmoothDistance="10" maxSlope="75" maxEdgeAngle="30">
+        <levelAreas>
+            <levelArea startNode="3|0" widthNode="3|0|0" heightNode="3|0|1" groundType="asphalt"/>
+        </levelAreas>
+    </leveling>
+    <seasons>
+        <maskAreas>
+            <!-- needs no mask -->
+        </maskAreas>
+    </seasons>
+    <baseMaterialConfigurations price="1500" useDefaultColors="true" defaultColorIndex="8">
+            <!--Matte-->
+		<baseMaterialConfiguration name="$l10n_color_ITRUNNERMATTE" 	    color="0.038 0.037 0.048 1" material="1"/>
+        <baseMaterialConfiguration name="$l10n_color_EDGEGOLDMATTE"         color="0.776 0.667 0.341 1" material="1"/>
+        <baseMaterialConfiguration name="$l10n_color_EDGESILVERMATTE"       color="0.647 0.667 0.682 1" material="1"/>
+		<baseMaterialConfiguration name="$l10n_color_CASEIHMATTE" 	        color="CASEIH_RED1" 		material="1"/>
+		<baseMaterialConfiguration name="$l10n_color_NEWHOLLANDMATTE" 	    color="NEWHOLLAND_BLUE1" 	material="1"/>
+		<baseMaterialConfiguration name="$l10n_color_KRONEMATTE" 	        color="KRONE_GREEN1" 		material="1"/>
+		<baseMaterialConfiguration name="$l10n_color_YELLOWMATTE"           color="0.980 0.980 0.220 1"	material="1"/>
+		<baseMaterialConfiguration name="$l10n_color_STARAMATTE" 	        color="STARA_ORANGE" 		material="1"/>
+
+		<baseMaterialConfiguration name="$l10n_color_LELYMATTE" 		    color="LELY_COPPER" 		material="1"/>
+        <baseMaterialConfiguration name="$l10n_color_KRONEMATTE"            color="KRONE_YELLOW1"       material="1"/>
+        <baseMaterialConfiguration name="$l10n_color_WHITEMATTE"            color="SHARED_WHITE2"       material="1"/>
+		<baseMaterialConfiguration name="$l10n_color_PURPLEMATTE" 	        color="0.630 0.130 0.940 1" material="1"/>
+		<baseMaterialConfiguration name="$l10n_color_DARKBLUEMATTE"         color="0.007 0.029 0.187 1"	material="1"/>
+		<baseMaterialConfiguration name="$l10n_color_JOHNDEEREMATTE" 	    color="JOHNDEERE_GREEN1"    material="1"/>
+		<baseMaterialConfiguration name="$l10n_color_JOHNDEEREMATTE"        color="JOHNDEERE_YELLOW1"	material="1"/>
+		<baseMaterialConfiguration name="$l10n_color_PINKMATTE" 	        color="0.880 0.130 0.540 1" material="1"/>
+            <!--Chrome-->
+        <baseMaterialConfiguration name="$l10n_color_ITRUNNERCHROME" 	    color="0.038 0.037 0.048 1" material="2"/>
+        <baseMaterialConfiguration name="$l10n_color_EDGEGOLDCHROME"        color="0.776 0.667 0.341 1" material="2"/>
+        <baseMaterialConfiguration name="$l10n_color_EDGESILVERCHROME"      color="0.647 0.667 0.682 1" material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_CASEIHCHROME" 	        color="CASEIH_RED1" 		material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_NEWHOLLANDCHROME" 	    color="NEWHOLLAND_BLUE1"    material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_KRONECHROME" 	        color="KRONE_GREEN1" 		material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_YELLOWCHROME"          color="0.980 0.980 0.220 1"	material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_STARACHROME"           color="STARA_ORANGE" 		material="2"/>
+
+		<baseMaterialConfiguration name="$l10n_color_LELYCHROME" 		    color="LELY_COPPER" 		material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_KRONECHROME" 	        color="KRONE_YELLOW1"		material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_WHITECHROME"           color="SHARED_WHITE2" 		material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_PURPLECHROME" 	        color="0.630 0.130 0.940 1" material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_DARKBLUECHROME" 	    color="0.007 0.029 0.187 1" material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_JOHNDEERECHROME"       color="JOHNDEERE_GREEN1" 	material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_JOHNDEERECHROME"       color="JOHNDEERE_YELLOW1"   material="2"/>
+		<baseMaterialConfiguration name="$l10n_color_PINKCHROME"            color="0.880 0.130 0.540 1" material="2"/>
+            <!--Metallic-->
+        <baseMaterialConfiguration name="$l10n_color_ITRUNNERMETALLIC" 	    color="0.038 0.037 0.048 1" material="3"/>
+        <baseMaterialConfiguration name="$l10n_color_EDGEGOLDMETALLIC"      color="0.776 0.667 0.341 1" material="3"/>
+        <baseMaterialConfiguration name="$l10n_color_EDGESILVERMETALLIC"    color="0.647 0.667 0.682 1" material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_CASEIHMETALLIC" 	    color="CASEIH_RED1" 		material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_NEWHOLLANDMETALLIC" 	color="NEWHOLLAND_BLUE1"    material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_KRONEMETALLIC" 	    color="KRONE_GREEN1" 		material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_YELLOWMETALLIC"        color="0.980 0.980 0.220 1"	material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_STARAMETALLIC"         color="STARA_ORANGE" 		material="3"/>
+
+		<baseMaterialConfiguration name="$l10n_color_LELYMETALLIC" 		    color="LELY_COPPER" 		material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_KRONEMETALLIC" 	    color="KRONE_YELLOW1"		material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_WHITEMETALLIC"         color="SHARED_WHITE2" 		material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_PURPLEMETALLIC" 	    color="0.630 0.130 0.940 1" material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_DARKBLUEMETALLIC" 	    color="0.007 0.029 0.187 1" material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_JOHNDEEREMETALLIC"     color="JOHNDEERE_GREEN1" 	material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_JOHNDEEREMETALLIC"     color="JOHNDEERE_YELLOW1"   material="3"/>
+		<baseMaterialConfiguration name="$l10n_color_PINKMETALLIC"          color="0.880 0.130 0.540 1" material="3"/>
+            <!--Shiny-->
+        <baseMaterialConfiguration name="$l10n_color_ITRUNNERSHINY" 	    color="0.038 0.037 0.048 1" material="8"/>
+        <baseMaterialConfiguration name="$l10n_color_EDGEGOLDSHINY"         color="0.776 0.667 0.341 1" material="8"/>
+        <baseMaterialConfiguration name="$l10n_color_EDGESILVERSHINY"       color="0.647 0.667 0.682 1" material="8"/>
+		<baseMaterialConfiguration name="$l10n_color_CASEIHSHINY" 	        color="CASEIH_RED1" 		material="8"/>
+		<baseMaterialConfiguration name="$l10n_color_NEWHOLLANDSHINY" 	    color="NEWHOLLAND_BLUE1"    material="8"/>
+		<baseMaterialConfiguration name="$l10n_color_KRONESHINY" 	        color="KRONE_GREEN1" 		material="8"/>
+		<baseMaterialConfiguration name="$l10n_color_YELLOWSHINY"           color="0.980 0.980 0.220 1"	material="8"/>
+		<baseMaterialConfiguration name="$l10n_color_STARASHINY"            color="STARA_ORANGE" 		material="8"/>
+
+		<baseMaterialConfiguration name="$l10n_color_LELYSHINY" 		    color="LELY_COPPER" 		material="8"/>
+		<baseMaterialConfiguration name="$l10n_color_KRONESHINY" 	        color="KRONE_YELLOW1"		material="8"/>
+		<baseMaterialConfiguration name="$l10n_color_WHITESHINY"            color="SHARED_WHITE2" 		material="8"/>
+		<baseMaterialConfiguration name="$l10n_color_PURPLESHINY" 	        color="0.630 0.130 0.940 1" material="8"/>
+		<baseMaterialConfiguration name="$l10n_color_DARKBLUESHINY" 	    color="0.007 0.029 0.187 1" material="8"/>
+		<baseMaterialConfiguration name="$l10n_color_JOHNDEERESHINY"        color="JOHNDEERE_GREEN1" 	material="8"/>
+		<baseMaterialConfiguration name="$l10n_color_JOHNDEERESHINY"        color="JOHNDEERE_YELLOW1"   material="8"/>
+		<baseMaterialConfiguration name="$l10n_color_PINKSHINY"             color="0.880 0.130 0.540 1" material="8"/>
+            <!--Default-->
+        <baseMaterialConfiguration name="$l10n_color_ITRUNNER"              color="0.038 0.037 0.048 1" material="0"/>
+        <baseMaterialConfiguration name="$l10n_color_EDGEGOLD"              color="0.776 0.667 0.341 1" material="0"/>
+        <baseMaterialConfiguration name="$l10n_color_EDGESILVER"            color="0.647 0.667 0.682 1" material="0"/>
+        <baseMaterialConfiguration name="$l10n_color_RED"                   color="0.673 0.002 0.000 1" material="0"/>
+		<baseMaterialConfiguration name="$l10n_color_KOBALT" 		        color="DFM_DARKBLUE1" 		material="0"/>
+        <baseMaterialConfiguration name="$l10n_color_GREEN"                 color="0.000 0.170 0.001 1" material="0"/>
+		<baseMaterialConfiguration name="$l10n_color_YELLOW"       	        color="0.980 0.980 0.220 1"	material="0"/>
+        <baseMaterialConfiguration name="$l10n_color_ORANGE"                color="0.932 0.119 0.000 1" material="0"/>
+
+        <baseMaterialConfiguration name="$l10n_color_LELY"       		    color="LELY_COPPER" 		material="0"/>
+		<baseMaterialConfiguration name="$l10n_color_KRONE" 		        color="KRONE_YELLOW1" 		material="0"/>
+		<baseMaterialConfiguration name="$l10n_color_ROMANSILVER" 			color="0.510 0.540 0.590 1" material="0"/>
+		<baseMaterialConfiguration name="$l10n_color_PURPLE"           	    color="0.630 0.130 0.940 1" material="0"/>
+        <baseMaterialConfiguration name="$l10n_color_DARKBLUE"              color="0.007 0.029 0.187 1" material="0"/>
+		<baseMaterialConfiguration name="$l10n_color_KRONE" 		        color="KRONE_GREEN1" 		material="0"/>
+		<baseMaterialConfiguration name="$l10n_color_NEWHOLLAND" 	        color="NEWHOLLAND_YELLOW1" 	material="0"/>
+        <baseMaterialConfiguration name="$l10n_color_PINK"                  color="0.880 0.130 0.540 1" material="0"/>
+            <!--Mix-->
+        <baseMaterialConfiguration name="$l10n_color_DARKGREY"              color="0.037 0.037 0.037 1" material="0"/>
+		<baseMaterialConfiguration name="$l10n_color_BROWN" 		        color="SHARED_BROWN1" 		material="0"/>
+        <baseMaterialConfiguration name="$l10n_color_ALICEBLUE"             color="0.940 0.970 1.000 1" material="0"/>
+        <baseMaterialConfiguration name="$l10n_color_CRIMSONGLORY"          color="0.690 0.000 0.160 1" material="0"/>
+		<baseMaterialConfiguration name="$l10n_color_CYAN" 			        color="KOMATSU_CYAN" 		material="0"/>
+        <baseMaterialConfiguration name="$l10n_color_ANDROIDGREEN"          color="0.640 0.780 0.220 1" material="0"/>
+		<baseMaterialConfiguration name="$l10n_color_CORN" 		            color="1.000 0.900 0.400 1" material="0"/>
+		<baseMaterialConfiguration name="$l10n_color_AMBER" 		        color="1.000 0.750 0.000 1" material="0"/>
+        <material name="krampeTurbo_mat" shaderParameter="colorMat0"/>
+    </baseMaterialConfigurations>
+    <designMaterialConfigurations price="1000" useDefaultColors="true" defaultColorIndex="12">
+            <!--Matte-->
+		<designMaterialConfiguration name="$l10n_color_ITRUNNERMATTE" 	      color="0.038 0.037 0.048 1" material="1"/>
+        <designMaterialConfiguration name="$l10n_color_EDGEGOLDMATTE"         color="0.776 0.667 0.341 1" material="1"/>
+        <designMaterialConfiguration name="$l10n_color_EDGESILVERMATTE"       color="0.647 0.667 0.682 1" material="1"/>
+		<designMaterialConfiguration name="$l10n_color_CASEIHMATTE" 	      color="CASEIH_RED1" 		material="1"/>
+		<designMaterialConfiguration name="$l10n_color_NEWHOLLANDMATTE" 	  color="NEWHOLLAND_BLUE1" 	material="1"/>
+		<designMaterialConfiguration name="$l10n_color_KRONEMATTE" 	          color="KRONE_GREEN1" 		material="1"/>
+		<designMaterialConfiguration name="$l10n_color_YELLOWMATTE"           color="0.980 0.980 0.220 1"	material="1"/>
+		<designMaterialConfiguration name="$l10n_color_STARAMATTE" 	          color="STARA_ORANGE" 		material="1"/>
+
+		<designMaterialConfiguration name="$l10n_color_LELYMATTE" 		      color="LELY_COPPER" 		material="1"/>
+        <designMaterialConfiguration name="$l10n_color_KRONEMATTE"            color="KRONE_YELLOW1"       material="1"/>
+        <designMaterialConfiguration name="$l10n_color_WHITEMATTE"            color="SHARED_WHITE2"       material="1"/>
+		<designMaterialConfiguration name="$l10n_color_PURPLEMATTE" 	      color="0.630 0.130 0.940 1" material="1"/>
+		<designMaterialConfiguration name="$l10n_color_DARKBLUEMATTE"         color="0.007 0.029 0.187 1"	material="1"/>
+		<designMaterialConfiguration name="$l10n_color_JOHNDEEREMATTE" 	      color="JOHNDEERE_GREEN1"    material="1"/>
+		<designMaterialConfiguration name="$l10n_color_JOHNDEEREMATTE"        color="JOHNDEERE_YELLOW1"	material="1"/>
+		<designMaterialConfiguration name="$l10n_color_PINKMATTE" 	          color="0.880 0.130 0.540 1" material="1"/>
+            <!--Chrome-->
+        <designMaterialConfiguration name="$l10n_color_ITRUNNERCHROME" 	      color="0.038 0.037 0.048 1" material="2"/>
+        <designMaterialConfiguration name="$l10n_color_EDGEGOLDCHROME"        color="0.776 0.667 0.341 1" material="2"/>
+        <designMaterialConfiguration name="$l10n_color_EDGESILVERCHROME"      color="0.647 0.667 0.682 1" material="2"/>
+		<designMaterialConfiguration name="$l10n_color_CASEIHCHROME" 	      color="CASEIH_RED1" 		material="2"/>
+		<designMaterialConfiguration name="$l10n_color_NEWHOLLANDCHROME" 	  color="NEWHOLLAND_BLUE1"    material="2"/>
+		<designMaterialConfiguration name="$l10n_color_KRONECHROME" 	      color="KRONE_GREEN1" 		material="2"/>
+		<designMaterialConfiguration name="$l10n_color_YELLOWCHROME"          color="0.980 0.980 0.220 1"	material="2"/>
+		<designMaterialConfiguration name="$l10n_color_STARACHROME"           color="STARA_ORANGE" 		material="2"/>
+
+		<designMaterialConfiguration name="$l10n_color_LELYCHROME" 		      color="LELY_COPPER" 		material="2"/>
+		<designMaterialConfiguration name="$l10n_color_KRONECHROME" 	      color="KRONE_YELLOW1"		material="2"/>
+		<designMaterialConfiguration name="$l10n_color_WHITECHROME"           color="SHARED_WHITE2" 		material="2"/>
+		<designMaterialConfiguration name="$l10n_color_PURPLECHROME" 	      color="0.630 0.130 0.940 1" material="2"/>
+		<designMaterialConfiguration name="$l10n_color_DARKBLUECHROME" 	      color="0.007 0.029 0.187 1" material="2"/>
+		<designMaterialConfiguration name="$l10n_color_JOHNDEERECHROME"       color="JOHNDEERE_GREEN1" 	material="2"/>
+		<designMaterialConfiguration name="$l10n_color_JOHNDEERECHROME"       color="JOHNDEERE_YELLOW1"   material="2"/>
+		<designMaterialConfiguration name="$l10n_color_PINKCHROME"            color="0.880 0.130 0.540 1" material="2"/>
+            <!--Metallic-->
+        <designMaterialConfiguration name="$l10n_color_ITRUNNERMETALLIC" 	  color="0.038 0.037 0.048 1" material="3"/>
+        <designMaterialConfiguration name="$l10n_color_EDGEGOLDMETALLIC"      color="0.776 0.667 0.341 1" material="3"/>
+        <designMaterialConfiguration name="$l10n_color_EDGESILVERMETALLIC"    color="0.647 0.667 0.682 1" material="3"/>
+		<designMaterialConfiguration name="$l10n_color_CASEIHMETALLIC" 	      color="CASEIH_RED1" 		material="3"/>
+		<designMaterialConfiguration name="$l10n_color_NEWHOLLANDMETALLIC" 	  color="NEWHOLLAND_BLUE1"    material="3"/>
+		<designMaterialConfiguration name="$l10n_color_KRONEMETALLIC" 	      color="KRONE_GREEN1" 		material="3"/>
+		<designMaterialConfiguration name="$l10n_color_YELLOWMETALLIC"        color="0.980 0.980 0.220 1"	material="3"/>
+		<designMaterialConfiguration name="$l10n_color_STARAMETALLIC"         color="STARA_ORANGE" 		material="3"/>
+
+		<designMaterialConfiguration name="$l10n_color_LELYMETALLIC" 		  color="LELY_COPPER" 		material="3"/>
+		<designMaterialConfiguration name="$l10n_color_KRONEMETALLIC" 	      color="KRONE_YELLOW1"		material="3"/>
+		<designMaterialConfiguration name="$l10n_color_WHITEMETALLIC"         color="SHARED_WHITE2" 		material="3"/>
+		<designMaterialConfiguration name="$l10n_color_PURPLEMETALLIC" 	      color="0.630 0.130 0.940 1" material="3"/>
+		<designMaterialConfiguration name="$l10n_color_DARKBLUEMETALLIC" 	  color="0.007 0.029 0.187 1" material="3"/>
+		<designMaterialConfiguration name="$l10n_color_JOHNDEEREMETALLIC"     color="JOHNDEERE_GREEN1" 	material="3"/>
+		<designMaterialConfiguration name="$l10n_color_JOHNDEEREMETALLIC"     color="JOHNDEERE_YELLOW1"   material="3"/>
+		<designMaterialConfiguration name="$l10n_color_PINKMETALLIC"          color="0.880 0.130 0.540 1" material="3"/>
+            <!--Shiny-->
+        <designMaterialConfiguration name="$l10n_color_ITRUNNERSHINY" 	color="0.038 0.037 0.048 1" material="8"/>
+        <designMaterialConfiguration name="$l10n_color_EDGEGOLDSHINY"   color="0.776 0.667 0.341 1" material="8"/>
+        <designMaterialConfiguration name="$l10n_color_EDGESILVERSHINY" color="0.647 0.667 0.682 1" material="8"/>
+		<designMaterialConfiguration name="$l10n_color_CASEIHSHINY" 	color="CASEIH_RED1" 		material="8"/>
+		<designMaterialConfiguration name="$l10n_color_NEWHOLLANDSHINY" color="NEWHOLLAND_BLUE1"    material="8"/>
+		<designMaterialConfiguration name="$l10n_color_KRONESHINY" 	    color="KRONE_GREEN1" 		material="8"/>
+		<designMaterialConfiguration name="$l10n_color_YELLOWSHINY"     color="0.980 0.980 0.220 1"	material="8"/>
+		<designMaterialConfiguration name="$l10n_color_STARASHINY"      color="STARA_ORANGE" 		material="8"/>
+
+		<designMaterialConfiguration name="$l10n_color_LELYSHINY" 		color="LELY_COPPER" 		material="8"/>
+		<designMaterialConfiguration name="$l10n_color_KRONESHINY" 	    color="KRONE_YELLOW1"		material="8"/>
+		<designMaterialConfiguration name="$l10n_color_WHITESHINY"      color="SHARED_WHITE2" 		material="8"/>
+		<designMaterialConfiguration name="$l10n_color_PURPLESHINY" 	color="0.630 0.130 0.940 1" material="8"/>
+		<designMaterialConfiguration name="$l10n_color_DARKBLUESHINY" 	color="0.007 0.029 0.187 1" material="8"/>
+		<designMaterialConfiguration name="$l10n_color_JOHNDEERESHINY"  color="JOHNDEERE_GREEN1" 	material="8"/>
+		<designMaterialConfiguration name="$l10n_color_JOHNDEERESHINY"  color="JOHNDEERE_YELLOW1"   material="8"/>
+		<designMaterialConfiguration name="$l10n_color_PINKSHINY"       color="0.880 0.130 0.540 1" material="8"/>
+            <!--Default-->
+        <designMaterialConfiguration name="$l10n_color_ITRUNNER"        color="0.038 0.037 0.048 1" material="0"/>
+        <designMaterialConfiguration name="$l10n_color_EDGEGOLD"        color="0.776 0.667 0.341 1" material="0"/>
+        <designMaterialConfiguration name="$l10n_color_EDGESILVER"      color="0.647 0.667 0.682 1" material="0"/>
+        <designMaterialConfiguration name="$l10n_color_RED"             color="0.673 0.002 0.000 1" material="0"/>
+		<designMaterialConfiguration name="$l10n_color_KOBALT" 		    color="DFM_DARKBLUE1" 		material="0"/>
+        <designMaterialConfiguration name="$l10n_color_GREEN"           color="0.000 0.170 0.001 1" material="0"/>
+		<designMaterialConfiguration name="$l10n_color_YELLOW"       	color="0.980 0.980 0.220 1"	material="0"/>
+        <designMaterialConfiguration name="$l10n_color_ORANGE"          color="0.932 0.119 0.000 1" material="0"/>
+
+        <designMaterialConfiguration name="$l10n_color_LELY"       		color="LELY_COPPER" 		material="0"/>
+		<designMaterialConfiguration name="$l10n_color_KRONE" 		    color="KRONE_YELLOW1" 		material="0"/>
+		<designMaterialConfiguration name="$l10n_color_ROMANSILVER" 	color="0.510 0.540 0.590 1" material="0"/>
+		<designMaterialConfiguration name="$l10n_color_PURPLE"          color="0.630 0.130 0.940 1" material="0"/>
+        <designMaterialConfiguration name="$l10n_color_DARKBLUE"        color="0.007 0.029 0.187 1" material="0"/>
+		<designMaterialConfiguration name="$l10n_color_KRONE" 		    color="KRONE_GREEN1" 		material="0"/>
+		<designMaterialConfiguration name="$l10n_color_NEWHOLLAND" 	    color="NEWHOLLAND_YELLOW1" 	material="0"/>
+        <designMaterialConfiguration name="$l10n_color_PINK"            color="0.880 0.130 0.540 1" material="0"/>
+            <!--Mix-->
+        <designMaterialConfiguration name="$l10n_color_DARKGREY"        color="0.037 0.037 0.037 1" material="0"/>
+		<designMaterialConfiguration name="$l10n_color_BROWN" 		    color="SHARED_BROWN1" 		material="0"/>
+        <designMaterialConfiguration name="$l10n_color_CRIMSONGLORY"    color="0.690 0.000 0.160 1" material="0"/>
+        <designMaterialConfiguration name="$l10n_color_ALICEBLUE"       color="0.940 0.970 1.000 1" material="0"/>
+		<designMaterialConfiguration name="$l10n_color_CYAN" 			color="KOMATSU_CYAN" 		material="0"/>
+        <designMaterialConfiguration name="$l10n_color_ANDROIDGREEN"    color="0.690 0.750 0.100 1" material="0"/>
+		<designMaterialConfiguration name="$l10n_color_CORN" 		    color="1.000 0.900 0.400 1" material="0"/>
+		<designMaterialConfiguration name="$l10n_color_AMBER" 		    color="1.000 0.750 0.000 1" material="0"/>
+        <material name="krampeTurbo_mat" shaderParameter="colorMat1"/>
+    </designMaterialConfigurations>
+    <rimColorConfigurations useDefaultColors="true" price="300" defaultColorIndex="12">
+            <!--Matte-->
+		<rimColorConfiguration name="$l10n_color_ITRUNNERMATTE" 	    color="0.038 0.037 0.048 1" material="1"/>
+        <rimColorConfiguration name="$l10n_color_EDGEGOLDMATTE"         color="0.776 0.667 0.341 1" material="1"/>
+        <rimColorConfiguration name="$l10n_color_EDGESILVERMATTE"       color="0.647 0.667 0.682 1" material="1"/>
+		<rimColorConfiguration name="$l10n_color_CASEIHMATTE" 	        color="CASEIH_RED1" 		material="1"/>
+		<rimColorConfiguration name="$l10n_color_NEWHOLLANDMATTE" 	    color="NEWHOLLAND_BLUE1" 	material="1"/>
+		<rimColorConfiguration name="$l10n_color_KRONEMATTE" 	        color="KRONE_GREEN1" 		material="1"/>
+		<rimColorConfiguration name="$l10n_color_YELLOWMATTE"           color="0.980 0.980 0.220 1"	material="1"/>
+		<rimColorConfiguration name="$l10n_color_STARAMATTE" 	        color="STARA_ORANGE" 		material="1"/>
+
+		<rimColorConfiguration name="$l10n_color_LELYMATTE" 		    color="LELY_COPPER" 		material="1"/>
+        <rimColorConfiguration name="$l10n_color_KRONEMATTE"            color="KRONE_YELLOW1"       material="1"/>
+        <rimColorConfiguration name="$l10n_color_WHITEMATTE"            color="SHARED_WHITE2"       material="1"/>
+		<rimColorConfiguration name="$l10n_color_PURPLEMATTE" 	        color="0.630 0.130 0.940 1" material="1"/>
+		<rimColorConfiguration name="$l10n_color_DARKBLUEMATTE"         color="0.007 0.029 0.187 1"	material="1"/>
+		<rimColorConfiguration name="$l10n_color_JOHNDEEREMATTE" 	    color="JOHNDEERE_GREEN1"    material="1"/>
+		<rimColorConfiguration name="$l10n_color_JOHNDEEREMATTE"        color="JOHNDEERE_YELLOW1"	material="1"/>
+		<rimColorConfiguration name="$l10n_color_PINKMATTE" 	        color="0.880 0.130 0.540 1" material="1"/>
+            <!--Chrome-->
+        <rimColorConfiguration name="$l10n_color_ITRUNNERCHROME" 	    color="0.038 0.037 0.048 1" material="2"/>
+        <rimColorConfiguration name="$l10n_color_EDGEGOLDCHROME"        color="0.776 0.667 0.341 1" material="2"/>
+        <rimColorConfiguration name="$l10n_color_EDGESILVERCHROME"      color="0.647 0.667 0.682 1" material="2"/>
+		<rimColorConfiguration name="$l10n_color_CASEIHCHROME" 	        color="CASEIH_RED1" 		material="2"/>
+		<rimColorConfiguration name="$l10n_color_NEWHOLLANDCHROME" 	    color="NEWHOLLAND_BLUE1"    material="2"/>
+		<rimColorConfiguration name="$l10n_color_KRONECHROME" 	        color="KRONE_GREEN1" 		material="2"/>
+		<rimColorConfiguration name="$l10n_color_YELLOWCHROME"          color="0.980 0.980 0.220 1"	material="2"/>
+		<rimColorConfiguration name="$l10n_color_STARACHROME"           color="STARA_ORANGE" 		material="2"/>
+
+		<rimColorConfiguration name="$l10n_color_LELYCHROME" 		    color="LELY_COPPER" 		material="2"/>
+		<rimColorConfiguration name="$l10n_color_KRONECHROME" 	        color="KRONE_YELLOW1"		material="2"/>
+		<rimColorConfiguration name="$l10n_color_WHITECHROME"           color="SHARED_WHITE2" 		material="2"/>
+		<rimColorConfiguration name="$l10n_color_PURPLECHROME" 	        color="0.630 0.130 0.940 1" material="2"/>
+		<rimColorConfiguration name="$l10n_color_DARKBLUECHROME" 	    color="0.007 0.029 0.187 1" material="2"/>
+		<rimColorConfiguration name="$l10n_color_JOHNDEERECHROME"       color="JOHNDEERE_GREEN1" 	material="2"/>
+		<rimColorConfiguration name="$l10n_color_JOHNDEERECHROME"       color="JOHNDEERE_YELLOW1"   material="2"/>
+		<rimColorConfiguration name="$l10n_color_PINKCHROME"            color="0.880 0.130 0.540 1" material="2"/>
+            <!--Metallic-->
+        <rimColorConfiguration name="$l10n_color_ITRUNNERMETALLIC" 	    color="0.038 0.037 0.048 1" material="3"/>
+        <rimColorConfiguration name="$l10n_color_EDGEGOLDMETALLIC"      color="0.776 0.667 0.341 1" material="3"/>
+        <rimColorConfiguration name="$l10n_color_EDGESILVERMETALLIC"    color="0.647 0.667 0.682 1" material="3"/>
+		<rimColorConfiguration name="$l10n_color_CASEIHMETALLIC" 	    color="CASEIH_RED1" 		material="3"/>
+		<rimColorConfiguration name="$l10n_color_NEWHOLLANDMETALLIC" 	color="NEWHOLLAND_BLUE1"    material="3"/>
+		<rimColorConfiguration name="$l10n_color_KRONEMETALLIC" 	    color="KRONE_GREEN1" 		material="3"/>
+		<rimColorConfiguration name="$l10n_color_YELLOWMETALLIC"        color="0.980 0.980 0.220 1"	material="3"/>
+		<rimColorConfiguration name="$l10n_color_STARAMETALLIC"         color="STARA_ORANGE" 		material="3"/>
+
+		<rimColorConfiguration name="$l10n_color_LELYMETALLIC" 		    color="LELY_COPPER" 		material="3"/>
+		<rimColorConfiguration name="$l10n_color_KRONEMETALLIC" 	    color="KRONE_YELLOW1"		material="3"/>
+		<rimColorConfiguration name="$l10n_color_WHITEMETALLIC"         color="SHARED_WHITE2" 		material="3"/>
+		<rimColorConfiguration name="$l10n_color_PURPLEMETALLIC" 	    color="0.630 0.130 0.940 1" material="3"/>
+		<rimColorConfiguration name="$l10n_color_DARKBLUEMETALLIC" 	    color="0.007 0.029 0.187 1" material="3"/>
+		<rimColorConfiguration name="$l10n_color_JOHNDEEREMETALLIC"     color="JOHNDEERE_GREEN1" 	material="3"/>
+		<rimColorConfiguration name="$l10n_color_JOHNDEEREMETALLIC"     color="JOHNDEERE_YELLOW1"   material="3"/>
+		<rimColorConfiguration name="$l10n_color_PINKMETALLIC"          color="0.880 0.130 0.540 1" material="3"/>
+            <!--Shiny-->
+        <rimColorConfiguration name="$l10n_color_ITRUNNERSHINY" 	    color="0.038 0.037 0.048 1" material="8"/>
+        <rimColorConfiguration name="$l10n_color_EDGEGOLDSHINY"         color="0.776 0.667 0.341 1" material="8"/>
+        <rimColorConfiguration name="$l10n_color_EDGESILVERSHINY"       color="0.647 0.667 0.682 1" material="8"/>
+		<rimColorConfiguration name="$l10n_color_CASEIHSHINY" 	        color="CASEIH_RED1" 		material="8"/>
+		<rimColorConfiguration name="$l10n_color_NEWHOLLANDSHINY" 	    color="NEWHOLLAND_BLUE1"    material="8"/>
+		<rimColorConfiguration name="$l10n_color_KRONESHINY" 	        color="KRONE_GREEN1" 		material="8"/>
+		<rimColorConfiguration name="$l10n_color_YELLOWSHINY"           color="0.980 0.980 0.220 1"	material="8"/>
+		<rimColorConfiguration name="$l10n_color_STARASHINY"            color="STARA_ORANGE" 		material="8"/>
+
+		<rimColorConfiguration name="$l10n_color_LELYSHINY" 		    color="LELY_COPPER" 		material="8"/>
+		<rimColorConfiguration name="$l10n_color_KRONESHINY" 	        color="KRONE_YELLOW1"		material="8"/>
+		<rimColorConfiguration name="$l10n_color_WHITESHINY"            color="SHARED_WHITE2" 		material="8"/>
+		<rimColorConfiguration name="$l10n_color_PURPLESHINY" 	        color="0.630 0.130 0.940 1" material="8"/>
+		<rimColorConfiguration name="$l10n_color_DARKBLUESHINY" 	    color="0.007 0.029 0.187 1" material="8"/>
+		<rimColorConfiguration name="$l10n_color_JOHNDEERESHINY"        color="JOHNDEERE_GREEN1" 	material="8"/>
+		<rimColorConfiguration name="$l10n_color_JOHNDEERESHINY"        color="JOHNDEERE_YELLOW1"   material="8"/>
+		<rimColorConfiguration name="$l10n_color_PINKSHINY"             color="0.880 0.130 0.540 1" material="8"/>
+            <!--Default-->
+        <rimColorConfiguration name="$l10n_color_ITRUNNER"              color="0.038 0.037 0.048 1" material="0"/>
+        <rimColorConfiguration name="$l10n_color_EDGEGOLD"              color="0.776 0.667 0.341 1" material="0"/>
+        <rimColorConfiguration name="$l10n_color_EDGESILVER"            color="0.647 0.667 0.682 1" material="0"/>
+        <rimColorConfiguration name="$l10n_color_RED"                   color="0.673 0.002 0.000 1" material="0"/>
+		<rimColorConfiguration name="$l10n_color_KOBALT" 		        color="DFM_DARKBLUE1" 		material="0"/>
+        <rimColorConfiguration name="$l10n_color_GREEN"                 color="0.000 0.170 0.001 1" material="0"/>
+		<rimColorConfiguration name="$l10n_color_YELLOW"       	        color="0.980 0.980 0.220 1"	material="0"/>
+        <rimColorConfiguration name="$l10n_color_ORANGE"                color="0.932 0.119 0.000 1" material="0"/>
+
+        <rimColorConfiguration name="$l10n_color_LELY"       		    color="LELY_COPPER" 		material="0"/>
+		<rimColorConfiguration name="$l10n_color_KRONE" 		        color="KRONE_YELLOW1" 		material="0"/>
+		<rimColorConfiguration name="$l10n_color_ROMANSILVER" 			color="0.510 0.540 0.590 1" material="0"/>
+		<rimColorConfiguration name="$l10n_color_PURPLE"           	    color="0.630 0.130 0.940 1" material="0"/>
+        <rimColorConfiguration name="$l10n_color_DARKBLUE"              color="0.007 0.029 0.187 1" material="0"/>
+		<rimColorConfiguration name="$l10n_color_KRONE" 		        color="KRONE_GREEN1" 		material="0"/>
+		<rimColorConfiguration name="$l10n_color_NEWHOLLAND" 	        color="NEWHOLLAND_YELLOW1" 	material="0"/>
+        <rimColorConfiguration name="$l10n_color_PINK"                  color="0.880 0.130 0.540 1" material="0"/>
+            <!--Mix-->
+        <rimColorConfiguration name="$l10n_color_DARKGREY"              color="0.037 0.037 0.037 1" material="0"/>
+		<rimColorConfiguration name="$l10n_color_BROWN" 		        color="SHARED_BROWN1" 		material="0"/>
+        <rimColorConfiguration name="$l10n_color_CRIMSONGLORY"          color="0.690 0.000 0.160 1" material="0"/>
+        <rimColorConfiguration name="$l10n_color_ALICEBLUE"             color="0.940 0.970 1.000 1" material="0"/>
+		<rimColorConfiguration name="$l10n_color_CYAN" 			        color="KOMATSU_CYAN" 		material="0"/>
+        <rimColorConfiguration name="$l10n_color_ANDROIDGREEN"          color="0.690 0.750 0.100 1" material="0"/>
+		<rimColorConfiguration name="$l10n_color_CORN" 		            color="1.000 0.900 0.400 1" material="0"/>
+		<rimColorConfiguration name="$l10n_color_AMBER" 		        color="1.000 0.750 0.000 1" material="0"/>
+    </rimColorConfigurations>
+    <tipOcclusionUpdateArea sizeX="3.6" sizeZ="3.6"/>
+</placeable>

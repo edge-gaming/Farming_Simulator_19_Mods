@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="EDGE Sign" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="../textures/craterBay/woodenPost_diffuse.dds"/>
+    <File fileId="2" filename="../textures/craterBay/woodenPost_normal.dds"/>
+    <File fileId="3" filename="../textures/craterBay/woodenPost_specular.dds"/>
+    <File fileId="4" filename="../textures/craterBay/EDGE_Logo.dds"/>
+    <File fileId="5" filename="../textures/craterBay/EDGE_Logo_normal.dds"/>
+    <File fileId="6" filename="../textures/craterBay/EDGE_Logo_specular.dds"/>
+    <File fileId="7" filename="$data/maps/textures/european/props/floodlightFixture_diffuse.dds"/>
+    <File fileId="8" filename="$data/maps/textures/european/props/floodlightFixture_normal.dds"/>
+    <File fileId="9" filename="$data/maps/textures/european/props/floodlightFixture_specular.dds"/>
+    <File fileId="14" filename="$data/maps/textures/european/props/lightPoleSet_emissive.dds"/>
+    <File fileId="13" filename="$data/shaders/dashboardLightsShader.xml"/>
+    <File fileId="11" filename="$data/shared/default_normal.dds"/>
+    <File fileId="10" filename="$data/shared/window02_diffuse.dds"/>
+    <File fileId="12" filename="$data/shared/window02_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="Decals_mat" materialId="4">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+      <Glossmap fileId="6"/>
+    </Material>
+    <Material name="woodenPost_mat" materialId="12">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="floodlightFixture_mat" materialId="24">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
+      <Glossmap fileId="9"/>
+    </Material>
+    <Material name="floodLightGlass_mat" materialId="25" alphaBlending="true" customShaderId="13">
+      <Texture fileId="10"/>
+      <Normalmap fileId="11"/>
+      <Glossmap fileId="12"/>
+      <Custommap name="mEmissiveMap" fileId="14"/>
+      <CustomParameter name="lightControl" value="1 1 1 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="EdgeSign.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="sign" nodeId="16">
+      <Shape shapeId="1" name="woodenPost" static="true" collisionMask="16789538" angularDamping="0.1" rollingFriction="0.17" density="0.47" clipDistance="1500" nodeId="17" materialIds="12" castsShadows="true" receiveShadows="true" splitType="1" splitUvs="0 0 1 0.064 1.8">
+        <Shape shapeId="2" name="sign" translation="0 1.43293 0.068372" scale="3 3 3" clipDistance="300" nodeId="7" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="3" name="floodLightOrange-300" translation="1.06683e-07 1.96314 0.0482073" rotation="90 3.91809e-06 -90" clipDistance="300" nodeId="71" materialIds="24" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="4" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.001" rotation="0 -6.61555e-13 5" clipDistance="80" nodeId="72" materialIds="24" castsShadows="true" receiveShadows="true">
+          <TransformGroup name="illum" translation="0 -1.20185e-17 0" visibility="false" nodeId="73">
+            <Shape shapeId="5" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="74" materialIds="25" castsShadows="true" receiveShadows="true"/>
+            <Light name="spotLight" translation="0.04439 0.0059147 0" rotation="0 -90 0" clipDistance="300" nodeId="75" type="spot" color="0.8 0.5 0.3" emitDiffuse="true" emitSpecular="true" decayRate="1" range="10" coneAngle="60" dropOff="5"/>
+          </TransformGroup>
+        </Shape>
+      </Shape>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="73">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

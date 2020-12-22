@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+ <storeData>
+  <name>$l10n_shopItem_huntingHut</name>
+  <image>store/store_huntingHut.png</image>
+  <functions>
+   <function>$l10n_function_decoration</function>
+  </functions>
+  <price>950</price>
+  <dailyUpkeep>4</dailyUpkeep>
+  <lifetime>1000</lifetime>
+  <rotation>0</rotation>
+  <brand>AJTECH</brand>
+  <species>placeable</species>
+  <category>decoration</category>
+  <vertexBufferMemoryUsage>181024</vertexBufferMemoryUsage>
+  <indexBufferMemoryUsage>15246</indexBufferMemoryUsage>
+  <textureMemoryUsage>439808</textureMemoryUsage>
+  <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+  <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+ </storeData>
+ <placeableType>placeable</placeableType>
+ <filename>placeables/EDGE/huntingHut.i3d</filename>
+ <placement testSizeX="5" testSizeZ="7" sizeX="5" sizeZ="7" useRandomYRotation="false" useManualYRotation="true" />
+
+ <clearAreas>
+  <clearArea startNode="4|0" widthNode="4|0|0" heightNode="4|0|1"/>
+ </clearAreas>
+ <leveling requireLeveling="true" maxSmoothDistance="5" maxSlope="30" maxEdgeAngle="20">
+  <levelAreas>
+   <levelArea startNode="4|0" widthNode="4|0|0" heightNode="4|0|1" groundType="dirt"/>
+  </levelAreas>
+ </leveling>
+ <seasons>
+  <maskAreas>
+  </maskAreas>
+ </seasons>
+
+ <animatedObjects>
+  <animatedObject saveId="huntingHutDoor" >
+   <controls triggerNode="1|0" posAction="ACTIVATE_HANDTOOL" posText="action_openDoor" negText="action_closeDoor" />
+   <sounds>
+    <moving file="maps/sounds/creakyGate.wav" loops="1" linkNode="1|1" volume="0.8" radius="25" innerRadius="3" fadeOut="0.25"/>
+    <posEnd file="$data/sounds/prefab/gate/gate_opened.wav" linkNode="1|1" volume="0.1" radius="25" innerRadius="3" />
+    <negEnd file="$data/sounds/prefab/gate/gate_closed.wav" linkNode="1|1" volume="0.7" radius="25" innerRadius="3" />
+   </sounds>
+   <animation duration="2.5">
+    <part node="1|1">
+     <keyFrame time="0.00" rotation="0 0 0"/>
+     <keyFrame time="1.00" rotation="0 110 0"/>
+    </part>
+    <part node="1|2|0">
+     <keyFrame time="0.95" visibility="false"/>
+     <keyFrame time="1.00" visibility="true" />
+    </part>
+   </animation>
+  </animatedObject>
+ </animatedObjects>
+
+ <tipOcclusionUpdateArea sizeX="5" sizeZ="7" />
+</placeable>

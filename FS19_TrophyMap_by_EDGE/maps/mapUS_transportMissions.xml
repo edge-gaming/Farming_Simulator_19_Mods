@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transportMissions>
+
+    <mission name="WATER" npcIndex="8">
+        <pickupTrigger index="TRANSPORT01" title="$l10n_station_cementFactory" /> <!-- Cement Factory -->
+        <pickupTrigger index="TRANSPORT07" title="$l10n_station_transportCompany" /> <!-- Transport Company -->
+        <pickupTrigger index="TRANSPORT03" title="$l10n_station_waterTower" /> <!-- Water Tower -->
+        <pickupTrigger index="TRANSPORT04" title="$l10n_station_coffeehouse" /> <!-- Coffeehouse -->
+        <pickupTrigger index="TRANSPORT05" title="$l10n_station_dairy"/> <!-- Dairy -->
+        
+        <dropoffTrigger index="TRANSPORT02" title="$l10n_station_constructionSite" /> <!-- Construction Site -->
+        <dropoffTrigger index="TRANSPORT08" title="$l10n_station_dam" /> <!-- Dam -->
+        <dropoffTrigger index="TRANSPORT09" title="$l10n_station_ranch" /> <!-- Ranch -->
+        <dropoffTrigger index="TRANSPORT10" title="$l10n_station_spanishMission" /> <!-- Spanish Mission -->
+
+        <object filename="$data/objects/pallets/missions/transportPalletWater.i3d" min="1" max="1" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" />
+    </mission>
+
+    <mission rewardScale="1.0" name="WHITE BOXES" npcIndex="1">
+        <pickupTrigger index="TRANSPORT01" title="$l10n_station_cementFactory" /> <!-- Cement Factory -->
+
+        <dropoffTrigger index="TRANSPORT02" title="$l10n_station_constructionSite" /> <!-- Construction Site -->
+
+        <object filename="$data/objects/pallets/missions/transportPalletWhiteBoxes.i3d" min="1" max="2" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" />
+    </mission>
+    
+    <mission name="TRANSPORT COMPANY DELIVERY" npcIndex="6">
+        <pickupTrigger index="TRANSPORT01" title="$l10n_station_cementFactory" rewardScale="1.5" /> <!-- Cement Factory -->
+        <pickupTrigger index="TRANSPORT03" title="$l10n_station_waterTower" /> <!-- Water Tower -->
+        <pickupTrigger index="TRANSPORT04" title="$l10n_station_coffeehouse" /> <!-- Coffeehouse -->
+        <pickupTrigger index="TRANSPORT05" title="$l10n_station_dairy"/> <!-- Dairy -->
+        <dropoffTrigger index="TRANSPORT08" title="$l10n_station_dam" /> <!-- Dam -->
+        
+        <dropoffTrigger index="TRANSPORT07" title="$l10n_station_transportCompany" /> <!-- Transport Company -->
+
+        <object filename="$data/objects/pallets/missions/transportPalletCrates.i3d" min="1" max="2" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" />
+    </mission>
+    
+    <mission name="RANCH LUGGAGE DELIVERY" npcIndex="3">
+        <pickupTrigger index="TRANSPORT04" title="$l10n_station_coffeehouse" /> <!-- Coffeehouse -->
+        <pickupTrigger index="TRANSPORT05" title="$l10n_station_dairy"/> <!-- Dairy -->
+        <dropoffTrigger index="TRANSPORT08" title="$l10n_station_dam" /> <!-- Dam -->
+        
+        <dropoffTrigger index="TRANSPORT09" title="$l10n_station_ranch" /> <!-- Ranch -->
+
+        <object filename="$data/objects/pallets/missions/transportPalletSuitcases.i3d" min="1" max="2" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" />
+    </mission>
+    
+</transportMissions>

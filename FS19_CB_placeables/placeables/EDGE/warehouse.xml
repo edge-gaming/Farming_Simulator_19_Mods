@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+ <storeData>
+  <name>$l10n_shopItem_warehouse</name>
+  <functions>
+   <function>$l10n_function_warehouse</function>
+  </functions>
+  <image>store/store_warehouse.png</image>
+  <price>35000</price>
+  <dailyUpkeep>30</dailyUpkeep>
+  <lifetime>1000</lifetime>
+  <rotation>0</rotation>
+  <brand>AJTECH</brand>
+  <species>placeable</species>
+  <category>sheds</category>
+  <vertexBufferMemoryUsage>232536</vertexBufferMemoryUsage>
+  <indexBufferMemoryUsage>34734</indexBufferMemoryUsage>
+  <textureMemoryUsage>3587880</textureMemoryUsage>
+  <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+  <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+ </storeData>
+
+ <placeableType>placeable</placeableType>
+ <filename>placeables/EDGE/warehouse.i3d</filename>
+ <placement testSizeX="32" testSizeZ="41" sizeX="32" sizeZ="41" useRandomYRotation="false" useManualYRotation="true" />
+
+ <clearAreas>
+  <clearArea startNode="5|0" widthNode="5|0|0" heightNode="5|0|1"/>
+ </clearAreas>
+ <leveling requireLeveling="true" maxSmoothDistance="5" maxSlope="30" maxEdgeAngle="20" >
+  <levelAreas>
+   <levelArea startNode="5|0" widthNode="5|0|0" heightNode="5|0|1" groundType="asphalt"/>
+  </levelAreas>
+ </leveling>
+ <seasons>
+  <maskAreas>
+   <maskArea startNode="6|0" widthNode="6|0|0" heightNode="6|0|1" />
+  </maskAreas>
+ </seasons>
+
+ <dayNightObjects>
+  <dayNightObject node="2|8|0|0|0" intensityDay="0" intensityNight="2" />
+  <dayNightObject node="2|8|1|0|0" intensityDay="0" intensityNight="2" />
+  <dayNightObject node="2|8|0|0|1" visibleDay="false" visibleNight="true" />
+  <dayNightObject node="2|8|1|0|1" visibleDay="false" visibleNight="true" />
+ </dayNightObjects>
+
+<animatedObjects>
+ <animatedObject saveId="warehouseShutters" >
+  <animation duration="8">
+   <part node="1|2|0">
+    <Keyframe time="0" translation="0 0.127 0" rotation="0 0 0"/>
+    <Keyframe time="0.161" translation="0 1.223 0" rotation="0 0 0"/>
+    <Keyframe time="0.329" translation="0 2.319 0" rotation="0 0 0"/>
+    <Keyframe time="0.497" translation="0 3.416 0" rotation="0 0 0"/>
+    <Keyframe time="0.664" translation="0 4.511 0" rotation="0 0 0"/>
+    <Keyframe time="0.832" translation="0 5.608 0" rotation="0 0 0"/>
+    <Keyframe time="1" translation="0 6.701 0" rotation="-39.112 0 0"/>
+   </part>
+   <part node="1|2|1">
+	<Keyframe time="0" translation="0 1.223 0" rotation="0 -0 0"/>
+	<Keyframe time="0.161" translation="0 2.319 0" rotation="0 -0 0"/>
+	<Keyframe time="0.329" translation="0 3.416 0" rotation="0 -0 0"/>
+	<Keyframe time="0.497" translation="0 4.511 0" rotation="0 -0 0"/>
+	<Keyframe time="0.664" translation="0 5.608 0" rotation="0 0 0"/>
+	<Keyframe time="0.832" translation="0 6.701 0" rotation="-39.112 -0 0"/>
+	<Keyframe time="1" translation="0 7.555 -0.722" rotation="-81.878 -0 0"/>
+   </part>
+   <part node="1|2|2">
+	<Keyframe time="0" translation="0 2.319 0" rotation="0 -0 0"/>
+	<Keyframe time="0.161" translation="0 3.416 0" rotation="0 -0 0"/>
+	<Keyframe time="0.329" translation="0 4.511 0" rotation="0 -0 0"/>
+	<Keyframe time="0.497" translation="0 5.608 0" rotation="0 0 0"/>
+	<Keyframe time="0.664" translation="0 6.701 0" rotation="-39.112 -0 0"/>
+	<Keyframe time="0.832" translation="0 7.555 -0.722" rotation="-81.878 -0 0"/>
+	<Keyframe time="1" translation="0 7.709 -1.813" rotation="-90 -0 0"/>
+   </part>
+   <part node="1|2|3">
+	<Keyframe time="0" translation="0 3.416 0" rotation="0 -0 0"/>
+	<Keyframe time="0.161" translation="0 4.511 0" rotation="0 -0 0"/>
+	<Keyframe time="0.329" translation="0 5.608 0" rotation="0 0 0"/>
+	<Keyframe time="0.497" translation="0 6.701 0" rotation="-39.112 -0 0"/>
+	<Keyframe time="0.664" translation="0 7.555 -0.722" rotation="-81.878 -0 0"/>
+	<Keyframe time="0.832" translation="0 7.709 -1.813" rotation="-90 -0 0"/>
+	<Keyframe time="1" translation="0 7.709 -2.907" rotation="-90 -0 0"/>
+   </part>
+   <part node="1|2|4">
+	<Keyframe time="0" translation="0 4.511 0" rotation="0 -0 0"/>
+	<Keyframe time="0.161" translation="0 5.608 0" rotation="0 0 0"/>
+	<Keyframe time="0.329" translation="0 6.701 0" rotation="-39.112 -0 0"/>
+	<Keyframe time="0.497" translation="0 7.555 -0.722" rotation="-81.878 -0 0"/>
+	<Keyframe time="0.664" translation="0 7.709 -1.813" rotation="-90 -0 0"/>
+	<Keyframe time="0.832" translation="0 7.709 -2.907" rotation="-90 -0 0"/>
+	<Keyframe time="1" translation="0 7.709 -4.003" rotation="-90 -0 0"/>
+   </part>
+   <part node="1|2|5">
+	<Keyframe time="0" translation="0 5.608 0" rotation="0 -0 0"/>
+	<Keyframe time="0.161" translation="0 6.701 0" rotation="-39.112 -0 0"/>
+	<Keyframe time="0.329" translation="0 7.555 -0.722" rotation="-81.878 -0 0"/>
+	<Keyframe time="0.497" translation="0 7.709 -1.813" rotation="-90 -0 0"/>
+	<Keyframe time="0.664" translation="0 7.709 -2.907" rotation="-90 -0 0"/>
+	<Keyframe time="0.832" translation="0 7.709 -4.003" rotation="-90 -0 0"/>
+	<Keyframe time="1" translation="0 7.709 -5.096" rotation="-90 -0 0"/>
+   </part>
+  </animation>
+  <controls triggerNode="1|0" posAction="ACTIVATE_HANDTOOL" posText="action_openCloseShutters" negText="action_openCloseShutters"/>
+  <sounds>
+   <moving file="maps/sounds/shutters.wav" loops="0" linkNode="1|2|5" volume="2.00" radius="60" innerRadius="10" fadeOut="0.25"/>
+   <posEnd file="maps/sounds/shuttersPos.wav" linkNode="1|2|5" volume="1.80" radius="25" innerRadius="10" />
+   <negEnd file="maps/sounds/shuttersNeg.wav" linkNode="1|2|0" volume="1.50" radius="25" innerRadius="10" />
+  </sounds>
+ </animatedObject>
+ <animatedObject saveId="warehouseLights">
+  <animation duration="4.70">
+   <part node="2|1|0">
+    <keyFrame time="0.00" rotation="-6 0 0" />
+    <keyFrame time="0.10" rotation="6 0 0" />
+   </part>
+   <part node="2|2|0">
+    <keyFrame time="0.00" visibility="false" />
+    <keyFrame time="0.10" visibility="true" />
+    <keyFrame time="0.15" visibility="true" />
+    <keyFrame time="0.30" visibility="false" />
+    <keyFrame time="0.35" visibility="false" />
+    <keyFrame time="0.73" visibility="true" />
+    <keyFrame time="0.75" visibility="true" />
+    <keyFrame time="0.80" visibility="false" />
+    <keyFrame time="0.85" visibility="false" />
+    <keyFrame time="0.93" visibility="true" />
+    <keyFrame time="0.95" visibility="true" />
+    <keyFrame time="0.96" visibility="false" />
+    <keyFrame time="0.97" visibility="false" />
+    <keyFrame time="0.98" visibility="true" />
+   </part>
+   <part node="2|3|0">
+    <keyFrame time="0.00" visibility="false" />
+    <keyFrame time="0.20" visibility="true" />
+   </part>
+   <part node="2|4|0">
+    <keyFrame time="0.00" visibility="false" />
+    <keyFrame time="0.40" visibility="true" />
+   </part>
+   <part node="2|5|0">
+    <keyFrame time="0.00" visibility="false" />
+    <keyFrame time="0.40" visibility="true" />
+    <keyFrame time="0.45" visibility="true" />
+    <keyFrame time="0.60" visibility="false" />
+    <keyFrame time="0.65" visibility="false" />
+    <keyFrame time="0.75" visibility="true" />
+    <keyFrame time="0.80" visibility="true" />
+    <keyFrame time="0.85" visibility="false" />
+    <keyFrame time="0.90" visibility="false" />
+    <keyFrame time="1.00" visibility="true" />
+   </part>
+   <part node="2|6|0">
+    <keyFrame time="0.00" visibility="false" />
+    <keyFrame time="0.30" visibility="true" />
+   </part>
+   <part node="2|7|0">
+    <keyFrame time="0.00" visibility="false" />
+    <keyFrame time="0.60" visibility="true" />
+   </part>
+  </animation>
+  <controls triggerNode="2|0" posAction="ACTIVATE_HANDTOOL" posText="action_onOff" negText="action_onOff" />
+  <sounds>
+   <moving file="maps/sounds/neonLightOnOff.wav" loops="0" linkNode="2|0" volume="1.50" radius="55" innerRadius="3" fadeOut="0.25"/>
+  </sounds>
+ </animatedObject>
+ <animatedObject saveId="warehouseSkylight">
+  <animation duration="5.75">
+   <part node="3|1|0">
+    <keyFrame time="0.00" rotation="-6 0 0" />
+    <keyFrame time="0.10" rotation="6 0 0" />
+   </part>
+   <part node="3|2|0">
+    <keyFrame time="0.00" translation="-19.971 13.677 0.002" />
+    <keyFrame time="1.00" translation="-19.971 13.047 -1.637" />
+   </part>
+   <part node="3|2|1">
+    <keyFrame time="0.00" translation="-19.971 13.014 1.722" />
+    <keyFrame time="1.00" translation="-19.971 12.387 3.35" />
+   </part>
+  </animation>
+  <controls triggerNode="3|0" posAction="ACTIVATE_HANDTOOL" posText="action_onOff" negText="action_onOff" />
+  <sounds>
+   <moving file="maps/sounds/eGate.wav" loops="0" linkNode="3|2|1" volume="2" radius="50" innerRadius="25" fadeOut="0.25"/>
+  </sounds>
+ </animatedObject>
+ <animatedObject saveId="warehouseElecBoxDoor">
+  <animation duration="1">
+   <part node="4|3|1">
+    <keyFrame time="0.01" rotation="0 0 0" />
+    <keyFrame time="1.00" rotation="0 -135 0" />
+   </part>
+  </animation>
+  <controls triggerNode="4|3|0" posAction="ACTIVATE_HANDTOOL" posText="action_openCloseDoor" negText="action_openCloseDoor"/>
+  <sounds>
+   <moving file="maps/sounds/metallBox.wav" loops="0" linkNode="4|3|1" volume="1.00" radius="55" innerRadius="3" fadeOut="0.25"/>
+  </sounds>
+ </animatedObject>
+</animatedObjects>
+
+ <tipOcclusionUpdateArea sizeX="32" sizeZ="41" />
+</placeable>

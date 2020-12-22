@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicles>
+
+    <vehicle tourId="tourCutter" filename="$data/vehicles/newHolland/TX32Header/TX32Header.xml"           farmId="1" propertyState="1" xPosition="636" yOffset="0.5" zPosition="726" yRotation="-90" defaultFarmProperty="true" />
+    <vehicle tourId="tourCombine" filename="$data/vehicles/newHolland/TX32/TX32.xml"                      farmId="1" propertyState="1" xPosition="641" yOffset="0.5" zPosition="726" yRotation="-90" defaultFarmProperty="true" />
+
+    <vehicle tourId="tourCultivator" filename="$data/vehicles/rau/polymag300/polymag300.xml"              farmId="1" propertyState="1" xPosition="642.5" yOffset="0.5" zPosition="783" yRotation="-90" defaultFarmProperty="true" />
+    <vehicle tourId="tourTractor1" filename="$data/vehicles/caseIH/magnum7240Pro/magnum7240Pro.xml"       farmId="1" propertyState="1" xPosition="638" yOffset="0.5" zPosition="783" yRotation="-90" defaultFarmProperty="true" />
+    <vehicle tourId="tourWeight1" filename="$data/vehicles/suer/SB1000/SB1000.xml"                        farmId="1" propertyState="1" xPosition="634.5" yOffset="0.5" zPosition="783" yRotation="-90" defaultFarmProperty="true" >
+        <configuration name="baseMaterial" id="8"/>
+        <boughtConfiguration name="baseMaterial" id="8"/>
+    </vehicle>
+
+    <vehicle tourId="tourSowingMachine" filename="$data/vehicles/amazone/D8_30/D8_30.xml"              farmId="1" propertyState="1" xPosition="645.5" yOffset="0.5" zPosition="824" yRotation="90" defaultFarmProperty="true">
+        <fillUnit>
+            <unit index="1" fillType="SEEDS" fillLevel="1000.000000"/>
+        </fillUnit>
+        <sowingMachine selectedSeedFruitType="WHEAT"/>
+    </vehicle>
+
+    <vehicle tourId="tourTractor2" filename="$data/vehicles/caseIH/magnum7240Pro/magnum7240Pro.xml"       farmId="1" propertyState="1" xPosition="649" yOffset="0.5" zPosition="824" yRotation="90" defaultFarmProperty="true" />
+    <vehicle tourId="tourWeight2" filename="$data/vehicles/suer/SB1000/SB1000.xml"                        farmId="1" propertyState="1" xPosition="652.2" yOffset="0.5" zPosition="824" yRotation="90" defaultFarmProperty="true" >
+        <configuration name="baseMaterial" id="8"/>
+        <boughtConfiguration name="baseMaterial" id="8"/>
+    </vehicle>
+
+    <vehicle tourId="tourTractor3" filename="$data/vehicles/fiat/fiat1300dt/fiat1300dt.xml"               farmId="1" propertyState="1" xPosition="609" yOffset="0.5" zPosition="693.5" yRotation="0" defaultFarmProperty="true" />
+    <vehicle tourId="tourTrailer" filename="$data/vehicles/strautmann/SEK802/SEK802.xml"                  farmId="1" propertyState="1" xPosition="609" yOffset="0.5" zPosition="688" yRotation="0" defaultFarmProperty="true">
+        <configuration name="fillVolume" id="3"/>
+        <configuration name="trailer" id="3"/>
+        <configuration name="fillUnit" id="3"/>
+        <boughtConfiguration name="fillVolume" id="3"/>
+        <boughtConfiguration name="fillUnit" id="3"/>
+        <boughtConfiguration name="trailer" id="3"/>
+    </vehicle>
+</vehicles>

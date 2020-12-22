@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Sample Mod Map 1" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="24" filename="$data/shaders/dashboardLightsShader.xml"/>
+    <File fileId="12" filename="../textures/craterBay/2x4.dds"/>
+    <File fileId="16" filename="../textures/craterBay/2x6.dds"/>
+    <File fileId="2" filename="../textures/craterBay/greyMilkWindow3_specular.dds"/>
+    <File fileId="15" filename="../textures/craterBay/greyMilkWindow_specular.dds"/>
+    <File fileId="18" filename="../textures/craterBay/smallWallLight_diffuse.png"/>
+    <File fileId="19" filename="../textures/craterBay/smallWallLight_normal.png"/>
+    <File fileId="20" filename="../textures/craterBay/smallWallLight_specular.png"/>
+    <File fileId="5" filename="../textures/craterBay/spBrick_diffuse.dds"/>
+    <File fileId="6" filename="../textures/craterBay/spBrick_normal.dds"/>
+    <File fileId="3" filename="../textures/craterBay/spDoor.dds"/>
+    <File fileId="7" filename="../textures/craterBay/spRoof_diffuse.dds"/>
+    <File fileId="8" filename="../textures/craterBay/spRoof_normal.dds"/>
+    <File fileId="1" filename="../textures/craterBay/spWindow3_diffuse.dds"/>
+    <File fileId="14" filename="../textures/craterBay/spWindow_diffuse.dds"/>
+    <File fileId="10" filename="../textures/craterBay/zink.dds"/>
+    <File fileId="22" filename="$data/maps/textures/shared/default_normal.dds"/>
+    <File fileId="25" filename="$data/maps/textures/shared/light_emissive.png"/>
+    <File fileId="21" filename="$data/maps/textures/shared/window02_diffuse.png"/>
+    <File fileId="23" filename="$data/maps/textures/shared/window02_specular.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="bfBigWindows_mat" materialId="5">
+      <Texture fileId="1"/>
+      <Glossmap fileId="2"/>
+    </Material>
+    <Material name="bfDoors_mat" materialId="8" specularColor="0.0431373 1 0.0431373">
+      <Texture fileId="3"/>
+    </Material>
+    <Material name="bfRoofTop_mat" materialId="12" specularColor="0.0941177 1 0.0941177">
+      <Texture fileId="12"/>
+    </Material>
+    <Material name="bfRoofBottom_mat" materialId="9" specularColor="0.0941177 1 0.694118">
+      <Texture fileId="10"/>
+    </Material>
+    <Material name="lambert1" materialId="7" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="bfWindowFrames_mat" materialId="10" specularColor="0.0431373 1 0.0431373">
+      <Texture fileId="16"/>
+    </Material>
+    <Material name="bfBrick_mat" materialId="4" specularColor="0.0431373 1 0.0431373">
+      <Texture fileId="5"/>
+      <Normalmap fileId="6"/>
+    </Material>
+    <Material name="bfSmallWindows_mat" materialId="6">
+      <Texture fileId="14"/>
+      <Glossmap fileId="15"/>
+    </Material>
+    <Material name="bfRoof_mat" materialId="11" specularColor="0.294118 1 0.294118">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
+    </Material>
+    <Material name="smallWallLight_mat" materialId="47">
+      <Texture fileId="18"/>
+      <Normalmap fileId="19"/>
+      <Glossmap fileId="20"/>
+    </Material>
+    <Material name="window02_mat" materialId="48" alphaBlending="true" customShaderId="24">
+      <Texture fileId="21"/>
+      <Normalmap fileId="22"/>
+      <Glossmap fileId="23"/>
+      <Custommap name="mEmissiveMap" fileId="25"/>
+      <CustomParameter name="lightControl" value="1 0 0 0"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="bigFactory.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="bigFactory" nodeId="24">
+      <TransformGroup name="building" nodeId="25">
+        <TransformGroup name="factory" nodeId="26">
+          <Shape shapeId="1" name="bigWindows" clipDistance="400" nodeId="27" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="doors" clipDistance="400" nodeId="28" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="walls" clipDistance="400" nodeId="29" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="roof" static="true" clipDistance="400" nodeId="30" materialIds="11" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="roofBottom" clipDistance="400" nodeId="31" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="roofTop" clipDistance="400" nodeId="32" materialIds="12" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="7" name="smallWindows" clipDistance="400" nodeId="33" materialIds="6" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="8" name="windowFrames" clipDistance="400" nodeId="34" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="9" name="collison" visibility="false" static="true" nodeId="35" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="lights" nodeId="53">
+        <Shape shapeId="10" name="smallWallLight" translation="-15.917 3.60944 6.99322" rotation="0 -0 90" clipDistance="155" nodeId="54" materialIds="47" castsShadows="true" receiveShadows="true">
+          <TransformGroup name="illum" nodeId="55">
+            <Shape shapeId="11" name="glass" clipDistance="40" nodeId="56" materialIds="48" castsShadows="true" receiveShadows="true"/>
+            <Light name="pointLight1" translation="0 0 0.258425" visibility="false" clipDistance="155" nodeId="57" type="point" color="1 0.95 0.9" emitDiffuse="true" emitSpecular="true" decayRate="1" range="5"/>
+          </TransformGroup>
+          <Shape shapeId="12" name="col" visibility="false" static="true" density="0.0001" nodeId="58" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+        <Shape shapeId="10" name="smallWallLight" translation="-4.52144 3.60944 6.99322" rotation="0 -0 90" clipDistance="155" nodeId="59" materialIds="47" castsShadows="true" receiveShadows="true">
+          <TransformGroup name="illum" nodeId="60">
+            <Shape shapeId="11" name="glass" clipDistance="40" nodeId="61" materialIds="48" castsShadows="true" receiveShadows="true"/>
+            <Light name="pointLight1" translation="0 0 0.258425" visibility="false" clipDistance="155" nodeId="62" type="point" color="1 0.95 0.9" emitDiffuse="true" emitSpecular="true" decayRate="1" range="5"/>
+          </TransformGroup>
+          <Shape shapeId="12" name="col" visibility="false" static="true" density="0.0001" nodeId="63" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+        <Shape shapeId="10" name="smallWallLight" translation="6.10923 2.22567 6.99322" rotation="0 -0 90" clipDistance="155" nodeId="64" materialIds="47" castsShadows="true" receiveShadows="true">
+          <TransformGroup name="illum" nodeId="65">
+            <Shape shapeId="11" name="glass" clipDistance="40" nodeId="66" materialIds="48" castsShadows="true" receiveShadows="true"/>
+            <Light name="pointLight1" translation="0 0 0.258425" visibility="false" clipDistance="155" nodeId="67" type="point" color="1 0.95 0.9" emitDiffuse="true" emitSpecular="true" decayRate="1" range="5"/>
+          </TransformGroup>
+          <Shape shapeId="12" name="col" visibility="false" static="true" density="0.0001" nodeId="68" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+        <Shape shapeId="10" name="smallWallLight" translation="12.0925 2.22567 6.99322" rotation="0 -0 90" clipDistance="155" nodeId="69" materialIds="47" castsShadows="true" receiveShadows="true">
+          <TransformGroup name="illum" nodeId="70">
+            <Shape shapeId="11" name="glass" clipDistance="40" nodeId="71" materialIds="48" castsShadows="true" receiveShadows="true"/>
+            <Light name="pointLight1" translation="0 0 0.258425" visibility="false" clipDistance="155" nodeId="72" type="point" color="1 0.95 0.9" emitDiffuse="true" emitSpecular="true" decayRate="1" range="5"/>
+          </TransformGroup>
+          <Shape shapeId="12" name="col" visibility="false" static="true" density="0.0001" nodeId="73" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+      </TransformGroup>
+      <TransformGroup name="areas" nodeId="36">
+        <TransformGroup name="start" translation="-25 0 -8" nodeId="37">
+          <TransformGroup name="width" translation="50 0 0" nodeId="38"/>
+          <TransformGroup name="height" translation="0 0 16" nodeId="39"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="seasons" nodeId="40">
+        <TransformGroup name="start" translation="-22 0 -6" nodeId="41">
+          <TransformGroup name="width" translation="45 0 0" nodeId="42"/>
+          <TransformGroup name="height" translation="0 0 12" nodeId="43"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="13" name="tipBlocker" visibility="false" static="true" collisionMask="524288" nodeId="44" materialIds="7" nonRenderable="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Crater Bay" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="7" filename="$data/maps/textures/american/props/bucketWood02_diffuse.png"/>
+    <File fileId="8" filename="$data/maps/textures/american/props/bucketWood02_normal.png"/>
+    <File fileId="9" filename="$data/maps/textures/american/props/bucketWood02_specular.png"/>
+    <File fileId="5" filename="$data/maps/textures/american/props/darkness_diffuse.png"/>
+    <File fileId="1" filename="$data/maps/textures/american/props/wellCabin_diffuse.png"/>
+    <File fileId="2" filename="$data/maps/textures/american/props/wellCabin_normal.png"/>
+    <File fileId="3" filename="$data/maps/textures/american/props/wellCabin_specular.png"/>
+    <File fileId="10" filename="$data/maps/textures/european/props/floodlightFixture_diffuse.dds"/>
+    <File fileId="11" filename="$data/maps/textures/european/props/floodlightFixture_normal.dds"/>
+    <File fileId="12" filename="$data/maps/textures/european/props/floodlightFixture_specular.dds"/>
+    <File fileId="17" filename="$data/maps/textures/european/props/lightPoleSet_emissive.dds"/>
+    <File fileId="16" filename="$data/shaders/dashboardLightsShader.xml"/>
+    <File fileId="6" filename="$data/shaders/decalShader.xml"/>
+    <File fileId="14" filename="$data/shared/default_normal.dds"/>
+    <File fileId="13" filename="$data/shared/window02_diffuse.dds"/>
+    <File fileId="15" filename="$data/shared/window02_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="darkness_mat" materialId="7" alphaBlending="true" customShaderId="6">
+      <Texture fileId="5"/>
+    </Material>
+    <Material name="lambert1" materialId="4" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="wellCabin_mat" materialId="5">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="bucketWood02_mat" materialId="6">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
+      <Glossmap fileId="9"/>
+    </Material>
+    <Material name="floodlightFixture_mat" materialId="24">
+      <Texture fileId="10"/>
+      <Normalmap fileId="11"/>
+      <Glossmap fileId="12"/>
+    </Material>
+    <Material name="floodLightGlass_mat" materialId="25" alphaBlending="true" customShaderId="16">
+      <Texture fileId="13"/>
+      <Normalmap fileId="14"/>
+      <Glossmap fileId="15"/>
+      <Custommap name="mEmissiveMap" fileId="17"/>
+      <CustomParameter name="lightControl" value="1 1 1 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="waterFillTrigger.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="waterWell" nodeId="14">
+      <Shape shapeId="1" name="wellCabin" static="true" collision="false" clipDistance="250" nodeId="15" materialIds="5" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="2" name="col" translation="0.0132123 0 0.0155299" visibility="false" static="true" clipDistance="250" nodeId="16" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </Shape>
+      <Shape shapeId="3" name="alphaDarknessCube" translation="-0.00315948 0.813676 -0.00518453" rotation="0 0 -0.223" scale="0.7 0.7 0.7" static="true" collision="false" clipDistance="100" nodeId="17" materialIds="7" castsShadows="true"/>
+      <Shape shapeId="4" name="bucketWood02" translation="0.885864 0.94976 0.553467" rotation="0 60 0" scale="1.25 1.25 1.25" static="true" clipDistance="25" nodeId="18" materialIds="6" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="5" name="waterFillTrigger" static="true" trigger="true" collisionMask="1088421888" nodeId="19" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="6" name="floodLightOrange-300" translation="-0.916 2.60032 0.0482073" rotation="0 3.91809e-06 -90" clipDistance="300" nodeId="39" materialIds="24" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="7" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.001" rotation="1.01778e-13 -1.62844e-12 7.5" clipDistance="80" nodeId="40" materialIds="24" castsShadows="true" receiveShadows="true">
+          <TransformGroup name="illum" translation="0 -1.20185e-17 0" visibility="false" nodeId="41">
+            <Shape shapeId="8" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="42" materialIds="25" castsShadows="true" receiveShadows="true"/>
+            <Light name="spotLight" translation="0.04439 0.0059147 0" rotation="0 -90 0" clipDistance="300" nodeId="43" type="spot" color="0.8 0.5 0.3" emitDiffuse="true" emitSpecular="true" decayRate="1" range="10" coneAngle="60" dropOff="5"/>
+          </TransformGroup>
+        </Shape>
+      </Shape>
+      <Shape shapeId="6" name="floodLightOrange-300" translation="0.916 2.60032 0.0482073" rotation="180 3.91809e-06 -90" clipDistance="300" nodeId="44" materialIds="24" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="7" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.001" rotation="1.01778e-13 -1.62844e-12 7.5" clipDistance="80" nodeId="45" materialIds="24" castsShadows="true" receiveShadows="true">
+          <TransformGroup name="illum" translation="0 -1.20185e-17 0" visibility="false" nodeId="46">
+            <Shape shapeId="8" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="47" materialIds="25" castsShadows="true" receiveShadows="true"/>
+            <Light name="spotLight" translation="0.04439 0.0059147 0" rotation="0 -90 0" clipDistance="300" nodeId="48" type="spot" color="0.8 0.5 0.3" emitDiffuse="true" emitSpecular="true" decayRate="1" range="10" coneAngle="60" dropOff="5"/>
+          </TransformGroup>
+        </Shape>
+      </Shape>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="41">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="46">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

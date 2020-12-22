@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="40">
+    <author>LilleMats</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Sample Mod Map 2</en>
+        <de>Beispiel Mod Map 2</de>
+    </title>
+    <description>
+        <en>This is the sample mod map 2.</en>
+        <de>Dies ist die Beispiel Mod Map 2.</de>
+    </description>
+    <iconFilename>icon.png</iconFilename>
+    <multiplayer supported="true"/>
+    <maps>
+        <map id="SampleModMap" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="maps/mapUS.xml" defaultVehiclesXMLFilename="defaultVehicles.xml" defaultItemsXMLFilename="defaultItems.xml">
+            <title>
+                <en>Sample Mod Map 2</en>
+                <de>Beispiel Mod Map 2</de>
+            </title>
+            <description>
+                <en>This is the sample mod map 2.</en>
+                <de>Dies ist die Beispiel Mod Map 2.</de>
+            </description>
+            <iconFilename>map_preview.png</iconFilename>
+        </map>
+    </maps>
+</modDesc>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="farmUS" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="textures/gfx/doormat_diffuse.dds"/>
+    <File fileId="3" filename="textures/gfx/doormat_normal.dds"/>
+    <File fileId="4" filename="textures/gfx/doormat_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="default" materialId="5">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+    </Material>
+    <Material name="lambert1" materialId="4" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="doormat.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="doormat" nodeId="9">
+      <Shape shapeId="1" name="sleepTrigger" static="true" trigger="true" nodeId="10" materialIds="4" nonRenderable="true" distanceBlending="false"/>
+      <Shape shapeId="2" name="mat" static="true" clipDistance="88" nodeId="11" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="spawnPoint" nodeId="12"/>
+      <Camera name="sleepCamera" translation="-9 14.5 8.5" rotation="-45 -45 -5.85884e-07" nodeId="13" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+      <TransformGroup name="areas" nodeId="17">
+        <TransformGroup name="start" translation="-0.5 0 -0.25" nodeId="18">
+          <TransformGroup name="width" translation="1 0 0" nodeId="19"/>
+          <TransformGroup name="height" translation="0 0 0.5" nodeId="20"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="seasons" nodeId="22">
+        <TransformGroup name="start" translation="-0.5 0 -0.25" nodeId="29">
+          <TransformGroup name="width" translation="1 0 0" nodeId="30"/>
+          <TransformGroup name="height" translation="0 0 0.5" nodeId="31"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="3" name="tipBlocker" static="true" collisionMask="524288" nodeId="28" materialIds="4" nonRenderable="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

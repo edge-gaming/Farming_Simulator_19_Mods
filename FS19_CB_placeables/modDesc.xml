@@ -1,0 +1,595 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="47">
+    <author>EDGE Gaming / Castiga</author>
+    <translationsby>Castiga</translationsby>
+    <version>1.0.0.0</version>
+    <title><!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
+        <en>Crater Bay Placeables</en>
+        <de>Crater Bay Placeables</de>
+        <fr>Crater Bay Placeables</fr>
+        <es>Crater Bay Placeables</es>
+        <ru>Crater Bay Placeables</ru>
+        <pl>Crater Bay Placeables</pl>
+        <it>Crater Bay Placeables</it>
+    </title>
+    <description>
+        <en><![CDATA[These are all the placeables for the Crater Bay map, sorting them out conviniently in a seperate mod, so they can be used on
+any map.
+
+-All buildings have automatic lighting.
+-All Buildings supports "Seasons" and "Courseplay Six".
+-All Buildings have FillTypeCategories: Farmsilo (to Support Custom Fruits)
+
+--Technical Info--
+
+Small Grain Silo:
+Price: 110.000€
+Upkeep: 45€ Daily.
+Size: 14 x 15 Meters.
+Capacity: 100.000 Litre.
+Overloading Speed 2000 Liters Per Second.]]></en>
+
+<de><![CDATA[Einige Silos für die Lagerung von Korn. Das Paket enthält vier Hofsilos und 6 Siloerweiterungen.
+
+-Alle Gebäude verfügen über eine automatische Beleuchtung.
+-Alle Gebäude unterstützen "Seasons" und "Courseplay Six".
+-Alle Gebäude haben FillTypeCategories: Farmsilo (zur Unterstützung benutzerdefinierter Früchte)
+
+--Technische Information--
+
+Kleines Getreidesilo:
+Preis: 110.000 €
+Unterhalt: 45 € Täglich.
+Größe: 14 x 15 Meter.
+Fassungsvermögen: 100.000 Liter.
+Überladegeschwindigkeit 2000 Liter pro Sekunde.]]></de>
+
+        <fr><![CDATA[Quelques silos pour stocker votre Grain. Le pack contient 4 silos de ferme et 6 extensions de silo.
+
+-Tous les bâtiments ont un éclairage automatique.
+-Tous les bâtiments prennent en charge "Seasons" et "Courseplay Six".
+-Tous les bâtiments ont FillTypeCategories: Farmsilo (pour prendre en charge les fruits personnalisés)
+
+--Info technique--
+
+Silo à petits grains:
+Prix: 110.000 €
+Entretien: 45 € par jour.
+Taille: 14 x 15 mètres.
+Capacité: 100.000 litres.
+Vitesse de surcharge 2000 litres par seconde.]]></fr>
+
+        <es><![CDATA[Algunos silos para almacenar tu grano. El paquete contiene 4 silos de granja y 6 extensiones de silo.
+
+-Todos los edificios tienen iluminación automática.
+-Todos los edificios son compatibles con "Seasons" y "Courseplay Six".
+-Todos los edificios tienen FillTypeCategories: Farmsilo (para admitir frutas personalizadas)
+
+--Información técnica--
+
+Silo de grano pequeño:
+Precio: 110.000 €
+Mantenimiento: 45 € diarios.
+Tamaño: 14 x 15 metros.
+Capacidad: 100.000 litros.
+Velocidad de sobrecarga de 2000 litros por segundo.]]></es>
+
+        <ru><![CDATA[Некоторые бункеры для хранения вашего зерна. Пакет содержит 4 бункера фермы и 6 расширений бункера.
+
+-Все здания имеют автоматическое освещение.
+-Все здания поддерживают "Seasons" и "Courseplay Six".
+-Все здания имеют FillTypeCategories: Farmsilo (для поддержки пользовательских фруктов)
+
+--Техническая информация--
+
+Бункер для мелкого зерна:
+Цена: 110.000 €
+Содержание: 45 € в день.
+Размер: 14 х 15 метров.
+Вместимость: 100.000 л.
+Скорость перегрузки 2000 литров в секунду.]]></ru>
+
+        <pl><![CDATA[Niektóre silosy do przechowywania zboża. Pakiet zawiera 4 silosy rolnicze i 6 przedłużeń silosów.
+
+-Wszystkie budynki mają automatyczne oświetlenie.
+-Wszystkie budynki obsługują „Pory roku” i „Courseplay Six”.
+-Wszystkie budynki mają FillTypeCategory: Farmsilo (do obsługi niestandardowych owoców)
+
+--Informacje techniczne--
+
+Silos o małych ziarnach:
+Cena: 110.000 €
+Utrzymanie: 45 € dziennie.
+Rozmiar: 14 x 15 metrów.
+Pojemność: 100 000 litrów.
+Prędkość przeciążenia 2000 litrów na sekundę.]]></pl>
+        <it><![CDATA[Alcuni silos per conservare il grano. Il pacchetto contiene 4 silos agricoli e 6 estensioni per silo.
+
+-Tutti gli edifici hanno l'illuminazione automatica.
+-Tutti gli edifici supportano "Seasons" e "Courseplay Six".
+-Tutti gli edifici hanno FillTypeCategories: Farmsilo (per supportare la frutta personalizzata)
+
+--Informazioni tecniche--
+
+Silo per cereali piccoli:
+Prezzo: 110.000 €
+Manutenzione: 45 € al giorno.
+Dimensioni: 14 x 15 metri.
+Capacità: 100.000 litri.
+Velocità di sovraccarico 2000 litri al secondo.]]></it>
+	</description>
+    <iconFilename>CB_Icon.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <storeItems>
+        <storeItem xmlFilename="placeables/props/EdgeSign.xml"/>
+        <storeItem xmlFilename="placeables/waterFillTriggers/waterFillTriggers01.xml"/>
+        <storeItem xmlFilename="placeables/BuyingStations/gasStation01.xml"/>
+        <storeItem xmlFilename="placeables/BuyingStations/gasStation02.xml"/>
+        <storeItem xmlFilename="placeables/BuyingStations/LimeStation.xml"/>
+        <storeItem xmlFilename="placeables/waterFillTriggers/waterFillTrigger.xml"/>
+        <storeItem xmlFilename="placeables/Extras/greenScreen.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStationBales01.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStationDistillery.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStationSupermarket.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStationWoodChips01.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStationLimaGrain.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/StrawBarn_SellingSpot/StrawBarn_SellingSpotunowned.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/StrawBarn_SellingSpot/StrawBarn_SellingSpot.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStationWoodChips02.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStationLemonways.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStationMill.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStationGeneric01.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStationShop.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/Multi_Filling_Station/MultiFillingStationDark.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/Multi_Selling_Station/MultiSellingStationDark.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/Food_n_Fertilizer_Shop/FoodFertilizerShop.xml"/>
+        <storeItem xmlFilename="placeables/doormat/doormat.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/farmSilo.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/farmSiloExtension.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/liquidStorage.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/liquidStorageExtension.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/woodChips.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/woodCrusher.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/lumbermill.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStationBales.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/sellingStationWool.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/workshop.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/oldNightLight.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/lemon.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/tomato.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/watermill.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/windmill.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/fencePlanks1.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/fencePlanks5.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/fencePlanks10.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/hedge1Piece.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/hedge3Piece.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/house1.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/house2.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/house3.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/bigFactory.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/gardenCentre.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/sweetShop.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/office.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/smallOffice.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/smallOffice2.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/siloBin.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/oldBaleShelter.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/oldShelter.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/rock1.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/rock2.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/rock3.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/rock4.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/rock5.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/ss01.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/ss02.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/ss03.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/ss04.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/ss05.xml"/>
+        <storeItem xmlFilename="placeables/sellingStations/ss06.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/warehouse.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/waterTower.xml"/>
+        <storeItem xmlFilename="placeables/farmBuildings/woodenHouse.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/woodOuthouse.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/huntingHut.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/outlook.xml"/>
+        <storeItem xmlFilename="placeables/EDGE/watermillBroken.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/farmMansion.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/farmSilo.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/farmStorageBarn.xml"/>
+    </storeItems>
+	<l10n filenamePrefix="modDesc/modDesc_l10n">
+     <text name="ssvsGrains">
+      <en>Vehicle Shop Grains</en>
+      <de>Fahrzeug-Shop Körner</de>
+      <fr>Grains d'atelier de véhicules</fr>
+     </text>
+     <text name="shopItem_ss01">
+      <en>Sweet Shop</en>
+      <de>Süßwarenladen</de>
+      <fr>Confiserie</fr>
+     </text>
+     <text name="shopItem_ss02">
+      <en>Windmill</en>
+      <de>Windmühle</de>
+      <fr>Moulin à vent</fr>
+     </text>
+     <text name="shopItem_ss03">
+      <en>Bakery</en>
+      <de>Bäckerei</de>
+      <fr>Boulangerie</fr>
+     </text>
+     <text name="shopItem_ss04">
+      <en>Dairy</en>
+      <de>Molkerei</de>
+      <fr>laitière</fr>
+     </text>
+     <text name="shopItem_ss05">
+      <en>Root Crops</en>
+      <de>Wurzelgemüse</de>
+      <fr>Racines</fr>
+     </text>
+     <text name="shopItem_ss06">
+      <en>Garden Centre</en>
+      <de>Gartencenter</de>
+      <fr>Centre du jardin</fr>
+     </text>
+     <text name="shopItem_ssWoodChips">
+      <en>Wood Chips Sell Point</en>
+      <de>Hackschnitzel Verkaufspunkt</de>
+      <fr>Point de vente de copeaux de bois</fr>
+     </text>
+     <text name="shopItem_rock1">
+      <en>Rock 1</en>
+      <de>Felsen 1</de>
+      <fr>Roche 1</fr>
+     </text>
+     <text name="shopItem_rock2">
+      <en>Rock 2</en>
+      <de>Felsen 2</de>
+      <fr>Roche 2</fr>
+     </text>
+     <text name="shopItem_rock3">
+      <en>Rock 3</en>
+      <de>Felsen 3</de>
+      <fr>Roche 3</fr>
+     </text>
+     <text name="shopItem_rock4">
+      <en>Rock 4</en>
+      <de>Felsen 4</de>
+      <fr>Roche 4</fr>
+     </text>
+     <text name="shopItem_rock5">
+      <en>Rock 5</en>
+      <de>Felsen 5</de>
+      <fr>Roche 5</fr>
+     </text>
+     <text name="shopItem_liquidStorage">
+      <en>Liquid Storage</en>
+      <de>Flüssigkeitsspeicherung</de>
+      <fr>Stockage liquide</fr>
+     </text>
+     <text name="shopItem_liquidStorageExtension">
+      <en>Liquid Storage Extension</en>
+      <de>Flüssigkeitsspeichererweiterung</de>
+      <fr>Extension de stockage de liquide</fr>
+     </text>
+     <text name="shopItem_house1">
+      <en>Brick Stone House</en>
+      <de>Backsteinhaus</de>
+      <fr>Maison en pierre de brique</fr>
+     </text>
+     <text name="shopItem_house2">
+      <en>Light Brown House</en>
+      <de>Hellbraunes Haus</de>
+      <fr>Maison marron clair</fr>
+     </text>
+     <text name="shopItem_house3">
+      <en>Old Red Brick House</en>
+      <de>Altes Haus aus rotem Backstein</de>
+      <fr>Ancienne maison en brique rouge</fr>
+     </text>
+     <text name="shopItem_grainSilo">
+      <en>Grain Silo</en>
+      <de>Getreidesilo</de>
+      <fr>Silo à grains</fr>
+     </text>
+     <text name="shopItem_grainSiloExtension">
+      <en>Grain Silo Extension</en>
+      <de>Getreidesiloverlängerung</de>
+      <fr>Extension de silo à grains</fr>
+     </text>
+     <text name="shopItem_woodOuthouse">
+      <en>Wooden Outhouse</en>
+      <de>Nebengebäude aus Holz</de>
+      <fr>Dépendance en bois</fr>
+     </text>
+     <text name="shopItem_oldShelter">
+      <en>Old Rundown Shelter</en>
+      <de>Alter Rundown Schutz</de>
+      <fr>Ancien abri délabré</fr>
+     </text>
+     <text name="shopItem_oldBaleShelter">
+      <en>Old Bale Shelter</en>
+      <de>Alt Ballenschutz</de>
+      <fr>Vieille Abri pour balles</fr>
+     </text>
+     <text name="shopItem_windmill">
+      <en>Windmill</en>
+      <de>Windmühle</de>
+      <fr>Moulin à vent</fr>
+     </text>
+     <text name="shopItem_bigFactory">
+      <en>Big Factory</en>
+      <de>Große Fabrik</de>
+      <fr>Grande usine</fr>
+     </text>
+     <text name="shopItem_watermill">
+      <en>Watermill</en>
+      <de>Wassermühle</de>
+      <fr>Moulin à eau</fr>
+     </text>
+     <text name="shopItem_watermillBroken">
+      <en>Broken Watermill</en>
+      <de>Gebrochene Wassermühle</de>
+      <fr>Moulin à eau cassé</fr>
+     </text>
+     <text name="shopItem_woodCrusher">
+      <en>Wood Crusher direct sell point</en>
+      <de>Direktverkaufsargument von Holzbrecher</de>
+      <fr>Point de vente directe de broyeur de bois</fr>
+     </text>
+     <text name="shopItem_oldNightLight">
+      <en>Old Night Light</en>
+      <de>Altes Nachtlicht</de>
+      <fr>Vieille lumière de nuit</fr>
+     </text>
+     <text name="shopItem_huntingHut">
+      <en>Hunting Hut</en>
+      <de>Jagdhütte</de>
+      <fr>Cabane de chasse</fr>
+     </text>
+     <text name="shopItem_outlook">
+      <en>Outlook</en>
+      <de>Ausblick</de>
+      <fr>Perspective</fr>
+     </text>
+     <text name="shopItem_gardenCentre">
+      <en>Garden Centre</en>
+      <de>Gartencenter</de>
+      <fr>Centre du jardin</fr>
+     </text>
+     <text name="shopItem_office">
+      <en>Office</en>
+      <de>Büro</de>
+      <fr>Bureau</fr>
+     </text>
+     <text name="shopItem_smallOffice">
+      <en>Small Office</en>
+      <de>Kleines Büro</de>
+      <fr>Petit bureau</fr>
+     </text>
+     <text name="shopItem_smallOffice2">
+      <en>Small Office 2</en>
+      <de>Kleines Büro 2</de>
+      <fr>Petit bureau 2</fr>
+     </text>
+     <text name="shopItem_siloBin">
+      <en>Silo Bin</en>
+      <de>Silobehälter</de>
+      <fr>Silo poubelle</fr>
+     </text>
+     <text name="shopItem_sweetShop">
+      <en>Sweet Shop</en>
+      <de>Süßwarenladen</de>
+      <fr>Confiserie</fr>
+     </text>
+     <text name="shopItem_lemon">
+      <en>Lemon Greenhouse</en>
+      <de>Zitronengewächshaus</de>
+      <fr>Serre au citron</fr>
+     </text>
+     <text name="shopItem_tomato">
+      <en>Tomato Greenhouse</en>
+      <de>Tomatengewächshaus</de>
+      <fr>Serre de tomate</fr>
+     </text>
+     <text name="shopItem_warehouse">
+      <en>Warehouse</en>
+      <de>Warenhaus</de>
+      <fr>Entrepôt</fr>
+     </text>
+     <text name="shopItem_fencePlanks1">
+      <en>Fence x1</en>
+      <de>Zaun x1</de>
+      <fr>Clôture x1</fr>
+     </text>
+     <text name="shopItem_fencePlanks5">
+      <en>Fence x5</en>
+      <de>Zaun x5</de>
+      <fr>Clôture x5</fr>
+     </text>
+     <text name="shopItem_fencePlanks10">
+      <en>Fence x10</en>
+      <de>Zaun x10</de>
+      <fr>Clôture x10</fr>
+     </text>
+     <text name="shopItem_hedge1Piece">
+      <en>Hedge x1</en>
+      <de>Hecke x1</de>
+      <fr>Haie x1</fr>
+     </text>
+     <text name="shopItem_hedge3Piece">
+      <en>Hedge x3</en>
+      <de>Hecke x3</de>
+      <fr>Haie x3</fr>
+     </text>
+     <text name="station_ssWoodChips">
+      <en>Wood Chips</en>
+      <de>Hackschnitzel</de>
+      <fr>Les copeaux de bois</fr>
+     </text>
+     <text name="shopItem_farmHouseDoormat">
+      <en>Farm house doormat</en>
+      <de>Bauernhof Fußmatte</de>
+      <fr>Paillasson maison de ferme</fr>
+     </text>
+     <text name="function_liquidStorage">
+      <en>Liquid storage tanks</en>
+      <de>Flüssigkeitslagertanks</de>
+      <fr>Réservoirs de stockage de liquide</fr>
+     </text>
+     <text name="function_liquidStorageExtension">
+      <en>Liquid storage extension tank</en>
+      <de>Flüssigkeitsspeicher-Verlängerungstank</de>
+      <fr>Réservoir d'extension de stockage de liquide</fr>
+     </text>
+     <text name="function_fencePlanks1">
+      <en>1 Piece placeable fence, Best placed on flat ground</en>
+      <de>1 Stück platzierbarer Zaun, am besten auf ebenem Boden platziert</de>
+      <fr>1 Pièce clôture placable, mieux placée sur un sol plat</fr>
+     </text>
+     <text name="function_fencePlanks5">
+      <en>5 Piece placeable fence, Best placed on flat ground</en>
+      <de>5 Stück platzierbarer Zaun, am besten auf ebenem Boden platziert</de>
+      <fr>5 Pièce clôture placable, mieux placée sur un sol plat</fr>
+     </text>
+     <text name="function_fencePlanks10">
+      <en>10 Piece placeable fence, Best placed on flat ground</en>
+      <de>10 Stück platzierbarer Zaun, am besten auf ebenem Boden platziert</de>
+      <fr>10 Pièce clôture placable, mieux placée sur un sol plat</fr>
+     </text>
+     <text name="function_hedge1Piece">
+      <en>1 Piece placeable hedge, Best placed on flat ground</en>
+      <de>1 Stück platzierbare Hecke, am besten auf ebenem Boden platziert</de>
+      <fr>1 Haie placable en morceaux, mieux placée sur un sol plat</fr>
+     </text>
+     <text name="function_hedge3Piece">
+      <en>3 Piece placeable hedge, Best placed on flat ground</en>
+      <de>3 Stück platzierbare Hecke, am besten auf ebenem Boden platziert</de>
+      <fr>3 Haie placable en morceaux, mieux placée sur un sol plat</fr>
+     </text>
+     <text name="function_pss">
+      <en>Placeable Selling Station</en>
+      <de>Platzierbare Verkaufsstation</de>
+      <fr>Station de vente placable</fr>
+     </text>
+     <text name="function_mills">
+      <en>Income per Hour: 1000 / 500 / 250 €</en>
+      <de>Einkommen pro Stunde: 1000 / 500 / 250 €</de>
+      <fr>Revenu par heure: 1000 / 500 / 250 €</fr>
+     </text>
+     <text name="function_oldNightLight">
+      <en>Old placeable night light</en>
+      <de>Altes platzierbares Nachtlicht</de>
+      <fr>Vieille veilleuse placable</fr>
+     </text>
+     <text name="function_baleShelter">
+      <en>You can store your bales in this shelter</en>
+      <de>Sie können Ihre Ballen in diesem Tierheim aufbewahren</de>
+      <fr>Vous pouvez stocker vos balles dans cet abri</fr>
+     </text>
+     <text name="function_machineshed">
+      <en>You can store your machines in this shed</en>
+      <de>In dieser Halle kannst du deine Maschinen unterstellen.</de>
+      <fr>Vous pouvez stocker vos machines dans ce hangar</fr>
+     </text>
+     <text name="function_warehouse">
+      <en>You can store your machines in this warehouse</en>
+      <de>In dieser Halle kannst du deine Maschinen lagern</de>
+      <fr>Vous pouvez stocker vos machines dans cet entrepôt</fr>
+     </text>
+     <text name="station_siloMaster">
+      <en>Silo Master</en>
+      <de>Silomeister</de>
+      <fr>Maître du silo</fr>
+     </text>
+     <text name="action_lightOn">
+      <en>switch lights on</en>
+      <de>Licht anschalten</de>
+      <fr>allumer les lumières</fr>
+     </text>
+     <text name="action_lightOff">
+      <en>switch lights off</en>
+      <de>Licht ausschalten</de>
+      <fr>éteindre les lumières</fr>
+     </text>
+     <text name="action_openDoors">
+      <en>Open Door</en>
+      <de>Türen öffnen</de>
+      <fr>Portes ouvertess</fr>
+     </text>
+     <text name="action_closeDoors">
+      <en>Close Door</en>
+      <de>Türen schließen</de>
+      <fr>Portes fermées</fr>
+     </text>
+     <text name="action_openCloseShutters">
+      <en>Open/Close Shutters</en>
+      <de>Jalousien öffnen / schließen</de>
+      <fr>Ouvrir / Fermer les volets</fr>
+     </text>
+     <text name="action_onOff">
+      <en>Turn on/off</en>
+      <de>Schalten an/aus</de>
+      <fr>Éteignez allumées/éteintes</fr>
+     </text>
+     <text name="action_openWaterValve">
+      <en>Open Water Valve</en>
+      <de>Wasserventil öffnen</de>
+      <fr>Vanne d'eau ouverte</fr>
+     </text>
+     <text name="action_openCloseGate">
+      <en>Open/Close Gate</en>
+      <de>Öffnen/Schließen </de>
+      <fr>Ouvrir/Fermer </fr>
+     </text>
+     <text name="action_openCloseDoors">
+      <en>Open/Close Doors</en>
+      <de>Türen öffnen / schließen</de>
+      <fr>Portes ouvertes / fermées</fr>
+     </text>
+     <text name="action_openCloseDoor">
+      <en>Open/Close Door</en>
+      <de>Tür öffnen / schließen</de>
+      <fr>Porte ouverte / fermée</fr>
+     </text>
+     <text name="action_lightsOnOff">
+      <en>Turn Lights On/Off</en>
+      <de>Schalten Sie die Lichter ein / aus</de>
+      <fr>Allumer / éteindre les lumières</fr>
+     </text>
+     <text name="action_windmillOnOff">
+      <en>Turn Windmill on/off</en>
+      <de>Schalten an/aus</de>
+      <fr>Éteignez allumées/éteintes</fr>
+     </text>
+     <text name="function_farmHouseDoormat">
+      <en>A farm house doormat with sleep trigger and spawn point</en>
+      <de>Eine Bauernhaus Fußmatte mit Sleep Trigger und Spawn Point</de>
+      <fr>Paillasson de ferme avec déclencheur de sommeil et point d'apparition</fr>
+     </text>
+    </l10n>
+    <brands>
+        <brand name="EDGE" title="EDGE Industries" image="store/EDGE_Brand_Logo.dds"/>
+        <brand name="LIMAGRAIN" title="Limagrain" image="store/Limagrain_Logo.dds"/>
+        <brand name="AJTECH" title="AJ TECH" image="store/brand_ajTech.png"/>
+    </brands>
+    <!-- <l10n>
+        <text name="name_MultiSellingStation">
+            <en>Multi Selling Station</en>
+            <de>Multi Verkaufsstation</de>
+            <fr>Poste De Vente Multiple</fr>
+            <es>Estación De Venta Múltiple</es>
+            <ru>Мультипродажная станция</ru>
+            <pl>Stacja Sprzedaży</pl>
+        </text>
+    </l10n> -->
+    <credits><![CDATA[
+## Contributors
+- Castiga, EDGE Gaming
+## Translations
+- Castiga
+## Designers
+- Castiga]]></credits>
+</modDesc>

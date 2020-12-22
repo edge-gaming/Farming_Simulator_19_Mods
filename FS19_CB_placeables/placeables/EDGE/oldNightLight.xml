@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+ <storeData>
+  <name>$l10n_shopItem_oldNightLight</name>
+  <functions>
+   <function>$l10n_function_oldNightLight</function>
+  </functions>
+  <image>store/store_oldNightLight.png</image>
+  <price>1000</price>
+  <dailyUpkeep>4</dailyUpkeep>
+  <lifetime>1000</lifetime>
+  <rotation>0</rotation>
+  <brand>AJTECH</brand>
+  <species>placeable</species>
+  <category>placeableMisc</category>
+  <vertexBufferMemoryUsage>23200</vertexBufferMemoryUsage>
+  <indexBufferMemoryUsage>3780</indexBufferMemoryUsage>
+  <textureMemoryUsage>529920</textureMemoryUsage>
+  <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+  <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+ </storeData>
+
+ <placeableType>placeable</placeableType>
+ <filename>placeables/EDGE/oldNightLight.i3d</filename>
+ <placement testSizeX="0.5" testSizeZ="0.5" sizeX="0.5" sizeZ="0.5" useRandomYRotation="false" useManualYRotation="true"/>
+
+ <dayNightObjects>
+  <dayNightObject node="0|0|0|0" intensityDay="0" intensityNight="2" />
+  <dayNightObject node="0|0|0|1" visibleDay="false" visibleNight="true" />
+ </dayNightObjects>
+
+ <clearAreas>
+  <clearArea startNode="1|0" widthNode="1|0|0" heightNode="1|0|1"/>
+ </clearAreas>
+ <leveling requireLeveling="true" maxSmoothDistance="5" maxSlope="30" maxEdgeAngle="20">
+  <levelAreas>
+   <levelArea startNode="1|0" widthNode="1|0|0" heightNode="1|0|1" />
+  </levelAreas>
+ </leveling>
+ <seasons>
+  <maskAreas>
+  </maskAreas>
+ </seasons>
+
+ <tipOcclusionUpdateArea sizeX="0.5" sizeZ="0.5" />
+</placeable>

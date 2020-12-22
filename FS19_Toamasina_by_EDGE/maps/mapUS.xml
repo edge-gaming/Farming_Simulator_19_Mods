@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map width="2048" height="2048" imageFilename="maps/pda_map_H.png" >
+    <filename>maps/mapUS.i3d</filename>
+    <shop filename="$data/store/ui/shop.xml" />
+    <colorGrading filename="$data/maps/mapUS_colorGrading.xml" />
+    <storeItems filename="$data/maps/mapUS_storeItems.xml" />
+    <sounds filename="$data/maps/mapUS_sound.xml" />
+    <environment filename="$data/maps/mapUS_environment.xml" />
+    <wildlife filename="$dataS/character/wildlifeSpawner.xml" />
+    <helpline filename="$dataS/helpLine.xml" />
+    <gameplayHints filename="$dataS/gameplayHints.xml" />
+    <husbandryAnimals filename="$dataS/character/husbandryAnimals.xml" />
+    <husbandryFood filename="$dataS/character/husbandryFoodDefinition.xml" />
+    <animalNames filename="$dataS/character/animalNames.xml" />
+    <transportMissions filename="maps/mapUS_transportMissions.xml" />
+    <missionVehicles filename="$dataS/missionVehicles.xml" />
+    <vertexBufferMemoryUsage>37664388</vertexBufferMemoryUsage>
+    <indexBufferMemoryUsage>3225730</indexBufferMemoryUsage>
+    <textureMemoryUsage>407851848</textureMemoryUsage>
+    <culling xzOffset="600" />
+    <densityMap revision="1" />
+    <terrainLodTexture revision="1" />
+    <splitShapes revision="1" />
+    <tipCollision revision="1" />
+
+    <hotspots>
+        <hotspot name="Shop" fullName="$l10n_map_shop" imageUVs="264 8 240 240" xMapPos="-480" zMapPos="706" blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_TRIGGERS"/>
+    </hotspots>
+
+    <additionalFiles>
+        <additionalFile filename="$data/shared/materialHolders/tensionBeltMaterialHolder.i3d" />
+        <additionalFile filename="$data/shared/materialHolders/tireTrackMaterialHolder.i3d" />
+        <additionalFile filename="$data/shared/materialHolders/glowEffectMaterialHolder.i3d" />
+        <additionalFile filename="$data/shared/mapTargetMarker.i3d" />
+        <additionalFile filename="$data/particleSystems/particle_materialHolder.i3d" />
+        <additionalFile filename="$data/particleSystems/effect_materialHolder.i3d" />
+        <additionalFile filename="$data/particleSystems/cutterEffect_materialHolder.i3d" />
+        <additionalFile filename="$data/fillPlanes/fillPlane_materialHolder.i3d" />
+    </additionalFiles>
+
+    <groundTypeMappings>
+        <!-- Base -->
+        <groundTypeMapping type="dirt"         layer="DIRT_ROUGH" />
+        <!-- Standard -->
+        <groundTypeMapping type="asphalt"      layer="ASPHALT" />
+        <groundTypeMapping type="gravel"       layer="GRAVEL" />
+        <groundTypeMapping type="grass"        layer="GRASS" />
+        <groundTypeMapping type="grassRough"   layer="GRASS_ROUGH" />
+        <groundTypeMapping type="sand"         layer="SAND" />
+        <groundTypeMapping type="animalMud"    layer="MUD_DARK" />
+        <groundTypeMapping type="concrete"     layer="CONCRETE" />
+        <groundTypeMapping type="plates"       layer="CONCRETE" />
+        <groundTypeMapping type="cobblestones" layer="CONCRETE" />
+        <groundTypeMapping type="flagstones"   layer="CONCRETE" />
+        <!-- Special -->
+        <groundTypeMapping type="forestGround" layer="FORESTGROUND" />
+        <groundTypeMapping type="rock"         layer="GRANITE_ROCK" />
+    </groundTypeMappings>
+
+    <!-- <fillTypes filename="$data/maps/maps_fillTypes.xml" /> -->
+    <!-- <sprayTypes filename="$data/maps/maps_sprayTypes.xml" /> -->
+    <!-- <fruitTypes filename="$data/maps/maps_fruitTypes.xml" /> -->
+    <!-- <baleTypes filename="$data/maps/maps_baleTypes.xml" /> -->
+    <!-- <treeTypes filename="$data/maps/maps_treeTypes.xml" /> -->
+    <!-- <densityMapHeightTypes filename="$data/maps/maps_densityMapHeightTypes.xml" /> -->
+    <npcs filename="$data/maps/mapUS_npcs.xml" />
+    <!-- <helpers filename="$data/maps/maps_helpers.xml" /> -->
+    <farmlands filename="maps/mapUS_farmlands.xml" />
+
+</map>

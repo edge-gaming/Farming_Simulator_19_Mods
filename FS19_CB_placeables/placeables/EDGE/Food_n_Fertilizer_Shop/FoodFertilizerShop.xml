@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_name_EDGEFNF</name>
+        <functions>
+            <function>$l10n_function_EDGEFNF</function>
+            <function>$l10n_function_EDGELights</function>
+        </functions>
+        <image>placeables/EDGE/Food_n_Fertilizer_Shop/Store_fillingArea.dds</image>
+        <canBeSold>true</canBeSold>
+        <showInStore>false</showInStore>
+        <boughtWithFarmland>true</boughtWithFarmland>
+        <price>25000</price>
+        <lifetime>1000</lifetime>
+        <dailyUpkeep>0</dailyUpkeep>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <species>placeable</species>
+        <category>placeableMisc</category>
+    </storeData>
+    <placeableType>buyingStation</placeableType>
+    <filename>placeables/EDGE/Food_n_Fertilizer_Shop/FoodFertilizerShop.i3d</filename>
+    <placement testSizeX="20" testSizeZ="10" sizeX="20" sizeZ="10" useRandomYRotation="false" useManualYRotation="true"/>
+    <dayNightObjects>
+        <dayNightObject node="2|2|0|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="2|2|1|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="2|2|2|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="2|2|3|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="2|1|3" visibleDay="true" visibleNight="true" intensityDay="0.6" intensityNight="0.6"/>
+        <dayNightObject node="2|1|4" visibleDay="true" visibleNight="true" intensityDay="0.6" intensityNight="0.6"/>
+    </dayNightObjects>
+    <clearAreas>
+        <clearArea startNode="1|2|0" widthNode="1|2|0|0" heightNode="1|2|0|1"/>
+        <clearArea startNode="1|2|1" widthNode="1|2|1|0" heightNode="1|2|1|1"/>
+    </clearAreas>
+    <leveling requireLeveling="true" maxSmoothDistance="5" maxSlope="30" maxEdgeAngle="20">
+        <levelAreas>
+            <levelArea startNode="1|0" widthNode="1|0|0" heightNode="1|0|1" groundType="asphalt"/>
+        </levelAreas>
+    </leveling>
+    <seasons>
+        <maskAreas>
+            <maskArea startNode="1|1|0" widthNode="1|1|0|0" heightNode="1|1|0|1"/>
+            <maskArea startNode="1|1|1" widthNode="1|1|1|0" heightNode="1|1|1|1"/>
+        </maskAreas>
+    </seasons>
+    <tipOcclusionUpdateArea sizeX="20.4" sizeZ="10.9"/>
+    <buyingStation stationName="$l10n_EDGEFNFFull" appearsOnPDA="true" storageRadius="0" fillSoundIdentifier="fillSound01" showHotspotText="false">
+        <loadTrigger triggerNode="0|0|0|0|0" fillLitersPerSecond="2000" infiniteCapacity="true" dischargeNode="0|0|0|0|1">
+            <effectNode effectClass="PipeEffect" effectNode="0|0|0|0|2|0" materialType="pipe" materialTypeId="1" fadeTime="0.5" maxBending="0" controlPoint="3.75 0 0 0"/>
+            <effectNode effectNode="0|0|0|0|2|1" materialType="smoke" materialTypeId="1" fadeTime="0.5"/>
+        </loadTrigger>
+        <fillType name="seeds" priceScale="1.10"/>
+        <fillType name="lime" priceScale="1.10"/>
+        <fillType name="liquidFertilizer" priceScale="1.10"/>
+        <fillType name="Fertilizer" priceScale="1.10"/>
+        <fillType name="herbicide" priceScale="1.10"/>
+        <fillType name="pigFood" priceScale="1.10"/>
+        <fillType name="WHEAT" priceScale="1.10"/>
+        <fillType name="OAT" priceScale="1.10"/>
+        <fillType name="DRYGRASS_WINDROW" priceScale="1.10"/>
+        <fillType name="forage" priceScale="1.10"/>
+        <fillType name="digestate" priceScale="1.10"/>
+    </buyingStation>
+    <triggerMarkers>
+        <triggerMarker node="3"/>
+    </triggerMarkers>
+</placeable>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+ <storeData>
+  <name>$l10n_shopItem_liquidStorage</name>
+  <functions>
+   <function>$l10n_function_liquidStorage</function>
+  </functions>
+  <specs>
+   <capacity>300000</capacity>
+   <fillTypes>water milk liquidManure digestate</fillTypes>
+  </specs>
+  <image>store/store_liquidStorage.png</image>
+  <price>45000</price>
+  <dailyUpkeep>39</dailyUpkeep>
+  <lifetime>1000</lifetime>
+  <rotation>0</rotation>
+  <brand>AJTECH</brand>
+  <species>placeable</species>
+  <category>silos</category>
+  <vertexBufferMemoryUsage>112864</vertexBufferMemoryUsage>
+  <indexBufferMemoryUsage>21516</indexBufferMemoryUsage>
+  <textureMemoryUsage>1179912</textureMemoryUsage>
+  <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+  <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+ </storeData>
+
+ <placeableType>silo</placeableType>
+ <filename>placeables/EDGE/liquidStorage.i3d</filename>
+ <placement testSizeX="9" testSizeZ="8" sizeX="9" sizeZ="8" useRandomYRotation="false" useManualYRotation="true"/>
+
+ <loadingStation stationName="$l10n_station_farmSilo" appearsOnPDA="false" storageRadius="50" fillSoundIdentifier="fillSound01">
+  <loadTrigger triggerNode="1|1|0|0|0" fillLitersPerSecond="4000">
+  </loadTrigger>
+ </loadingStation>
+
+ <unloadingStation stationName="$l10n_station_farmSilo" appearsOnPDA="false" storageRadius="50">
+  <unloadTrigger exactFillRootNode="1|0|0|0|0" />
+ </unloadingStation>
+
+ <storages>
+  <storage node="1|2" fillTypes="water milk liquidManure digestate" capacityPerFillType="300000" />
+ </storages>
+
+ <hotspots>
+  <hotspot name="Farm silo" fullName="$l10n_station_farmSilo" imageName="SELLING_POINT" hidable="true" linkNode="1|3" category="CATEGORY_TRIGGERS" />
+ </hotspots>
+
+ <triggerMarkers>
+  <triggerMarker node="2" />
+ </triggerMarkers>
+
+ <clearAreas>
+  <clearArea startNode="3|0" widthNode="3|0|0" heightNode="3|0|1"/>
+ </clearAreas>
+ <leveling requireLeveling="true" maxSmoothDistance="5" maxSlope="30" maxEdgeAngle="20">
+  <levelAreas>
+   <levelArea startNode="3|0" widthNode="3|0|0" heightNode="3|0|1" groundType="concrete"/>
+  </levelAreas>
+ </leveling>
+ <seasons>
+  <maskAreas>
+   <maskArea startNode="4|0" widthNode="4|0|0" heightNode="4|0|1" />
+  </maskAreas>
+ </seasons>
+
+ <tipOcclusionUpdateArea sizeX="9" sizeZ="8" />
+</placeable>

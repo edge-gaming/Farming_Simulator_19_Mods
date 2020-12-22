@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="../textures/craterBay/watermill_diffuse.dds"/>
+    <File fileId="2" filename="../textures/craterBay/watermill_normal.dds"/>
+    <File fileId="3" filename="../textures/craterBay/watermill_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="endCap_mat" materialId="5" diffuseColor="0.00784314 0.00784314 0.00784314 1">
+    </Material>
+    <Material name="watermill_mat" materialId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="lambert1" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="watermillBroken.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="watermillBroken" nodeId="13">
+      <Shape shapeId="1" name="tower" static="true" clipDistance="300" nodeId="14" materialIds="4" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="2" name="rotor" translation="0.233547 9.39148 -0.243321" rotation="15.4516 12.332 20.3761" clipDistance="300" nodeId="15" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="3" name="wheel" translation="-0.75 1.251 1.63448" rotation="24.1491 22.1238 115.668" static="true" clipDistance="300" nodeId="16" materialIds="4" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="4" name="endCap" clipDistance="30" nodeId="17" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </Shape>
+      <TransformGroup name="areas" nodeId="18">
+        <TransformGroup name="start" translation="-2 0 -2" nodeId="19">
+          <TransformGroup name="width" translation="4 0 0" nodeId="20"/>
+          <TransformGroup name="height" translation="0 0 5" nodeId="21"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="seasons" nodeId="25">
+        <TransformGroup name="start" translation="-2 0 -2" nodeId="26">
+          <TransformGroup name="width" translation="4 0 0" nodeId="27"/>
+          <TransformGroup name="height" translation="0 0 5" nodeId="28"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="5" name="tipBlocker" visibility="false" static="true" collisionMask="524288" nodeId="22" materialIds="6" nonRenderable="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="10" filename="$data/placeables/animalHusbandry/liquidManure_diffuse.png"/>
+    <File fileId="8" filename="$data/shaders/dashboardLightsShader.xml"/>
+    <File fileId="12" filename="$data/sounds/maps/fauna/us/misc/flies_buzz_multi_02_loop.wav"/>
+    <File fileId="5" filename="../textures/craterBay/lightBulb_diffuse.png"/>
+    <File fileId="6" filename="../textures/craterBay/lightBulb_normal.png"/>
+    <File fileId="7" filename="../textures/craterBay/lightBulb_specular.png"/>
+    <File fileId="2" filename="../textures/craterBay/woodOuthouse_diffuse.png"/>
+    <File fileId="3" filename="../textures/craterBay/woodOuthouse_normal.png"/>
+    <File fileId="4" filename="../textures/craterBay/woodOuthouse_specular.png"/>
+    <File fileId="9" filename="$data/maps/textures/shared/light_emissive.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="woodOuthouse_mat" materialId="8">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+    </Material>
+    <Material name="lightBulb_mat" materialId="7">
+      <Texture fileId="5"/>
+      <Normalmap fileId="6"/>
+      <Glossmap fileId="7"/>
+    </Material>
+    <Material name="liquidManure_mat" materialId="4" specularColor="0.184314 1 0.101961">
+      <Texture fileId="10"/>
+    </Material>
+    <Material name="lightBulbLit_mat" materialId="6" alphaBlending="true" customShaderId="8">
+      <Texture fileId="5"/>
+      <Normalmap fileId="6"/>
+      <Glossmap fileId="7"/>
+      <Custommap name="mEmissiveMap" fileId="9"/>
+      <CustomParameter name="lightControl" value="5 0 0 0"/>
+    </Material>
+    <Material name="lambert1" materialId="5" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="woodOuthouse.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="woodOuthouse" nodeId="22">
+      <Shape shapeId="1" name="trigger" translation="0 1.21099 1.51215" static="true" trigger="true" nodeId="23" materialIds="5" nonRenderable="true"/>
+      <Shape shapeId="2" name="building" clipDistance="200" nodeId="24" materialIds="8" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="3" name="handle" translation="0.52553 1.13269 0.749564" rotation="0 0 -90" clipDistance="35" nodeId="25" materialIds="8" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="4" name="door" translation="-0.451754 1.32985 0.729801" rotation="0 -85 0" clipDistance="200" nodeId="26" materialIds="8" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="5" name="col" visibility="false" kinematic="true" density="0.0001" nodeId="27" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+        <Shape shapeId="6" name="bulb1" translation="0 2.53944 0.251716" clipDistance="150" nodeId="28" materialIds="7" castsShadows="true" receiveShadows="true">
+          <TransformGroup name="illum" nodeId="29">
+            <Shape shapeId="7" name="glass" clipDistance="77" nodeId="30" materialIds="6" castsShadows="true" receiveShadows="true"/>
+            <Light name="pointLight1" translation="0 -0.569835 0" clipDistance="155" nodeId="31" type="point" color="1 0.95 0.9" emitDiffuse="true" emitSpecular="true" decayRate="1" range="3"/>
+          </TransformGroup>
+          <Shape shapeId="8" name="col" visibility="false" static="true" nodeId="32" materialIds="5" nonRenderable="true"/>
+        </Shape>
+        <Shape shapeId="9" name="col" visibility="false" static="true" density="0.0001" nodeId="33" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="10" name="toiletSeat" translation="-0.011923 0.668167 -0.284738" clipDistance="35" nodeId="34" materialIds="8" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="11" name="liquidManurePlane" translation="-0.0226829 0.440464 -0.110342" clipDistance="35" nodeId="35" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <AudioSource name="fliesBuzzing" translation="0 0.29 0" nodeId="36" fileId="12" range="10" innerRange="3" volume="0.5" loops="0"/>
+      </Shape>
+      <TransformGroup name="areas" nodeId="38">
+        <TransformGroup name="start" translation="-1 0 -1" nodeId="39">
+          <TransformGroup name="width" translation="2 0 0" nodeId="40"/>
+          <TransformGroup name="height" translation="0 0 2" nodeId="41"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="seasons" nodeId="42">
+        <TransformGroup name="start" translation="-1 0 -1" nodeId="43">
+          <TransformGroup name="width" translation="2 0 0" nodeId="44"/>
+          <TransformGroup name="height" translation="0 0 2" nodeId="45"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="12" name="tipBlocker" visibility="false" static="true" collisionMask="524288" nodeId="46" materialIds="5" nonRenderable="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

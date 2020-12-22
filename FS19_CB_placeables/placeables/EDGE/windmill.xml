@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+ <storeData>
+  <name>$l10n_shopItem_windmill</name>
+  <functions>
+   <function>$l10n_function_mills</function>
+  </functions>
+  <image>store/store_windmill.png</image>
+  <price>18000</price>
+  <dailyUpkeep>22</dailyUpkeep>
+  <lifetime>1000</lifetime>
+  <rotation>0</rotation>
+  <brand>AJTECH</brand>
+  <species>placeable</species>
+  <category>placeableMisc</category>
+  <vertexBufferMemoryUsage>329184</vertexBufferMemoryUsage>
+  <indexBufferMemoryUsage>35064</indexBufferMemoryUsage>
+  <textureMemoryUsage>1310944</textureMemoryUsage>
+  <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+  <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+ </storeData>
+
+ <placeableType>windTurbine</placeableType>
+ <filename>placeables/EDGE/windmill.i3d</filename>
+ <placement testSizeX="16" testSizeZ="16" sizeX="16" sizeZ="16" useRandomYRotation="false" useManualYRotation="true" />
+
+ <incomePerHour1>1000</incomePerHour1>
+ <incomePerHour2>500</incomePerHour2>
+ <incomePerHour3>250</incomePerHour3>
+
+ <windTurbine headNode="0" rotationNode="0|1|0" />
+
+ <clearAreas>
+  <clearArea startNode="3|0" widthNode="3|0|0" heightNode="3|0|1"/>
+ </clearAreas>
+
+ <leveling requireLeveling="true" maxSmoothDistance="5" maxSlope="30" maxEdgeAngle="20" >
+  <levelAreas>
+   <levelArea startNode="3|0" widthNode="3|0|0" heightNode="3|0|1" groundType="asphalt"/>
+  </levelAreas>
+ </leveling>
+
+ <seasons>
+  <maskAreas>
+  </maskAreas>
+ </seasons>
+
+ <tipOcclusionUpdateArea sizeX="16" sizeZ="16" />
+
+</placeable>

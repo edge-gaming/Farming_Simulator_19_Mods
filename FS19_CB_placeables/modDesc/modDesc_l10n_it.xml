@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+<author>Edge Gaming / Castiga</author>
+<translationby>Castiga</translationby>
+	<texts>
+		<text name="EDGEFNF"         					text="EDGE Grains"/>
+		<text name="EDGEFNFBuy"    						text="EDGE Food &apos;n&apos; Fertilizer"/>
+		<text name="function_sellingStation"    		text="Here you can sell many types of crops, Prices will show on the price table."/>
+		<text name="name_Limagrain"    					text="Limagrain"/>
+		<text name="Limagrain"    						text="LimaGrain"/>
+		<text name="function_Limagrain"    				text="Limagrain Selling Station."/>
+		<text name="name_distillery"    				text="Distillery"/>
+		<text name="distillery"    						text="Distillery"/>
+		<text name="function_distillery"    			text="A Distillery Selling Station."/>
+		<text name="name_Lemonways"    					text="Lemonways"/>
+		<text name="function_Lemonways"    				text="LemonWays Selling Station."/>
+		<text name="Lemonways"    						text="LemonWays"/>
+		<text name="name_mill"    						text="Sugar Mill"/>
+		<text name="function_mill"    					text="Sugar Mill Selling Station."/>
+		<text name="mill"         						text="Sugar Mill"/>
+		<text name="name_OceanBeach"    				text="Ocean Beach"/>
+		<text name="function_OceanBeach"    			text="Ocean Beach Selling Station."/>
+		<text name="OceanBeach"    						text="Ocean Beach"/>
+		<text name="minimarket"         				text="Mini Market"/>
+		<text name="name_messSS"    					text="Mess Hall"/>
+		<text name="function_messSS"    				text="Mess Hall Selling Station."/>
+		<text name="messSS"    							text="Mess hall Grains"/>
+		<text name="name_EDGE_Sign"    					text="EDGE Sign"/>
+		<text name="function_EDGE_Sign"					text="This sign will earn you a small amount of advertisement revenue."/>
+		<text name="function_WaterWell"    				text="A well where you can get free water"/>
+		<text name="function_EDGELights"         		text="Building has Automatic Lights"/>
+		<text name="name_WaterWell"    					text="Water Well"/>
+		<text name="name_limestation"    				text="Lime Station"/>
+		<text name="EDGE"    							text="EDGE Industries"/>
+        <text name="shopItem_ssBales"					text="Straw Barn"/>
+		<text name="function_shopSS"    				text="Straw Barn Selling Station."/>
+        <text name="station_ssBales"					text="Straw Barn"/>
+        <text name="fillMark_01"						text="Fillmark"/>
+			<!--MultiStations-->
+		<text name="name_MultiSellingStation_Black"		text="Multi Selling Station"/>
+		<text name="function_MultiSellingStation"		text="Here you can sell anything you'd like, From crop harvest to seeds and fertilizer."/>
+		<text name="GrainExpress"						text="EDGE Industries Export"/>
+		<text name="GrainExpressBuy"					text="EDGE Industries Import"/>
+		<text name="name_multifillingstation_Black"		text="Multi Filling Station"/>
+		<text name="function_multifillingstation"		text="Here you can buy anything you'd like, the delivery people take 10%, and 15% on any crop harvest."/>
+			<!--StrawBarn-->
+		<text name="name_StrawBarn_SellingSpot"			text="EDGE Bigbales!"/>
+		<text name="name_StrawBarn_SellingSpotUn"		text="EDGE Bailing Barn"/>
+		<text name="function_StrawBarn_SellingSpot"		text="Nice and clean barn that works as a selling point for straw, grass, hay and silage. The Building is fitted with automatic lighting inside and outside."/>
+		<text name="function_StrawBarn_SellingSpotUn"	text="Nice and clean barn that works as a selling point for all types of Fruit. The Building is fitted with automatic lighting inside and outside."/>
+			<!--GreenScreen-->
+		<text name="function_greenScreen"    			text="You can place this wall in the background for shop phots. There is Also a Ground Paint in this color."/>
+		<text name="shopItem_greenScreen"    			text="Green Screen"/>
+			<!--Actions-->
+		<text name="action_toggleFillmark_on" 			text="Fillmark on"/>
+		<text name="action_toggleFillmark_off" 			text="Fillmark off"/>
+	</texts>
+</l10n>
