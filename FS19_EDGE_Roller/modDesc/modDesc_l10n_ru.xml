@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+<author>Edge Gaming / Castiga</author>
+	<texts>
+        <text name="configuration_Design"		text="подробность покрашенный"/>
+        <text name="configuration_Painted"		text="покрашенный"/>
+        <text name="action_foldWARNING"			text="складка Предупреждающие знаки"/>
+        <text name="action_unfoldWARNING"		text="Открываются Предупреждающие знаки"/>
+        <text name="configuration_warningSigns"	text="Предупреждающие знаки"/>
+        <text name="config_warningSigns"		text="Складные предупреждающие знаки"/>
+        <text name="config_noWarningSigns"		text="Нет предупреждающих знаков"/>
+        <text name="configuration_attacher"		text="присоединитель"/>
+        <text name="config_attacherNewDesign"	text="обычай подробность покрашенный"/>
+        <text name="config_attacherNewPaint"	text="обычай покрашенный"/>
+        <text name="config_attacherDesign"		text="По умолчанию подробность покрашенный"/>
+        <text name="config_attacherPaint"		text="По умолчанию покрашенный"/>
+        <text name="configuration_drum"			text="Барабан"/>
+        <text name="config_customDrum"			text="обычай"/>
+        <text name="config_liteDrum"			text="облегченная"/>
+        <text name="config_proDrum"				text="профессионал"/>
+        <text name="config_roughDrum"			text="Грубый"/>
+        <text name="config_lights"				text="огни"/>
+        <text name="config_beacon"				text="Маяковые огни"/>
+        <text name="config_work"				text="Рабочие фары"/>
+        <text name="config_noLight"				text="Нет света"/>
+        <text name="config_beaconWork"			text="Маяковые огни &amp; Рабочие фары"/>
+        <text name="config_decalWhite"			text="Белые наклейки"/>
+        <text name="config_decalBlack"			text="Черные наклейки"/>
+        <text name="config_decalDesign"			text="Золотые наклейки"/>
+        <text name="config_decal"				text="Декали по умолчанию"/>
+        <text name="configuration_decal"		text="Декаль Дизайн"/>
+			<!--Colors-->
+        <text name="color_ITRUNNERMATTE" 		text="IT RUNNER МАТОВЫЙ"/>
+        <text name="color_EDGEGOLDMATTE" 		text="EDGE ЗОЛОТО МАТОВЫЙ"/>
+        <text name="color_EDGESILVERMATTE" 		text="EDGE СЕРЕБРЯНЫЙ МАТОВЫЙ"/>
+        <text name="color_CASEIHMATTE" 			text="CASE IH МАТОВЫЙ"/>
+        <text name="color_NEWHOLLANDMATTE" 		text="NEW HOLLAND МАТОВЫЙ"/>
+        <text name="color_KRONEMATTE" 			text="KRONE МАТОВЫЙ"/>
+        <text name="color_YELLOWMATTE" 			text="ЭЛЕКТРИЧЕСКИЙ ЖЕЛТЫЙ МАТОВЫЙ"/>
+        <text name="color_STARAMATTE" 			text="STARA МАТОВЫЙ"/>
+        <text name="color_LELYMATTE" 			text="LELY МАТОВЫЙ"/>
+        <text name="color_WHITEMATTE" 			text="Призрак белый МАТОВЫЙ"/>
+        <text name="color_PURPLEMATTE" 			text="ЖЕМЧУГ ФИОЛЕТОВЫЙ МАТОВЫЙ"/>
+        <text name="color_DARKBLUEMATTE" 		text="КОРОЛЕВСКИЙ СИНИЙ МАТОВЫЙ"/>
+        <text name="color_JOHNDEEREMATTE" 		text="JOHN DEERE МАТОВЫЙ"/>
+        <text name="color_PINKMATTE" 			text="Барби Пинк МАТОВЫЙ"/>
+
+		<text name="color_ITRUNNERCHROME" 		text="IT RUNNER ХРОМ"/>
+        <text name="color_EDGEGOLDCHROME" 		text="EDGE ЗОЛОТО ХРОМ"/>
+        <text name="color_EDGESILVERCHROME" 	text="EDGE СЕРЕБРЯНЫЙ ХРОМ"/>
+        <text name="color_CASEIHCHROME" 		text="CASE IH ХРОМ"/>
+        <text name="color_NEWHOLLANDCHROME" 	text="NEW HOLLAND ХРОМ"/>
+        <text name="color_KRONECHROME" 			text="KRONE ХРОМ"/>
+        <text name="color_YELLOWCHROME" 		text="ЭЛЕКТРИЧЕСКИЙ ЖЕЛТЫЙ ХРОМ"/>
+        <text name="color_STARACHROME" 			text="STARA ХРОМ"/>
+        <text name="color_LELYCHROME" 			text="LELY ХРОМ"/>
+        <text name="color_WHITECHROME" 			text="Призрак белый ХРОМ"/>
+        <text name="color_PURPLECHROME" 		text="ЖЕМЧУГ ФИОЛЕТОВЫЙ ХРОМ"/>
+        <text name="color_DARKBLUECHROME" 		text="КОРОЛЕВСКИЙ СИНИЙ ХРОМ"/>
+        <text name="color_JOHNDEERECHROME" 		text="JOHN DEERE ХРОМ"/>
+        <text name="color_PINKCHROME" 			text="Барби Пинк ХРОМ"/>
+
+		<text name="color_ITRUNNERMETALLIC" 	text="IT RUNNER МЕТАЛЛИК"/>
+        <text name="color_EDGEGOLDMETALLIC" 	text="EDGE ЗОЛОТО МЕТАЛЛИК"/>
+        <text name="color_EDGESILVERMETALLIC" 	text="EDGE СЕРЕБРЯНЫЙ МЕТАЛЛИК"/>
+        <text name="color_CASEIHMETALLIC" 		text="CASE IH МЕТАЛЛИК"/>
+        <text name="color_NEWHOLLANDMETALLIC" 	text="NEW HOLLAND МЕТАЛЛИК"/>
+        <text name="color_KRONEMETALLIC" 		text="KRONE МЕТАЛЛИК"/>
+        <text name="color_YELLOWMETALLIC" 		text="ЭЛЕКТРИЧЕСКИЙ ЖЕЛТЫЙ МЕТАЛЛИК"/>
+        <text name="color_STARAMETALLIC" 		text="STARA МЕТАЛЛИК"/>
+        <text name="color_LELYMETALLIC" 		text="LELY МЕТАЛЛИК"/>
+        <text name="color_WHITEMETALLIC" 		text="Призрак белый МЕТАЛЛИК"/>
+        <text name="color_PURPLEMETALLIC" 		text="ЖЕМЧУГ ФИОЛЕТОВЫЙ МЕТАЛЛИК"/>
+        <text name="color_DARKBLUEMETALLIC" 	text="КОРОЛЕВСКИЙ СИНИЙ МЕТАЛЛИК"/>
+        <text name="color_JOHNDEEREMETALLIC" 	text="JOHN DEERE МЕТАЛЛИК"/>
+        <text name="color_PINKMETALLIC" 		text="Барби Пинк МЕТАЛЛИК"/>
+
+		<text name="color_ITRUNNER" 			text="IT RUNNER "/>
+        <text name="color_EDGEGOLD" 			text="EDGE ЗОЛОТО "/>
+        <text name="color_EDGESILVER" 			text="EDGE СЕРЕБРЯНЫЙ "/>
+        <text name="color_RED" 					text="МАЛИНОВЫЙ СЛАВА"/>
+        <text name="color_KOBALT" 				text="Кобальт"/>
+        <text name="color_GREEN" 				text="КЕЛЛИ ЗЕЛЕНЫЙ"/>
+        <text name="color_YELLOW" 				text="ЭЛЕКТРИЧЕСКИЙ ЖЕЛТЫЙ"/>
+        <text name="color_ORANGE" 				text="BLAZE ОРАНЖЕВЫЙ"/>
+        <text name="color_LELY" 				text="LELY"/>
+        <text name="color_KRONE" 				text="KRONE"/>
+        <text name="color_ALICEBLUE" 			text="АлисаСИНИЙ"/>
+        <text name="color_PURPLE" 				text="ЖЕМЧУГ ФИОЛЕТОВЫЙ"/>
+        <text name="color_DARKGREY"				text="Дымный черный"/>
+        <text name="color_NEWHOLLAND" 			text="NEW HOLLAND"/>
+        <text name="color_PINK" 				text="Барби Пинк"/>
+	</texts>
+</l10n>

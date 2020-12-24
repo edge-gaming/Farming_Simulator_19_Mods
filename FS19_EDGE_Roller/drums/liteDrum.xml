@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<wheel>
+    <default>
+        <physics radius="0.468" width="2" mass="0.2" tireType="street" frictionScale="1.60" maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2" />
+        <outerRim filename="drums/EDGE_liteDrum.i3d" node="0|0"/>
+    </default>
+</wheel>

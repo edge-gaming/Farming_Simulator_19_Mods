@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+<author>Edge Gaming / Castiga</author>
+	<texts>
+        <text name="configuration_Design"		text="Dettaglio Dipinta"/>
+        <text name="configuration_Painted"		text="Dipinta"/>
+        <text name="action_foldWARNING"			text="Piega Segnali di avvertimento"/>
+        <text name="action_unfoldWARNING"		text="Svelare Segnali di avvertimento"/>
+        <text name="configuration_warningSigns"	text="Segnali di avvertimento"/>
+        <text name="config_warningSigns"		text="Segnali di avvertimento pieghevoli"/>
+        <text name="config_noWarningSigns"		text="Nessun segnale di avvertimento"/>
+        <text name="configuration_attacher"		text="Attacher"/>
+        <text name="config_attacherNewDesign"	text="Costume Dettaglio Dipinta"/>
+        <text name="config_attacherNewPaint"	text="Costume Dipinta"/>
+        <text name="config_attacherDesign"		text="Predefinito Dettaglio Dipinta"/>
+        <text name="config_attacherPaint"		text="Predefinito Dipinta"/>
+        <text name="configuration_drum"			text="Tamburo"/>
+        <text name="config_customDrum"			text="Costume"/>
+        <text name="config_liteDrum"			text="Light"/>
+        <text name="config_proDrum"				text="Professionista"/>
+        <text name="config_roughDrum"			text="Ruvido"/>
+        <text name="config_lights"				text="Luci"/>
+        <text name="config_beacon"				text="Luci di segnalazione"/>
+        <text name="config_work"				text="Luci da lavoro"/>
+        <text name="config_noLight"				text="Senza luci"/>
+        <text name="config_beaconWork"			text="Segnalazione &amp; Luci da lavoro"/>
+        <text name="config_decalWhite"			text="Bianca decalcomanie"/>
+        <text name="config_decalBlack"			text="Nera decalcomanie"/>
+        <text name="config_decalDesign"			text="Oro decalcomanie"/>
+        <text name="config_decal"				text="Predefinita decalcomanie"/>
+        <text name="configuration_decal"		text="Design della decalcomania"/>
+			<!--Colors-->
+        <text name="color_ITRUNNERMATTE" 		text="IT RUNNER OPACA"/>
+        <text name="color_EDGEGOLDMATTE" 		text="EDGE ORO OPACA"/>
+        <text name="color_EDGESILVERMATTE" 		text="EDGE ARGENTO OPACA"/>
+        <text name="color_CASEIHMATTE" 			text="CASE IH OPACA"/>
+        <text name="color_NEWHOLLANDMATTE" 		text="NEW HOLLAND OPACA"/>
+        <text name="color_KRONEMATTE" 			text="KRONE OPACA"/>
+        <text name="color_YELLOWMATTE" 			text="GIALLO ELETTRICO OPACA"/>
+        <text name="color_STARAMATTE" 			text="STARA OPACA"/>
+        <text name="color_LELYMATTE" 			text="LELY OPACA"/>
+        <text name="color_WHITEMATTE" 			text="FANTASMA BIANCA OPACA"/>
+        <text name="color_PURPLEMATTE" 			text="VIOLA PERLA OPACA"/>
+        <text name="color_DARKBLUEMATTE" 		text="BLU REALE OPACA"/>
+        <text name="color_JOHNDEEREMATTE" 		text="JOHN DEERE OPACA"/>
+        <text name="color_PINKMATTE" 			text="ROSA BARBIE OPACA"/>
+
+		<text name="color_ITRUNNERCHROME" 		text="CROMO IT RUNNER"/>
+        <text name="color_EDGEGOLDCHROME" 		text="CROMO EDGE ORO"/>
+        <text name="color_EDGESILVERCHROME" 	text="CROMO EDGE ARGENTO"/>
+        <text name="color_CASEIHCHROME" 		text="CROMO CASE IH"/>
+        <text name="color_NEWHOLLANDCHROME" 	text="CROMO NEW HOLLAND"/>
+        <text name="color_KRONECHROME" 			text="CROMO KRONE"/>
+        <text name="color_YELLOWCHROME" 		text="CROMO GIALLO ELETTRICO"/>
+        <text name="color_STARACHROME" 			text="CROMO STARA"/>
+        <text name="color_LELYCHROME" 			text="CROMO LELY"/>
+        <text name="color_WHITECHROME" 			text="CROMO FANTASMA BIANCA"/>
+        <text name="color_PURPLECHROME" 		text="CROMO VIOLA PERLA"/>
+        <text name="color_DARKBLUECHROME" 		text="CROMO BLU REALE"/>
+        <text name="color_JOHNDEERECHROME" 		text="CROMO JOHN DEERE"/>
+        <text name="color_PINKCHROME" 			text="CROMO ROSA BARBIE"/>
+
+		<text name="color_ITRUNNERMETALLIC" 	text="METALLICO IT RUNNER"/>
+        <text name="color_EDGEGOLDMETALLIC" 	text="METALLICO EDGE ORO"/>
+        <text name="color_EDGESILVERMETALLIC" 	text="METALLICO EDGE ARGENTO"/>
+        <text name="color_CASEIHMETALLIC" 		text="METALLICO CASE IH"/>
+        <text name="color_NEWHOLLANDMETALLIC" 	text="METALLICO NEW HOLLAND"/>
+        <text name="color_KRONEMETALLIC" 		text="METALLICO KRONE"/>
+        <text name="color_YELLOWMETALLIC" 		text="METALLICO GIALLO ELETTRICO"/>
+        <text name="color_STARAMETALLIC" 		text="METALLICO STARA"/>
+        <text name="color_LELYMETALLIC" 		text="METALLICO LELY"/>
+        <text name="color_WHITEMETALLIC" 		text="METALLICO GHOST BIANCO"/>
+        <text name="color_PURPLEMETALLIC" 		text="METALLICO VIOLA PERLA"/>
+        <text name="color_DARKBLUEMETALLIC" 	text="METALLICO BLU REALE"/>
+        <text name="color_JOHNDEEREMETALLIC" 	text="METALLICO JOHN DEERE"/>
+        <text name="color_PINKMETALLIC" 		text="METALLICO ROSA BARBIE"/>
+
+		<text name="color_ITRUNNER" 			text="IT RUNNER "/>
+        <text name="color_EDGEGOLD" 			text="EDGE ORO "/>
+        <text name="color_EDGESILVER" 			text="EDGE ARGENTO "/>
+        <text name="color_RED" 					text="CREMISI GLORIA"/>
+        <text name="color_KOBALT" 				text="COBALTO"/>
+        <text name="color_GREEN" 				text="KELLY VERDE"/>
+        <text name="color_YELLOW" 				text="GIALLO ELETTRICO"/>
+        <text name="color_ORANGE" 				text="FIAMMATA ARANCIA"/>
+        <text name="color_LELY" 				text="LELY"/>
+        <text name="color_KRONE" 				text="KRONE"/>
+        <text name="color_ALICEBLUE" 			text="ALICE BLU"/>
+        <text name="color_PURPLE" 				text="VIOLA PERLA"/>
+        <text name="color_DARKGREY"				text="NERO FUMO"/>
+        <text name="color_NEWHOLLAND" 			text="NEW HOLLAND"/>
+        <text name="color_PINK" 				text="ROSA BARBIE"/>
+	</texts>
+</l10n>

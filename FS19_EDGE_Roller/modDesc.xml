@@ -1,277 +1,425 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<modDesc descVersion="46">
-    <author>Edge Gaming / Castiga</author>
-    <translationby>Castiga</translationby>
-    <version>1.5.0.0</version>
-    <title><!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
+<modDesc descVersion="47">
+    <author>Edge Gaming</author>
+    <version>2.0.0.0</version>
+    <title>
         <en>EDGE Field Roller</en>
         <de>EDGE Feldwalze</de>
         <fr>EDGE Rouleau De Terrain</fr>
         <es>Rodillo De Campo EDGE</es>
         <ru>Полевой Kаток EDGE</ru>
         <pl>Wałek Polowy EDGE</pl>
+        <it>EDGE Rullo Di Campo</it>
     </title>
     <description>
-        <en><![CDATA[Rollers for removing fields and making your farm clean, accurate and easy to use 3-point attacher.
+        <en><![CDATA[Rollers for removing fields and making your farm clean, they can also be used to remove snow.
+Accurate and easy to use 3-point attacher. They are also remote controlled, if you ever need to move them without a tractor.
 
+--Technical Info--
 Field Roller S:
 Price: 4.900€
-Size: 3 x 1.5m
+Size: 3 x 1.5 Meters.
 Weight: 1580kg
-Working width: 3m
+Working width: 3 Meters.
 Max. working speed: 17 kph
-Required power: 40 hp
+Required power: 40 hp+
 
 Field Roller M:
 Price: 6.900€
-Size: 4 x 1.5m
+Size: 4 x 1.5 Meters.
 Weight: 1980kg
-Working width: 4m
+Working width: 4 Meters.
 Max. working speed: 17 kph
-Required power: 50 hp
+Required power: 50 hp+
 
 Field Roller L:
 Price: 8.900€
-Size: 6 x 1.5m
+Size: 6 x 1.5 Meters.
 Weight: 2580kg
-Working width: 6m
+Working width: 6 Meters.
 Max. working speed: 17 kph
-Required power: 60 hp
+Required power: 60 hp+
 
 - Supports "Seasons" and "Courseplay Six".
 
 Changelog 1.0.0.0:
 - Added 6m Option
 - Changed it to a single item with size options
-- Added l10n for names++ and a few extra language choises
+- Added l10n for names++
 Changelog 1.5.0.0:
 - Updated the mod with more languages.
+Changelog 2.0.0.0:
+- Created new 3D object, and put it in seperate model so that the old one is still available.
+- Loads of new design stuff added.
+- Added lights & warning signs.
+- Created loads of configuration options.
+- Added Italian translation.
+- New drums & with separate color choice.
+- New store photos & mod icon.
+- Fixed a few misplaced UVs on the old model.]]></en>
 
-Upcomming - Remaking the whole 3d object]]></en>
-
-<de><![CDATA[Walzen zum entfernen von (falsch) angelegten Feldern. Benutzerfreundlichen 3-Punkt-Befestigung.
+<de><![CDATA[Walzen zum entfernen von Feldern die z.B. falsch angelegt wurden sowie zum Schneeräumen (Seasons).
+Einfach zu bedienender 3-Punkt-Anbau. Sie sind auch ferngesteuert, falls Sie sie einmal ohne Traktor bewegen müssen.
 
 Feldwalze S:
 Preis: 4.900€
-Größe: 3 x 1.5m
+Größe: 3 x 1.5 Meter.
 Gewicht: 1580kg
-Arbeitsbreite: 3m
+Arbeitsbreite: 3 Meter.
 Arbeitsgeschwindigkeit: 17 km/h
-Benötigte Leistung: 40 PS
+Benötigte Leistung: 40 PS+
 
 Feldwalze M:
 Preis: 6.900€
-Größe: 4 x 1.5m
+Größe: 4 x 1.5 Meter.
 Gewicht: 1980kg
-Arbeitsbreite: 4m
+Arbeitsbreite: 4 Meter.
 Arbeitsgeschwindigkeit: 17 km/h
-Benötigte Leistung: 50 PS
+Benötigte Leistung: 50 PS+
 
 Feldwalze L:
 Preis: 8.900€
-Größe: 6 x 1.5m
+Größe: 6 x 1.5 Meter.
 Gewicht: 2580kg
-Arbeitsbreite: 6m
+Arbeitsbreite: 6 Meter.
 Arbeitsgeschwindigkeit: 17 km/h
-Benötigte Leistung: 60 PS
+Benötigte Leistung: 60 PS+
 
 - Unterstützt "Seasons" und "Courseplay Six".
 
 Änderungsprotokoll 1.0.0.0:
 - 6m Option hinzugefügt
 - Es wurde in ein einzelnes Element mit Größenoptionen geändert
-- l10n für Namen ++ und ein paar zusätzliche Sprachoptionen hinzugefügt
+- l10n für Namen ++ hinzugefügt
 Änderungsprotokoll 1.5.0.0:
-- Der Mod wurde mit mehr Sprachen aktualisiert.]]></de>
+- Der Mod wurde mit mehr Sprachen aktualisiert.
+Änderungsprotokoll 2.0.0.0:
+- Neues 3D-Objekt erstellt und in ein separates Modell eingefügt, sodass das alte noch verfügbar ist.
+- Viele neue Design-Sachen hinzugefügt.
+- Lichter und Warnschilder hinzugefügt.
+- Viele Konfigurationsoptionen erstellt.
+- Italienische Übersetzung hinzugefügt.
+- Neue Trommeln & mit separater Farbauswahl.
+- Neues Store Fotos & Mod Symbol.
+- Einige falsch platzierte UV-Strahlen am alten Modell wurden behoben.]]></de>
 
-        <fr><![CDATA[Des rouleaux pour enlever les champs et rendre votre ferme propre, précise et facile à utiliser.
+        <fr><![CDATA[Des rouleaux pour enlever les champs et rendre votre ferme propre, ils peuvent également être utilisés pour enlever la neige.
+Fixateur 3 points précis et facile à utiliser. Ils sont également télécommandés si vous devez les déplacer sans tracteur.
 
 Rouleau De Terrain S:
 Prix: 4.900€
-Taille: 3 x 1.5m
+Taille: 3 x 1.5 mètres.
 Poids: 1580kg
-Largeur de travail: 3m
+Largeur de travail: 3 mètres.
 Vitesse de travail: 17 km/h
-Puissance requise: 40 ch
+Puissance requise: 40 ch+
 
 Rouleau De Terrain M:
 Prix: 6.900€
-Taille: 4 x 1.5m
+Taille: 4 x 1.5 mètres.
 Poids: 1980kg
-Largeur de travail: 4m
+Largeur de travail: 4 mètres.
 Vitesse de travail: 17 km/h
-Puissance requise: 50 ch
+Puissance requise: 50 ch+
 
 Rouleau De Terrain L:
 Prix: 8.900€
-Taille: 6 x 1.5m
+Taille: 6 x 1.5 mètres.
 Poids: 2580kg
-Largeur de travail: 6m
+Largeur de travail: 6 mètres.
 Vitesse de travail: 17 km/h
-Puissance requise: 60 ch
+Puissance requise: 60 ch+
 
 - Supporte "Seasons" et "Courseplay Six".
 
 Changer le journal 1.0.0.0:
 - Option 6m ajoutée
-- Changé en un seul article avec des options de taille
-- Ajout de l10n pour les noms ++ et de quelques choix de langues supplémentaires
+- Changé en un seul élément avec des options de taille
+- Ajout de l10n pour les noms ++
 Changer le journal 1.5.0.0:
-- Mise à jour du mod avec plus de langues.]]></fr>
-        <es><![CDATA[Rodillos para eliminar campos y hacer que su granja sea un atacante de 3 puntos limpio, preciso y fácil de usar.
+- Mise à jour du mod avec plus de langues.
+Changer le journal 2.0.0.0:
+- Création d'un nouvel objet 3D, et mise en modèle séparé pour que l'ancien soit toujours disponible.
+- Beaucoup de nouveaux éléments de conception ajoutés.
+- Lumières et panneaux d'avertissement ajoutés.
+- Création de nombreuses options de configuration.
+- Ajout de la traduction italienne.
+- Nouveaux tambours et avec choix de couleur séparé.
+- Nouvelles photos de magasin et icône de mod.
+- Correction de quelques UV mal placés sur l'ancien modèle.]]></fr>
+        <es><![CDATA[Rodillos para quitar campos y limpiar su granja, también se pueden usar para quitar nieve.
+Atacante de 3 puntos preciso y fácil de usar. También están controlados a distancia, si alguna vez necesita moverlos sin un tractor.
 
 Rodillo de campo S:
 Precio: 4.900 €
-Tamaño: 3 x 1.5m
+Tamaño: 3 x 1.5 metros.
 Peso: 1580kg.
-Ancho de trabajo: 3m
+Ancho de trabajo: 3 metros.
 Max. velocidad de trabajo: 17 kph
-Potencia requerida: 40 hp
+Potencia requerida: 40 hp+
 
 Rodillo de campo M:
 Precio: 6.900 €
-Tamaño: 4 x 1,5 m
+Tamaño: 4 x 1,5 metros.
 Peso: 1980kg.
-Ancho de trabajo: 4m
+Ancho de trabajo: 4 metros.
 Max. velocidad de trabajo: 17 kph
-Potencia requerida: 50 hp
+Potencia requerida: 50 hp+
 
 Rodillo de campo L:
 Precio: 8.900 €
-Tamaño: 6 x 1,5 m
+Tamaño: 6 x 1,5 metros.
 Peso: 2580kg.
-Anchura de trabajo: 6m
+Anchura de trabajo: 6 metros.
 Max. velocidad de trabajo: 17 kph
-Potencia requerida: 60 hp
+Potencia requerida: 60 hp+
 
 - Admite "Seasons" y "Courseplay Six".
 
 Registro de cambios 1.0.0.0:
-- Versión inicial.
+- Opción agregada de 6 m
+- Lo cambié a un solo elemento con opciones de tamaño
+- Se agregó l10n para nombres ++
 Registro de cambios 1.5.0.0:
-- Actualizado el mod con más idiomas.]]></es>
-        <ru><![CDATA[Ролики для уборки полей и придания вашей ферме чистоты, точности и простоты в использовании.
+- Actualizado el mod con más idiomas.
+Registro de cambios 2.0.0.0:
+- Creé un nuevo objeto 3D y lo puse en un modelo separado para que el antiguo todavía esté disponible.
+- Se agregaron montones de cosas nuevas de diseño.
+- Se agregaron luces y señales de advertencia.
+- Se crearon muchas opciones de configuración.
+- Añadida traducción al italiano.
+- Nuevos tambores y con opción de color por separado.
+- Nuevas fotos de la tienda e ícono de mod.
+- Se corrigieron algunos UV mal ubicados en el modelo anterior.]]></es>
+        <ru><![CDATA[Ролики для уборки полей и очистки вашей фермы, их также можно использовать для уборки снега.
+Точный и простой в использовании 3-х точечный атакующий. Они также имеют дистанционное управление, если вам когда-либо понадобится перемещать их без трактора.
 
 Полевой каток S:
 Цена: 4.900 €
-Размер: 3 х 1,5 м
+Размер: 3 х 1,5 метров.
 Вес: 1580 кг
-Рабочая ширина: 3 м
+Рабочая ширина: 3 метров.
 Максимум. рабочая скорость: 17 км / ч
 Требуемая мощность: 40 л.с.
 
 Полевой каток М:
 Цена: 6,900 €
-Размер: 4 х 1,5 м
+Размер: 4 х 1,5 метров.
 Вес: 1980 кг
-Рабочая ширина: 4 м
+Рабочая ширина: 4 метров.
 Максимум. рабочая скорость: 17 км / ч
 Требуемая мощность: 50 л.с.
 
 Полевой каток L:
 Цена: 8,900 €
-Размер: 6 х 1,5 м
+Размер: 6 х 1,5 метров.
 Вес: 2580 кг
-Рабочая ширина: 6 м
+Рабочая ширина: 6 метров.
 Максимум. рабочая скорость: 17 км / ч
 Требуемая мощность: 60 л.с.
 
 - Поддерживает «Seasons» и «Courseplay Six».
 
 Изменения 1.0.0.0:
-- Первый выпуск.
+- Добавлена опция 6м
+- Поменял его на один элемент с параметрами размера
+- Добавлен l10n для имен ++
 Изменения 1.5.0.0:
-- Обновлен мод с большим количеством языков.]]></ru>
-        <pl><![CDATA[Rolki do usuwania pól i czyszczenia farmy, dokładne i łatwe w obsłudze 3-punktowy zaczep.
+- Обновлен мод с большим количеством языков.
+Изменения 2.0.0.0:
+- Создал новый 3D-объект и поместил его в отдельную модель, чтобы старый был по-прежнему доступен.
+- Добавлено множество новых дизайнерских вещей.
+- Добавлены огни и предупреждающие знаки.
+- Создано множество вариантов конфигурации.
+- Добавлен итальянский перевод.
+- Новые барабаны и с отдельным выбором цвета.
+- Новый магазин фото и иконка мода.
+- Исправлено несколько неуместных UV на старой модели.]]></ru>
+        <pl><![CDATA[Wałki do usuwania pól i czyszczenia farmy mogą być również używane do usuwania śniegu.
+Dokładny i łatwy w obsłudze 3-punktowy zaczep. Są również zdalnie sterowane, jeśli kiedykolwiek chcesz je przenieść bez ciągnika.
 
 Wałek polowy S:
 Cena: 4.900 €
-Rozmiar: 3 x 1,5 m
+Rozmiar: 3 x 1,5 metrów.
 Waga: 1580 kg
-Szerokość robocza: 3 m
+Szerokość robocza: 3 metrów.
 Max. prędkość robocza: 17 km / h
-Wymagana moc: 40 KM
+Wymagana moc: 40 KM+
 
 Wałek polowy M:
 Cena: 6.900 €
-Rozmiar: 4 x 1,5 m
+Rozmiar: 4 x 1,5 metrów.
 Waga: 1980 kg
-Szerokość robocza: 4 m
+Szerokość robocza: 4 metrów.
 Max. prędkość robocza: 17 km / h
-Wymagana moc: 50 KM
+Wymagana moc: 50 KM+
 
 Wałek polowy L:
 Cena: 8.900 €
-Rozmiar: 6 x 1,5 m
+Rozmiar: 6 x 1,5 metrów.
 Waga: 2580 kg
-Szerokość robocza: 6 m
+Szerokość robocza: 6 metrów.
 Max. prędkość robocza: 17 km / h
-Wymagana moc: 60 KM
+Wymagana moc: 60 KM+
 
 - Obsługuje „Seasons” i „Courseplay Six”.
 
-Lista zmian 1.0.0.0:
-- Pierwsze wydanie.
-Lista zmian 1.5.0.0:
-- Zaktualizowałem mod z większą liczbą języków.]]></pl>
+Dziennik zmian 1.0.0.0:
+- Dodano opcję 6m
+- Zmieniłem go na pojedynczy element z opcjami rozmiaru
+- Dodano l10n dla nazw ++
+Dziennik zmian 1.5.0.0:
+- Zaktualizowano mod o więcej języków.
+Dziennik zmian 2.0.0.0:
+- Utworzono nowy obiekt 3D i umieścił go w osobnym modelu, aby stary był nadal dostępny.
+- Dodano mnóstwo nowych rzeczy do projektowania.
+- Dodano światła i znaki ostrzegawcze.
+- Utworzono mnóstwo opcji konfiguracji.
+- Dodano tłumaczenie na włoski.
+- Nowe bębny i osobny wybór kolorów.
+- Nowe zdjęcia ze sklepu i ikona mod.
+- Naprawiono kilka źle ustawionych promieni UV na starym modelu.]]></pl>
+        <it><![CDATA[Rulli per la rimozione dei campi e per la pulizia della tua fattoria, possono anche essere utilizzati per rimuovere la neve.
+Attacher a 3 punti preciso e facile da usare. Sono anche telecomandati, se mai hai bisogno di spostarli senza un trattore.
 
-</description>
-    <iconFilename>fs19_EDGERollerPackicon.dds</iconFilename>
+--Informazioni tecniche--
+Field Roller S:
+Prezzo: 4.900 €
+Dimensioni: 3 x 1,5 metri.
+Peso: 1580 kg
+Larghezza di lavoro: 3 metri.
+Max. velocità di lavoro: 17 km / h
+Potenza richiesta: 40 CV +
+
+Field Roller M:
+Prezzo: 6.900 €
+Dimensioni: 4 x 1,5 metri.
+Peso: 1980 kg
+Larghezza di lavoro: 4 metri.
+Max. velocità di lavoro: 17 km / h
+Potenza richiesta: 50 CV +
+
+Field Roller L:
+Prezzo: 8.900 €
+Dimensioni: 6 x 1,5 metri.
+Peso: 2580 kg
+Larghezza di lavoro: 6 metri.
+Max. velocità di lavoro: 17 km / h
+Potenza richiesta: 60 CV +
+
+- Supporta "Seasons" e "Courseplay Six".
+
+Elenco modifiche 1.0.0.0:
+- Aggiunta opzione 6m
+- Modificato in un singolo articolo con opzioni di dimensioni
+- Aggiunto l10n per i nomi ++
+Elenco modifiche 1.5.0.0:
+- Aggiornato il mod con più lingue.
+Log delle modifiche 2.0.0.0:
+- Creato un nuovo oggetto 3D e inseriscilo in un modello separato in modo che il vecchio sia ancora disponibile.
+- Aggiunti molti nuovi elementi di design.
+- Aggiunti luci e segnali di avvertimento.
+- Creato un sacco di opzioni di configurazione.
+- Aggiunta la traduzione italiana.
+- Nuovi tamburi e con scelta del colore separata.
+- Nuove foto dello store e icona mod.
+- Risolti alcuni UV fuori posto sul vecchio modello.]]></it>
+    </description>
+    <iconFilename>EDGERollerPack_icon.dds</iconFilename>
     <multiplayer supported="true"/>
     <storeItems>
         <storeItem xmlFilename="EDGE_Roller/EDGE_Roller.xml"/>
+        <storeItem xmlFilename="EDGE_Roller/EDGE_ProRoller.xml"/>
     </storeItems>
-	<l10n>
-		<text name="typeDesc_EDGEroller">
-			<en>Rollers can remove fields as well as cleaning an area for wheel tracs</en>
-			<de>Walzen können Felder entfernen und einen Bereich für Radspuren reinigen</de>
-			<fr>Les rouleaux peuvent enlever les champs et nettoyer une zone pour les tracs de roues</fr>
-            <es>Los rodillos pueden eliminar campos, así como limpiar un área para los tracs de ruedas</es>
-            <ru>Ролики могут удалить поля, а также очистить область для колесных дорожек</ru>
-            <pl>Wałki mogą usuwać pola, a także czyścić obszar śladów kół</pl>
+    <vehicleTypes>
+        <type name="EDGE_roller" parent="roller" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="motorized"/>
+            <specialization name="enterable"/>
+            <specialization name="drivable"/>
+            <specialization name="honk"/>
+            <specialization name="fillUnit"/>
+        </type>
+    </vehicleTypes>
+	<l10n filenamePrefix="modDesc/modDesc_l10n">
+		<text name="config_drumColor">
+			<en>Drum color</en>
+			<de>Trommelfarbe</de>
+			<fr>Couleur du tambour</fr>
+            <es>Color del tambor</es>
+            <ru>Цвет барабана</ru>
+            <pl>Kolor bębna</pl>
+            <it>Colore del tamburo</it>
 		</text>
-		<text name="shopItem_EDGEroller_Store">
+		<text name="function_EDGEroller">
+			<en>Rollers can remove fields as well as cleaning an area for wheel tracks, they can also be used to remove snow.</en>
+			<de>Walzen können Felder entfernen und einen Bereich für Radspuren reinigen, Sie können auch zum Entfernen von Schnee verwendet werden.</de>
+			<fr>Les rouleaux peuvent enlever les champs et nettoyer une zone pour les tracs de roues, ils peuvent également être utilisés pour enlever la neige.</fr>
+            <es>Los rodillos pueden eliminar campos, así como limpiar un área para los tracs de ruedas, También se pueden utilizar para quitar la nieve.</es>
+            <ru>Ролики могут удалить поля, а также очистить область для колесных дорожек, они также могут быть использованы для удаления снега.</ru>
+            <pl>Wałki mogą usuwać pola, a także czyścić obszar śladów kół, mogą być również używane do usuwania śniegu.</pl>
+            <it>I rulli possono rimuovere i campi e pulire un'area per le piste, possono anche essere usati per rimuovere la neve.</it>
+		</text>
+		<text name="shopItem_EDGEroller">
 			<en>Field Roller</en>
 			<de>Feldwalze</de>
 			<fr>Rouleau De Terrain</fr>
             <es>Rodillo de campo</es>
             <ru>Полевой каток</ru>
             <pl>Wałek polowy</pl>
+            <it>Rullo Di Campo</it>
+		</text>
+		<text name="shopItem_EDGErollerPro">
+			<en>Field Roller Pro</en>
+			<de>Feldwalze Pro</de>
+			<fr>Rouleau De Terrain Pro</fr>
+            <es>Rodillo de campo Pro</es>
+            <ru>Полевой каток Pro</ru>
+            <pl>Wałek polowy Pro</pl>
+            <it>Rullo Di Campo Pro</it>
 		</text>
 		<text name="Config_Size">
 			<en>Size</en>
 			<de>Größe</de>
 			<fr>Taille</fr>
-            <es>tamaño</es>
-            <ru>размер</ru>
-            <pl>rozmiar</pl>
+            <es>Tamaño</es>
+            <ru>Pазмер</ru>
+            <pl>Rozmiar</pl>
+            <it>Dimensione</it>
 		</text>
 		<text name="Config_4M">
 			<en>4 Meters</en>
 			<de>4 Meter</de>
 			<fr>4 Mètres</fr>
-            <es>4 metros</es>
-            <ru>4 метра</ru>
-            <pl>3 metry</pl>
+            <es>4 Metros</es>
+            <ru>4 Mетра</ru>
+            <pl>4 Metry</pl>
+            <it>4 Metri</it>
 		</text>
 		<text name="Config_3M">
 			<en>3 Meters</en>
 			<de>3 Meter</de>
 			<fr>3 Mètres</fr>
-            <es>3 metros</es>
-            <ru>3 метра</ru>
-            <pl>3 metry</pl>
+            <es>3 Metros</es>
+            <ru>3 Mетра</ru>
+            <pl>3 Metry</pl>
+            <it>3 Metri</it>
 		</text>
 		<text name="Config_6M">
 			<en>6 Meters</en>
 			<de>6 Meter</de>
 			<fr>6 Mètres</fr>
-            <es>6 metros</es>
-            <ru>6 метра</ru>
-            <pl>6 metry</pl>
+            <es>6 Metros</es>
+            <ru>6 Mетра</ru>
+            <pl>6 Metry</pl>
+            <it>6 Metri</it>
 		</text>
 	</l10n>
 	<brands>
-		<brand name="EDGE" title="EDGE Industries" image="EDGE_Brand_Logo.dds"/>
+		<brand name="EDGE" title="EDGE Industries" image="store/EDGE_Brand_Logo.dds"/>
 	</brands>
+    <credits><![CDATA[
+## Contributors
+- Castiga
+## Designers
+- Castiga, GIANTS Software]]></credits>
 </modDesc>
