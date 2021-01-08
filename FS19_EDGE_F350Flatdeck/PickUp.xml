@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<vehicle type="trucks">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+    <filename>PickUp.i3d</filename>
+    <size width="2.5" length="7.5"/>
+
+    <wheels autoRotateBackSpeed="1.5">
+        <wheel rotSpeed="1" repr="0>0|1|0" driveNode="0>0|1|0" radius="0.5" restLoad="08.8" forcePointRatio="0.2" initialCompression="50" suspTravel="0.2" spring="30" damper="20" hasTireTracks="true" tireTrackAtlasIndex="2" frictionScale="2" mass="0.4" maxLatStiffnessLoad="3" width="0.42" hasParticles="true"/>
+        <wheel rotSpeed="1" repr="0>0|2|0" driveNode="0>0|2|0" radius="0.5" restLoad="08.8" forcePointRatio="0.2" initialCompression="50" suspTravel="0.2" spring="30" damper="20" hasTireTracks="true" tireTrackAtlasIndex="2" frictionScale="2" mass="0.4" maxLatStiffnessLoad="3" width="0.42" hasParticles="true"/>
+        <wheel rotSpeed="0" repr="0>0|3" radius="0.5" restLoad="16.0" forcePointRatio="0.3" initialCompression="50" suspTravel="0.1" spring="85" damper="65" hasTireTracks="true" tireTrackAtlasIndex="2" frictionScale="2" mass="0.8" maxLatStiffnessLoad="3" width="0.84" hasParticles="true"/>
+        <wheel rotSpeed="0" repr="0>0|4" radius="0.5" restLoad="16.0" forcePointRatio="0.3" initialCompression="50" suspTravel="0.1" spring="85" damper="65" hasTireTracks="true" tireTrackAtlasIndex="2" frictionScale="2" mass="0.8" maxLatStiffnessLoad="3" width="0.84" hasParticles="true"/>
+    </wheels>
+
+    <ackermannSteering rotSpeed="80" rotMax="47" rotCenterWheel1="2" rotCenterWheel2="3"/>
+
+    <differentials>
+        <differential torqueRatio="0.5" maxSpeedRatio="1.3" wheelIndex1="0" wheelIndex2="1"/>
+        <!-- front left-right -->
+        <differential torqueRatio="0.5" maxSpeedRatio="1.4" wheelIndex1="2" wheelIndex2="3"/>
+        <!-- back left-right -->
+        <differential torqueRatio="0.5" maxSpeedRatio="1.2" differentialIndex1="0" differentialIndex2="1"/>
+        <!-- front-back -->
+    </differentials>
+
+    <motor torqueScale="1.36" minRpm="600" maxRpm="3800" maxForwardSpeed="141" maxBackwardSpeed="20" brakeForce="8" lowBrakeForceScale="0.22" lowBrakeForceSpeedLimit="1" minForwardGearRatio="10.2" maxForwardGearRatio="130" minBackwardGearRatio="50" maxBackwardGearRatio="130">
+        <torque normRpm="0.45" torque="0.5"/>
+        <torque normRpm="0.5" torque="0.6"/>
+        <torque normRpm="0.59" torque="0.7"/>
+        <torque normRpm="0.72" torque="1"/>
+        <torque normRpm="0.86" torque="0.88"/>
+        <torque normRpm="1" torque="0.7"/>
+    </motor>
+
+    <indoorHud>
+        <speed animName="speedDisplay"/>
+        <rpm animName="rpmDisplay"/>
+        <fuel animName="fuelDisplay"/>
+    </indoorHud>
+
+    <animations>
+        <animation name="fuelDisplay">
+            <part node="0>0|0|29|1|0" startTime="0" endTime="1" startRot="0 -58.74 0" endRot="0 -161.05 0"/>
+        </animation>
+        <animation name="rpmDisplay">
+            <part node="0>0|0|29|0|0" startTime="0" endTime="1" startRot="0 0 0" endRot="0 -154 0"/>
+        </animation>
+        <animation name="speedDisplay">
+            <part node="0>0|0|29|2|0" startTime="0" endTime="1" startRot="0 0 0" endRot="0 -250 0"/>
+        </animation>
+    </animations>
+
+    <fuelCapacity>100</fuelCapacity>
+   
+    <cameras count="2">
+        <camera1 index="0>0|5|0|0" rotatable="true" rotateNode="0>0|5|0" limit="true" useWorldXZRotation="true" rotMinX="-1.4" rotMaxX="1" transMin="4" transMax="35">
+            <raycastNode index="0>0|5|2"/>
+            <raycastNode index="0>0|5|3"/>
+        </camera1>
+        <camera2 index="0>0|5|1" rotatable="true" limit="true" rotMinX="-1.1" rotMaxX="0.4" transMin="0" transMax="0" useMirror="true" isInside="true"/>
+    </cameras>
+
+    <lights>
+        <!--to be adjusted manually-->
+        <low>
+            <light decoration="0>0|13|0" lightTypes="0"/>
+            <light decoration="0>0|13|4" lightTypes="0"/>
+            <!-- <light decoration="0>1|8|2|0" lightTypes="0"/> -->
+        </low>
+        <!--to be adjusted manually-->
+        <high>
+            <light decoration="0>0|13|0" lightTypes="0"/>
+            <light decoration="0>0|13|4" lightTypes="0"/>
+                <light decoration="0>1|8|2|0" lightTypes="0"/>
+        </high>
+        <!--to be adjusted manually-->
+        <states>0 1 2</states>
+    </lights>
+    <brakeLights>
+        <brakeLight decoration="0>1|8|4"/>
+    </brakeLights>
+    <turnLights>
+        <turnLightLeft decoration="0>0|13|2|0"/>  
+        <turnLightLeft decoration="0>1|8|3|0"/>
+        <turnLightRight decoration="0>0|13|2|1"/> 
+        <turnLightRight decoration="0>1|8|3|1"/>
+    </turnLights>
+    <reverseLights>
+        <reverseLight decoration="0>1|8|6|0"/>
+    </reverseLights>
+                     <tensionBelts linkNode="0>1|3" jointNode="0>" width="0.075" maxEdgeLength="0.1" geometryBias="0.01" ratchetPosition="0.2" defaultOffset="0.1" defaultOffsetSide="0.1" defaultHeight="5" >
+        <tensionBelt startNode="0>1|3|0" endNode="0>1|3|0|0" offsetLeft="1.3" />
+        <tensionBelt startNode="0>1|3|1" endNode="0>1|3|1|0" />
+        <tensionBelt startNode="0>1|3|2" endNode="0>1|3|2|0" />
+        <tensionBelt startNode="0>1|3|3" endNode="0>1|3|3|0"offsetRight="1.2" />
+    </tensionBelts>
+    <mirrors>
+        <mirror index="0>0|9|0|1"/>
+        <mirror index="0>0|9|1|1"/>
+        <mirror index="0>0|9|2|1"/>
+    </mirrors>
+
+    <enterReferenceNode index="0>"/>
+    <exitPoint index="0>0|10"/>
+    <steering index="0>0|6|0" indoorRotation="270" outdoorRotation="70"/>
+    <characterNode index="0>0|8|0" cameraMinDistance="2.0" filename="$dataS2/character/player/player.xml" spineRotation="180 0 90">
+        <target ikChain="rightFoot" targetNode="0>0|8|1" setDirty="true"/>
+        <target ikChain="leftFoot" targetNode="0>0|8|2" setDirty="true"/>
+        <target ikChain="rightArm" targetNode="0>0|6|0|0" setDirty="true"/>
+        <target ikChain="leftArm" targetNode="0>0|6|0|1" setDirty="true"/>
+    </characterNode>
+
+    <ai>
+        <trafficCollisionTrigger index="0>0|7"/>
+    </ai>
+
+    <attachSound file="$data/sounds/attach.wav" pitchOffset="1"/>
+    <motorStartSound file="Sounds/f250_start.wav" volume="1" pitchOffset="1"/>
+    <motorSound file="Sounds/f250_idle.wav" volume="1" pitchOffset="1" pitchScale="0.017" pitchMax="1.75"/>
+    <motorSoundRun file="Sounds/f250_run.wav" volume="1" pitchOffset="0.65" pitchScale="0.016" pitchMax="1.75"/>
+    <motorStopSound file="Sounds/f250_stop.wav" volume="1" pitchOffset="0.9"/>
+    <honkSound file="Sounds/police_us.wav" volume="1" innerRadius="10" radius="70"/>
+
+    <washable dirtDuration="50" washDuration="1" workMultiplier="4"/>
+
+      <threshingStartParticleSystem node="0>3" file="rollcoal/exhaust.i3d" startOffset="1"/>
+    
+    
+    <newExhaustEffects maxMotorLoad="0.1">
+        <particle node="0>3" position="0 0 0" rotation="35 0 0" file="rollcoal/exhaust.i3d" />
+                
+    </newExhaustEffects>
+    
+    
+    <attacherJoints>
+        <attacherJoint index="0>0|14|0" jointType="trailer" allowsJointLimitMovement="false" allowsLowering="false" lowerRotLimit="10 75 75">
+            <schema position="1 0" rotation="0" invertX="false"/>
+        </attacherJoint>
+        <attacherJoint index="0>0|14|0" jointType="trailerLow" allowsJointLimitMovement="false" allowsLowering="false" lowerRotLimit="10 75 75">
+            <schema position="1 0" rotation="0" invertX="false"/>
+        </attacherJoint>
+          <attacherJoint index="0>1|9" jointType="semitrailer" allowsJointLimitMovement="false" allowsLowering="false" lowerRotLimit="12 175 12" enableCollision="true">
+               <schema position="1 0" rotation="0" invertX="false"/>
+        </attacherJoint>
+         
+    </attacherJoints>
+
+    <components count="1">
+        <component1 centerOfMass="-0.5 0 0.5" solverIterationCount="6"/>
+    </components>
+
+    <schemaOverlay file="$dataS2/menu/schemas/vehicleSchema.png" fileSelected="$dataS2/menu/schemas/vehicleSchemaSelected.png" width="0.5" height="0.5" attacherJointPosition="0.5 0"/>
+
+    <storeData>
+        <name>
+            <en>Ford Cheif Truck</en>
+        </name>
+        <functions>
+            <function>$l10n_function_car</function>
+        </functions>
+        <specs>
+            <power>304</power>
+             <maxSpeed>140</maxSpeed>
+        </specs>
+        <image>store.dds</image>
+        <price>48000</price>
+        <dailyUpkeep>50</dailyUpkeep>
+        <lifetime>600</lifetime>
+        <rotation>0</rotation>
+        <brand>FORD</brand>
+        <category>cars</category>
+    </storeData>
+</vehicle>

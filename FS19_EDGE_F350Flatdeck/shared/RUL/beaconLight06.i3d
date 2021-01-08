@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="beaconLight06" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="7.0.2"/>
+  </Asset>
+
+  <Files>
+    <File fileId="8" filename="beaconGlassShader.xml" relativePath="true"/>
+    <File fileId="5" filename="beaconLightAlpha_diffuse.png" relativePath="true"/>
+    <File fileId="6" filename="beaconLightAlpha_normal.png" relativePath="true"/>
+    <File fileId="3" filename="beaconLightCorona_diffuse.png" relativePath="true"/>
+    <File fileId="1" filename="beaconLight_diffuse.png" relativePath="true"/>
+    <File fileId="2" filename="beaconLight_normal.png" relativePath="true"/>
+    <File fileId="4" filename="$data/shaders/emissiveLightsShader.xml" relativePath="true"/>
+    <File fileId="7" filename="yellow_cube.dds" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="beaconLightCorona_mat" materialId="7" ambientColor="1 1 1" alphaBlending="true" customShaderId="4" customShaderVariation="BILLBOARD_BEACON">
+      <Emissivemap fileId="3"/>
+      <CustomParameter name="blinkOffset" value="0 0 0 0"/>
+    </Material>
+    <Material name="beaconLightAlpha_mat" materialId="9" ambientColor="1 1 1" cosPower="40" specularColor="1 1 1" alphaBlending="true" customShaderId="8">
+      <Texture fileId="5"/>
+      <Normalmap fileId="6"/>
+      <Reflectionmap fileId="7" wrap="false" lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="cube" scaling="1" refractiveIndex="0.25" bumpScale="0.1" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
+    </Material>
+    <Material name="beaconLight_mat" materialId="10" ambientColor="1 1 1" cosPower="200" specularColor="0.811963 0.811963 0.811963">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="beaconLight06.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="beaconLight06" clipDistance="80" nodeId="16" materialIds="10" castsShadows="true" receiveShadows="true">
+      <Shape shapeId="2" name="rotator" clipDistance="80" nodeId="17" materialIds="10" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="3" name="coronas" translation="3.8147e-08 0.0575966 0.0275369" visibility="false" clipDistance="80" nodeId="18" materialIds="7" castsShadows="true" receiveShadows="true">
+          <Light name="realLight" translation="-5.92923e-23 0.133242 0.0354764" rotation="151.663 0 0" clipDistance="75" nodeId="19" type="spot" color="1 0.423083 0" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="12" coneAngle="100" dropOff="5"/>
+        </Shape>
+      </Shape>
+      <Shape shapeId="4" name="glass" translation="-3.51212e-09 0 1.95118e-10" clipDistance="80" nodeId="20" materialIds="9" castsShadows="true" receiveShadows="true"/>
+    </Shape>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="16">
+      <Attribute name="decoration" type="string" value="0|0"/>
+      <Attribute name="realLight" type="string" value="0|0|0"/>
+      <Attribute name="rotation" type="string" value="0"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

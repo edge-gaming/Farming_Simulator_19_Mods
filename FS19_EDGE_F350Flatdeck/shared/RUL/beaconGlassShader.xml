@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomShader version="3">
+    <Parameters>
+        </Parameters>
+    <LodLevel startDistance="0">
+        <CodeInjections>
+            <CodeInjection position="GET_REFLECTION_COLOR_FS"><![CDATA[
+{
+        float3 res = oColor;
+#if defined(REFLECTION_MAP_2D) || defined(REFLECTION_MAP_CUBE)
+        res = getReflectionColorTex(In, globals, normal, tangentSpaceNormal, viewDir)*reflectionFactor;
+#if defined(GLOSS_MAP)
+        #if defined(USE_ENVMAP_GLOSS_COLOR_MODULATION)
+                res *= glossColor;
+        #endif
+#endif
+        float envScale = 0;
+        #if (NUM_DIRECTIONAL_LIGHTS > 0)
+                envScale = bufferFetch(clusterLightsBuffer, 1).y;
+        #endif
+        res = oColor.xyz + res*envScale;
+#endif
+        return res;
+}
+]]></CodeInjection>
+            <CodeInjection position="NUM_TEXCOORDS"><![CDATA[
+#if GPU_PROFILE < GPU_PROFILE_MEDIUM
+        #if defined(REFLECTION_MAP_CUBE)
+        #undef REFLECTION_MAP_CUBE
+        #endif
+#endif
+]]></CodeInjection>
+        </CodeInjections>
+    </LodLevel>
+    <LodLevel startDistance="200">
+        <Parameters>
+                </Parameters>
+        <CodeInjections>
+            <CodeInjection position="NUM_TEXCOORDS"><![CDATA[
+#if defined(REFLECTION_MAP_CUBE)
+#undef REFLECTION_MAP_CUBE
+#endif
+]]></CodeInjection>
+        </CodeInjections>
+    </LodLevel>
+</CustomShader>

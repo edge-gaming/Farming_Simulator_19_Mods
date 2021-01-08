@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="2006 dodge 3500" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="7.1.0"/>
+    </Asset>
+    <Files>
+        <File fileId="1" filename="dodge/chrome.dds" relativePath="true"/>
+        <File fileId="2" filename="dodge/cubemap.dds" relativePath="true"/>
+    </Files>
+    <Materials>
+        <Material name="Color_007" materialId="36" diffuseColor="0.282353 0.282353 0.282353 1" ambientColor="1 1 1" cosPower="50" specularColor="1 1 1"/>
+        <Material name="Color_002" materialId="11" ambientColor="1 1 1" cosPower="50" specularColor="1 1 1">
+            <Texture fileId="1"/>
+            <Reflectionmap fileId="2" wrap="false" lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="cube" scaling="1" refractiveIndex="10" bumpScale="0.1" shapesObjectMask="2147483647" lightsObjectMask="4294967295"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="pipe.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <Shape shapeId="1" name="SketchUp.1082" translation="3.90589 0.517 -0.165556" rotation="9.48309 41.0504 9.62004" scale="0.0254 0.0254 0.0254" nodeId="1322" materialIds="11,36" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="Exsaust Particles" translation="-0.832614 0.392753 -2.3689" rotation="75.8234 85.9817 164.519" scale="1.2 1.3 1.3" nodeId="2439"/>
+    </Scene>
+</i3D>

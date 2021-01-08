@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="americanTruckOneAxle" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="7.0.5"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="tag.dds" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="Default" materialId="13" diffuseColor="1 1 1 0" ambientColor="1 1 1">
+    </Material>
+    <Material name="adStrip" materialId="32" ambientColor="1 1 1" cosPower="50" specularColor="0.165 0.165 0.165" alphaBlending="true">
+      <Texture fileId="2"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="plate.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="adStrip" translation="-0.00209904 1.21459 -3.50633" rotation="-178.834 0.0292501 -179.999" scale="0.63 0.66 0.6" nodeId="210" materialIds="13,32"/>
+  </Scene>
+
+</i3D>

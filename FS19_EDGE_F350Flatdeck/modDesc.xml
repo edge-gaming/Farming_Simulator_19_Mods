@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="43">
+    <author>Good Old Boys Modding, Dylan Footitt, Richwoodrocket</author>
+    <version>2.0</version>
+    <title>
+        <en>Ford Cheif Truck</en>
+        <de>Ford Cheif Truck</de>
+    </title>
+    <description>
+        <en>Ford Cheif Truck</en>
+        <de>Ford Cheif Truck</de>
+    </description>
+    <iconFilename>store.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <specializations>
+        <specialization name="noSmokeNoFun" className="noSmokeNoFun" filename="rollcoal/noSmokeNoFun.lua"/>
+        <specialization name="newExhaustEffects" className="newExhaustEffects" filename="rollcoal/newExhaustEffects.lua"/>
+    </specializations>
+    <vehicleTypes>
+        <type name="trucks" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="attacherJoints"/>
+            <specialization name="frontloaderAttacher"/>
+            <specialization name="lights"/>
+            <specialization name="animatedVehicle"/>
+            <specialization name="speedRotatingParts"/>
+            <specialization name="motorized"/>
+            <specialization name="steerable"/>
+            <specialization name="drivable"/>
+            <specialization name="cylindered"/>
+            <specialization name="aiVehicle"/>
+            <specialization name="bunkerSiloCompacter"/>
+            <specialization name="honk"/>
+            <specialization name="washable"/>
+            <specialization name="mountable"/>
+            <specialization name="wheelRotations"/>
+            <specialization name="tensionBelts"/>
+            <specialization name="noSmokeNoFun"/>
+            <specialization name="newExhaustEffects"/>
+        </type>
+    </vehicleTypes>
+    <storeItems>
+        <storeItem xmlFilename="PickUp.xml" rootNode="vehicle"/>
+    </storeItems>
+    <brands>
+        <brand name="FORD" title="Ford" image="brand.dds"/>
+    </brands>
+</modDesc>
