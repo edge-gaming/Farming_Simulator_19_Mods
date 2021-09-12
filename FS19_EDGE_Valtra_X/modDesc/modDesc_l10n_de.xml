@@ -19,16 +19,66 @@
         <text name="config_gridPained" 			text="Bemalte Spiegel & Gitter"/>
         <text name="config_gridonly" 			text="Gemaltes Gitter"/>
         <text name="typeDesc_XSeries" 			text="Traktoren mit Rückwärtsfahrt sind stärker und größer als die S-Serie"/>
+			<!--Colors-->
+        <text name="color_ITRUNNERMATTE" 		text="IT RUNNER MATTE"/>
+        <text name="color_EDGEGOLDMATTE" 		text="EDGE GOLD MATTE"/>
+        <text name="color_EDGESILVERMATTE" 		text="EDGE SILBER MATTE"/>
+        <text name="color_CASEIHMATTE" 			text="CASE IH MATTE"/>
+        <text name="color_NEWHOLLANDMATTE" 		text="NEW HOLLAND MATTE"/>
+        <text name="color_KRONEMATTE" 			text="KRONE MATTE"/>
+        <text name="color_YELLOWMATTE" 			text="ELEKTRISCHES GELB MATTE"/>
+        <text name="color_STARAMATTE" 			text="STARA MATTE"/>
+        <text name="color_LELYMATTE" 			text="LELY MATTE"/>
+        <text name="color_WHITEMATTE" 			text="GEISTER WEISS MATTE"/>
+        <text name="color_PURPLEMATTE" 			text="PERLEN LILA MATTE"/>
+        <text name="color_DARKBLUEMATTE" 		text="KÖNIGSBLAU MATTE"/>
+        <text name="color_JOHNDEEREMATTE" 		text="JOHN DEERE MATTE"/>
+        <text name="color_PINKMATTE" 			text="BARBIE ROSA MATTE"/>
+
+		<text name="color_ITRUNNERCHROME" 		text="IT RUNNER CHROM"/>
+        <text name="color_EDGEGOLDCHROME" 		text="EDGE GOLD CHROM"/>
+        <text name="color_EDGESILVERCHROME" 	text="EDGE SILBER CHROM"/>
+        <text name="color_CASEIHCHROME" 		text="CASE IH CHROM"/>
+        <text name="color_NEWHOLLANDCHROME" 	text="NEW HOLLAND CHROM"/>
+        <text name="color_KRONECHROME" 			text="KRONE CHROM"/>
+        <text name="color_YELLOWCHROME" 		text="ELEKTRISCHES GELB CHROM"/>
+        <text name="color_STARACHROME" 			text="STARA CHROM"/>
+        <text name="color_LELYCHROME" 			text="LELY CHROM"/>
+        <text name="color_WHITECHROME" 			text="GEISTER WEISS CHROM"/>
+        <text name="color_PURPLECHROME" 		text="PERLEN LILA CHROM"/>
+        <text name="color_DARKBLUECHROME" 		text="KÖNIGSBLAU CHROM"/>
+        <text name="color_JOHNDEERECHROME" 		text="JOHN DEERE CHROM"/>
+        <text name="color_PINKCHROME" 			text="BARBIE ROSA CHROM"/>
+
+		<text name="color_ITRUNNERMETALLIC" 	text="IT RUNNER METALLISCH"/>
+        <text name="color_EDGEGOLDMETALLIC" 	text="EDGE GOLD METALLISCH"/>
+        <text name="color_EDGESILVERMETALLIC" 	text="EDGE SILBER METALLISCH"/>
+        <text name="color_CASEIHMETALLIC" 		text="CASE IH METALLISCH"/>
+        <text name="color_NEWHOLLANDMETALLIC" 	text="NEW HOLLAND METALLISCH"/>
+        <text name="color_KRONEMETALLIC" 		text="KRONE METALLISCH"/>
+        <text name="color_YELLOWMETALLIC" 		text="ELEKTRISCHES GELB METALLISCH"/>
+        <text name="color_STARAMETALLIC" 		text="STARA METALLISCH"/>
+        <text name="color_LELYMETALLIC" 		text="LELY METALLISCH"/>
+        <text name="color_WHITEMETALLIC" 		text="GHOST METALLICO BIANCO"/>
+        <text name="color_PURPLEMETALLIC" 		text="PERLEN LILA METALLISCH"/>
+        <text name="color_DARKBLUEMETALLIC" 	text="KÖNIGSBLAU METALLISCH"/>
+        <text name="color_JOHNDEEREMETALLIC" 	text="JOHN DEERE METALLISCH"/>
+        <text name="color_PINKMETALLIC" 		text="BARBIE ROSA METALLISCH"/>
+
+		<text name="color_ITRUNNER" 			text="IT RUNNER"/>
         <text name="color_EDGEGOLD" 			text="EDGE GOLD"/>
         <text name="color_EDGESILVER" 			text="EDGE SILBER"/>
-        <text name="color_DARKGREY"				text="DUNKELGRAU"/>
-        <text name="color_ITRUNNER" 			text="IT RUNNER"/>
-        <text name="color_CHROME" 				text="CHROM"/>
-        <text name="color_SILVER" 				text="SILBER"/>
-        <text name="color_DARKBLUECHROME" 		text="DUNKELBLAU CHROM"/>
-        <text name="color_ORANGECHROME" 		text="ORANGE CHROM"/>
-        <text name="color_GREENCHROME" 			text="GRÜN CHROM"/>
-        <text name="color_BLUECHROME" 			text="BLAU CHROM"/>
-        <text name="color_REDCHROME" 			text="ROT CHROM"/>
+        <text name="color_RED" 					text="CRIMSON RUHM"/>
+        <text name="color_KOBALT" 				text="KOBALT"/>
+        <text name="color_GREEN" 				text="KELLY GRÜN"/>
+        <text name="color_YELLOW" 				text="ELEKTRISCHES GELB"/>
+        <text name="color_ORANGE" 				text="BLAZE ORANGE"/>
+        <text name="color_LELY" 				text="LELY"/>
+        <text name="color_KRONE" 				text="KRONE"/>
+        <text name="color_ALICEBLUE" 			text="ALICE BLAU"/>
+        <text name="color_PURPLE" 				text="PERLEN LILA"/>
+        <text name="color_DARKGREY"				text="RAUCHSCHWARZ"/>
+        <text name="color_NEWHOLLAND" 			text="NEW HOLLAND"/>
+        <text name="color_PINK" 				text="BARBIE ROSA"/>
 	</texts>
 </l10n>
